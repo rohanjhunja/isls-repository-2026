@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-058",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Ten years of three-dimensional science and its implementation in the secondary classroom: A scoping review",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-058",
+      "supporting_text": "Ten years of three-dimensional science and its implementation in the secondary classroom: A scoping review"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

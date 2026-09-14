@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0470",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Pilot Study, Case Study. **Key Findings & Entry Barrier Impact**: Data from screencasts and questionnaires revealed challenges in using computational tools to represent scientific concepts and suggested that static paper-pencil models may limit scaffolding for systems modeling.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0470",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Pilot Study, Case Study. **Key Findings & Entry Barrier Impact**: Data from screencasts and questionnaires revealed challenges in using computational tools to represent scientific concepts and suggested that static paper-pencil models may limit scaffolding for systems modeling."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

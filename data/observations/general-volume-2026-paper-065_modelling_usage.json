@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-065",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"To investigate how they engage with the tool, I created methods for capturing and analyzing process data from the environment, including a machine-learning approach for modeling programmi...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-065",
+      "supporting_text": "To investigate how they engage with the tool, I created methods for capturing and analyzing process data from the environment, including a machine-learning approach for modeling programmi..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-072",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"I employ design-based research to iteratively co-design data science and AI resources with educators and community partners, while developing mid-level theoretical constructs regarding AI literacy and learner\u2013AI collaboration.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-072",
+      "supporting_text": "I employ design-based research to iteratively co-design data science and AI resources with educators and community partners, while developing mid-level theoretical constructs regarding AI literacy and learner\u2013AI collaboration."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

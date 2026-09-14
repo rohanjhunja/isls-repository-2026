@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-070",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"In earlier project, I developed a movement-based simulation for pre-service mathematics teachers to experience and co-design embodied approaches to math learning (Sung & Nathan, 2024).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-070",
+      "supporting_text": "In earlier project, I developed a movement-based simulation for pre-service mathematics teachers to experience and co-design embodied approaches to math learning (Sung & Nathan, 2024)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

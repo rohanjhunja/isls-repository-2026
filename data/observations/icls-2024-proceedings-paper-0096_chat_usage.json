@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0096",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction to analyze systemic contradictions, tensions, and expansive learning cycles. Evidence: \"172) From the cultural-historical activity theory (CHAT) viewpoint, racial disproportionality in school discipline is a manifestation of historically accumulated and ongoing system...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0096",
+      "supporting_text": "172) From the cultural-historical activity theory (CHAT) viewpoint, racial disproportionality in school discipline is a manifestation of historically accumulated and ongoing systemic contradictions that are embedded in settler colonialism, institutional racism and ableism, and structural inequities."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

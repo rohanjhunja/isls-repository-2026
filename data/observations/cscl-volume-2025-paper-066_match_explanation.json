@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-066",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"...in discovery, combined with appropriate scaffolding from a knowledgeable adult, a higher level of engagement and better learning re...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-066",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"...in discovery, combined with appropriate scaffolding from a knowledgeable adult, a higher level of engagement and better learning re...\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

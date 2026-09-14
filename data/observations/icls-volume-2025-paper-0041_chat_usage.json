@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0041",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction to guide participatory design, tool mediation, and collaborative practices. Evidence: \"We utilized the Learning Lab (LL) methodology\u2014a formative intervention (Bal et al., 2016; 2018) grounded in Cultural Historical Activity Theory (CHAT) (Engestr\u00f6m, 1987; Vygotsky, 1...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0041",
+      "supporting_text": "We utilized the Learning Lab (LL) methodology\u2014a formative intervention (Bal et al., 2016; 2018) grounded in Cultural Historical Activity Theory (CHAT) (Engestr\u00f6m, 1987; Vygotsky, 1978) \u2014to expand inclusive education to incorporate students in policy collaborative design (co-design)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-031",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Qualitative Analysis. **Key Findings & Entry Barrier Impact**: This study highlights the role of the multi-layered model in scaffolding young learners to participate in authentic scientific practices, promoting collective epistemic agency and sustained knowledge advancement.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-031",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Qualitative Analysis. **Key Findings & Entry Barrier Impact**: This study highlights the role of the multi-layered model in scaffolding young learners to participate in authentic scientific practices, promoting collective epistemic agency and sustained knowledge advancement."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

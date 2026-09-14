@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0038",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Co-Designing a Real-Time Classroom Orchestration Tool to Support Teacher \u2013AI Complementarity.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0038",
+      "supporting_text": "Co-Designing a Real-Time Classroom Orchestration Tool to Support Teacher \u2013AI Complementarity."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

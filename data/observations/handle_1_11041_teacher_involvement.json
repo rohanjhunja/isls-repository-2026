@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11041",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers engaged in collaborative design partnerships as an authentic professional learning practice, co-creating pedagogical interventions while transforming instructional perspectives and disciplinary agency. **Evidence**: \"P-BPD activities sought to engage teachers with place-based data literacy to (a) develop their knowledge and capacity to facilitate data interactions between students and research garden sites, and (b) co-design CitSci protocols for the agriPV CitSci network.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11041",
+      "supporting_text": "P-BPD activities sought to engage teachers with place-based data literacy to (a) develop their knowledge and capacity to facilitate data interactions between students and research garden sites, and (b) co-design CitSci protocols for the agriPV CitSci network."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

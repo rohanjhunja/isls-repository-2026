@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6490",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The project involves the design of a PD structured around science teachers\u2019 co-designing, teaching, and reflecting on science lessons to learn to facilitate productive science talk in their classrooms.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6490",
+      "supporting_text": "The project involves the design of a PD structured around science teachers\u2019 co-designing, teaching, and reflecting on science lessons to learn to facilitate productive science talk in their classrooms."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

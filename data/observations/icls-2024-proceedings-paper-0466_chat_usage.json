@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0466",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction and theoretical framework to ground learning and artifact mediation. Evidence: \"To understand researcher and practitioner communities, we use third generation cultural-historical activity theory (CHAT) framework to create a system based on the findings from th...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0466",
+      "supporting_text": "To understand researcher and practitioner communities, we use third generation cultural-historical activity theory (CHAT) framework to create a system based on the findings from the pilot research (Engestr\u00f6m, 2020)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

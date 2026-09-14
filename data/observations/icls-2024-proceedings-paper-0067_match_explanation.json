@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0067",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"The study expands on the theoretical learning sciences scaffolding theory.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0067",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"The study expands on the theoretical learning sciences scaffolding theory.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

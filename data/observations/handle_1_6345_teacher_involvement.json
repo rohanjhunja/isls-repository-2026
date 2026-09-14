@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6345",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The present study takes a design-based research (DBR) approach to iteratively develop tools that enable embedded assessment in maker classrooms by working with teachers as co-designers (Roschelle & Penuel, 2006).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6345",
+      "supporting_text": "The present study takes a design-based research (DBR) approach to iteratively develop tools that enable embedded assessment in maker classrooms by working with teachers as co-designers (Roschelle & Penuel, 2006)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

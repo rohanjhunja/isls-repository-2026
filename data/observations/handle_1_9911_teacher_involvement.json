@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9911",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In this paper, our team explores our development of a collaborative design process that supports the goal of sharing and preserving knowledge between and within Indigenous communities and families. As Indigenous and non-Indigenous researchers, designers, and educators, we spec...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9911",
+      "supporting_text": "In this paper, our team explores our development of a collaborative design process that supports the goal of sharing and preserving knowledge between and within Indigenous communities and families. As Indigenous and non-Indigenous researchers, designers, and educators, we spec..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

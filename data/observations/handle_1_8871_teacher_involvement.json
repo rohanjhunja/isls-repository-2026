@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8871",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Multi-Device Ecosystem Design The digital sky simulation software utilized in this analysis was the product of multiple co-design cycles between the research team and collaborating astronomy educators.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8871",
+      "supporting_text": "Multi-Device Ecosystem Design The digital sky simulation software utilized in this analysis was the product of multiple co-design cycles between the research team and collaborating astronomy educators."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

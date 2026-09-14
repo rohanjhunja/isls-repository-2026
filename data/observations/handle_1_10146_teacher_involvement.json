@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10146",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The overarching research question of this study is \u201cHow does a group of teachers who teach at different schools design their professional community during a participatory design process?\u201d This paper answers the following sub-research questions: How did teachers exercise questi...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10146",
+      "supporting_text": "The overarching research question of this study is \u201cHow does a group of teachers who teach at different schools design their professional community during a participatory design process?\u201d This paper answers the following sub-research questions: How did teachers exercise questi..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

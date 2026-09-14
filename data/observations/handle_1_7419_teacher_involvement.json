@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7419",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The Co-Design Process The co-design process we engaged in aligns with the definition of co-design as a collaborative process involving teachers and researchers/developers working together to create an educational tool by engaging in iterative cycles of design, enactment, and e...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7419",
+      "supporting_text": "The Co-Design Process The co-design process we engaged in aligns with the definition of co-design as a collaborative process involving teachers and researchers/developers working together to create an educational tool by engaging in iterative cycles of design, enactment, and e..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

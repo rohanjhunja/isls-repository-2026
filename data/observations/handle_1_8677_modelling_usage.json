@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8677",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Conceptual & Theoretical Modeling**: Proposes or applies a conceptual framework or theoretical model to structure understanding of learning mechanisms, collaboration, or disciplinary practices. Evidence: \"We present a preliminary attempt to model the evolution of collaborative sensemaking over a short timespan with high temporal resolution.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8677",
+      "supporting_text": "We present a preliminary attempt to model the evolution of collaborative sensemaking over a short timespan with high temporal resolution."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

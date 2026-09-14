@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0088",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Towards an Integration of the Multi-role Dimension in the Design of Learning Games: A Review of the Literature",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0088",
+      "supporting_text": "Towards an Integration of the Multi-role Dimension in the Design of Learning Games: A Review of the Literature"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

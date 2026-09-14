@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-060",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"DBR in conjunction with participatory methods support my commitment to design with, rather than for, communities, positioning students, teachers, and artisans as co-designers and coresearchers (Allen Kuyenga, 2025).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-060",
+      "supporting_text": "DBR in conjunction with participatory methods support my commitment to design with, rather than for, communities, positioning students, teachers, and artisans as co-designers and coresearchers (Allen Kuyenga, 2025)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

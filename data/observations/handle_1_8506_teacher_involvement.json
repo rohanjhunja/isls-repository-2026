@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8506",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In the second cycle of co-design, the two middle sc hool science teachers designated as pedagogical redesign teachers started participating in co-design meetings with researchers and teacher(s), as well as additional reflection meetings with the researchers as part of their pr...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8506",
+      "supporting_text": "In the second cycle of co-design, the two middle sc hool science teachers designated as pedagogical redesign teachers started participating in co-design meetings with researchers and teacher(s), as well as additional reflection meetings with the researchers as part of their pr..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

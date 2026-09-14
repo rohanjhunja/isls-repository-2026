@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0225",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Background and purpose as a socio-cultural framework for activity systems. Evidence: \"To consider how agency and power relate to organizational learning processes, we draw from expansive learning, based in cultural-historical activity theory (CHAT; Engestr\u00f6m, 1987, ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0225",
+      "supporting_text": "To consider how agency and power relate to organizational learning processes, we draw from expansive learning, based in cultural-historical activity theory (CHAT; Engestr\u00f6m, 1987, 2001; Engestr\u00f6m et al., 2007)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

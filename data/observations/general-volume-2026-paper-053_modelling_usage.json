@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-053",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**AI & Foundation Models**: Investigates foundational text generation and large language model architectures to examine AI literacy, model transparency, and learner interactions. Evidence: \"Bringing this lens to AI tutors underscores the need for an evaluation framework that differentiates essential pedagogical requirements from stylistic instructional variations, ensuring m...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-053",
+      "supporting_text": "Bringing this lens to AI tutors underscores the need for an evaluation framework that differentiates essential pedagogical requirements from stylistic instructional variations, ensuring m..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

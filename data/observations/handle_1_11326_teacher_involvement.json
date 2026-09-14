@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11326",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Integrating a collaborative design process with the 4C/ID model enhances the development of effective educational programs by incorporating diverse exper tise from content experts, instructional designers, and practitioners, ensuring authenticity and alignm ent with profession...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11326",
+      "supporting_text": "Integrating a collaborative design process with the 4C/ID model enhances the development of effective educational programs by incorporating diverse exper tise from content experts, instructional designers, and practitioners, ensuring authenticity and alignm ent with profession..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

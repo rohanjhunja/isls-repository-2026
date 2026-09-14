@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0439",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Introduction and theoretical framework to examine activity systems and social interactions. Evidence: \"This study designed and analyzed coach- researcher interactions using third -generation Cultural Historical Activity Theory (CHAT) (Engestr\u00f6m, 1999, 2001).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0439",
+      "supporting_text": "This study designed and analyzed coach- researcher interactions using third -generation Cultural Historical Activity Theory (CHAT) (Engestr\u00f6m, 1999, 2001)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

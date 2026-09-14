@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl2023-proceedings-oct3-paper-0048",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Emerging Technologies (ETs) in education: A systematic review of the literature published between 2006 and 2016",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl2023-proceedings-oct3-paper-0048",
+      "supporting_text": "Emerging Technologies (ETs) in education: A systematic review of the literature published between 2006 and 2016"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

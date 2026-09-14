@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9995",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Such curriculum can take the form of participatory action, service learning, arts-based learning, critical making, or others. The role of educators is a challenging one, as they must be agents who can help stude nts parse through different sources of knowledge.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9995",
+      "supporting_text": "Such curriculum can take the form of participatory action, service learning, arts-based learning, critical making, or others. The role of educators is a challenging one, as they must be agents who can help stude nts parse through different sources of knowledge."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

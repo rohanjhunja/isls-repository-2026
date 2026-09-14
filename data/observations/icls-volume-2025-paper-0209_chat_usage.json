@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0209",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Introduction to examine activity systems and social interactions. Evidence: \"Using Cultural-Historical Activity Theory (CHAT) as a framework, this study analyzes video data from a writing intensive to explore interactions between two participants, Ashley an...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0209",
+      "supporting_text": "Using Cultural-Historical Activity Theory (CHAT) as a framework, this study analyzes video data from a writing intensive to explore interactions between two participants, Ashley and Russell."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

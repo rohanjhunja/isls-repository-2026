@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11375",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This study is situated within a larger research project exploring the role of productive uncertainty in ele mentary science investigations, using a co-design model to work alongside elementary teachers in an urban public school district to redesign, analyze, and refine science...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11375",
+      "supporting_text": "This study is situated within a larger research project exploring the role of productive uncertainty in ele mentary science investigations, using a co-design model to work alongside elementary teachers in an urban public school district to redesign, analyze, and refine science..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

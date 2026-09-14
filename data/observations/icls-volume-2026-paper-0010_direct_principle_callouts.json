@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0010",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Select was strongly preferred to Fill for its efficiency and scaffolding.\" | \"Our work builds on this but differs in three ways: (1) our SE prompts target Parsons puzzles, which are more beginner -friendly than writing tasks from scratch; (2) we provide immediate, elaborated feedback with hints to further scaffold the SE process (Aleven & Koedinger, 2002); and (3) we adapted the number of active areas to code complexity rather than using a fixed count.\" | \"For Select, five noted that it provided an additional layer of scaffolding, which prevented clueless guessing.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0010",
+      "supporting_text": "**Direct Callouts & Context**: \"Select was strongly preferred to Fill for its efficiency and scaffolding.\" | \"Our work builds on this but differs in three ways: (1) our SE prompts target Parsons puzzles, which are more beginner -friendly than writing tasks from scratch; (2) we provide immediate, elaborated feedback with hints to further scaffold the SE process (Aleven & Koedinger, 2002); and (3) we adapted the number of active areas to code complexity rather than using a fixed count.\" | \"For Select, five noted that it provided an additional layer of scaffolding, which prevented clueless guessing.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

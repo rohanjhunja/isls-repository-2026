@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0360",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Findings showed that novice programmers might need various scaffolds (i.e. metacognitive tools) before as a socio-cultural framework for activity systems. Evidence: \"This notion is explored through the lens of Cultural Historical Activity Theory (CHAT) (Engestr\u00f6m, 2015).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0360",
+      "supporting_text": "This notion is explored through the lens of Cultural Historical Activity Theory (CHAT) (Engestr\u00f6m, 2015)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

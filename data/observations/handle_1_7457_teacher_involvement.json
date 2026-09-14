@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7457",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Penuel Ashley.Potvin@colorado.edu, Leah.Teeters@colorado.edu; William.Penuel@colorado.edu University of Colorado Boulder Abstract: Collaborative design as a participatory approach to organizing research and learning environments engages educators as partners in ways that draw ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7457",
+      "supporting_text": "Penuel Ashley.Potvin@colorado.edu, Leah.Teeters@colorado.edu; William.Penuel@colorado.edu University of Colorado Boulder Abstract: Collaborative design as a participatory approach to organizing research and learning environments engages educators as partners in ways that draw ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_232",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"In this study, we hypothesized that a curricular model based on scientific practices and agent-based simulations to teach biology through a complex systems lens would support students\u2019 co...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_232",
+      "supporting_text": "In this study, we hypothesized that a curricular model based on scientific practices and agent-based simulations to teach biology through a complex systems lens would support students\u2019 co..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

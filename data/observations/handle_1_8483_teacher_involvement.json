@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8483",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"From the teacher\u2019s perspective, the group\u2019s \u201clovely discussion\u201d was re spectful, ICLS2022 Proceedings 1347 \u00a9 ISLS joyful, and fearless, and the students thought deeply about the intended math. But, to assess participatory equity, the question is\u2026 to what extent did every stude...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8483",
+      "supporting_text": "From the teacher\u2019s perspective, the group\u2019s \u201clovely discussion\u201d was re spectful, ICLS2022 Proceedings 1347 \u00a9 ISLS joyful, and fearless, and the students thought deeply about the intended math. But, to assess participatory equity, the question is\u2026 to what extent did every stude..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

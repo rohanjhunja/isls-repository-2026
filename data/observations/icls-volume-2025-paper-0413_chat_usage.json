@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0413",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Draws on Activity Theory principles in Introduction to analyze activity systems, mediated tools, and collaborative learning. Evidence: \"Curriculum Choices for Middle-School Biomimetic Design Activities Geling Xu, Tufts University, gxu03@tufts.edu Kristen Wendell, Tufts University, Kristen.Wendell@tufts.edu Tyrine J...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0413",
+      "supporting_text": "Curriculum Choices for Middle-School Biomimetic Design Activities Geling Xu, Tufts University, gxu03@tufts.edu Kristen Wendell, Tufts University, Kristen.Wendell@tufts.edu Tyrine Jamella Pangan, Tufts University, tyrine_jamella.pangan@tufts.edu Debra Bernstein, TERC, debra_bernstein@terc.edu Michael Cassidy, TERC, michael_cassidy@terc.edu William Church, CRCS, bill@crcs.works Ethan Danahy, Tufts University, ethan.danahy@tufts.edu Abstract: In this comparative case study, we used activity theory  to explain how and why different middle-school STEM teachers from the same professional development community made different curricular adaptation  choices for biomimetic design activities."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

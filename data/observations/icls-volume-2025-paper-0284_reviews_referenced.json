@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0284",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Bringing computational thinking into classrooms: a systematic review on supporting teachers in integrating computational thinking into K -12 classrooms | How to learn and how to teach computational thinking: Suggestions based on a review of the literature",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0284",
+      "supporting_text": "Bringing computational thinking into classrooms: a systematic review on supporting teachers in integrating computational thinking into K -12 classrooms | How to learn and how to teach computational thinking: Suggestions based on a review of the literature"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

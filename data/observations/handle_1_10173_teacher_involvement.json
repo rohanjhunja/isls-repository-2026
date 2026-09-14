@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10173",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers and community educators worked in collaborative design partnerships to center culturally sustaining, community-connected pedagogical practices and heritage languages in learning design. **Evidence**: \"We believe this coding scheme has the potential to provide insight into understanding the ICLS 2023 Proceedings \u00a9 ISLS 2086 in/equity impact of things like activity type, group composition, teacher intervention, and other factors that might impact participatory and relational ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10173",
+      "supporting_text": "We believe this coding scheme has the potential to provide insight into understanding the ICLS 2023 Proceedings \u00a9 ISLS 2086 in/equity impact of things like activity type, group composition, teacher intervention, and other factors that might impact participatory and relational ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

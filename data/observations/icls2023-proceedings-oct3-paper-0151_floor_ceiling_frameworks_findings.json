@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0151",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Empirical Classroom / User Evaluation. **Key Findings & Entry Barrier Impact**: Through our conversations about the most meaningful ways to code, we recognized that most tasks had lower-level procedural scaffolding (e.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0151",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Empirical Classroom / User Evaluation. **Key Findings & Entry Barrier Impact**: Through our conversations about the most meaningful ways to code, we recognized that most tasks had lower-level procedural scaffolding (e."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

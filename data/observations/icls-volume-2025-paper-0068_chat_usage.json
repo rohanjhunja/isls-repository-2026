@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0068",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction to guide participatory design, tool mediation, and collaborative practices. Evidence: \"Grounded in Cultural - Historical Activity Theory (CHAT) and Expansive Learning, Freeze Framing is designed to reveal socio -spatial patterns of youth engagement and foster agency ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0068",
+      "supporting_text": "Grounded in Cultural - Historical Activity Theory (CHAT) and Expansive Learning, Freeze Framing is designed to reveal socio -spatial patterns of youth engagement and foster agency in navigating OST landscapes."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

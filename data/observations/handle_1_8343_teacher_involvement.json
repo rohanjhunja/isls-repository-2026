@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8343",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"A co-design effort by a team of learning scientists, brain and behavior scientists, high school science teachers, and technology designers and developers, the platform and curriculum support students in the design, peer review, and implementation of original research s tudies ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8343",
+      "supporting_text": "A co-design effort by a team of learning scientists, brain and behavior scientists, high school science teachers, and technology designers and developers, the platform and curriculum support students in the design, peer review, and implementation of original research s tudies ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11481",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In our codesign effort, two teachers (Kenn edy & Folger) engaged with data specialists, curric ulum developers, and learning scientists to build data-focused addendums, including curating and customizing datasets, for existing curricula that blend Social Studies and ELA content.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11481",
+      "supporting_text": "In our codesign effort, two teachers (Kenn edy & Folger) engaged with data specialists, curric ulum developers, and learning scientists to build data-focused addendums, including curating and customizing datasets, for existing curricula that blend Social Studies and ELA content."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

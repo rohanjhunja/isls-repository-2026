@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10054",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The study is ongoing, we collected data from two schools with seven teachers and their 150 stu dents through nine months long-term ethnographic participation in three design-based implementati ons. This study used data collected with participatory observations, interviewing, i...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10054",
+      "supporting_text": "The study is ongoing, we collected data from two schools with seven teachers and their 150 stu dents through nine months long-term ethnographic participation in three design-based implementati ons. This study used data collected with participatory observations, interviewing, i..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

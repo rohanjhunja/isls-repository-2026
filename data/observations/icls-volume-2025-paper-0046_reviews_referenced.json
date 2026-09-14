@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0046",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Engineering education for sustainable development: a review of international progress",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0046",
+      "supporting_text": "Engineering education for sustainable development: a review of international progress"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

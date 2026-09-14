@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9879",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Learning designers should engage in in-depth research or co-design with target students, teachers, and communities to develop relevant content and storylines with a deep attention to the relevant science ideas and how they can best be situated in a learning progression as well...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9879",
+      "supporting_text": "Learning designers should engage in in-depth research or co-design with target students, teachers, and communities to develop relevant content and storylines with a deep attention to the relevant science ideas and how they can best be situated in a learning progression as well..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

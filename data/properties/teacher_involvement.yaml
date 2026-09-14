@@ -1,0 +1,44 @@
+id: teacher_involvement
+version: 1.0.0
+label: Teacher Involvement & Evidence
+description: Detailed description of how teachers or educators were involved in the co-design or participatory design process, supported by direct verbatim textual evidence from the paper.
+value_type: text
+query:
+  question: How were teachers, educators, or instructors involved in the co-design or participatory design process, and what verbatim text evidence demonstrates this?
+  candidate_sections:
+    - Abstract
+    - Introduction
+    - Methodology
+    - Methods
+    - Context
+    - Findings
+    - Discussion
+  heading_terms:
+    - teacher
+    - educator
+    - instructor
+    - co-design
+    - participatory
+    - workshop
+    - curriculum
+    - collaboration
+  text_terms:
+    - teacher
+    - teachers
+    - educators
+    - instructors
+    - co-design
+    - co-designing
+    - participatory
+    - workshop
+    - curriculum
+    - evidence
+constraints:
+  output_type: string
+  maximum_words: 150
+extraction:
+  preferred_methods:
+    - text_synthesis
+    - quote_extraction
+  inference_allowed: true
+evidence_required: true

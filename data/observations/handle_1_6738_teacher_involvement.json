@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6738",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The ambiguity in roles appeared to encourage students tonegotiate responsibilities and time, which are important skills in authentic collaborative design processes. S uch ambiguity, however, can also be frustrating and uncomfortable for both students and teachers, particularly...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6738",
+      "supporting_text": "The ambiguity in roles appeared to encourage students tonegotiate responsibilities and time, which are important skills in authentic collaborative design processes. S uch ambiguity, however, can also be frustrating and uncomfortable for both students and teachers, particularly..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10526",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Conceptual & Theoretical Modeling**: Proposes or applies a conceptual framework or theoretical model to structure understanding of learning mechanisms, collaboration, or disciplinary practices. Evidence: \"This paper presents the topical trends of Computer-Supported Collaborative Learning (CSCL) through a structured topic modelling of CSCL conference proceedings.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10526",
+      "supporting_text": "This paper presents the topical trends of Computer-Supported Collaborative Learning (CSCL) through a structured topic modelling of CSCL conference proceedings."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10782",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Title: Co-Designing an Adaptable Curriculum with Teachers: Affordances and Tensions in Flexible Partnership and Collaboration Abstract: Together with a team of middle school teachers, we have been co-designing flexible, interdisciplinary curriculum focused on the interwoven co...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10782",
+      "supporting_text": "Title: Co-Designing an Adaptable Curriculum with Teachers: Affordances and Tensions in Flexible Partnership and Collaboration Abstract: Together with a team of middle school teachers, we have been co-designing flexible, interdisciplinary curriculum focused on the interwoven co..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

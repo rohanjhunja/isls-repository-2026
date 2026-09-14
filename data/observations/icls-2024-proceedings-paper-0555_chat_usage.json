@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0555",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction to ground learning and artifact mediation. Evidence: \"Theoretical framework We draw from Cultural-Historical Activity Theory (CHAT) to consider the elements of culture and history in our understanding of human activities, decisions, a...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0555",
+      "supporting_text": "Theoretical framework We draw from Cultural-Historical Activity Theory (CHAT) to consider the elements of culture and history in our understanding of human activities, decisions, and values."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

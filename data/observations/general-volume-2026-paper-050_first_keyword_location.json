@@ -1,0 +1,20 @@
+{
+  "paper_id": "general-volume-2026-paper-050",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "6.9% (Abstract)",
+  "pct": 6.9,
+  "section": "Abstract",
+  "first_matched_keyword": "co-design",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-050",
+      "supporting_text": "First matched design keyword 'co-design' appears at 6.9% of total character length in section 'Abstract'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

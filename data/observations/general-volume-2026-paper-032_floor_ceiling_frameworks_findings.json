@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-032",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Design-Based Research. **Key Findings & Entry Barrier Impact**: SEED: A Teachable-Agent System that Supports Elementary Students\u2019 Self-Explanation by Teaching an AI Chatbot Self-explanation is a powerful strategy for conceptual understanding, yet elementary students struggle to ...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-032",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Design-Based Research. **Key Findings & Entry Barrier Impact**: SEED: A Teachable-Agent System that Supports Elementary Students\u2019 Self-Explanation by Teaching an AI Chatbot Self-explanation is a powerful strategy for conceptual understanding, yet elementary students struggle to ..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

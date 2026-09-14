@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9222",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Scientific Inquiry & Explanatory Modeling**: Focuses on student practices of generating, testing, evaluating, and iteratively revising explanatory scientific models using empirical evidence. Evidence: \"Knowledge Community and Inquiry (KCI) is a learning community model that offers a set of principles to guide the design of collective inquiry scripts, however, the model has yet to includ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9222",
+      "supporting_text": "Knowledge Community and Inquiry (KCI) is a learning community model that offers a set of principles to guide the design of collective inquiry scripts, however, the model has yet to includ..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0053",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Akkerman, S.& Bakker, A.(2011) Boundary crossing and boundary objects. Review of ed. res., 81(2), 132-169",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0053",
+      "supporting_text": "Akkerman, S.& Bakker, A.(2011) Boundary crossing and boundary objects. Review of ed. res., 81(2), 132-169"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

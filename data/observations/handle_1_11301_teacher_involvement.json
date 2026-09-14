@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11301",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers engaged in collaborative design partnerships as an authentic professional learning practice, co-creating pedagogical interventions while transforming instructional perspectives and disciplinary agency. **Evidence**: \"Fostering students' transformative agency w as a collective effort by Learning Lab members to create an inclusive space where students could meaningfully contribute, particularly in co-designing the Protocol for Addressing Harassment and Discrimi nation. To amplify students\u2019 v...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11301",
+      "supporting_text": "Fostering students' transformative agency w as a collective effort by Learning Lab members to create an inclusive space where students could meaningfully contribute, particularly in co-designing the Protocol for Addressing Harassment and Discrimi nation. To amplify students\u2019 v..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

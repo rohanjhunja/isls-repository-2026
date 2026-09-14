@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0327",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Qualitative Analysis. **Key Findings & Entry Barrier Impact**: At the same time, teachers have designed supplementary prompts to provide scaffolding support for students' interactions.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0327",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Qualitative Analysis. **Key Findings & Entry Barrier Impact**: At the same time, teachers have designed supplementary prompts to provide scaffolding support for students' interactions."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

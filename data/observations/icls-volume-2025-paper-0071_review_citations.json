@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0071",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Grover, S., & Pea, R. (2013). Computational thinking in K \u201312: A review of the state of the field. Educational researcher, 42(1), 38-43. G\u00fcven, I., & Gulbahar, Y. (2020). Integrating computational thinking into social studies. The Social Studies , 111(5), 234-248. | Wang, C., Shen, J., & Chao, J. (2022). Integrating computational thinking in STEM education: A literature review. International Journal of Science and Mathematics Education, 20(8), 1949-1972. | Yeni, S., Grgurina, N., Saeli, M., Hermans, F., Tolboom, J., & Barendsen, E. (2024). Interdisciplinary integration of computational thinking in K-12 education: A systematic review. Informatics in Education, 23(1), 223-",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0071",
+      "supporting_text": "Grover, S., & Pea, R. (2013). Computational thinking in K \u201312: A review of the state of the field. Educational researcher, 42(1), 38-43. G\u00fcven, I., & Gulbahar, Y. (2020). Integrating computational thinking into social studies. The Social Studies , 111(5), 234-248. | Wang, C., Shen, J., & Chao, J. (2022). Integrating computational thinking in STEM education: A literature review. International Journal of Science and Mathematics Education, 20(8), 1949-1972. | Yeni, S., Grgurina, N., Saeli, M., Hermans, F., Tolboom, J., & Barendsen, E. (2024). Interdisciplinary integration of computational thinking in K-12 education: A systematic review. Informatics in Education, 23(1), 223-"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

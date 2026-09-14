@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0341",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Kafai, Dana\u00e9 Metaxa As the role of research-practice partnerships develops within the learning sciences, there is a growing need to expand participatory design (hereafter: PD) roles for teachers \u2014beyond simply using, testing, or implementing lessons developed by researchers.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0341",
+      "supporting_text": "Kafai, Dana\u00e9 Metaxa As the role of research-practice partnerships develops within the learning sciences, there is a growing need to expand participatory design (hereafter: PD) roles for teachers \u2014beyond simply using, testing, or implementing lessons developed by researchers."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

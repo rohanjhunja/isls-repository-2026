@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0090",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction to ground learning and artifact mediation. Evidence: \"Decolonizing agency builds upon existing frameworks on agency, in particular relational agency (Edwards, 2005; 2007) and expands the concepts in practice by incorporating decoloniz...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0090",
+      "supporting_text": "Decolonizing agency builds upon existing frameworks on agency, in particular relational agency (Edwards, 2005; 2007) and expands the concepts in practice by incorporating decolonizing methodologies (Brayboy, 2005; Lomawaima, 2000; Smith, 2018; 2021) and cultural-historical activity theory (CHAT)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

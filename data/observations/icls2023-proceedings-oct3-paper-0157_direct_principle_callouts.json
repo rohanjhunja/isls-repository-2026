@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0157",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Teacher Reflective Noticing and Scaffolding for Student-Driven Knowledge-Building Inquiry This study investigates a teacher\u2019s noticing and scaffolding in two Grade 5 science classrooms based on knowledge building pedagogy.\" | \"The teacher observed students\u2019 inquiry and collaboration in the classrooms and online and kept weekly reflective journals to write about her noticing, reflection, and planning to scaffold deeper knowledge work.\" | \"Through engaging in reflective noticing and envisioning of students\u2019 knowledge building progress, the teacher can devise responsive support to scaffold ever-deepening inquiry processes in which students enact epistemic agency.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0157",
+      "supporting_text": "**Direct Callouts & Context**: \"Teacher Reflective Noticing and Scaffolding for Student-Driven Knowledge-Building Inquiry This study investigates a teacher\u2019s noticing and scaffolding in two Grade 5 science classrooms based on knowledge building pedagogy.\" | \"The teacher observed students\u2019 inquiry and collaboration in the classrooms and online and kept weekly reflective journals to write about her noticing, reflection, and planning to scaffold deeper knowledge work.\" | \"Through engaging in reflective noticing and envisioning of students\u2019 knowledge building progress, the teacher can devise responsive support to scaffold ever-deepening inquiry processes in which students enact epistemic agency.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

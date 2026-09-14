@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0274",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Carpenter, T. P., Fennema, E., Peterson, P. L., Chiang, C. P., & Loef, M. (1989). Using knowledge of children\u2019s mathematics thinking in classroom teaching: An experimental study. A merican Educational Research Journal, 26(4), 499-531. diSessa, A. A. (1993). Toward an epistemology of physics. Cognition and Instruction, 10(2 -3), 105-225. diSessa, A. A. Minstrell, J. (1998). Cultivating conceptual change with benchmark lessons. In J. G. Greeno & S. Goldman (Eds.). Thinking practices, Hillsdale, NJ: Erlbaum. 1552 Dusc hl, R. A. (2008). Science education in 3 -part harmony: Balancing conceptual, epistemic and social goals. Review of Research in Education, 32, 268 \u2013 291. | Ford, M. J., & Foreman, E. (2006). Redefining Disciplinary Learning in Classroom Contexts. Review of Res earch in Education, 30(1), 1\u201332. | Hammer, D., Goldberg, F., & Fargason, S. (2012). Responsive teaching and the beginnings of energy in a third grade classroom. Review of science, mathematics and ICT education, 6(1), 51-72.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0274",
+      "supporting_text": "Carpenter, T. P., Fennema, E., Peterson, P. L., Chiang, C. P., & Loef, M. (1989). Using knowledge of children\u2019s mathematics thinking in classroom teaching: An experimental study. A merican Educational Research Journal, 26(4), 499-531. diSessa, A. A. (1993). Toward an epistemology of physics. Cognition and Instruction, 10(2 -3), 105-225. diSessa, A. A. Minstrell, J. (1998). Cultivating conceptual change with benchmark lessons. In J. G. Greeno & S. Goldman (Eds.). Thinking practices, Hillsdale, NJ: Erlbaum. 1552 Dusc hl, R. A. (2008). Science education in 3 -part harmony: Balancing conceptual, epistemic and social goals. Review of Research in Education, 32, 268 \u2013 291. | Ford, M. J., & Foreman, E. (2006). Redefining Disciplinary Learning in Classroom Contexts. Review of Res earch in Education, 30(1), 1\u201332. | Hammer, D., Goldberg, F., & Fargason, S. (2012). Responsive teaching and the beginnings of energy in a third grade classroom. Review of science, mathematics and ICT education, 6(1), 51-72."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

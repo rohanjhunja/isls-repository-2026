@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6462",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The first year\u20132012-2013, which we refer to as iteration 1.1, focused on the content and pedagogy of the curriculum with participating teachers acting as co-designers in iterative improvement to the simulations and supporting student and teacher materials.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6462",
+      "supporting_text": "The first year\u20132012-2013, which we refer to as iteration 1.1, focused on the content and pedagogy of the curriculum with participating teachers acting as co-designers in iterative improvement to the simulations and supporting student and teacher materials."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

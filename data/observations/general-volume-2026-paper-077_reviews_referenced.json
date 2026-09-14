@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-077",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Searching for qualitative research for inclusion in systematic reviews: a structured methodological review",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-077",
+      "supporting_text": "Searching for qualitative research for inclusion in systematic reviews: a structured methodological review"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

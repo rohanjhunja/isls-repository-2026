@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0071",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Stage five, design and local testing of solutions, emphasizes the iterative co-design of interventions, tools, or practices piloted in authentic educational settings, with ongoing practitioner feedback shaping refinement.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0071",
+      "supporting_text": "Stage five, design and local testing of solutions, emphasizes the iterative co-design of interventions, tools, or practices piloted in authentic educational settings, with ongoing practitioner feedback shaping refinement."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

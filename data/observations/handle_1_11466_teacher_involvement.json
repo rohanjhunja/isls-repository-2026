@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11466",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Making AI-Based Apps Strengthens Children's Data Agency and Understanding of AI Matti Tedre, Henriikka Vartiainen This socioculturally informed study introduces a pedagogical framework, design principles, and a cr ossboundary co-design process involving teachers and researcher...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11466",
+      "supporting_text": "Making AI-Based Apps Strengthens Children's Data Agency and Understanding of AI Matti Tedre, Henriikka Vartiainen This socioculturally informed study introduces a pedagogical framework, design principles, and a cr ossboundary co-design process involving teachers and researcher..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

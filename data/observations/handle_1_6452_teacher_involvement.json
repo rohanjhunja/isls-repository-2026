@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6452",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Consider a district professional development (PD) director working with a researcher to codesign a new PD program. The main problem here lies in the challenge to meet the needs of many teachers while providing engaging PD that will be enacted in the classroom.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6452",
+      "supporting_text": "Consider a district professional development (PD) director working with a researcher to codesign a new PD program. The main problem here lies in the challenge to meet the needs of many teachers while providing engaging PD that will be enacted in the classroom."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

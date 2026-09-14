@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10684",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Title: Theorizing Mathematics Teacher Noticing for Equity Through Collaborative Design Abstract: Research on equity in teacher noticing indicates the multi-dimensionality of teacher noticing and the sociopolitical awareness teachers employ to disrupt longstanding practices tha...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10684",
+      "supporting_text": "Title: Theorizing Mathematics Teacher Noticing for Equity Through Collaborative Design Abstract: Research on equity in teacher noticing indicates the multi-dimensionality of teacher noticing and the sociopolitical awareness teachers employ to disrupt longstanding practices tha..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

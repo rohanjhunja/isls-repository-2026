@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0075",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Beauboeuf-Lafontant, T. (2002). A womanist experience of caring: Understanding the pedagogy of exemplary Black women teachers. The Urban Review, 34(1), 71-86. | Kretzmann, J., & McKnight, J. P. (1996). Assets -based community development. National civic review , 85(4), 23-30. | Thomas, E. E., & Stornaiuolo, A. (2016). Restorying the self: Bending toward textual justice. Harvard Educational Review, 86(3), 313-338.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0075",
+      "supporting_text": "Beauboeuf-Lafontant, T. (2002). A womanist experience of caring: Understanding the pedagogy of exemplary Black women teachers. The Urban Review, 34(1), 71-86. | Kretzmann, J., & McKnight, J. P. (1996). Assets -based community development. National civic review , 85(4), 23-30. | Thomas, E. E., & Stornaiuolo, A. (2016). Restorying the self: Bending toward textual justice. Harvard Educational Review, 86(3), 313-338."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10104",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In year 2, the same 7 researchers, 7 educators from year 1, and an additional 9 educators participated in summer codesign sessions and implemented 6 data science units.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10104",
+      "supporting_text": "In year 2, the same 7 researchers, 7 educators from year 1, and an additional 9 educators participated in summer codesign sessions and implemented 6 data science units."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

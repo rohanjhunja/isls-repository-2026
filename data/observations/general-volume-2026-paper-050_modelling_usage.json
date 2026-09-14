@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-050",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**AI & Foundation Models**: Investigates foundational text generation and large language model architectures to examine AI literacy, model transparency, and learner interactions. Evidence: \"The K\u201312 AI Infrastructure Initiative, a five-year, $26 million effort led by Digital Promise and a coalition of partners, is funding the development of tutoring interaction corpora, lear...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-050",
+      "supporting_text": "The K\u201312 AI Infrastructure Initiative, a five-year, $26 million effort led by Digital Promise and a coalition of partners, is funding the development of tutoring interaction corpora, lear..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0076",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Three instructional routines supported this work: organizing family knowledge as analyzable data, using parallel comparison structures, and scaffolding dual justification.\" | \"Empirically, however, progress remains limited: Chen (2025) demonstrates a recent mainland China example integrating local cultural practices into middle school chemistry, while Kiang and Szeto (2021) show that even when Traditional Chinese Science is taught in Hong Kong undergraduate classrooms, students initially adopted relativist stances that only shifted with explicit epistemological scaffolding.\" | \"\u201d) supported by a Mandarin CER worksheet that provided scaffolding language for addressing both TCM and school -science perspectives.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0076",
+      "supporting_text": "**Direct Callouts & Context**: \"Three instructional routines supported this work: organizing family knowledge as analyzable data, using parallel comparison structures, and scaffolding dual justification.\" | \"Empirically, however, progress remains limited: Chen (2025) demonstrates a recent mainland China example integrating local cultural practices into middle school chemistry, while Kiang and Szeto (2021) show that even when Traditional Chinese Science is taught in Hong Kong undergraduate classrooms, students initially adopted relativist stances that only shifted with explicit epistemological scaffolding.\" | \"\u201d) supported by a Mandarin CER worksheet that provided scaffolding language for addressing both TCM and school -science perspectives.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0461",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Vakil, S. (2018). Equity in Computer Science Education. Harvard Educational Review, 88(1), 26\u201352.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0461",
+      "supporting_text": "Vakil, S. (2018). Equity in Computer Science Education. Harvard Educational Review, 88(1), 26\u201352."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

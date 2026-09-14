@@ -1,0 +1,44 @@
+id: design_stakeholders
+version: 1.0.0
+label: Stakeholders in Design Process
+description: Identifies the stakeholders, participant groups, or design partners involved in the design, co-design, or participatory design process (e.g., K-12 teachers, higher education instructors, students/youth, educational researchers, community partners, domain experts, school administrators).
+value_type: text
+query:
+  question: Who are the stakeholders, participants, or design partners involved in the design, co-design, or participatory design process?
+  candidate_sections:
+    - Abstract
+    - Introduction
+    - Methodology
+    - Context
+    - Design
+    - Methods
+    - Participants
+  heading_terms:
+    - stakeholder
+    - participant
+    - design
+    - co-design
+    - participatory
+    - teacher
+    - student
+    - community
+  text_terms:
+    - stakeholders
+    - participants
+    - co-designers
+    - design team
+    - teachers
+    - educators
+    - students
+    - youth
+    - community
+    - researchers
+constraints:
+  output_type: string
+  maximum_words: 80
+extraction:
+  preferred_methods:
+    - section_keyword_analysis
+    - text_synthesis
+  inference_allowed: true
+evidence_required: true

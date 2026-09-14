@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10266",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"ICLS 2023 Proceedings \u00a9 ISLS 330 Using classroom-based design methodology (Barab, 2014) and the dual-layer Knowledge Building approach to teacher learning and co-design (Tan et al., 2016), Thelma and her colleague e ngaged in a mini Knowledge Building cycle of their own to exp...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10266",
+      "supporting_text": "ICLS 2023 Proceedings \u00a9 ISLS 330 Using classroom-based design methodology (Barab, 2014) and the dual-layer Knowledge Building approach to teacher learning and co-design (Tan et al., 2016), Thelma and her colleague e ngaged in a mini Knowledge Building cycle of their own to exp..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

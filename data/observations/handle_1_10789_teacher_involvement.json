@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10789",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"With Korean, perhaps because it is a mor e unfamiliar language to many students, teacher candidates recognized opportunities for increasing participati on, but they were a lso more hesitant to take on as daunting a challenge as co-designing a lesson with a newcomer non-native ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10789",
+      "supporting_text": "With Korean, perhaps because it is a mor e unfamiliar language to many students, teacher candidates recognized opportunities for increasing participati on, but they were a lso more hesitant to take on as daunting a challenge as co-designing a lesson with a newcomer non-native ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

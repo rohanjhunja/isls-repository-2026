@@ -1,0 +1,15 @@
+{
+  "source_filename": "cscl-2025-proceedings.pdf",
+  "sha256": "b9993b8cee3a4d493bab6de3b97228b5bdf9cf673b74bfecae6f43b7c6e57b06",
+  "pdf_page_count": 727,
+  "detected_papers_count": 127,
+  "expected_toc_count": 133,
+  "boundaries_confidence_avg": 0.95,
+  "unmapped_headings_count": 212,
+  "missing_fields_summary": {
+    "title": 0,
+    "authors": 20,
+    "abstract": 19
+  },
+  "timestamp": "2026-07-22T12:42:13.758370Z"
+}

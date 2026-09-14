@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0500",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Curriculum co-design: Development work with a collaborative partnership The project convened a workshop that included teachers and the partner organizations to develop an initial version of the curriculum and deepen partnership collaboration.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0500",
+      "supporting_text": "Curriculum co-design: Development work with a collaborative partnership The project convened a workshop that included teachers and the partner organizations to develop an initial version of the curriculum and deepen partnership collaboration."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

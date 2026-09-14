@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_378",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We have been partnering with teachers in Singapore to co-design PFC learning tasks for low-achieving students from the upper primary to secondary levels in various subject areas (environmental sustainability, urban planning, language, mathematics), empirically test our designs...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_378",
+      "supporting_text": "We have been partnering with teachers in Singapore to co-design PFC learning tasks for low-achieving students from the upper primary to secondary levels in various subject areas (environmental sustainability, urban planning, language, mathematics), empirically test our designs..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

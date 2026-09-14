@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0209",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Findings show that (1) improvements in learning processes and outcomes occurring during simulation-based learning do not happen automatically just as a learner is confronted with a diagnostic task, but because learners engage in diagnostic activities during the diagnostic process; (2) facilitating this engagement can be facilitated through providing authentic and engaging tasks in different contexts, as well as personalized scaffolding.\" | \"Furthermore, simulations also allow providing various forms of scaffolding (Fischer et al.\" | \"To what extent does scaffolding moderate the effects of simulation -based learning on learning processes and outcomes in developing diagnostic skills?\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0209",
+      "supporting_text": "**Direct Callouts & Context**: \"Findings show that (1) improvements in learning processes and outcomes occurring during simulation-based learning do not happen automatically just as a learner is confronted with a diagnostic task, but because learners engage in diagnostic activities during the diagnostic process; (2) facilitating this engagement can be facilitated through providing authentic and engaging tasks in different contexts, as well as personalized scaffolding.\" | \"Furthermore, simulations also allow providing various forms of scaffolding (Fischer et al.\" | \"To what extent does scaffolding moderate the effects of simulation -based learning on learning processes and outcomes in developing diagnostic skills?\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

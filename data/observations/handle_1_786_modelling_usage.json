@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_786",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Scientific Inquiry & Explanatory Modeling**: Focuses on student practices of generating, testing, evaluating, and iteratively revising explanatory scientific models using empirical evidence. Evidence: \"This study took place in one 4th grade classroom and drew on design-based research methods to investigate how the design and enactment of scientific modeling tasks in a project-based scie...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_786",
+      "supporting_text": "This study took place in one 4th grade classroom and drew on design-based research methods to investigate how the design and enactment of scientific modeling tasks in a project-based scie..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

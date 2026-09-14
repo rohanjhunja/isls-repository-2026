@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6671",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In re-imagining family-school-teacher relations, this paper documents how justice-oriented relations to place can emerge through co-design and collective reflection around tools for boundary-spanning place-based learning.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6671",
+      "supporting_text": "In re-imagining family-school-teacher relations, this paper documents how justice-oriented relations to place can emerge through co-design and collective reflection around tools for boundary-spanning place-based learning."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

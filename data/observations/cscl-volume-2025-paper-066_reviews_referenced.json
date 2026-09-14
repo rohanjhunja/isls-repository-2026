@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-066",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Collaborative play for autistic children: A systematic literature review | Self-regulated learning strategies & academic achievement in online higher education learning environments: A systematic review | Socially shared regulation of learning: A review | Self-regulated learning and learning analytics in online learning environments: A review of empirical research",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-066",
+      "supporting_text": "Collaborative play for autistic children: A systematic literature review | Self-regulated learning strategies & academic achievement in online higher education learning environments: A systematic review | Socially shared regulation of learning: A review | Self-regulated learning and learning analytics in online learning environments: A review of empirical research"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

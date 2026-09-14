@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11613",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"To illustrate complexities in design-based RPPs, I examine a partnership co-designing dialogic instructional units for language arts in Israeli elementary classrooms (Barak & Lefstein, 2022; Barak, 2024). The design team included eight language arts teachers, three instruction...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11613",
+      "supporting_text": "To illustrate complexities in design-based RPPs, I examine a partnership co-designing dialogic instructional units for language arts in Israeli elementary classrooms (Barak & Lefstein, 2022; Barak, 2024). The design team included eight language arts teachers, three instruction..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

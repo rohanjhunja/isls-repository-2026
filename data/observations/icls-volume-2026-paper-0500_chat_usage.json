@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0500",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction as a socio-cultural framework for activity systems. Evidence: \"First, Cultural -Historical Activity Theory (CHAT) posits that human activity is rooted in evolving historical and social contexts.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0500",
+      "supporting_text": "First, Cultural -Historical Activity Theory (CHAT) posits that human activity is rooted in evolving historical and social contexts."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

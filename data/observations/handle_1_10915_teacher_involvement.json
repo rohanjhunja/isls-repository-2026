@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10915",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"The codesign workshops were focused on exploring the ways of thinking and learning in game redesign and how to integrate it with the teachers\u2019 current teaching.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10915",
+      "supporting_text": "The codesign workshops were focused on exploring the ways of thinking and learning in game redesign and how to integrate it with the teachers\u2019 current teaching."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

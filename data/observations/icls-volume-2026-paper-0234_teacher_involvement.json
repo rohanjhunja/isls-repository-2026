@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0234",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Teachers appear to position computing education primarily as a compensatory tool for participation in daily life and future employment. While this focus aligns with core SEN principles, it may also narrow computing education to application skills and product knowledge that can...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0234",
+      "supporting_text": "Teachers appear to position computing education primarily as a compensatory tool for participation in daily life and future employment. While this focus aligns with core SEN principles, it may also narrow computing education to application skills and product knowledge that can..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

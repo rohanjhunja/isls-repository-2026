@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0254",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We present two working examples: the TRACE Project, which developed a community -driven taxonomy of arts program outcomes through collaborative classification with 26 community arts organizations, and the Whole Child Analytics Project (WCAP), which employed AI -assisted reflec...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0254",
+      "supporting_text": "We present two working examples: the TRACE Project, which developed a community -driven taxonomy of arts program outcomes through collaborative classification with 26 community arts organizations, and the Whole Child Analytics Project (WCAP), which employed AI -assisted reflec..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

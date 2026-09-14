@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0519",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Qualitative Analysis. **Key Findings & Entry Barrier Impact**: Radio is used as a means of distribution because of its low barrier of access for families in rural communities.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0519",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Qualitative Analysis. **Key Findings & Entry Barrier Impact**: Radio is used as a means of distribution because of its low barrier of access for families in rural communities."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

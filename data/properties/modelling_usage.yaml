@@ -1,0 +1,41 @@
+id: modelling_usage
+version: 1.0.0
+label: How Modelling is Used
+description: Detailed explanation of how modelling or modeling is conceptualized, applied, or investigated in the paper (e.g., student scientific modeling practice, computational or agent-based simulation, statistical or predictive modeling, cognitive or instructional modeling).
+value_type: text
+query:
+  question: How is modelling (or modeling) used in the paper?
+  candidate_sections:
+    - Title
+    - Abstract
+    - Introduction
+    - Theoretical Framework
+    - Methodology
+    - Findings
+    - Discussion
+  heading_terms:
+    - model
+    - modelling
+    - modeling
+    - simulation
+    - computational model
+    - agent-based model
+  text_terms:
+    - modelling
+    - modeling
+    - computational model
+    - agent-based model
+    - scientific model
+    - statistical model
+    - predictive model
+    - cognitive model
+    - mental model
+constraints:
+  output_type: string
+  maximum_words: 130
+extraction:
+  preferred_methods:
+    - section_keyword_analysis
+    - text_synthesis
+  inference_allowed: true
+evidence_required: true

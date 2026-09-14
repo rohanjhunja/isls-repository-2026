@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0364",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Ladson-Billings, G. (2014). Culturally relevant pedagogy 2.0: aka the remix. Harvard Educational Review, 84(1), 74-84. | Vakil, S. (2018). Ethics, Identity, and Political Vision: Toward a Justice -Centered Approach to Equity in Computer Science Education. Harvard Educational Review, 88(1), 26\u201352.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0364",
+      "supporting_text": "Ladson-Billings, G. (2014). Culturally relevant pedagogy 2.0: aka the remix. Harvard Educational Review, 84(1), 74-84. | Vakil, S. (2018). Ethics, Identity, and Political Vision: Toward a Justice -Centered Approach to Equity in Computer Science Education. Harvard Educational Review, 88(1), 26\u201352."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

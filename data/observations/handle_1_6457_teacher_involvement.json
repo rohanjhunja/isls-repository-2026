@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6457",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Project descriptions From RPP to participatory design study: Drawing throughlines The Compose Our World (COW) project was a multi-year research practice partnership to collaboratively design and implement a year-long 9 th grade English language arts project-based learning curr...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6457",
+      "supporting_text": "Project descriptions From RPP to participatory design study: Drawing throughlines The Compose Our World (COW) project was a multi-year research practice partnership to collaboratively design and implement a year-long 9 th grade English language arts project-based learning curr..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

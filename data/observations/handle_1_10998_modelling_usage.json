@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10998",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"Computational models (CMs) offer pre-college students opportunities to integrate STEM disciplines with computational thinking in ways that reflect authentic STEM practice.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10998",
+      "supporting_text": "Computational models (CMs) offer pre-college students opportunities to integrate STEM disciplines with computational thinking in ways that reflect authentic STEM practice."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

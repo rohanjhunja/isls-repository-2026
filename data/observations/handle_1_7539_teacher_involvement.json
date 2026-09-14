@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7539",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Title: Modeling Unstructured Data: Teachers as Learners and Designers of Technology-enhanced Artificial Intelligence Curriculum Abstract: In this paper, we present a co-design study with teachers to contribute towards development of a technology-enhanced Artificial Intelligenc...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7539",
+      "supporting_text": "Title: Modeling Unstructured Data: Teachers as Learners and Designers of Technology-enhanced Artificial Intelligence Curriculum Abstract: In this paper, we present a co-design study with teachers to contribute towards development of a technology-enhanced Artificial Intelligenc..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0149",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Glaser, B. (2008). The constant comparative method of qualitative analysis. Grounded Theory Review, 3(7). | Shulman, L. S. (1987). Knowledge and teaching: Foundations of the new reform. Harvard Educational Review, 57, 1\u201322.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0149",
+      "supporting_text": "Glaser, B. (2008). The constant comparative method of qualitative analysis. Grounded Theory Review, 3(7). | Shulman, L. S. (1987). Knowledge and teaching: Foundations of the new reform. Harvard Educational Review, 57, 1\u201322."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

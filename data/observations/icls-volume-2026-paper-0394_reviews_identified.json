@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0394",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Trott, C. D., Lam, S., Roncker, J., Gray, E. S., Courtney, R. H., & Even, T. L. (2023). Justice in climate change education: A systematic review. Environmental Education Research, 29(11), 1535-1572. 2610",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0394",
+      "supporting_text": "Trott, C. D., Lam, S., Roncker, J., Gray, E. S., Courtney, R. H., & Even, T. L. (2023). Justice in climate change education: A systematic review. Environmental Education Research, 29(11), 1535-1572. 2610"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

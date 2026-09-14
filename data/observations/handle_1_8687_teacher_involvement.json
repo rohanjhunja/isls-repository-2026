@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8687",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We complement this asset-based, anti-deficit perspe ctive on students and parents of color with scholarship outlining participatory methods for stu dying and enacting educational change toward justic e (e.g., Bang & Vossoughi, 2016). This scholarship emphasizes the importance ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8687",
+      "supporting_text": "We complement this asset-based, anti-deficit perspe ctive on students and parents of color with scholarship outlining participatory methods for stu dying and enacting educational change toward justic e (e.g., Bang & Vossoughi, 2016). This scholarship emphasizes the importance ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

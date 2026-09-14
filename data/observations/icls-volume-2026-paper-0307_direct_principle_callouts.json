@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0307",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning Recent advances in AI have raised concerns about students\u2019 overreliance on automated systems that may complete learning tasks without requiring meaningful cognitive effort and engagement.\" | \"This paper explores how AI can be designed to scaffold and sustain cognitive engagement in generative learning activities.\" | \"Drawing on generative learning theory and scaffolding, we present a conceptual account of how AI can guide learners through generative processes such as selecting, organizing, and integrating information, while gradually fading support as competence develops.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0307",
+      "supporting_text": "**Direct Callouts & Context**: \"Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning Recent advances in AI have raised concerns about students\u2019 overreliance on automated systems that may complete learning tasks without requiring meaningful cognitive effort and engagement.\" | \"This paper explores how AI can be designed to scaffold and sustain cognitive engagement in generative learning activities.\" | \"Drawing on generative learning theory and scaffolding, we present a conceptual account of how AI can guide learners through generative processes such as selecting, organizing, and integrating information, while gradually fading support as competence develops.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,20 @@
+{
+  "paper_id": "icls-volume-2026-paper-0031",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "21.7% (Introduction)",
+  "pct": 21.7,
+  "section": "Introduction",
+  "first_matched_keyword": "co-design",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0031",
+      "supporting_text": "First matched design keyword 'co-design' appears at 21.7% of total character length in section 'Introduction'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

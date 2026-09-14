@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8804",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Teachers, regardless of setting, make ICLS2022 Proceedings 7 \u00a9 ISLS pedagogical decisions during planning and in-the-moment with students that reflect a constant conversation between a personal vision of instruction and learning and a context\u2019s implicit and explicit messages a...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8804",
+      "supporting_text": "Teachers, regardless of setting, make ICLS2022 Proceedings 7 \u00a9 ISLS pedagogical decisions during planning and in-the-moment with students that reflect a constant conversation between a personal vision of instruction and learning and a context\u2019s implicit and explicit messages a..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

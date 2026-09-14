@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6684",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"For example, teachers give boys more coaching regarding higher order critical thinking and how to speak in an authorit ative manner than they do girls (e.g., Sadker & Sadker, 1986). By not receiving similar coaching, the participatory potential for some students is diminished ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6684",
+      "supporting_text": "For example, teachers give boys more coaching regarding higher order critical thinking and how to speak in an authorit ative manner than they do girls (e.g., Sadker & Sadker, 1986). By not receiving similar coaching, the participatory potential for some students is diminished ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

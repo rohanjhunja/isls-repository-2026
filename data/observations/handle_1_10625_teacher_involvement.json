@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10625",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This paper discusses a p roject that centered on the historical and cultural contexts of youth through Participatory Design (PD) and Asset-Based Community Development (ABCD) and brought together community assets-immigrant youth and educators who serve and support them (Iversen...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10625",
+      "supporting_text": "This paper discusses a p roject that centered on the historical and cultural contexts of youth through Participatory Design (PD) and Asset-Based Community Development (ABCD) and brought together community assets-immigrant youth and educators who serve and support them (Iversen..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

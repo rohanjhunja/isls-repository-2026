@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10649",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Data comes from a larger four-month-long participatory design-based research study on a play-based curriculum on interdependent relationships in marine ecosystems, which included activities like art-making, play, costume-making, and pamph let-making. The focal episode examines...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10649",
+      "supporting_text": "Data comes from a larger four-month-long participatory design-based research study on a play-based curriculum on interdependent relationships in marine ecosystems, which included activities like art-making, play, costume-making, and pamph let-making. The focal episode examines..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

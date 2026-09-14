@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0465",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Scaffolding the Peer-Feedback Process: A Meta-Analysis Julia Hornstein Peer-feedback can be supported by formal or subject -matter-related scaffolds.\" | \"Introduction Scaffolding the Peer-Feedback Process: A Meta-Analysis Julia Hornstein, Melanie V.\" | \"Thus, there is a need for further studies on scaffolding feedback reception, as this phase may involve a cluster of learning processes that are particularly important for knowledge and skill acquisition via peer-feedback (Carless & Boud, 2018; Lui & Andrade, 2022).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0465",
+      "supporting_text": "**Direct Callouts & Context**: \"Scaffolding the Peer-Feedback Process: A Meta-Analysis Julia Hornstein Peer-feedback can be supported by formal or subject -matter-related scaffolds.\" | \"Introduction Scaffolding the Peer-Feedback Process: A Meta-Analysis Julia Hornstein, Melanie V.\" | \"Thus, there is a need for further studies on scaffolding feedback reception, as this phase may involve a cluster of learning processes that are particularly important for knowledge and skill acquisition via peer-feedback (Carless & Boud, 2018; Lui & Andrade, 2022).\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

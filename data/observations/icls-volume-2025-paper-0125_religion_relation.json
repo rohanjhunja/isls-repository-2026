@@ -1,0 +1,19 @@
+{
+  "paper_id": "icls-volume-2025-paper-0125",
+  "property_id": "religion_relation",
+  "property_version": "1.0.0",
+  "value": "Analyzes Nigeria's structural pluralism, demonstrating how religious affiliations (Muslim vs. Christian majorities) and ethnic diversity moderate the relationship between educational attainment and interpersonal/institutional trust dynamics.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0125",
+      "section_id": null,
+      "pdf_page": null,
+      "supporting_text": "...education was initially negatively associated with trust, but its effect diminished when religion and ethnicity were accounted for in a stepwise multiple regression analysis. Lower-educated groups, such as Hausa, Muslims..."
+    }
+  ],
+  "method": "full_text_analysis",
+  "confidence": 1.0,
+  "run_id": "run_religion_relation_20260726",
+  "source_version": "1.0.0"
+}

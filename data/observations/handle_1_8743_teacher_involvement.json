@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8743",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Title: \u201cIt\u2019s So Frustrating!\u201d Understanding Design Dilemmas in Co-Design Through Curricular Values Abstract: Co-design is an increasingly common process for curriculum development in science education, where teachers and researchers work together to create curricula, drawing o...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8743",
+      "supporting_text": "Title: \u201cIt\u2019s So Frustrating!\u201d Understanding Design Dilemmas in Co-Design Through Curricular Values Abstract: Co-design is an increasingly common process for curriculum development in science education, where teachers and researchers work together to create curricula, drawing o..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

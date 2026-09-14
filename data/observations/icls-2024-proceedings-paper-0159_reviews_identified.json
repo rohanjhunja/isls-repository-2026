@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0159",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Brown, T. (2008). Design Thinking. Harvard Business Review, 86(6), 1\u20139. | Salazar, M.D.C. (2013). A humanizing pedagogy: Reinventing the principles and practice of education as a journey toward liberation. Review of Research in Education, 37, 121-148.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0159",
+      "supporting_text": "Brown, T. (2008). Design Thinking. Harvard Business Review, 86(6), 1\u20139. | Salazar, M.D.C. (2013). A humanizing pedagogy: Reinventing the principles and practice of education as a journey toward liberation. Review of Research in Education, 37, 121-148."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

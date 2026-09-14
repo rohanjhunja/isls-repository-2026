@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0030",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Rousseau, D. M., Sitkin, S. B., Burt, R. S., & Camerer, C. (1998). Not so different after all: A cross -discipline view of trust. Academy of Management Review, 23, 393\u2013404. https://doi.org/10.5465/amr.1998.926617 Salda\u00f1a, J.M. (2016). The coding manual for qualitative researchers (3rd ed). Sage Publications. | Slater, E., & Gazeley, L. (2018). Deploying teaching assistants to support learning: From models to typologies. Educational Review, 71(5), 547-563. https://doi.org/10.1080/00131911.2018.1457011",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0030",
+      "supporting_text": "Rousseau, D. M., Sitkin, S. B., Burt, R. S., & Camerer, C. (1998). Not so different after all: A cross -discipline view of trust. Academy of Management Review, 23, 393\u2013404. https://doi.org/10.5465/amr.1998.926617 Salda\u00f1a, J.M. (2016). The coding manual for qualitative researchers (3rd ed). Sage Publications. | Slater, E., & Gazeley, L. (2018). Deploying teaching assistants to support learning: From models to typologies. Educational Review, 71(5), 547-563. https://doi.org/10.1080/00131911.2018.1457011"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

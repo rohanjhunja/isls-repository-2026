@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-078",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Vescio, J. & Gresalfi, M. (under review). The children inside and outside of researchers\u2019 laptops: Seeing video data through the playful eyes of young children. American Educational Research Journal.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-078",
+      "supporting_text": "Vescio, J. & Gresalfi, M. (under review). The children inside and outside of researchers\u2019 laptops: Seeing video data through the playful eyes of young children. American Educational Research Journal."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

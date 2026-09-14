@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-041",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"They use techniques like hard scaffolding questions to guide the students as they think through the different stages of the engineering design process.\" | \"Concept Catalyst uses Large Language Models to assist teachers with the rapid creation of scaffold questions for engineering design challenges.\" | \"Unlike open-ended chat, Concept Catalyst uses LLMs to summarize and decompose an engineering design challenge into the concepts that students will engage with, allow the teacher to visually manipulate and link related concepts, and to propose scaffolding questions for the teacher to modify or accept.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-041",
+      "supporting_text": "**Direct Callouts & Context**: \"They use techniques like hard scaffolding questions to guide the students as they think through the different stages of the engineering design process.\" | \"Concept Catalyst uses Large Language Models to assist teachers with the rapid creation of scaffold questions for engineering design challenges.\" | \"Unlike open-ended chat, Concept Catalyst uses LLMs to summarize and decompose an engineering design challenge into the concepts that students will engage with, allow the teacher to visually manipulate and link related concepts, and to propose scaffolding questions for the teacher to modify or accept.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

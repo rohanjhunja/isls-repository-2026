@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6302",
+  "property_id": "design_stakeholders",
+  "property_version": "1.0.0",
+  "value": "Teachers; K-12 Students; Educational Researchers & Designers; School Administrators & Leaders",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6302",
+      "supporting_text": "Identified stakeholders in targeted sections (abstract, method, discussion): Teachers; K-12 Students; Educational Researchers & Designers; School Administrators & Leaders"
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_design_stakeholders_20260912",
+  "source_version": "1.0.0"
+}

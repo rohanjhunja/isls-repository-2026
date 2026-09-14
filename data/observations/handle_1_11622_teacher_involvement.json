@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11622",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"It is inherently iterative and context sensitive, w ith its participatory nature positioning it as a core mechanism in praxis-driven approaches, including researcher-practitioner partnerships (RPP; Coburn, et al., 2013; Sj\u00f6lund et al., 2023), teacher-researcher collaborations ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11622",
+      "supporting_text": "It is inherently iterative and context sensitive, w ith its participatory nature positioning it as a core mechanism in praxis-driven approaches, including researcher-practitioner partnerships (RPP; Coburn, et al., 2013; Sj\u00f6lund et al., 2023), teacher-researcher collaborations ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

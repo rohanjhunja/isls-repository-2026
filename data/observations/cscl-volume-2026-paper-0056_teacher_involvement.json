@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0056",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Overall, the design practices implemented in this project, specifically co-design and teacher partnerships, significantly advanced the development of a hybrid classroom model that integrates curriculum and technology enhancements to support SEL.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0056",
+      "supporting_text": "Overall, the design practices implemented in this project, specifically co-design and teacher partnerships, significantly advanced the development of a hybrid classroom model that integrates curriculum and technology enhancements to support SEL."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

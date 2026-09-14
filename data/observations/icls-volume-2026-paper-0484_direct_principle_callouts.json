@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0484",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"These patterns illustrate how IH aligns with engagement and informs affective scaffolding.\" | \"However, most accounts do not show when in the activity these affective shifts occur or how they reorganize action, which limits timely scaffolding, a gap recent work has begun to address (Liu et al.\" | \"In school settings, scaffolding should be differentiated.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0484",
+      "supporting_text": "**Direct Callouts & Context**: \"These patterns illustrate how IH aligns with engagement and informs affective scaffolding.\" | \"However, most accounts do not show when in the activity these affective shifts occur or how they reorganize action, which limits timely scaffolding, a gap recent work has begun to address (Liu et al.\" | \"In school settings, scaffolding should be differentiated.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

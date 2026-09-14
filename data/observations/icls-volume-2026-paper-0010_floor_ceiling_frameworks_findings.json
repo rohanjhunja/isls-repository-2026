@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0010",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Scratch. **Method**: Survey. **Key Findings & Entry Barrier Impact**: Enhance Code Understanding through Prompted Self-Explanation with Mixed-Up Code Puzzles: Novice Preferences and Outcomes As AI enters computer science (CS) education, novices need early opportunities to strengthen c...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0010",
+      "supporting_text": "**Framework/Tool**: Scratch. **Method**: Survey. **Key Findings & Entry Barrier Impact**: Enhance Code Understanding through Prompted Self-Explanation with Mixed-Up Code Puzzles: Novice Preferences and Outcomes As AI enters computer science (CS) education, novices need early opportunities to strengthen c..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

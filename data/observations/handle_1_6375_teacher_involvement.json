@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6375",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This work continues to be explored and investigated in terms of the methodology of the visual analytic, as well as a co-design with teachers interested in applying the design principles to Geographical Investigations.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6375",
+      "supporting_text": "This work continues to be explored and investigated in terms of the methodology of the visual analytic, as well as a co-design with teachers interested in applying the design principles to Geographical Investigations."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,19 @@
+{
+  "paper_id": "icls-volume-2025-paper-0364",
+  "property_id": "religion_relation",
+  "property_version": "1.0.0",
+  "value": "Mentions religion as a sociopolitical identity axis subject to increasing societal hate and discrimination, positioning teachers as transformational agents tasked with helping students navigate identity-based oppression.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0364",
+      "section_id": null,
+      "pdf_page": null,
+      "supporting_text": "At the time when trans students and educators are attacked, increasing hate along the lines of race and religion \u2013educators are tasked with working with students to go beyond disciplinary concepts but look at them as connected to peoples, communities, and societies."
+    }
+  ],
+  "method": "full_text_analysis",
+  "confidence": 1.0,
+  "run_id": "run_religion_relation_20260726",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4493",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"In this manuscript we report on initial findings from the first implementation of a four-cycle design study that seeks to synergize computational modeling and narrative theater to support...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4493",
+      "supporting_text": "In this manuscript we report on initial findings from the first implementation of a four-cycle design study that seeks to synergize computational modeling and narrative theater to support..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

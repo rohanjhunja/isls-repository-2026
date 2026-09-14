@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0284",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Liu, Z. (2023). Integrating computational thinking into K -12 education: Bridging the gap between theories and practices. STEM Education Review, 1, 1-10. https://doi.org/10.54844/stemer.2023.0467 | Liu, Z., Gearty, Z., Richard, E., Orrill, C. H., Kayumova, S., & Balasubramanian, R. (2024). Bringing computational thinking into classrooms: a systematic review on supporting teachers in integrating computational thinking into K -12 classrooms. International Journal of STEM Education, 11(1), 51. http://doi.org/10.1186/s40594-024-00510-6 | Hsu, T. C., Chang, S. C., & Hung, Y. T. (2018). How to learn and how to teach computational thinking: Suggestions based on a review of the literature. Computers & Education, 126, 296 \u2013310. 1991 Society for Information Technology & Teacher Education International Conference (pp. 41- 45). Association for the Advancement of Computing in Education (AACE), Waynesville, NC.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0284",
+      "supporting_text": "Liu, Z. (2023). Integrating computational thinking into K -12 education: Bridging the gap between theories and practices. STEM Education Review, 1, 1-10. https://doi.org/10.54844/stemer.2023.0467 | Liu, Z., Gearty, Z., Richard, E., Orrill, C. H., Kayumova, S., & Balasubramanian, R. (2024). Bringing computational thinking into classrooms: a systematic review on supporting teachers in integrating computational thinking into K -12 classrooms. International Journal of STEM Education, 11(1), 51. http://doi.org/10.1186/s40594-024-00510-6 | Hsu, T. C., Chang, S. C., & Hung, Y. T. (2018). How to learn and how to teach computational thinking: Suggestions based on a review of the literature. Computers & Education, 126, 296 \u2013310. 1991 Society for Information Technology & Teacher Education International Conference (pp. 41- 45). Association for the Advancement of Computing in Education (AACE), Waynesville, NC."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

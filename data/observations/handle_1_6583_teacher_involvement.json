@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6583",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Twelve teacher educator fellows participated in a co-design workshop to build digital simulations of challenging equity scenarios for use in their teac her education programs.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6583",
+      "supporting_text": "Twelve teacher educator fellows participated in a co-design workshop to build digital simulations of challenging equity scenarios for use in their teac her education programs."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

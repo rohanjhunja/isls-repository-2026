@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-050",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Computationally Enhanced Toolkits for Children: Historical Review and a Framework for Future Design",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-050",
+      "supporting_text": "Computationally Enhanced Toolkits for Children: Historical Review and a Framework for Future Design"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

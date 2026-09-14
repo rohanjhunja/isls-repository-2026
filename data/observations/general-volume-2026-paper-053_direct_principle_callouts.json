@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-053",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"The second layer, pedagogical personality, characterizes stylistic instructional traits, such as scaffolding depth, adaptivity, metacognitive prompting, and instructional tone, that shape the learning experience and likely modulate learning gains.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-053",
+      "supporting_text": "**Direct Callouts & Context**: \"The second layer, pedagogical personality, characterizes stylistic instructional traits, such as scaffolding depth, adaptivity, metacognitive prompting, and instructional tone, that shape the learning experience and likely modulate learning gains.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

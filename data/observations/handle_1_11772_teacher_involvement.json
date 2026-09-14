@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11772",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We present findings from a collaborative video analysis of a co-design session (~40 minutes) where nine high school computing teachers, two researchers, and a senior designer engaged in a design activity uncovering what it means to center justice within computing classrooms an...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11772",
+      "supporting_text": "We present findings from a collaborative video analysis of a co-design session (~40 minutes) where nine high school computing teachers, two researchers, and a senior designer engaged in a design activity uncovering what it means to center justice within computing classrooms an..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

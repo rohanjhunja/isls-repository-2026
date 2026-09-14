@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0353",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Utilizing interpretive ethnography (Erickson, 1985) and participatory design research (Bang & Vossoughi, 2016) we report on a data set documenting student and educator learning within a 6- week summer STEAM/Storytelling program over eight years through audio -video recordings,...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0353",
+      "supporting_text": "Utilizing interpretive ethnography (Erickson, 1985) and participatory design research (Bang & Vossoughi, 2016) we report on a data set documenting student and educator learning within a 6- week summer STEAM/Storytelling program over eight years through audio -video recordings,..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

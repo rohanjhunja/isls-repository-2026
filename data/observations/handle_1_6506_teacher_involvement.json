@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6506",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Remillard 2005) who argued for a \u201cparticipatory relationship\u201d between teachers and instructional materi als \u2014teachers\u2019 understandings shape their use of instructional materials and are shaped by their expe riences using them.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6506",
+      "supporting_text": "Remillard 2005) who argued for a \u201cparticipatory relationship\u201d between teachers and instructional materi als \u2014teachers\u2019 understandings shape their use of instructional materials and are shaped by their expe riences using them."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

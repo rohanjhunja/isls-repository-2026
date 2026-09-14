@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10626",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"However, in the third iteration, we made more space for the course instructors to collaborate and co-design the instructional booklet with us, which led to a more synthesized blending of HCD practices that center empathy with course concepts that cente red the identities of hi...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10626",
+      "supporting_text": "However, in the third iteration, we made more space for the course instructors to collaborate and co-design the instructional booklet with us, which led to a more synthesized blending of HCD practices that center empathy with course concepts that cente red the identities of hi..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

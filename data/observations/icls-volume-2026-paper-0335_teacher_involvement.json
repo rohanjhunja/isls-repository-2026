@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0335",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We translate the principles of RPP and DBIR into a co-located, classroom-embedded cocreation practice\u2014one where product teams and educators work side by side in classrooms, observe use in real time, and iterate daily with students and teachers. This approach aligns with co-cre...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0335",
+      "supporting_text": "We translate the principles of RPP and DBIR into a co-located, classroom-embedded cocreation practice\u2014one where product teams and educators work side by side in classrooms, observe use in real time, and iterate daily with students and teachers. This approach aligns with co-cre..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

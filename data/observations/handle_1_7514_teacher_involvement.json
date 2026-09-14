@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7514",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"In conclusion, this study supports the literature on student online engagemen t and students\u2019 learning experiences through empathy, informing LX designers and practitioners on how we might effectively co-design and iteratively improve teaching and learning for future instances...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7514",
+      "supporting_text": "In conclusion, this study supports the literature on student online engagemen t and students\u2019 learning experiences through empathy, informing LX designers and practitioners on how we might effectively co-design and iteratively improve teaching and learning for future instances..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

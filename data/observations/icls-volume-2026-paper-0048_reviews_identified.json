@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0048",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Myers, G., Mullenbach, L. E., Jolley, J. A., Cutts, B. B., & Larson, L. R. (2023). Advancing social equity in urban tree planting: Lessons learned from an integrative review of the literature. Urban Forestry & Urban Greening, 89, 128116. | Penuel, W. R., Riedy, R., Barber, M. S., Peurach, D. J., LeBouef, W. A., & Clark, T. (2020). Principles of collaborative education research with stakeholders: Toward requirements for a new research and development infrastructure. Review of Educational Research, 90(5), 627\u2013674.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0048",
+      "supporting_text": "Myers, G., Mullenbach, L. E., Jolley, J. A., Cutts, B. B., & Larson, L. R. (2023). Advancing social equity in urban tree planting: Lessons learned from an integrative review of the literature. Urban Forestry & Urban Greening, 89, 128116. | Penuel, W. R., Riedy, R., Barber, M. S., Peurach, D. J., LeBouef, W. A., & Clark, T. (2020). Principles of collaborative education research with stakeholders: Toward requirements for a new research and development infrastructure. Review of Educational Research, 90(5), 627\u2013674."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

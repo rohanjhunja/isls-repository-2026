@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4447",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Embodied & Participatory Modeling**: Leverages embodied, mixed-reality, or physical role-play activities to ground learners' sense-making and computational modeling of complex systems. Evidence: \"In this paper we explore the implementations of an activity designed to engage students in an embodied simulation of an artistically expressive Agent-based modeling environment.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4447",
+      "supporting_text": "In this paper we explore the implementations of an activity designed to engage students in an embodied simulation of an artistically expressive Agent-based modeling environment."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0119",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"These findings suggest that diffe rences lie not in the availability of ideas but in how discourse is organized to support knowledge creation, highlighting the importance of scaffolding epistemic and dialogic practices for effective GenAI use.\" | \"Pedagogically, this implies the need to design learning environments that scaffold not only access to AI -generated ideas but also the dialogic practices required to interrogate, connect, and refine those ideas over time.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0119",
+      "supporting_text": "**Direct Callouts & Context**: \"These findings suggest that diffe rences lie not in the availability of ideas but in how discourse is organized to support knowledge creation, highlighting the importance of scaffolding epistemic and dialogic practices for effective GenAI use.\" | \"Pedagogically, this implies the need to design learning environments that scaffold not only access to AI -generated ideas but also the dialogic practices required to interrogate, connect, and refine those ideas over time.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

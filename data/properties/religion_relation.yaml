@@ -1,0 +1,36 @@
+id: religion_relation
+version: 1.0.0
+label: Relation to 'Religion'
+description: Brief explanation of the relationship between the paper and the search keyword 'religion' based on full text analysis.
+value_type: text
+query:
+  question: How does the paper relate to the search keyword 'religion' across its full text?
+  candidate_sections:
+    - Introduction
+    - Theoretical Framework
+    - Literature Review
+    - Methods
+    - Findings
+    - Discussion
+  heading_terms:
+    - religion
+    - identity
+    - culture
+    - equity
+  text_terms:
+    - religion
+    - religious
+    - faith
+    - Hindu
+    - Muslim
+    - Christian
+    - Jewish
+    - caste
+constraints:
+  output_type: string
+  maximum_words: 100
+extraction:
+  preferred_methods:
+    - prompted_analysis
+  inference_allowed: true
+evidence_required: true

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0328",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"A clear outline of the course structure and design selected mini-projects, final project, and scaffolding strategies used to support learning and col laboration are provided.\" | \"The right circle outlines the Seven Project- Based Teaching Practices, which were customized to include alignment with instructional design principles and relevant standards, fostering a collaborative learning culture, managing activities with clear timelines and milestones, scaffolding learning through structured resources and templates, employing a combination of formative and summative assessments to monitor progress, and actively engaging students through coaching and mentoring.\" | \", a pre-defined rubric to evaluate each of the mini -projects, feedback mechanisms that provide consistent scaffolding, learner progress throughout the course with sustained support, and meaningful learning outcomes.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0328",
+      "supporting_text": "**Direct Callouts & Context**: \"A clear outline of the course structure and design selected mini-projects, final project, and scaffolding strategies used to support learning and col laboration are provided.\" | \"The right circle outlines the Seven Project- Based Teaching Practices, which were customized to include alignment with instructional design principles and relevant standards, fostering a collaborative learning culture, managing activities with clear timelines and milestones, scaffolding learning through structured resources and templates, employing a combination of formative and summative assessments to monitor progress, and actively engaging students through coaching and mentoring.\" | \", a pre-defined rubric to evaluate each of the mini -projects, feedback mechanisms that provide consistent scaffolding, learner progress throughout the course with sustained support, and meaningful learning outcomes.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

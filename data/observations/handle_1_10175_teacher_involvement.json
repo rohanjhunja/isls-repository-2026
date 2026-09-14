@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10175",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"We are now partnering with leadership in critical participatory design-based research (Getenet, 2019) using Summer 2022 data from 32 graduate student educators\u2019 actions and perspectives, informed by 3 institutional leaders and 4 university research partners.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10175",
+      "supporting_text": "We are now partnering with leadership in critical participatory design-based research (Getenet, 2019) using Summer 2022 data from 32 graduate student educators\u2019 actions and perspectives, informed by 3 institutional leaders and 4 university research partners."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0258",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction to analyze systemic contradictions, tensions, and expansive learning cycles. Evidence: \"Drawing on Cultural-Historical Activity Theory (Engestr\u00f6m, 1987), we view these disconnects as contradictions within activity systems\u2014between roles, tools, and objectives\u2014that when...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0258",
+      "supporting_text": "Drawing on Cultural-Historical Activity Theory (Engestr\u00f6m, 1987), we view these disconnects as contradictions within activity systems\u2014between roles, tools, and objectives\u2014that when made visible and negotiable can catalyze shifts in practice and organizational learning (Penuel, 2019)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

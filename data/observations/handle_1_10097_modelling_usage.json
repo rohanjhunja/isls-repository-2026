@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10097",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Conceptual & Theoretical Modeling**: Proposes or applies a conceptual framework or theoretical model to structure understanding of learning mechanisms, collaboration, or disciplinary practices. Evidence: \"Findings from student (n=170) and instructor (n=30) questionnaires are presented from a mixed-methods study that explores how the pandemic experience affected teacher educators\u2019 equitable...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10097",
+      "supporting_text": "Findings from student (n=170) and instructor (n=30) questionnaires are presented from a mixed-methods study that explores how the pandemic experience affected teacher educators\u2019 equitable..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

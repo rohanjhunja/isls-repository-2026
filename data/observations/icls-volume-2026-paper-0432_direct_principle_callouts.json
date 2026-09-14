@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0432",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Leveraging Play as an Entryway for Tangible Computer Science Learning Experiences in Early Childhood Settings In this work, we explore how three types of free play toys (blocks, clay, and stuffed animals) can serve as tangible manipulatives for computer science learning.\" | \"Introduction Leveraging Play as an Entryway for Tangible Computer Science Learning Experiences in Early Childhood Settings Jessica Blake-West, Abigail J.\" | \"Our case analyses are motivated by the following research questions: 1) To what extent did these play objects serve as an entryway for CS concepts?\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0432",
+      "supporting_text": "**Direct Callouts & Context**: \"Leveraging Play as an Entryway for Tangible Computer Science Learning Experiences in Early Childhood Settings In this work, we explore how three types of free play toys (blocks, clay, and stuffed animals) can serve as tangible manipulatives for computer science learning.\" | \"Introduction Leveraging Play as an Entryway for Tangible Computer Science Learning Experiences in Early Childhood Settings Jessica Blake-West, Abigail J.\" | \"Our case analyses are motivated by the following research questions: 1) To what extent did these play objects serve as an entryway for CS concepts?\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

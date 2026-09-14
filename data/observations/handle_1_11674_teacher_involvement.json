@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11674",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Title: The Design, Implementation and Evaluation of a Human-Centered Design Professional Learning Community in a High School Setting Abstract: This study integrated participatory action research into a Professional Learning Community (PLC) at a high school to explore how teach...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11674",
+      "supporting_text": "Title: The Design, Implementation and Evaluation of a Human-Centered Design Professional Learning Community in a High School Setting Abstract: This study integrated participatory action research into a Professional Learning Community (PLC) at a high school to explore how teach..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

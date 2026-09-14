@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4503",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"During iterative lesson design, enactment, and reflective consolidation process, teachers\u2019 design fluency are embodied in t he forms of design talk, feedbacks, and explanations to support students\u2019 Knowledge Building acti vities during co-design discussion.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4503",
+      "supporting_text": "During iterative lesson design, enactment, and reflective consolidation process, teachers\u2019 design fluency are embodied in t he forms of design talk, feedbacks, and explanations to support students\u2019 Knowledge Building acti vities during co-design discussion."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

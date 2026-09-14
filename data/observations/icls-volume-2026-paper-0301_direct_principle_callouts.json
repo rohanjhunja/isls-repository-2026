@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0301",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Findings demonstrate the framework embedded system\u2019s usability as a dynamic metacognitive scaffolding tool and highlight the value of integrating multi -agent feedback loops and teachable -agent calibration for fostering autonomous metacognitive development.\" | \", 2025) conceptualizes metacognitive scaffolding as a distributed, multi- agent mechanism rather than a single intelligent tutor.\" | \"This coordination mechanism operates through continuous cycles of monitoring, collaboration, and feedback, enabling the framework to adapt scaffolding intensity and update learner models dynamically.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0301",
+      "supporting_text": "**Direct Callouts & Context**: \"Findings demonstrate the framework embedded system\u2019s usability as a dynamic metacognitive scaffolding tool and highlight the value of integrating multi -agent feedback loops and teachable -agent calibration for fostering autonomous metacognitive development.\" | \", 2025) conceptualizes metacognitive scaffolding as a distributed, multi- agent mechanism rather than a single intelligent tutor.\" | \"This coordination mechanism operates through continuous cycles of monitoring, collaboration, and feedback, enabling the framework to adapt scaffolding intensity and update learner models dynamically.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4557",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"By implementing models with preservice teachers, we hope to (a) make adjustments to the GbCC learning technologies, and (b) develop more informed and aligned pedagogies for teaching in so...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4557",
+      "supporting_text": "By implementing models with preservice teachers, we hope to (a) make adjustments to the GbCC learning technologies, and (b) develop more informed and aligned pedagogies for teaching in so..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

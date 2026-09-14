@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10956",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The teachers worked in two different schools within the same district, were keen on integrating data from students\u2019 disciplinary engagement, and expressed varied comfort levels with data science. After a series of participatory design workshops th at spanned a year, the projec...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10956",
+      "supporting_text": "The teachers worked in two different schools within the same district, were keen on integrating data from students\u2019 disciplinary engagement, and expressed varied comfort levels with data science. After a series of participatory design workshops th at spanned a year, the projec..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

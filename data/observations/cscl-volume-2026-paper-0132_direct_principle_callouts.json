@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0132",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Principle-Driven Scaffolding: Implementing and Evaluating LLM-Generated Micro-Scripts in an Informal Learning Community How can AI scaffold collaboration in voluntary online communities without over - scripting participation?\" | \"Introduction Principle-Driven Scaffolding: Implementing and Evaluating LLM- Generated Micro-Scripts in an Informal Learning Community Hideki Kondo, Kanda University of International Studies, kondo-h@kanda.\" | \"jp Abstract: How can AI scaffold collaboration in voluntary online communities without over - scripting participation?\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0132",
+      "supporting_text": "**Direct Callouts & Context**: \"Principle-Driven Scaffolding: Implementing and Evaluating LLM-Generated Micro-Scripts in an Informal Learning Community How can AI scaffold collaboration in voluntary online communities without over - scripting participation?\" | \"Introduction Principle-Driven Scaffolding: Implementing and Evaluating LLM- Generated Micro-Scripts in an Informal Learning Community Hideki Kondo, Kanda University of International Studies, kondo-h@kanda.\" | \"jp Abstract: How can AI scaffold collaboration in voluntary online communities without over - scripting participation?\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

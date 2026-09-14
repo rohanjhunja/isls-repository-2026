@@ -1,0 +1,17 @@
+{
+  "paper_id": "isls-general-volume-2025-paper-039",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"ScratchJr design in practice: Low floor, high ceiling.\" | \"Furthermore, this scene-specific editing enables teachers to scaffold content in ways that build toward broader learning goals, ensuring the narrative progression remains both engaging and customized as the teacher specifies.\" | \"Systematizing scaffolding for problem-based learning: A view from case-based reasoning.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "isls-general-volume-2025-paper-039",
+      "supporting_text": "**Direct Callouts & Context**: \"ScratchJr design in practice: Low floor, high ceiling.\" | \"Furthermore, this scene-specific editing enables teachers to scaffold content in ways that build toward broader learning goals, ensuring the narrative progression remains both engaging and customized as the teacher specifies.\" | \"Systematizing scaffolding for problem-based learning: A view from case-based reasoning.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

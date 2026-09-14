@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0111",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"To support automated feedback interpretation, we implemented participatory structures (Tabak & Baumgartner, 2004), including collaborative group reflection (Kollar & Fischer, 2010) and teacher guidance.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0111",
+      "supporting_text": "To support automated feedback interpretation, we implemented participatory structures (Tabak & Baumgartner, 2004), including collaborative group reflection (Kollar & Fischer, 2010) and teacher guidance."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

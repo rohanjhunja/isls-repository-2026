@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9983",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"Within the program, we drew on theories of pluriverse and positioning theories to co-design asset-based learning spaces in which the students, teachers, and researchers were positioned as co-authors, co-researchers, and co-creators of knowledge (Kayumova & Dou, 2022; Kayumova ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9983",
+      "supporting_text": "Within the program, we drew on theories of pluriverse and positioning theories to co-design asset-based learning spaces in which the students, teachers, and researchers were positioned as co-authors, co-researchers, and co-creators of knowledge (Kayumova & Dou, 2022; Kayumova ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

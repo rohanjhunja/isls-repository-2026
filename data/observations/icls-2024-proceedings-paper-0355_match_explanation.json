@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0355",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Title explicitly mentions 'scaffolding'; Abstract discusses 'scaffolding'. Evidence: \"...tures and functionalities, ranging from scaffolding peer review of LDs, visualization of the LD workflow, sharing of LDs for peer a...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0355",
+      "supporting_text": "Title explicitly mentions 'scaffolding'; Abstract discusses 'scaffolding'. Evidence: \"...tures and functionalities, ranging from scaffolding peer review of LDs, visualization of the LD workflow, sharing of LDs for peer a...\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

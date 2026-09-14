@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-051",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Conceptual & Theoretical Modeling**: Proposes or applies a conceptual framework or theoretical model to structure understanding of learning mechanisms, collaboration, or disciplinary practices. Evidence: \"This workshop introduces HINA (Heterogeneous Interaction Network Analysis), a methodological framework for modeling and analyzing complex learning interactions through networked relations...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-051",
+      "supporting_text": "This workshop introduces HINA (Heterogeneous Interaction Network Analysis), a methodological framework for modeling and analyzing complex learning interactions through networked relations..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

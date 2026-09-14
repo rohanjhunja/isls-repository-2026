@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0278",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"Educators integrated digital tools (e.g., climate datasets, films, augmented reality apps) to connect storytelling with inquiry (Van Borek et al., 2024), and used strategies such as participatory video, multimodal composition, and \u201cletters from the future\u201d prompts (Finnegan, 2...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0278",
+      "supporting_text": "Educators integrated digital tools (e.g., climate datasets, films, augmented reality apps) to connect storytelling with inquiry (Van Borek et al., 2024), and used strategies such as participatory video, multimodal composition, and \u201cletters from the future\u201d prompts (Finnegan, 2..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

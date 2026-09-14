@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10322",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Design principle 5: Evaluate on data from real classrooms Almost all papers explicitly stated their use of real classroom data in the evaluation of teacher dashboards. Most papers evaluated the dashboards during the co-design process by including observations and interviews.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10322",
+      "supporting_text": "Design principle 5: Evaluate on data from real classrooms Almost all papers explicitly stated their use of real classroom data in the evaluation of teacher dashboards. Most papers evaluated the dashboards during the co-design process by including observations and interviews."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="vendor/mermaid.min.js"></script>
+</head>
+<body>
+<script>
+async function run() {
+  mermaid.initialize({ startOnLoad: false });
+  const lines = [
+    'flowchart LR',
+    '    classDef default text-wrap:true,white-space:normal;',
+    '    Paper_Metadata_2016__ea481129["Paper Metadata (2016-2025)<br>(DSpace API)"] -->|Titles, Abstracts, Authors and other metadata| Paper_Ground_Truth_R_80ee0b2b["Paper Ground Truth Registry<br>(Index with doi)"]',
+    '    Raw_Paper_PDFs_2016__0a3200dd["Raw Paper PDFs (2016-2025)<br>(DSpace API)"] --> Cleaning_and_Structu_25ce33a8["Cleaning and Structuring PDF Data<br>(Pydantic schema validation)"]',
+    '    Raw_Proceedings_PDFs_f778fe30["Raw Proceedings PDFs (2026)<br>(Conference Site)"] --> Cleaning_and_Structu_25ce33a8',
+    '    Cleaning_and_Structu_25ce33a8 -.->|2026 Metadata| Paper_Ground_Truth_R_80ee0b2b',
+    '    Cleaning_and_Structu_25ce33a8 -->|.md and .json| Paper_Section_Slices_414a75a2["Paper Section Slices<br>(Structured Data)"]',
+    '    Paper_Ground_Truth_R_80ee0b2b --> SQLite_FTS5_Index_Fu_824db4d2["SQLite FTS5 Index <br>(Full Text Searching)"]',
+    '    Paper_Ground_Truth_R_80ee0b2b --> Dipstick_Review_Sear_df2edf5e["Dipstick Review<br>(Searches only Titles and abstracts loaded in browser)"]',
+    '    Paper_Section_Slices_414a75a2 --> SQLite_FTS5_Index_Fu_824db4d2',
+    '    SQLite_FTS5_Index_Fu_824db4d2 --> Expanded_Scope_Searc_8ee319a6["Expanded Scope<br>(Searches Full Text or Specific Sections only)"]',
+    '    Dipstick_Review_Sear_df2edf5e -.-> Saved_Reviews_Search_a8ac1b2a["Saved Reviews<br>(Search Conditions, Evidence and Results)"]',
+    '    Agentic_Review_Searc_8af82d57["Agentic Review<br>(Searches Saved Review Results or Specific Sections across corpus)"] <--> Saved_Reviews_Search_a8ac1b2a',
+    '    Browser_Review_Viewe_3162d734[Browser <br>Review <br>Viewer]',
+    'classDef style0 stroke:oklch(85% 0.019119 248),fill:#ffffff,color:oklch(33% 0.029558 248)',
+    'class Agentic_Review_Searc_8af82d57,Browser_Review_Viewe_3162d734,Cleaning_and_Structu_25ce33a8,Dipstick_Review_Sear_df2edf5e,Expanded_Scope_Searc_8ee319a6,Paper_Ground_Truth_R_80ee0b2b,Paper_Metadata_2016__ea481129,Paper_Section_Slices_414a75a2,Raw_Paper_PDFs_2016__0a3200dd,Raw_Proceedings_PDFs_f778fe30,SQLite_FTS5_Index_Fu_824db4d2,Saved_Reviews_Search_a8ac1b2a style0',
+    'linkStyle 0,1,2,4,5,6,7,8,10 stroke:oklch(62% 0.028346 248)',
+    'linkStyle 3,9 stroke:oklch(62% 0.028346 248),stroke-dasharray:5 5'
+  ];
+
+  let current = lines[0] + "\n";
+  for (let i = 1; i < lines.length; i++) {
+    const testCode = current + lines[i] + "\n";
+    try {
+      await mermaid.parse(testCode);
+      current = testCode;
+    } catch (e) {
+      await fetch('http://127.0.0.1:8889/log?msg=' + encodeURIComponent("FAIL on line " + i + ": " + lines[i] + "\nError: " + (e.str || e.message)));
+      return;
+    }
+  }
+  await fetch('http://127.0.0.1:8889/log?msg=' + encodeURIComponent("ALL_PASSED"));
+}
+run();
+</script>
+</body>
+</html>

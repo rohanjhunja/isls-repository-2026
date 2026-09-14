@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0271",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Gee, J. P. (2000). Identity as an analytic lens for research in education. Review of Research in Education, 25, 99\u2013",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0271",
+      "supporting_text": "Gee, J. P. (2000). Identity as an analytic lens for research in education. Review of Research in Education, 25, 99\u2013"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

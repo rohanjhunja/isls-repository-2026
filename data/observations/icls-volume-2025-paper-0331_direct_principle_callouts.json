@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0331",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Scaffolding schools in their organizational level self-directed learning journey is crucial for achieving their educational innovation goals.\" | \"The teachers also found the technology platform, Learning Design Studio\u00ae (LDS), provided by the RPP valuable in scaffolding their design during the co-design process.\" | \"The Vice Principal further suggested using the United Nations Sustainable Development Goals (United Nations, 2015) as a scaffold to help students set project goals, which also aligns with the school\u2019s vision of fostering a global outlook in students.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0331",
+      "supporting_text": "**Direct Callouts & Context**: \"Scaffolding schools in their organizational level self-directed learning journey is crucial for achieving their educational innovation goals.\" | \"The teachers also found the technology platform, Learning Design Studio\u00ae (LDS), provided by the RPP valuable in scaffolding their design during the co-design process.\" | \"The Vice Principal further suggested using the United Nations Sustainable Development Goals (United Nations, 2015) as a scaffold to help students set project goals, which also aligns with the school\u2019s vision of fostering a global outlook in students.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0137",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in analysis (Girvan & Newman, 2002) revealed distinct patterns representing different learning ecologies. For each to examine activity systems and social interactions. Evidence: \"Engaging students with cultural-historical activity theory (CHAT; Engestr\u00f6m, 2022) gives them an analytical framework to examine and improve their own team dynamics, directly respo...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0137",
+      "supporting_text": "Engaging students with cultural-historical activity theory (CHAT; Engestr\u00f6m, 2022) gives them an analytical framework to examine and improve their own team dynamics, directly responding to the data showing that interpersonal friction was the primary barrie r to 1169 otherwise valued collaboration."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

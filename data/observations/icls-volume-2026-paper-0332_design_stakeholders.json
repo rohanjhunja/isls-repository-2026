@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0332",
+  "property_id": "design_stakeholders",
+  "property_version": "1.0.0",
+  "value": "Middle School Teachers; Educators & Practitioners; Elementary Students & Children; Educational Researchers & Designers; Domain Experts & Technologists",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0332",
+      "supporting_text": "Identified stakeholders in targeted sections (abstract, method, discussion): Middle School Teachers; Educators & Practitioners; Elementary Students & Children; Educational Researchers & Designers; Domain Experts & Technologists"
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_design_stakeholders_20260912",
+  "source_version": "1.0.0"
+}

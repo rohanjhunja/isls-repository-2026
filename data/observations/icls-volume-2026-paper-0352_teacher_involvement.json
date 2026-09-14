@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0352",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Rather than reporting classroom outcomes, this paper presents a design analysis of the units and accompanying materials (lesson plans, teacher guides, activity sheets, prototypes, and co-design notes), examining how the units specify artifacts constructed by students with diff...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0352",
+      "supporting_text": "Rather than reporting classroom outcomes, this paper presents a design analysis of the units and accompanying materials (lesson plans, teacher guides, activity sheets, prototypes, and co-design notes), examining how the units specify artifacts constructed by students with diff..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

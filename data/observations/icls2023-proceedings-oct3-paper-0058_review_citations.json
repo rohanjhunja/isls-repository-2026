@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0058",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "None found",
+  "status": "not_present",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0058",
+      "supporting_text": "None found"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

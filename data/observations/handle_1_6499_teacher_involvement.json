@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6499",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"One approach to developing meaningful teacher support for successful classroom orchestration is involving teachers in participatory design, or the process of design in which stakeholders are actively involved in the design process in ways that are directly beneficial to them (...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6499",
+      "supporting_text": "One approach to developing meaningful teacher support for successful classroom orchestration is involving teachers in participatory design, or the process of design in which stakeholders are actively involved in the design process in ways that are directly beneficial to them (..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,25 @@
+id: reviews_identified
+version: 1.0.0
+label: Reviews Identified
+description: All cited papers from the reference section that are identified as review papers, listed in APA format (Author, Year, Title, Venue).
+value_type: text
+query:
+  question: Which cited papers in the reference section are review papers?
+  candidate_sections:
+    - References
+    - Citations
+    - Bibliography
+  text_terms:
+    - review
+    - reviews
+    - systematic review
+    - scoping review
+    - meta-analysis
+    - synthesis
+    - survey
+constraints:
+  output_type: string
+extraction:
+  preferred_methods:
+    - section_parsing
+evidence_required: true

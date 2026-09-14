@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0316",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Scaffolding Students\u2019 use of GenAI: A Pilot Examining Higher Education Instructors\u2019 Attitudes and Reported Practice While higher education institutions establish policies for Generative AI (GenAI) use, less attention is given to instructional scaffold s for students\u2019 use of it.\" | \"To address this gap, we used two surveys (n\u2081=242, n\u2082=46; pre -registered before analysis) to evaluate instructors' perceptions toward student GenAI use (RQ1) and SRL-aligned scaffolding practices in teaching (RQ2).\" | \"Mapping scaffolding practices onto the SRL framework revealed instructors emphasize during -task support while neglecting planning and reflection.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0316",
+      "supporting_text": "**Direct Callouts & Context**: \"Scaffolding Students\u2019 use of GenAI: A Pilot Examining Higher Education Instructors\u2019 Attitudes and Reported Practice While higher education institutions establish policies for Generative AI (GenAI) use, less attention is given to instructional scaffold s for students\u2019 use of it.\" | \"To address this gap, we used two surveys (n\u2081=242, n\u2082=46; pre -registered before analysis) to evaluate instructors' perceptions toward student GenAI use (RQ1) and SRL-aligned scaffolding practices in teaching (RQ2).\" | \"Mapping scaffolding practices onto the SRL framework revealed instructors emphasize during -task support while neglecting planning and reflection.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

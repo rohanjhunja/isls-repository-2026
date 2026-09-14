@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-048",
+  "property_id": "matched_design_keywords",
+  "property_version": "1.0.0",
+  "value": "co-design, participatory, collaborative design",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-048",
+      "supporting_text": "Matched design keywords across 10-year full text: co-design, participatory, collaborative design"
+    }
+  ],
+  "method": "cross_keyword_matching",
+  "confidence": 1.0,
+  "run_id": "run_matched_design_keywords_20260912",
+  "source_version": "1.0.0"
+}

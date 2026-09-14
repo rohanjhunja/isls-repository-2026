@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0257",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Vossoughi, S., Marin, A., & Bang, M. (2023). Toward just and sustainable futures: Human learning and relationality within socio-ecological systems. Review of Research in Education, 47(1), 218-273. Acknowledgments We would like to thank the general education teachers, special education teachers, counselors, and administrators that we partnered with to create this beautiful work. This material is based, in part, upon work supported by the National Science Foundation Graduate Research Fellowship Program under Grant No. 2025381556. 1771",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0257",
+      "supporting_text": "Vossoughi, S., Marin, A., & Bang, M. (2023). Toward just and sustainable futures: Human learning and relationality within socio-ecological systems. Review of Research in Education, 47(1), 218-273. Acknowledgments We would like to thank the general education teachers, special education teachers, counselors, and administrators that we partnered with to create this beautiful work. This material is based, in part, upon work supported by the National Science Foundation Graduate Research Fellowship Program under Grant No. 2025381556. 1771"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

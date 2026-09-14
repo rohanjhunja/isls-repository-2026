@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_271",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Learning environment and curriculum materials Two research groups from the University of Toronto and the University of Illinois at Chicago and classroom teachers from our partner schools participated in a co-design process (Roschelle, Penuel, & Shectman, 2007) to design and de...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_271",
+      "supporting_text": "Learning environment and curriculum materials Two research groups from the University of Toronto and the University of Illinois at Chicago and classroom teachers from our partner schools participated in a co-design process (Roschelle, Penuel, & Shectman, 2007) to design and de..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

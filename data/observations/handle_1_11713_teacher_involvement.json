@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11713",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"T he greater project centers ecological resilience and linguistic equ ity through our multi-year collaborations at a 30-acre urban farm where refugee children, transdisciplinary educators, and researchers co-design learning spaces to (re)connect and learn together about soil, ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11713",
+      "supporting_text": "T he greater project centers ecological resilience and linguistic equ ity through our multi-year collaborations at a 30-acre urban farm where refugee children, transdisciplinary educators, and researchers co-design learning spaces to (re)connect and learn together about soil, ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

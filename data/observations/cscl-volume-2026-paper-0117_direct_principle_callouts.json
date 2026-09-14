@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0117",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Through analysis of nine high school teachers\u2019 1,363 asynchronous forum posts and 220 minutes of synchronous sessions, we identified complementary pathways: asynchronous forums supported knowledge building through archived threads and peer resource sharing, while synchronous sessions facilitated real- time collective sensemaking and expert scaffolding.\" | \"Phase 2 was synchronous synthesis through expert scaffolding and peer collaboration.\" | \"When teachers expressed instructional challenges asynchronously, facilitators addressed these in real -time with conceptual scaffolding.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0117",
+      "supporting_text": "**Direct Callouts & Context**: \"Through analysis of nine high school teachers\u2019 1,363 asynchronous forum posts and 220 minutes of synchronous sessions, we identified complementary pathways: asynchronous forums supported knowledge building through archived threads and peer resource sharing, while synchronous sessions facilitated real- time collective sensemaking and expert scaffolding.\" | \"Phase 2 was synchronous synthesis through expert scaffolding and peer collaboration.\" | \"When teachers expressed instructional challenges asynchronously, facilitators addressed these in real -time with conceptual scaffolding.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

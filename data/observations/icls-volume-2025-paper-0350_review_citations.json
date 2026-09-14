@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0350",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Bajaj, M. (2022) \u2018Decolonial approaches to school curriculum for Black, Indigenous and other students of colour\u2019. London Review of Education, 20 (1), 5. DOI: https://doi.org/10.14324/LRE.20.1.05. | Blommaert, J., & Bulcaen, C. (2000). Critical Discourse Analysis. Annual Review of Anthropology, 29, 447\u2013466. | Delgado Bernal, D. 1998. Using a Chicana feminist epistemology in educational research. Harvard Educational Review 68(4), 555\u2013582. De los R\u00edos, C. V., L\u00f3pez, J., & Morrell, E. (2015). Toward a critical pedagogy of race: Ethnic studies and literacies of power in high school classrooms. Race and Social Problems, 7, 84-96. 2387 | Gutierrez, K., Rymes, B., & Larson, J. (1995). Script, counterscript, and underlife in the classroom: James Brown versus Brown v. Board of Education. Harvard educational review, 65(3), 445-472. | 36. ross, kihana miraya, & Givens, J. R. (2023). The Clearing: On Black Education Studies and the Problem of \u201cAntiblackness.\u201dHarvard Educational Review, 93(2), 149\u2013172. | Womack, Y. L. (2013). Afrofuturism: The world of black sci-fi and fantasy culture. Chicago Review Press. 2389",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0350",
+      "supporting_text": "Bajaj, M. (2022) \u2018Decolonial approaches to school curriculum for Black, Indigenous and other students of colour\u2019. London Review of Education, 20 (1), 5. DOI: https://doi.org/10.14324/LRE.20.1.05. | Blommaert, J., & Bulcaen, C. (2000). Critical Discourse Analysis. Annual Review of Anthropology, 29, 447\u2013466. | Delgado Bernal, D. 1998. Using a Chicana feminist epistemology in educational research. Harvard Educational Review 68(4), 555\u2013582. De los R\u00edos, C. V., L\u00f3pez, J., & Morrell, E. (2015). Toward a critical pedagogy of race: Ethnic studies and literacies of power in high school classrooms. Race and Social Problems, 7, 84-96. 2387 | Gutierrez, K., Rymes, B., & Larson, J. (1995). Script, counterscript, and underlife in the classroom: James Brown versus Brown v. Board of Education. Harvard educational review, 65(3), 445-472. | 36. ross, kihana miraya, & Givens, J. R. (2023). The Clearing: On Black Education Studies and the Problem of \u201cAntiblackness.\u201dHarvard Educational Review, 93(2), 149\u2013172. | Womack, Y. L. (2013). Afrofuturism: The world of black sci-fi and fantasy culture. Chicago Review Press. 2389"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

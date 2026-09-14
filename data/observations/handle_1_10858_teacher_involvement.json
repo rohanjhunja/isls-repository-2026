@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10858",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"The participatory simulation deployed in the study affords a low-stake and authentic environment for preservice teachers to interpret students\u2019 ideas and practice responsive teaching acts, key components to facilitate student-centered knowledge construction.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10858",
+      "supporting_text": "The participatory simulation deployed in the study affords a low-stake and authentic environment for preservice teachers to interpret students\u2019 ideas and practice responsive teaching acts, key components to facilitate student-centered knowledge construction."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

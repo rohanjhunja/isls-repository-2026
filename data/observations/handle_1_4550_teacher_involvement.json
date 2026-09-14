@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4550",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"A pilot study was run with a small group of in-service teachers to test a collaborative design with an eye to how the design will scale to a full MOOC.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4550",
+      "supporting_text": "A pilot study was run with a small group of in-service teachers to test a collaborative design with an eye to how the design will scale to a full MOOC."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

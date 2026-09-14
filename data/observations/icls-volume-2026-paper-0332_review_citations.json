@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0332",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Barsalou, L. W. (2008). Grounded cognition. Annual Review of Psychology , 59(1), 617-645.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0332",
+      "supporting_text": "Barsalou, L. W. (2008). Grounded cognition. Annual Review of Psychology , 59(1), 617-645."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "isls-2024-proceedings-paper-0025",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in References as a socio-cultural framework for activity systems. Evidence: \"Marjanovic- Shane (Eds.), Dancing with the Muses: A cultural - historical activity theory (CHAT) approach to play, meaning-making creativity.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "isls-2024-proceedings-paper-0025",
+      "supporting_text": "Marjanovic- Shane (Eds.), Dancing with the Muses: A cultural - historical activity theory (CHAT) approach to play, meaning-making creativity."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

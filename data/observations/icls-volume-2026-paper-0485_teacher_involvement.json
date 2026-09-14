@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0485",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Situated within a larger project co-designing a high school environmental engineering curriculum with teachers, students, researchers, and environmental educators across 11 sessions focused on the Narmada River in Southern California, this study explores a SF session in which ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0485",
+      "supporting_text": "Situated within a larger project co-designing a high school environmental engineering curriculum with teachers, students, researchers, and environmental educators across 11 sessions focused on the Narmada River in Southern California, this study explores a SF session in which ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

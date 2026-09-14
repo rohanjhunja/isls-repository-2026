@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0337",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Kodinariya, T. M., & Makwana, P. R. (2013). Review on determining number of Cluster in K-Means Clustering. International Journal, 1(6), 90-95. 2276 the 2020 CHI Conference on Human Factors in Computing Systems, 1\u201316. | Vossoughi, S., Marin, A., & Bang, M. (2023). Toward Just and Sustainable Futures: Human Learning and Relatio nality Within Socio-Ecological Systems. Review of Research in Education, 47(1), 218\u2013273.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0337",
+      "supporting_text": "Kodinariya, T. M., & Makwana, P. R. (2013). Review on determining number of Cluster in K-Means Clustering. International Journal, 1(6), 90-95. 2276 the 2020 CHI Conference on Human Factors in Computing Systems, 1\u201316. | Vossoughi, S., Marin, A., & Bang, M. (2023). Toward Just and Sustainable Futures: Human Learning and Relatio nality Within Socio-Ecological Systems. Review of Research in Education, 47(1), 218\u2013273."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

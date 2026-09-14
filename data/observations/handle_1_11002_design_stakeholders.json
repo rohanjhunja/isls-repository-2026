@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11002",
+  "property_id": "design_stakeholders",
+  "property_version": "1.0.0",
+  "value": "Elementary Students & Children; Educational Researchers & Designers; Community Members & Partners; School Administrators & Leaders",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11002",
+      "supporting_text": "Identified stakeholders in targeted sections (abstract, method, discussion): Elementary Students & Children; Educational Researchers & Designers; Community Members & Partners; School Administrators & Leaders"
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_design_stakeholders_20260912",
+  "source_version": "1.0.0"
+}

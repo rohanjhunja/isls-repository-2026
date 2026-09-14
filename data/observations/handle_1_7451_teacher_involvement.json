@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7451",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Through a co-design approach, researchers and practitioners from an urban school district in the US developed an 8-week secondary biology unit on ecosystems aligned to reforms in the US, namely the Framework for K-12 Science Education (Framework; NRC, 2012).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7451",
+      "supporting_text": "Through a co-design approach, researchers and practitioners from an urban school district in the US developed an 8-week secondary biology unit on ecosystems aligned to reforms in the US, namely the Framework for K-12 Science Education (Framework; NRC, 2012)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

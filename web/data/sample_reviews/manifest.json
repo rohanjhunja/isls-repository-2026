@@ -1,0 +1,35 @@
+[
+  {
+    "id": "sample_chat_activity_theory",
+    "name": "Activity Theory & CHAT in CSCL",
+    "description": "Curated 20-paper sample analyzing mediated action and expansive learning with 2 unique columns: CHAT Application & Methodological Lens.",
+    "paper_count": 20,
+    "file": "sample_chat_activity_theory.json",
+    "unique_columns": [
+      "chat_usage",
+      "methodological_lens"
+    ]
+  },
+  {
+    "id": "sample_teachers_codesign",
+    "name": "Teachers in Co-Design & Participatory Environments",
+    "description": "Curated 20-paper sample on educator agency with 2 unique columns: Teacher Involvement & Design Stakeholders.",
+    "paper_count": 20,
+    "file": "sample_teachers_codesign.json",
+    "unique_columns": [
+      "teacher_involvement",
+      "design_stakeholders"
+    ]
+  },
+  {
+    "id": "sample_systematic_reviews",
+    "name": "Systematic Reviews & Meta-Syntheses (2016\u20132026)",
+    "description": "Curated 20-paper sample on review methodologies with 2 unique columns: Databases Searched & ~50-Word Synthesis.",
+    "paper_count": 20,
+    "file": "sample_systematic_reviews.json",
+    "unique_columns": [
+      "databases_searched",
+      "summary"
+    ]
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0062",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"We learned that an effective scaffolding for real -world teaching and learning should have its characteristics of a low floor, high ceiling and wide wall (Chen et al.\" | \"Perspectives from the Field: Scaffolding Peer Critique and Feedback Christian Schunn This symposium serves as a platform for in-depth discussions about how we scaffold students in giving and receiving peer critique and feedback.\" | \"Introduction Perspectives from the Field: Scaffolding Peer Critique and Feedback Christian Schunn, University of Pittsburgh, schunn@pitt.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0062",
+      "supporting_text": "**Direct Callouts & Context**: \"We learned that an effective scaffolding for real -world teaching and learning should have its characteristics of a low floor, high ceiling and wide wall (Chen et al.\" | \"Perspectives from the Field: Scaffolding Peer Critique and Feedback Christian Schunn This symposium serves as a platform for in-depth discussions about how we scaffold students in giving and receiving peer critique and feedback.\" | \"Introduction Perspectives from the Field: Scaffolding Peer Critique and Feedback Christian Schunn, University of Pittsburgh, schunn@pitt.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

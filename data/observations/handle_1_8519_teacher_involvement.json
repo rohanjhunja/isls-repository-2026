@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8519",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Educators that join CALE are presented with a pedagogical framework for critical action education, and a platform for peer support in the form of an online community for collaborative design, implementation, exchange, and advancement of curriculum that empowers students as age...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8519",
+      "supporting_text": "Educators that join CALE are presented with a pedagogical framework for critical action education, and a platform for peer support in the form of an online community for collaborative design, implementation, exchange, and advancement of curriculum that empowers students as age..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

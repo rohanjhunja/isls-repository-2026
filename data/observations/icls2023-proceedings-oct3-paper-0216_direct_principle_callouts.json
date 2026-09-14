@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0216",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"P articipants engaged in code debugging without scaffolding followed by a consolidation phase.\" | \"Implementation of the curriculum followed the Productive Failure learning design where in Phase I, students generated multiple solutions to coding problems without scaffolding and direct instruction, and Phase II consisted of facilitator feedback and discussions of optimal solutions.\" | \"Students then worked individually on generating multiple solutions to each debugging problem without scaffolding and direct instruction.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0216",
+      "supporting_text": "**Direct Callouts & Context**: \"P articipants engaged in code debugging without scaffolding followed by a consolidation phase.\" | \"Implementation of the curriculum followed the Productive Failure learning design where in Phase I, students generated multiple solutions to coding problems without scaffolding and direct instruction, and Phase II consisted of facilitator feedback and discussions of optimal solutions.\" | \"Students then worked individually on generating multiple solutions to each debugging problem without scaffolding and direct instruction.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

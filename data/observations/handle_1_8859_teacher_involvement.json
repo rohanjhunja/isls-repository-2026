@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8859",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Next, we review the traditional approach to design processes that persistently informs design in pre-service teacher programs, school districts/jurisdiction, and learni ng environments. We then discuss two alternative persp ectives on educational design and research that are i...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8859",
+      "supporting_text": "Next, we review the traditional approach to design processes that persistently informs design in pre-service teacher programs, school districts/jurisdiction, and learni ng environments. We then discuss two alternative persp ectives on educational design and research that are i..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

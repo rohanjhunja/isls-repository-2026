@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0036",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"In addition to an NLP algorithm to automatically assess students\u2019 essays, we also designed (i) feedback that was easier for students to understand; (ii) participatory structures in the classroom focusing on reflection, peer review and discussion, and (iii) scaffolding by teachers to help students understand the feedback.\" | \"Building on theories of distributed intelligence ( Pea, 1997), distributed and synergistic scaffolding (Puntambekar, 2022; Tabak, 2004), and research in classroom participatory structures (e.\" | \"To complement the automat ed assessment from PyrEval, we designed (i) feedback that was easier for students to understand; (ii) participatory structures in the classroom 234 focus ing on reflection, peer review, and discussion; and (iii) scaffolding by teachers to help students understand the feedback.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0036",
+      "supporting_text": "**Direct Callouts & Context**: \"In addition to an NLP algorithm to automatically assess students\u2019 essays, we also designed (i) feedback that was easier for students to understand; (ii) participatory structures in the classroom focusing on reflection, peer review and discussion, and (iii) scaffolding by teachers to help students understand the feedback.\" | \"Building on theories of distributed intelligence ( Pea, 1997), distributed and synergistic scaffolding (Puntambekar, 2022; Tabak, 2004), and research in classroom participatory structures (e.\" | \"To complement the automat ed assessment from PyrEval, we designed (i) feedback that was easier for students to understand; (ii) participatory structures in the classroom 234 focus ing on reflection, peer review, and discussion; and (iii) scaffolding by teachers to help students understand the feedback.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

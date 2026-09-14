@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0173",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"We highlight AI\u2019s affordance as a collaborative refinement tool: not replacing human coders, but scaffolding transparency, comparability, and\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0173",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"We highlight AI\u2019s affordance as a collaborative refinement tool: not replacing human coders, but scaffolding transparency, comparability, and\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

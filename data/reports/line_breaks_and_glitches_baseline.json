@@ -1,0 +1,1167 @@
+{
+  "timestamp": "2026-09-12T22:18:19.114115",
+  "report_name": "baseline",
+  "total_papers": 5402,
+  "total_broken_citations": 26739,
+  "papers_with_broken_citations": 4023,
+  "total_trailing_connectors": 219847,
+  "total_mid_sentence_breaks": 511231,
+  "papers_with_mid_sentence_breaks": 4387,
+  "total_punct_space_issues": 66835,
+  "total_kerning_glitches": 16125,
+  "sample_flagged_papers": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0005",
+      "broken_citations_count": 2,
+      "broken_citations": [
+        {
+          "section": "Abstract",
+          "para_index": 0,
+          "p1_tail": "ard, 23(3), 6-12. Healthcare, and Higher Education (pp. 3253",
+          "p2_head": "Chen, B., Resendes, M., Chai, C. S., & Hong, H. Y. (2018). T",
+          "reason": "unclosed_parenthesis"
+        },
+        {
+          "section": "Abstract",
+          "para_index": 1,
+          "p1_tail": "analysis. Jurnal Penelitian Pendidikan IPA, 9(4), 2103-2109.",
+          "p2_head": "Engle, R. A. (2012). The productive disciplinary engagement ",
+          "reason": "unclosed_parenthesis"
+        }
+      ],
+      "trailing_connectors_count": 3,
+      "trailing_connectors": [
+        {
+          "section": "Abstract",
+          "para_index": 2,
+          "p1_tail": "isciplinary engagement framework: Origins, key concepts, and",
+          "p2_head": "developments. Design research on learning and thinking in ed",
+          "reason": "trailing_preposition_and"
+        },
+        {
+          "section": "Abstract",
+          "para_index": 4,
+          "p1_tail": "Learning. State Education Standard, 23(3), 6-12. Healthcare,",
+          "p2_head": "and Higher Education (pp. 3253-3261). Vancouver, BC: Associa"
+        },
+        {
+          "section": "Abstract",
+          "para_index": 6,
+          "p1_tail": "from the National Science Foundation (NSF) under Grant DRL -",
+          "p2_head": "2112635. Any opinions, findings, and conclusions expressed i"
+        }
+      ],
+      "mid_sentence_breaks_count": 3,
+      "mid_sentence_breaks": [
+        {
+          "section": "Abstract",
+          "para_index": 2,
+          "p1_tail": "isciplinary engagement framework: Origins, key concepts, and",
+          "p2_head": "developments. Design research on learning and thinking in ed"
+        },
+        {
+          "section": "Abstract",
+          "para_index": 4,
+          "p1_tail": "Learning. State Education Standard, 23(3), 6-12. Healthcare,",
+          "p2_head": "and Higher Education (pp. 3253-3261). Vancouver, BC: Associa"
+        },
+        {
+          "section": "Abstract",
+          "para_index": 7,
+          "p1_tail": "pressed in this material are those of the authors and do not",
+          "p2_head": "necessarily reflect the views of the NSF."
+        }
+      ],
+      "punct_space_issues_count": 10,
+      "kerning_glitches_count": 0,
+      "kerning_glitches": []
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0010",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 5,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Discussion",
+          "glitch": "indivi dual",
+          "target": "individual",
+          "snippet": "icitly theorize how indivi dual learner -AI interac"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0014",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 11,
+      "kerning_glitches_count": 5,
+      "kerning_glitches": [
+        {
+          "section": "discussions and demonstrated the flow of discussions. For example, the teacher showed that students firstly",
+          "glitch": "understan ding",
+          "target": "understanding",
+          "snippet": "nal experiences\nand understan ding\nreferring to course"
+        },
+        {
+          "section": "methods described by Shaffer et al. (2016). In this study, we sought to analyze the extent to which students",
+          "glitch": "u nderstanding",
+          "target": "understanding",
+          "snippet": "different epistemic u nderstanding levels, we investig"
+        },
+        {
+          "section": "methods described by Shaffer et al. (2016). In this study, we sought to analyze the extent to which students",
+          "glitch": "u nderstanding",
+          "target": "understanding",
+          "snippet": "tudents\u2019\nepistemic  u nderstanding shaped their shared"
+        },
+        {
+          "section": "methods described by Shaffer et al. (2016). In this study, we sought to analyze the extent to which students",
+          "glitch": "understa nding",
+          "target": "understanding",
+          "snippet": "levels of epistemic\nundersta nding exhibited different"
+        },
+        {
+          "section": "methods described by Shaffer et al. (2016). In this study, we sought to analyze the extent to which students",
+          "glitch": "understan ding",
+          "target": "understanding",
+          "snippet": "-ip\nCreating shared understan ding Sharing information"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0015",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 8,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Analysis was conducted using ATLAS.ti (Derry et al., 2010) to identify patterns in audiovisual data. A",
+          "glitch": "appro aches",
+          "target": "approaches",
+          "snippet": "ervice and new team appro aches\ndeveloped through r"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0017",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 41,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "P edagogical",
+          "target": "pedagogical",
+          "snippet": "& Dettmers, 2017).  P edagogical support is needed t"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0019",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 6,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "analysis, critique, or proposal.",
+          "glitch": "col laborative",
+          "target": "collaborative",
+          "snippet": "ugmentation tool in col laborative\nsettings, extending"
+        },
+        {
+          "section": "Conclusion",
+          "glitch": "st udents",
+          "target": "students",
+          "snippet": "ts demonstrate that st udents function as primary"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0022",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 14,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "in teractions",
+          "target": "interactions",
+          "snippet": "dividuals in social in teractions. According to the t"
+        },
+        {
+          "section": "Introduction",
+          "glitch": "st udents",
+          "target": "students",
+          "snippet": "cit anxiety in some st udents, which can be negat"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0024",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 11,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "stude nt",
+          "target": "student",
+          "snippet": "erm is found in the stude nt-generated content. "
+        },
+        {
+          "section": "Results of the Semantic Analysis Using the Proposed Tool",
+          "glitch": "stu dents",
+          "target": "students",
+          "snippet": ", informal language stu dents bring to the discus"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0027",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 53,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "i ndividual",
+          "target": "individual",
+          "snippet": "ideas conflict with i ndividual\u2019s existing understa"
+        },
+        {
+          "section": "Introduction",
+          "glitch": "St udents",
+          "target": "students",
+          "snippet": "993;\nClarke, 2016). St udents vary in how they co"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0029",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 13,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Data collection",
+          "glitch": "qual itative",
+          "target": "qualitative",
+          "snippet": "rrelating them with qual itative post- implementatio"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0030",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 20,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Conclusions",
+          "glitch": "collabor ative",
+          "target": "collaborative",
+          "snippet": "tates, we show that collabor ative emotion regulation "
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0031",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 1,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "collaborat ion",
+          "target": "collaboration",
+          "snippet": " the quality of the collaborat ion.\nResearch on human\u2013"
+        },
+        {
+          "section": "Methods",
+          "glitch": "collabora tion",
+          "target": "collaboration",
+          "snippet": " broader notions of collabora tion, such as attentive "
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0033",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 8,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "References",
+          "glitch": "Learn ing",
+          "target": "learning",
+          "snippet": "kit -learn: Machine Learn ing in Python. Journal "
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0034",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 12,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "analysis can inform how examiners systematically interpret the assessment conversation. The goal with the current",
+          "glitch": "collabor ation",
+          "target": "collaboration",
+          "snippet": "pace can facilitate collabor ation among\nstakeholders,"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0036",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 16,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "colla boration",
+          "target": "collaboration",
+          "snippet": "n class  across six colla boration dimensions,\nachievi"
+        },
+        {
+          "section": "Conclusions",
+          "glitch": "studen ts",
+          "target": "students",
+          "snippet": "reflective prompts, studen ts monitored their soc"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0037",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 15,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "l earning",
+          "target": "learning",
+          "snippet": "ment to examine\nhow l earning analytics-supported"
+        },
+        {
+          "section": "Methods",
+          "glitch": "indivi dual",
+          "target": "individual",
+          "snippet": "nts, capturing both indivi dual\nand group-level str"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0039",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 4,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "stude nts",
+          "target": "students",
+          "snippet": "nstraints can limit stude nts\u2019 spatial reasoning "
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0042",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 12,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "understan ding",
+          "target": "understanding",
+          "snippet": "nd may regard their understan ding\nas sufficient; only"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0046",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 5,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Results and discussion",
+          "glitch": "pedagogic al",
+          "target": "pedagogical",
+          "snippet": "s noted above, AI's pedagogic al function\n\"depends o"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0047",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 10,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "methods can enrich literature reviews by revealing systemic interactions that would remain invisible in traditional",
+          "glitch": "colla boration",
+          "target": "collaboration",
+          "snippet": "ation- as-a-window, colla boration-for-distal-outcomes"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0048",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 25,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "collaborati on",
+          "target": "collaboration",
+          "snippet": "communities through collaborati on experiments, self -"
+        },
+        {
+          "section": "Introduction",
+          "glitch": "stu dents",
+          "target": "students",
+          "snippet": "ol. In our context, stu dents function as agents "
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0049",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 35,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Conclusion",
+          "glitch": "s tudents",
+          "target": "students",
+          "snippet": "ncy pairings on EFL s tudents' writing\nability in"
+        },
+        {
+          "section": "References",
+          "glitch": "e ducational",
+          "target": "educational",
+          "snippet": " and p erception of e ducational GenAI chatbot in h "
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0050",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 6,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "indi vidual",
+          "target": "individual",
+          "snippet": "ion, followed by an indi vidual posttest with the s"
+        },
+        {
+          "section": "Discussion",
+          "glitch": "stud ents",
+          "target": "students",
+          "snippet": "Japanese university stud ents in a short-term exp"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0051",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 25,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Methods",
+          "glitch": "s tudents",
+          "target": "students",
+          "snippet": " problems, in which s tudents alternate between i"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0052",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 14,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Background",
+          "glitch": "techno logy",
+          "target": "technology",
+          "snippet": "ractices that guide techno logy integration. AI exe"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0054",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 12,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Background and motivation",
+          "glitch": "col laboration",
+          "target": "collaboration",
+          "snippet": " However, effective col laboration requires\ncoordinati"
+        },
+        {
+          "section": "Background and motivation",
+          "glitch": "collaborati on",
+          "target": "collaboration",
+          "snippet": " jigsaw can promote collaborati on (Roseth et al., 201"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0057",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 19,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "learn ing",
+          "target": "learning",
+          "snippet": "ement reflects deep learn ing strategies; and soc"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0059",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 5,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "le arning",
+          "target": "learning",
+          "snippet": "vidual emotions and le arning outcomes.\nHowever, "
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0060",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 5,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Discussion and conclusion",
+          "glitch": "e xploration",
+          "target": "exploration",
+          "snippet": "a appears to foster e xploration of alternative\nappr"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0061",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 8,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction and theoretical background",
+          "glitch": "learn ing",
+          "target": "learning",
+          "snippet": "trajectory of their learn ing (Ecker et al., 2022"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0063",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 13,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Methodology",
+          "glitch": "pa rticipants",
+          "target": "participants",
+          "snippet": "imulation scenario, pa rticipants were given three mi"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0066",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 14,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "educati onal",
+          "target": "educational",
+          "snippet": "authentic issues in educati onal practice. Building "
+        },
+        {
+          "section": "Findings",
+          "glitch": "l earning",
+          "target": "learning",
+          "snippet": "3 %), principles of l earning design (6.22 %), an"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0067",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 21,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "Collab orative",
+          "target": "collaborative",
+          "snippet": "ith these chances . Collab orative learning does not\na"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0070",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 12,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Results",
+          "glitch": "i nteractions",
+          "target": "interactions",
+          "snippet": "tioned within group i nteractions, specifically, whet"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0075",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 5,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction and background",
+          "glitch": "collabo ration",
+          "target": "collaboration",
+          "snippet": "hers fosters better collabo ration and coordination,  "
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0078",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 18,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "collab oration",
+          "target": "collaboration",
+          "snippet": "natory talk\nanchors collab oration, task -grounding an"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0080",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 4,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "stude nts",
+          "target": "students",
+          "snippet": " Findings show that stude nts\ntreated AI as a res"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0081",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 17,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "c ollaborative",
+          "target": "collaborative",
+          "snippet": "While c ollaborative learning is a widel"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0082",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 9,
+      "kerning_glitches_count": 2,
+      "kerning_glitches": [
+        {
+          "section": "Methods",
+          "glitch": "stu dents",
+          "target": "students",
+          "snippet": "er\nthe CM activity, stu dents undertake an engine"
+        },
+        {
+          "section": "References",
+          "glitch": "Collaborati ve",
+          "target": "collaborative",
+          "snippet": "Computer -Supported Collaborati ve Learning -CSCL 2025"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0089",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 9,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Findings from this study highlight a clear range in how teachers understood and used SEPs. Some, like Hank and",
+          "glitch": "E ducational",
+          "target": "educational",
+          "snippet": "uctures for growth. E ducational\ninstitutions must p"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0091",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 24,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "methods and values alternative method s as different lenses. Each methodological lens has its own depth, scale,",
+          "glitch": "lea rning",
+          "target": "learning",
+          "snippet": "uthoritarianism. As lea rning\nscientists, we must"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0092",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 14,
+      "kerning_glitches_count": 3,
+      "kerning_glitches": [
+        {
+          "section": "Background and rationale",
+          "glitch": "collabora tive",
+          "target": "collaborative",
+          "snippet": "did GenAI- enhanced collabora tive reflective assessme"
+        },
+        {
+          "section": "Background and rationale",
+          "glitch": "lear ning",
+          "target": "learning",
+          "snippet": "I (GenAI literacy), lear ning from GenAI\n(GenAI a"
+        },
+        {
+          "section": "Findings and implications: The study is currently in progress as part of an ongoing design-based research",
+          "glitch": "Part icipants",
+          "target": "participants",
+          "snippet": "nces, and industry. Part icipants demonstrated their\n"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0096",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 4,
+      "kerning_glitches_count": 3,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "coll aborative",
+          "target": "collaborative",
+          "snippet": "obustly reveal that coll aborative conflicts propagate"
+        },
+        {
+          "section": "Introduction and research objectives",
+          "glitch": "C ollaborative",
+          "target": "collaborative",
+          "snippet": "C ollaborative learning is a criti"
+        },
+        {
+          "section": "Introduction and research objectives",
+          "glitch": "collabor ative",
+          "target": "collaborative",
+          "snippet": "ed i n a 7th-gr ade collabor ative design class ( N= 4"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0100",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 10,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Findings",
+          "glitch": "C ollaboration",
+          "target": "collaboration",
+          "snippet": "the focus of CSCL. \u2018C ollaboration\u2019 has the\nhighest te"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0102",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 9,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "References",
+          "glitch": "T echnology",
+          "target": "technology",
+          "snippet": "ch and P ractice in T echnology Enhanced Learning, "
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0107",
+      "broken_citations_count": 1,
+      "broken_citations": [
+        {
+          "section": "Abstract",
+          "para_index": 1,
+          "p1_tail": ": Four essays  (C. Emerson & M. Holquist, Eds.; M. Holquist,",
+          "p2_head": "Trans.). University of Texas Press.",
+          "reason": "unclosed_parenthesis"
+        }
+      ],
+      "trailing_connectors_count": 3,
+      "trailing_connectors": [
+        {
+          "section": "Abstract",
+          "para_index": 4,
+          "p1_tail": "fluence general intelligence and its cognitive components? A",
+          "p2_head": "reassessment of the evidence. Developmental Psychology, 27(5",
+          "reason": "trailing_preposition_a"
+        },
+        {
+          "section": "References & Back Matter",
+          "para_index": 2,
+          "p1_tail": "objectively determined and measured. The American Journal of",
+          "p2_head": "Psychology, 15(2), 201\u2013293.",
+          "reason": "trailing_preposition_of"
+        },
+        {
+          "section": "References & Back Matter",
+          "para_index": 5,
+          "p1_tail": "ogy: Expanding the space of learning . Springer. This is the",
+          "p2_head": "likely source if you intend to support the citation currentl",
+          "reason": "trailing_preposition_the"
+        }
+      ],
+      "mid_sentence_breaks_count": 1,
+      "mid_sentence_breaks": [
+        {
+          "section": "Abstract",
+          "para_index": 4,
+          "p1_tail": "fluence general intelligence and its cognitive components? A",
+          "p2_head": "reassessment of the evidence. Developmental Psychology, 27(5"
+        }
+      ],
+      "punct_space_issues_count": 12,
+      "kerning_glitches_count": 0,
+      "kerning_glitches": []
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0110",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 18,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "s tudents",
+          "target": "students",
+          "snippet": " iteration in 2023, s tudents engaged in open -en"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0113",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 13,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Introduction",
+          "glitch": "s tudent",
+          "target": "student",
+          "snippet": "thinking quality in s tudent-AI learning interac"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0123",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 3,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Methods",
+          "glitch": "analys is",
+          "target": "analysis",
+          "snippet": "at the quantitative analys is identified was unco"
+        }
+      ]
+    },
+    {
+      "paper_id": "cscl-volume-2026-paper-0124",
+      "broken_citations_count": 0,
+      "broken_citations": [],
+      "trailing_connectors_count": 0,
+      "trailing_connectors": [],
+      "mid_sentence_breaks_count": 0,
+      "mid_sentence_breaks": [],
+      "punct_space_issues_count": 0,
+      "kerning_glitches_count": 1,
+      "kerning_glitches": [
+        {
+          "section": "Methodology",
+          "glitch": "collabo rative",
+          "target": "collaborative",
+          "snippet": "instruction without collabo rative technology tools. S"
+        }
+      ]
+    }
+  ]
+}

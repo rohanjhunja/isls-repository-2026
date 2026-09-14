@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISLS Research Repository & Agentic Review System (2016–2026)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cover.css">
+</head>
+<body>
+
+  <!-- Floating Sticky Header -->
+  <header class="cover-header" id="coverHeader">
+    <a href="/" class="header-brand">
+      <div class="header-logo-icon" aria-label="ISLS Violin Chart Logo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="12" y1="2" x2="12" y2="22" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+          <path d="M 12 3 C 16 4.5 17.5 6.5 17.5 8.5 C 17.5 11 15 12.5 14 13.5 C 13 14.5 16.5 15.5 16.5 17.5 C 16.5 19.5 14.5 21 12 21 C 9.5 21 7.5 19.5 7.5 17.5 C 7.5 15.5 11 14.5 10 13.5 C 9 12.5 6.5 11 6.5 8.5 C 6.5 6.5 8 4.5 12 3 Z" fill="rgba(255, 255, 255, 0.28)" stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round"/>
+          <line x1="12" y1="9" x2="12" y2="16" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+          <circle cx="12" cy="13" r="1.2" fill="#1d4ed8"/>
+        </svg>
+      </div>
+      <div class="header-title-group">
+        <span class="header-main-title">ISLS Research Repository & Agentic Review System</span>
+        <span class="header-sub-tag">2016–2026 • 5,402 PAPERS • FULL-TEXT CORPUS</span>
+      </div>
+    </a>
+
+    <nav class="header-nav">
+      <a href="./viewer.html" class="header-link">Review Viewer</a>
+      <a href="./overview.html" class="header-link">10-Year Observatory</a>
+      <a href="#local-setup" class="header-btn-setup" title="Jump to 1-Click Local Setup Guide">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        <span>Get Local Setup</span>
+      </a>
+      <button class="header-btn-cite" id="headerCiteBtn" title="Copy APA 7 Citation">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        <span>Cite (APA)</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero Section: Luminous Pastel Canvas with Focal Silhouette Crowd -->
+  <section class="hero-section" id="heroSection">
+    <div class="hero-backdrop-blur"></div>
+
+    <!-- Top-Right Info Badge Explaining the Beautiful Paper Outliers Visual -->
+    <div class="hero-info-wrapper" id="heroInfoWrapper">
+      <button class="hero-info-btn" id="heroInfoBtn" aria-label="About the Beautiful Paper Outliers data art visual" title="About the data art">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"></circle>
+          <line x1="12" y1="16" x2="12" y2="12"></line>
+          <line x1="12" y1="8" x2="12.01" y2="8"></line>
+        </svg>
+        <span>Data art</span>
+      </button>
+
+      <div class="hero-info-popover" id="heroInfoPopover">
+        <div class="hero-info-header">
+          <span class="hero-info-badge">DATA ART</span>
+          <button class="hero-info-close" id="heroInfoCloseBtn" aria-label="Close guide">&times;</button>
+        </div>
+        <h4 class="hero-info-title">The Beautiful Paper Outliers</h4>
+        <p class="hero-info-desc">
+          The silhouettes in this crowd represent 20 outlier papers in terms of section length.
+        </p>
+        <p class="hero-info-desc">
+          The shapes here are violin plots plotting word counts across sections — Introduction, Methodology, Results and Discussion, as widths.
+        </p>
+        <div class="hero-info-footer">
+          <a href="./overview.html#sec-beautiful-papers" class="hero-info-link">
+            <span>Explore in 10-Year Observatory</span>
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Center-Aligned Hero Content Block -->
+    <div class="hero-center-content">
+      <div class="hero-kicker-tag">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+        <span>ISLS 2016 – 2026 • 10 YEARS OF RESEARCH</span>
+      </div>
+
+      <h1 class="hero-headline">
+        10 Years of ISLS Research
+      </h1>
+
+      <p class="hero-subhead">
+        Agent-ready unified repository of 10 years of ISLS, CSCL and ICLS conference proceedings (2016–2026).
+      </p>
+
+      <!-- Single Action: Always Visible in First Fold -->
+      <div class="hero-cta-single">
+        <a href="#project-overview" class="btn-hero-scroll">
+          <span>Scroll Down to Project Overview</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+        </a>
+      </div>
+
+      <div class="hero-sub-kicker">
+        5,402 PAPERS • 8,884 AUTHORS • FULL-TEXT CORPUS
+      </div>
+    </div>
+
+    <!-- The 20 Outlier Pastel Silhouette Crowd Stage -->
+    <div class="hero-stage-container">
+      <div class="silhouette-crowd-stage" id="crowdStage">
+        <!-- Dynamically populated with 20 pastel outlier paper figures in perspective depth -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Hover HUD Popover for Silhouette Figures -->
+  <div class="hud-popover" id="hudPopover">
+    <!-- Populated dynamically on figure hover -->
+  </div>
+
+  <!-- The Three Core Pillars of the System (With Real Screenshots) -->
+  <main class="content-container" id="project-overview">
+    <span class="section-kicker">Project Overview</span>
+    <h2 class="section-title">What the Project Includes</h2>
+    <p class="section-desc">
+      A researcher-first review system bridging large-scale literature reviews, agentic workflows, and conference group macro analytics.
+    </p>
+
+    <div class="pillars-grid">
+      <!-- Pillar 1: Full-Text Query System -->
+      <a href="#system-description" class="pillar-card">
+        <div>
+          <div class="pillar-screenshot-wrap">
+            <img src="assets/screenshot_query.png" alt="10-Year Full-Text Query System Screenshot" class="pillar-screenshot pillar-screenshot-contain" />
+          </div>
+          <h3 class="pillar-heading">10-Year Full-Text Query System</h3>
+          <p class="pillar-body">
+            Search across 5,402 conference papers from ISLS, CSCL, and ICLS (2016–2026). Slices papers into canonical sections for instant keyword and section-targeted retrieval.
+          </p>
+        </div>
+        <div class="pillar-footer-action">
+          <span>Scroll to System Architecture</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+        </div>
+      </a>
+
+      <!-- Pillar 2: AI Agent Literature Review Organiser -->
+      <a href="./viewer.html" class="pillar-card">
+        <div>
+          <div class="pillar-screenshot-wrap">
+            <img src="assets/screenshot_viewer.png" alt="Literature Review Organiser Screenshot" class="pillar-screenshot" />
+          </div>
+          <h3 class="pillar-heading">Literature Review Organiser for AI Agents</h3>
+          <p class="pillar-body">
+            Interactive review workspace designed for human-agent collaboration. Launch fast dipstick title sweeps, build structured extraction matrices, and inspect full papers.
+          </p>
+        </div>
+        <div class="pillar-footer-action">
+          <span>Launch Review Viewer</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </div>
+      </a>
+
+      <!-- Pillar 3: 10-Year Overview Observatory -->
+      <a href="./overview.html" class="pillar-card">
+        <div>
+          <div class="pillar-screenshot-wrap">
+            <img src="assets/screenshot_overview.png" alt="10-Year Research Observatory Screenshot" class="pillar-screenshot" />
+          </div>
+          <h3 class="pillar-heading">10-Year Research Observatory</h3>
+          <p class="pillar-body">
+            An interactive visualisation of a decade of Learning Sciences research. See thematic trends across 3 conferences and citation clusters.
+          </p>
+        </div>
+        <div class="pillar-footer-action">
+          <span>Explore Observatory</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <!-- Detailed System Description -->
+  <section class="system-desc-section" id="system-description">
+    <div class="content-container" style="padding:0;">
+      <span class="section-kicker">System Architecture</span>
+      <h2 class="section-title">System Description & Design Foundation</h2>
+      <p class="section-desc">
+        This walks through how the system solves fundamental friction points of large-scale literature synthesis: token wastage, black-box search results, and missing reproducible review protocols.
+      </p>
+
+      <!-- Sub-block 1: Objective of the project -->
+      <div class="desc-sub-block">
+        <h3 class="desc-block-title">Objectives of the Project</h3>
+        <p class="desc-block-subtitle">Here’s the three foundational goals guiding the system architecture and workflow design.</p>
+
+        <div class="objectives-grid">
+          <div class="objective-card">
+            <div class="objective-visual">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
+            </div>
+            <h4 class="objective-title">Enable Deep and Wide Literature Reviews</h4>
+            <p class="objective-desc">
+              Moves beyond title and abstract scanning. Enabling researchers to screen 100% of paper text in seconds. Agentic capabilities allow researchers to compose complex search queries and exclusion criteria easily - going beyond the User Interface affordances of most common search indexes.
+            </p>
+          </div>
+
+          <div class="objective-card">
+            <div class="objective-visual">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+            </div>
+            <h4 class="objective-title">Support New Entrants to ISLS</h4>
+            <p class="objective-desc">
+              The system is designed to support graduate students and cross-disciplinary newcomers in quickly getting a wide snapshot of their learning science interests. The project also helps new writers get a sense of word budgets and commonly used section structures across ISLS published research.
+            </p>
+          </div>
+
+          <div class="objective-card">
+            <div class="objective-visual">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4"></path><path d="M12 18v4"></path><path d="M4.93 4.93l2.83 2.83"></path><path d="M16.24 16.24l2.83 2.83"></path><path d="M2 12h4"></path><path d="M18 12h4"></path><path d="M4.93 19.07l2.83-2.83"></path><path d="M16.24 7.76l2.83-2.83"></path></svg>
+            </div>
+            <h4 class="objective-title">Explore Limits of Agentic Protocols</h4>
+            <p class="objective-desc">
+              This project tests how autonomous AI agents can execute rigorous qualitative and quantitative literature review protocols. We explore the balance between generative output and deterministic code.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub-block 2: Advances from Current Databases & Tools (Cards in a Row) -->
+      <div class="desc-sub-block">
+        <h3 class="desc-block-title">Advances Beyond Current Tools</h3>
+        <p class="desc-block-subtitle">Key technical advancements solving systemic gaps in official proceedings discovery.</p>
+
+        <div class="advances-cards-row">
+          <!-- Advance Card 1 -->
+          <div class="advance-row-card">
+            <div>
+              <span class="advance-lead-badge">ADVANCE 01</span>
+              <h4 class="advance-lead-heading">Full-Text and Canonical Section Search</h4>
+              <p class="advance-lead-text">
+                Researchers can immediately find papers with target keywords across the full text. They can also identify where keyword matches are found across canonical paper section, offering clearer relevancy.
+              </p>
+            </div>
+            <div class="advance-gap-box">
+              <div class="gap-label">THE GAP BRIDGED</div>
+              <p class="gap-text">
+                The standard search on isls.org (September 2026) only indexes paper titles and author abstracts.
+              </p>
+            </div>
+          </div>
+
+          <!-- Advance Card 2 -->
+          <div class="advance-row-card">
+            <div>
+              <span class="advance-lead-badge">ADVANCE 02</span>
+              <h4 class="advance-lead-heading">Token-Frugal Agentic Querying at Scale</h4>
+              <p class="advance-lead-text">
+                The system is engineered for autonomous AI agents to query and synthesize across a 4 Million token repository without hitting context window limits. With structured paper data agents can check for information sequentially without burning tokens.
+              </p>
+            </div>
+            <div class="advance-gap-box">
+              <div class="gap-label">THE GAP BRIDGED</div>
+              <p class="gap-text">
+                Prompting agents to handle large repositories often lead to errors and redundant data handling. The system includes skills defined for agents to access the repository through defined methods and to store data in defined formats - these support researchers with clear research protocols.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub-block 3: Design Principles -->
+      <div class="desc-sub-block">
+        <h3 class="desc-block-title">Design Principles</h3>
+        <p class="desc-block-subtitle">Here are 4 core decisions taken to ensure an intuitive, researcher-first workflow.</p>
+
+        <div class="principles-grid">
+          <div class="principle-card">
+            <div class="principle-num-box">01</div>
+            <div class="principle-content">
+              <h4 class="principle-title">Quick and Dirty Searches First</h4>
+              <p class="principle-body">
+                Give researchers an idea of what exists in the database within seconds. Locally run dipstick scanning filters 5,402 titles and abstracts in &lt; 3 ms, providing immediate feedback before initiating expensive extraction burning tokens.
+              </p>
+            </div>
+          </div>
+
+          <div class="principle-card">
+            <div class="principle-num-box">02</div>
+            <div class="principle-content">
+              <h4 class="principle-title">AI Supercharges Deterministic Methods</h4>
+              <p class="principle-body">
+                Never ask an LLM to generate truth that can be established through code. Agents amplify protocols by expanding search keywords, ranking results based on criteria and excluding papers with clearly reported reasons.
+              </p>
+            </div>
+          </div>
+
+          <div class="principle-card">
+            <div class="principle-num-box">03</div>
+            <div class="principle-content">
+              <h4 class="principle-title">Logically Focus AI for Research</h4>
+              <p class="principle-body">
+                Only pass specific sections of a paper into context based on your protocol. For example, when an agent extracts participant demographics, inject only the Methodology section—never entire proceedings volumes.
+              </p>
+            </div>
+          </div>
+
+          <div class="principle-card">
+            <div class="principle-num-box">04</div>
+            <div class="principle-content">
+              <h4 class="principle-title">Always Record Protocols Towards Replicability</h4>
+              <p class="principle-body">
+                Every literature review retains full audit provenance: exact search keywords, inclusion/exclusion rules, paper identifiers, and verbatim evidence quotes, ensuring scientific peer review and reproducibility.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Walkthrough: Clear Architecture Diagrams -->
+  <section class="content-container" id="walkthrough">
+    <span class="section-kicker">Technical Walkthrough</span>
+    <h2 class="section-title">Data Pipeline & Technical Architecture</h2>
+    <p class="section-desc">
+      Here’s a structural diagram illustrating how raw conference proceedings PDFs are transformed into structured data, accessed through 3 querying modes, and delivered to agentic platforms or displayed in your browser. The system is designed to be run locally and is comprised of Structured Data, an SQLite database + index, Python code, an HTML Web Viewer and Agent Skills.
+    </p>
+
+    <!-- Architecture Diagram 1: Data Pipeline -->
+    <div class="diagram-stage-card">
+      <div class="diagram-header-row">
+        <div>
+          <h3 class="diagram-title">Data Pipeline: Ingestion → Storage &amp; Indexing ↔ Querying Modes → Display</h3>
+          <span class="diagram-caption">Structural data flow, storage blocks, querying speeds, and interaction platforms</span>
+        </div>
+      </div>
+
+      <div class="pipeline-diagram-wrapper">
+        <svg class="pipeline-svg" viewBox="0 0 1024 416" xmlns="http://www.w3.org/2000/svg">
+          <style>
+            text {
+              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            }
+          </style>
+          <defs>
+            <!-- Subtle dot grid pattern -->
+            <pattern id="dotGrid" width="20" height="20" patternUnits="userSpaceOnUse">
+              <circle cx="2" cy="2" r="1" fill="#cbd5e1" opacity="0.6"/>
+            </pattern>
+            <!-- Marker arrowheads -->
+            <marker id="arrowRight" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+              <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#64748b"/>
+            </marker>
+            <marker id="arrowLeft" viewBox="0 0 10 10" refX="3" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+              <path d="M 8 1.5 L 0 5 L 8 8.5 z" fill="#64748b"/>
+            </marker>
+            <!-- Antigravity gradient -->
+            <linearGradient id="agRainbow" x1="0%" y1="100%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#3b82f6"/>
+              <stop offset="25%" stop-color="#06b6d4"/>
+              <stop offset="50%" stop-color="#10b981"/>
+              <stop offset="75%" stop-color="#f59e0b"/>
+              <stop offset="100%" stop-color="#ef4444"/>
+            </linearGradient>
+          </defs>
+
+          <!-- Grid Background -->
+          <rect width="1024" height="416" fill="#f8fafc" rx="12"/>
+          <rect width="1024" height="416" fill="url(#dotGrid)" rx="12"/>
+
+          <!-- COLUMN HEADINGS -->
+          <text x="71" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b" letter-spacing="-0.2">Sources</text>
+          <text x="293" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b" letter-spacing="-0.2">Ingestion</text>
+          <text x="548" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b" letter-spacing="-0.2">Storage &amp; Indexing</text>
+          <text x="804" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b" letter-spacing="-0.2">Query Modes</text>
+          <text x="955" y="42" text-anchor="middle" font-size="17" font-weight="700" fill="#1e293b" letter-spacing="-0.2">User Interface</text>
+
+          <!-- CONNECTOR LINES & LABELS -->
+          <!-- 1. Paper Metadata -> Paper Ground Truth Registry (Split around label) -->
+          <path d="M 124,88 L 170,88" fill="none" stroke="#64748b" stroke-width="1.8" />
+          <text x="300" y="91" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569">Titles, Abstracts, Authors and other metadata</text>
+          <path d="M 430,88 L 476,88" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrowRight)" />
+
+          <!-- 2. Raw Paper PDFs -> Cleaning & Structuring -->
+          <path d="M 124,226 L 172,226 Q 182,226 182,236 L 182,310 Q 182,320 192,320 L 240,320" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrowRight)" />
+
+          <!-- 3. Raw Proceedings PDFs -> Cleaning & Structuring -->
+          <path d="M 124,335 L 240,335" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrowRight)" />
+
+          <!-- 4. Cleaning & Structuring -> Paper Ground Truth Registry (2026 Metadata - Split around label) -->
+          <path d="M 293,290 L 293,118 Q 293,108 303,108 L 345,108" fill="none" stroke="#64748b" stroke-width="1.8" stroke-dasharray="6,4" />
+          <text x="388" y="112" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569">2026 Metadata</text>
+          <path d="M 431,108 L 476,108" fill="none" stroke="#64748b" stroke-width="1.8" stroke-dasharray="6,4" marker-end="url(#arrowRight)" />
+
+          <!-- 5. Cleaning & Structuring -> Paper Section Slices (.md and .json) -->
+          <path d="M 346,335 L 402,335 Q 412,335 412,325 L 412,288 Q 412,278 422,278 L 476,278" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrowRight)" />
+          <text x="408" y="270" text-anchor="middle" font-size="10.5" font-weight="600" fill="#475569">.md and .json</text>
+
+          <!-- 6a. Paper Ground Truth Registry -> SQLite FTS5 Index -->
+          <path d="M 476,128 L 454,128 Q 444,128 444,138 L 444,175 Q 444,185 454,185 L 508,185" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrowRight)" />
+
+          <!-- 6b. Paper Section Slices -> SQLite FTS5 Index -->
+          <path d="M 476,260 L 454,260 Q 444,260 444,250 L 444,215 Q 444,205 454,205 L 508,205" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrowRight)" />
+
+          <!-- 7. Paper Ground Truth Registry -> Dipstick Review -->
+          <path d="M 621,108 L 732,108" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrowRight)" />
+
+          <!-- 8. SQLite FTS5 Index -> Expanded Scope -->
+          <path d="M 621,195 L 732,195" fill="none" stroke="#64748b" stroke-width="1.8" marker-end="url(#arrowRight)" />
+
+          <!-- 9. Dipstick Review -> Saved Reviews (Dashed stack 1) -->
+          <path d="M 732,122 L 672,122 Q 662,122 662,132 L 662,334 Q 662,344 652,344 L 621,344" fill="none" stroke="#64748b" stroke-width="1.8" stroke-dasharray="6,4" marker-end="url(#arrowLeft)" />
+
+          <!-- 10. Expanded Scope -> Saved Reviews (Dashed stack 2) -->
+          <path d="M 732,210 L 690,210 Q 680,210 680,220 L 680,347 Q 680,357 670,357 L 621,357" fill="none" stroke="#64748b" stroke-width="1.8" stroke-dasharray="6,4" marker-end="url(#arrowLeft)" />
+
+          <!-- 11. Saved Reviews <-> Agentic Review (Bidirectional stack 3) -->
+          <path d="M 621,375 L 686,375 Q 696,375 696,365 L 696,327 Q 696,317 706,317 L 732,317" fill="none" stroke="#64748b" stroke-width="1.8" marker-start="url(#arrowLeft)" marker-end="url(#arrowRight)" />
+
+          <!-- COLUMN 1: SOURCES -->
+          <!-- Card 1.1: Paper Metadata -->
+          <g>
+            <rect x="19" y="73" width="105" height="90" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="71" y="104" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Paper Metadata</text>
+            <text x="71" y="122" text-anchor="middle" font-size="10" fill="#475569">(2016-2025)</text>
+            <text x="71" y="138" text-anchor="middle" font-size="10" fill="#475569">(DSpace API)</text>
+          </g>
+
+          <!-- Card 1.2: Raw Paper PDFs -->
+          <g>
+            <rect x="19" y="182" width="105" height="90" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="71" y="213" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Raw Paper PDFs</text>
+            <text x="71" y="231" text-anchor="middle" font-size="10" fill="#475569">(2016-2025)</text>
+            <text x="71" y="247" text-anchor="middle" font-size="10" fill="#475569">(DSpace API)</text>
+          </g>
+
+          <!-- Card 1.3: Raw Proceedings PDFs (2026) -->
+          <g>
+            <rect x="19" y="290" width="105" height="90" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="71" y="318" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Raw Proceedings</text>
+            <text x="71" y="334" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">PDFs (2026)</text>
+            <text x="71" y="352" text-anchor="middle" font-size="10" fill="#475569">(Conference Site)</text>
+          </g>
+
+          <!-- COLUMN 2: INGESTION -->
+          <!-- Card 2.1: Cleaning and Structuring PDF Data -->
+          <g>
+            <rect x="240" y="290" width="106" height="90" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="293" y="316" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Cleaning and</text>
+            <text x="293" y="331" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Structuring PDF</text>
+            <text x="293" y="346" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Data</text>
+            <text x="293" y="362" text-anchor="middle" font-size="9.5" fill="#475569">(Pydantic schema</text>
+            <text x="293" y="374" text-anchor="middle" font-size="9.5" fill="#475569">validation)</text>
+          </g>
+
+          <!-- COLUMN 3: STORAGE & INDEXING -->
+          <!-- Card 3.1: Paper Ground Truth Registry -->
+          <g>
+            <rect x="476" y="73" width="145" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="548" y="99" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Paper Ground Truth</text>
+            <text x="548" y="114" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Registry</text>
+            <text x="548" y="130" text-anchor="middle" font-size="10" fill="#475569">(Index with doi)</text>
+          </g>
+
+          <!-- Card 3.2: SQLite FTS5 Index -->
+          <g>
+            <rect x="508" y="159" width="113" height="71" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="564" y="191" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">SQLite FTS5 Index</text>
+            <text x="564" y="209" text-anchor="middle" font-size="10" fill="#475569">(Full Text Searching)</text>
+          </g>
+
+          <!-- Card 3.3: Paper Section Slices -->
+          <g>
+            <rect x="476" y="247" width="145" height="62" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="548" y="275" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Paper Section Slices</text>
+            <text x="548" y="293" text-anchor="middle" font-size="10" fill="#475569">(Structured Data)</text>
+          </g>
+
+          <!-- Card 3.4: Saved Reviews -->
+          <g>
+            <rect x="508" y="325" width="113" height="65" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="564" y="345" text-anchor="middle" font-size="11" font-weight="700" fill="#1e293b">Saved Reviews</text>
+            <text x="564" y="360" text-anchor="middle" font-size="9.5" fill="#475569">(Search Conditions,</text>
+            <text x="564" y="372" text-anchor="middle" font-size="9.5" fill="#475569">Evidence and</text>
+            <text x="564" y="384" text-anchor="middle" font-size="9.5" fill="#475569">Results)</text>
+          </g>
+
+          <!-- COLUMN 4: QUERY MODES -->
+          <!-- Card 4.1: Dipstick Review -->
+          <g>
+            <rect x="732" y="73" width="145" height="70" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="804" y="96" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Dipstick Review</text>
+            <text x="804" y="112" text-anchor="middle" font-size="9.5" fill="#475569">(Searches only Titles and</text>
+            <text x="804" y="125" text-anchor="middle" font-size="9.5" fill="#475569">abstracts loaded in</text>
+            <text x="804" y="137" text-anchor="middle" font-size="9.5" fill="#475569">browser)</text>
+          </g>
+
+          <!-- Card 4.2: Expanded Scope -->
+          <g>
+            <rect x="732" y="159" width="145" height="69" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="804" y="186" text-anchor="middle" font-size="11.5" font-weight="700" fill="#1e293b">Expanded Scope</text>
+            <text x="804" y="202" text-anchor="middle" font-size="9.5" fill="#475569">(Searches Full Text or</text>
+            <text x="804" y="215" text-anchor="middle" font-size="9.5" fill="#475569">Specific Sections only)</text>
+          </g>
+
+          <!-- Card 4.3: Agentic Review -->
+          <g>
+            <rect x="732" y="247" width="145" height="143" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="804" y="300" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">Agentic Review</text>
+            <text x="804" y="318" text-anchor="middle" font-size="10" fill="#475569">(Searches Saved Review</text>
+            <text x="804" y="333" text-anchor="middle" font-size="10" fill="#475569">Results or Specific</text>
+            <text x="804" y="348" text-anchor="middle" font-size="10" fill="#475569">Sections across corpus)</text>
+          </g>
+
+          <!-- COLUMN 5: USER INTERFACE -->
+          <!-- Card 5.1: Browser Review Viewer -->
+          <g>
+            <rect x="910" y="73" width="91" height="122" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="955" y="122" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">Browser</text>
+            <text x="955" y="140" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">Review</text>
+            <text x="955" y="158" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">Viewer</text>
+          </g>
+
+          <!-- Card 5.2: Agentic Platform -->
+          <g>
+            <rect x="910" y="213" width="91" height="177" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.4" filter="drop-shadow(0 1px 2px rgba(15,23,42,0.04))"/>
+            <text x="955" y="244" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">Agentic</text>
+            <text x="955" y="260" text-anchor="middle" font-size="12" font-weight="700" fill="#1e293b">Platform</text>
+            <text x="955" y="278" text-anchor="middle" font-size="9.5" fill="#475569">(Antigravity,</text>
+            <text x="955" y="291" text-anchor="middle" font-size="9.5" fill="#475569">Claude)</text>
+
+            <!-- Anthropic Claude & Google Antigravity Logos -->
+            <g transform="translate(923, 318)">
+              <image href="assets/claude_logo.webp" x="0" y="0" width="28" height="28" />
+              <image href="assets/antigravity_logo.png" x="36" y="0" width="28" height="28" />
+            </g>
+          </g>
+        </svg>
+      </div>
+
+      <!-- Supporting Content: 4 Stages -->
+      <div class="pipeline-stages-grid">
+        <!-- Stage 1: Ingestion Pipeline -->
+        <div class="pipeline-stage-info-card">
+          <div class="pipeline-stage-badge">STAGE 01</div>
+          <h4 class="pipeline-stage-title">1. Ingestion Pipeline</h4>
+          <ul class="pipeline-stage-list">
+            <li><code>DSpace APIs are queried to pull metadata and paper PDFs (2016-2025)</code></li>
+            <li><code>Conference Proceedings PDFs are pulled where DSpace data is not available (2026)</code></li>
+            <li>Docling Document Engine and OCRmyPDF are used to parse PDF content accurately. PDF content must be stripped of header/footer text and cleaned for line breaks.</li>
+            <li>Pydantic is used to process the text extracted into structured section data stored as Markdown &amp; JSON.</li>
+          </ul>
+        </div>
+
+        <!-- Stage 2: Storage & Indexing Commons -->
+        <div class="pipeline-stage-info-card">
+          <div class="pipeline-stage-badge">STAGE 02</div>
+          <h4 class="pipeline-stage-title">2. Storage &amp; Indexing Commons</h4>
+          <ul class="pipeline-stage-list">
+            <li><code>Ground Truth Registry</code> contains paper metadata including abstracts pulled from DSpace and extracted from conference proceedings.</li>
+            <li><code>SQLite FTS5 Index</code> is a database index used to support speedy searches across full text sections.</li>
+            <li><code>Canonical Section Slices</code> are also stored to allow agents to access specific section text.</li>
+            <li><code>Saved Review Stores</code> are used to avoid redundant queries and searches. Once a query has been defined and a protocol has been generated - it is saved and can be re-used. These Saved Reviews also allow agents to focus on selected papers when answering follow-up questions.</li>
+          </ul>
+        </div>
+
+        <!-- Stage 3: Three Querying Modes -->
+        <div class="pipeline-stage-info-card">
+          <div class="pipeline-stage-badge">STAGE 03</div>
+          <h4 class="pipeline-stage-title">3. Three Querying Modes</h4>
+          <ul class="pipeline-stage-list">
+            <li><code>⚡ Dipstick Review</code> (&lt; 3 ms) is designed to be the starting point of any review activity. It deterministically searches all titles and abstracts for keyword matches.</li>
+            <li><code>🔍 Expanded Scope</code> (15–45 ms) uses the SQLite FTS5 Index to expand the keyword search to the full paper.</li>
+            <li><code>🤖 Agentic Review</code> (1.5–4.0 s/paper) can be triggered through Claude or Antigravity.</li>
+          </ul>
+        </div>
+
+        <!-- Stage 4: Delivery Platforms -->
+        <div class="pipeline-stage-info-card">
+          <div class="pipeline-stage-badge">STAGE 04</div>
+          <h4 class="pipeline-stage-title">4. Delivery Platforms</h4>
+          <ul class="pipeline-stage-list">
+            <li><code>🌐 Interactive Web Viewer</code> offers a responsive, tabular view of review results - making it easier to scan through text.</li>
+            <li><code>⚡ Agentic Platforms</code> like Antigravity IDE &amp; Claude Desktop serve as the best way to conduct advanced searches translating research queries into clear protocols and executing them at scale.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Researcher Use Cases with Shared Image Thumbnails & 2-3 Copyable Prompts -->
+  <section class="system-desc-section" id="use-cases">
+    <div class="content-container" style="padding:0;">
+      <span class="section-kicker">Interactive Researcher Prompts</span>
+      <h2 class="section-title">Researcher Use Cases & Ready Prompts</h2>
+      <p class="section-desc">
+        Short, crisp prompts tied directly to research intent. Designed to trigger built-in repository skills—saving time and avoiding over-prompting.
+      </p>
+
+      <div class="use-cases-grid">
+        <!-- Context 1: Exploring a New Topic -->
+        <div class="use-case-card">
+          <div class="use-case-thumbnail-box">
+            <img src="assets/usecase_explore.jpg" alt="Exploring a New Topic Illustration" class="use-case-thumbnail" />
+          </div>
+
+          <div>
+            <span class="use-case-context-sub">Context 01</span>
+            <h3 class="use-case-context-name">Exploring a New Topic</h3>
+
+            <div class="use-case-prompts-stack">
+              <!-- Prompt 1.1 -->
+              <div class="prompt-item-box">
+                <div class="prompt-item-header">
+                  <span class="prompt-label">Prompt 1: Broad Landscape Sweep</span>
+                  <button class="btn-copy-prompt" data-prompt-id="promptText1_1">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+                <div class="prompt-text" id="promptText1_1">Run a dipstick review on "generative AI conversational agents collaborative learning" across 2023–2026. Summarize the 10 most relevant papers with their theoretical framing, and save this as a new review.</div>
+              </div>
+
+              <!-- Prompt 1.2 -->
+              <div class="prompt-item-box">
+                <div class="prompt-item-header">
+                  <span class="prompt-label">Prompt 2: Theoretical Lineages</span>
+                  <button class="btn-copy-prompt" data-prompt-id="promptText1_2">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+                <div class="prompt-text" id="promptText1_2">Identify the primary theoretical frameworks used in papers discussing "embodied learning multimodal analytics" from 2020 to 2026. Group by cognitive, sociocultural, and critical perspectives.</div>
+              </div>
+
+              <!-- Prompt 1.3 -->
+              <div class="prompt-item-box">
+                <div class="prompt-item-header">
+                  <span class="prompt-label">Prompt 3: Co-Authorship Clusters</span>
+                  <button class="btn-copy-prompt" data-prompt-id="promptText1_3">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+                <div class="prompt-text" id="promptText1_3">Find the most frequently co-authored researcher clusters investigating "climate justice education" across ICLS and CSCL proceedings.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Context 2: Systematic Literature Review -->
+        <div class="use-case-card">
+          <div class="use-case-thumbnail-box">
+            <img src="assets/usecase_systematic.jpg" alt="Systematic Literature Review Illustration" class="use-case-thumbnail" />
+          </div>
+
+          <div>
+            <span class="use-case-context-sub">Context 02</span>
+            <h3 class="use-case-context-name">Systematic Literature Review</h3>
+
+            <div class="use-case-prompts-stack">
+              <!-- Prompt 2.1 -->
+              <div class="prompt-item-box">
+                <div class="prompt-item-header">
+                  <span class="prompt-label">Prompt 1: Methodology Matrix Extraction</span>
+                  <button class="btn-copy-prompt" data-prompt-id="promptText2_1">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+                <div class="prompt-text" id="promptText2_1">In my saved review on "Community Co-Design", extract the participatory framework, sample size, and participant demographics from only the Methodology sections. Format as a comparative matrix with quote evidence.</div>
+              </div>
+
+              <!-- Prompt 2.2 -->
+              <div class="prompt-item-box">
+                <div class="prompt-item-header">
+                  <span class="prompt-label">Prompt 2: Inclusion / Exclusion Screening</span>
+                  <button class="btn-copy-prompt" data-prompt-id="promptText2_2">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+                <div class="prompt-text" id="promptText2_2">Screen papers in the "AI in CSCL" review against my criteria: include empirical studies evaluating student collaboration in K-12 classrooms; exclude conceptual papers, workshops, and higher-ed studies. Record exclusion reasons.</div>
+              </div>
+
+              <!-- Prompt 2.3 -->
+              <div class="prompt-item-box">
+                <div class="prompt-item-header">
+                  <span class="prompt-label">Prompt 3: Empirical Findings Synthesis</span>
+                  <button class="btn-copy-prompt" data-prompt-id="promptText2_3">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+                <div class="prompt-text" id="promptText2_3">Extract the reported learning gains, statistical effect sizes, or qualitative shifts from the Results sections of papers in my "Dialogic Scaffolding" review.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Context 3: First-Time Writing for ISLS -->
+        <div class="use-case-card">
+          <div class="use-case-thumbnail-box">
+            <img src="assets/usecase_author.png" alt="First-Time Writing for ISLS Illustration" class="use-case-thumbnail" />
+          </div>
+
+          <div>
+            <span class="use-case-context-sub">Context 03</span>
+            <h3 class="use-case-context-name">First-Time Writing for ISLS</h3>
+
+            <div class="use-case-prompts-stack">
+              <!-- Prompt 3.1 -->
+              <div class="prompt-item-box">
+                <div class="prompt-item-header">
+                  <span class="prompt-label">Prompt 1: Section Word Budget Benchmarking</span>
+                  <button class="btn-copy-prompt" data-prompt-id="promptText3_1">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+                <div class="prompt-text" id="promptText3_1">Benchmark my draft ICLS Short Paper word counts against 2025–2026 accepted papers: Intro: 650w, Methods: 400w, Findings: 1,200w, Discussion: 550w. Flag any section exceeding normative distributions.</div>
+              </div>
+
+              <!-- Prompt 3.2 -->
+              <div class="prompt-item-box">
+                <div class="prompt-item-header">
+                  <span class="prompt-label">Prompt 2: Heading & Token Conventions</span>
+                  <button class="btn-copy-prompt" data-prompt-id="promptText3_2">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+                <div class="prompt-text" id="promptText3_2">What are the most frequent section headings and token allocations for accepted Full Papers in CSCL 2024–2026 with a high Results & Findings emphasis?</div>
+              </div>
+
+              <!-- Prompt 3.3 -->
+              <div class="prompt-item-box">
+                <div class="prompt-item-header">
+                  <span class="prompt-label">Prompt 3: Practice Paper vs Poster Balance</span>
+                  <button class="btn-copy-prompt" data-prompt-id="promptText3_3">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                    <span>Copy</span>
+                  </button>
+                </div>
+                <div class="prompt-text" id="promptText3_3">Compare the normative length and structural balance between accepted ICLS Practice Papers and Posters. What is the standard ratio of Context to Practical Implication?</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1-Click Local Deployment Section -->
+  <section class="content-container" id="local-setup">
+    <span class="section-kicker">1-Click Local Deployment</span>
+    <h2 class="section-title">Set Up Locally</h2>
+    <p class="section-desc">
+      Run the complete agentic literature review system on your machine with offline SQLite FTS5 search across all 5,402 papers. Compatible with <strong>Google Antigravity</strong> and <strong>Claude Desktop</strong>.
+    </p>
+
+    <!-- 1-Row Horizontal Cards Flow -->
+    <div class="setup-cards-row">
+      <!-- Card 1: Download -->
+      <div class="setup-step-card highlight">
+        <div class="setup-step-badge highlight">
+          <span class="step-number">01</span>
+          <div class="step-memory-tag highlight">
+            <span class="memory-total">~9.5 MB Total</span>
+            <span class="memory-inc">(+9.5 MB archive)</span>
+          </div>
+        </div>
+        <div class="setup-step-icon highlight">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        </div>
+        <h3 class="setup-step-title">Download Minimal Package</h3>
+        <p class="setup-step-desc">
+          Clone the GitHub repository or download the lightweight minimal package containing core code, skills, and the 10-year golden dataset.
+        </p>
+        <div class="setup-code-snippet">
+          <code id="gitCloneText">git clone https://github.com/rohanjhunja/isls-repository-2026.git</code>
+          <button class="btn-copy-code" id="btnCopyGitClone" title="Copy git clone command" aria-label="Copy git clone command">
+            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            <span>Copy</span>
+          </button>
+        </div>
+        <a href="https://github.com/rohanjhunja/isls-repository-2026/archive/refs/heads/main.zip" class="btn-download-package" id="btnDownloadPkg" title="Download lightweight repository archive (.zip)">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Download Minimal Package (.zip)</span>
+        </a>
+      </div>
+
+      <!-- Step Arrow Divider -->
+      <div class="setup-arrow-divider">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </div>
+
+      <!-- Card 2: Launch in Antigravity or Claude Desktop -->
+      <div class="setup-step-card">
+        <div class="setup-step-badge">
+          <span class="step-number">02</span>
+          <div class="step-memory-tag">
+            <span class="memory-total">~556 MB Total</span>
+            <span class="memory-inc">(+550 MB venv)</span>
+          </div>
+        </div>
+        <div class="setup-step-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+        </div>
+        <h3 class="setup-step-title">Launch in Agent Workspace</h3>
+        <p class="setup-step-desc">
+          Open the folder in <strong>Google Antigravity</strong> (native skills auto-mount) or <strong>Claude Desktop</strong> (configured via <code>CLAUDE.md</code> project instructions).
+        </p>
+        <div class="setup-dual-agents-badge">
+          <span class="agent-tag agy-tag">
+            <img src="assets/antigravity_logo.png" alt="Google Antigravity Logo" class="agent-brand-logo" />
+            <span>Antigravity</span>
+          </span>
+          <span class="agent-tag claude-tag">
+            <img src="assets/claude_logo.webp" alt="Anthropic Claude Logo" class="agent-brand-logo" />
+            <span>Claude Desktop</span>
+          </span>
+        </div>
+      </div>
+
+      <!-- Step Arrow Divider -->
+      <div class="setup-arrow-divider">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </div>
+
+      <!-- Card 3: 1-Click Prompt -->
+      <div class="setup-step-card">
+        <div class="setup-step-badge">
+          <span class="step-number">03</span>
+          <div class="step-memory-tag">
+            <span class="memory-total">~668 MB Total</span>
+            <span class="memory-inc">(+112 MB db &amp; cache)</span>
+          </div>
+        </div>
+        <div class="setup-step-icon">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+        </div>
+        <h3 class="setup-step-title">Single Prompt to Set-Up</h3>
+        <p class="setup-step-desc">
+          Paste this single prompt into the agent chat. It sets up the environment, builds the database, and starts the viewer in ~10 seconds.
+        </p>
+        <div class="setup-prompt-box">
+          <div class="prompt-text-content" id="setupPromptText">Set up the virtual environment, install dependencies, rebuild the 10-year proceedings database and review caches, and launch the review viewer.</div>
+          <button class="btn-copy-setup-prompt" id="btnCopySetupPrompt" title="Copy Setup Prompt">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            <span>Copy Prompt</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Citation Section -->
+  <section class="content-container" id="citation">
+    <span class="section-kicker">Citing This Resource</span>
+    <h2 class="section-title">Academic Citation & Provenance</h2>
+    <p class="section-desc">
+      If you use the ISLS Research Repository, the SQLite search indices, or the agentic literature review tools in your scholarship, please cite this project.
+    </p>
+
+    <div class="citation-card">
+      <div class="citation-header-row">
+        <span class="citation-badge">APA 7th Edition</span>
+        <span style="font-size:0.78rem; color:var(--text-muted); font-family:var(--font-mono);">Web Application & Dataset Commons</span>
+      </div>
+
+      <div class="citation-text-box" id="citationBox">
+        Jhunja, R. (2026). <em>10 Years ISLS Proceedings Research Repository & Agentic Review System (2016–2026)</em> [Web platform and dataset commons]. International Society of the Learning Sciences. https://isls-repository.org
+      </div>
+
+      <div class="citation-actions-row">
+        <button class="btn-copy-cite" id="btnCopyCite">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          <span>Copy APA Citation</span>
+        </button>
+
+        <button class="btn-toggle-bibtex" id="btnToggleBibtex">Show BibTeX</button>
+      </div>
+
+      <div class="bibtex-box" id="bibtexBox">@software{jhunja2026isls,
+  author = {Jhunja, Rohan},
+  title = {10 Years ISLS Proceedings Research Repository & Agentic Review System (2016--2026)},
+  year = {2026},
+  url = {https://isls-repository.org},
+  note = {Web platform, SQLite FTS5 search index, and dataset commons}
+}</div>
+    </div>
+  </section>
+
+  <!-- Toast Notification Feedback -->
+  <div class="toast-notice" id="toastNotice">
+    <span>✓ Copied to clipboard!</span>
+  </div>
+
+  <!-- Minimalist Footer -->
+  <footer class="cover-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <strong>ISLS Research Repository & Agentic Review System (2016–2026)</strong><br>
+        Published under the Open Research Commons. Proceedings copyright International Society of the Learning Sciences.
+      </div>
+      <div class="footer-links">
+        <a href="#system-description" class="footer-link">System Architecture</a>
+        <a href="./viewer.html" class="footer-link">Review Viewer</a>
+        <a href="./overview.html" class="footer-link">10-Yr Observatory</a>
+        <a href="https://github.com/rohanjhunja/isls-repository-2026.git" target="_blank" class="footer-link">GitHub Repository</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="cover.js"></script>
+</body>
+</html>

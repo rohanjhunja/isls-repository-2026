@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-030",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"...oss three classroom scenarios: grading, scaffolding science learning, and classroom orchestration.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-030",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"...oss three classroom scenarios: grading, scaffolding science learning, and classroom orchestration.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

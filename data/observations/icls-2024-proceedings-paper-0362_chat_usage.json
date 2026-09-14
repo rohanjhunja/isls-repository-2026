@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0362",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction to ground learning and artifact mediation. Evidence: \"Frameworks We employ cultural-historical activity theory ( Engestr\u00f6m, 1993) to examine and articulate how the mandates of remote-proctored online exams shift the division of labor ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0362",
+      "supporting_text": "Frameworks We employ cultural-historical activity theory ( Engestr\u00f6m, 1993) to examine and articulate how the mandates of remote-proctored online exams shift the division of labor and the goal of creating cheat-proof environments from the university and the faculty on campus to the students and their homes."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

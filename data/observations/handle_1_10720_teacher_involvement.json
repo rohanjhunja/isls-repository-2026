@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10720",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Co-design and Co-Creation of Knowledge in Collaborative Teacher Teams Crina Dam\u015fa, Greta Bj\u00f6rk Gudmundsdottir, Kristin Beate Vasb\u00f8 crina.damsa@iped.uio.no, g.b.gudmundsdottir@ils.uio.no, k.b.basbo@ils.uio.no University of Oslo, Norway Abstract: This paper examines collaborativ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10720",
+      "supporting_text": "Co-design and Co-Creation of Knowledge in Collaborative Teacher Teams Crina Dam\u015fa, Greta Bj\u00f6rk Gudmundsdottir, Kristin Beate Vasb\u00f8 crina.damsa@iped.uio.no, g.b.gudmundsdottir@ils.uio.no, k.b.basbo@ils.uio.no University of Oslo, Norway Abstract: This paper examines collaborativ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

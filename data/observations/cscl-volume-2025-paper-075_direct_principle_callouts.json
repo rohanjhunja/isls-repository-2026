@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-075",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Traditionally, scaffolding has been used to improve the quality of feedback (Hornstein et al.\" | \"To summarize, the central question of this symposium examines the extent to which AI-supported scaffolding can improve the effectiveness of peer feedback processes.\" | \"In Week 2, students provided feedback to two randomly assigned and anonymous peers with the help of guiding questions and a worked example to scaffold feedback production.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-075",
+      "supporting_text": "**Direct Callouts & Context**: \"Traditionally, scaffolding has been used to improve the quality of feedback (Hornstein et al.\" | \"To summarize, the central question of this symposium examines the extent to which AI-supported scaffolding can improve the effectiveness of peer feedback processes.\" | \"In Week 2, students provided feedback to two randomly assigned and anonymous peers with the help of guiding questions and a worked example to scaffold feedback production.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

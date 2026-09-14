@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8858",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"As educators search new ways to implement culturally sustaining pedagogies, storytelling can become a vehicle to allow students to voice their own funds of knowledge and act as experts on their own experiences. This participatory-design study examined ways that storytelling in...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8858",
+      "supporting_text": "As educators search new ways to implement culturally sustaining pedagogies, storytelling can become a vehicle to allow students to voice their own funds of knowledge and act as experts on their own experiences. This participatory-design study examined ways that storytelling in..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

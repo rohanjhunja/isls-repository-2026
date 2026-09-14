@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_114",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We propose that consideration of teacher learning in a professional learning community be co nceptualised in terms of participatory practices as facilitated by knowledge buildin g principles.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_114",
+      "supporting_text": "We propose that consideration of teacher learning in a professional learning community be co nceptualised in terms of participatory practices as facilitated by knowledge buildin g principles."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

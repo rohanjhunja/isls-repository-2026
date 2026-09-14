@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0065",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Aldemir, T., Yoon, S., Miller, K., & Shim, J. (under review). Teachers as Co -Designers: Fostering Equitable Participation through Relational Trust. Bang M., & Vossoughi S. (2016). Participatory design research and educational justice: Studying learning and relations within social change making. Cognition & Instruction, 34(3), 173\u2013 193. | Farrell, C. C., Singleton, C., Stamatis, K., Riedy, R., Arce -Trigatti, P., & Penuel, W. R. (2023). Conceptions and practices of equity in research-practice partnerships. Educational Policy, 37(1), 200-224. 472 Gaudi n C., & Chali\u00e8s S. (2015). Video viewing in teacher education and professional development: A literature review. Educational Research Review, 16, 41\u201367. | Vetter, A., Faircloth, B. S., Hewitt, K. K., Gonzalez, L. M., He, Y., & Rock, M. L. (2022). Equity and social justice in research practice partnerships in the United States. Review of Educational Research, 92(5), 829-866.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0065",
+      "supporting_text": "Aldemir, T., Yoon, S., Miller, K., & Shim, J. (under review). Teachers as Co -Designers: Fostering Equitable Participation through Relational Trust. Bang M., & Vossoughi S. (2016). Participatory design research and educational justice: Studying learning and relations within social change making. Cognition & Instruction, 34(3), 173\u2013 193. | Farrell, C. C., Singleton, C., Stamatis, K., Riedy, R., Arce -Trigatti, P., & Penuel, W. R. (2023). Conceptions and practices of equity in research-practice partnerships. Educational Policy, 37(1), 200-224. 472 Gaudi n C., & Chali\u00e8s S. (2015). Video viewing in teacher education and professional development: A literature review. Educational Research Review, 16, 41\u201367. | Vetter, A., Faircloth, B. S., Hewitt, K. K., Gonzalez, L. M., He, Y., & Rock, M. L. (2022). Equity and social justice in research practice partnerships in the United States. Review of Educational Research, 92(5), 829-866."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

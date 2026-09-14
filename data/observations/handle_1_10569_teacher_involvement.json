@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10569",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"In total we have 10 different role-play scenarios (Braun et al., 2018) with typical situations from the everyday working life of a teacher. From t he simulation scripts source and Target entities ar e extracted as shown in table along with the relation of each participatory En...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10569",
+      "supporting_text": "In total we have 10 different role-play scenarios (Braun et al., 2018) with typical situations from the everyday working life of a teacher. From t he simulation scripts source and Target entities ar e extracted as shown in table along with the relation of each participatory En..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

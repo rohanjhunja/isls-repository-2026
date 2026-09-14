@@ -1,0 +1,17 @@
+{
+  "paper_id": "isls2023-proceedings-oct3-paper-0034",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Vossoughi, S., Hooper, P. K., & Escud\u00e9, M. (2016). Making through the lens of culture and power: Toward transformative visions for educational equity. Harvard Educational Review, 86(2), 206-232.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "isls2023-proceedings-oct3-paper-0034",
+      "supporting_text": "Vossoughi, S., Hooper, P. K., & Escud\u00e9, M. (2016). Making through the lens of culture and power: Toward transformative visions for educational equity. Harvard Educational Review, 86(2), 206-232."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

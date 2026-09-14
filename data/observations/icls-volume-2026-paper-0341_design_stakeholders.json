@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0341",
+  "property_id": "design_stakeholders",
+  "property_version": "1.0.0",
+  "value": "Science Teachers; High School Students; Educational Researchers & Designers; Domain Experts & Technologists",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0341",
+      "supporting_text": "Identified stakeholders in targeted sections (abstract, method, discussion): Science Teachers; High School Students; Educational Researchers & Designers; Domain Experts & Technologists"
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_design_stakeholders_20260912",
+  "source_version": "1.0.0"
+}

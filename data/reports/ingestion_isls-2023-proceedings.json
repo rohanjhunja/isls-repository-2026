@@ -1,0 +1,15 @@
+{
+  "source_filename": "isls-2023-proceedings.pdf",
+  "sha256": "30426760f1eb7569419e938f3b9a7153b1a9dea5b44cec0ac65c4b06c3b16d26",
+  "pdf_page_count": 186,
+  "detected_papers_count": 58,
+  "expected_toc_count": 59,
+  "boundaries_confidence_avg": 0.95,
+  "unmapped_headings_count": 71,
+  "missing_fields_summary": {
+    "title": 0,
+    "authors": 5,
+    "abstract": 5
+  },
+  "timestamp": "2026-07-22T19:59:51.318552Z"
+}

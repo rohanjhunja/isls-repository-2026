@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0045",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We propose the notion of speculative interaction geography and show how speculative data visualization can serve as a human-centered counterpoint to AI-driven prediction in the learning sciences, with implications for areas like teacher education and participatory design.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0045",
+      "supporting_text": "We propose the notion of speculative interaction geography and show how speculative data visualization can serve as a human-centered counterpoint to AI-driven prediction in the learning sciences, with implications for areas like teacher education and participatory design."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11828",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The analysis of discussion segments of co-design meetings using the curricular values framewo rk enables us to characterize the process teachers go through as they grapple wit h designing curriculum materials.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11828",
+      "supporting_text": "The analysis of discussion segments of co-design meetings using the curricular values framewo rk enables us to characterize the process teachers go through as they grapple wit h designing curriculum materials."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

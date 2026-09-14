@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7583",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"During the workshop, teachers engaged in collaborative design of curriculum, reflected about classroom pr actice and student learning, and discussed pedagogical approaches to Critical Action, defined as the engagement in individual and collective action to produce socio-politi...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7583",
+      "supporting_text": "During the workshop, teachers engaged in collaborative design of curriculum, reflected about classroom pr actice and student learning, and discussed pedagogical approaches to Critical Action, defined as the engagement in individual and collective action to produce socio-politi..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

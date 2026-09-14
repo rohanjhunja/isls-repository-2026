@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0092",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Focusing on KB principles (Scardamalia & Bereiter, 2010) and developed on a customisable AI-powered platform, SchoolAI (2023), the KB-LCT seeks to support teachers in three ways: (a) learning the 12 principles of KB, (b) co-designing a lesson based on KB, (c) reflecting over p...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0092",
+      "supporting_text": "Focusing on KB principles (Scardamalia & Bereiter, 2010) and developed on a customisable AI-powered platform, SchoolAI (2023), the KB-LCT seeks to support teachers in three ways: (a) learning the 12 principles of KB, (b) co-designing a lesson based on KB, (c) reflecting over p..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

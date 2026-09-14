@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0075",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Introduction to examine activity systems and social interactions. Evidence: \"Theoretical framework To help analyze and explain learning phenomena encountered within the community garden, we draw on sociocultural perspectives, chiefly cultural-historical act...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0075",
+      "supporting_text": "Theoretical framework To help analyze and explain learning phenomena encountered within the community garden, we draw on sociocultural perspectives, chiefly cultural-historical activity theory (CHAT; Engestr\u00f6m & Sannino, 2010) and heterogeneity or a \u201cthird space\u201d (Gutie\u0301rrez, 2008)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

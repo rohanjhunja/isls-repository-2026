@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_171",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Current study and research questions This study investigates a human\u2013GenAI co-design platform developed by Peking University, aiming to explore how such collaboration can enhance teachers\u2019 lesson planning skills, foster motivational learning, and clarify the role of foundation...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_171",
+      "supporting_text": "Current study and research questions This study investigates a human\u2013GenAI co-design platform developed by Peking University, aiming to explore how such collaboration can enhance teachers\u2019 lesson planning skills, foster motivational learning, and clarify the role of foundation..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

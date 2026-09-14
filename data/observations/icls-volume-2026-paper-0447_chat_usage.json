@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0447",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Introduction to examine activity systems and social interactions. Evidence: \"Using Cultural -Historical Activity Theory (CHAT) to  analyze the collaboration between one STEM coach and researcher, data from professional learning sessions, videos, and artifac...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0447",
+      "supporting_text": "Using Cultural -Historical Activity Theory (CHAT) to  analyze the collaboration between one STEM coach and researcher, data from professional learning sessions, videos, and artifacts were analyzed through thematic analysis."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

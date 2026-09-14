@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0129",
+  "property_id": "design_principles_relation",
+  "property_version": "1.0.0",
+  "value": "**Low Floor / Entry Barrier**: Provides accessible introductory entry points for novice learners. **High Ceiling**: Enables progression toward higher-order abstractions, complex problem solving, and system-level reasoning. **Low Threshold & Scaffolding**: Employs structured instructional scaffolding to maintain a low threshold for participation.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0129",
+      "supporting_text": "**Low Floor / Entry Barrier**: Provides accessible introductory entry points for novice learners. **High Ceiling**: Enables progression toward higher-order abstractions, complex problem solving, and system-level reasoning. **Low Threshold & Scaffolding**: Employs structured instructional scaffolding to maintain a low threshold for participation."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_design_principles_relation_20260728",
+  "source_version": "1.0.0"
+}

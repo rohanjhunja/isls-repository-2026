@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11289",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"For the last four years, we have collaborated with high school science teachers from the USA and India to co-design curriculum units that center scientific epistemic practices in classroom inquiry (Author et al., 2023).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11289",
+      "supporting_text": "For the last four years, we have collaborated with high school science teachers from the USA and India to co-design curriculum units that center scientific epistemic practices in classroom inquiry (Author et al., 2023)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

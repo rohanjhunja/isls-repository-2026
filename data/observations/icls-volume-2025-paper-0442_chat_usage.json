@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0442",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Introduction to examine activity systems and social interactions. Evidence: \"Hmelo -Silver, Dalila Dragnic-Cindric, Krista Glazewski, Haesol Bae, lvictor@digitalpromise.org, jm198@iu.edu, jmcclain@digitalpromise.org, jfusco@digitalpromise.org, jdanish@iu.ed...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0442",
+      "supporting_text": "Hmelo -Silver, Dalila Dragnic-Cindric, Krista Glazewski, Haesol Bae, lvictor@digitalpromise.org, jm198@iu.edu, jmcclain@digitalpromise.org, jfusco@digitalpromise.org, jdanish@iu.edu, wwalterb@iu.edu, chmelosi@iu.edu, daliladc@digitalpromise.org, kdglazew@ncsu.edu, hbae4@albany.edu Digital Promise, Indiana University, NC State University, University at Albany SUNY, Abst ract: This study examines researcher -practitioner collaborations in educational research, using Cultural -Historical Activity Theory (CHAT) to analyze interactions between STEM coaches and researchers."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8976",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In essence, the badges serve as a map for what it means to demonstrate professional ident ity development into and throughout the teacher education program. However, through co-design, the badge syst ems represent candidates\u2019 perspectives and experien ces, highlighting how can...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8976",
+      "supporting_text": "In essence, the badges serve as a map for what it means to demonstrate professional ident ity development into and throughout the teacher education program. However, through co-design, the badge syst ems represent candidates\u2019 perspectives and experien ces, highlighting how can..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

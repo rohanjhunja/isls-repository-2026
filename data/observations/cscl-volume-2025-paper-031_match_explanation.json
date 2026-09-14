@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-031",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"... the role of the multi-layered model in scaffolding young learners to participate in authentic scientific practices, promoting coll...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-031",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"... the role of the multi-layered model in scaffolding young learners to participate in authentic scientific practices, promoting coll...\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

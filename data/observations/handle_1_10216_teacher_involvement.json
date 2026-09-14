@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10216",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Through three co-design meetings with each teacher, develop shared understandings with teachers about G4C, critical pedagogy, and learning communities; understand teachers\u2019 courses and curriculum; develop broad ideas about what FoA could look like.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10216",
+      "supporting_text": "Through three co-design meetings with each teacher, develop shared understandings with teachers about G4C, critical pedagogy, and learning communities; understand teachers\u2019 courses and curriculum; develop broad ideas about what FoA could look like."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

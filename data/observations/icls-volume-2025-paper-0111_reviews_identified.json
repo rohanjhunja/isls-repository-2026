@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0111",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Baykal, G. E., Torgersson, O., & Eriksson, E. (2021). Designing for children\u2019s reflections in collaborative interaction mediated by technology: A systematic literature review. Interaction Design and Architecture (s). 996 | Kori, K., Pedaste, M., Leijen, \u00c4., & M\u00e4eots, M. (2014). Supporting reflection in technology- enhanced learning. Educational Research Review, 11, 45-55.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0111",
+      "supporting_text": "Baykal, G. E., Torgersson, O., & Eriksson, E. (2021). Designing for children\u2019s reflections in collaborative interaction mediated by technology: A systematic literature review. Interaction Design and Architecture (s). 996 | Kori, K., Pedaste, M., Leijen, \u00c4., & M\u00e4eots, M. (2014). Supporting reflection in technology- enhanced learning. Educational Research Review, 11, 45-55."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

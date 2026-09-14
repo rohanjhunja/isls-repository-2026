@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0069",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Scaffolding Middle School Students\u2019 Engagements with Historical Data Visualizations We designed and implemented a data visualization project in a seventh -grade classroom focusing on the loss of tribal lands in Montana, United States of America.\" | \"Introduction Scaffolding Middle School Students\u2019 Engagements with Historical Data Visualizations Mengying Jiang, Kristin A.\" | \"By a scaffold, we refer to dynamic assistance provided by an expert to a beginner learner which is designed to support the learner in successfully engaging in activities they cannot yet accomplish alone (Wood, Bruner & Ross, 1976).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0069",
+      "supporting_text": "**Direct Callouts & Context**: \"Scaffolding Middle School Students\u2019 Engagements with Historical Data Visualizations We designed and implemented a data visualization project in a seventh -grade classroom focusing on the loss of tribal lands in Montana, United States of America.\" | \"Introduction Scaffolding Middle School Students\u2019 Engagements with Historical Data Visualizations Mengying Jiang, Kristin A.\" | \"By a scaffold, we refer to dynamic assistance provided by an expert to a beginner learner which is designed to support the learner in successfully engaging in activities they cannot yet accomplish alone (Wood, Bruner & Ross, 1976).\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

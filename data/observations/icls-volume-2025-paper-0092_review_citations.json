@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0092",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Eshun, K. (2003). Further considerations of Afrofuturism. CR: The New Centennial Review, 3 (2), 287-302. | Mirra, N., & Garcia, A. (2020). \u201cI hesitate but I do have hope\u201d: Youth speculative civic literacies for troubled times. Harvard Educational Review, 90(2), 295-321. | Womack, Y. L. (2013). Afrofuturism: The world of black sci-fi and fantasy culture. Chicago Review Press.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0092",
+      "supporting_text": "Eshun, K. (2003). Further considerations of Afrofuturism. CR: The New Centennial Review, 3 (2), 287-302. | Mirra, N., & Garcia, A. (2020). \u201cI hesitate but I do have hope\u201d: Youth speculative civic literacies for troubled times. Harvard Educational Review, 90(2), 295-321. | Womack, Y. L. (2013). Afrofuturism: The world of black sci-fi and fantasy culture. Chicago Review Press."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

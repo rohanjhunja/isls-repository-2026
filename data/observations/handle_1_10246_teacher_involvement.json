@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10246",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Workshop design Our approach to workshop design reflects the tradition of participatory design-based research (Bang & Vossoughi, 2016), in which researchers develop pedagogical approaches in close collaboration with teachers, paying attention to problems of practice centered b...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10246",
+      "supporting_text": "Workshop design Our approach to workshop design reflects the tradition of participatory design-based research (Bang & Vossoughi, 2016), in which researchers develop pedagogical approaches in close collaboration with teachers, paying attention to problems of practice centered b..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

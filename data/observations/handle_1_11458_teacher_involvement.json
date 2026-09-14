@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11458",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This participatory approach offers several advan tages including fostering interdisciplinary collaboration, enhancing teaching practices and building a suppo rtive professional network that drives innovation in peda gogy. Participating in an FLC not only enhances ind ividual t...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11458",
+      "supporting_text": "This participatory approach offers several advan tages including fostering interdisciplinary collaboration, enhancing teaching practices and building a suppo rtive professional network that drives innovation in peda gogy. Participating in an FLC not only enhances ind ividual t..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10519",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"We co-design a logic model as a collaborative effort of s ix educators (K-12 cl assroom teachers) to identify who might be users and what context these new systems can fit in, and what features and funct ionalities are needed for desired outputs for an AI-powered story-authori...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10519",
+      "supporting_text": "We co-design a logic model as a collaborative effort of s ix educators (K-12 cl assroom teachers) to identify who might be users and what context these new systems can fit in, and what features and funct ionalities are needed for desired outputs for an AI-powered story-authori..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

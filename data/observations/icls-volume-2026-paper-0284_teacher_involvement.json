@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0284",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"The Rehacer el mundo project is a participatory design project with youth, museum educators, artists, and researchers to engage Latine and other historically marginalized youth and families in developing a youth- professional collaborative art exhibit.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0284",
+      "supporting_text": "The Rehacer el mundo project is a participatory design project with youth, museum educators, artists, and researchers to engage Latine and other historically marginalized youth and families in developing a youth- professional collaborative art exhibit."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

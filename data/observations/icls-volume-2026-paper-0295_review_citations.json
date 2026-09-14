@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0295",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Yoon, S. A., Goh, S. E., & Park, M. (2018). Teaching and learning about complex systems in K \u201312 science education: A review of empirical studies 1995\u2013 2015. Review of Educational Research, 88(2), 285- 325. https://doi.org/10.3102%2F0034654317746090",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0295",
+      "supporting_text": "Yoon, S. A., Goh, S. E., & Park, M. (2018). Teaching and learning about complex systems in K \u201312 science education: A review of empirical studies 1995\u2013 2015. Review of Educational Research, 88(2), 285- 325. https://doi.org/10.3102%2F0034654317746090"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

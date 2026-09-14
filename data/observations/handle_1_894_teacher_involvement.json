@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_894",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Thi s implementation was run by our teacher co-designer who is employed by the school as the visual arts instructor and was held in the school \u2019s expansive \u201cDesign and Engineering Lab.\u201d All 4th grade students were required to participate in the BfT project resu lting in 4 1 gi...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_894",
+      "supporting_text": "Thi s implementation was run by our teacher co-designer who is employed by the school as the visual arts instructor and was held in the school \u2019s expansive \u201cDesign and Engineering Lab.\u201d All 4th grade students were required to participate in the BfT project resu lting in 4 1 gi..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

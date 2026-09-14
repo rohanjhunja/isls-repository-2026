@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8830",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Embodied & Participatory Modeling**: Leverages embodied, mixed-reality, or physical role-play activities to ground learners' sense-making and computational modeling of complex systems. Evidence: \"This paper explores elementary students\u2019 mechanistic reasoning about states of matter during a series of collective embodied modeling activities.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8830",
+      "supporting_text": "This paper explores elementary students\u2019 mechanistic reasoning about states of matter during a series of collective embodied modeling activities."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

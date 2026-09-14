@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11807",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"Research-practice partnerships Addressing racial disproportionality in special education and school discipline requires a collaborati ve effort between all stakeholders in the school/district to co-design the solutions rather than relying on externa l experts. However, educati...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11807",
+      "supporting_text": "Research-practice partnerships Addressing racial disproportionality in special education and school discipline requires a collaborati ve effort between all stakeholders in the school/district to co-design the solutions rather than relying on externa l experts. However, educati..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0331",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"2151 Wordless Books as Tools for Language, Identity, and Voice Arlen Nava, UCLA Lab School, anava@labschool.ucla.edu Christine Lee, UCLA, christinelee@seis.ucla.edu Abstract: This paper is led by a dual language kindergarten teacher and presents insights on a multi-year partic...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0331",
+      "supporting_text": "2151 Wordless Books as Tools for Language, Identity, and Voice Arlen Nava, UCLA Lab School, anava@labschool.ucla.edu Christine Lee, UCLA, christinelee@seis.ucla.edu Abstract: This paper is led by a dual language kindergarten teacher and presents insights on a multi-year partic..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl2023-proceedings-oct3-paper-0048",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Neira, E. A. S., Salinas, J., & Crosetti, B. de B. (2017). Emerging Technologies (ETs) in education: A systematic review of the literature published between 2006 and 2016. International Journal of Emerging Technologies in Learning, 12(5), 128\u2013149. https://doi.org/10.3991/ijet.v12i05.6939 NGSS Lead States. (2013). Next Generation Science Standards: For states, by states. National Academies Press.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl2023-proceedings-oct3-paper-0048",
+      "supporting_text": "Neira, E. A. S., Salinas, J., & Crosetti, B. de B. (2017). Emerging Technologies (ETs) in education: A systematic review of the literature published between 2006 and 2016. International Journal of Emerging Technologies in Learning, 12(5), 128\u2013149. https://doi.org/10.3991/ijet.v12i05.6939 NGSS Lead States. (2013). Next Generation Science Standards: For states, by states. National Academies Press."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

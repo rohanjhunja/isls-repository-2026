@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-068",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Informed by Remillard\u2019s (2005) framework on the participatory relationship between teachers and the curriculum, I attended to the new or deeper knowledge teachers developed through their navigation of the customized lesson and the original lesson.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-068",
+      "supporting_text": "Informed by Remillard\u2019s (2005) framework on the participatory relationship between teachers and the curriculum, I attended to the new or deeper knowledge teachers developed through their navigation of the customized lesson and the original lesson."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

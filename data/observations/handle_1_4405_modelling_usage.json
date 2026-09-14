@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4405",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Learning Technologies & Modeling Environments**: Examines software environments, automated feedback systems, or digital scaffolding designed to facilitate iterative student modeling practices. Evidence: \"In this paper, we examine the sociotechnical practices of data wrangling--strategies for selecting and managing datasets to produce a model and story in a big data interface--for youth as...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4405",
+      "supporting_text": "In this paper, we examine the sociotechnical practices of data wrangling--strategies for selecting and managing datasets to produce a model and story in a big data interface--for youth as..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

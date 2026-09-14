@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0209",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Qualitative Analysis. **Key Findings & Entry Barrier Impact**: Findings show that (1) improvements in learning processes and outcomes occurring during simulation-based learning do not happen automatically just as a learner is confronted with a diagnostic task, but because learn...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0209",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Qualitative Analysis. **Key Findings & Entry Barrier Impact**: Findings show that (1) improvements in learning processes and outcomes occurring during simulation-based learning do not happen automatically just as a learner is confronted with a diagnostic task, but because learn..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

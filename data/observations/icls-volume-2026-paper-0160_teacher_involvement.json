@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0160",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"Other LS approaches derived from participatory design such as design-based implementation research (DBIR) (Penuel et al., 2011), researcher-practitioner partnerships (Coburn et al., 2013b), participatory design research (PDR) (Bang & Vossoughi, 2016), s ocial design experiment...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0160",
+      "supporting_text": "Other LS approaches derived from participatory design such as design-based implementation research (DBIR) (Penuel et al., 2011), researcher-practitioner partnerships (Coburn et al., 2013b), participatory design research (PDR) (Bang & Vossoughi, 2016), s ocial design experiment..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

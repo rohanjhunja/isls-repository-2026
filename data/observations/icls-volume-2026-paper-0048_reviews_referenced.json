@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0048",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Advancing social equity in urban tree planting: Lessons learned from an integrative review of the literature",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0048",
+      "supporting_text": "Advancing social equity in urban tree planting: Lessons learned from an integrative review of the literature"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

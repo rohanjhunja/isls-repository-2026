@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6779",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The creative writing teacher partnered with this study\u2019s researchers to co-design a six-week podcasting curriculum.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6779",
+      "supporting_text": "The creative writing teacher partnered with this study\u2019s researchers to co-design a six-week podcasting curriculum."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

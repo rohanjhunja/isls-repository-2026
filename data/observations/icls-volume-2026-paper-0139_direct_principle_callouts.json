@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0139",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"In response, researchers advocate for a variety of scaffolding Introduction Teacher Autonomy in Organized Informal Learning Racheli Davies, Weizmann Institute of Science, rachel.\" | \"In response, researchers advocate for a variety of scaffolding methods, such as conversation protocols (Segal et al.\" | \"How can PD developers balance space for real autonomy while offering scaffolding in service of that autonomy?\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0139",
+      "supporting_text": "**Direct Callouts & Context**: \"In response, researchers advocate for a variety of scaffolding Introduction Teacher Autonomy in Organized Informal Learning Racheli Davies, Weizmann Institute of Science, rachel.\" | \"In response, researchers advocate for a variety of scaffolding methods, such as conversation protocols (Segal et al.\" | \"How can PD developers balance space for real autonomy while offering scaffolding in service of that autonomy?\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

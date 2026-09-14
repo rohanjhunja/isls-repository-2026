@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8602",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Activists with DDs\u2019 im agined futures may differ from non-disabled researchers\u2019 and educators.\u2019 This poster describes initial findings from a research study that asks: What imagined futures do activists with DD assume while designing a learning activity intended for non-speaki...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8602",
+      "supporting_text": "Activists with DDs\u2019 im agined futures may differ from non-disabled researchers\u2019 and educators.\u2019 This poster describes initial findings from a research study that asks: What imagined futures do activists with DD assume while designing a learning activity intended for non-speaki..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

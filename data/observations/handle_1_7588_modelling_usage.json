@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7588",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Embodied & Participatory Modeling**: Leverages embodied, mixed-reality, or physical role-play activities to ground learners' sense-making and computational modeling of complex systems. Evidence: \"We show how dance activities expanded access to STEM and supported sense-making; how dancer and dance-making practices were leveraged to support computational thinking, modeling, and inqu...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7588",
+      "supporting_text": "We show how dance activities expanded access to STEM and supported sense-making; how dancer and dance-making practices were leveraged to support computational thinking, modeling, and inqu..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

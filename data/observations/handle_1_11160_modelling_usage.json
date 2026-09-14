@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11160",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Embodied & Participatory Modeling**: Leverages embodied, mixed-reality, or physical role-play activities to ground learners' sense-making and computational modeling of complex systems. Evidence: \"Drawing on analysis of youth interviews, one group\u2019s work towards preparing their final share-out, and their final share-out itself, we propose the construct of a fused representation\u2014a d...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11160",
+      "supporting_text": "Drawing on analysis of youth interviews, one group\u2019s work towards preparing their final share-out, and their final share-out itself, we propose the construct of a fused representation\u2014a d..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

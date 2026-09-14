@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0343",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Marin, A., & Bang, M. (2018). \u201cLook it, this is how you know:\u201d Family forest walks as a context for knowledge- building about the natural world. Cognition and Instruction, 36(2), 89\u2013118. Meixi, & Nzinga, K. (2024). Origin theories of learning: A river with many sources. Review of Research in Education, 47(1), 474\u2013535.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0343",
+      "supporting_text": "Marin, A., & Bang, M. (2018). \u201cLook it, this is how you know:\u201d Family forest walks as a context for knowledge- building about the natural world. Cognition and Instruction, 36(2), 89\u2013118. Meixi, & Nzinga, K. (2024). Origin theories of learning: A river with many sources. Review of Research in Education, 47(1), 474\u2013535."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

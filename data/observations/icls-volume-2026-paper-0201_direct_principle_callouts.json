@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0201",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"In contrast, condensing the game into an end -of-term unit (iteration 3) increased collaborative struggles and reduced identity exploration, despite attempts to improve scaffolding.\" | \"The four - phase game structure was maintained with enhanced scaffolding.\" | \"The unexamined strengths of the original design included the careful identity exploration scaffolding (Kaplan et al.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0201",
+      "supporting_text": "**Direct Callouts & Context**: \"In contrast, condensing the game into an end -of-term unit (iteration 3) increased collaborative struggles and reduced identity exploration, despite attempts to improve scaffolding.\" | \"The four - phase game structure was maintained with enhanced scaffolding.\" | \"The unexamined strengths of the original design included the careful identity exploration scaffolding (Kaplan et al.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

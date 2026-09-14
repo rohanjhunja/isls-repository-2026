@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0441",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Findings emphasize the importance of positioning teachers as active agents who use, share, and co-construct knowledge, and recommend participatory, iterative PD models that foster collaboration and shape the broader direction of CS education.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0441",
+      "supporting_text": "Findings emphasize the importance of positioning teachers as active agents who use, share, and co-construct knowledge, and recommend participatory, iterative PD models that foster collaboration and shape the broader direction of CS education."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

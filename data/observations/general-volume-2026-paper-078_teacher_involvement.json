@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-078",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Using their video noticings as a design \u201cspringboard,\u201d students then engaged in peer-teacher-researcher co-design sessions to reimagine existing design features of their school\u2019s mathematics curriculum, including tools and participation structures (Sandoval, 2014), which their...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-078",
+      "supporting_text": "Using their video noticings as a design \u201cspringboard,\u201d students then engaged in peer-teacher-researcher co-design sessions to reimagine existing design features of their school\u2019s mathematics curriculum, including tools and participation structures (Sandoval, 2014), which their..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

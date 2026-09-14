@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7398",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Co-design is a partnership between teachers and researchers to develop educational mater ials that can ensure usability and effectiveness and can lead to increased teachers\u2019 increased agenc y and reflection on their practice, and ownership over the resulting design (Penuel, Ro...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7398",
+      "supporting_text": "Co-design is a partnership between teachers and researchers to develop educational mater ials that can ensure usability and effectiveness and can lead to increased teachers\u2019 increased agenc y and reflection on their practice, and ownership over the resulting design (Penuel, Ro..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

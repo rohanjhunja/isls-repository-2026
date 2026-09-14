@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0078",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Brayboy, B. M. J. (2005). Toward a tribal critical race theory in education. The Urban Review , 37(5), 425\u2013446. Newhope 576 DOI : 10.1007/s11256-005-0018-y",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0078",
+      "supporting_text": "Brayboy, B. M. J. (2005). Toward a tribal critical race theory in education. The Urban Review , 37(5), 425\u2013446. Newhope 576 DOI : 10.1007/s11256-005-0018-y"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

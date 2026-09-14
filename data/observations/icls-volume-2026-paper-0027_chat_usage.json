@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0027",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Findings and discussion to analyze systemic contradictions, tensions, and expansive learning cycles. Evidence: \"Drawing on the cultural-historical activity theory (CHAT) at the intersection of medical work and adult learning, Yrj\u00f6 Engstr\u00f6m (2018) emphasizes that the word contradiction should...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0027",
+      "supporting_text": "Drawing on the cultural-historical activity theory (CHAT) at the intersection of medical work and adult learning, Yrj\u00f6 Engstr\u00f6m (2018) emphasizes that the word contradiction should not be conflated with the word problem: \u201cContradictions are historically ac cumulating structural tensions within and between activity systems."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

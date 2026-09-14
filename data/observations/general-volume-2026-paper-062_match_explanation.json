@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-062",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"...ugh appropriate representational tools, scaffolding, and cultural practices that support new ways of thinking.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-062",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"...ugh appropriate representational tools, scaffolding, and cultural practices that support new ways of thinking.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

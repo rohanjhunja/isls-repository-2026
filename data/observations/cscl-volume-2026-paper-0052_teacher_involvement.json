@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0052",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This study examines how participatory design workshops can support educators in collaboratively developing sustainable capacity for integrating AI into teacher education.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0052",
+      "supporting_text": "This study examines how participatory design workshops can support educators in collaboratively developing sustainable capacity for integrating AI into teacher education."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

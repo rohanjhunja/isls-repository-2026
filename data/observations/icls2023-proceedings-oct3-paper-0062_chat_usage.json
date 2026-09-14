@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0062",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Introduction to examine activity systems and social interactions. Evidence: \"Our analysis draws on Cultural Historical Activity Theory (Engestr\u00f6m, 1999) to identify mediators within four network visualization activities and explicate how they transformed st...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0062",
+      "supporting_text": "Our analysis draws on Cultural Historical Activity Theory (Engestr\u00f6m, 1999) to identify mediators within four network visualization activities and explicate how they transformed students' progressive understanding of the aggregate dataset they were exploring to make inferences."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

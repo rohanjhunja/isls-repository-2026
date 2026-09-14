@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0043",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction to ground learning and artifact mediation. Evidence: \"Using cultural historical activity theory (CHAT) as a theoretical framework and practitioner reflections over three years as a primary data source, a school-based practitioner rese...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0043",
+      "supporting_text": "Using cultural historical activity theory (CHAT) as a theoretical framework and practitioner reflections over three years as a primary data source, a school-based practitioner researcher and university -based researcher identify key shifts in activity and tensions that emerged when making was both enabled and constrained by school ."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

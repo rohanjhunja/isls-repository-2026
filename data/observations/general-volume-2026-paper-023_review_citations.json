@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-023",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Hmelo-Silver, C.E. (2004). Problem-based learning: What and how do students learn? Educational Psychology Review, 16, 235\u2013266. https://doi.org/10.1023/B:EDPR.0000034022.16470.f3 | Naul, E., & Liu, M. (2020). Why story matters: A review of narrative in serious games. Journal of Educational Computing Research, 58(3), 687-707. OpenAI. (2023). GPT-4 Technical Report. arXiv preprint arXiv:2303.08774 https://doi.org/10.48550/arXiv.2303.08774",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-023",
+      "supporting_text": "Hmelo-Silver, C.E. (2004). Problem-based learning: What and how do students learn? Educational Psychology Review, 16, 235\u2013266. https://doi.org/10.1023/B:EDPR.0000034022.16470.f3 | Naul, E., & Liu, M. (2020). Why story matters: A review of narrative in serious games. Journal of Educational Computing Research, 58(3), 687-707. OpenAI. (2023). GPT-4 Technical Report. arXiv preprint arXiv:2303.08774 https://doi.org/10.48550/arXiv.2303.08774"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

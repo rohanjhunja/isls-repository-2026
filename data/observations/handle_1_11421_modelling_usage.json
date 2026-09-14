@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11421",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"This short paper introduces InCoRe, a conceptual and early-stage implementation of an interactive co-regulation model aimed at supporting teacher training in classroom communication and s...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11421",
+      "supporting_text": "This short paper introduces InCoRe, a conceptual and early-stage implementation of an interactive co-regulation model aimed at supporting teacher training in classroom communication and s..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

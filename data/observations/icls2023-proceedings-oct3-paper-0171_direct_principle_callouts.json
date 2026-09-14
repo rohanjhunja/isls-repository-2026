@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0171",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Scaffolding Middle School Children\u2019s Coding Experiences in an Open-Ended Social Robotics Program Social robots and collaborative open-ended learning may help expand perceptions of computing and develop computational thinking to build skill and interest in Computer Science.\" | \"We designed pr e-programming activities to scaffold middle school children\u2019s learning in a collaborative and open -ended social robotics program.\" | \"In this work, we report on how this scaffolding influenced children's computational thinking and perceptions of computing by describing children's experiences in the program.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0171",
+      "supporting_text": "**Direct Callouts & Context**: \"Scaffolding Middle School Children\u2019s Coding Experiences in an Open-Ended Social Robotics Program Social robots and collaborative open-ended learning may help expand perceptions of computing and develop computational thinking to build skill and interest in Computer Science.\" | \"We designed pr e-programming activities to scaffold middle school children\u2019s learning in a collaborative and open -ended social robotics program.\" | \"In this work, we report on how this scaffolding influenced children's computational thinking and perceptions of computing by describing children's experiences in the program.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

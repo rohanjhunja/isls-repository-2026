@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0071",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Computational thinking in K \u201312: A review of the state of the field | Integrating computational thinking in STEM education: A literature review | Interdisciplinary integration of computational thinking in K-12 education: A systematic review",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0071",
+      "supporting_text": "Computational thinking in K \u201312: A review of the state of the field | Integrating computational thinking in STEM education: A literature review | Interdisciplinary integration of computational thinking in K-12 education: A systematic review"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

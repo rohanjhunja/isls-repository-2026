@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_503",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers engaged in collaborative design partnerships as an authentic professional learning practice, co-creating pedagogical interventions while transforming instructional perspectives and disciplinary agency. **Evidence**: \"Penuel, Roschelle, and Shechtman\u2019s (2007) co-design suggests teachers should be active partners in educational research design, while Spillane, Halverson and Diamond\u2019s (2004) work shows that school leaders benefit from working with a network of partners to implement change.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_503",
+      "supporting_text": "Penuel, Roschelle, and Shechtman\u2019s (2007) co-design suggests teachers should be active partners in educational research design, while Spillane, Halverson and Diamond\u2019s (2004) work shows that school leaders benefit from working with a network of partners to implement change."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

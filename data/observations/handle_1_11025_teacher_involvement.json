@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11025",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"Because it offers an invaluable approach to research that contests the deprofessionalization of educators and leverages teachers\u2019 assets through sustained joint activity (Philip et al., 2022), teacher solidarity co-design informed my approach to PD workshop design.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11025",
+      "supporting_text": "Because it offers an invaluable approach to research that contests the deprofessionalization of educators and leverages teachers\u2019 assets through sustained joint activity (Philip et al., 2022), teacher solidarity co-design informed my approach to PD workshop design."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-053",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Virtual Reality. **Method**: Survey. **Key Findings & Entry Barrier Impact**: Workshop theoretical background Large language models (LLMs) are increasingly deployed as AI tutors, offering personalized explanations, adaptive feedback, and conversational guidance across a wide range of learning...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-053",
+      "supporting_text": "**Framework/Tool**: Virtual Reality. **Method**: Survey. **Key Findings & Entry Barrier Impact**: Workshop theoretical background Large language models (LLMs) are increasingly deployed as AI tutors, offering personalized explanations, adaptive feedback, and conversational guidance across a wide range of learning..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

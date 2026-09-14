@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0171",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Woo, A., Diliberti, M. K., & Steiner, E. D. (2024). Policies restricting teaching about race and gender spill over into other states and localities: Findings from the 2023 State of the American Teacher Survey. American Educator Panels. (No. RR-A1108-10.). RAND Corporation. | Hudicourt-Barnes, J. (2003). The use of argumentation in Haitian Creole science classrooms. Harvard Educational Review, 73(1), 73-93. | Otheguy, R., Garc\u00eda, O., & Reid, W. (2018). A translanguaging view of the linguistic system of bilinguals. Applied Linguistics Review, 10, 625\u2013651.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0171",
+      "supporting_text": "Woo, A., Diliberti, M. K., & Steiner, E. D. (2024). Policies restricting teaching about race and gender spill over into other states and localities: Findings from the 2023 State of the American Teacher Survey. American Educator Panels. (No. RR-A1108-10.). RAND Corporation. | Hudicourt-Barnes, J. (2003). The use of argumentation in Haitian Creole science classrooms. Harvard Educational Review, 73(1), 73-93. | Otheguy, R., Garc\u00eda, O., & Reid, W. (2018). A translanguaging view of the linguistic system of bilinguals. Applied Linguistics Review, 10, 625\u2013651."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

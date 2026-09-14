@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0032",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Future research should focus on integrating scaffolding interventions in CSCL to explicitly teach clinical argumentation and intercultural competence.\" | \"In medical education, CSCL tools scaffold students' argumentative CCR by facilitating evidence -based hypotheses and diagnostic decisions, by highlighting appropriate argumentative components (Noroozi et al.\" | \"The study seeks to enhance intercultural competence in medical education curricula and integrate argumentation scaffolding tools for CCR in synchronous CSCL.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0032",
+      "supporting_text": "**Direct Callouts & Context**: \"Future research should focus on integrating scaffolding interventions in CSCL to explicitly teach clinical argumentation and intercultural competence.\" | \"In medical education, CSCL tools scaffold students' argumentative CCR by facilitating evidence -based hypotheses and diagnostic decisions, by highlighting appropriate argumentative components (Noroozi et al.\" | \"The study seeks to enhance intercultural competence in medical education curricula and integrate argumentation scaffolding tools for CCR in synchronous CSCL.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

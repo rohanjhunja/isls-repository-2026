@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_886",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This study is part of a broader design-based research project, wherein we worked closely with a high school biology teacher to co-design a KCI curriculum and corresponding technology environment called CKBiology.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_886",
+      "supporting_text": "This study is part of a broader design-based research project, wherein we worked closely with a high school biology teacher to co-design a KCI curriculum and corresponding technology environment called CKBiology."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

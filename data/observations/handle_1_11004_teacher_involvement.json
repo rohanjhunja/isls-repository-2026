@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11004",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Notable examples include the storyline framework (Reiser et al., 2021) and participatory design (Bang & Vossoughi, 2016). These design frameworks, while differing in their methodological approaches and objectives, offer essential design principles that guide research work with...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11004",
+      "supporting_text": "Notable examples include the storyline framework (Reiser et al., 2021) and participatory design (Bang & Vossoughi, 2016). These design frameworks, while differing in their methodological approaches and objectives, offer essential design principles that guide research work with..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

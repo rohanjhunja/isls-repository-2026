@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0137",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"The redesigned program implements empirically -informed and theory- grounded changes including portfolio-based assessment replacing comprehensive exams, design thinking coursework providing collaboration scaffolding, expanded research practicum for authentic professional work, and flexible specializations.\" | \"Their positive experiences stemmed from active teamwork, peer discussions, open communication, and the fair distribution of work, all of which were enhanced b y scaffolding from both the instructor and their peers.\" | \"The network showed strong correlations between collaborative struggles (anxiety, passivity, uncertainty) and the absence of explicit scaffolding for group processes.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0137",
+      "supporting_text": "**Direct Callouts & Context**: \"The redesigned program implements empirically -informed and theory- grounded changes including portfolio-based assessment replacing comprehensive exams, design thinking coursework providing collaboration scaffolding, expanded research practicum for authentic professional work, and flexible specializations.\" | \"Their positive experiences stemmed from active teamwork, peer discussions, open communication, and the fair distribution of work, all of which were enhanced b y scaffolding from both the instructor and their peers.\" | \"The network showed strong correlations between collaborative struggles (anxiety, passivity, uncertainty) and the absence of explicit scaffolding for group processes.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

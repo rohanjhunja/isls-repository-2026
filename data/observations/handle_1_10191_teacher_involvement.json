@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10191",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Co-design activities were structured to: 1) begin with an introduction of the activity\u2019s purpose and review of relevant AI concepts and/or pedagogical reasoning, 2) walk through the research team\u2019s preliminary iteration of the activity or curriculum flow, and 3) elicit teacher...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10191",
+      "supporting_text": "Co-design activities were structured to: 1) begin with an introduction of the activity\u2019s purpose and review of relevant AI concepts and/or pedagogical reasoning, 2) walk through the research team\u2019s preliminary iteration of the activity or curriculum flow, and 3) elicit teacher..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

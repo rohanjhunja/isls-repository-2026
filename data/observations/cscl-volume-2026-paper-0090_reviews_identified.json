@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0090",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Akkerman, S. F., & Bakker, A. (2011). Boundary Crossing and Boundary Objects. Review of Educational Research, 81(2), 132-169. https://doi.org/10.3102/0034654311404435 (Original work published 2011)",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0090",
+      "supporting_text": "Akkerman, S. F., & Bakker, A. (2011). Boundary Crossing and Boundary Objects. Review of Educational Research, 81(2), 132-169. https://doi.org/10.3102/0034654311404435 (Original work published 2011)"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

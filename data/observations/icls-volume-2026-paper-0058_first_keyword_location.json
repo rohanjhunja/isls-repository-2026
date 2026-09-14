@@ -1,0 +1,20 @@
+{
+  "paper_id": "icls-volume-2026-paper-0058",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "16.2% (Results & Findings)",
+  "pct": 16.2,
+  "section": "Results & Findings",
+  "first_matched_keyword": "participatory",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0058",
+      "supporting_text": "First matched design keyword 'participatory' appears at 16.2% of total character length in section 'Results & Findings'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

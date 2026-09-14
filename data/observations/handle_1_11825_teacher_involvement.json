@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11825",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Based o n teachers\u2019 interest in and reported need for profe ssional development and classroom resources related to data science, I worked with four teachers to co-design and implement Algebra 1 and 2 lessons that incorporate data science practices, content, and tools.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11825",
+      "supporting_text": "Based o n teachers\u2019 interest in and reported need for profe ssional development and classroom resources related to data science, I worked with four teachers to co-design and implement Algebra 1 and 2 lessons that incorporate data science practices, content, and tools."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

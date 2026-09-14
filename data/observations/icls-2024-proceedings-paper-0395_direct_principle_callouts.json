@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0395",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"A Comprehensive Strategy for Scaffolding the Development of Students\u2019 Mathematical Proof Skills Across a Learning Progression The core practices of constructing and critiquing proofs play a pivotal role in the authenticity of mathematicians' discipline, yet engaging high school students in these practices is notoriously challenging.\" | \"Introduction A Comprehensive Strategy for Scaffolding the Development of Students\u2019 Mathematical Proof Skills Across a Learning Progression Mic Fenech, Massachusetts Institute of Technology, mfenech@mit.\" | \"Nevertheless, there exist several obstacles to proof instruction in the realm of mathematics as teachers often struggle to scaffold appropriate learning progressions (C ai & Cirillo, 2014).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0395",
+      "supporting_text": "**Direct Callouts & Context**: \"A Comprehensive Strategy for Scaffolding the Development of Students\u2019 Mathematical Proof Skills Across a Learning Progression The core practices of constructing and critiquing proofs play a pivotal role in the authenticity of mathematicians' discipline, yet engaging high school students in these practices is notoriously challenging.\" | \"Introduction A Comprehensive Strategy for Scaffolding the Development of Students\u2019 Mathematical Proof Skills Across a Learning Progression Mic Fenech, Massachusetts Institute of Technology, mfenech@mit.\" | \"Nevertheless, there exist several obstacles to proof instruction in the realm of mathematics as teachers often struggle to scaffold appropriate learning progressions (C ai & Cirillo, 2014).\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

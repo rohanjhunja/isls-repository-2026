@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-058",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Cheung, W. M., & Wang, W. Y. (2014). Does lesson study work? A systematic review on the effects of lesson study and learning study on teachers and students. International Journal for Lesson and Learning Studies, 3(2), 137-149. | Kennedy, M. M. (2016). How does professional development improve teaching? Review of Educational Research, 86(4), 945-980. https://doi.org/10.3102/0034654315626800. | Smith, C. M., Leary, H. M., Jensen, J. L., & Sansom, R. L. (2024). Ten years of three-dimensional science and its implementation in the secondary classroom: A scoping review. Journal of Science Teacher Education, 1-19. https://doi.org/10.1080/1046560X.2024.2411467.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-058",
+      "supporting_text": "Cheung, W. M., & Wang, W. Y. (2014). Does lesson study work? A systematic review on the effects of lesson study and learning study on teachers and students. International Journal for Lesson and Learning Studies, 3(2), 137-149. | Kennedy, M. M. (2016). How does professional development improve teaching? Review of Educational Research, 86(4), 945-980. https://doi.org/10.3102/0034654315626800. | Smith, C. M., Leary, H. M., Jensen, J. L., & Sansom, R. L. (2024). Ten years of three-dimensional science and its implementation in the secondary classroom: A scoping review. Journal of Science Teacher Education, 1-19. https://doi.org/10.1080/1046560X.2024.2411467."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

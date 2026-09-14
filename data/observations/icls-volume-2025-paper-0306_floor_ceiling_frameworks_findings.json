@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0306",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Case Study. **Key Findings & Entry Barrier Impact**: While traditional frameworks like scaffolding emphasize guidance from adults or advanced peers, play offers a dynamic space where students independently or interdependently explore, learn, and create, thus transcend...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0306",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Case Study. **Key Findings & Entry Barrier Impact**: While traditional frameworks like scaffolding emphasize guidance from adults or advanced peers, play offers a dynamic space where students independently or interdependently explore, learn, and create, thus transcend..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

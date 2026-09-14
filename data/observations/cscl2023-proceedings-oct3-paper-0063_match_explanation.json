@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl2023-proceedings-oct3-paper-0063",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"...ollaborative learning, for instance, by scaffolding learners with salient prompts.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl2023-proceedings-oct3-paper-0063",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"...ollaborative learning, for instance, by scaffolding learners with salient prompts.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-063",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Vickery, M., & Peabody, E. (Under Review). Addressing the dinosaur in the room: An unexpected evolution from partnership to participation.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-063",
+      "supporting_text": "Vickery, M., & Peabody, E. (Under Review). Addressing the dinosaur in the room: An unexpected evolution from partnership to participation."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

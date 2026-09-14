@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0296",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Title explicitly mentions 'scaffolding'; Abstract discusses 'scaffolding'. Evidence: \"Qualitative interpretive discourse analysis showed that, without scaffolding, students\u2019 responses to uncertainty were often negatively oriented.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0296",
+      "supporting_text": "Title explicitly mentions 'scaffolding'; Abstract discusses 'scaffolding'. Evidence: \"Qualitative interpretive discourse analysis showed that, without scaffolding, students\u2019 responses to uncertainty were often negatively oriented.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

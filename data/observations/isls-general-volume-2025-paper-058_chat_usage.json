@@ -1,0 +1,17 @@
+{
+  "paper_id": "isls-general-volume-2025-paper-058",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction and background to ground learning and artifact mediation. Evidence: \"Grounded in sociocultural learning perspectives, this study integrates the framework for modeling influence dynamics (Engle et al., 2014) and Cultural-Historical Activity Theory (E...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "isls-general-volume-2025-paper-058",
+      "supporting_text": "Grounded in sociocultural learning perspectives, this study integrates the framework for modeling influence dynamics (Engle et al., 2014) and Cultural-Historical Activity Theory (Engestr\u00f6m, 2015) to examine interactions mediated by tools in social and cultural contexts."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

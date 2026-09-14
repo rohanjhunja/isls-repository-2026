@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0091",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Background on RPPs to examine activity systems and social interactions. Evidence: \"682 Severance et al., (2016) use cultural-historical activity theory to organize co-design materials and analyze activity in an RPP.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0091",
+      "supporting_text": "682 Severance et al., (2016) use cultural-historical activity theory to organize co-design materials and analyze activity in an RPP."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6763",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"To further support more justice-oriented learning opportunities, more strateg ies are needed to support teachers, students and researchers to restructure power hierarchies operating to expand both who gets to define and participate in sanctioned learning. Therefore, we explore...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6763",
+      "supporting_text": "To further support more justice-oriented learning opportunities, more strateg ies are needed to support teachers, students and researchers to restructure power hierarchies operating to expand both who gets to define and participate in sanctioned learning. Therefore, we explore..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

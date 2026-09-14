@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9222",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The present study is part of a teacher-researcher co-design projec t that investigates new patterns of learning community pedagogy that aims to (1) develop an adaptive technology environment to scaffold and script the development of internal regulation scripts of individuals a...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9222",
+      "supporting_text": "The present study is part of a teacher-researcher co-design projec t that investigates new patterns of learning community pedagogy that aims to (1) develop an adaptive technology environment to scaffold and script the development of internal regulation scripts of individuals a..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11631",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Title: Game-Based Co-Design to Support Youth Moves to Elsewhere in Formal Learning Spaces Abstract: This poster reports on a co-design research partnership between a sixth grade English teacher and a learning scientist to create a table-top roleplaying game (TTRPG) for a U.S.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11631",
+      "supporting_text": "Title: Game-Based Co-Design to Support Youth Moves to Elsewhere in Formal Learning Spaces Abstract: This poster reports on a co-design research partnership between a sixth grade English teacher and a learning scientist to create a table-top roleplaying game (TTRPG) for a U.S."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

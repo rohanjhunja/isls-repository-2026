@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_306",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Drawin g upon the Knowledge B uilding pedagogy (Scardamalia & Bereiter, 2006), a renowned inquiry-based program to cultivate authentic knowledge-creating practices, we explored how students and teachers worked with a se t of principles to co-design their classroom practices an...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_306",
+      "supporting_text": "Drawin g upon the Knowledge B uilding pedagogy (Scardamalia & Bereiter, 2006), a renowned inquiry-based program to cultivate authentic knowledge-creating practices, we explored how students and teachers worked with a se t of principles to co-design their classroom practices an..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

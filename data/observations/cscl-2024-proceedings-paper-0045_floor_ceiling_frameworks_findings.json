@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0045",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Empirical Classroom / User Evaluation. **Key Findings & Entry Barrier Impact**: The quality of CSCL considerately relies on pedagogical and social support by means of tools, scripts and scaffolding (Kirschner & Erkens, 2013 ).",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0045",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Empirical Classroom / User Evaluation. **Key Findings & Entry Barrier Impact**: The quality of CSCL considerately relies on pedagogical and social support by means of tools, scripts and scaffolding (Kirschner & Erkens, 2013 )."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

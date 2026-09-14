@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0310",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Videos with equitable ambient identity cues that the teacher identified through codesign were integrated into elementary STEM lessons.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0310",
+      "supporting_text": "Videos with equitable ambient identity cues that the teacher identified through codesign were integrated into elementary STEM lessons."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_827",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Engaging in design based implementation work with state leaders and l earning scientists allowed for states to collaborate in codesign and research work using tools such as practical measu res, actor network models, and teacher education resources.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_827",
+      "supporting_text": "Engaging in design based implementation work with state leaders and l earning scientists allowed for states to collaborate in codesign and research work using tools such as practical measu res, actor network models, and teacher education resources."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

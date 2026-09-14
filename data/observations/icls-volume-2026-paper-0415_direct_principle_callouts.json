@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0415",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Additionally, these findings lead us to suggest implications highlighting awareness of teachers\u2019 assumptions, deliberate activity scaffolding, and pedagogical strategies to support teachers in balancing technical and reflective stances of AI literacy.\" | \"Rather than evaluating student outcomes, we examine teachers\u2019 planning, enactment, and post -lesson reflections to understand how bridging is attempted, where it becomes fragile, and what forms of scaffolding appear necessary.\" | \"\u201d Overall, these findings suggest that AI literacy emerges not from technical fluency or ethical awareness alone, but from carefully designed activities that integrate experimentation and reflection, scaffolding students\u2019 critical engagement alongside technical exploration.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0415",
+      "supporting_text": "**Direct Callouts & Context**: \"Additionally, these findings lead us to suggest implications highlighting awareness of teachers\u2019 assumptions, deliberate activity scaffolding, and pedagogical strategies to support teachers in balancing technical and reflective stances of AI literacy.\" | \"Rather than evaluating student outcomes, we examine teachers\u2019 planning, enactment, and post -lesson reflections to understand how bridging is attempted, where it becomes fragile, and what forms of scaffolding appear necessary.\" | \"\u201d Overall, these findings suggest that AI literacy emerges not from technical fluency or ethical awareness alone, but from carefully designed activities that integrate experimentation and reflection, scaffolding students\u2019 critical engagement alongside technical exploration.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

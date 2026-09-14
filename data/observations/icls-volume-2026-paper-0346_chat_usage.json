@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0346",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in findings have implications for K \u201312 tech and arts education, policy on AI and creativity, and scholarly as a socio-cultural framework for activity systems. Evidence: \"Our inquiry is rooted in cultural historical activity theory (CHAT), recognizing that human thought and action are shaped (and shape) a collective activity system mediated by tools...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0346",
+      "supporting_text": "Our inquiry is rooted in cultural historical activity theory (CHAT), recognizing that human thought and action are shaped (and shape) a collective activity system mediated by tools, signs, and language that are part of a cultural and historical context organized by rules and divisions of labor that are inherently social and diverse (Engestr\u00f6m, 1987)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

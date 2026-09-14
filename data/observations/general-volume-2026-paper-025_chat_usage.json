@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-025",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction to ground learning and artifact mediation. Evidence: \"Thus, our work draws on sociocultural theoretical perspectives that emphasize the important role that social and cultural interactions play in learning and development such as soci...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-025",
+      "supporting_text": "Thus, our work draws on sociocultural theoretical perspectives that emphasize the important role that social and cultural interactions play in learning and development such as sociocultural cognitive theory (Vygotsky, 1978) and cultural historical activity theory (Engestr\u00f6m, 1999)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

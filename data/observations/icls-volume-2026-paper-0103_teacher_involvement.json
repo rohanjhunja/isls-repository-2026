@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0103",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Figure 2 The Collaborative AI agent Interfaces, [for Review-the Blocked Out Text Is De-Identified and Describes the Community Agreement Categorization Confidence] First, we analyze how the curriculum routines provide affordances that serve as a boundary object mediating the de...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0103",
+      "supporting_text": "Figure 2 The Collaborative AI agent Interfaces, [for Review-the Blocked Out Text Is De-Identified and Describes the Community Agreement Categorization Confidence] First, we analyze how the curriculum routines provide affordances that serve as a boundary object mediating the de..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

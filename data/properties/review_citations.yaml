@@ -1,0 +1,20 @@
+id: review_citations
+version: 1.0.0
+label: Review Citations
+description: References and citations in the paper that contain the term 'review'.
+value_type: text
+query:
+  question: Which references or citations in the paper contain the word 'review'?
+  candidate_sections:
+    - References
+    - Citations
+    - Bibliography
+  text_terms:
+    - review
+    - reviews
+constraints:
+  output_type: string
+extraction:
+  preferred_methods:
+    - section_parsing
+evidence_required: true

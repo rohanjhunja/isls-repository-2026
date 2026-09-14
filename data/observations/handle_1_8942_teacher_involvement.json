@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8942",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In this study, we focus on how the co-design process created opportunities for teachers to develop their interpretive power of students\u2019 STEM learning to identify varied forms of participation and learning in STEM activities through the co-design of an afterschool STEM program.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8942",
+      "supporting_text": "In this study, we focus on how the co-design process created opportunities for teachers to develop their interpretive power of students\u2019 STEM learning to identify varied forms of participation and learning in STEM activities through the co-design of an afterschool STEM program."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

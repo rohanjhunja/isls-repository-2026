@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0127",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Implementation matters: A review of research on the influence of implementation on program outcomes and the factors affecting implementation",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0127",
+      "supporting_text": "Implementation matters: A review of research on the influence of implementation on program outcomes and the factors affecting implementation"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8988",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"This study explores how to support teachers in developing and implementing effective pedagogical strategies to promote students in making sense of phenomena through computational modeling...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8988",
+      "supporting_text": "This study explores how to support teachers in developing and implementing effective pedagogical strategies to promote students in making sense of phenomena through computational modeling..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

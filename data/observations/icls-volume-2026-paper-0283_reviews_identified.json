@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0283",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Destin, M., & Williams, J. L. (2020). The Connection Between Student Identities and Outcomes Related to Academic Persistence. Annual Review of Developmental Psychology , 2(1), 437\u2013 460. https://doi.org/10.1146/annurev-devpsych-040920-042107 | Gerard, L. F., Varma, K., Corliss, S. B., & Linn, M. C. (2011). Professional Development for Technology - Enhanced Inquiry Science. Review of Educational Research , 81(3), 408\u2013 448. https://doi.org/10.3102/0034654311415121 | Jiang, Z., & Wei, B. (2023). Understanding Science Identity Development Among College Students: A Systematic Literature Review. Science & Education. https://doi.org/10.1007/s11191-023-00478-9",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0283",
+      "supporting_text": "Destin, M., & Williams, J. L. (2020). The Connection Between Student Identities and Outcomes Related to Academic Persistence. Annual Review of Developmental Psychology , 2(1), 437\u2013 460. https://doi.org/10.1146/annurev-devpsych-040920-042107 | Gerard, L. F., Varma, K., Corliss, S. B., & Linn, M. C. (2011). Professional Development for Technology - Enhanced Inquiry Science. Review of Educational Research , 81(3), 408\u2013 448. https://doi.org/10.3102/0034654311415121 | Jiang, Z., & Wei, B. (2023). Understanding Science Identity Development Among College Students: A Systematic Literature Review. Science & Education. https://doi.org/10.1007/s11191-023-00478-9"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

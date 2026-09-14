@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0201",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Design-Based Research, Qualitative Analysis. **Key Findings & Entry Barrier Impact**: In contrast, condensing the game into an end -of-term unit (iteration 3) increased collaborative struggles and reduced identity exploration, despite attempts to improve scaffolding.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0201",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Design-Based Research, Qualitative Analysis. **Key Findings & Entry Barrier Impact**: In contrast, condensing the game into an end -of-term unit (iteration 3) increased collaborative struggles and reduced identity exploration, despite attempts to improve scaffolding."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

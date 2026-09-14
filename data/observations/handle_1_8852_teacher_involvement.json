@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8852",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Co-design is a participatory approach that brings t ogether researcher\u2019s knowledge and lived experience s of the participants (Roschelle & Penuel, 2006). Our workshop was designed in partnership with a teacher-leade r from the school, five classroom teachers and administrat ors.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8852",
+      "supporting_text": "Co-design is a participatory approach that brings t ogether researcher\u2019s knowledge and lived experience s of the participants (Roschelle & Penuel, 2006). Our workshop was designed in partnership with a teacher-leade r from the school, five classroom teachers and administrat ors."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

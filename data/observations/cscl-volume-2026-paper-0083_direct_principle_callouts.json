@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0083",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Scaffolding Knowledge Building through Ordered-Epistemic Network Analysis-Supported Reflective Assessment and Meta-Discourse This study presents a reflective assessment approach supported by ordered-epistemic network analysis (ONA) tools, designed to enhance students\u2019 knowledge building (KB) and discourse within the Knowledge Forum.\" | \"Introduction Scaffolding Knowledge Building through Ordered-Epistemic Network Analysis-Supported Reflective Assessment and Meta- Discourse Xiaojie Zhang, The University of Hong Kong, zxjie@connect.\" | \"Scaffolding discourse remains vital, with approaches including teacher -led knowledge - building talks, reflective portfolios ( Van Aalst & Chan, 2007), and metacognitive conversations (Zhang et al.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0083",
+      "supporting_text": "**Direct Callouts & Context**: \"Scaffolding Knowledge Building through Ordered-Epistemic Network Analysis-Supported Reflective Assessment and Meta-Discourse This study presents a reflective assessment approach supported by ordered-epistemic network analysis (ONA) tools, designed to enhance students\u2019 knowledge building (KB) and discourse within the Knowledge Forum.\" | \"Introduction Scaffolding Knowledge Building through Ordered-Epistemic Network Analysis-Supported Reflective Assessment and Meta- Discourse Xiaojie Zhang, The University of Hong Kong, zxjie@connect.\" | \"Scaffolding discourse remains vital, with approaches including teacher -led knowledge - building talks, reflective portfolios ( Van Aalst & Chan, 2007), and metacognitive conversations (Zhang et al.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

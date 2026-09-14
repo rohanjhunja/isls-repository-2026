@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_270",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Scientific Inquiry & Explanatory Modeling**: Focuses on student practices of generating, testing, evaluating, and iteratively revising explanatory scientific models using empirical evidence. Evidence: \"We co-designed an instructional sequence with software applications to support middle school students building interaction food webs as models of ecosystems.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_270",
+      "supporting_text": "We co-designed an instructional sequence with software applications to support middle school students building interaction food webs as models of ecosystems."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

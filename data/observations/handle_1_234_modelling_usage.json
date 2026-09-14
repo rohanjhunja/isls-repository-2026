@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_234",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Scientific Inquiry & Explanatory Modeling**: Focuses on student practices of generating, testing, evaluating, and iteratively revising explanatory scientific models using empirical evidence. Evidence: \"We investigated (1) whether the combination of these frameworks can be fruitfully applied to model scientific reasoning processes and (2) what unit of analysis researchers or instructors ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_234",
+      "supporting_text": "We investigated (1) whether the combination of these frameworks can be fruitfully applied to model scientific reasoning processes and (2) what unit of analysis researchers or instructors ..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

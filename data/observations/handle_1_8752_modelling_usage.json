@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8752",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"Drawing on the literature on modeling and codesign with teachers over a year, we present 3 strategies and describe how they support student sense making and learning: 1.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8752",
+      "supporting_text": "Drawing on the literature on modeling and codesign with teachers over a year, we present 3 strategies and describe how they support student sense making and learning: 1."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

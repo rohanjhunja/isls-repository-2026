@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0290",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Collins, P.H. & Bilge, S. (2020). Intersectionality. Polity Press. Design-Based Research Collective. (2003). Design -Based Research: An Emerging Paradigm for Educational Inquiry. Educational Researcher, 32(1), 5-8. Engestr\u00f6m, Y., & Sannino, A. (2010). Studies of expansive learning: Foundations, findings and future challenges. Educational Research Review, 5(1), 1\u201324. | Severance, S., Penuel, W. R., Sumner, T., & Leary, H. (2016). Organizing for Teacher Agency in Curricular Co- Design. Journal of the Learning Sciences, 25(4), 531\u2013564. S tamatis, K.M., Jakopovic, P., Mendoza, R., & Wisneski, D. (In review). The Risk Happens Before They Play: Risk-taking and play in family playful learning. Frontiers in Education.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0290",
+      "supporting_text": "Collins, P.H. & Bilge, S. (2020). Intersectionality. Polity Press. Design-Based Research Collective. (2003). Design -Based Research: An Emerging Paradigm for Educational Inquiry. Educational Researcher, 32(1), 5-8. Engestr\u00f6m, Y., & Sannino, A. (2010). Studies of expansive learning: Foundations, findings and future challenges. Educational Research Review, 5(1), 1\u201324. | Severance, S., Penuel, W. R., Sumner, T., & Leary, H. (2016). Organizing for Teacher Agency in Curricular Co- Design. Journal of the Learning Sciences, 25(4), 531\u2013564. S tamatis, K.M., Jakopovic, P., Mendoza, R., & Wisneski, D. (In review). The Risk Happens Before They Play: Risk-taking and play in family playful learning. Frontiers in Education."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

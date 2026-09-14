@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8421",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Pedagogical & Collaborative Dialogue Modeling**: Examines how pedagogical facilitation, instructor moves, or collaborative tools model productive discourse and interpersonal inquiry strategies. Evidence: \"Through a series of three focus groups, we learned that teachers planned for their students to take notes or utilize other graphic organizers to align the science content with the narrati...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8421",
+      "supporting_text": "Through a series of three focus groups, we learned that teachers planned for their students to take notes or utilize other graphic organizers to align the science content with the narrati..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8524",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"To answer our research question, we conducted two phases of participatory design research with middle-school science teachers to probe for what personal guidance teachers would like to provide, a nd how they might use a tool to augment homework to support their students\u2019 at-ho...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8524",
+      "supporting_text": "To answer our research question, we conducted two phases of participatory design research with middle-school science teachers to probe for what personal guidance teachers would like to provide, a nd how they might use a tool to augment homework to support their students\u2019 at-ho..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

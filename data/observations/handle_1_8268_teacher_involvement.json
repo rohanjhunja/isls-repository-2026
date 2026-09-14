@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8268",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"We conducted three sessions; each one had a specific focus and co-design activity\u2013described in more detail below. All sessions were conducted virtu ally with one teacher at a time and recorded through a video conferencing platform.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8268",
+      "supporting_text": "We conducted three sessions; each one had a specific focus and co-design activity\u2013described in more detail below. All sessions were conducted virtu ally with one teacher at a time and recorded through a video conferencing platform."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

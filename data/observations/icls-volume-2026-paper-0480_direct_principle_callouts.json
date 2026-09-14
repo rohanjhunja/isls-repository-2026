@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0480",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"This paper contributes two design principles: (1) scaffolding from individual to system- level understanding of how bias e merges in data, (2) connecting mathematical representation (statistical distributions) to social representation (who gets included or excluded).\" | \"GR exemplifies the following design principles for making the abstract, ethical, and socio-technical elements of AI tangible Scaffold from Individual to System- Level Understanding: A common misconception about bias is that it results from individual prejudice \u2014a \"bad actor\" with discriminatory intent.\" | \"This scaffolding helps players understand bias as emerging from systems, not just individual prejudices, positioning them to better understand the process of AI technology creation (and the bias that emerges) as an ecosystem (CC#1).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0480",
+      "supporting_text": "**Direct Callouts & Context**: \"This paper contributes two design principles: (1) scaffolding from individual to system- level understanding of how bias e merges in data, (2) connecting mathematical representation (statistical distributions) to social representation (who gets included or excluded).\" | \"GR exemplifies the following design principles for making the abstract, ethical, and socio-technical elements of AI tangible Scaffold from Individual to System- Level Understanding: A common misconception about bias is that it results from individual prejudice \u2014a \"bad actor\" with discriminatory intent.\" | \"This scaffolding helps players understand bias as emerging from systems, not just individual prejudices, positioning them to better understand the process of AI technology creation (and the bias that emerges) as an ecosystem (CC#1).\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

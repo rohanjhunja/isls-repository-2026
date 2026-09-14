@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0225",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction to analyze systemic contradictions, tensions, and expansive learning cycles. Evidence: \"Using cultural-historical activity theory, we examine the cultural, historical, and contextual factors impacting each group\u2019s  participation in a feedback loop and the contradictio...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0225",
+      "supporting_text": "Using cultural-historical activity theory, we examine the cultural, historical, and contextual factors impacting each group\u2019s  participation in a feedback loop and the contradictions that arise within and between the systems."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

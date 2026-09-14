@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6478",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Using a Design Based Implementation Research (DBIR) framework (Fishman et al., 2003), this paper describes an in-depth case study of one teacher\u2019s experiences with our team as she learned how to integrate CT and science through multiple co-design sessions and implementations o...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6478",
+      "supporting_text": "Using a Design Based Implementation Research (DBIR) framework (Fishman et al., 2003), this paper describes an in-depth case study of one teacher\u2019s experiences with our team as she learned how to integrate CT and science through multiple co-design sessions and implementations o..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

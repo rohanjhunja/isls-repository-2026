@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9908",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"This ongoing study follows the participatory design research (PDR) paradigm in Learning Sciences to support a group of mathematics teachers in designing their professional community under a non-profit organization in Turkey called Teachers\u2019 Network, which promotes teacher empo...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9908",
+      "supporting_text": "This ongoing study follows the participatory design research (PDR) paradigm in Learning Sciences to support a group of mathematics teachers in designing their professional community under a non-profit organization in Turkey called Teachers\u2019 Network, which promotes teacher empo..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

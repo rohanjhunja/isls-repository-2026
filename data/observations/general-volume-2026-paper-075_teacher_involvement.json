@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-075",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"As a doctoral student at the University of Maryland with an interest in how children learn and develop their identities through co-design, I have experienced some of these challenges firsthand through my participation in UMD KidsTeam\u2014an intergenerational co-design team where u...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-075",
+      "supporting_text": "As a doctoral student at the University of Maryland with an interest in how children learn and develop their identities through co-design, I have experienced some of these challenges firsthand through my participation in UMD KidsTeam\u2014an intergenerational co-design team where u..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0283",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Co-design has shown to be particularly effective for engaging teachers in shaping technology-enhanced learning tools (Kali et al., 2015), with benefits including better student learning outcomes (Gerard et al., 2011), greater teacher ownership (Cviko et al., 2015), and a metho...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0283",
+      "supporting_text": "Co-design has shown to be particularly effective for engaging teachers in shaping technology-enhanced learning tools (Kali et al., 2015), with benefits including better student learning outcomes (Gerard et al., 2011), greater teacher ownership (Cviko et al., 2015), and a metho..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

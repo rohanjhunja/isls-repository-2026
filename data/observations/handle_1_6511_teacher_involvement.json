@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6511",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Drawing on collaborative ethnography (Erickson, 2012), social design methodologies (Guti\u00e9rrez & Vossoughi, 2010) and participatory design research (Bang & Vossoughi, 2016) we look clos ely at 5 PD sessions designed to support educators to closely examine their pedagogical prac...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6511",
+      "supporting_text": "Drawing on collaborative ethnography (Erickson, 2012), social design methodologies (Guti\u00e9rrez & Vossoughi, 2010) and participatory design research (Bang & Vossoughi, 2016) we look clos ely at 5 PD sessions designed to support educators to closely examine their pedagogical prac..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

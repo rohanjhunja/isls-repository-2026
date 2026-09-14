@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl2023-proceedings-oct3-paper-0063",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Such obser vations led to research on how transactivity can be facilitated in collaborative learning, for instance, by scaffolding learners with salient prompts.\" | \"The design of measurements and scaffolding of transactivity in future research may operationalize transactivity more generally using novelty and reference as defining factors (see Rejon et al.\" | \"For transactivity scaffolding this could mean that novelty and reference may be supported differently throughout the collaborative learning process.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl2023-proceedings-oct3-paper-0063",
+      "supporting_text": "**Direct Callouts & Context**: \"Such obser vations led to research on how transactivity can be facilitated in collaborative learning, for instance, by scaffolding learners with salient prompts.\" | \"The design of measurements and scaffolding of transactivity in future research may operationalize transactivity more generally using novelty and reference as defining factors (see Rejon et al.\" | \"For transactivity scaffolding this could mean that novelty and reference may be supported differently throughout the collaborative learning process.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-045",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Grounded in Knowledge Building Theory, the platform offers tools for collaborative idea refinement, progress monitoring, and dynamic scaffolding, addressing persistent challenges in elementary science education.\" | \"The experimental group showed significantly greater gains in science learning interest, recognition of science's value, scientific inquiry skills, and perceptions of a collaborative and agentive learning environment, attributed to the platform\u2019s targeted scaffolding.\" | \"Likewise, teachers report difficulties with task management, group coordination, and timely scaffolding when using KF, which further constrains its implementation in elementary education (Lai & Law, 2013).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-045",
+      "supporting_text": "**Direct Callouts & Context**: \"Grounded in Knowledge Building Theory, the platform offers tools for collaborative idea refinement, progress monitoring, and dynamic scaffolding, addressing persistent challenges in elementary science education.\" | \"The experimental group showed significantly greater gains in science learning interest, recognition of science's value, scientific inquiry skills, and perceptions of a collaborative and agentive learning environment, attributed to the platform\u2019s targeted scaffolding.\" | \"Likewise, teachers report difficulties with task management, group coordination, and timely scaffolding when using KF, which further constrains its implementation in elementary education (Lai & Law, 2013).\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

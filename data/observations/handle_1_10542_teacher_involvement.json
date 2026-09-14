@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10542",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Next steps for the project and for the field Co-designing MMLA tools with teachers and students pro vides the clearest path to use in classrooms, as it helps break down obstacles to both adoption and use.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10542",
+      "supporting_text": "Next steps for the project and for the field Co-designing MMLA tools with teachers and students pro vides the clearest path to use in classrooms, as it helps break down obstacles to both adoption and use."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

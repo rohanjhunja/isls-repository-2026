@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0062",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Emotional Labor and Burnout among Teachers: A Systematic Review",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0062",
+      "supporting_text": "Emotional Labor and Burnout among Teachers: A Systematic Review"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

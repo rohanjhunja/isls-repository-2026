@@ -1,0 +1,28 @@
+profile:
+  id: isls-2025-profile
+  version: 1.0.0
+  applies_to:
+    filename_regex: '(?i)isls'
+
+paper_boundary:
+  abstract_heading: '(?i)^abstract:?'
+  toc_match_minimum: 75
+  title:
+    minimum_font_ratio: 1.25
+    maximum_lines: 5
+
+page_furniture:
+  header_patterns:
+    - '(?i)general proceedings of the isls annual meeting 2025'
+    - '(?i)©\s*isls'
+  footer_patterns:
+    - '(?i)general proceedings of the isls annual meeting 2025'
+    - '(?i)©\s*isls'
+
+canonical_sections:
+  introduction: [introduction, background, background and introduction]
+  method: [method, methods, methodology, research design, materials and methods]
+  analysis: [analysis, data analysis, analytical approach]
+  results: [results, findings, preliminary findings]
+  discussion: [discussion, interpretation, implications]
+  conclusion: [conclusion, conclusions, concluding remarks]

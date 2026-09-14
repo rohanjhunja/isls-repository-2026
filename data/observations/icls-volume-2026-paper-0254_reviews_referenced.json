@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0254",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "None found",
+  "status": "not_present",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0254",
+      "supporting_text": "None found"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

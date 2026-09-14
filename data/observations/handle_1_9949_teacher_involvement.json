@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9949",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Here, we use the temporal frame to understand how agency is distributed and supported in a workshop facil itated by a maker educator, where a 7 year-old boy and his mother, after using circuit blocks to learn about how circuits work, are now co-designing and building their own...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9949",
+      "supporting_text": "Here, we use the temporal frame to understand how agency is distributed and supported in a workshop facil itated by a maker educator, where a 7 year-old boy and his mother, after using circuit blocks to learn about how circuits work, are now co-designing and building their own..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_106",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"One question that is not addressed here is the deg ree to which teachers are engaged in participatory design.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_106",
+      "supporting_text": "One question that is not addressed here is the deg ree to which teachers are engaged in participatory design."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

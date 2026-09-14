@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-069",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In addition, I am continuing to partner with school districts and study teacher co-design with AI-based lessons using insights from my research.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-069",
+      "supporting_text": "In addition, I am continuing to partner with school districts and study teacher co-design with AI-based lessons using insights from my research."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

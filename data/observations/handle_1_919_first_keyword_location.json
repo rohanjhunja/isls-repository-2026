@@ -1,0 +1,20 @@
+{
+  "paper_id": "handle_1_919",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "25.2% (Methods and context)",
+  "pct": 25.2,
+  "section": "Methods and context",
+  "first_matched_keyword": "participatory",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_919",
+      "supporting_text": "First matched design keyword 'participatory' appears at 25.2% of total character length in section 'Methods and context'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

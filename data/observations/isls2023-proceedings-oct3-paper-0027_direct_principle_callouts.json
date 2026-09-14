@@ -1,0 +1,17 @@
+{
+  "paper_id": "isls2023-proceedings-oct3-paper-0027",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \", types of scaffolding and learner characteristics, studies in the learning sciences often start with a low probability of discovering an effect if it exists (a priori power) as interaction effects are typically (much) smaller than main effects.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "isls2023-proceedings-oct3-paper-0027",
+      "supporting_text": "**Direct Callouts & Context**: \", types of scaffolding and learner characteristics, studies in the learning sciences often start with a low probability of discovering an effect if it exists (a priori power) as interaction effects are typically (much) smaller than main effects.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

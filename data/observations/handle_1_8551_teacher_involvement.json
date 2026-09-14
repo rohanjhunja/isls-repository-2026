@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8551",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers engaged in collaborative design partnerships as an authentic professional learning practice, co-creating pedagogical interventions while transforming instructional perspectives and disciplinary agency. **Evidence**: \"In the Learning in Places project, we intentionally engaged in co-design with district leaders, leaders of community-based organizations, teachers, and fa milies to support the development of co-designers as historical actors (Guti\u00e9rrez & Jurow, 2016), or \u201cdesigners of their I...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8551",
+      "supporting_text": "In the Learning in Places project, we intentionally engaged in co-design with district leaders, leaders of community-based organizations, teachers, and fa milies to support the development of co-designers as historical actors (Guti\u00e9rrez & Jurow, 2016), or \u201cdesigners of their I..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

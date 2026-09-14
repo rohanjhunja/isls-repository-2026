@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_476",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"School-based teacher learning organization and mechanisms Both schools had grade-level teams involved in the co-design of SDL lessons in selected curriculum units.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_476",
+      "supporting_text": "School-based teacher learning organization and mechanisms Both schools had grade-level teams involved in the co-design of SDL lessons in selected curriculum units."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

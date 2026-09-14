@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0281",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Results from the WOZ study argue adaptive scaffolding improves training outcomes and helps identify technical challenges in automating the scaffolding.\" | \"Problem Statement: In this paper, we explore training that involves the coupling of AR with an ITS, whereby a pedagogical agent would scaffold learners by providing feedback as they perform the task using AR.\" | \"The study addressed the following research questions (RQs): \u25cf RQ1: What types of scaffolding or interventions prove most effective in improving performance during training?\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0281",
+      "supporting_text": "**Direct Callouts & Context**: \"Results from the WOZ study argue adaptive scaffolding improves training outcomes and helps identify technical challenges in automating the scaffolding.\" | \"Problem Statement: In this paper, we explore training that involves the coupling of AR with an ITS, whereby a pedagogical agent would scaffold learners by providing feedback as they perform the task using AR.\" | \"The study addressed the following research questions (RQs): \u25cf RQ1: What types of scaffolding or interventions prove most effective in improving performance during training?\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

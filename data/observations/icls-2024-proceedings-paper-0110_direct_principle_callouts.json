@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0110",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"We investigate what forms of scaffolding can facilitate the changes of practice needed for teachers to become critical action educators and support their Critical Action Learning designs.\" | \", 2022), the maturing of the community throughout the years, and our adoption of Design-Based Implementation Research, which guided our investigation of the following research questions, 1) What forms of scaffolding can help teachers become critical action educators?\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0110",
+      "supporting_text": "**Direct Callouts & Context**: \"We investigate what forms of scaffolding can facilitate the changes of practice needed for teachers to become critical action educators and support their Critical Action Learning designs.\" | \", 2022), the maturing of the community throughout the years, and our adoption of Design-Based Implementation Research, which guided our investigation of the following research questions, 1) What forms of scaffolding can help teachers become critical action educators?\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

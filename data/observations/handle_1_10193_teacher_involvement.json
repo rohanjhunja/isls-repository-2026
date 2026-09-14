@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10193",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Title: Comparing the Pedagogical Strategies of Teachers Who Co-Designed Units to Support Students\u2019 Theory Building Abstract: Co-design is a collaborative approach intertwining individuals' unique perspectives resulting in a product that holds creative stakes for all parties.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10193",
+      "supporting_text": "Title: Comparing the Pedagogical Strategies of Teachers Who Co-Designed Units to Support Students\u2019 Theory Building Abstract: Co-design is a collaborative approach intertwining individuals' unique perspectives resulting in a product that holds creative stakes for all parties."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0289",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"VR allows teachers to make connections through scaffolding and personalized experiences, while also aiding students in the exploration and meaning -making.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0289",
+      "supporting_text": "**Direct Callouts & Context**: \"VR allows teachers to make connections through scaffolding and personalized experiences, while also aiding students in the exploration and meaning -making.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

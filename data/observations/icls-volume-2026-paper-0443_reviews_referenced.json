@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0443",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Frameworks for supporting patient and public involvement in research: Systematic review and co- design pilot | Working with the tensions of transdisciplinary research: a review and agenda for the future of knowledge co- production in the Anthropocene",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0443",
+      "supporting_text": "Frameworks for supporting patient and public involvement in research: Systematic review and co- design pilot | Working with the tensions of transdisciplinary research: a review and agenda for the future of knowledge co- production in the Anthropocene"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,15 @@
+{
+  "source_filename": "cscl-2026-proceedings.pdf",
+  "sha256": "4f8f32bad6119ae3ef05a51c130d1337c3cd58e9391f2351a46074c07e3a3b6e",
+  "pdf_page_count": 840,
+  "detected_papers_count": 158,
+  "expected_toc_count": 165,
+  "boundaries_confidence_avg": 0.95,
+  "unmapped_headings_count": 242,
+  "missing_fields_summary": {
+    "title": 0,
+    "authors": 3,
+    "abstract": 3
+  },
+  "timestamp": "2026-07-23T04:12:17.024567Z"
+}

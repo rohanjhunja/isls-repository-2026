@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6439",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"As Disalvo & Disalvo (2014) discusses in their paper illustrating the connections between participatory des ign and learning sciences, parents and teachers are rarely involved in designing learning environments, yet they are extrem ely influential in what and how children learn.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6439",
+      "supporting_text": "As Disalvo & Disalvo (2014) discusses in their paper illustrating the connections between participatory des ign and learning sciences, parents and teachers are rarely involved in designing learning environments, yet they are extrem ely influential in what and how children learn."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

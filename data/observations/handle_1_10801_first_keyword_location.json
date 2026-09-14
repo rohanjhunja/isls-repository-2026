@@ -1,0 +1,20 @@
+{
+  "paper_id": "handle_1_10801",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "56.7% (Discussion & Conclusion)",
+  "pct": 56.7,
+  "section": "Discussion & Conclusion",
+  "first_matched_keyword": "participatory",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10801",
+      "supporting_text": "First matched design keyword 'participatory' appears at 56.7% of total character length in section 'Discussion & Conclusion'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10186",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Conceptual & Theoretical Modeling**: Proposes or applies a conceptual framework or theoretical model to structure understanding of learning mechanisms, collaboration, or disciplinary practices. Evidence: \"This research reports on in-progress theory-building work and presents a conceptual model of teachers\u2019 knowledge of noticing\u2014a special kind of teacher knowledge that matters for science t...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10186",
+      "supporting_text": "This research reports on in-progress theory-building work and presents a conceptual model of teachers\u2019 knowledge of noticing\u2014a special kind of teacher knowledge that matters for science t..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

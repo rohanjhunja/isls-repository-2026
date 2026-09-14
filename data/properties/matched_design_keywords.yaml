@@ -1,0 +1,29 @@
+id: matched_design_keywords
+version: 1.0.0
+label: Matched Design Keywords
+description: Lists the design paradigm keywords matched across 'co-design', 'participatory', and 'collaborative design' for the paper.
+value_type: text
+query:
+  question: Which of the design keywords ('co-design', 'participatory', 'collaborative design') matched for this paper?
+  candidate_sections:
+    - Title
+    - Abstract
+    - Methodology
+    - Design
+  heading_terms:
+    - co-design
+    - participatory
+    - collaborative design
+  text_terms:
+    - co-design
+    - participatory
+    - collaborative design
+constraints:
+  output_type: string
+  maximum_words: 30
+extraction:
+  preferred_methods:
+    - keyword_matching
+    - query_membership
+  inference_allowed: false
+evidence_required: false

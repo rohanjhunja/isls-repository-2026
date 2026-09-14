@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0262",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Survey. **Key Findings & Entry Barrier Impact**: The Effects of Prompt Scaffolding on Learning to Write Arguments with ChatGPT Although ChatGPT can be useful for writing, it is not certain whether ChatGPT is beneficial for learning to write particularly when ChatG...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0262",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Survey. **Key Findings & Entry Barrier Impact**: The Effects of Prompt Scaffolding on Learning to Write Arguments with ChatGPT Although ChatGPT can be useful for writing, it is not certain whether ChatGPT is beneficial for learning to write particularly when ChatG..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

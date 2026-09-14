@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11830",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The findings and insights discussed in this paper lead us to conclude that journaling\u2014if intentionally enacted and accompanied by carefully designed structures and scaffolds that resonate with both child and adult stakeholders\u2014 has the potential to foster the development of re...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11830",
+      "supporting_text": "The findings and insights discussed in this paper lead us to conclude that journaling\u2014if intentionally enacted and accompanied by carefully designed structures and scaffolds that resonate with both child and adult stakeholders\u2014 has the potential to foster the development of re..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

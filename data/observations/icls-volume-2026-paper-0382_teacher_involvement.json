@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0382",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"2572 The study employed a participatory design approach and mixed methods to explore how digital tools candemocratize learning complex math and how practitioner feedback supports implementation at scale.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0382",
+      "supporting_text": "2572 The study employed a participatory design approach and mixed methods to explore how digital tools candemocratize learning complex math and how practitioner feedback supports implementation at scale."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

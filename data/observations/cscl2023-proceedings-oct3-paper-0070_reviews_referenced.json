@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl2023-proceedings-oct3-paper-0070",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Virtual reality simulation in nontechnical skills training for healthcare professionals: a systematic review",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl2023-proceedings-oct3-paper-0070",
+      "supporting_text": "Virtual reality simulation in nontechnical skills training for healthcare professionals: a systematic review"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

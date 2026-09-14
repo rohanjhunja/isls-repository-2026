@@ -1,0 +1,20 @@
+{
+  "paper_id": "handle_1_827",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "70.4% (Conclusions and implications)",
+  "pct": 70.4,
+  "section": "Conclusions and implications",
+  "first_matched_keyword": "codesign",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_827",
+      "supporting_text": "First matched design keyword 'codesign' appears at 70.4% of total character length in section 'Conclusions and implications'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

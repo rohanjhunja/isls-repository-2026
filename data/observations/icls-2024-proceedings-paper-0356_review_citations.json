@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0356",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Cochran-Smith, M., & Lytle, S. L. (1999). Relationships of knowledge and practice: Teacher learning in co mmunities. Review of Research in Education, 24, 249. | Goodwin, C. (2018). Co-operative action. Cambridge University Press. Guti\u00e9rrez, K. D., & Vossoughi, S. (2010). Lifting off the ground to return anew: Mediated praxis, transformative learning, and social design experiments. Journal of Teacher Education, 61(1\u2013 2), 100\u2013117. Guti\u00e9rrez, K. D. (2014). Integrative research review: Syncretic approaches to literacy learning. leveraging horizontal knowledge and expertise. In P. Dunston, L. Gambrell, K. Headley, S. Fullerton, & P. Stecker (Eds.), 63rd Literacy Research Association yearbook (pp. 48\u201361). Altamonte Springs, FL. Guti\u00e9rrez, K. D., Engestr\u00f6m, Y., & Sannino, A. (2016). Expanding educational research and interventionist Methodologies. Cognition and Instruction, 34(3), 275\u2013284. Guti\u00e9rrez, K. D., & Jurow, A. S. (2016). Social design experiments: Toward equity by design. Journal of the Learning Sciences, 25(4), 565\u2013598.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0356",
+      "supporting_text": "Cochran-Smith, M., & Lytle, S. L. (1999). Relationships of knowledge and practice: Teacher learning in co mmunities. Review of Research in Education, 24, 249. | Goodwin, C. (2018). Co-operative action. Cambridge University Press. Guti\u00e9rrez, K. D., & Vossoughi, S. (2010). Lifting off the ground to return anew: Mediated praxis, transformative learning, and social design experiments. Journal of Teacher Education, 61(1\u2013 2), 100\u2013117. Guti\u00e9rrez, K. D. (2014). Integrative research review: Syncretic approaches to literacy learning. leveraging horizontal knowledge and expertise. In P. Dunston, L. Gambrell, K. Headley, S. Fullerton, & P. Stecker (Eds.), 63rd Literacy Research Association yearbook (pp. 48\u201361). Altamonte Springs, FL. Guti\u00e9rrez, K. D., Engestr\u00f6m, Y., & Sannino, A. (2016). Expanding educational research and interventionist Methodologies. Cognition and Instruction, 34(3), 275\u2013284. Guti\u00e9rrez, K. D., & Jurow, A. S. (2016). Social design experiments: Toward equity by design. Journal of the Learning Sciences, 25(4), 565\u2013598."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

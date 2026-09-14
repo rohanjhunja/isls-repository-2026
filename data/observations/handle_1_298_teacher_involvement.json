@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_298",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Educational partners (teachers, school principals, school district administrators, and government public servants), brought together by a knowledge transfer agency named CEFRIO, were invited to engage in participatory design (Silva & Breuleux, 1994).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_298",
+      "supporting_text": "Educational partners (teachers, school principals, school district administrators, and government public servants), brought together by a knowledge transfer agency named CEFRIO, were invited to engage in participatory design (Silva & Breuleux, 1994)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

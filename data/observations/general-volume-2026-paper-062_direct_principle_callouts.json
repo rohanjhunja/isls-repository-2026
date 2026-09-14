@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-062",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"These are precisely the kinds of challenges that learning sciences researchers have developed expertise in addressing: making complex, abstract concepts accessible through appropriate representational tools, scaffolding, and cultural practices that support new ways of thinking.\" | \"Second, I plan to build on these insights by designing and iteratively refining K-12 learning environments that scaffold engagement with QCT, leveraging new representational infrastructures and collaborative practices that invite students into developmentally appropriate, quantum-adjacent forms of authentic inquiry.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-062",
+      "supporting_text": "**Direct Callouts & Context**: \"These are precisely the kinds of challenges that learning sciences researchers have developed expertise in addressing: making complex, abstract concepts accessible through appropriate representational tools, scaffolding, and cultural practices that support new ways of thinking.\" | \"Second, I plan to build on these insights by designing and iteratively refining K-12 learning environments that scaffold engagement with QCT, leveraging new representational infrastructures and collaborative practices that invite students into developmentally appropriate, quantum-adjacent forms of authentic inquiry.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

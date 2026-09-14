@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0242",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Supporting Dental Posture Learning through VR Scaffolding Taeyeon Eom Ryan Jin Young Kim This study investigates how virtual reality (VR) technology can support embodied learning in professional education, focusing on posture training in dental education.\" | \"Introduction Supporting Dental Posture Learning through VR Scaffolding Taeyeon Eom, Seungchan Im, Eun-Hye Lee, Ryan Jin Young Kim, Jungjoon Ihm eomcalm@snu.\" | \"The role of feedback and scaffolding is crucial in supporting this embodied learning process.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0242",
+      "supporting_text": "**Direct Callouts & Context**: \"Supporting Dental Posture Learning through VR Scaffolding Taeyeon Eom Ryan Jin Young Kim This study investigates how virtual reality (VR) technology can support embodied learning in professional education, focusing on posture training in dental education.\" | \"Introduction Supporting Dental Posture Learning through VR Scaffolding Taeyeon Eom, Seungchan Im, Eun-Hye Lee, Ryan Jin Young Kim, Jungjoon Ihm eomcalm@snu.\" | \"The role of feedback and scaffolding is crucial in supporting this embodied learning process.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

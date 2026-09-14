@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0149",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in References as a socio-cultural framework for activity systems. Evidence: \"Cultural-historical activity theory as practice theory: illuminating the development of conflict-monitoring network.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0149",
+      "supporting_text": "Cultural-historical activity theory as practice theory: illuminating the development of conflict-monitoring network."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

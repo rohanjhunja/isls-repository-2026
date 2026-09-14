@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11664",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"While not presented in this paper, co-design members, including STEM faculty, operationalized these cri tical conceptions of equity and justice in their ow n curricular and pedagogical practices, demonstrating the value of collaborative, participatory approache s to supporting...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11664",
+      "supporting_text": "While not presented in this paper, co-design members, including STEM faculty, operationalized these cri tical conceptions of equity and justice in their ow n curricular and pedagogical practices, demonstrating the value of collaborative, participatory approache s to supporting..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

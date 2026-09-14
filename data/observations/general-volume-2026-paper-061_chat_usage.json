@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-061",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in References to guide participatory design, tool mediation, and collaborative practices. Evidence: \"In Cultural-historical activity theory approaches to design-based research (pp.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-061",
+      "supporting_text": "In Cultural-historical activity theory approaches to design-based research (pp."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

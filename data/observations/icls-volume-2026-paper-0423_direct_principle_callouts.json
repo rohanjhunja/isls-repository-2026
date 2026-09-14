@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0423",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Participants also identified areas for improvement, such as instructional scaffolding and interface design.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0423",
+      "supporting_text": "**Direct Callouts & Context**: \"Participants also identified areas for improvement, such as instructional scaffolding and interface design.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

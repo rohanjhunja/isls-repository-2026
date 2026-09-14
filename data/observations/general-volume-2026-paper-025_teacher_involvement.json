@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-025",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Preschool educator co-design workshop 2 For the second educator co-design workshop, the primary objective was to discuss and gather educators\u2019 input on seed ideas of the interactive simulations of science core ideas and cross cutting practices, which is the focus of t he Inter...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-025",
+      "supporting_text": "Preschool educator co-design workshop 2 For the second educator co-design workshop, the primary objective was to discuss and gather educators\u2019 input on seed ideas of the interactive simulations of science core ideas and cross cutting practices, which is the focus of t he Inter..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

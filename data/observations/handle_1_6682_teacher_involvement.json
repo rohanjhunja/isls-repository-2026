@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6682",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"These survey data are then d isaggregated by race, gender, and home language, and analyzed by a co-design team of teachers where they give priority to phenomena of interest to racially minoritized students, girls and gender noncoforming students, a nd emerging bilingual and mu...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6682",
+      "supporting_text": "These survey data are then d isaggregated by race, gender, and home language, and analyzed by a co-design team of teachers where they give priority to phenomena of interest to racially minoritized students, girls and gender noncoforming students, a nd emerging bilingual and mu..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

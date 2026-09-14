@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-048",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"He works at the intersection of participatory design, computing education, and policy, leading large-scale international projects. Workshop goals and intended audience This workshop is designed for researchers, designers, and educators in the learning sciences, computing educa...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-048",
+      "supporting_text": "He works at the intersection of participatory design, computing education, and policy, leading large-scale international projects. Workshop goals and intended audience This workshop is designed for researchers, designers, and educators in the learning sciences, computing educa..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

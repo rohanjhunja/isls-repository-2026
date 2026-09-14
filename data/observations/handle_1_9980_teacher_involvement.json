@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9980",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Using critical participatory ethnography, the following data were generated: Cla ss video recordings, student/teacher interviews, fieldnotes, and artifact collection.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9980",
+      "supporting_text": "Using critical participatory ethnography, the following data were generated: Cla ss video recordings, student/teacher interviews, fieldnotes, and artifact collection."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

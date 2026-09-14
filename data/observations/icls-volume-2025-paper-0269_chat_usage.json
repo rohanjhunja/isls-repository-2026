@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0269",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Draws on Activity Theory principles in Introduction to analyze activity systems, mediated tools, and collaborative learning. Evidence: \"Utilizing Activity Theory to Analyze how Tensions were Negotiated in a Teacher Video Club Tara Barnhart, Chapman University, tbarnhart@chapman.edu Elizabeth van Es, UC Santa Barbar...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0269",
+      "supporting_text": "Utilizing Activity Theory to Analyze how Tensions were Negotiated in a Teacher Video Club Tara Barnhart, Chapman University, tbarnhart@chapman.edu Elizabeth van Es, UC Santa Barbara, evanes@ucsb.edu Abstract: Focusing on a semester -long video club with five high school science teachers, the research describes elements of the video club as an activity system and examines how facilitator decisions and design choices surfaced and resolved tensions ."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

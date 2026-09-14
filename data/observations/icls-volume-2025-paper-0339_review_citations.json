@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0339",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Philip, T. M., & Gupta, A. (2020). Emerging perspectives on the co- construction of power and learning in the learning sciences, mathematics education, and science education. Review of Research in Education, 44(1), 195-217.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0339",
+      "supporting_text": "Philip, T. M., & Gupta, A. (2020). Emerging perspectives on the co- construction of power and learning in the learning sciences, mathematics education, and science education. Review of Research in Education, 44(1), 195-217."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

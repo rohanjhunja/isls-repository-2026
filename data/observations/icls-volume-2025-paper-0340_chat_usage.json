@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0340",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction to ground learning and artifact mediation. Evidence: \"By drawing on the theoretical framework of c ultural-historical activity theory (CHAT), the symposium highlights the role of expansive learning in addressing societal challenges an...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0340",
+      "supporting_text": "By drawing on the theoretical framework of c ultural-historical activity theory (CHAT), the symposium highlights the role of expansive learning in addressing societal challenges and fostering social change."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

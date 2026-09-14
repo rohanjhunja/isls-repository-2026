@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7589",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Overall, our work illustrates how modeling with Grafemos offered a space for M\u00e9tissage by bringing together cultural forms, participatory and embodied learning, as well as agent-based representations of complexity, while the axiological reorienta tion allowed teachers and comm...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7589",
+      "supporting_text": "Overall, our work illustrates how modeling with Grafemos offered a space for M\u00e9tissage by bringing together cultural forms, participatory and embodied learning, as well as agent-based representations of complexity, while the axiological reorienta tion allowed teachers and comm..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

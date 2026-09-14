@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl2023-proceedings-oct3-paper-0074",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Draws on Activity Theory principles in Introduction to analyze activity systems, mediated tools, and collaborative learning. Evidence: \"In response, we explore the design and initial implementation of Zodiac, an online professional development platform specifically designed to amplify teacher agency within oTPD con...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl2023-proceedings-oct3-paper-0074",
+      "supporting_text": "In response, we explore the design and initial implementation of Zodiac, an online professional development platform specifically designed to amplify teacher agency within oTPD contexts through the application of activity theory."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

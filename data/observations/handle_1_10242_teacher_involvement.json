@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10242",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The classroom teacher and co-designer of the unit was a Black woman, and the researchers wer e a White man (co-teacher, first author) and a Black woman (research assistant).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10242",
+      "supporting_text": "The classroom teacher and co-designer of the unit was a Black woman, and the researchers wer e a White man (co-teacher, first author) and a Black woman (research assistant)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

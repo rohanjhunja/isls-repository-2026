@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_712",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The project supports teacher learning through professional learning community workshops (L CW) and collaborative design team (DT) meetings.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_712",
+      "supporting_text": "The project supports teacher learning through professional learning community workshops (L CW) and collaborative design team (DT) meetings."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

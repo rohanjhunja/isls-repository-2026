@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0078",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction to ground learning and artifact mediation. Evidence: \"570 Theoretical framework To address racial disproportionality within social-spatial-historical contexts of settler colonialism in the Anishinaabe nation, this study was epistemolo...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0078",
+      "supporting_text": "570 Theoretical framework To address racial disproportionality within social-spatial-historical contexts of settler colonialism in the Anishinaabe nation, this study was epistemologically grounded in cultural historical activity theory (CHAT) to racial disproportionality in school discipline stemming from the intellectual legacy of Vygotsky and social constructivism (1993; 1978)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

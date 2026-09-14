@@ -1,0 +1,1242 @@
+{
+  "audit_timestamp": "2026-09-12T21:59:03.161069",
+  "total_papers": 5402,
+  "core_fields": {
+    "id": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    },
+    "title": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    },
+    "year": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    },
+    "conference": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    },
+    "paper_type": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    },
+    "abstract": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    },
+    "citation": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    },
+    "doi": {
+      "populated": 2119,
+      "total": 5402,
+      "percentage": 39.23
+    },
+    "handle_url": {
+      "populated": 4647,
+      "total": 5402,
+      "percentage": 86.02
+    },
+    "start_page": {
+      "populated": 4669,
+      "total": 5402,
+      "percentage": 86.43
+    },
+    "end_page": {
+      "populated": 4669,
+      "total": 5402,
+      "percentage": 86.43
+    },
+    "source_type": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    },
+    "source_url": {
+      "populated": 5392,
+      "total": 5402,
+      "percentage": 99.81
+    },
+    "full_text_status": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    },
+    "extracted_at": {
+      "populated": 5402,
+      "total": 5402,
+      "percentage": 100.0
+    }
+  },
+  "missing_author_ids": [],
+  "missing_abstracts_count": 0,
+  "missing_abstract_samples": [],
+  "short_abstracts_count": 46,
+  "section_counts_summary": {
+    "1_section_count": 48,
+    "2_sections_count": 78,
+    "3_to_4_sections_count": 2313,
+    "5_plus_sections_count": 2963
+  },
+  "target_low_section_papers": [
+    {
+      "id": "cscl-volume-2026-paper-0005",
+      "title": "Conference Organizers and Committees",
+      "year": 2026,
+      "conference": "CSCL",
+      "paper_type": "Poster",
+      "sections": 1,
+      "total_chars": 7098
+    },
+    {
+      "id": "cscl-volume-2026-paper-0009",
+      "title": "CSCL Invited Symposium",
+      "year": 2026,
+      "conference": "CSCL",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 2584
+    },
+    {
+      "id": "cscl-volume-2026-paper-0130",
+      "title": "Hierarchical Multi-Agent System for Instructional Design in Music Knowledge Building",
+      "year": 2026,
+      "conference": "CSCL",
+      "paper_type": "Poster",
+      "sections": 1,
+      "total_chars": 38933
+    },
+    {
+      "id": "cscl-volume-2026-paper-0165",
+      "title": "situations using EDA. In 2022 international conference on advanced learning technologies (icalt) (pp",
+      "year": 2026,
+      "conference": "CSCL",
+      "paper_type": "Poster",
+      "sections": 1,
+      "total_chars": 9693
+    },
+    {
+      "id": "general-volume-2026-paper-001",
+      "title": "Imagination, Impact, and Epistemic Justice",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 10839
+    },
+    {
+      "id": "general-volume-2026-paper-002",
+      "title": "Productive Entanglements: Patterns of Partnership for Learning Technology Innovation",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 10495
+    },
+    {
+      "id": "general-volume-2026-paper-003",
+      "title": "\u201cI hear your vibes\u201d: Partnering in the Moment to Moment of Activity",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 9209
+    },
+    {
+      "id": "general-volume-2026-paper-004",
+      "title": "Prolepsis \u2019Till Infinity : Designing STEM Futures Through Play, Media, and Imagination",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 11181
+    },
+    {
+      "id": "general-volume-2026-paper-005",
+      "title": "Humanizing Institutional Landscapes of Ability Differences and Learning",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 5240
+    },
+    {
+      "id": "general-volume-2026-paper-006",
+      "title": "Designing an AI-Powered Reflective Partner: Translating Self-Regulated Learning Theory into Generative Chatbot Scaffolds",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 17757
+    },
+    {
+      "id": "general-volume-2026-paper-022",
+      "title": "From Thought to Action: Designing AI Coaching Support for Time Management with Cognitive Behavioral and Self-Regulated Learning Strategies",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 15863
+    },
+    {
+      "id": "general-volume-2026-paper-040",
+      "title": "Jennifer Schwartz Poehlmann, Shima Salehi, Karen D. Wang \u201cHow Are You Solving That?\u201d: Improving Learning in Virtual Reality With a Reflective AI Agent",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 14512
+    },
+    {
+      "id": "general-volume-2026-paper-053",
+      "title": "David A. Hopping, Santiago Ospina-Tabares An Evaluation Framework for Pedagogical Large Language Models",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 35878
+    },
+    {
+      "id": "general-volume-2026-paper-059",
+      "title": "Early Career Workshops Engineering a Learning Environment Which Fosters Interaction and Thinking",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 14359
+    },
+    {
+      "id": "general-volume-2026-paper-063",
+      "title": "Bodies, Participation, and Power: Learning as a Site of Inclusion, Exclusion, and Resistance",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 32358
+    },
+    {
+      "id": "general-volume-2026-paper-087",
+      "title": "How Do We Stay With It? Art for Climate Justice",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 6617
+    },
+    {
+      "id": "general-volume-2026-paper-089",
+      "title": "Nobody Lives Without Regrets",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 7075
+    },
+    {
+      "id": "general-volume-2026-paper-092",
+      "title": "The Look Again Quilt",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 6979
+    },
+    {
+      "id": "general-volume-2026-paper-095",
+      "title": "Of Stars and Constellations: Culture and Identity within Collaborative Interactive Computational Art",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 6715
+    },
+    {
+      "id": "general-volume-2026-paper-099",
+      "title": "We Keep Us Safe: Art for Expanding Abolitionist Imaginaries",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 6232
+    },
+    {
+      "id": "general-volume-2026-paper-102",
+      "title": "What\u2019s In A Game? Framing Undergraduate Improvisers Contributions as Legitimate Participation in Improv\u2019s Oral History",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 6082
+    },
+    {
+      "id": "general-volume-2026-paper-105",
+      "title": "Traces of Transformation: An Artist-in-School-Community Project",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 6520
+    },
+    {
+      "id": "general-volume-2026-paper-108",
+      "title": "Contracked: Collaborative Learning through Musical Chaos",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 7024
+    },
+    {
+      "id": "general-volume-2026-paper-112",
+      "title": "Thresholds of Knowing",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 6373
+    },
+    {
+      "id": "general-volume-2026-paper-115",
+      "title": "Visualizing Justice: Arts-Based Inquiry in Community-Engaged Climate Education",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 4425
+    },
+    {
+      "id": "general-volume-2026-paper-117",
+      "title": "Visualizing Justice: Arts-Based Inquiry in Community-Engaged Climate Education",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 10495
+    },
+    {
+      "id": "general-volume-2026-paper-118",
+      "title": "Learning Autotheoretical Trans* Body: Transforming What Was to What Is and Must Be Through Recreational Bodybuilding",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 6915
+    },
+    {
+      "id": "general-volume-2026-paper-122",
+      "title": "Interactive Mosaics: Youth Creative Computing with ArtAlgo",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 6890
+    },
+    {
+      "id": "general-volume-2026-paper-126",
+      "title": "Kiki Ouyang, Elisabeth Park, Ale Rivas-Vargas, L Siswanto, Kate Stone Learning in Balance: Cultural Jewellery as Knowledge Carrier",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 1,
+      "total_chars": 16844
+    },
+    {
+      "id": "handle_1_11015",
+      "title": "Organizational Learning in Learning Sciences: A conceptual framework for future learning",
+      "year": 2024,
+      "conference": "ISLS",
+      "paper_type": "Poster / Short Note",
+      "sections": 1,
+      "total_chars": 10317
+    },
+    {
+      "id": "handle_1_11403",
+      "title": "Refrains, Rihanna, and Rodrigo: Learning Place in Backstage Theater Space",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 1097
+    },
+    {
+      "id": "handle_1_11538",
+      "title": "Evaluating Efficacy of Problematizing Chatbot in Higher Education",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 1131
+    },
+    {
+      "id": "handle_1_11786",
+      "title": "\u201cComputer Science Is About Rethinking and Reshaping Reality\u201d: A Social Studies Teacher\u2019s Transformation Through the Co-Designing of Computer Science-Infused Lessons",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Full Paper",
+      "sections": 1,
+      "total_chars": 2159
+    },
+    {
+      "id": "handle_1_11929",
+      "title": "Generative AI in Norwegian Classrooms: Differences in Teaching About, With and Through GAI",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 5262
+    },
+    {
+      "id": "handle_1_11947",
+      "title": "Investigating Novice Teachers\u2019 Practices in the Value of Collaborative Learning Processes through Knowledge Building Principles and a CSCL Environment",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 4775
+    },
+    {
+      "id": "handle_1_11962",
+      "title": "Exploring Shifts in Adolescent Identity Development in a Global, Virtual, STEM-focused Collaborative Learning Setting",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 4337
+    },
+    {
+      "id": "handle_1_183",
+      "title": "Bringing Computational Thinking Into High School Mathematics and Science Classrooms",
+      "year": 2016,
+      "conference": "ICLS",
+      "paper_type": "Full Paper",
+      "sections": 1,
+      "total_chars": 27635
+    },
+    {
+      "id": "handle_1_184",
+      "title": "Making Sense of Making Waves: Co-constructing Knowledge and Group Understanding Without Conceptual Convergence",
+      "year": 2016,
+      "conference": "ICLS",
+      "paper_type": "Full Paper",
+      "sections": 1,
+      "total_chars": 76163
+    },
+    {
+      "id": "handle_1_185",
+      "title": "Students Using Graphs to Understand the Process of Cancer Treatment",
+      "year": 2016,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 23522
+    },
+    {
+      "id": "icls-volume-2026-paper-0001",
+      "title": "Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 5940
+    },
+    {
+      "id": "icls-volume-2026-paper-0002",
+      "title": "Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 5940
+    },
+    {
+      "id": "icls-volume-2026-paper-0003",
+      "title": "Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 5940
+    },
+    {
+      "id": "icls-volume-2026-paper-0004",
+      "title": "Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 5940
+    },
+    {
+      "id": "icls-volume-2026-paper-0005",
+      "title": "Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 5940
+    },
+    {
+      "id": "icls-volume-2026-paper-0006",
+      "title": "Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 5940
+    },
+    {
+      "id": "icls-volume-2026-paper-0007",
+      "title": "Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 5940
+    },
+    {
+      "id": "icls-volume-2026-paper-0008",
+      "title": "Designing AI to Scaffold Learners\u2019 Cognitive Engagement in Generative Learning",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 1,
+      "total_chars": 5940
+    },
+    {
+      "id": "icls-volume-2026-paper-0421",
+      "title": "Bridging Research and Practice: Expanding Access to Transformative Computer Science Teacher Learning",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 1,
+      "total_chars": 24605
+    },
+    {
+      "id": "cscl-volume-2026-paper-0107",
+      "title": "Dialogic Intelligence: Rethinking the pedagogical goal of CSCL in the context of Generative AI",
+      "year": 2026,
+      "conference": "CSCL",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 39220
+    },
+    {
+      "id": "cscl-volume-2026-paper-0158",
+      "title": "One Size Fits All? Learner-Adaptive Peer Feedback and Perceived Feedback Adequacy in Pre-Service Teacher Education",
+      "year": 2026,
+      "conference": "CSCL",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 21855
+    },
+    {
+      "id": "general-volume-2026-paper-019",
+      "title": "Virtual Worlds as Ethical Laboratories: Exploring the Risks and Benefits of AI in Agents of ViTAL: Ethics Missions",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 17488
+    },
+    {
+      "id": "general-volume-2026-paper-042",
+      "title": "Show Your Work: A Gentle Introduction to Jupyter Notebooks for K-12 Educators",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 62214
+    },
+    {
+      "id": "general-volume-2026-paper-044",
+      "title": "LumiBuilder: A Chatbot-Building Tool for Hallucination-Aware AI Literacy",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 19953
+    },
+    {
+      "id": "general-volume-2026-paper-048",
+      "title": "Designing the Next Generation of Computational Modeling and Learning with AI",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 38660
+    },
+    {
+      "id": "general-volume-2026-paper-054",
+      "title": "A CSCL Taxonomy Building Workshop",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 40426
+    },
+    {
+      "id": "general-volume-2026-paper-055",
+      "title": "Re-envisioning Assessment Challenges and Opportunities in the Generative AI Era through CSCL",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 67011
+    },
+    {
+      "id": "general-volume-2026-paper-062",
+      "title": "Advancing a Learning Sciences Approach to Quantum Information Science in K-12",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 44910
+    },
+    {
+      "id": "general-volume-2026-paper-072",
+      "title": "Learning With and About AI: Building Capacity for Equitable Participation in an AI-Shaped Future",
+      "year": 2026,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 17882
+    },
+    {
+      "id": "handle_1_10247",
+      "title": "Amalgamation of Narrative Discourse and Maker-Spaces as a Tool for Critical Pedagogy",
+      "year": 2023,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 13707
+    },
+    {
+      "id": "handle_1_11472",
+      "title": "Leveraging Simulations in Higher Education to Transform Learning and Professional Practice",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Full Paper",
+      "sections": 2,
+      "total_chars": 47599
+    },
+    {
+      "id": "handle_1_11481",
+      "title": "Developing Approaches to Racial Justice in the Learning Sciences",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 44465
+    },
+    {
+      "id": "handle_1_11493",
+      "title": "Race as Substrate: Interaction Analyses of the Microgenetic Construction of Racialized Identities",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 46456
+    },
+    {
+      "id": "handle_1_11935",
+      "title": "Measuring the Effect of GenAI Chatbots in CSCL environments: A Study with PyramidApp",
+      "year": 2025,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 3497
+    },
+    {
+      "id": "handle_1_4504",
+      "title": "Theorizing and Measuring Collective Productive Disciplinary Engagement",
+      "year": 2019,
+      "conference": "CSCL",
+      "paper_type": "Full Paper",
+      "sections": 2,
+      "total_chars": 40824
+    },
+    {
+      "id": "handle_1_4507",
+      "title": "Personal Embodiment, Social Enactment: Collaborative Learning With Body Technology",
+      "year": 2019,
+      "conference": "CSCL",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 35795
+    },
+    {
+      "id": "handle_1_593",
+      "title": "Video Data and the Learning Event: Four Case Studies",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Full Paper",
+      "sections": 2,
+      "total_chars": 33483
+    },
+    {
+      "id": "handle_1_605",
+      "title": "Attunements to the Ethical in Design and Learning",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Full Paper",
+      "sections": 2,
+      "total_chars": 33520
+    },
+    {
+      "id": "handle_1_607",
+      "title": "Assessing Prerequisites and Processes of Self-, Co- and Shared Regulation during Collaborative Learning",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Full Paper",
+      "sections": 2,
+      "total_chars": 44702
+    },
+    {
+      "id": "handle_1_613",
+      "title": "Playful Mathematics Learning: Beyond Early Childhood and Sugar-Coating",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 37983
+    },
+    {
+      "id": "handle_1_626",
+      "title": "Competing Epistemologies in the Construction of Popular Science",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 11418
+    },
+    {
+      "id": "handle_1_6352",
+      "title": "Analytical Designs: Goodwin\u2019s Substrates as a Tool for Studying Learning",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 38662
+    },
+    {
+      "id": "handle_1_6393",
+      "title": "HERA: Exploring the Power of Adaptive Scaffolding on Scientific Argumentation and Modelling Competencies in Online Learning Systems",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 19227
+    },
+    {
+      "id": "handle_1_6432",
+      "title": "A Design Framework for National Place-Independent Science Instructional Materials to Incorporate Local Phenomena",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 7807
+    },
+    {
+      "id": "handle_1_6512",
+      "title": "The Power of Storytelling and Storylistening for Human Learning and Becoming",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 40967
+    },
+    {
+      "id": "handle_1_6556",
+      "title": "Understanding Self-ethnography as a Pedagogical Tool to Combat Whiteness in Science Education",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 9770
+    },
+    {
+      "id": "handle_1_6562",
+      "title": "Connected Learning for Adults: An Exploratory Study of How Informal Educators Think about Teaching",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 9074
+    },
+    {
+      "id": "handle_1_6574",
+      "title": "So What? Now What? Two Tools for Supporting Teachers\u2019 Thought Experiments",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 10564
+    },
+    {
+      "id": "handle_1_6598",
+      "title": "A Modest Feature for Repositioning Minoritized Online Students to Support Disciplinary Engagement and Achievement",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 10702
+    },
+    {
+      "id": "handle_1_6599",
+      "title": "Math for Social Justice in a Prospective Teacher Content Course: Increasing Engagement and Developing Political Conocimiento",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 9660
+    },
+    {
+      "id": "handle_1_6624",
+      "title": "Scaling Up and Scaling Out Situative Design of Online/Hybrid Instruction and Assessment",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 21069
+    },
+    {
+      "id": "handle_1_6645",
+      "title": "Toward a Nodal Design: Relational Design Across Scale",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 10908
+    },
+    {
+      "id": "handle_1_6660",
+      "title": "Learning in Unbounded Landscapes  \u0336  Conceptualizations and Design From an Ecological Perspective",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 43874
+    },
+    {
+      "id": "handle_1_6663",
+      "title": "Broadening Learning Sciences Theoretical Lenses to Understand Young Children\u2019s Sensemaking",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 31675
+    },
+    {
+      "id": "handle_1_6669",
+      "title": "Deepening Perceptions of Learning: Studying and Designing Ethical Practice With Researchers, Teachers and Learners",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 39858
+    },
+    {
+      "id": "handle_1_6670",
+      "title": "Visualizing Qualitative Data: Creative Approaches for Analyzing and Demonstrating Lively Data from Diverse Learning Settings",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Full Paper",
+      "sections": 2,
+      "total_chars": 29523
+    },
+    {
+      "id": "handle_1_6671",
+      "title": "Exploring the Dynamics and Potentials of  Reimagining and Engaging Intergenerational Learning",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Full Paper",
+      "sections": 2,
+      "total_chars": 32859
+    },
+    {
+      "id": "handle_1_6677",
+      "title": "World of Motives: Seeking the \u201cWhy\u201d in Videogame Play",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 22612
+    },
+    {
+      "id": "handle_1_6781",
+      "title": "Culturally Relevant Constructionist Design: A Design Principle for Low-income School-based Maker Experiences",
+      "year": 2020,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 10620
+    },
+    {
+      "id": "handle_1_695",
+      "title": "Characterizing Digital Contexts of Collaborative Learning:  An Updated Classification Scheme for Computer-Mediated Communication",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 10619
+    },
+    {
+      "id": "handle_1_7327",
+      "title": "Empowering Secondary School Students' Argumentative Writing Skills: The Effectiveness Of Dialogic Support And Cognitive Strategic Support On Students' Collaborative Writing Processes",
+      "year": 2021,
+      "conference": "ISLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 8890
+    },
+    {
+      "id": "handle_1_7589",
+      "title": "Expansive Modeling: Broadening the scope of modeling in K-12 education",
+      "year": 2021,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 41521
+    },
+    {
+      "id": "handle_1_7591",
+      "title": "Learning and Teaching about COVID-19:  Engaging Students, Teachers and Families in Understanding Infectious Disease Epidemiology",
+      "year": 2021,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 33108
+    },
+    {
+      "id": "handle_1_7640",
+      "title": "An Iterative Design Cycle: Using Productive and Unproductive Frustration to Guide Re-Design",
+      "year": 2021,
+      "conference": "ISLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 9351
+    },
+    {
+      "id": "handle_1_765",
+      "title": "Neurocognitive task analysis: What changes as medical trainees develop perceptual abilities?",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 4021
+    },
+    {
+      "id": "handle_1_795",
+      "title": "When is it safe enough? Considering Diversity and Equity When Brokering Pre-Professional Opportunities to Youth of Color",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 11623
+    },
+    {
+      "id": "handle_1_796",
+      "title": "Projected Worlds: How Informal Digital Learning Organizations Conceptualize Organizing Youth Futures",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 11680
+    },
+    {
+      "id": "handle_1_8313",
+      "title": "Designing Epistemic Games for Informed Civic Learning",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 20840
+    },
+    {
+      "id": "handle_1_8372",
+      "title": "Illuminated Devices: A Sociotechnical System to Broaden Access to Digital Assistance",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 9934
+    },
+    {
+      "id": "handle_1_8385",
+      "title": "Technology-Mediated Peer Learning Environments",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 11428
+    },
+    {
+      "id": "handle_1_8414",
+      "title": "Innovative Game-Based Fraction Curricula for All: Design, Development, and Feasibility of Dream2B",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 21123
+    },
+    {
+      "id": "handle_1_8542",
+      "title": "Caste and Queerness in Hindu India: Examining How Human-More Than Human Relations Shape Learning Spaces",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 22673
+    },
+    {
+      "id": "handle_1_8556",
+      "title": "Centring BlackJoy in Design for Learning and Research",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 15838
+    },
+    {
+      "id": "handle_1_8614",
+      "title": "Asking people to \u201cthink again\u201d can have unexpected consequences",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 9392
+    },
+    {
+      "id": "handle_1_866",
+      "title": "Politicization as Learning: Centring Racialization, Colonialism, and Gender in Learning Sciences Analysis",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 11707
+    },
+    {
+      "id": "handle_1_8662",
+      "title": "Demonstrating Core Components of a Game-Based Fraction Supplemental Curriculum",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 10441
+    },
+    {
+      "id": "handle_1_868",
+      "title": "Studying the Process of Instructional Improvement Through the Lenses of Sense-Making Repertoires and Improvement Practices",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 14127
+    },
+    {
+      "id": "handle_1_8705",
+      "title": "Embracing Diversity and Connectivity for Entrepreneurship Education Innovation: An Observation Study of Co-Creation Pedagogy for Design Thinking Capacity Building Program of Higher Education",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 9975
+    },
+    {
+      "id": "handle_1_873",
+      "title": "Creativity as a Lens to Frame Teachers\u2019 Use of Games for Learning",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 16492
+    },
+    {
+      "id": "handle_1_876",
+      "title": "Fabric-based Computing: New Materials for Learning Computer Science",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 4757
+    },
+    {
+      "id": "handle_1_877",
+      "title": "Supporting Undergraduate Bioscience Learners in Problem-Solving Process Skills Using a Technology-Enhanced Learning Environment",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 4614
+    },
+    {
+      "id": "handle_1_878",
+      "title": "Knowledge Places: Embedding Knowledge in the Space of the Classroom",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 4515
+    },
+    {
+      "id": "handle_1_879",
+      "title": "Using Multiple Embodied Representations to Support Learners in Making Connections Across Modeling Activities",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 4299
+    },
+    {
+      "id": "handle_1_880",
+      "title": "Why Can\u2019t We All Just Get Along?: Focusing on Socioemotional Climates to Understand Emotions in Collaborative Learning",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 5146
+    },
+    {
+      "id": "handle_1_881",
+      "title": "Collaborative Writing in Higher Education: Investigating the Implementation of CSCL Tools and the Role of Prior Individual Experiences and Preferences",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 5249
+    },
+    {
+      "id": "handle_1_882",
+      "title": "The Effects of the Productive \u201cVisible-Annotation Tool\u201d (P-\u201cVAT\u201d) for Collaborative Knowledge Construction on Higher-Order Interaction and Collaborative Outcome",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 4242
+    },
+    {
+      "id": "handle_1_883",
+      "title": "Computation, Constructivism, and Curriculum Design",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 4633
+    },
+    {
+      "id": "handle_1_884",
+      "title": "Exploring the Definition and Measurement of Collaborative Problem Solving",
+      "year": 2018,
+      "conference": "ICLS",
+      "paper_type": "Paper",
+      "sections": 2,
+      "total_chars": 4879
+    },
+    {
+      "id": "handle_1_8971",
+      "title": "Storytelling and Storylistening Towards Collective Learning and Relational Becoming",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Symposium",
+      "sections": 2,
+      "total_chars": 38736
+    },
+    {
+      "id": "handle_1_9021",
+      "title": "Constructionist Design for Sustainable Development",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 10627
+    },
+    {
+      "id": "handle_1_9080",
+      "title": "A Dialogue on Making Use of Constructionism in Different Scenarios as a Leverage for Empowerment, Motivation, and Learning",
+      "year": 2022,
+      "conference": "ISLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 2398
+    },
+    {
+      "id": "handle_1_9230",
+      "title": "Design Principles of Argumentativo: Designing an Intervention Focusing on Explicit Writing Instruction and Collaborative Writing",
+      "year": 2023,
+      "conference": "ISLS",
+      "paper_type": "Poster / Short Note",
+      "sections": 2,
+      "total_chars": 10202
+    },
+    {
+      "id": "handle_1_9986",
+      "title": "The Future of Maker Education",
+      "year": 2023,
+      "conference": "ISLS",
+      "paper_type": "Full Paper",
+      "sections": 2,
+      "total_chars": 44077
+    },
+    {
+      "id": "handle_1_9990",
+      "title": "Computation Within and Beyond Disciplinary Communities: Learnings From K-12 In-School-Time Studies",
+      "year": 2023,
+      "conference": "ISLS",
+      "paper_type": "Full Paper",
+      "sections": 2,
+      "total_chars": 51095
+    },
+    {
+      "id": "icls-volume-2026-paper-0293",
+      "title": "Designing at the Speed of Trust: Unearthing Implicit Values and Vibes",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 47373
+    },
+    {
+      "id": "icls-volume-2026-paper-0331",
+      "title": "Wordless Books as Tools for Language, Identity, and Voice",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Short Paper",
+      "sections": 2,
+      "total_chars": 41506
+    },
+    {
+      "id": "icls-volume-2026-paper-0493",
+      "title": "Designing Equitable Partnerships for the Future of Play",
+      "year": 2026,
+      "conference": "ICLS",
+      "paper_type": "Poster",
+      "sections": 2,
+      "total_chars": 20420
+    }
+  ],
+  "line_break_fragmentation": {
+    "sections_checked": 24911,
+    "sections_with_fragmented_lines": 22520,
+    "fragmentation_percentage": 90.4
+  },
+  "file_presence": {
+    "missing_individual_pdfs_count": 0,
+    "missing_individual_mds_count": 0
+  },
+  "search_and_taxonomy": {
+    "papers_in_fts": 5402,
+    "fts_coverage_pct": 100.0,
+    "papers_with_labels": 5402,
+    "labels_coverage_pct": 100.0
+  }
+}

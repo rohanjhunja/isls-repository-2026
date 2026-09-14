@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0299",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Empirical Classroom / User Evaluation. **Key Findings & Entry Barrier Impact**: We demonstrate the applicability of the model using an example from an algebra intelligent tutor where students made choices on when to use visual scaffolding to aid their problem solving.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0299",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Empirical Classroom / User Evaluation. **Key Findings & Entry Barrier Impact**: We demonstrate the applicability of the model using an example from an algebra intelligent tutor where students made choices on when to use visual scaffolding to aid their problem solving."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

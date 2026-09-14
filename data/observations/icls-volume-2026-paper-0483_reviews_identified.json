@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0483",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Acton, R., & Glasgow, P. (2015). Teacher wellbeing in neoliberal contexts: A review of the literature. Australian Journal of Teacher Education (Online), 40(8), 99\u2013114. Guti\u00e9rrez, K. D., & Jurow, A. S. (2016). Social Design Experiments: Toward Equity by Design. Journal of the Learning Sciences, 25(4), 565\u2013598. https://doi.org/10.1080/10508406.2016.1204548 Guti\u00e9rrez, R. (2009). Embracing the inherent tensions in teaching mathematics from an equity stance. Democracy and Education, 18(3), 9\u201316. | Tintiangco-Cubales, A., Kohli, R., Sacramento, J., Henning, N., Agarwal -Rangnath, R., & Sleeter, C. (2015). Toward an ethnic studies pedagogy: Implications for K-12 schools from the research. The Urban Review, 47(1), 104\u2013125. 2879",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0483",
+      "supporting_text": "Acton, R., & Glasgow, P. (2015). Teacher wellbeing in neoliberal contexts: A review of the literature. Australian Journal of Teacher Education (Online), 40(8), 99\u2013114. Guti\u00e9rrez, K. D., & Jurow, A. S. (2016). Social Design Experiments: Toward Equity by Design. Journal of the Learning Sciences, 25(4), 565\u2013598. https://doi.org/10.1080/10508406.2016.1204548 Guti\u00e9rrez, R. (2009). Embracing the inherent tensions in teaching mathematics from an equity stance. Democracy and Education, 18(3), 9\u201316. | Tintiangco-Cubales, A., Kohli, R., Sacramento, J., Henning, N., Agarwal -Rangnath, R., & Sleeter, C. (2015). Toward an ethnic studies pedagogy: Implications for K-12 schools from the research. The Urban Review, 47(1), 104\u2013125. 2879"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

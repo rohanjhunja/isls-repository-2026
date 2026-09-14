@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7420",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Learning Technologies & Modeling Environments**: Examines software environments, automated feedback systems, or digital scaffolding designed to facilitate iterative student modeling practices. Evidence: \"This poster reports the results of design experiments exploring the effects of two forms of automated feedback in modeling tools on eighth-grade students\u2019 understanding of chemistry (Stud...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7420",
+      "supporting_text": "This poster reports the results of design experiments exploring the effects of two forms of automated feedback in modeling tools on eighth-grade students\u2019 understanding of chemistry (Stud..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

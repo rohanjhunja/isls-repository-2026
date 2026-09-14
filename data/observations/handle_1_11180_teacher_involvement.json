@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11180",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Additionally, the sense of disqualification, where educators feel AI can perform their job bette r than they do, further exacerbates this closure. T hese discourses collectively demonstrate how certain dom inant narratives around AI in education can lead to a discursive closur...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11180",
+      "supporting_text": "Additionally, the sense of disqualification, where educators feel AI can perform their job bette r than they do, further exacerbates this closure. T hese discourses collectively demonstrate how certain dom inant narratives around AI in education can lead to a discursive closur..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

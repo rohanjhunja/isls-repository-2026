@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11957",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Current study and research questions This study investigates a human \u2013GenAI co-design platform developed by Peking University, aiming to explore how such collaboration can enhance teachers\u2019 lesson planning skills, foster motivational learning, and clarify the role of foundatio...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11957",
+      "supporting_text": "Current study and research questions This study investigates a human \u2013GenAI co-design platform developed by Peking University, aiming to explore how such collaboration can enhance teachers\u2019 lesson planning skills, foster motivational learning, and clarify the role of foundatio..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0231",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"The findings also suggest that the design of AI literacy materials for young children should involve multiple stakeholders, including AI experts, educators, authors, illustrators, and families. A co-design approach may help balance engagement with technical transparency and de...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0231",
+      "supporting_text": "The findings also suggest that the design of AI literacy materials for young children should involve multiple stakeholders, including AI experts, educators, authors, illustrators, and families. A co-design approach may help balance engagement with technical transparency and de..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

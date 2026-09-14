@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0029",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"We report on the efforts of a design-based implementation research project in which teachers participate in a constructionist co-design process to design and then implement CT -ified STEM units in their classrooms.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0029",
+      "supporting_text": "We report on the efforts of a design-based implementation research project in which teachers participate in a constructionist co-design process to design and then implement CT -ified STEM units in their classrooms."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

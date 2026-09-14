@@ -1,0 +1,19 @@
+{
+  "paper_id": "icls-volume-2025-paper-0329",
+  "property_id": "religion_relation",
+  "property_version": "1.0.0",
+  "value": "Uses the scientific study of religion as the central interdisciplinary case study, engaging instructors from religious studies, anthropology, philosophy, and psychology to co-design an undergraduate course.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0329",
+      "section_id": null,
+      "pdf_page": null,
+      "supporting_text": "...the nine instructors brought expertise from six disciplines: psychology, anthropology, philosophy, religious studies, sociology, and business administration... serial presentation of religion, introducing foundational concepts through three distinct components of the scientific study of religion..."
+    }
+  ],
+  "method": "full_text_analysis",
+  "confidence": 1.0,
+  "run_id": "run_religion_relation_20260726",
+  "source_version": "1.0.0"
+}

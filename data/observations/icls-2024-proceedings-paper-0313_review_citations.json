@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0313",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Hammer, D., Goldberg, F., & Fargason, S. (2012). Responsive teaching and the beginnings of energy in a third- grad e classroom. Review of Science, Mathematics, and ICT Education, 6(1), 51-72 | Roschelle, J., Penuel, W., & Shechtman, N. (2006). Co- design of innovations with teachers: Definition and 606-612). Bloomington, Indiana, USA. Sandhya N. Baviskar, R. Todd Hartle & Tiffany Whitney (2009). Essential Criteria to Characterize Constructivist Teaching: Derived from a review of the literature and applied to five constructivist\u2010 teaching method articles, International Journal of Science Education, 31:4, 541-550.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0313",
+      "supporting_text": "Hammer, D., Goldberg, F., & Fargason, S. (2012). Responsive teaching and the beginnings of energy in a third- grad e classroom. Review of Science, Mathematics, and ICT Education, 6(1), 51-72 | Roschelle, J., Penuel, W., & Shechtman, N. (2006). Co- design of innovations with teachers: Definition and 606-612). Bloomington, Indiana, USA. Sandhya N. Baviskar, R. Todd Hartle & Tiffany Whitney (2009). Essential Criteria to Characterize Constructivist Teaching: Derived from a review of the literature and applied to five constructivist\u2010 teaching method articles, International Journal of Science Education, 31:4, 541-550."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

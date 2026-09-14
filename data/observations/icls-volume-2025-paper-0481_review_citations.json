@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0481",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Akkerman, S., F., & Bakker, A. (2011). Boundary Crossing and Boundary Objects. Review of Educational Research, 81(2), 132-169. | Roschelle, J., Penuel, W. R., & Shectman, N. (2006). Co -Design of Innovations with Teachers: Definition and Sj\u00f6lund, S., Lindvall, J., Larsson, M. , & Ryve, A. (2023). Mapping roles in research -practice partnerships \u2013 a systematic literature review. Educational Review, 75(7), 1490-1518. 2876",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0481",
+      "supporting_text": "Akkerman, S., F., & Bakker, A. (2011). Boundary Crossing and Boundary Objects. Review of Educational Research, 81(2), 132-169. | Roschelle, J., Penuel, W. R., & Shectman, N. (2006). Co -Design of Innovations with Teachers: Definition and Sj\u00f6lund, S., Lindvall, J., Larsson, M. , & Ryve, A. (2023). Mapping roles in research -practice partnerships \u2013 a systematic literature review. Educational Review, 75(7), 1490-1518. 2876"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

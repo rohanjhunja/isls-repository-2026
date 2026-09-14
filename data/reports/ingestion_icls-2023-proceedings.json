@@ -1,0 +1,15 @@
+{
+  "source_filename": "icls-2023-proceedings.pdf",
+  "sha256": "f5a26c64dc4474cae006edcccb9a79e0d4dd9a5d5a7fdbb64851c122269dfc98",
+  "pdf_page_count": 2357,
+  "detected_papers_count": 488,
+  "expected_toc_count": 493,
+  "boundaries_confidence_avg": 0.95,
+  "unmapped_headings_count": 777,
+  "missing_fields_summary": {
+    "title": 0,
+    "authors": 99,
+    "abstract": 98
+  },
+  "timestamp": "2026-07-22T20:04:40.301184Z"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0055",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The co-design stage of this project adopts a participatory co-design methodology, where seven students, three teachers, two informal environmental educators, and four to five researchers acted as equal design partners to determine instructional goals, identify community-releva...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0055",
+      "supporting_text": "The co-design stage of this project adopts a participatory co-design methodology, where seven students, three teachers, two informal environmental educators, and four to five researchers acted as equal design partners to determine instructional goals, identify community-releva..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0132",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Survey. **Key Findings & Entry Barrier Impact**: Principle-Driven Scaffolding: Implementing and Evaluating LLM-Generated Micro-Scripts in an Informal Learning Community How can AI scaffold collaboration in voluntary online communities without over - scripting part...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0132",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Survey. **Key Findings & Entry Barrier Impact**: Principle-Driven Scaffolding: Implementing and Evaluating LLM-Generated Micro-Scripts in an Informal Learning Community How can AI scaffold collaboration in voluntary online communities without over - scripting part..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

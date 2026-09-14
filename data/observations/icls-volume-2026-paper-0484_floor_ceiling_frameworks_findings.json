@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0484",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Survey. **Key Findings & Entry Barrier Impact**: These patterns illustrate how IH aligns with engagement and informs affective scaffolding.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0484",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Survey. **Key Findings & Entry Barrier Impact**: These patterns illustrate how IH aligns with engagement and informs affective scaffolding."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

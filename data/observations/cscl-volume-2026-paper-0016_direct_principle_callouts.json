@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0016",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Exploring Variations in Teacher Modelling and Scaffolding Through In this paper, we develop new insights into how teachers can model, scaffold and coach students when using tailored chatbots in a school subject.\" | \"Teachers mainly provide concrete scaffolding support for the tasks and confirm students' questions and claims about inaccuracies in chatbot outputs.\" | \"Our analysis also indicates that the balance between modelling and scaffolding depends on how specific sequences in teaching and learning activities are executed.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0016",
+      "supporting_text": "**Direct Callouts & Context**: \"Exploring Variations in Teacher Modelling and Scaffolding Through In this paper, we develop new insights into how teachers can model, scaffold and coach students when using tailored chatbots in a school subject.\" | \"Teachers mainly provide concrete scaffolding support for the tasks and confirm students' questions and claims about inaccuracies in chatbot outputs.\" | \"Our analysis also indicates that the balance between modelling and scaffolding depends on how specific sequences in teaching and learning activities are executed.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

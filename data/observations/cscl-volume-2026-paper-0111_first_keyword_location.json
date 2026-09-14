@@ -1,0 +1,20 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0111",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "31.7% (Introduction)",
+  "pct": 31.7,
+  "section": "Introduction",
+  "first_matched_keyword": "participatory",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0111",
+      "supporting_text": "First matched design keyword 'participatory' appears at 31.7% of total character length in section 'Introduction'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

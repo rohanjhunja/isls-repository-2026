@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0167",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"...nces, community discussion, and ethical scaffolding to begin reasoning about moral dilemmas, and (2) expressions of ethical sensema...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0167",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"...nces, community discussion, and ethical scaffolding to begin reasoning about moral dilemmas, and (2) expressions of ethical sensema...\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

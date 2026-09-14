@@ -1,0 +1,20 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0039",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "73.4% (Results & Findings)",
+  "pct": 73.4,
+  "section": "Results & Findings",
+  "first_matched_keyword": "collaborative design",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0039",
+      "supporting_text": "First matched design keyword 'collaborative design' appears at 73.4% of total character length in section 'Results & Findings'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

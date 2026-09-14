@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0062",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Buttimer, C. J. (2018). The Challenges and Possibilities of Youth Participatory Action Research for Teachers and Students in Public School Classrooms. Berkeley Review of Education , 8(1). https://doi.org/10.5070/B88133830 | Kariou, A., Koutsimani, P., Montgomery, A., & Lainidi, O. (2021). Emotional Labor and Burnout among Teachers: A Systematic Review. International Journal of Environmental Research and Public Health, 18(23), 12760. https://doi.org/10.3390/ijerph182312760 | Zellers, D. F., Howard, V. M., & Barcic, M. A. (2008). Faculty Mentoring Programs: Reenvisioning Rather Than Reinventing the Wheel. Review of Educational Research, 78(3), 552- 588. https://doi.org/10.3102/0034654308320966 555",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0062",
+      "supporting_text": "Buttimer, C. J. (2018). The Challenges and Possibilities of Youth Participatory Action Research for Teachers and Students in Public School Classrooms. Berkeley Review of Education , 8(1). https://doi.org/10.5070/B88133830 | Kariou, A., Koutsimani, P., Montgomery, A., & Lainidi, O. (2021). Emotional Labor and Burnout among Teachers: A Systematic Review. International Journal of Environmental Research and Public Health, 18(23), 12760. https://doi.org/10.3390/ijerph182312760 | Zellers, D. F., Howard, V. M., & Barcic, M. A. (2008). Faculty Mentoring Programs: Reenvisioning Rather Than Reinventing the Wheel. Review of Educational Research, 78(3), 552- 588. https://doi.org/10.3102/0034654308320966 555"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

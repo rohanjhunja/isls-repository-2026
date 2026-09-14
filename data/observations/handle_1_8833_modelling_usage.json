@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8833",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Statistical, Machine Learning & Quantitative Modeling**: Applies quantitative, statistical, or machine learning models (e.g., SEM, multilevel analysis, Markov, or network modeling) to examine learning processes and empirical outcomes. Evidence: \"Structural equation modelling showed that task goals were particularly beneficial for learning engagement, and in turn, learning gains.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8833",
+      "supporting_text": "Structural equation modelling showed that task goals were particularly beneficial for learning engagement, and in turn, learning gains."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

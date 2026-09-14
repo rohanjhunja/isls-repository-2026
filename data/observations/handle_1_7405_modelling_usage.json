@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7405",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Learning Technologies & Modeling Environments**: Examines software environments, automated feedback systems, or digital scaffolding designed to facilitate iterative student modeling practices. Evidence: \"MEME was designed to support students in creating visual models organized around the components and mechanisms of the target phenomena, linking evidence to those models, and then providin...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7405",
+      "supporting_text": "MEME was designed to support students in creating visual models organized around the components and mechanisms of the target phenomena, linking evidence to those models, and then providin..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

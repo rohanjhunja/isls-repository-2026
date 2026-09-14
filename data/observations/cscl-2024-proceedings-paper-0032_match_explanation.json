@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0032",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"Future research should focus on integrating scaffolding interventions in CSCL to explicitly teach clinical argumentation and intercultural competence.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0032",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"Future research should focus on integrating scaffolding interventions in CSCL to explicitly teach clinical argumentation and intercultural competence.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

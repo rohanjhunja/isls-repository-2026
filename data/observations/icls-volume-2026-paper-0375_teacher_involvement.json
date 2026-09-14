@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0375",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"A small group of participants from each cohort served as co-designers, shaping both the content and delivery of data collection methods. Data were collected through focus groups and surveys anchored in GenAI Use Case Scenarios (Carroll, 1997; McDonald et al., 2022), fictional ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0375",
+      "supporting_text": "A small group of participants from each cohort served as co-designers, shaping both the content and delivery of data collection methods. Data were collected through focus groups and surveys anchored in GenAI Use Case Scenarios (Carroll, 1997; McDonald et al., 2022), fictional ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

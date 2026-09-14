@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_149",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Conceptual & Theoretical Modeling**: Proposes or applies a conceptual framework or theoretical model to structure understanding of learning mechanisms, collaboration, or disciplinary practices. Evidence: \"These tools provide learners with visualizations of relevant cognitive information on their learning partners, triggering the resolution of cognitive conflicts, improving accurate partner...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_149",
+      "supporting_text": "These tools provide learners with visualizations of relevant cognitive information on their learning partners, triggering the resolution of cognitive conflicts, improving accurate partner..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

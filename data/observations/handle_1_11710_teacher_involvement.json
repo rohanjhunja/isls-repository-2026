@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11710",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"We used participatory design (PD) grounded in Coope rative Inquiry (Druin, 1999) and CSD (Anderson-Coto, 2024), positioning Latine families (13 caregivers, 28 children) and six ethnically diverse teachers (White, Latina, Asian) as design partners.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11710",
+      "supporting_text": "We used participatory design (PD) grounded in Coope rative Inquiry (Druin, 1999) and CSD (Anderson-Coto, 2024), positioning Latine families (13 caregivers, 28 children) and six ethnically diverse teachers (White, Latina, Asian) as design partners."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

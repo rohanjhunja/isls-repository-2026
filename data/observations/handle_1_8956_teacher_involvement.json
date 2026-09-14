@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8956",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Thus, even a professional with years of expertise in participatory theatre still had much to learn about power relations among herself, her design, and the audience. This analysis has several implications for designers who design with agency at the heart of what they do, inclu...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8956",
+      "supporting_text": "Thus, even a professional with years of expertise in participatory theatre still had much to learn about power relations among herself, her design, and the audience. This analysis has several implications for designers who design with agency at the heart of what they do, inclu..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0052",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Second, sustaining these gains requires extending co-design beyond tool refinement and moving toward ongoing pedagogical inquiry with cycles where educators continuously test, interpret, and reinterpret routines for tool use in authentic environments.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0052",
+      "supporting_text": "Second, sustaining these gains requires extending co-design beyond tool refinement and moving toward ongoing pedagogical inquiry with cycles where educators continuously test, interpret, and reinterpret routines for tool use in authentic environments."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

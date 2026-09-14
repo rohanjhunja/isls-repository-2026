@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0312",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Asset and action -based approaches to civic learning: A review of frameworks, evidence and approaches",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0312",
+      "supporting_text": "Asset and action -based approaches to civic learning: A review of frameworks, evidence and approaches"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

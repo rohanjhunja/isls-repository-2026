@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0448",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Draws on Activity Theory principles in Introduction to analyze activity systems, mediated tools, and collaborative learning. Evidence: \"With the intention of understanding them and knowing the elements they have in common, 11 cases were analyzed from the theoretical perspective of the Activity Theory, finding 10 co...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0448",
+      "supporting_text": "With the intention of understanding them and knowing the elements they have in common, 11 cases were analyzed from the theoretical perspective of the Activity Theory, finding 10 common characteristics."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

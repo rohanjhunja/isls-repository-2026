@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6297",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Co-design between researchers and practitioners as well as professional develop ment are important if we want teachers to work effectively in implementing embodied learning (Georgiou & Ioannou, 2019b).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6297",
+      "supporting_text": "Co-design between researchers and practitioners as well as professional develop ment are important if we want teachers to work effectively in implementing embodied learning (Georgiou & Ioannou, 2019b)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

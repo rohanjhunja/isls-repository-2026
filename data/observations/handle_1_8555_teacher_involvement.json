@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8555",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"We identified potential experts for the individual interviews through nominations by our advisory board (consisting of researcher-practitioners in the fields of OST youth education and participatory design research for learning) and the literature review we developed fo r the ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8555",
+      "supporting_text": "We identified potential experts for the individual interviews through nominations by our advisory board (consisting of researcher-practitioners in the fields of OST youth education and participatory design research for learning) and the literature review we developed fo r the ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_584",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The summer after the Teacher Clarity micro-credential was introduced, small groups of teachers and content specialist participated in one of several three-hour introductory workshops which introduced micro-credentials and the co-design process, defined the product to be create...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_584",
+      "supporting_text": "The summer after the Teacher Clarity micro-credential was introduced, small groups of teachers and content specialist participated in one of several three-hour introductory workshops which introduced micro-credentials and the co-design process, defined the product to be create..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

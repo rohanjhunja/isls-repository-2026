@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11729",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Briefly examining a Participatory Action Research (PAR) project curricula where a pair of local teachers designed a community-engaged learning project about fibre and fabrics.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11729",
+      "supporting_text": "Briefly examining a Participatory Action Research (PAR) project curricula where a pair of local teachers designed a community-engaged learning project about fibre and fabrics."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

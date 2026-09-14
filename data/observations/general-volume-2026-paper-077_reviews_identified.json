@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-077",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Booth, A. (2016). Searching for qualitative research for inclusion in systematic reviews: a structured methodological review. Systematic reviews, 5(1), 74. https://doi.org/10.1186/s13643-016-0249-x | Freire, P. (1970). Cultural action and conscientization. Harvard educational review, 40(3), 452-477. | Papert, S. A. (1980). Mindstorms: Children, computers, and powerful ideas. Basic books. Par\u00e9, G., Trudel, M. C., Jaana, M., & Kitsiou, S. (2015). Synthesizing information systems knowledge: A typology of literature reviews. Information & management, 52(2), 183-199. https://doi.org/10.1016/j.im.2014.08.008 | Su, J., & Yang, W. (2023). Artificial intelligence and robotics for young children: Redeveloping the five big ideas framework. ECNU Review of Education, 7(3), 685-698. https://doi- org.gate.lib.buffalo.edu/10.1177/20965311231218013 The New London Group. (1996). A pedagogy of multiliteracies: Designing social futures. Harvard Educational Review, 66(1), 60\u201393.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-077",
+      "supporting_text": "Booth, A. (2016). Searching for qualitative research for inclusion in systematic reviews: a structured methodological review. Systematic reviews, 5(1), 74. https://doi.org/10.1186/s13643-016-0249-x | Freire, P. (1970). Cultural action and conscientization. Harvard educational review, 40(3), 452-477. | Papert, S. A. (1980). Mindstorms: Children, computers, and powerful ideas. Basic books. Par\u00e9, G., Trudel, M. C., Jaana, M., & Kitsiou, S. (2015). Synthesizing information systems knowledge: A typology of literature reviews. Information & management, 52(2), 183-199. https://doi.org/10.1016/j.im.2014.08.008 | Su, J., & Yang, W. (2023). Artificial intelligence and robotics for young children: Redeveloping the five big ideas framework. ECNU Review of Education, 7(3), 685-698. https://doi- org.gate.lib.buffalo.edu/10.1177/20965311231218013 The New London Group. (1996). A pedagogy of multiliteracies: Designing social futures. Harvard Educational Review, 66(1), 60\u201393."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

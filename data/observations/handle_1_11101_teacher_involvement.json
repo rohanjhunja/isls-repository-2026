@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11101",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We engaged both con tent experts and high school teachers in a collaborative process of co-designing and refining the curricula to better facilitate epistemic practices.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11101",
+      "supporting_text": "We engaged both con tent experts and high school teachers in a collaborative process of co-designing and refining the curricula to better facilitate epistemic practices."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-032",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"SEED: A Teachable-Agent System that Supports Elementary Students\u2019 Self-Explanation by Teaching an AI Chatbot Self-explanation is a powerful strategy for conceptual understanding, yet elementary students struggle to produce coherent explanations without individualized scaffolding.\" | \"SEED features a role- reversal prompt engine, three-stage scaffolding flow, growth visualization, and auto-generated learning notebooks\u2014all designed to sustain the prot\u00e9g\u00e9 effect.\" | \"kr Seoul National University of Education Abstract: Self-explanation is a powerful strategy for conceptual understanding, yet elementary students struggle to produce coherent explanations without individualized scaffolding.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-032",
+      "supporting_text": "**Direct Callouts & Context**: \"SEED: A Teachable-Agent System that Supports Elementary Students\u2019 Self-Explanation by Teaching an AI Chatbot Self-explanation is a powerful strategy for conceptual understanding, yet elementary students struggle to produce coherent explanations without individualized scaffolding.\" | \"SEED features a role- reversal prompt engine, three-stage scaffolding flow, growth visualization, and auto-generated learning notebooks\u2014all designed to sustain the prot\u00e9g\u00e9 effect.\" | \"kr Seoul National University of Education Abstract: Self-explanation is a powerful strategy for conceptual understanding, yet elementary students struggle to produce coherent explanations without individualized scaffolding.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

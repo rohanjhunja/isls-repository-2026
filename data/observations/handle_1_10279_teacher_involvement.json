@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10279",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Thus, learning scientists have been embracing research-practice partnership and collaborative design (\u201cco-design\u201d) with classroom teachers and other schoolsystem partners (e.g., school district coordinators, students, school lib rarians) (see Severance et al., 2016 for an exam...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10279",
+      "supporting_text": "Thus, learning scientists have been embracing research-practice partnership and collaborative design (\u201cco-design\u201d) with classroom teachers and other schoolsystem partners (e.g., school district coordinators, students, school lib rarians) (see Severance et al., 2016 for an exam..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

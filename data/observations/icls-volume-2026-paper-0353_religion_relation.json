@@ -1,0 +1,19 @@
+{
+  "paper_id": "icls-volume-2026-paper-0353",
+  "property_id": "religion_relation",
+  "property_version": "1.0.0",
+  "value": "Frames arts-based maker learning and creative identity work within a critical perspective that directly confronts systemic structures of power and oppression operating along religious, racial, ethnic, and cultural lines.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0353",
+      "section_id": null,
+      "pdf_page": null,
+      "supporting_text": "...structures of power that have continuously led to oppression and genocide based on race, ethnicity, culture, religion, language, gender, socioeconomic status, ability..."
+    }
+  ],
+  "method": "full_text_analysis",
+  "confidence": 1.0,
+  "run_id": "run_religion_relation_20260726",
+  "source_version": "1.0.0"
+}

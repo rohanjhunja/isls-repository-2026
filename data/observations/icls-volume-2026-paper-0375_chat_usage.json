@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0375",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction to ground learning and artifact mediation. Evidence: \"Theoretical framing Cultural-Historical Activity Theory (CHAT; Engestr\u00f6m & Sannino, 2010) is used in this study to frame GenAI in education as a sociotechnical activity system in w...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0375",
+      "supporting_text": "Theoretical framing Cultural-Historical Activity Theory (CHAT; Engestr\u00f6m & Sannino, 2010) is used in this study to frame GenAI in education as a sociotechnical activity system in which tools, rules, community, and division of labor mediate learning and decision- making."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

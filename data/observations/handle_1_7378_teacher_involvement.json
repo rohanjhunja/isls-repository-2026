@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7378",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Results suggest flexibility and team discussions may particularly support teachers in co-design and enhance future PDs focused on developing computational activities for students in the K-12 classroom ### Abstract At two professional developments (PDs), we position teachers as...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7378",
+      "supporting_text": "Results suggest flexibility and team discussions may particularly support teachers in co-design and enhance future PDs focused on developing computational activities for students in the K-12 classroom ### Abstract At two professional developments (PDs), we position teachers as..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

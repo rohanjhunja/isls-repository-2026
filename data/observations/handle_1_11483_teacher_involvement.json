@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11483",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Regardless of t he expansiveness of the AI proposal being evaluated wi thin the co-design context, youth participants identified infrastructural elements of schooling that they saw as inhibiting their desired uses of the technology. For instance, in our second workshop, one yo...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11483",
+      "supporting_text": "Regardless of t he expansiveness of the AI proposal being evaluated wi thin the co-design context, youth participants identified infrastructural elements of schooling that they saw as inhibiting their desired uses of the technology. For instance, in our second workshop, one yo..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

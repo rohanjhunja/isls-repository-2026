@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0489",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Beach, K. (1999). Chapter 4: Consequential Transitions: A Sociocultural Expedition Beyond Transfer in Education. Review of Research in Education - REV RES EDUC , 24, 101 \u2013139. https://doi.org/10.3102/0091732X024001101",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0489",
+      "supporting_text": "Beach, K. (1999). Chapter 4: Consequential Transitions: A Sociocultural Expedition Beyond Transfer in Education. Review of Research in Education - REV RES EDUC , 24, 101 \u2013139. https://doi.org/10.3102/0091732X024001101"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7539",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Conceptual & Theoretical Modeling**: Proposes or applies a conceptual framework or theoretical model to structure understanding of learning mechanisms, collaboration, or disciplinary practices. Evidence: \"Findings from qualitative analysis demonstrate that exploring text classification models provided an accessible and comprehensive approach for integrated learning of mathematics, language...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7539",
+      "supporting_text": "Findings from qualitative analysis demonstrate that exploring text classification models provided an accessible and comprehensive approach for integrated learning of mathematics, language..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

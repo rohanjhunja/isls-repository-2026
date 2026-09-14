@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11889",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Title: Design and Play in Real Time: A Participatory Design Approach for Autistic Children to Design Online Play with Peers Abstract: This paper presents a participatory design approach for children, designers, and educators to collaboratively create inclusive digital play env...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11889",
+      "supporting_text": "Title: Design and Play in Real Time: A Participatory Design Approach for Autistic Children to Design Online Play with Peers Abstract: This paper presents a participatory design approach for children, designers, and educators to collaboratively create inclusive digital play env..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

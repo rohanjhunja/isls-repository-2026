@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11782",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Our findings support previous calls fo r tailoring introductory computing education to stu dents\u2019 majors (Forte & Guzdial, 2005), and suggest that approaches like co-designing assignments alongside faculty from other disciplines may help produce tasks that resonate more deeply...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11782",
+      "supporting_text": "Our findings support previous calls fo r tailoring introductory computing education to stu dents\u2019 majors (Forte & Guzdial, 2005), and suggest that approaches like co-designing assignments alongside faculty from other disciplines may help produce tasks that resonate more deeply..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11790",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Scientific Inquiry & Explanatory Modeling**: Focuses on student practices of generating, testing, evaluating, and iteratively revising explanatory scientific models using empirical evidence. Evidence: \"As youth and teachers engage in modeling conversations, they are simultaneously negotiating how knowledge is generated and how people are accountable to each other in a community.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11790",
+      "supporting_text": "As youth and teachers engage in modeling conversations, they are simultaneously negotiating how knowledge is generated and how people are accountable to each other in a community."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

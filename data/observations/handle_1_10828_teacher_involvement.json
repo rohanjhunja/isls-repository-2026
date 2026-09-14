@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10828",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In this presentation, we discuss the co-design of TMoF, trade-offs, successes, and challenges that emerged for three statistics teachers and their stu dents as they jointly enacted TMoF.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10828",
+      "supporting_text": "In this presentation, we discuss the co-design of TMoF, trade-offs, successes, and challenges that emerged for three statistics teachers and their stu dents as they jointly enacted TMoF."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

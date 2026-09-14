@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10774",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Therefore, we've established a PLC that emphasizes knowledge sharing, collaborative design, resource exchange, and socialemotional support to help teachers understand, design, and implement student-centered inquiry.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10774",
+      "supporting_text": "Therefore, we've established a PLC that emphasizes knowledge sharing, collaborative design, resource exchange, and socialemotional support to help teachers understand, design, and implement student-centered inquiry."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

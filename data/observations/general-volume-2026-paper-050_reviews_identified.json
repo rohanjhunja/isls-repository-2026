@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-050",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Blikstein, P. (2015). Computationally Enhanced Toolkits for Children: Historical Review and a Framework for Future Design. Foundations and Trends in Human-Computer Interaction, 9(1), 1\u201368.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-050",
+      "supporting_text": "Blikstein, P. (2015). Computationally Enhanced Toolkits for Children: Historical Review and a Framework for Future Design. Foundations and Trends in Human-Computer Interaction, 9(1), 1\u201368."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

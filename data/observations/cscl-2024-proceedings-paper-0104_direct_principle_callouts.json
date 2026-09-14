@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0104",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"We conducted a case study on this scaffolding approach in several expert groups in a field setting in higher education courses.\" | \"Expected results and discussion From the results of this study, we expect to gain insights whether instructing expert groups in a jigsaw classroom to collaboratively create visualizations is a helpful means to foster students understanding of the core concepts and enables them to prepare thoroughly for teaching the core concepts to their jigsaw groups or if this type of scaffold that focusses on the creation of an artifact rather distracts students from meaningful discussion and preparation activities.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0104",
+      "supporting_text": "**Direct Callouts & Context**: \"We conducted a case study on this scaffolding approach in several expert groups in a field setting in higher education courses.\" | \"Expected results and discussion From the results of this study, we expect to gain insights whether instructing expert groups in a jigsaw classroom to collaboratively create visualizations is a helpful means to foster students understanding of the core concepts and enables them to prepare thoroughly for teaching the core concepts to their jigsaw groups or if this type of scaffold that focusses on the creation of an artifact rather distracts students from meaningful discussion and preparation activities.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

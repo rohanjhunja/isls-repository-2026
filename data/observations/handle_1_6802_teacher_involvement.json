@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6802",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Ideas are \u201cpulled\u201d from various web spaces to form larg er knowledge structures to give birth to promising and big ideas in KF (Chen, Scardamalia & Bereiter, 2015); hence the metaphor of \u201cidea magnets.\u201d Informed by iterative co-design workshops participated by teachers and res...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6802",
+      "supporting_text": "Ideas are \u201cpulled\u201d from various web spaces to form larg er knowledge structures to give birth to promising and big ideas in KF (Chen, Scardamalia & Bereiter, 2015); hence the metaphor of \u201cidea magnets.\u201d Informed by iterative co-design workshops participated by teachers and res..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0232",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Otheguy, R., Garc\u00eda, O., & Reid, W. (2015). Clarifying translanguaging and deconstructing named languages: A perspective from linguistics. Applied linguistics review, 6(3), 281-307.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0232",
+      "supporting_text": "Otheguy, R., Garc\u00eda, O., & Reid, W. (2015). Clarifying translanguaging and deconstructing named languages: A perspective from linguistics. Applied linguistics review, 6(3), 281-307."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

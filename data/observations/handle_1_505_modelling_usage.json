@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_505",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Learning Technologies & Modeling Environments**: Examines software environments, automated feedback systems, or digital scaffolding designed to facilitate iterative student modeling practices. Evidence: \"We examined the impact of the design of the modeling interface on learning, using two designs that differ in the type of visual feedback and the degrees of freedom for exploration.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_505",
+      "supporting_text": "We examined the impact of the design of the modeling interface on learning, using two designs that differ in the type of visual feedback and the degrees of freedom for exploration."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

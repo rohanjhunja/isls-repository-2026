@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0132",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This study describes collaborative processes between an artist and a pre-service teacher, Becca, which inspired her attempts to reimagine her teaching aims and practices, as part of a summer camp research \u2013design partnership on a community urban farm.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0132",
+      "supporting_text": "This study describes collaborative processes between an artist and a pre-service teacher, Becca, which inspired her attempts to reimagine her teaching aims and practices, as part of a summer camp research \u2013design partnership on a community urban farm."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

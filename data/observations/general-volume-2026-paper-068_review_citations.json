@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-068",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Remillard, J. T. (2005). Examining key concepts in research on teachers\u2019 use of mathematics curricula, Review of Educational Research, 75(2), 211-246",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-068",
+      "supporting_text": "Remillard, J. T. (2005). Examining key concepts in research on teachers\u2019 use of mathematics curricula, Review of Educational Research, 75(2), 211-246"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

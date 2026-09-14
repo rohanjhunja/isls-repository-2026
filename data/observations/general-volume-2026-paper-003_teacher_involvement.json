@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-003",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers and community educators worked in collaborative design partnerships to center culturally sustaining, community-connected pedagogical practices and heritage languages in learning design. **Evidence**: \"Bio: Ananda Marin is associate professor in the Department of Education and faculty in American Indian Studies at the University of California, Los Angeles (Tongva territory). As a learning scientist she aims to bring research on the socio-ecological and cultural nature of lea...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-003",
+      "supporting_text": "Bio: Ananda Marin is associate professor in the Department of Education and faculty in American Indian Studies at the University of California, Los Angeles (Tongva territory). As a learning scientist she aims to bring research on the socio-ecological and cultural nature of lea..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

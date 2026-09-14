@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8691",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Conceptual & Theoretical Modeling**: Proposes or applies a conceptual framework or theoretical model to structure understanding of learning mechanisms, collaboration, or disciplinary practices. Evidence: \"The research highlights Math concepts that are usually employed throughout the modeling, prototyping and production processes.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8691",
+      "supporting_text": "The research highlights Math concepts that are usually employed throughout the modeling, prototyping and production processes."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

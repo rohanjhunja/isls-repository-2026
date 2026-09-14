@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0359",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in References to analyze systemic contradictions, tensions, and expansive learning cycles. Evidence: \"First, at the organizational level, we explore the tensions and possibilities of facilitating systemic change in graduate education as organizational learning, drawing on CHAT.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0359",
+      "supporting_text": "First, at the organizational level, we explore the tensions and possibilities of facilitating systemic change in graduate education as organizational learning, drawing on CHAT."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

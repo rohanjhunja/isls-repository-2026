@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11786",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Title: \u201cComputer Science Is About Rethinking and Reshaping Reality\u201d: A Social Studies Teacher\u2019s Transformation Through the Co-Designing of Computer Science-Infused Lessons Abstract: Integrating computer science (CS) concepts and practices into K-12 education mainly emphasizes ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11786",
+      "supporting_text": "Title: \u201cComputer Science Is About Rethinking and Reshaping Reality\u201d: A Social Studies Teacher\u2019s Transformation Through the Co-Designing of Computer Science-Infused Lessons Abstract: Integrating computer science (CS) concepts and practices into K-12 education mainly emphasizes ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

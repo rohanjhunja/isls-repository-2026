@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0148",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction to guide participatory design, tool mediation, and collaborative practices. Evidence: \"By conceptualizing student critique as a nested activity within the broader learning activity  through the lens of  Cultural- Historical Activity Theory (CHAT), this design-based r...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0148",
+      "supporting_text": "By conceptualizing student critique as a nested activity within the broader learning activity  through the lens of  Cultural- Historical Activity Theory (CHAT), this design-based research examines how students perceive and engage in  critique - including peer critique,  self-critique, critique of AI  concepts, and critique of the curriculum."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

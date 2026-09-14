@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0380",
+  "property_id": "design_principles_relation",
+  "property_version": "1.0.0",
+  "value": "**Low Floor / Entry Barrier**: Provides accessible introductory entry points for novice learners. **High Ceiling**: Supports extension into more complex disciplinary concepts and deeper domain understanding. **Low Threshold & Scaffolding**: Scaffolds learner engagement to ensure continuous low-threshold access.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0380",
+      "supporting_text": "**Low Floor / Entry Barrier**: Provides accessible introductory entry points for novice learners. **High Ceiling**: Supports extension into more complex disciplinary concepts and deeper domain understanding. **Low Threshold & Scaffolding**: Scaffolds learner engagement to ensure continuous low-threshold access."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_design_principles_relation_20260728",
+  "source_version": "1.0.0"
+}

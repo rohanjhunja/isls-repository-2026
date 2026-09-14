@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0268",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"Second, the frequency of scaffolding and questioning behaviors exhibited a significant positive correlation with the enhancement of IBS in the r -TPJ.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0268",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"Second, the frequency of scaffolding and questioning behaviors exhibited a significant positive correlation with the enhancement of IBS in the r -TPJ.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

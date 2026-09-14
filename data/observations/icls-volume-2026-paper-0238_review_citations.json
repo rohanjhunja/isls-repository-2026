@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0238",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Farrokhnia, M., Meulenbroeks, R. F. G., & van Joolingen, W. R. (2020). Student -Generated Stop -Motion Animation in Science Classes: A Systematic Literature Review. Journal of Science Education and Technology, 29(6), 797\u2013812. https://doi.org/10.1007/s10956-020-09857-1",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0238",
+      "supporting_text": "Farrokhnia, M., Meulenbroeks, R. F. G., & van Joolingen, W. R. (2020). Student -Generated Stop -Motion Animation in Science Classes: A Systematic Literature Review. Journal of Science Education and Technology, 29(6), 797\u2013812. https://doi.org/10.1007/s10956-020-09857-1"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0327",
+  "property_id": "design_principles_relation",
+  "property_version": "1.0.0",
+  "value": "**Low Floor / Entry Barrier**: Uses accessible, intuitive entryways to minimize initial cognitive and technical friction for beginners. **High Ceiling**: Supports extension into more complex disciplinary concepts and deeper domain understanding. **Low Threshold & Scaffolding**: Employs structured instructional scaffolding to maintain a low threshold for participation.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0327",
+      "supporting_text": "**Low Floor / Entry Barrier**: Uses accessible, intuitive entryways to minimize initial cognitive and technical friction for beginners. **High Ceiling**: Supports extension into more complex disciplinary concepts and deeper domain understanding. **Low Threshold & Scaffolding**: Employs structured instructional scaffolding to maintain a low threshold for participation."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_design_principles_relation_20260728",
+  "source_version": "1.0.0"
+}

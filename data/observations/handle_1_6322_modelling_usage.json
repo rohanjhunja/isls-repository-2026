@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6322",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"We found that with refined language, which maintained the metaphors and the abstractions vital to the science concepts being taught, students were able to complete a computational model w...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6322",
+      "supporting_text": "We found that with refined language, which maintained the metaphors and the abstractions vital to the science concepts being taught, students were able to complete a computational model w..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

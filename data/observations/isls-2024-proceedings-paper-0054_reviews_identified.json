@@ -1,0 +1,17 @@
+{
+  "paper_id": "isls-2024-proceedings-paper-0054",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Remillard, J. T. (2005). Examining key concepts in research on teachers' use of mathematics curricula. Review of Educational Research, 75, 211\u2013246.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "isls-2024-proceedings-paper-0054",
+      "supporting_text": "Remillard, J. T. (2005). Examining key concepts in research on teachers' use of mathematics curricula. Review of Educational Research, 75, 211\u2013246."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

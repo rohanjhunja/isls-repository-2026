@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_382",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We will discuss how, through classroom observations, teacher inter views, and participatory design workshops, we come to determine and refine visualizations appropriate for their anticipated functions.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_382",
+      "supporting_text": "We will discuss how, through classroom observations, teacher inter views, and participatory design workshops, we come to determine and refine visualizations appropriate for their anticipated functions."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

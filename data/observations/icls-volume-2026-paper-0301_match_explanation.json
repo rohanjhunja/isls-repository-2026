@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0301",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"...\u2019s usability as a dynamic metacognitive scaffolding tool and highlight the value of integrating multi -agent feedback loops and tea...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0301",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"...\u2019s usability as a dynamic metacognitive scaffolding tool and highlight the value of integrating multi -agent feedback loops and tea...\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

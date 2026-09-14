@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8948",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"Four 5th-grade students individually observed a diffusion experiment and created a model to explain the experiment using domain-specific programming blocks.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8948",
+      "supporting_text": "Four 5th-grade students individually observed a diffusion experiment and created a model to explain the experiment using domain-specific programming blocks."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

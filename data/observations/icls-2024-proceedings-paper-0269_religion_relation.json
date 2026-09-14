@@ -1,0 +1,19 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0269",
+  "property_id": "religion_relation",
+  "property_version": "1.0.0",
+  "value": "Examines how a shared heritage trip to Poland for Israeli and American Jewish youth fosters religious-national identity exploration, exposing participants to diverse Jewish religious practices (e.g., Reform synagogue services).",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0269",
+      "section_id": null,
+      "pdf_page": null,
+      "supporting_text": "...participation in the journey gave rise to changes in various personal, social, and religious-national aspects of identity... A few of the participants said that attending religious services at the Reform synagogue in Rochester was a highlight that deepened their connection to Jewish identity..."
+    }
+  ],
+  "method": "full_text_analysis",
+  "confidence": 1.0,
+  "run_id": "run_religion_relation_20260726",
+  "source_version": "1.0.0"
+}

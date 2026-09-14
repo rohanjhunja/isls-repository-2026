@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0330",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Such partnerships require sustained engagement rather than one-time interactions, positioning teachers as co-learners and co-designers who can facilitate their students' legitimate peripheral participation in scientific communities.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0330",
+      "supporting_text": "Such partnerships require sustained engagement rather than one-time interactions, positioning teachers as co-learners and co-designers who can facilitate their students' legitimate peripheral participation in scientific communities."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

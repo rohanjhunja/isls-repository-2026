@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_898",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Title: Mobilizing Learning Progressions for Teacher Use: Examining the Utility of Outside Learning Progressions in Task Co-design Abstract: While many learning progressions have been developed in science education, few studies have examined the utility of these progressions as...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_898",
+      "supporting_text": "Title: Mobilizing Learning Progressions for Teacher Use: Examining the Utility of Outside Learning Progressions in Task Co-design Abstract: While many learning progressions have been developed in science education, few studies have examined the utility of these progressions as..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

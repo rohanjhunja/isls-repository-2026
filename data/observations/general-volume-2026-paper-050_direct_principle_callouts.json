@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-050",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Overview The learning sciences offer strong conceptual foundations for the design of educational AI, drawing on longstanding research on scaffolding, feedback, self-regulation, and collaboration (Quintana et al.\" | \"Training data rarely reflect what is known about productive learning interactions; benchmarks tend to measure task completion or factual accuracy rather than the quality of scaffolding or the depth of learner understanding; and model documentation seldom describes how a system's design relates to evidence on how people learn.\" | \"A scaffolding design framework for software to support science inquiry.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-050",
+      "supporting_text": "**Direct Callouts & Context**: \"Overview The learning sciences offer strong conceptual foundations for the design of educational AI, drawing on longstanding research on scaffolding, feedback, self-regulation, and collaboration (Quintana et al.\" | \"Training data rarely reflect what is known about productive learning interactions; benchmarks tend to measure task completion or factual accuracy rather than the quality of scaffolding or the depth of learner understanding; and model documentation seldom describes how a system's design relates to evidence on how people learn.\" | \"A scaffolding design framework for software to support science inquiry.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

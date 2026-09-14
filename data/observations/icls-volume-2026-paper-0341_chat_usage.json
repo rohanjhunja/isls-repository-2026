@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0341",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Draws on Activity Theory principles in Introduction to analyze activity systems, mediated tools, and collaborative learning. Evidence: \"This session is organized in three sections: (1) the chairs will introduce the topic and participants (~10 min); (2) participants will have seven minutes to share their work; (3) o...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0341",
+      "supporting_text": "This session is organized in three sections: (1) the chairs will introduce the topic and participants (~10 min); (2) participants will have seven minutes to share their work; (3) our discussants Jean Ryoo, a learning scientist and computing education researcher that has advocated for equity and inquiry-oriented computing, and Ole Sejer Iversen, a child-computer interaction and activity theory researcher that proposed the term deconstruction, will synthesize and reflect on findings (10 min), followed by a Q&A with the audience and presenters (~15 min)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

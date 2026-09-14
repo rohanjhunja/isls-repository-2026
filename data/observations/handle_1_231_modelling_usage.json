@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_231",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Statistical, Machine Learning & Quantitative Modeling**: Applies quantitative, statistical, or machine learning models (e.g., SEM, multilevel analysis, Markov, or network modeling) to examine learning processes and empirical outcomes. Evidence: \"To study how learning processes unfolded for eighth grade students collaborating in an e-textbook research activity, we analyzed data sources at individual and group levels using multiple...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_231",
+      "supporting_text": "To study how learning processes unfolded for eighth grade students collaborating in an e-textbook research activity, we analyzed data sources at individual and group levels using multiple..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

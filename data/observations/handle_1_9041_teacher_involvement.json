@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9041",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers and community educators worked in collaborative design partnerships to center culturally sustaining, community-connected pedagogical practices and heritage languages in learning design. **Evidence**: \"I kn ow, like, I look forward to these meetings.\u201d This study provides a promising example of how researchers can utilize co-design to work closely in partnership with minoritized teacher populations to surface not only new insights into longstanding issues of equi ty in educat...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9041",
+      "supporting_text": "I kn ow, like, I look forward to these meetings.\u201d This study provides a promising example of how researchers can utilize co-design to work closely in partnership with minoritized teacher populations to surface not only new insights into longstanding issues of equi ty in educat..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

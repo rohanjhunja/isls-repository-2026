@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0030",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"The study sheds light on the association between resource utilization and learning success in collaborative learning settings, offering valuable guidance for enhancing the pedagogical design of learning resources and teacher scaffolding to promote effective resource utilization.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0030",
+      "supporting_text": "**Direct Callouts & Context**: \"The study sheds light on the association between resource utilization and learning success in collaborative learning settings, offering valuable guidance for enhancing the pedagogical design of learning resources and teacher scaffolding to promote effective resource utilization.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

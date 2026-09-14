@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11700",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"The initial co-design meeting took place with a group of twelve in itial stakeholders\u2014three educators (one Latine, two white), six muse um professionals (five Latine, one white), and thre e researchers (one Latine, two white).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11700",
+      "supporting_text": "The initial co-design meeting took place with a group of twelve in itial stakeholders\u2014three educators (one Latine, two white), six muse um professionals (five Latine, one white), and thre e researchers (one Latine, two white)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

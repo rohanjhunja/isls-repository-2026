@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Literature Review Viewer | ISLS Repository</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- App Body Layout -->
+  <div class="app-body">
+
+    <!-- Left Side Navigation Menu for Reviews -->
+    <aside class="sidebar-nav" id="sidebarNav">
+      <div class="sidebar-header">
+        <button class="btn btn-icon" id="toggleSidebarBtn" title="Toggle Navigation Menu"><svg class="icon"><use href="icons/icons.svg#icon-menu"/></svg></button>
+        <a href="./index.html" class="btn-how-it-works" title="How this Works — Project Cover & System Guide">
+          <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          <span>How this Works</span>
+        </a>
+      </div>
+
+      <!-- Dipstick Initial Mode Launcher Item -->
+      <div class="dipstick-nav-item" id="dipstickNavItem" title="New Dipstick Review (Search 100% Repository Papers)">
+        <span class="dipstick-item-icon"><svg class="icon icon-lg"><use href="icons/icons.svg#icon-zap"/></svg></span>
+        <div class="dipstick-text-group">
+          <strong class="dipstick-item-title">New Dipstick Review</strong>
+          <span class="dipstick-item-sub">Search 100% Repository Papers</span>
+        </div>
+        <span class="dipstick-item-arrow"><svg class="icon"><use href="icons/icons.svg#icon-arrow-right"/></svg></span>
+      </div>
+
+      <div class="sidebar-section-title">Saved Reviews</div>
+      <div class="reviews-list" id="reviewsList">
+        <!-- Dynamically populated review items -->
+      </div>
+    </aside>
+
+    <!-- Main View Container -->
+    <div class="main-content">
+
+      <!-- Top Table Control Bar -->
+      <section class="control-bar">
+        
+        <!-- Left: Paper Count Badge + Search Bar + Save Review Button -->
+        <div class="search-container">
+          <div class="stats-badge" id="paperCountBadge">0 Papers</div>
+          <div class="search-box">
+            <span class="search-icon"><svg class="icon"><use href="icons/icons.svg#icon-search"/></svg></span>
+            <input type="text" id="searchInput" placeholder="Search 100% repository paper titles (e.g. Generative AI, Learning Analytics)..." />
+          </div>
+          <button class="btn btn-primary hidden" id="saveAsReviewBtn"><svg class="icon"><use href="icons/icons.svg#icon-save"/></svg> Save as Review</button>
+        </div>
+
+        <!-- Right: Multi-Select Scope Popover + Dual Sorting + Table Controls -->
+        <div class="control-actions">
+          
+
+
+          <!-- Dipstick Multi-Select Scope Dropdown Popover (Hidden by default until initial search) -->
+          <div class="multi-select-container hidden" id="dipstickControls">
+            <button class="btn btn-outline" id="multiSelectToggleBtn"><svg class="icon"><use href="icons/icons.svg#icon-globe"/></svg> Scope (Abstract) <svg class="icon icon-sm"><use href="icons/icons.svg#icon-chevron-down"/></svg></button>
+            <div class="multi-select-popover" id="multiSelectPopover">
+              <div class="popover-header">Target Sections to Check:</div>
+              <label class="popover-option"><input type="checkbox" value="abstract" checked> Abstract / Intro</label>
+              <label class="popover-option"><input type="checkbox" value="methods"> Methodology / Methods</label>
+              <label class="popover-option"><input type="checkbox" value="results"> Findings / Results</label>
+              <label class="popover-option"><input type="checkbox" value="discussion_conclusion"> Discussion / Conclusion</label>
+              <label class="popover-option"><input type="checkbox" value="full_text"> Full Text</label>
+              <div class="popover-footer">
+                <button class="btn btn-success" id="expandScopeBtn"><svg class="icon"><use href="icons/icons.svg#icon-plus"/></svg> Expand Scope</button>
+              </div>
+            </div>
+          </div>
+
+
+          <button class="btn btn-icon" id="resetColumnsBtn" title="Reset Column Widths & Filters"><svg class="icon"><use href="icons/icons.svg#icon-refresh-cw"/></svg></button>
+
+          <!-- Row Height Toggle -->
+          <div class="row-mode-toggle">
+            <label class="toggle-switch">
+              <input type="checkbox" id="rowModeToggle" checked>
+              <span class="toggle-slider"></span>
+            </label>
+            <span class="toggle-label" id="rowModeLabel"><svg class="icon"><use href="icons/icons.svg#icon-wrap-text"/></svg> Auto Wrap</span>
+          </div>
+
+          <!-- Table Export Dropdown Menu (Copy Table & Download as CSV) -->
+          <div class="table-export-container hidden" id="tableExportContainer">
+            <button class="btn btn-outline" id="copyTableBtn" title="Export or copy table data">
+              <svg class="icon"><use href="icons/icons.svg#icon-copy"/></svg> Copy Table <svg class="icon icon-sm"><use href="icons/icons.svg#icon-chevron-down"/></svg>
+            </button>
+            <div class="table-export-popover" id="tableExportPopover">
+              <button class="table-export-item" id="copyTableItem">
+                <svg class="icon"><use href="icons/icons.svg#icon-copy"/></svg>
+                <div class="table-export-item-text">
+                  <strong>Copy Table to Clipboard</strong>
+                  <span>Formatted for spreadsheet pasting</span>
+                </div>
+              </button>
+              <button class="table-export-item" id="downloadCsvItem">
+                <svg class="icon"><use href="icons/icons.svg#icon-download"/></svg>
+                <div class="table-export-item-text">
+                  <strong>Download as CSV</strong>
+                  <span>Export current table to .csv file</span>
+                </div>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Small Status Message Indicator -->
+      <div id="statusIndicator" class="status-indicator">
+        <span id="statusSpinner"><svg class="icon spin"><use href="icons/icons.svg#icon-zap"/></svg></span>
+        <span id="statusText">Processing task...</span>
+      </div>
+
+      <!-- Main Table Container -->
+      <div class="table-wrapper" id="tableWrapper">
+        <table class="data-table mode-autowrap" id="dataTable">
+          <thead>
+            <tr id="tableHeaderRow">
+              <!-- Dynamically populated headers -->
+            </tr>
+          </thead>
+          <tbody id="tableBody">
+            <!-- Dynamically populated rows -->
+          </tbody>
+        </table>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Full-Text & Paper Details Side Overlay Drawer -->
+  <div class="overlay-backdrop" id="overlayBackdrop"></div>
+  <aside class="details-overlay" id="detailsOverlay">
+    <div class="overlay-resizer" id="overlayResizer"></div>
+    <div class="overlay-header">
+      <div class="overlay-title-group">
+        <h2 id="ovTitle">Paper Title</h2>
+        <div class="overlay-meta">
+          <span class="badge badge-primary" id="ovConf">ISLS</span>
+          <span class="badge badge-secondary" id="ovYear">2024</span>
+          <span class="meta-item" id="ovAuthors">Authors</span>
+        </div>
+      </div>
+      <div class="overlay-actions">
+        <button class="btn btn-icon" id="toggleOverlayWidthBtn" title="Expand / Restore Reading Width"><svg class="icon"><use href="icons/icons.svg#icon-wrap-text"/></svg></button>
+        <button class="btn btn-icon" id="closeOverlayBtn" title="Close Panel"><svg class="icon"><use href="icons/icons.svg#icon-x"/></svg></button>
+      </div>
+    </div>
+
+    <div class="overlay-tabs">
+      <button class="tab-btn active" data-tab="tabSummary">Summary & Metadata</button>
+      <button class="tab-btn" data-tab="tabSections" id="tabFullTextBtn">Full Text Reader</button>
+      <button class="tab-btn" data-tab="tabRaw">Raw JSON</button>
+    </div>
+
+    <!-- Scrollable Overlay Content Body -->
+    <div class="overlay-body">
+      <div class="tab-pane active" id="tabSummary">
+        <!-- Prominent Full Text Action Banner -->
+        <div class="card fulltext-cta-card" id="ovFullTextCtaCard">
+          <div class="fulltext-cta-content">
+            <span class="fulltext-cta-icon"><svg class="icon icon-lg"><use href="icons/icons.svg#icon-book"/></svg></span>
+            <div>
+              <h4 class="fulltext-cta-title">Complete Paper Available</h4>
+              <p class="fulltext-cta-desc" id="ovFullTextCtaDesc">Read the complete formatted article with sections, findings, and references.</p>
+            </div>
+          </div>
+          <button class="btn btn-primary" id="ovTriggerReadBtn"><svg class="icon"><use href="icons/icons.svg#icon-book"/></svg> View Full Text</button>
+        </div>
+
+        <div class="card">
+          <h3><svg class="icon"><use href="icons/icons.svg#icon-pin"/></svg> Key Findings & Relevance (~50 Words)</h3>
+          <div id="ovSummaryText" class="summary-box">Summary text...</div>
+        </div>
+
+        <div class="card">
+          <h3><svg class="icon"><use href="icons/icons.svg#icon-search"/></svg> Searchable Properties</h3>
+          <div class="prop-grid">
+            <div class="prop-item">
+              <label>Databases Searched:</label>
+              <div id="ovDatabasesList" class="tag-list"></div>
+            </div>
+            <div class="prop-item">
+              <label>Matched Keywords:</label>
+              <div id="ovKeywordsList" class="tag-list"></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3><svg class="icon"><use href="icons/icons.svg#icon-file-text"/></svg> Abstract</h3>
+          <p id="ovAbstractText" class="abstract-box"></p>
+        </div>
+      </div>
+
+      <div class="tab-pane" id="tabSections">
+        <!-- Container for Reader UI: Initial State, Loading State, or Formatted Article -->
+        <div id="ovSectionsContainer" class="sections-list"></div>
+      </div>
+
+      <div class="tab-pane" id="tabRaw">
+        <pre id="ovRawJson" class="json-code"></pre>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Hosted Mode Informative Modal -->
+  <div class="hosted-modal-backdrop" id="hostedFeatureModal">
+    <div class="hosted-modal-box">
+      <button class="hosted-modal-close" id="closeHostedModal" aria-label="Close modal">&times;</button>
+      <div class="hosted-modal-badge">Local Agentic Runtime</div>
+      <h3 class="hosted-modal-title" id="hostedModalTitle">Full Corpus Search & AI Extraction</h3>
+      <p class="hosted-modal-desc" id="hostedModalDesc">
+        Dynamic full-text search across all 5,402 papers, iterative scope expansion, and custom review generation require the local agentic runtime with SQLite FTS5 index.
+      </p>
+      <div class="hosted-modal-benefits">
+        <div>⚡ <strong>Offline FTS5 Search</strong>: Sub-second lexical queries across 10 years of proceedings</div>
+        <div>🔍 <strong>Deep Extraction</strong>: Extract custom properties with verbatim evidence quotes</div>
+        <div>🤖 <strong>1-Click Agent Launch</strong>: Run locally with Google Antigravity or Claude Desktop</div>
+      </div>
+      <div class="hosted-modal-actions">
+        <button class="btn btn-outline" id="btnDismissHostedModal">Continue Browsing Samples</button>
+        <a href="./index.html#local-setup" class="btn btn-primary">Get 1-Click Local Setup (6.2 MB)</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

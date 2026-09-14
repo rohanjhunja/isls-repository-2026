@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0019",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Creative Coding. **Method**: Case Study. **Key Findings & Entry Barrier Impact**: It is designed with a low floor and high ceiling, offering novices an easy entry point while supporting deeper engagement for advanced users through a full -featured implementation of the Python language. Participan...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0019",
+      "supporting_text": "**Framework/Tool**: Creative Coding. **Method**: Case Study. **Key Findings & Entry Barrier Impact**: It is designed with a low floor and high ceiling, offering novices an easy entry point while supporting deeper engagement for advanced users through a full -featured implementation of the Python language. Participan..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

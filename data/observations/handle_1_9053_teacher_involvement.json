@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9053",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"These can include new ways of p ositioning teachers toward their practice (Horn, 20 10); resources available in the activity system that mig ht support different forms of understanding, partic ipation, or practice (Greeno & Gresalfi, 2008; Horn, 2007); or patterns of interacti...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9053",
+      "supporting_text": "These can include new ways of p ositioning teachers toward their practice (Horn, 20 10); resources available in the activity system that mig ht support different forms of understanding, partic ipation, or practice (Greeno & Gresalfi, 2008; Horn, 2007); or patterns of interacti..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

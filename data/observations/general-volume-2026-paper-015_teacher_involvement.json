@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-015",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"While students reflected on collaborative activities as a way to evaluate their own interpretations of data, more research is needed to investigate how Trend Trackers can support students in synthesizing data-based In our demonstration, we will introduce Trend Trackers, presen...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-015",
+      "supporting_text": "While students reflected on collaborative activities as a way to evaluate their own interpretations of data, more research is needed to investigate how Trend Trackers can support students in synthesizing data-based In our demonstration, we will introduce Trend Trackers, presen..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

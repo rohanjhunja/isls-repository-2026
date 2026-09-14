@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8978",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Although previous research has highlighted the use of codesi gn or participatory design in student empowerment a nd incorporating student voice (Bovill, 2020) or codesign with teachers (Van Brummelen & Lin, 2021), ours is the first that we know of that codesigns with middle sc...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8978",
+      "supporting_text": "Although previous research has highlighted the use of codesi gn or participatory design in student empowerment a nd incorporating student voice (Bovill, 2020) or codesign with teachers (Van Brummelen & Lin, 2021), ours is the first that we know of that codesigns with middle sc..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

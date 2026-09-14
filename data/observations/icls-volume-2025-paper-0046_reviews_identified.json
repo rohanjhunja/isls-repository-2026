@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0046",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Byrne, E. P., Desha, C. J., Fitzpatrick, J. J., & Hargroves, K. (2010). Engineering education for sustainable development: a review of international progress. International Symposium for Engineering Education.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0046",
+      "supporting_text": "Byrne, E. P., Desha, C. J., Fitzpatrick, J. J., & Hargroves, K. (2010). Engineering education for sustainable development: a review of international progress. International Symposium for Engineering Education."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

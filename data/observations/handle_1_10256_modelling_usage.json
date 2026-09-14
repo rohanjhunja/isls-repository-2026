@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10256",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Learning Technologies & Modeling Environments**: Examines software environments, automated feedback systems, or digital scaffolding designed to facilitate iterative student modeling practices. Evidence: \"Modeling science phenomena serves as a tool to support science practices, where classroom environments and youths\u2019 relations with each other and those in positions of power shape how the ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10256",
+      "supporting_text": "Modeling science phenomena serves as a tool to support science practices, where classroom environments and youths\u2019 relations with each other and those in positions of power shape how the ..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

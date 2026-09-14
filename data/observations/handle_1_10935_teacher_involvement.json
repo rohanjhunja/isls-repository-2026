@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10935",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as active design partners alongside researchers, contributing practitioner knowledge, pedagogical framing, and iterative feedback throughout the collaborative design process. **Evidence**: \"Levine, Dorottya Demszky vrlee@stanford.edu, dabdi@stanford.edu, raquelcoelho@stanford.edu, cbywater@stanford.edu, srlevine@stanford.edu, ddemszky@stanford.edu Stanford University Abstract: This poster reports on analyses of transcripts from seven co-design sessions between re...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10935",
+      "supporting_text": "Levine, Dorottya Demszky vrlee@stanford.edu, dabdi@stanford.edu, raquelcoelho@stanford.edu, cbywater@stanford.edu, srlevine@stanford.edu, ddemszky@stanford.edu Stanford University Abstract: This poster reports on analyses of transcripts from seven co-design sessions between re..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

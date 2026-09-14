@@ -1,0 +1,39 @@
+id: floor_ceiling_frameworks_findings
+version: 1.0.0
+label: Methods, Frameworks & Findings (Low Floor / High Ceiling)
+description: Synthesis of methods, learning design frameworks, entry barrier reduction, and empirical findings related to 'low floor', 'high ceiling', 'low threshold', and 'low entry barrier' design principles.
+value_type: text
+query:
+  question: What methods, theoretical or design frameworks, scaffolding tools, and empirical findings does the paper report regarding low floor, high ceiling, low threshold, or low entry barriers for learners?
+  candidate_sections:
+    - Introduction
+    - Theoretical Framework
+    - Design & Implementation
+    - Methodology
+    - Findings
+    - Discussion
+  heading_terms:
+    - design
+    - framework
+    - scaffolding
+    - accessibility
+    - threshold
+    - ceiling
+    - floor
+  text_terms:
+    - low floor
+    - high ceiling
+    - wide walls
+    - low threshold
+    - entry barrier
+    - low entry barrier
+    - scaffolding
+    - computational thinking
+constraints:
+  output_type: string
+  maximum_words: 120
+extraction:
+  preferred_methods:
+    - section_keyword_analysis
+  inference_allowed: true
+evidence_required: true

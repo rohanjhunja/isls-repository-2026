@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0152",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Introduction to examine activity systems and social interactions. Evidence: \"1059 Infor med by the work of Spinoza, Hegel, Marx, Engels, Lenin, and other historical materialist philosophers, CHAT has three key ideas: The centrality of mediation, genetic (hi...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0152",
+      "supporting_text": "1059 Infor med by the work of Spinoza, Hegel, Marx, Engels, Lenin, and other historical materialist philosophers, CHAT has three key ideas: The centrality of mediation, genetic (historical analysis), and grounding in culturally organized activity (Cole, 2015)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0371",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Nasir, N. I. S., & Hand, V. M. (2006). Exploring sociocultural perspectives on race, culture, and learning. Review of Educational Research, 76(4), 449-475.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0371",
+      "supporting_text": "Nasir, N. I. S., & Hand, V. M. (2006). Exploring sociocultural perspectives on race, culture, and learning. Review of Educational Research, 76(4), 449-475."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

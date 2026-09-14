@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0314",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Blikstein, P., & Moghadam, S. H. (2018). Pre-college computer science education: A survey of the field. | Grover, S., & Pea, R. (2013). Computational thinking in K \u201312: A review of the state of the field. Educational Researcher, 42(1), 38-43. | McCauley, Renee, et al. (2008) \"Debugging: a review of the literature from an educational perspective.\" Computer Science Education, 18(2), 67-92.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0314",
+      "supporting_text": "Blikstein, P., & Moghadam, S. H. (2018). Pre-college computer science education: A survey of the field. | Grover, S., & Pea, R. (2013). Computational thinking in K \u201312: A review of the state of the field. Educational Researcher, 42(1), 38-43. | McCauley, Renee, et al. (2008) \"Debugging: a review of the literature from an educational perspective.\" Computer Science Education, 18(2), 67-92."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

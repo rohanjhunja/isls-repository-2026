@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0215",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Qualitative analyses showed that teachers required substantial scaffolding to progress from awareness to self -regulation and agency.\" | \"This was acknowledged during the teachers\u2019 final group reflection, in which they stated that the TPD facilitators did not compromise their autonomy but, instead, they provided scaffolding that contributed to a sense of ownership that supported their motivation to advance their professional learning (\u201cYou didn't come here as experts to show us models of (technology) integration.\" | \"In CS3, which included no scaffolding, the chemistry teachers main ly discussed barriers to taking action.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0215",
+      "supporting_text": "**Direct Callouts & Context**: \"Qualitative analyses showed that teachers required substantial scaffolding to progress from awareness to self -regulation and agency.\" | \"This was acknowledged during the teachers\u2019 final group reflection, in which they stated that the TPD facilitators did not compromise their autonomy but, instead, they provided scaffolding that contributed to a sense of ownership that supported their motivation to advance their professional learning (\u201cYou didn't come here as experts to show us models of (technology) integration.\" | \"In CS3, which included no scaffolding, the chemistry teachers main ly discussed barriers to taking action.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

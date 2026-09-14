@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0076",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Hannum, E., An, X., & Cherng, H. Y. S. (2011). Examinations and educational opportunity in China: Mobility and bottlenecks for the rural poor. Oxford Review of Education, 37(2), 267- 305. | Penuel, W. R., Riedy, R., Barber, M. S., Peurach, D. J., LeBouef, W. A., & Clark, T. (2020). Principles of collaborative education research with stakeholders: Toward requirements for a new research and development infrastructure. Review of Educational Research, 90(5), 627-674.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0076",
+      "supporting_text": "Hannum, E., An, X., & Cherng, H. Y. S. (2011). Examinations and educational opportunity in China: Mobility and bottlenecks for the rural poor. Oxford Review of Education, 37(2), 267- 305. | Penuel, W. R., Riedy, R., Barber, M. S., Peurach, D. J., LeBouef, W. A., & Clark, T. (2020). Principles of collaborative education research with stakeholders: Toward requirements for a new research and development infrastructure. Review of Educational Research, 90(5), 627-674."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

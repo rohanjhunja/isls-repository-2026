@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11068",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The main sources to articulate design principles were observation of current materials in circulation, and conversations sustained during the codesign and reflective sessio ns, including the assessment of the designed artifacts. Four design-principles emerged and were presente...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11068",
+      "supporting_text": "The main sources to articulate design principles were observation of current materials in circulation, and conversations sustained during the codesign and reflective sessio ns, including the assessment of the designed artifacts. Four design-principles emerged and were presente..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

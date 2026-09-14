@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10568",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Learning Technologies & Modeling Environments**: Examines software environments, automated feedback systems, or digital scaffolding designed to facilitate iterative student modeling practices. Evidence: \"It aimed at designing asymmetrical multiplayer role-playing scenarios using a digital visual modeling tool with two designers.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10568",
+      "supporting_text": "It aimed at designing asymmetrical multiplayer role-playing scenarios using a digital visual modeling tool with two designers."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

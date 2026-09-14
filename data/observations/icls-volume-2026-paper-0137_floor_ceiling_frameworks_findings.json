@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0137",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Design-Based Research. **Key Findings & Entry Barrier Impact**: The redesigned program implements empirically -informed and theory- grounded changes including portfolio-based assessment replacing comprehensive exams, design thinking coursework providing collaboration scaffolding...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0137",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Design-Based Research. **Key Findings & Entry Barrier Impact**: The redesigned program implements empirically -informed and theory- grounded changes including portfolio-based assessment replacing comprehensive exams, design thinking coursework providing collaboration scaffolding..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

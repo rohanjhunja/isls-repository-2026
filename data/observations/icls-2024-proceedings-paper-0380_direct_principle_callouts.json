@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0380",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Contextual Callout**: Contextualizes low-threshold access and scaffolding in the study's design: \"The house metaphor of low floors, high ceilings, and wide walls can be used as a lens to view youth power, and the healing of oppressive structures. As youth are building the house and enacting t...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0380",
+      "supporting_text": "**Contextual Callout**: Contextualizes low-threshold access and scaffolding in the study's design: \"The house metaphor of low floors, high ceilings, and wide walls can be used as a lens to view youth power, and the healing of oppressive structures. As youth are building the house and enacting t...\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

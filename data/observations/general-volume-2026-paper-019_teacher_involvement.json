@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-019",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This demonstration exemplifies the ISLS 2026 meeting\u2019s theme \u201cpartnering with purpose\u201d by engaging students as co-designers alongside researchers and practitioners.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-019",
+      "supporting_text": "This demonstration exemplifies the ISLS 2026 meeting\u2019s theme \u201cpartnering with purpose\u201d by engaging students as co-designers alongside researchers and practitioners."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

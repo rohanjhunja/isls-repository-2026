@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0378",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"The study highlights the importance of teacher monitoring different scalar-level mechanistic reasoning and scaffolding the MbL discourse.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0378",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"The study highlights the importance of teacher monitoring different scalar-level mechanistic reasoning and scaffolding the MbL discourse.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

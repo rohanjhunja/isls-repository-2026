@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9958",
+  "property_id": "design_stakeholders",
+  "property_version": "1.0.0",
+  "value": "Middle School Teachers; Youth & Adolescents; Educational Researchers & Designers",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9958",
+      "supporting_text": "Identified stakeholders in targeted sections (abstract, method, discussion): Middle School Teachers; Youth & Adolescents; Educational Researchers & Designers"
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_design_stakeholders_20260912",
+  "source_version": "1.0.0"
+}

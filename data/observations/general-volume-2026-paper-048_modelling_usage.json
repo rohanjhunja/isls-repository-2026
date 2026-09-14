@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-048",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**AI & Foundation Models**: Investigates foundational text generation and large language model architectures to examine AI literacy, model transparency, and learner interactions. Evidence: \"Relationship to similar events conducted in the past Over the past several years, ISLS conferences have hosted numerous workshops and symposia exploring computational modeling, data scien...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-048",
+      "supporting_text": "Relationship to similar events conducted in the past Over the past several years, ISLS conferences have hosted numerous workshops and symposia exploring computational modeling, data scien..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

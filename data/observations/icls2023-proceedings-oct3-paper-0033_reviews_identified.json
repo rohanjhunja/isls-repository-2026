@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0033",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Gee, J. P. (2000). Identity as an analytic lens for research in education. Review of Research in Education, 25, 99\u2013 | Halverson, E., & Sheridan, K. (2014). The maker movement in education. Harvard Educational Review. 84. 495- | Mason, S. L., & Rich, P. J. (2020). Development and analysis of the Elementary Student Coding Attitudes Survey. Computers and Education, 153. | Washington, A. N., Grays, S., & Dasmohapatra , S. (2016). The computer science attitude and identity survey (CSAIS): A novel tool for measuring the impact of ethnic identity in underrepresented computer science | Wigfield, A., & Cambria, J. (2010). Students\u2019 achievement values, goal orientations, and interest: Definitions, development, and relations to achievement outcomes. Developmental Review, 30(1), 1\u201335.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0033",
+      "supporting_text": "Gee, J. P. (2000). Identity as an analytic lens for research in education. Review of Research in Education, 25, 99\u2013 | Halverson, E., & Sheridan, K. (2014). The maker movement in education. Harvard Educational Review. 84. 495- | Mason, S. L., & Rich, P. J. (2020). Development and analysis of the Elementary Student Coding Attitudes Survey. Computers and Education, 153. | Washington, A. N., Grays, S., & Dasmohapatra , S. (2016). The computer science attitude and identity survey (CSAIS): A novel tool for measuring the impact of ethnic identity in underrepresented computer science | Wigfield, A., & Cambria, J. (2010). Students\u2019 achievement values, goal orientations, and interest: Definitions, development, and relations to achievement outcomes. Developmental Review, 30(1), 1\u201335."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

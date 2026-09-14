@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11604",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"Many methods for researchers and practitioners to collaborate exist, from participatory action research, research practice partnerships, design-based implementation research, and networked improv ement communities (Penuel et al., 2020).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11604",
+      "supporting_text": "Many methods for researchers and practitioners to collaborate exist, from participatory action research, research practice partnerships, design-based implementation research, and networked improv ement communities (Penuel et al., 2020)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

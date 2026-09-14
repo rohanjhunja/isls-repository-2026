@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0020",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This framework is central to our approach as it positions GenAI as a collaborative design partner\u2014not a replacement for teacher expertise\u2014and is explicitly intended to complement and extend human creativity and professional judgment.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0020",
+      "supporting_text": "This framework is central to our approach as it positions GenAI as a collaborative design partner\u2014not a replacement for teacher expertise\u2014and is explicitly intended to complement and extend human creativity and professional judgment."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

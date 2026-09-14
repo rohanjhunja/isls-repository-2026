@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_281",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Incorporating local voices in the design process takes on different forms, such as, design-based research (e.g., Barab, 2014; Roschelle et al., 2013), teachers as designers (e.g., Kali, McKenney, & Sagy, 2015), participatory design (e.g., K\u00f6nings et al., 2014), change laborato...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_281",
+      "supporting_text": "Incorporating local voices in the design process takes on different forms, such as, design-based research (e.g., Barab, 2014; Roschelle et al., 2013), teachers as designers (e.g., Kali, McKenney, & Sagy, 2015), participatory design (e.g., K\u00f6nings et al., 2014), change laborato..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

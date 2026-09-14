@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-117",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In work with dental educators implementing an online reflection tool, the collaboration advanced from examinations of reflection quality to generate domain-specific insights into failure attribution and professional identity formation. Finally, Generative Pluralism characteriz...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-117",
+      "supporting_text": "In work with dental educators implementing an online reflection tool, the collaboration advanced from examinations of reflection quality to generate domain-specific insights into failure attribution and professional identity formation. Finally, Generative Pluralism characteriz..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

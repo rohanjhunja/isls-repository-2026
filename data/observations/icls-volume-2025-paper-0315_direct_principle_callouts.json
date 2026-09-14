@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0315",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"It also aims to develop actionable strategies for scaffolding joyful learning in the design of EdTech.\" | \"57) to better scaffold the means by which intelligence is created and learning is fostered.\" | \"Research methods This research aims to use insights and generative themes to contribute to conversations in the learning sciences about the intersection of positive design with learning experience design, and to develop actionable strategies for scaffolding joyful learning in the design of EdTech.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0315",
+      "supporting_text": "**Direct Callouts & Context**: \"It also aims to develop actionable strategies for scaffolding joyful learning in the design of EdTech.\" | \"57) to better scaffold the means by which intelligence is created and learning is fostered.\" | \"Research methods This research aims to use insights and generative themes to contribute to conversations in the learning sciences about the intersection of positive design with learning experience design, and to develop actionable strategies for scaffolding joyful learning in the design of EdTech.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

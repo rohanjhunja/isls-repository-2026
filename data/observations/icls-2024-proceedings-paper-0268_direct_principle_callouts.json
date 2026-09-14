@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0268",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Second, the frequency of scaffolding and questioning behaviors exhibited a significant positive correlation with the enhancement of IBS in the r -TPJ.\" | \"Furthermore, the frequency of scaffolding behavior during the initial phases significantly correlated with task outcomes' fluency, integration, and technology scores.\" | \"(4) scaffold(i.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0268",
+      "supporting_text": "**Direct Callouts & Context**: \"Second, the frequency of scaffolding and questioning behaviors exhibited a significant positive correlation with the enhancement of IBS in the r -TPJ.\" | \"Furthermore, the frequency of scaffolding behavior during the initial phases significantly correlated with task outcomes' fluency, integration, and technology scores.\" | \"(4) scaffold(i.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_202",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"Participatory design Responding to the school site\u2019s needs, the authors of this manuscript r ecruited an advisory class of 15 highschoolers and their advisory teacher to initiate a participatory design research project (Bang & Vossoughi, 2016) during the 2014-2016 school years...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_202",
+      "supporting_text": "Participatory design Responding to the school site\u2019s needs, the authors of this manuscript r ecruited an advisory class of 15 highschoolers and their advisory teacher to initiate a participatory design research project (Bang & Vossoughi, 2016) during the 2014-2016 school years..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

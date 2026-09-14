@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6337",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Statistical, Machine Learning & Quantitative Modeling**: Applies quantitative, statistical, or machine learning models (e.g., SEM, multilevel analysis, Markov, or network modeling) to examine learning processes and empirical outcomes. Evidence: \"In this paper we describe the design and implementation of a curricular unit in a bilingual middle school science class developed to help students link everyday conceptions, conceptions f...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6337",
+      "supporting_text": "In this paper we describe the design and implementation of a curricular unit in a bilingual middle school science class developed to help students link everyday conceptions, conceptions f..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

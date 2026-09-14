@@ -1,0 +1,51 @@
+profile:
+  id: common-base
+  version: 1.0.0
+  applies_to:
+    filename_regex: '.*'
+
+page_furniture:
+  header_patterns:
+    - '(?i)general proceedings of the isls annual meeting'
+    - '(?i)©\s*isls'
+  footer_patterns:
+    - '(?i)general proceedings of the isls annual meeting'
+    - '(?i)©\s*isls'
+
+canonical_sections:
+  introduction:
+    - introduction
+    - background
+    - background and introduction
+    - problem statement
+    - rationale
+  method:
+    - method
+    - methods
+    - methodology
+    - research design
+    - materials and methods
+    - study context
+    - data collection
+    - participants
+  analysis:
+    - analysis
+    - data analysis
+    - analytical approach
+    - analytical framework
+    - coding schema
+  results:
+    - results
+    - findings
+    - preliminary findings
+    - empirical results
+  discussion:
+    - discussion
+    - interpretation
+    - implications
+    - limitations
+  conclusion:
+    - conclusion
+    - conclusions
+    - concluding remarks
+    - future work

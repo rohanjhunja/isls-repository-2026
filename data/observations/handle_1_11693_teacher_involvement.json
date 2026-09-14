@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11693",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Title: Teacher Co-Design for Student-Driven Authentic Research with Community Partners Abstract: Using an interactional ethnography approach, this study traced the two-year co-design process of three teachers to support student-driven authentic research at an innovative high s...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11693",
+      "supporting_text": "Title: Teacher Co-Design for Student-Driven Authentic Research with Community Partners Abstract: Using an interactional ethnography approach, this study traced the two-year co-design process of three teachers to support student-driven authentic research at an innovative high s..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

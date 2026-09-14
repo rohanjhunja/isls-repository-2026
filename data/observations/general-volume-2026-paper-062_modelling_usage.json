@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-062",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**AI & Foundation Models**: Investigates foundational text generation and large language model architectures to examine AI literacy, model transparency, and learner interactions. Evidence: \"To put these conceptual arguments into practice, my recent empirical work (Coelho et al., 2025c) investigates how collaborative game making (Fields & Kafai, 2018) leveraging distributed e...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-062",
+      "supporting_text": "To put these conceptual arguments into practice, my recent empirical work (Coelho et al., 2025c) investigates how collaborative game making (Fields & Kafai, 2018) leveraging distributed e..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

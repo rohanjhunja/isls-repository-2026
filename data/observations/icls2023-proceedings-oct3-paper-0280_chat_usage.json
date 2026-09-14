@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls2023-proceedings-oct3-paper-0280",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Introduction to examine activity systems and social interactions. Evidence: \"Theoretical framework The paper draws upon frameworks of cultural historical activity theory (Cole & Engestr\u00f6m, 1993), critical pedagogy (Freire, 1970), and borderlands theory (Anz...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls2023-proceedings-oct3-paper-0280",
+      "supporting_text": "Theoretical framework The paper draws upon frameworks of cultural historical activity theory (Cole & Engestr\u00f6m, 1993), critical pedagogy (Freire, 1970), and borderlands theory (Anzald\u00faa, 1987/2012) along with critical race approaches to debate (Reid-Brinkley, 2012) and shares interpretive ethnographic analysis of several key interactions among the debate team participants to reveal how the activity system of the  afforded opportunities to re -mediate binaries that often stymie efforts at critical civic dreaming and movement building in hybrid formal/informal learning spaces (Zavala, 2016) \u2013 binaries including citizen/immigrant, school/community, and objectivity/bias."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

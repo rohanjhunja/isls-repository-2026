@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10171",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"ICLS 2023 Proceedings \u00a9 ISLS 2081 Situating Here-And-Now Decisions in More Just Imaginings for Teaching Writing Erin Lane, University of Washington, erinlane@uw.edu Abstract: Drawing on translingual ideologies (Horner et al., 2011) and participatory designbased research (Bang ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10171",
+      "supporting_text": "ICLS 2023 Proceedings \u00a9 ISLS 2081 Situating Here-And-Now Decisions in More Just Imaginings for Teaching Writing Erin Lane, University of Washington, erinlane@uw.edu Abstract: Drawing on translingual ideologies (Horner et al., 2011) and participatory designbased research (Bang ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

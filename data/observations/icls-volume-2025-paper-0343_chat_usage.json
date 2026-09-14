@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0343",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Findings and contributions to examine activity systems and social interactions. Evidence: \"Drawing on a cultural-historical activity theory, our analysis centers on the cultural and institutional organisation of activities, which are examined in their institutional setti...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0343",
+      "supporting_text": "Drawing on a cultural-historical activity theory, our analysis centers on the cultural and institutional organisation of activities, which are examined in their institutional settings and wider socio- historical contexts."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

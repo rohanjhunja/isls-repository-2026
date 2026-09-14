@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_906",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Scientific Inquiry & Explanatory Modeling**: Focuses on student practices of generating, testing, evaluating, and iteratively revising explanatory scientific models using empirical evidence. Evidence: \"Students were able to bring in content knowledge more readily when presented decontextualized phenomenon-based models and used this knowledge to make productive connections between eviden...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_906",
+      "supporting_text": "Students were able to bring in content knowledge more readily when presented decontextualized phenomenon-based models and used this knowledge to make productive connections between eviden..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

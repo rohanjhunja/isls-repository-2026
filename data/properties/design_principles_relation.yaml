@@ -1,0 +1,30 @@
+id: design_principles_relation
+version: 1.0.0
+label: Relation to Design Principles (Low Floor, High Ceiling, Low Threshold, Low Entry Barrier)
+description: Detailed analysis of how the paper's methods, frameworks, tools, and empirical findings explicitly instantiate or contribute to low threshold, low floor, high ceiling, and low entry barrier design principles.
+value_type: text
+query:
+  question: How do the paper's methods, frameworks, tools, and findings specifically relate to or instantiate low threshold, low floor, high ceiling, and low entry barrier concepts?
+  candidate_sections:
+    - Introduction
+    - Theoretical Framework
+    - Design & Implementation
+    - Methodology
+    - Findings
+    - Discussion
+  heading_terms:
+    - design
+    - framework
+    - scaffolding
+    - threshold
+    - floor
+    - ceiling
+    - barrier
+constraints:
+  output_type: string
+  maximum_words: 130
+extraction:
+  preferred_methods:
+    - section_keyword_analysis
+  inference_allowed: true
+evidence_required: true

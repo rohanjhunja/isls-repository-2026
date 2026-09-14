@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0352",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Kokotsaki, D., Menzies, V., & Wiggins, A. (2016). Project -based learning: A review of the literature. Improving Schools, 19(3), 267\u2013277. https://doi.org/10.1177/1365480216659733 Mart\u00edn\u2010P\u00e1ez, T., Aguilera, D., Perales\u2010Palacios, F. J., & V\u00edlchez\u2010Gonz\u00e1lez, J. M. (2019). What are we talking about when we talk about STEM education? A review of literature. Science Education, 103(4), 799-822.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0352",
+      "supporting_text": "Kokotsaki, D., Menzies, V., & Wiggins, A. (2016). Project -based learning: A review of the literature. Improving Schools, 19(3), 267\u2013277. https://doi.org/10.1177/1365480216659733 Mart\u00edn\u2010P\u00e1ez, T., Aguilera, D., Perales\u2010Palacios, F. J., & V\u00edlchez\u2010Gonz\u00e1lez, J. M. (2019). What are we talking about when we talk about STEM education? A review of literature. Science Education, 103(4), 799-822."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

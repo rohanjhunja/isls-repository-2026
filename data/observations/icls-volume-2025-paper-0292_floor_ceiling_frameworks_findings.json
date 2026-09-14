@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0292",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Educational Robotics. **Method**: Survey. **Key Findings & Entry Barrier Impact**: Scaffolding Third Graders\u2019 Computational Thinking in an Artificial Intelligence Course: Concepts, Practice, and Perspectives The effect of scaffolding type and timing on computational thinking (CT) for elementary sc...",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0292",
+      "supporting_text": "**Framework/Tool**: Educational Robotics. **Method**: Survey. **Key Findings & Entry Barrier Impact**: Scaffolding Third Graders\u2019 Computational Thinking in an Artificial Intelligence Course: Concepts, Practice, and Perspectives The effect of scaffolding type and timing on computational thinking (CT) for elementary sc..."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

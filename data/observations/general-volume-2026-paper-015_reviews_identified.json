@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-015",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Felton, M., Crowell, A., Garcia-Mila, M., & Villarroel, C. (2022). Capturing deliberative argument: An analytic coding scheme for studying argumentative dialogue and its benefits for learning. Learning Culture and Social Interaction, 36(100350), 100350. Hmelo\u2010Silver, C. (2004). Problem-based learning: What and how do students learn? Educational Psychology Review, 16(3), 235\u2013266.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-015",
+      "supporting_text": "Felton, M., Crowell, A., Garcia-Mila, M., & Villarroel, C. (2022). Capturing deliberative argument: An analytic coding scheme for studying argumentative dialogue and its benefits for learning. Learning Culture and Social Interaction, 36(100350), 100350. Hmelo\u2010Silver, C. (2004). Problem-based learning: What and how do students learn? Educational Psychology Review, 16(3), 235\u2013266."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

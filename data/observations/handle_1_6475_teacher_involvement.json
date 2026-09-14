@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6475",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"An in-depth study of Meredith\u2019s experiences over a year offers us a powerful window int o the tensions, contradictions, and possibilities that can arise when a professional development facilitator eschews familiar models of supporting teacher learning in favor of a participato...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6475",
+      "supporting_text": "An in-depth study of Meredith\u2019s experiences over a year offers us a powerful window int o the tensions, contradictions, and possibilities that can arise when a professional development facilitator eschews familiar models of supporting teacher learning in favor of a participato..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

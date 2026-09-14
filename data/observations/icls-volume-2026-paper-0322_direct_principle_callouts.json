@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0322",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Findings suggest that reflection quality, not quantity, distinguishes self -efficacy trajectories and that deliberately scaffolding evaluative, forward -looking reflection could potentially support self -efficacy growth in makerspaces.\" | \"By linking these patterns to outcomes, the study identifies how reflection organization supports or undermines self -efficacy development and informs strategies for scaffolding more productive reflective practice in makerspaces.\" | \"Our results suggest that evaluative, forward- looking reflection serves as an internal scaffold that helps students reframe obstacles as learning experiences.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0322",
+      "supporting_text": "**Direct Callouts & Context**: \"Findings suggest that reflection quality, not quantity, distinguishes self -efficacy trajectories and that deliberately scaffolding evaluative, forward -looking reflection could potentially support self -efficacy growth in makerspaces.\" | \"By linking these patterns to outcomes, the study identifies how reflection organization supports or undermines self -efficacy development and informs strategies for scaffolding more productive reflective practice in makerspaces.\" | \"Our results suggest that evaluative, forward- looking reflection serves as an internal scaffold that helps students reframe obstacles as learning experiences.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0450",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"The visualization highlights bridging nodes (like museums) that might be investigated and invested in as valuable sites for boundary crossing, where interdisciplinary fluencies, collaboration, and methodological innovation among co-design practitioners can emerge.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0450",
+      "supporting_text": "The visualization highlights bridging nodes (like museums) that might be investigated and invested in as valuable sites for boundary crossing, where interdisciplinary fluencies, collaboration, and methodological innovation among co-design practitioners can emerge."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

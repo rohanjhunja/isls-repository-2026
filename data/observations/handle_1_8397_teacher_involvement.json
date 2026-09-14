@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8397",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In the process of participatory design of arts, the artist /researcher engaged in multiple conversations with the teacher candidates through iterative redesigns centered on these discussions.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8397",
+      "supporting_text": "In the process of participatory design of arts, the artist /researcher engaged in multiple conversations with the teacher candidates through iterative redesigns centered on these discussions."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

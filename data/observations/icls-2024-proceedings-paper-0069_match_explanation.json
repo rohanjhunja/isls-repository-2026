@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0069",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Title explicitly mentions 'scaffolding'.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0069",
+      "supporting_text": "Title explicitly mentions 'scaffolding'."
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

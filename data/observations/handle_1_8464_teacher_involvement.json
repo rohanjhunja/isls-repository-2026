@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8464",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Such duality can exist when learners are given autonomy to co-design their learning environments. Variations among teachers because of different sets of learning foci ICLS2022 Proceedings 1274 \u00a9 ISLS For the second research question, the study found t hat the AfL available to ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8464",
+      "supporting_text": "Such duality can exist when learners are given autonomy to co-design their learning environments. Variations among teachers because of different sets of learning foci ICLS2022 Proceedings 1274 \u00a9 ISLS For the second research question, the study found t hat the AfL available to ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

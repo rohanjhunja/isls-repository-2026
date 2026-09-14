@@ -1,0 +1,20 @@
+{
+  "paper_id": "handle_1_8474",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "60.2% (Introduction)",
+  "pct": 60.2,
+  "section": "Introduction",
+  "first_matched_keyword": "participatory",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8474",
+      "supporting_text": "First matched design keyword 'participatory' appears at 60.2% of total character length in section 'Introduction'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

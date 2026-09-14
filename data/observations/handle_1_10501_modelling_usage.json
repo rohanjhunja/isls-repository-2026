@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10501",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Scientific Inquiry & Explanatory Modeling**: Focuses on student practices of generating, testing, evaluating, and iteratively revising explanatory scientific models using empirical evidence. Evidence: \"This study explores how a Knowledge Building - Modeling approach (KBM) was used to enhance grade 5 students\u2019 understanding of dynamic mechanisms related to natural hazards.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10501",
+      "supporting_text": "This study explores how a Knowledge Building - Modeling approach (KBM) was used to enhance grade 5 students\u2019 understanding of dynamic mechanisms related to natural hazards."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0371",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This case study seeks to contribute to research-practice partnership and co-design literatures by exploring promising educator co-design activities for effective adoption of GenAI-enabled reading technologies, including the challenge of translating local e xpertise into nation...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0371",
+      "supporting_text": "This case study seeks to contribute to research-practice partnership and co-design literatures by exploring promising educator co-design activities for effective adoption of GenAI-enabled reading technologies, including the challenge of translating local e xpertise into nation..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

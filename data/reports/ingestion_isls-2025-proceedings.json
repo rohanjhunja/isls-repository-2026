@@ -1,0 +1,15 @@
+{
+  "source_filename": "isls-2025-proceedings.pdf",
+  "sha256": "54bdcdc85bfedfdd0eb56c3d34c74848cd0c3698a349b2c5050275f6f2840d5a",
+  "pdf_page_count": 217,
+  "detected_papers_count": 55,
+  "expected_toc_count": 60,
+  "boundaries_confidence_avg": 0.95,
+  "unmapped_headings_count": 72,
+  "missing_fields_summary": {
+    "title": 0,
+    "authors": 7,
+    "abstract": 7
+  },
+  "timestamp": "2026-07-22T12:38:09.342738Z"
+}

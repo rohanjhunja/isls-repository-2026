@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11118",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The senior GS panel head, who was also a member of the co-design team, coordinated with teachers from mathematics and ICT to design th e curriculum unit and held internal project meeting s during the summer before the start of the academic year to discuss curriculum developmen...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11118",
+      "supporting_text": "The senior GS panel head, who was also a member of the co-design team, coordinated with teachers from mathematics and ICT to design th e curriculum unit and held internal project meeting s during the summer before the start of the academic year to discuss curriculum developmen..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

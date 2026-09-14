@@ -1,0 +1,19 @@
+{
+  "paper_id": "isls-2024-proceedings-paper-0042",
+  "property_id": "religion_relation",
+  "property_version": "1.0.0",
+  "value": "Investigates how Hindu supremacy, Hindu nationalism, and anti-Kashmiri/Islamophobic dynamics shape science education in rural South Indian schools, demonstrating how everyday science lessons and lunchroom purity practices reproduce caste- and religion-based oppression.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "isls-2024-proceedings-paper-0042",
+      "section_id": null,
+      "pdf_page": null,
+      "supporting_text": "This shift in analytic methods illustrated how classroom science phenomena and science teaching interactions were not neutral. Instead, they were deeply rooted in Hindu nationalism, settler colonialism, Islamophobia, and homophobia... asserting upper-caste Hindu supremacy in the school."
+    }
+  ],
+  "method": "full_text_analysis",
+  "confidence": 1.0,
+  "run_id": "run_religion_relation_20260726",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0076",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Scratch. **Method**: Design-Based Research. **Key Findings & Entry Barrier Impact**: Three instructional routines supported this work: organizing family knowledge as analyzable data, using parallel comparison structures, and scaffolding dual justification.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0076",
+      "supporting_text": "**Framework/Tool**: Scratch. **Method**: Design-Based Research. **Key Findings & Entry Barrier Impact**: Three instructional routines supported this work: organizing family knowledge as analyzable data, using parallel comparison structures, and scaffolding dual justification."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

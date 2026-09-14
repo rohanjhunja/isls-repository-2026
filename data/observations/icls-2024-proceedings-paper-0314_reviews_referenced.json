@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0314",
+  "property_id": "reviews_referenced",
+  "property_version": "1.0.0",
+  "value": "Computational thinking in K \u201312: A review of the state of the field | Debugging: a review of the literature from an educational perspective.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0314",
+      "supporting_text": "Computational thinking in K \u201312: A review of the state of the field | Debugging: a review of the literature from an educational perspective."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_referenced_20260805",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0369",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as an analytical framework in Introduction to examine activity systems and social interactions. Evidence: \"We utilize Cultural Historical Activity Theory (CHAT) to analyze how actors plan opportunities for authenticity.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0369",
+      "supporting_text": "We utilize Cultural Historical Activity Theory (CHAT) to analyze how actors plan opportunities for authenticity."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10135",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers and community educators worked in collaborative design partnerships to center culturally sustaining, community-connected pedagogical practices and heritage languages in learning design. **Evidence**: \"Artifact analysis fr om co-design sessions found that our group readily applied this framework to community park infrastructure, community and individual behaviors observed within parks, and to support conversations involving participants\u2019 personal values and sociocultural con...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10135",
+      "supporting_text": "Artifact analysis fr om co-design sessions found that our group readily applied this framework to community park infrastructure, community and individual behaviors observed within parks, and to support conversations involving participants\u2019 personal values and sociocultural con..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

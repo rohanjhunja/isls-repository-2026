@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0151",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"All participan ts were English education majors, a discipline that is highly gender-skewed in the Chinese teacher education context. Guided by the four theoretically grounded principles\u2014epistemic agency, collective responsibility for idea improvement, human \u2013AI co-agency and c...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0151",
+      "supporting_text": "All participan ts were English education majors, a discipline that is highly gender-skewed in the Chinese teacher education context. Guided by the four theoretically grounded principles\u2014epistemic agency, collective responsibility for idea improvement, human \u2013AI co-agency and c..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0179",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Drawing insights regarding these issues will require the recruitment of a larger sample of students, as well as the engagement of educators to support an equity focused co-design process (Kang & Nation, 2023).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0179",
+      "supporting_text": "Drawing insights regarding these issues will require the recruitment of a larger sample of students, as well as the engagement of educators to support an equity focused co-design process (Kang & Nation, 2023)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

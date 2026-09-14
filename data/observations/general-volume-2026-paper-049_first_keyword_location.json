@@ -1,0 +1,20 @@
+{
+  "paper_id": "general-volume-2026-paper-049",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "24.3% (Discussion & Conclusion)",
+  "pct": 24.3,
+  "section": "Discussion & Conclusion",
+  "first_matched_keyword": "co-designing",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-049",
+      "supporting_text": "First matched design keyword 'co-designing' appears at 24.3% of total character length in section 'Discussion & Conclusion'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

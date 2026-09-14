@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10765",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"While research has pointed to the ways that participation in co-design has potential to increase feelings of agency i n practitioners and youth, there is still a need to u nderstand the ways communities of designers build and use collective agency.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10765",
+      "supporting_text": "While research has pointed to the ways that participation in co-design has potential to increase feelings of agency i n practitioners and youth, there is still a need to u nderstand the ways communities of designers build and use collective agency."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

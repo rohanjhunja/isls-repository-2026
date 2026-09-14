@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_196",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"In that vein, this paper investigates conceptual learning and computational practices through the use of a code-first modeling environment called Frog Pond in a middle school classroom.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_196",
+      "supporting_text": "In that vein, this paper investigates conceptual learning and computational practices through the use of a code-first modeling environment called Frog Pond in a middle school classroom."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

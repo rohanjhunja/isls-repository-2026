@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0076",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Future work might examine how teachers' own epistemological perspectives shift through sustained co-design, and whether extended units with more CER practice opportunities support students in reaching higher levels of epistemic integration across other culturally meaningful ph...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0076",
+      "supporting_text": "Future work might examine how teachers' own epistemological perspectives shift through sustained co-design, and whether extended units with more CER practice opportunities support students in reaching higher levels of epistemic integration across other culturally meaningful ph..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

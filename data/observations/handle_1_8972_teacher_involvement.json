@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8972",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In our paper, we report on co-design sessions with three middle school science teachers as they provide feedback on the computational modeling toolkit and refine two curricular activities.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8972",
+      "supporting_text": "In our paper, we report on co-design sessions with three middle school science teachers as they provide feedback on the computational modeling toolkit and refine two curricular activities."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

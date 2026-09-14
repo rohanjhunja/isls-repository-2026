@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10837",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Paper 5: Teachers as co-thinkers and facilitators: Unpacking teacher-student dynamics in co-design partnerships Tugce Aldemir, Jooeun Shim and Susan Yoon Objectives Collaborative design (co-design) partnership aims to enhance educational inn ovations and teacher development th...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10837",
+      "supporting_text": "Paper 5: Teachers as co-thinkers and facilitators: Unpacking teacher-student dynamics in co-design partnerships Tugce Aldemir, Jooeun Shim and Susan Yoon Objectives Collaborative design (co-design) partnership aims to enhance educational inn ovations and teacher development th..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

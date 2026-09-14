@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7501",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Co-designing visual analytics with teachers can play an important role, providing help with interpretable data that enables them to make informed judgments about students\u2019 experiences and to modify their instructional practices accor dingly.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7501",
+      "supporting_text": "Co-designing visual analytics with teachers can play an important role, providing help with interpretable data that enables them to make informed judgments about students\u2019 experiences and to modify their instructional practices accor dingly."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

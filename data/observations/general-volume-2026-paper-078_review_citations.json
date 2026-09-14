@@ -1,0 +1,17 @@
+{
+  "paper_id": "general-volume-2026-paper-078",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Vescio, J. & Gresalfi, M. (under review). The children inside and outside of researchers\u2019 laptops: Seeing video data through the playful eyes of young children. American Educational Research Journal. | Yoon, H. S., & Templeton, T. N. (2019). The practice of listening to children: The challenges of hearing children out in an adult-regulated world. Harvard Educational Review, 89(1), 55\u201384.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "general-volume-2026-paper-078",
+      "supporting_text": "Vescio, J. & Gresalfi, M. (under review). The children inside and outside of researchers\u2019 laptops: Seeing video data through the playful eyes of young children. American Educational Research Journal. | Yoon, H. S., & Templeton, T. N. (2019). The practice of listening to children: The challenges of hearing children out in an adult-regulated world. Harvard Educational Review, 89(1), 55\u201384."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

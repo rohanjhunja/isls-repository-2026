@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11410",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In each case, researc hers could consider how the teachers\u2019 personal growth might le ad to changes in the co-design process and report back any necessary changes to both curricula designers and t he teachers for the next activity/project/unit iter ation.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11410",
+      "supporting_text": "In each case, researc hers could consider how the teachers\u2019 personal growth might le ad to changes in the co-design process and report back any necessary changes to both curricula designers and t he teachers for the next activity/project/unit iter ation."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

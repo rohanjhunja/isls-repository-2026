@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0201",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"...xploration, despite attempts to improve scaffolding.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0201",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"...xploration, despite attempts to improve scaffolding.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9073",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The teacher who orchestrates the learning environment should also be able to see beyond failure as disruptive and appreciate the learning opportunities it can provide. The study took place in an afterschool design club where the curriculum targeted fostering productive failure...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9073",
+      "supporting_text": "The teacher who orchestrates the learning environment should also be able to see beyond failure as disruptive and appreciate the learning opportunities it can provide. The study took place in an afterschool design club where the curriculum targeted fostering productive failure..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

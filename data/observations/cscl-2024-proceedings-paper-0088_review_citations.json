@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0088",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Guigon, G., Vermeulen, M., Muratet, M., & Carron, T. (2021). Towards an Integration of the Multi-role Dimension in the Design of Learning Games: A Review of the Literature. Games and Learning Alliance (pp. 258\u2013264). Springer International Publishing. https://doi.org/10.1007/978-3-030-92182-8_26",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0088",
+      "supporting_text": "Guigon, G., Vermeulen, M., Muratet, M., & Carron, T. (2021). Towards an Integration of the Multi-role Dimension in the Design of Learning Games: A Review of the Literature. Games and Learning Alliance (pp. 258\u2013264). Springer International Publishing. https://doi.org/10.1007/978-3-030-92182-8_26"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

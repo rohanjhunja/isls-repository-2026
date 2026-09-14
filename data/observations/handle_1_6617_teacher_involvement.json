@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6617",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers and community educators worked in collaborative design partnerships to center culturally sustaining, community-connected pedagogical practices and heritage languages in learning design. **Evidence**: \"Bringing together scholars of social movements across the globe, including migrant justice movements in Japan, public school teachers\u2019 strikes, educational justice in South Africa and Mexico, participatory budgeting in Chicago, and LGBTQ2S+ youth organizing in the Midwest USA.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6617",
+      "supporting_text": "Bringing together scholars of social movements across the globe, including migrant justice movements in Japan, public school teachers\u2019 strikes, educational justice in South Africa and Mexico, participatory budgeting in Chicago, and LGBTQ2S+ youth organizing in the Midwest USA."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

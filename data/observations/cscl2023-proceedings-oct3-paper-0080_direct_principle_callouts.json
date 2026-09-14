@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl2023-proceedings-oct3-paper-0080",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"These results further an understanding of teachers scaffolding strategies and pedagogical use of digital technology.\" | \"This gives students a scaffold in the form of the teacher\u2019s and other students\u2019 vicarious presence though the microblogs.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl2023-proceedings-oct3-paper-0080",
+      "supporting_text": "**Direct Callouts & Context**: \"These results further an understanding of teachers scaffolding strategies and pedagogical use of digital technology.\" | \"This gives students a scaffold in the form of the teacher\u2019s and other students\u2019 vicarious presence though the microblogs.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

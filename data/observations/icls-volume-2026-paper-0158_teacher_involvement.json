@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0158",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Title: Curricular Co-Design as Professional Development: Transformations in History Teachers\u2019 Learning and Practice Abstract: This paper reports on findings from a research-practice partnership that co-designed, piloted, and iterated on discussion -based world history lessons.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0158",
+      "supporting_text": "Title: Curricular Co-Design as Professional Development: Transformations in History Teachers\u2019 Learning and Practice Abstract: This paper reports on findings from a research-practice partnership that co-designed, piloted, and iterated on discussion -based world history lessons."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

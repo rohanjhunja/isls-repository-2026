@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10843",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The teachers participated in collaborative redesign as a part of a yearlong learning communit y focused on anti-bias mathematics teaching and universal design for learning.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10843",
+      "supporting_text": "The teachers participated in collaborative redesign as a part of a yearlong learning communit y focused on anti-bias mathematics teaching and universal design for learning."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

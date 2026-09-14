@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0342",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in findings highlight that simulation supports organizational learning and can be applied in various clinical settings. as a socio-cultural framework for activity systems. Evidence: \"Sociocultural theorizing and cultural historical activity theory is interpreted and implemented in the studies under different conditions, thereby making those conditions visible a...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0342",
+      "supporting_text": "Sociocultural theorizing and cultural historical activity theory is interpreted and implemented in the studies under different conditions, thereby making those conditions visible and showing the range of possibilities for an innovation, in relation to particular features of local contexts."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

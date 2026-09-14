@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0225",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"EMPWER was a year-long participatory design research program focused on environmental justice and data literacy, engaging high-school youth, teachers, and university researchers as co-learners.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0225",
+      "supporting_text": "EMPWER was a year-long participatory design research program focused on environmental justice and data literacy, engaging high-school youth, teachers, and university researchers as co-learners."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

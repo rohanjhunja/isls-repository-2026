@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10793",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"The first study was an inter view-based study that deployed a cultural-historical activity theory framework (Engestr\u00f6m, 1987) to analyze tensions in teacher and entrepreneur narratives about design and changemaking in schools (Papendieck and Hughes, 2022). The second study foc...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10793",
+      "supporting_text": "The first study was an inter view-based study that deployed a cultural-historical activity theory framework (Engestr\u00f6m, 1987) to analyze tensions in teacher and entrepreneur narratives about design and changemaking in schools (Papendieck and Hughes, 2022). The second study foc..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4501",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In previous work (Kyza & Ge orgiou, 2014) we introduced a hybrid model of teacher professional development (TPD) in which face-to-face meetings were interspersed with video-mediated meetings and electronic communication technol ogies (i.e., email, instant messaging) to support...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4501",
+      "supporting_text": "In previous work (Kyza & Ge orgiou, 2014) we introduced a hybrid model of teacher professional development (TPD) in which face-to-face meetings were interspersed with video-mediated meetings and electronic communication technol ogies (i.e., email, instant messaging) to support..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

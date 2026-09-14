@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0055",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Draws on Activity Theory principles in Introduction to analyze activity systems, mediated tools, and collaborative learning. Evidence: \"Reconceptualizing Activity Theory for Human-AI Teaming in Computer-Supported Collaborative Learning Jaeyoon Choi, University of California, Irvine, jaeyoon.choi@uci.edu Nia Nixon, ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0055",
+      "supporting_text": "Reconceptualizing Activity Theory for Human-AI Teaming in Computer-Supported Collaborative Learning Jaeyoon Choi, University of California, Irvine, jaeyoon.choi@uci.edu Nia Nixon, University of California, Irvine, dowelln@uci.edu Abstract: The rise of artificial intelligence (AI) and large language models (LLMs) are reshaping the role of technology in Computer-Supported Collaborative Learning (CSCL)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

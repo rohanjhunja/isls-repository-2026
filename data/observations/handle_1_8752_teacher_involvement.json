@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8752",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We iteratively refined and modified the A2S modeling environment and unit design through monthly co-design sessions with 4 middle school science teachers over 1 year and an additional 4 teachers over 6 months, a 3-day intensive co-design workshop with 8 teachers, and observati...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8752",
+      "supporting_text": "We iteratively refined and modified the A2S modeling environment and unit design through monthly co-design sessions with 4 middle school science teachers over 1 year and an additional 4 teachers over 6 months, a 3-day intensive co-design workshop with 8 teachers, and observati..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

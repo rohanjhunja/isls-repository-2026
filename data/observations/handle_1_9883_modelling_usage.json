@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9883",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Embodied & Participatory Modeling**: Leverages embodied, mixed-reality, or physical role-play activities to ground learners' sense-making and computational modeling of complex systems. Evidence: \"We analyzed students\u2019 interactions using a mediated discourse analysis approach by creating bubble maps that captured modal density: the modal complexity (frequency and number of modes) a...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9883",
+      "supporting_text": "We analyzed students\u2019 interactions using a mediated discourse analysis approach by creating bubble maps that captured modal density: the modal complexity (frequency and number of modes) a..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6406",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The rules encourage both collaborative learning and participatory design. The divisions of labor (players, one judge, and one facilitator) engage stakeholders such as parents and instructors.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6406",
+      "supporting_text": "The rules encourage both collaborative learning and participatory design. The divisions of labor (players, one judge, and one facilitator) engage stakeholders such as parents and instructors."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

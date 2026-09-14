@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0106",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Meixi, Kongkaew, S., Theechumpa, P., Pinwanna, A., & Ling, A. (2022). Making relatives: The poetics and politics of a trans-Indigenous teacher collective. Comparative Education Review, 66(3), 442-464.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0106",
+      "supporting_text": "Meixi, Kongkaew, S., Theechumpa, P., Pinwanna, A., & Ling, A. (2022). Making relatives: The poetics and politics of a trans-Indigenous teacher collective. Comparative Education Review, 66(3), 442-464."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

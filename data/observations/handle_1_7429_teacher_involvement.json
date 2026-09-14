@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7429",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Our research involved working with preschool teachers and families from underserved communities to co-design home and school learning experiences that integrate algorithmic thinking, abstraction, decomposition and debugging.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7429",
+      "supporting_text": "Our research involved working with preschool teachers and families from underserved communities to co-design home and school learning experiences that integrate algorithmic thinking, abstraction, decomposition and debugging."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

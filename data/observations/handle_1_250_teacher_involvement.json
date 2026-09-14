@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_250",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We employed a design-based research methodology (Brown, 1992; Collins, 1992; Edelson, 2002), wherein we worked closely with a high school biology teacher and team of technology developers to co-design an innovative active learning curriculum and corre sponding technology envir...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_250",
+      "supporting_text": "We employed a design-based research methodology (Brown, 1992; Collins, 1992; Edelson, 2002), wherein we worked closely with a high school biology teacher and team of technology developers to co-design an innovative active learning curriculum and corre sponding technology envir..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11173",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Hedges (2011) leveraged children\u2019s pop culture funds of knowledge (Moll et al., 1992) \u2013 o r the household bodies of knowledge of children\u2019s l ived experiences \u2013 to support teachers in the co-design classroom curriculum.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11173",
+      "supporting_text": "Hedges (2011) leveraged children\u2019s pop culture funds of knowledge (Moll et al., 1992) \u2013 o r the household bodies of knowledge of children\u2019s l ived experiences \u2013 to support teachers in the co-design classroom curriculum."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10258",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This work is part of a larger grant-funded project to develop a mid dle-school science unit through critical participatory design research methods (Bang & Vossoughi, 2016) in collabor ation with youth and teachers from the local area.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10258",
+      "supporting_text": "This work is part of a larger grant-funded project to develop a mid dle-school science unit through critical participatory design research methods (Bang & Vossoughi, 2016) in collabor ation with youth and teachers from the local area."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

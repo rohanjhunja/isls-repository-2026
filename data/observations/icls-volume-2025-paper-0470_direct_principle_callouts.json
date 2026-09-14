@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0470",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Data from screencasts and questionnaires revealed challenges in using computational tools to represent scientific concepts and suggested that static paper-pencil models may limit scaffolding for systems modeling.\" | \"All agreed paper-pencil modeling should serve as scaffold for digital tools.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0470",
+      "supporting_text": "**Direct Callouts & Context**: \"Data from screencasts and questionnaires revealed challenges in using computational tools to represent scientific concepts and suggested that static paper-pencil models may limit scaffolding for systems modeling.\" | \"All agreed paper-pencil modeling should serve as scaffold for digital tools.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

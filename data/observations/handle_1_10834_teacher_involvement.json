@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10834",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"By documenting the situated complex ity of teachers\u2019 responsive practices, our findings undercut rhetoric of \u201cbest practices.\u201d Methodologically, they highlight new approaches to supporting participatory video an alysis with teachers to uncover layers of meaning i n classroom i...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10834",
+      "supporting_text": "By documenting the situated complex ity of teachers\u2019 responsive practices, our findings undercut rhetoric of \u201cbest practices.\u201d Methodologically, they highlight new approaches to supporting participatory video an alysis with teachers to uncover layers of meaning i n classroom i..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

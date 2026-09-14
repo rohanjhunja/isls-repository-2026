@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6420",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Conceptual & Theoretical Modeling**: Proposes or applies a conceptual framework or theoretical model to structure understanding of learning mechanisms, collaboration, or disciplinary practices. Evidence: \"In an effort to infuse computational thinking practices in upper elementary science, and to promote positive student dispositions toward STEM, this project investigates a new narrative-ce...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6420",
+      "supporting_text": "In an effort to infuse computational thinking practices in upper elementary science, and to promote positive student dispositions toward STEM, this project investigates a new narrative-ce..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

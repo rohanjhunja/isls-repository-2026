@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0355",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Roles of Learning Design Tools in Scaffolding Teacher Participation and Learning in Research Practice Partnerships This structured poster session brings together eight presentations of research practice partnership (RPP) projects that have designed and deployed learning design (LD) tools to scaffold teachers\u2019 learning and collaboration as designers.\" | \"The LD tools presented have diverse features and functionalities, ranging from scaffolding peer review of LDs, visualization of the LD workflow, sharing of LDs for peer adoption, guidance in the design of specific learning activities, design of personalized feedback, fostering collaboration and learning of geographically distributed LD professionals, to the provision of an LD language for shared communication, layered LD decision- making and visualization of design analytics.\" | \"Introduction Roles of Learning Design Tools in Scaffolding Teacher Participation and Learning in Research Practice Partnerships Nancy Law (chair), University of Hong Kong, nlaw@hku.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0355",
+      "supporting_text": "**Direct Callouts & Context**: \"Roles of Learning Design Tools in Scaffolding Teacher Participation and Learning in Research Practice Partnerships This structured poster session brings together eight presentations of research practice partnership (RPP) projects that have designed and deployed learning design (LD) tools to scaffold teachers\u2019 learning and collaboration as designers.\" | \"The LD tools presented have diverse features and functionalities, ranging from scaffolding peer review of LDs, visualization of the LD workflow, sharing of LDs for peer adoption, guidance in the design of specific learning activities, design of personalized feedback, fostering collaboration and learning of geographically distributed LD professionals, to the provision of an LD language for shared communication, layered LD decision- making and visualization of design analytics.\" | \"Introduction Roles of Learning Design Tools in Scaffolding Teacher Participation and Learning in Research Practice Partnerships Nancy Law (chair), University of Hong Kong, nlaw@hku.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

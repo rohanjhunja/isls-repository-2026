@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0156",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"The GAI tool used in this study was developed through iterative co-design with experienced teachers and guided by five design principles: operational simplicity, automatic logging, explicit mode switching, institutional data storage (Google Workspace), and step-by-step questio...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0156",
+      "supporting_text": "The GAI tool used in this study was developed through iterative co-design with experienced teachers and guided by five design principles: operational simplicity, automatic logging, explicit mode switching, institutional data storage (Google Workspace), and step-by-step questio..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

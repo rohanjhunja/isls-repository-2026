@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2025-paper-066",
+  "property_id": "review_citations",
+  "property_version": "1.0.0",
+  "value": "Khatab, S., Hijab, M. H. F., Othman, A., & Al-Thani, D. (2024). Collaborative play for autistic children: A systematic literature review. Entertainment Computing, 50, Article 100653. https://doi.org/10.1016/j.entcom.2024.100653 | Broadbent, J., & Poon, W. L. (2015). Self-regulated learning strategies & academic achievement in online higher education learning environments: A systematic review. The Internet and Higher Education, 27, 1-13. | Panadero, E., & J\u00e4rvel\u00e4, S. (2015). Socially shared regulation of learning: A review. European Psychologist. | Viberg, O., Khalil, M., & Baars, M. (2020). Self-regulated learning and learning analytics in online learning environments: A review of empirical research. In Proceedings of the Tenth International Conference on Learning Analytics & Knowledge (pp. 524-533). Acknowledgments This research was supported by the National Science Foundation AI Institute Grant No. DRL-2112635. Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2025-paper-066",
+      "supporting_text": "Khatab, S., Hijab, M. H. F., Othman, A., & Al-Thani, D. (2024). Collaborative play for autistic children: A systematic literature review. Entertainment Computing, 50, Article 100653. https://doi.org/10.1016/j.entcom.2024.100653 | Broadbent, J., & Poon, W. L. (2015). Self-regulated learning strategies & academic achievement in online higher education learning environments: A systematic review. The Internet and Higher Education, 27, 1-13. | Panadero, E., & J\u00e4rvel\u00e4, S. (2015). Socially shared regulation of learning: A review. European Psychologist. | Viberg, O., Khalil, M., & Baars, M. (2020). Self-regulated learning and learning analytics in online learning environments: A review of empirical research. In Proceedings of the Tenth International Conference on Learning Analytics & Knowledge (pp. 524-533). Acknowledgments This research was supported by the National Science Foundation AI Institute Grant No. DRL-2112635. Any opinions, findings and conclusions or recommendations expressed in this material are those of the authors and do not necessarily reflect the views of the National Science Foundation."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_review_citations_20260805",
+  "source_version": "1.0.0"
+}

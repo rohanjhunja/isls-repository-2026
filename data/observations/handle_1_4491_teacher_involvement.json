@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4491",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Live participatory simulation In the live simulation-based learning setting, participants were physically seated in a typical chemistry classroom. Facilitated by an experienced teacher trainer, they perf ormed collabor ative role-play\u2014acting and shifting being the instructor o...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4491",
+      "supporting_text": "Live participatory simulation In the live simulation-based learning setting, participants were physically seated in a typical chemistry classroom. Facilitated by an experienced teacher trainer, they perf ormed collabor ative role-play\u2014acting and shifting being the instructor o..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

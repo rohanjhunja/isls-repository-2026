@@ -1,0 +1,29 @@
+id: first_keyword_location
+version: 1.0.0
+label: First Keyword Location
+description: Percentage of character offset in the paper where the first matched design keyword appears, alongside the section name.
+value_type: text
+query:
+  question: Where in the paper does the first matched design keyword appear in terms of character count percentage and section?
+  candidate_sections:
+    - Abstract
+    - Introduction
+    - Methodology & Context
+    - Results & Findings
+    - Discussion & Conclusion
+  heading_terms:
+    - co-design
+    - participatory
+    - collaborative design
+  text_terms:
+    - co-design
+    - participatory
+    - collaborative design
+constraints:
+  output_type: string
+  maximum_words: 10
+extraction:
+  preferred_methods:
+    - character_offset_section_mapping
+  inference_allowed: false
+evidence_required: true

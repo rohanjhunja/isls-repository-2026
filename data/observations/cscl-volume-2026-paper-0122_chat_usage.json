@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-volume-2026-paper-0122",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Draws on Activity Theory principles in Introduction to analyze activity systems, mediated tools, and collaborative learning. Evidence: \"Situated within activity theory, the study contributes process -oriented methods for researching collaborative VR design.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-volume-2026-paper-0122",
+      "supporting_text": "Situated within activity theory, the study contributes process -oriented methods for researching collaborative VR design."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

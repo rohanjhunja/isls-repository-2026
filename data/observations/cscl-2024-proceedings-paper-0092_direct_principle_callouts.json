@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl-2024-proceedings-paper-0092",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Simulation -based learning environments can incorporate scaffolding to foster medical students\u2019 CDAs .\" | \"As a type of socio- cognitive scaffolding, external collaboration scripts can organize and improve collaboration (Vogel et al.\" | \"However, tr aditional inferential statistics exclusively examine the effects of such scaffolding on CDAs or diagnostic accuracy as quantitative outcome measures, disregarding potential differences in CDR processes that can lead to the same outcome.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl-2024-proceedings-paper-0092",
+      "supporting_text": "**Direct Callouts & Context**: \"Simulation -based learning environments can incorporate scaffolding to foster medical students\u2019 CDAs .\" | \"As a type of socio- cognitive scaffolding, external collaboration scripts can organize and improve collaboration (Vogel et al.\" | \"However, tr aditional inferential statistics exclusively examine the effects of such scaffolding on CDAs or diagnostic accuracy as quantitative outcome measures, disregarding potential differences in CDR processes that can lead to the same outcome.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0384",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Uses CHAT as a core theoretical framework in Introduction to ground learning and artifact mediation. Evidence: \"Theoretical framework This work draws on multimodality and Cultural-Historical Activity Theory (CHAT) to examine how children and their parents engage in literacy practices within ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0384",
+      "supporting_text": "Theoretical framework This work draws on multimodality and Cultural-Historical Activity Theory (CHAT) to examine how children and their parents engage in literacy practices within an embodied learning ecology."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

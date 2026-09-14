@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0316",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Title explicitly mentions 'scaffolding'; Abstract discusses 'scaffolding'. Evidence: \"...student GenAI use (RQ1) and SRL-aligned scaffolding practices in teaching (RQ2).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0316",
+      "supporting_text": "Title explicitly mentions 'scaffolding'; Abstract discusses 'scaffolding'. Evidence: \"...student GenAI use (RQ1) and SRL-aligned scaffolding practices in teaching (RQ2).\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8474",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Teachers do not select which primary sources to teach, what que stions to ask, or how to structure lessons in ways that are conducive to advancing learners\u2019 historical thinking skills. Sefaria Design According to its About page, \u201c Sefaria is a non-profit organization dedicated...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8474",
+      "supporting_text": "Teachers do not select which primary sources to teach, what que stions to ask, or how to structure lessons in ways that are conducive to advancing learners\u2019 historical thinking skills. Sefaria Design According to its About page, \u201c Sefaria is a non-profit organization dedicated..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

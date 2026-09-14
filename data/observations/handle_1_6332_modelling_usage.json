@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6332",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**AI & Foundation Models**: Investigates foundational text generation and large language model architectures to examine AI literacy, model transparency, and learner interactions. Evidence: \"In this mixed-methods case study research, we examined student discourse and actions through the dual lenses of cognitive and regulation processes to analyze problem-solving processes in ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6332",
+      "supporting_text": "In this mixed-methods case study research, we examined student discourse and actions through the dual lenses of cognitive and regulation processes to analyze problem-solving processes in ..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

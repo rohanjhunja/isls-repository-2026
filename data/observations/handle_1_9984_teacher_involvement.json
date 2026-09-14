@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9984",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"ICLS 2023 Proceedings \u00a9 ISLS 1633 Our data is drawn from an ongoing five-year science reform project at the district level (Anonymous, 2020, 2022) that includes: (1) the redesign of municipal science standards, (2) long-term participatory professional development for teachers,...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9984",
+      "supporting_text": "ICLS 2023 Proceedings \u00a9 ISLS 1633 Our data is drawn from an ongoing five-year science reform project at the district level (Anonymous, 2020, 2022) that includes: (1) the redesign of municipal science standards, (2) long-term participatory professional development for teachers,..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,28 @@
+id: direct_principle_callouts
+version: 1.0.0
+label: Direct Design Principle Callouts & Paper Context
+description: Explicitly extracts and quotes how the paper's methods, frameworks, and empirical findings call out 'low threshold', 'low floor', 'high ceiling', and 'low entry barrier' principles in the specific context of the study.
+value_type: text
+query:
+  question: How do the paper's methods, frameworks, or findings explicitly call out or contextualize 'low threshold', 'low floor', 'high ceiling', or 'low entry barrier'?
+  candidate_sections:
+    - Introduction
+    - Theoretical Framework
+    - Design & Implementation
+    - Methodology
+    - Findings
+    - Discussion
+  heading_terms:
+    - low floor
+    - high ceiling
+    - low threshold
+    - entry barrier
+    - scaffolding
+constraints:
+  output_type: string
+  maximum_words: 140
+extraction:
+  preferred_methods:
+    - section_keyword_analysis
+  inference_allowed: true
+evidence_required: true

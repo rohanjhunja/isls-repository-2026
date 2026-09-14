@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0263",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Through design -based research and co -design with community partners, we propose a community-engaged curriculum design model with five interrelated elements: co -design and co-instruction, authentic learning, adaptive scaffolding, iteration, and adaptability.\" | \"The proposed curriculum design model Grounded in asset-based pedagogies, community-engaged learning, and insights from data analysis, we propose a curriculum design model comprising five interrelated elements (Figure 1): (1) co-design and co-instruction, (2) authentic learning, (3) adaptive scaffolding, (4) iteration, and (5) adaptability.\" | \"Adaptive scaffolding: Scaffolding from instructors and peers has proven critical in resident CTCs\u2019 training and work routines.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0263",
+      "supporting_text": "**Direct Callouts & Context**: \"Through design -based research and co -design with community partners, we propose a community-engaged curriculum design model with five interrelated elements: co -design and co-instruction, authentic learning, adaptive scaffolding, iteration, and adaptability.\" | \"The proposed curriculum design model Grounded in asset-based pedagogies, community-engaged learning, and insights from data analysis, we propose a curriculum design model comprising five interrelated elements (Figure 1): (1) co-design and co-instruction, (2) authentic learning, (3) adaptive scaffolding, (4) iteration, and (5) adaptability.\" | \"Adaptive scaffolding: Scaffolding from instructors and peers has proven critical in resident CTCs\u2019 training and work routines.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

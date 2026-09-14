@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8282",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Then they worked in collaborative design teams with other teachers to design and develop new body-based actions that could be used to facilitate students\u2019 embodied geom etric reasoning (embodied co-design activity).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8282",
+      "supporting_text": "Then they worked in collaborative design teams with other teachers to design and develop new body-based actions that could be used to facilitate students\u2019 embodied geom etric reasoning (embodied co-design activity)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

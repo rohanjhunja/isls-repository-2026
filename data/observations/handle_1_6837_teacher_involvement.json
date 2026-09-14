@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6837",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Canciandescribes a similar participatory approach, favoring \u201cmethods that give research subjects more power \u201d and reduce the separation between subject and researcher (Cancian, 1992). Jaber and Hammer (2016) likewise emphasize the importance of teachers recognizing the feeling...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6837",
+      "supporting_text": "Canciandescribes a similar participatory approach, favoring \u201cmethods that give research subjects more power \u201d and reduce the separation between subject and researcher (Cancian, 1992). Jaber and Hammer (2016) likewise emphasize the importance of teachers recognizing the feeling..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

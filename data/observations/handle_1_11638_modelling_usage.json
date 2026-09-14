@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11638",
+  "property_id": "modelling_usage",
+  "property_version": "1.0.0",
+  "value": "**Computational & Agent-Based Modeling**: Engages students in constructing, programming, or debugging computational and agent-based simulation models to explore dynamic scientific or social phenomena. Evidence: \"We describe the design of teacher professional learning activities based on the Use-Modify-Create instructional framework and examine how they prepared teachers to enact computational mod...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11638",
+      "supporting_text": "We describe the design of teacher professional learning activities based on the Use-Modify-Create instructional framework and examine how they prepared teachers to enact computational mod..."
+    }
+  ],
+  "method": "title_abstract_modelling_synthesis",
+  "confidence": 1.0,
+  "run_id": "run_modelling_usage_20260909",
+  "source_version": "1.0.0"
+}

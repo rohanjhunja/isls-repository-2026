@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4468",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Learning shou ld go beyond the passing of knowledge acquisition from teacher to student, and be an engaged and involved process for the student (Freire, 1972). The peer-driven, CSCL settings from this project allows students to be actively engaged in their own learning, as obs...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4468",
+      "supporting_text": "Learning shou ld go beyond the passing of knowledge acquisition from teacher to student, and be an engaged and involved process for the student (Freire, 1972). The peer-driven, CSCL settings from this project allows students to be actively engaged in their own learning, as obs..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

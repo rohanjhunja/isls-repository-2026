@@ -1,0 +1,20 @@
+{
+  "paper_id": "handle_1_7503",
+  "property_id": "first_keyword_location",
+  "property_version": "1.0.0",
+  "value": "46.0% (Methods)",
+  "pct": 46.0,
+  "section": "Methods",
+  "first_matched_keyword": "co-design",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7503",
+      "supporting_text": "First matched design keyword 'co-design' appears at 46.0% of total character length in section 'Methods'."
+    }
+  ],
+  "method": "character_offset_section_mapping",
+  "confidence": 1.0,
+  "run_id": "run_first_keyword_location_20260913",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_9229",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Our study is a field study, which means that the design of the participation awareness tool (PAT) and the protocol for its use were done in a participatory approach, i.e., in consultation with the course instructors, i n order to take into account their needs and constraints, ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_9229",
+      "supporting_text": "Our study is a field study, which means that the design of the participation awareness tool (PAT) and the protocol for its use were done in a participatory approach, i.e., in consultation with the course instructors, i n order to take into account their needs and constraints, ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

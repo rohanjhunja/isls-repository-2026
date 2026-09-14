@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_10791",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We don\u2019t have a lo t of structures being taught to us, especially as science educators, for how to get the kids to get their thoughts out there, how to organize them, \u2026 And we are never trained on this\u2026 To support our teacher partners in implementing responsive teaching strate...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_10791",
+      "supporting_text": "We don\u2019t have a lo t of structures being taught to us, especially as science educators, for how to get the kids to get their thoughts out there, how to organize them, \u2026 And we are never trained on this\u2026 To support our teacher partners in implementing responsive teaching strate..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

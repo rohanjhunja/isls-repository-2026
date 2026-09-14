@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0247",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Dam\u015fa, C. I. (2014). The multi-layered nature of small-group learning: Productive interactions in object-oriented collaboration. ijCSCL, 9(3), 247\u2013281. https://doi.org/10.1007/s11412-014-9193-8 Du Chatenier, et al. (2009). The challenges of collaborative knowledge creation in open innovation teams. Human Resource Development Review, 8(3), 350\u2013381. https://doi.org/10.1177/1534484309338265",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0247",
+      "supporting_text": "Dam\u015fa, C. I. (2014). The multi-layered nature of small-group learning: Productive interactions in object-oriented collaboration. ijCSCL, 9(3), 247\u2013281. https://doi.org/10.1007/s11412-014-9193-8 Du Chatenier, et al. (2009). The challenges of collaborative knowledge creation in open innovation teams. Human Resource Development Review, 8(3), 350\u2013381. https://doi.org/10.1177/1534484309338265"
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

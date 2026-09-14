@@ -1,0 +1,47 @@
+# Python Virtual Environment & Caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*/.DS_Store
+**/.DS_Store
+
+# IDE Configurations
+.vscode/
+.idea/
+
+# Large Datasets & Raw Binaries (Recomputed locally via scripts)
+pdf/
+data/sources/
+proceedings_md/
+proceedings.db*
+*.bak*
+data/index/proceedings.db*
+data/derived/*/blocks_manifest.jsonl
+data/derived/papers/
+data/derived/*/papers/
+data/derived/*-proceedings/
+data/derived/legacy_backup/
+data/derived/reviews_cache/
+
+# Compressed Distribution Packages & Scratch Logs
+*.tar.gz
+*.zip
+logs/
+*.log

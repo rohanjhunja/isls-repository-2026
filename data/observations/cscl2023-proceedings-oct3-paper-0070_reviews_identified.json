@@ -1,0 +1,17 @@
+{
+  "paper_id": "cscl2023-proceedings-oct3-paper-0070",
+  "property_id": "reviews_identified",
+  "property_version": "1.0.0",
+  "value": "Bracq, M. S., Michinov, E., & Jannin , P. (2019). Virtual reality simulation in nontechnical skills training for healthcare professionals: a systematic review. Simulation in Healthcare, 14(3), 188-194.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "cscl2023-proceedings-oct3-paper-0070",
+      "supporting_text": "Bracq, M. S., Michinov, E., & Jannin , P. (2019). Virtual reality simulation in nontechnical skills training for healthcare professionals: a systematic review. Simulation in Healthcare, 14(3), 188-194."
+    }
+  ],
+  "method": "section_parsing",
+  "confidence": 1.0,
+  "run_id": "run_reviews_identified_20260807",
+  "source_version": "1.0.0"
+}

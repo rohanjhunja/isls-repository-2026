@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_383",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Student voice is challenging to integrate into collaborative design with teachers, but a concern with expanding student agency demands that we discover ways to incorporate student ideas in to curriculum.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_383",
+      "supporting_text": "Student voice is challenging to integrate into collaborative design with teachers, but a concern with expanding student agency demands that we discover ways to incorporate student ideas in to curriculum."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

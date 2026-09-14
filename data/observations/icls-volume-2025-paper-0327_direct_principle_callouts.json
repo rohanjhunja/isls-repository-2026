@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0327",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"At the same time, teachers have designed supplementary prompts to provide scaffolding support for students' interactions.\" | \"Moreover, collaboration was enhanced through peer feedback on Padlet, supported by Fairbot's iterative guidance, 2215 and its scaffolding promoted metacognitive skills by encouraging reflective inquiry with provoking guiding questions to expand the conversation.\" | \"Theme Example Scaffolding through pre-designed prompts Teachers used Padlet to provide instructions and to post pre-designed prompts.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0327",
+      "supporting_text": "**Direct Callouts & Context**: \"At the same time, teachers have designed supplementary prompts to provide scaffolding support for students' interactions.\" | \"Moreover, collaboration was enhanced through peer feedback on Padlet, supported by Fairbot's iterative guidance, 2215 and its scaffolding promoted metacognitive skills by encouraging reflective inquiry with provoking guiding questions to expand the conversation.\" | \"Theme Example Scaffolding through pre-designed prompts Teachers used Padlet to provide instructions and to post pre-designed prompts.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

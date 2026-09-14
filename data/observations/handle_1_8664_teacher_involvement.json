@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_8664",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The research team facilitated (1) 10 co-design workshops where the design fellows and research team participated in generative to identify and define learning analytics that the teachers value and need to act on, (2) individual think-aloud sessions with various iterations of t...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_8664",
+      "supporting_text": "The research team facilitated (1) 10 co-design workshops where the design fellows and research team participated in generative to identify and define learning analytics that the teachers value and need to act on, (2) individual think-aloud sessions with various iterations of t..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

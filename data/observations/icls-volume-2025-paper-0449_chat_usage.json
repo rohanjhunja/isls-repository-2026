@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0449",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Draws on Activity Theory principles in Introduction to analyze activity systems, mediated tools, and collaborative learning. Evidence: \"Challenges of Integrating ChatGPT into EFL Writing: An Activity Theory Framework Jiyoon J ung, Sewon Joo, Heeyoon Park, Insook Han jjjingyoon@korea.ac.kr, joosw27@korea.ac.kr, heey...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0449",
+      "supporting_text": "Challenges of Integrating ChatGPT into EFL Writing: An Activity Theory Framework Jiyoon J ung, Sewon Joo, Heeyoon Park, Insook Han jjjingyoon@korea.ac.kr, joosw27@korea.ac.kr, heeyoonpark@korea.ac.kr, insookhan@korea.ac.kr Korea University Abs tract: This study explores EFL students' challenges with ChatGPT in English writing tasks through Activity Theory analysis."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0328",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"It was necessary to leverage all co-designers\u2019 knowledge and skills to develop agricultural curriculum materials that could be accessed, adapted, and enacted by informal and school-based educators (Guti\u00e9rrez & Jurow, 2016).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0328",
+      "supporting_text": "It was necessary to leverage all co-designers\u2019 knowledge and skills to develop agricultural curriculum materials that could be accessed, adapted, and enacted by informal and school-based educators (Guti\u00e9rrez & Jurow, 2016)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

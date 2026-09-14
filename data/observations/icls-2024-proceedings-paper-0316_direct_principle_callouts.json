@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0316",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"These findings suggest the potential of utilizing generative AI to provide different insights as well as automate formative feedback that can offer learners detailed scaffolding for summary writing.\" | \"In the setting of summarization, it is especially important to be able to provide adequate scaffolding.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0316",
+      "supporting_text": "**Direct Callouts & Context**: \"These findings suggest the potential of utilizing generative AI to provide different insights as well as automate formative feedback that can offer learners detailed scaffolding for summary writing.\" | \"In the setting of summarization, it is especially important to be able to provide adequate scaffolding.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

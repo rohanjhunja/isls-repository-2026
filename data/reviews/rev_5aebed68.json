@@ -1,0 +1,53 @@
+{
+  "id": "rev_5aebed68",
+  "name": "Test Conference Review",
+  "description": null,
+  "created_at": "2026-09-13T08:47:41.693834",
+  "updated_at": "2026-09-13T08:47:41.693882",
+  "scope": {
+    "collections": [],
+    "conferences": [],
+    "journals": [],
+    "years": [],
+    "keywords": [],
+    "exclusions": [],
+    "review_prompt": null,
+    "explicit_paper_ids": [
+      "cscl-volume-2026-paper-0005",
+      "cscl-volume-2026-paper-0009",
+      "cscl-volume-2026-paper-0010",
+      "cscl-volume-2026-paper-0011",
+      "cscl-volume-2026-paper-0012"
+    ],
+    "search_fields": [
+      "title",
+      "abstract"
+    ],
+    "ai_search_enabled": false
+  },
+  "search_definition": null,
+  "paper_ids": [
+    "cscl-volume-2026-paper-0009",
+    "cscl-volume-2026-paper-0012",
+    "cscl-volume-2026-paper-0011",
+    "cscl-volume-2026-paper-0010",
+    "cscl-volume-2026-paper-0005"
+  ],
+  "selected_columns": [
+    "paper_id",
+    "title",
+    "authors",
+    "year",
+    "abstract"
+  ],
+  "property_versions": {},
+  "visible_columns": [
+    "paper_id",
+    "title",
+    "authors",
+    "year",
+    "abstract"
+  ],
+  "sort_order": [],
+  "table_filters": {}
+}

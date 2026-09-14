@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0129",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"Scaffolding Mediated by IA Features and Teacher As intelligent agents (IAs) become increasingly integrated into young children's lives, it is crucial to understand how children perceive and interact with these technologies.\" | \"We apply interaction analysis to unpack how IAs and teachers\u2019 scaffolding facilitate children's understanding of technology.\" | \"Introduction Exploring Preschoolers\u2019 Engagement with Intelligent Agents (IA) Mediated by IA Features and Teacher Scaffolding Zhuoyun Joy Cai, Xintian Tu, X.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0129",
+      "supporting_text": "**Direct Callouts & Context**: \"Scaffolding Mediated by IA Features and Teacher As intelligent agents (IAs) become increasingly integrated into young children's lives, it is crucial to understand how children perceive and interact with these technologies.\" | \"We apply interaction analysis to unpack how IAs and teachers\u2019 scaffolding facilitate children's understanding of technology.\" | \"Introduction Exploring Preschoolers\u2019 Engagement with Intelligent Agents (IA) Mediated by IA Features and Teacher Scaffolding Zhuoyun Joy Cai, Xintian Tu, X.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

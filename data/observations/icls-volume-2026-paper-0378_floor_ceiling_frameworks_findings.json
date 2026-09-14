@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0378",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Case Study. **Key Findings & Entry Barrier Impact**: The study highlights the importance of teacher monitoring different scalar-level mechanistic reasoning and scaffolding the MbL discourse.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0378",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Case Study. **Key Findings & Entry Barrier Impact**: The study highlights the importance of teacher monitoring different scalar-level mechanistic reasoning and scaffolding the MbL discourse."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

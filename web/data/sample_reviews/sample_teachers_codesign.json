@@ -1,0 +1,258 @@
+{
+  "id": "sample_teachers_codesign",
+  "name": "Teachers in Co-Design & Participatory Environments",
+  "description": "Curated 20-paper sample evaluating educator agency, iterative curriculum co-creation, and participatory researcher-practitioner partnerships across ICLS and CSCL.",
+  "created_at": "2026-09-14T12:00:00Z",
+  "review_type": "sample_review",
+  "paper_count": 20,
+  "selected_columns": [
+    "title",
+    "authors",
+    "year",
+    "conference",
+    "teacher_involvement",
+    "design_stakeholders",
+    "abstract"
+  ],
+  "visible_columns": [
+    "title",
+    "authors",
+    "year",
+    "conference",
+    "teacher_involvement",
+    "design_stakeholders",
+    "abstract"
+  ],
+  "column_definitions": {
+    "title": {
+      "label": "Paper Title",
+      "width": 280
+    },
+    "authors": {
+      "label": "Authors",
+      "width": 200
+    },
+    "year": {
+      "label": "Year",
+      "width": 75
+    },
+    "conference": {
+      "label": "Conf",
+      "width": 80
+    },
+    "teacher_involvement": {
+      "label": "Teacher Involvement & Agency",
+      "width": 320
+    },
+    "design_stakeholders": {
+      "label": "Design Stakeholders",
+      "width": 200
+    },
+    "abstract": {
+      "label": "Abstract",
+      "width": 340
+    }
+  },
+  "papers": [
+    {
+      "id": "general-volume-2026-paper-029",
+      "title": "TeamLearn: A Multimodal, AI-enhanced Dashboard for Reflection During Collaborative Problem-Solving",
+      "authors": "Rogers Kaliisa, Crina Dam\u015fa, Jan Arild Dolonen, Malcolm Langford, Runar Hilleren Lie, Terje Kristian Lian Thoresen, Richard Nesnass, Krishna Siddharth Rajasekaran",
+      "year": 2026,
+      "conference": "ISLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"TeamLearn was developed through a participatory, design-based process involving teachers and students to create pedagogically meaningful visualisations.\"",
+      "design_stakeholders": "Teachers; Students & Learners",
+      "abstract": "This demo presents TeamLearn, a multimodal collaboration analytics dashboard designed to facilitate reflection and provide feedback on developing group artifacts during long- term collaborative problem-solving projects. By integrating meetings, documents, and collaboration experience analytics, the dashboard offers visualisations that help groups monitor participation, task progress, and collaboration dynamics. Developed through a design-based research process, the TeamLearn dashboard provides structured opportunities for reflective dialogue. The demo will showcase the dashboard\u2019s core features and illustrate how it can be integrated into collaborative project activities."
+    },
+    {
+      "id": "icls-volume-2026-paper-0162",
+      "title": "Improving Co-Designed Asynchronous Graduate Learning Through Network Analysis",
+      "authors": "Dina Samson, Jonan Phillip Donaldson",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"For instance, the instructor could engage students in co-designing a low-stakes activity early in the design process that is intended to result in failure.\"",
+      "design_stakeholders": "Teachers; Students & Learners; Educational Researchers & Designers",
+      "abstract": "This design-based research study investigated student experiences in a co- designed, asynchronous online graduate course. We applied learning experience network analysis to examine 43 student reflection papers. The analysis identified seven distinct learning ecologies, each characterized by different configurations of learner agency, theoretical principles, and challenges. While two ecologies represented successful engagement, five others revealed specific struggles. These struggles included translating individual work into group collaboration and managing anxiety during transformative learning. This study shows that co-design resulted in varied learning ecologies of experiences. We proposed specific design moves for each challenging configuration. Network analysis offered a valuable method for systematically improving co-designed learning environments through responsive, theory-based support."
+    },
+    {
+      "id": "icls-volume-2026-paper-0257",
+      "title": "Transformative Disruptions: Using Call-In Strategies To Enact Solidarity In Community Partnerships",
+      "authors": "Chasity Mayo, LuEttaMae Lawrence, Stephen Kwiatek, Indu Garg",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers and community educators worked in collaborative design partnerships to center culturally sustaining, community-connected pedagogical practices and heritage languages in learning design. **Evidence**: \"As part of our project, we work with general education teachers, special education teachers, counselors, and administrators and hold monthly co-design sessions discussing barriers, pitfalls, and successes related to current district collaboration practices.\"",
+      "design_stakeholders": "Special Education Teachers; Students & Learners; Educational Researchers & Designers; Community Members & Partners; School Administrators & Leaders",
+      "abstract": "As the Learning Sciences have continued discussing subtle nuances related to community partnerships, there has been emphasis on how to enact solidarity, healing, and care. In this piece, we reflect on our enactments of solidarity and care by sharing about moments of calling-in, which we refer to as moments of curiously challenging. We use examples from our co-design sessions to showcase how call -ins function as transformative disruptions of harmful knowledges and how these moments are situated within other relationship building practices. We call on other scholars within the Learning Sciences community to consider the complexities surrounding systemized mindsets and how to attend to harmful productions and reproductions of knowledge within community-based partnerships."
+    },
+    {
+      "id": "general-volume-2026-paper-072",
+      "title": "Learning With and About AI: Building Capacity for Equitable Participation in an AI-Shaped Future",
+      "authors": "Ibrahim Oluwajoba Adisa",
+      "year": 2026,
+      "conference": "ISLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"I employ design-based research to iteratively co-design data science and AI resources with educators and community partners, while developing mid-level theoretical constructs regarding AI literacy and learner\u2013AI collaboration.\"",
+      "design_stakeholders": "Elementary / Early Childhood Teachers; Middle School Students; Educational Researchers & Designers; Community Members & Partners",
+      "abstract": "My research investigates how learners and educators understand, design with, and collaborate with AI systems, and how these sociotechnical interactions shape equity and participation. Using design-based research, participatory design, and qualitative and computational methods, I study AI education and disciplinary integration of AI in K\u201312 contexts. My work aims to design equitable learning environments, develop theoretical models of learner engagement with AI, and build cross-disciplinary approaches to teaching with and about AI. Theoretical and methodological foundations that inform my work My research sits at the intersection of the learning sciences, data science and artificial intelligence (AI) education. I am particularly interested in how educators and learners understand, design with, and collaborate with AI systems, and how these sociotechnical interactions shape equity and participation in society. In my work, I frame learning as a socially and materially mediated practice, drawing on sociocultural perspectives that conceptualize knowing as participation in activity systems rather than simply the acquisition of decontextualized concepts (Vygotsky, 1987; Wertsch, 1991). Within this view, AI tools and data infrastructures function as cultural tools (Cole, 1996; Saxe, 1991) that shape what becomes visible, what is considered authoritative, and whose perspectives are deemed valid as knowledge. I also draw on constructionist (Holbert et al., 2020; Kafai & Resnick, 1996; Papert & Harel, 1991) and design-oriented traditions that treat building computational artifacts as a powerful avenue for learning. When students build or critique AI applications and data stories, they are engaging in epistemic work that reveals their assumptions about what counts as evidence, how models relate to the world, and whose experiences are encoded in data (Vakil et al., 2022). I am particularly attentive to how young learners develop both conceptual and sociotechnical understandings of the affordances and limits of AI technologies, and how educators can support these competencies in ways that foster agency, critique, and creativity."
+    },
+    {
+      "id": "cscl-volume-2026-paper-0029",
+      "title": "Frame Alignment and Feedback in CT-ified Science Classrooms",
+      "authors": "Connor Bain, Uri Wilensky",
+      "year": 2026,
+      "conference": "CSCL",
+      "teacher_involvement": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"We report on the efforts of a design-based implementation research project in which teachers participate in a constructionist co-design process to design and then implement CT -ified STEM units in their classrooms.\"",
+      "design_stakeholders": "Science Teachers; Students & Learners; Educational Researchers & Designers; Community Members & Partners; Domain Experts & Technologists",
+      "abstract": "While computational thinking (CT) is an integral part of modern scientific inquiry, STEM teachers struggle to incorporate these ideas in classrooms. We report on the efforts of a design-based implementation research project in which teachers participate in a constructionist co-design process to design and then implement CT -ified STEM units in their classrooms. Using feedback teachers left on student responses from these unit implementations, we utilize a basic bag-of-words model to show that teachers did specifically attend to student learning at the intersection of CT and STEM. We then further explicate this evidence through a qualitative think-aloud interview with one of the teachers who designed and implemented a curriculum based around computational models in biology. What we find is evidence that STEM teachers in CT -ified classrooms can assess both CT and S TEM skills at the same time though this intersection still needs additional attention in terms of tools and PD for teachers."
+    },
+    {
+      "id": "icls-volume-2026-paper-0328",
+      "title": "Sowing Futures: Developing Curriculum Materials for Urban Agriculture within a Community- Based Partnership",
+      "authors": "Jessica Bautista, Candi Fentress, Mark Fentress, Leslie R. Herrenkohl",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"It was necessary to leverage all co-designers\u2019 knowledge and skills to develop agricultural curriculum materials that could be accessed, adapted, and enacted by informal and school-based educators (Guti\u00e9rrez & Jurow, 2016).\"",
+      "design_stakeholders": "Science Teachers; Higher Education Instructors / Faculty; Educators & Practitioners; Elementary Students & Children; Educational Researchers & Designers; Community Members & Partners",
+      "abstract": "In this practice -oriented paper, we underscore ICLS\u2019s 2026 theme of \u201cPartnering with Purpose\u201d by describing the process and outcomes of a collaborative project between community members and a large public university. By attending to values of reciprocity, relationships, community expertise, and the power of place, we developed a set of curriculum materials that draw on the expertise of two Black urban farmers in their work to transform educational and agricultural experiences for youth. We outline our collaborative process, project outcomes, and next steps for supporting this and other innovative community partnerships."
+    },
+    {
+      "id": "cscl-volume-2026-paper-0039",
+      "title": "Integrating Augmented Reality and Product Design in Makerspaces",
+      "authors": "Dejan Trencevski, Jina Kang, Vishal Sachdev, Aric Rindfleisch",
+      "year": 2026,
+      "conference": "CSCL",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Supporting collaborative design reviews The collaborative benefits of AR suggest its value for design critique and peer feedback activities. Educators can structure design review sessions where teams use AR to present their work, with peers providing feedback while viewing the...\"",
+      "design_stakeholders": "Teachers; Undergraduate / Graduate Students; Educational Researchers & Designers; Domain Experts & Technologists",
+      "abstract": "This study aims to explore the affordances of augmented reality technologies (AR) to facilitate students\u02bc product design processes in a business course. We analyze the affordances of AR in the context of a product design activity in an undergraduate classroom. The course is held in a Makerspace lab at a university campus, and it requires students to conceptualize, design, prototype, manufacture, and market new products by using 3D computer -aided design (CAD) software and 3D printing. Our study illuminates that although CAD allows students to visualize and manipulate digitally manufactured 3D objects on a 2D computer monitor surface, it does not allow them to visualize and manipulate those 3D objects in 3D space. However, AR does afford visualization and mani pulation of digitally manufactured 3D objects in 3D space which is why we investigated how do interactions with 3D models in AR impact product design processes for students."
+    },
+    {
+      "id": "icls-volume-2026-paper-0163",
+      "title": "Teacher as Designers: Using Robotics to Integrate Computational Thinking and Science",
+      "authors": "Michael Cassidy, Debra Bernstein, Jennifer Cross, Karen Mutch-Jones",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Professional development that supports this role emphasizes strategies such as active learning, practice- based inquiry, and collaborative design, which create opportunities for teachers to engage directly with new ideas while situating them in the realities of classroom pract...\"",
+      "design_stakeholders": "Middle School Teachers; Students & Learners; Educational Researchers & Designers; Domain Experts & Technologists",
+      "abstract": "This study examines how middle school science teachers designed and implemented robotics-based units that integrated computational thinking (CT) practices following a professional development (PD) program positioning them as curriculum designers. Drawing on Waterman et al.\u2019s (2020) and Coenraad et al.\u2019s (2022) integration frameworks and the project\u2019s CT framework (Bernstein et al., 2025 ), we analyzed teacher interviews, implementation logs, lesson plans, and student materials from six teachers across twelve units. Findings show that teachers implemented CT at multiple integration levels, engaging students in algorithm design, decomposition, abstraction, pattern recognition, and data practices. Teachers explored CT practices to establish foundational understanding, enhanced CT\u2013 science connections through scaffolds, and guided students to exhibit disciplinary ideas through programmable mode ls and extend understanding by collecting and analyzing data. These findings illustrate how positioning teachers as informed designers supports CT-integrated science curricula. Importance Computational technologies are essential for problem solving and collaboration in both professional and personal contexts (NRC, 2014). In STEM fields, these technologies have transformed practice through abstraction, algorithms, decomposition, modeling, simulation, and data analysis enabled by computing (Puttick et al., 2024; Weintrop et al., 2016). Preparing students to participate in such transformations requires the development of computational thinking (CT) practices, defined as \u201csolving problems, designing systems, and understanding human behavior, by drawing on the concepts fundamental to computer science\u201d (Wing, 2006, p. 33). Such preparation positions students to become producers, not merely consumers, of computational solutions. Yet despite growing calls to integrate CT into K \u201312 science classrooms, teachers face persistent challenges in designing learning tasks where CT meaningfully supports science learning (Cassidy & Puttick , 2022). Teachers are rarely positioned as designers of curricula that combine science, engineering, and computing (Margot & Kettler, 2019), leaving limited evidence on how to support them in planning, adapting, and enacting such curricula in authentic ways (Lee et al., 2020). Conceptual framework Computational Thinking (CT) Prior research offers important frameworks for conceptualizing CT integration. For example, Waterman et al. (2020) introduced a continuum of CT integration in science education, distinguishing between levels where CT exists (CT concepts, skills, and practices already present in the lesson can be called out or elaborated upon by the teacher, often without technology use), enhances (development of additional tasks or lessons that serve to deepen the disciplinary concept while making explicit connections to relevant computing ideas), and extends (redesign or expand lessons so that computing or CT practices become central to students\u2019 engagement with disciplinary content). More recently, Coenraad et al. (2022) added the category of exhibit, which emphasizes students\u2019 representing science knowledge through computational models. These frameworks provide a robust lens for describing the variety of ways CT can interact with disciplinary science learning. Engaging with robotics enables learners to develop CT practices while investigating core scientific phenomena, positioning robotics as a powerful context for integrating disciplinary learning with computational problem solving (Cassidy & Puttick, 2022). Through robotics, students apply key CT practices such as problem decomposition, abstraction, algorithmic design, and iterative debugging. These activities also support engagement in core science practices, including modeling, experimentation, and data collection and analysis (e.g., Sullivan & Hefernan, 2016). For the Robots in Science project, we adopted the PRADA framework (Dong et al., 2019), which emphasizes pattern recognition, abstraction, decomposition, and algorithms. To better align with the needs of 1297 science and robotics integration, we extended PRADA by including a fifth practice, Data Practices (Weintrop et al., 2016). In our framework, pattern recognition refers to identifying similarities among and within problems. Abstraction involves stripping away unnecessary details to develop a generic solution or representing a complex system through a simplified model or visualization. Decomposition is the process of breaking down data, processes, or problems into smaller, manageable parts. Algorithm design c oncerns the creation of an ordered sequence of instructions to solve a problem or perform a task. Data practices include collecting information, analyzing it to generate insights, and representing it through graphs, charts, words, or images. Professional development for teachers-as-designers Positioning teachers as designers acknowledges their capabilities as effective curriculum developers who draw on both disciplinary knowledge and classroom expertise (Penuel & Gallagher, 2009). This approach recognizes teachers\u2019 pedagogical knowledge, their professional judgment, and their ability to innovate in response to their unique contexts (Voogt et al., 2019). When teachers design and/or adapt their curricula and instructional practices, they put disciplinary goals, student learning needs, and classroom resources at the forefront of implementation (Puttick et al. , 2025). Professional development that supports this role emphasizes strategies such as active learning, practice- based inquiry, and collaborative design, which create opportunities for teachers to engage directly with new ideas while situating them in the realities of classroom practice (Darling -Hammond, 2017; Tucker-Raymond & Gravel, 2019). Also, time is needed to be allotted for deep play with new technologies and resources (Koehler et al., 2011). Thus, teachers\u2019 curriculum adaptations are shaped by their wisdom of practice and responsiveness to student needs (Calabrese Barton et al., 2021)."
+    },
+    {
+      "id": "icls-volume-2026-paper-0086",
+      "title": "\u201cIt\u2019s aligned with my personal beliefs, i can do this\u201d: How Science Educators Navigate Tensions Between Official and Counter Scripts of Science and Learning",
+      "authors": "Shaghig Chaparian, Olivia Ortiz, Maia Yoshida, Kam Waugh, Jasmine Ma, Ronni Hayden, Latasha Wright",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Findings reveal that educators mobilize personal histories to create hybrid pedagogical spaces emphasizing freedom, flexibility, and epistemic justice. These third-space negotiations obscure boundaries between scientific and community knowledge, transforming science into a rel...\"",
+      "design_stakeholders": "Science Teachers; Educators & Practitioners; Youth & Adolescents; Domain Experts & Technologists",
+      "abstract": "This study examines how informal science educators transform their lived experiences of migration, activism, and encounters with marginalization into pedagogical commitments focused on social justice. Drawing on Holland and Lave\u2019s history-in-person and Guti\u00e9rrez\u2019s third-space concepts, we explore how educators\u2019 histories serve as mediational resources that shape teaching philosophies and reconfigure who belongs in science. Using semi- structured interviews with community scientists from Daphnia , an after -school science organization serving marginalized youth, the analysis traces how educators navigated and re - authored official and unofficial scripts about legitimate science and participation. Findings reveal that educators mobilize personal histories to create hybrid pedagogical spaces emphasizing freedom, flexibility, and epistemic justice. These third-space negotiations obscure boundaries between scientific and community knowledge, transforming science into a relational, participatory practice rooted in care and belonging. By conceptualizing informal educators as historical actors, this study highlights their critical role in social transformation."
+    },
+    {
+      "id": "general-volume-2026-paper-025",
+      "title": "Early Science Hub: Designing Interactive Simulations to Support Preschool Educators' Understanding of Science Core Ideas and Cross Cutting Concepts",
+      "authors": "Tiffany Leones, Danae Kamdar, Ximena Dominguez",
+      "year": 2026,
+      "conference": "ISLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Preschool educator co-design workshop 2 For the second educator co-design workshop, the primary objective was to discuss and gather educators\u2019 input on seed ideas of the interactive simulations of science core ideas and cross cutting practices, which is the focus of t he Inter...\"",
+      "design_stakeholders": "Elementary / Early Childhood Teachers; Elementary Students & Children; Educational Researchers & Designers; Community Members & Partners",
+      "abstract": "To support preschool educators\u2019 integration of science in their classrooms, our project is co-designing the Early Science Hub (Hub), a professional learning resource based on promising components identified in prior work, with partner educators and curriculum/media designers. The Hub and its components are being designed to leverage technology and include educative features to make the resource widely accessible across early learning contexts. This paper details the design and iteration of one specific Hub component, the interactive simulations of science core ideas and cross cutting concepts designed to support preschool educators\u2019 understanding of these. The session will invite participants to explore the interactive simulations and engage in a discussion to gather their insights and feedback, which can inform potential future iterations."
+    },
+    {
+      "id": "icls-volume-2026-paper-0259",
+      "title": "Building Effective Teacher-Researcher Collaboration Through Thought Partnership",
+      "authors": "Allison Hall, Cynthia Ellis, Susan R. Goldman",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"In both cases, the collaborative co-design led to tasks and instruction that were more meaningful for students and produced writing that the teacher found more engaging.\"",
+      "design_stakeholders": "Teachers; Educators & Practitioners; Elementary Students & Children; Educational Researchers & Designers; Community Members & Partners; School Administrators & Leaders",
+      "abstract": "This paper presents a case study of a teacher and researcher who worked together as part of a larger research -practice partnership. Collaborative reflection on the development and success of their work together over time highlighted several critical events in their learning process. The case describes these events as well as common themes that emerged across them and how they supported changes in the teacher\u2019s practice. Implications for teacher learning and effective professional development are discussed."
+    },
+    {
+      "id": "general-volume-2026-paper-023",
+      "title": "SciStory: A Demo of AI-Supported Socioscientific Learning through Visual Novels",
+      "authors": "Megan Humburg, Joshua Danish, Yeo Jin Kim, Morgan Vickery, Cindy E. Hmelo-Silver, Namrata Srivastava, Sarah Burriss, Krista Glazewski, James Lester",
+      "year": 2026,
+      "conference": "ISLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"As a part of the demo, we will discuss with attendees how we weighed the pros and cons of different LLMs and tested their effectiveness in student and teacher co-design sessions to iteratively improve the SciStory agent design.\"",
+      "design_stakeholders": "Teachers; Students & Learners; Educational Researchers & Designers; Community Members & Partners; Domain Experts & Technologists",
+      "abstract": "Our tool demo will explore intersections between narrative-centered learning, AI agents as inquiry scaffolds, and the interdisciplinary exploration of socioscientific issues. We will share our current design of SciStory: Pollinators, an interactive visual novel designed to support middle grades students in developing persuasive arguments to solve socioscientific problems in their community. Discussion will explore how we balance ethical issues around generative AI in our agent design, leverage co-design practices to iteratively improve collaborative game features, and draw on principles from problem-based learning to engage learners in developing solutions for complex socioscientific issues."
+    },
+    {
+      "id": "icls-volume-2026-paper-0461",
+      "title": "Construal Level Theory of Psychological Distance: Preservice Teacher Learning in Artificial Intelligence-supported Simulations",
+      "authors": "Chih-Pu Dai, Fengfeng Ke, Nuodi Zhang, Alex Barrett, Sherry Southerland, Saptarshi Bhowmik, Xin Yuan",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"Data sources included audio-video recordings of interactions, system conversation logs (verbal exchanges between preservice teacher s and virtual students), participatory observation, and teacher reflections.\"",
+      "design_stakeholders": "Pre-service Teachers; Students & Learners",
+      "abstract": "This study explores how preservice teachers engage with artificial intelligence (AI)- powered virtual students in VR classrooms, focusing on psychological distance and construal - level theory. Using a mixed- methods approach, we analyzed interaction data from 29 participants. Findings show higher levels of abstract thinking and temporal imme diacy during teaching decisions. These results highlight how cognitive distance influences pedagogical reasoning. Insights inform the design of AI agents in immersive environments, supporting adaptive teacher learning through reflective, experience-oriented simulations."
+    },
+    {
+      "id": "icls-volume-2026-paper-0346",
+      "title": "Artificial Intelligence and Human Purposes: Dialogues about Creativity and Control",
+      "authors": "Cynthia Carter Ching, Arturo Cortez, Jennifer M. Higgs, Shuchi Grover, Sepehr Vakhil, William Paik",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Educators\u2019 pedagogical worldmaking and ideological world-shifting: Co-designing new practices and purposes in sociotechnical learning ecologies Arturo Cortez There are various approaches undergirding the design of teacher learning ecologies for today\u2019s rapidly changing technol...\"",
+      "design_stakeholders": "Pre-service Teachers; High School Students; Educational Researchers & Designers; Community Members & Partners; Domain Experts & Technologists",
+      "abstract": "This interactive poster symposium brings together approaches to working with and studying AI that are not often explicitly connected (and are often placed in opposition to one another), those concerned with the human purposes of creativity and control. The contexts of our studies vary widely: formal education, afterschool or summer programs, community workshops, and professional performing arts. Learners, users, and scholars grapple with the ethics and challenges, as well as the potentials, of AI in their lives and in society. Putting these research projects in dialogue with one another will result in a session that fosters balance and creates a cautious yet hopeful conversation."
+    },
+    {
+      "id": "icls-volume-2026-paper-0196",
+      "title": "From Tool to Encounter: Generative AI as a Catalyst for Ethical and Epistemic Transformation in STEM Teacher Learning",
+      "authors": "Sophia Jeong, Sevil Akaygun, Mutlu \u015een Akbulut, Ulku Seher Budak",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"The course, facilitated by two researchers with expertise in science education and learning sciences, one of whom was visiting the university on a prestigious fellowship from the United States to conduct international and cross-cultural research, invited teachers to co-design ...\"",
+      "design_stakeholders": "Math Teachers; Students & Learners; Educational Researchers & Designers",
+      "abstract": "This paper examines how generative artificial intelligence (GenAI) reconfigures teacher learning within STEM education through a posthumanist and diffractive lens. Drawing on an empirical study involving preservice and inservice teachers engaged in AI -integrated science and mathematics classrooms, the paper reconceptualizes GenAI not as an instructional tool but as a pedagogical encounter and an active participant shaping teachers\u2019 epistemological and ethical becomings. Using data from microteaching sessions, collaborative lesson design, and reflective narratives, the study maps how teachers negotiate distributed learning and ethical response-ability as they design and critique AI -mediated learning activities. Findings reveal three entangled processes : emergent agency in classroom dialogues, distributed learning between teachers and AI tools, and ethical reconfigurations of teacher becoming. The paper proposes an onto- epistemological framework for GenAI integration that emphasizes relationality, reflexivity, and culturally responsive practice, contributing to lea rning sciences scholarship on technology-mediated teacher education."
+    },
+    {
+      "id": "general-volume-2026-paper-068",
+      "title": "Supporting K-12 Science Teachers in Equitable Science Teaching through Co-design",
+      "authors": "Yang Zhang",
+      "year": 2026,
+      "conference": "ISLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Informed by Remillard\u2019s (2005) framework on the participatory relationship between teachers and the curriculum, I attended to the new or deeper knowledge teachers developed through their navigation of the customized lesson and the original lesson.\"",
+      "design_stakeholders": "Science Teachers; Educators & Practitioners; Students & Learners; Educational Researchers & Designers; Community Members & Partners",
+      "abstract": "My research explores how to support K-12 science teachers\u2019 professional development toward equitable and justice-centered teaching. Positioning teachers and students as those who decide what matters to them in their local contexts, I leverage design-based research to co-design, test, and co-refine pedagogical tools with practitioners. Through this process, I study teacher learning by drawing upon a professional identity development lens. In my most recent work, I study how to support middle school science teachers in customizing high-quality instructional materials and investigate how curriculum customization catalyzes teacher teaching. Looking forward, I hope to explore how community-based curriculum design and customization help science teachers create equitable learning experiences for their students."
+    },
+    {
+      "id": "general-volume-2026-paper-071",
+      "title": "AI-Enhanced Sociocultural, Multimodal Approaches for Equitable Collaborative Learning: Learning, Power, and Multimodality",
+      "authors": "Hakeoung Hannah Lee",
+      "year": 2026,
+      "conference": "ISLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This transnational, transdisciplinary initiative brings together researchers, practitioners, community partners, youth, AI developers, and policy experts from international hubs to co-develop globally grounded research agendas and responsible AI guidelines for teachers through...\"",
+      "design_stakeholders": "Pre-service Teachers; Higher Education Instructors / Faculty; Educators & Practitioners; Middle School Students; Educational Researchers & Designers; Community Members & Partners; Domain Experts & Technologists",
+      "abstract": "My research lies at the intersection of the learning sciences, learning analytics, and Science, Technology, Engineering and Mathematics education, and centers on making collaborative learning more equitable for K\u201312 learners, particularly multilingual, multicultural, and marginalized youth. Across three interconnected lines of inquiry, I position myself as a scholar who bridges the learning sciences and learning analytics, advancing theoretically grounded, situated, and equity-oriented approaches to illuminate the complexity of collaborative learning at multiple scales."
+    },
+    {
+      "id": "icls-volume-2026-paper-0076",
+      "title": "\u201cBoth Are Useful\u201d: Student Epistemic Navigation in a Co-Designed Science Unit about Traditional Chinese Medicine",
+      "authors": "Weiying Li",
+      "year": 2026,
+      "conference": "ICLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Future work might examine how teachers' own epistemological perspectives shift through sustained co-design, and whether extended units with more CER practice opportunities support students in reaching higher levels of epistemic integration across other culturally meaningful ph...\"",
+      "design_stakeholders": "Teachers; Middle School Students; Educational Researchers & Designers; Community Members & Partners",
+      "abstract": "Science education in rural China often privileges Western epistemology, creating disconnects with students \u2019 community knowledge systems like Traditional Chinese Medicine (TCM). This design-based research study addresses this gap through a co-designed three-lesson unit in a rural middle school in central China. The unit on Shanghuo ( \u4e0a\u706b, internal heat) positioned TCM and Western science as complementary systems with distinct goals, reasoning processes, and evidence criteria. Using a Knowledge Integration framework, analysis of 40 eighth-graders' responses reveals how students navigated between correspondence -based and reductionist causal reasoning without devaluing community knowledge. Students shifted from binary epistemological stances ( \u201cTCM is superstitious\u201d ) to purposeful differentiation, recognizing when each system serves specific purposes. Three instructional routines supported this work: organizing family knowledge as analyzable data, using parallel comparison structures, and scaffolding dual justification. Findings demonstrate that rural students possess rich epistemological resources that Western -dominant curricula render invisible, offering design guidelines for culturally relevant science pedagogy."
+    },
+    {
+      "id": "general-volume-2026-paper-005",
+      "title": "Humanizing Institutional Landscapes of Ability Differences and Learning",
+      "authors": "Cathery Yeh, Erin McCloskey, Alfredo J. Artiles, Mimi Ito",
+      "year": 2026,
+      "conference": "ISLS",
+      "teacher_involvement": "**Involvement**: Teachers collaborated as design partners in collaborative design sessions to provide pedagogical domain expertise, define requirements, evaluate usability, and iteratively refine educational technology tools and online learning environments. **Evidence**: \"Cathery Yeh uses participatory mapping with youth, teachers, and families to capture lived experiences, decision points, and institutional boundaries shaping access, labels, and opportunities across bilingual education, special education, and mathematics, tracing patterns of e...\"",
+      "design_stakeholders": "Teachers; Educators & Practitioners; Youth & Adolescents; Educational Researchers & Designers; Community Members & Partners",
+      "abstract": "Humanizing Institutional Landscapes of Ability Differences and Learning Cathery Yeh, Erin McCloskey, Alfredo J. Artiles, Mimi Ito How can schools, universities, and community spaces construct, reinforce, or challenge how ability differences and disabilities are understood and organized in relation to race, language, and culture? This session brings together researchers working in schools, higher education, and out-of-school settings to study, reconceptualize, and redesign institutional, programmatic, and pedagogical practices. Through an engaging, dialogic format, the panelists will share stories and artifacts from four participatory design projects and explore common themes and challenges. The goal is to grapple with institutional landscapes that unevenly distribute learning opportunities, and to consider what equitable, culturally sustaining approaches to ability differences and disabilities in learning might look like. Cathery Yeh uses participatory mapping with youth, teachers, and families to capture lived experiences, decision points, and institutional boundaries shaping access, labels, and opportunities across bilingual education, special education, and mathematics, tracing patterns of exclusion and possibility to inform asset-based intervention systems. Erin McCloskey is investigating multi-generational college classrooms involving formerly incarcerated individuals, examining how storytelling about home, school, and community illuminates systemic patterns of disabilit"
+    },
+    {
+      "id": "general-volume-2026-paper-015",
+      "title": "Trend Trackers: Building Data Literacy Through Problem-Based Learning",
+      "authors": "Anna Amato Shao, Jessica Ochoa Hendrix, Mand\u00eb Holford, Noelle Posadas Shang, Christopher Pollati",
+      "year": 2026,
+      "conference": "ISLS",
+      "teacher_involvement": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"While students reflected on collaborative activities as a way to evaluate their own interpretations of data, more research is needed to investigate how Trend Trackers can support students in synthesizing data-based In our demonstration, we will introduce Trend Trackers, presen...\"",
+      "design_stakeholders": "Middle School Teachers; Middle School Students; Domain Experts & Technologists",
+      "abstract": "In this demo, we discuss the co-design of an interactive, problem-based science supplement called Trend Trackers. Trend Trackers aims to engage middle school students with socioscientific issues that impact cities and communities all over the world. Students take up the role of a data scientist to address public health problems within the fictional city of Springfield. In this demo, we will explore a challenge in which students are asked to design a vaccination plan to reduce the rates of flu in Springfield. Students engage in interactive and immersive activities to collect wastewater samples, measure rates of flu in the community, and generate evidence through a series of wrangling, visualization, and analysis activities. Students then share their findings and collaborate with their team to co-construct a vaccination plan for Springfield."
+    }
+  ]
+}

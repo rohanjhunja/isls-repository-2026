@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6354",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Working from a sociocultural perspective on learning, we have examined the ways in which a system of tools can organize routines for teacher participation in co-design that in turn supports shifts in classroom practice.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6354",
+      "supporting_text": "Working from a sociocultural perspective on learning, we have examined the ways in which a system of tools can organize routines for teacher participation in co-design that in turn supports shifts in classroom practice."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

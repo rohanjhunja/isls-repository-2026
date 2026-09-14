@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_256",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"We held, and are still holding, co-design meetings that are audio recorded and analyzed thematically. We held a training for youth educators from these organizations to implement the Mobile City Science curriculum in their respective communities.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_256",
+      "supporting_text": "We held, and are still holding, co-design meetings that are audio recorded and analyzed thematically. We held a training for youth educators from these organizations to implement the Mobile City Science curriculum in their respective communities."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

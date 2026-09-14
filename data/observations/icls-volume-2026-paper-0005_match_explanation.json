@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0005",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"...awing on generative learning theory and scaffolding, we present a conceptual account of how AI can guide learners through generativ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0005",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"...awing on generative learning theory and scaffolding, we present a conceptual account of how AI can guide learners through generativ...\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

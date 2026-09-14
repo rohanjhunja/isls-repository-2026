@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_6331",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Whereas our first two cycles of design resear ch explored the design of learning activities to support integrating programming and storyte lling at primary level, our focus shifts to the implementation of the curriculum unit by in-service teachers and how their perceptions on ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_6331",
+      "supporting_text": "Whereas our first two cycles of design resear ch explored the design of learning activities to support integrating programming and storyte lling at primary level, our focus shifts to the implementation of the curriculum unit by in-service teachers and how their perceptions on ..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

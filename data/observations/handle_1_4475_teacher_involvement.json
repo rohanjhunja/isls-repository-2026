@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_4475",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"This included: (1) initial testing by co-designers in laboratory and classroom settings; (2) refinement of any features, functions or interfaces; (3) tes ting in settings with a second cohort of classrooms by teachers who are not members of the co-design team; (4) further refi...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_4475",
+      "supporting_text": "This included: (1) initial testing by co-designers in laboratory and classroom settings; (2) refinement of any features, functions or interfaces; (3) tes ting in settings with a second cohort of classrooms by teachers who are not members of the co-design team; (4) further refi..."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

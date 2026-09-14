@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0257",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers and community educators worked in collaborative design partnerships to center culturally sustaining, community-connected pedagogical practices and heritage languages in learning design. **Evidence**: \"As part of our project, we work with general education teachers, special education teachers, counselors, and administrators and hold monthly co-design sessions discussing barriers, pitfalls, and successes related to current district collaboration practices.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0257",
+      "supporting_text": "As part of our project, we work with general education teachers, special education teachers, counselors, and administrators and hold monthly co-design sessions discussing barriers, pitfalls, and successes related to current district collaboration practices."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

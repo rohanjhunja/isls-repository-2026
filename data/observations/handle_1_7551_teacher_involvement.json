@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_7551",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers partnered with researchers in an iterative collaborative design process to conceptualize, author, and contextualize curricular materials and learning activities tailored to their classroom environments. **Evidence**: \"Each teacher, or pair of teachers, partnered with a member of the research team to co-design CT-integrated units and computational tools to support stud ent engagement in CT practices and learning of science/math content.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_7551",
+      "supporting_text": "Each teacher, or pair of teachers, partnered with a member of the research team to co-design CT-integrated units and computational tools to support stud ent engagement in CT practices and learning of science/math content."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

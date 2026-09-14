@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0426",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"The mentor provides scaffolding\u2014supportive structures and guidance\u2014that helps the younger students navigate media analysis, understand biases, and evaluate the credibility of information sources.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0426",
+      "supporting_text": "**Direct Callouts & Context**: \"The mentor provides scaffolding\u2014supportive structures and guidance\u2014that helps the younger students navigate media analysis, understand biases, and evaluate the credibility of information sources.\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11131",
+  "property_id": "design_stakeholders",
+  "property_version": "1.0.0",
+  "value": "Teachers; Students & Learners; Educational Researchers & Designers; Community Members & Partners",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11131",
+      "supporting_text": "Identified stakeholders in targeted sections (abstract, method, discussion): Teachers; Students & Learners; Educational Researchers & Designers; Community Members & Partners"
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_design_stakeholders_20260912",
+  "source_version": "1.0.0"
+}

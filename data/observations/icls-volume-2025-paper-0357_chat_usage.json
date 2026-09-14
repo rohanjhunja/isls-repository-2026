@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0357",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction as a socio-cultural framework for activity systems. Evidence: \"Our studies work critically and in contextually grounded ways with different generations of Cultural Historical Activity Theory ( Engestr\u00f6m, 2015; 2016; Engestr\u00f6m and Sannino, 2021...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0357",
+      "supporting_text": "Our studies work critically and in contextually grounded ways with different generations of Cultural Historical Activity Theory ( Engestr\u00f6m, 2015; 2016; Engestr\u00f6m and Sannino, 2021) \u2013 including second generation CHAT ( Paper 2), third generation CHAT ( Paper 3), and fourth generation CHAT ( Paper 1), and an applied pedagogically framed version of CHAT for schools and teachers education (Paper 4)."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

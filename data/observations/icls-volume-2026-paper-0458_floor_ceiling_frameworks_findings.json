@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0458",
+  "property_id": "floor_ceiling_frameworks_findings",
+  "property_version": "1.0.0",
+  "value": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Case Study. **Key Findings & Entry Barrier Impact**: Prior studies have used cognitive scaffolding, such as review forms , to support students \u2019 feedback provision, yet the social context of learning has been overlooked.",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0458",
+      "supporting_text": "**Framework/Tool**: Pedagogical Scaffolding & Learning Design Framework. **Method**: Case Study. **Key Findings & Entry Barrier Impact**: Prior studies have used cognitive scaffolding, such as review forms , to support students \u2019 feedback provision, yet the social context of learning has been overlooked."
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_floor_ceiling_frameworks_findings_20260728",
+  "source_version": "1.0.0"
+}

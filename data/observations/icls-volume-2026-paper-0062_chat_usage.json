@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0062",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction to analyze systemic contradictions, tensions, and expansive learning cycles. Evidence: \"Cycle 2 ( N=26) implemented Cultural-Historical Activity Theory and Self -Determination Theory -driven redesign directly targeting diagnosed contradictions, achieving synchronized ...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0062",
+      "supporting_text": "Cycle 2 ( N=26) implemented Cultural-Historical Activity Theory and Self -Determination Theory -driven redesign directly targeting diagnosed contradictions, achieving synchronized enhancement of both capacity and willingness."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

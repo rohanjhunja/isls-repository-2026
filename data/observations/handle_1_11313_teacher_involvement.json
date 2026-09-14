@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11313",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Over the course of an academic year, we engaged high school teachers in codesign sessions with university researchers with the goal of developing lessons that integrate AI literacy and meet the instruction al goals of their individual classrooms.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11313",
+      "supporting_text": "Over the course of an academic year, we engaged high school teachers in codesign sessions with university researchers with the goal of developing lessons that integrate AI literacy and meet the instruction al goals of their individual classrooms."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}

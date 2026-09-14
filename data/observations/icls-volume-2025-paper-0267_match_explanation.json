@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2025-paper-0267",
+  "property_id": "match_explanation",
+  "property_version": "1.0.0",
+  "value": "Abstract discusses 'scaffolding'. Evidence: \"Research suggests that scaffolding students\u2019 Computational Thinking before coding can support their learning experience.\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2025-paper-0267",
+      "supporting_text": "Abstract discusses 'scaffolding'. Evidence: \"Research suggests that scaffolding students\u2019 Computational Thinking before coding can support their learning experience.\""
+    }
+  ],
+  "method": "keyword_context_match",
+  "confidence": 1.0,
+  "run_id": "run_match_explanation_20260728",
+  "source_version": "1.0.0"
+}

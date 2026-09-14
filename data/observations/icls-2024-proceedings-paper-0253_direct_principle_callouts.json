@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-2024-proceedings-paper-0253",
+  "property_id": "direct_principle_callouts",
+  "property_version": "1.0.0",
+  "value": "**Direct Callouts & Context**: \"To improve students' learning and teachers' assessment, we extended Inq -ITS to automatically assess and scaffold students' competencies in developing mathematical models of scientific phenomena.\" | \"We analyzed student data from six virtual science labs in Inq -ITS at both the practice level and the sub- practice level to determine if they maintained their mathematical competencies with scaffolding.\" | \", 2019), these systems do not assess and scaffold the full range of NGSS practices necessary for developing deep understandings of science phenomena (NGSS, 2013).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-2024-proceedings-paper-0253",
+      "supporting_text": "**Direct Callouts & Context**: \"To improve students' learning and teachers' assessment, we extended Inq -ITS to automatically assess and scaffold students' competencies in developing mathematical models of scientific phenomena.\" | \"We analyzed student data from six virtual science labs in Inq -ITS at both the practice level and the sub- practice level to determine if they maintained their mathematical competencies with scaffolding.\" | \", 2019), these systems do not assess and scaffold the full range of NGSS practices necessary for developing deep understandings of science phenomena (NGSS, 2013).\""
+    }
+  ],
+  "method": "section_keyword_analysis",
+  "confidence": 1.0,
+  "run_id": "run_direct_principle_callouts_20260728",
+  "source_version": "1.0.0"
+}

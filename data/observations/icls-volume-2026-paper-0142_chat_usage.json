@@ -1,0 +1,17 @@
+{
+  "paper_id": "icls-volume-2026-paper-0142",
+  "property_id": "chat_usage",
+  "property_version": "1.0.0",
+  "value": "Applies CHAT in Introduction to analyze systemic contradictions, tensions, and expansive learning cycles. Evidence: \"The project is examined as an evolving activity system, reorganizing findings from previous research to highlight the contradictions, conflicts, and challenges that emerged, as wel...\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "icls-volume-2026-paper-0142",
+      "supporting_text": "The project is examined as an evolving activity system, reorganizing findings from previous research to highlight the contradictions, conflicts, and challenges that emerged, as well as the design strategies implemented to address them, drawing on Cultural-Historical Activity Theory."
+    }
+  ],
+  "method": "fts_section_chat_extraction",
+  "confidence": 1.0,
+  "run_id": "run_chat_usage_20260807",
+  "source_version": "1.0.0"
+}

@@ -1,0 +1,17 @@
+{
+  "paper_id": "handle_1_11400",
+  "property_id": "teacher_involvement",
+  "property_version": "1.0.0",
+  "value": "**Involvement**: Teachers actively participated in collaborative co-design workshops, design meetings, or teacher communities with researchers to iteratively develop, test, and adapt curriculum units, assessments, and lesson plans. **Evidence**: \"Our research team has been co-designing this project with the teachers (Ding et al., 2025; Zhang et al., 2024), integrating the principles of Knowledge Building that emphasize epistemic agency for continual idea improvement in a collaborative community (Scardamalia, 2002).\"",
+  "status": "extracted",
+  "evidence": [
+    {
+      "paper_id": "handle_1_11400",
+      "supporting_text": "Our research team has been co-designing this project with the teachers (Ding et al., 2025; Zhang et al., 2024), integrating the principles of Knowledge Building that emphasize epistemic agency for continual idea improvement in a collaborative community (Scardamalia, 2002)."
+    }
+  ],
+  "method": "full_text_synthesis_and_quote_extraction",
+  "confidence": 1.0,
+  "run_id": "run_teacher_involvement_20260912",
+  "source_version": "1.0.0"
+}
