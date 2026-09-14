@@ -49,15 +49,24 @@ const STANDARD_PROPERTIES = new Set([
 // DOM Elements
 const sidebarNav = document.getElementById('sidebarNav');
 const toggleSidebarBtn = document.getElementById('toggleSidebarBtn');
+const mobileSidebarToggleBtn = document.getElementById('mobileSidebarToggleBtn');
+const sidebarBackdrop = document.getElementById('sidebarBackdrop');
 const reviewsListEl = document.getElementById('reviewsList');
 const dipstickNavItem = document.getElementById('dipstickNavItem');
 
 const searchInput = document.getElementById('searchInput');
 const saveAsReviewBtn = document.getElementById('saveAsReviewBtn');
+const controlActionsToggle = document.getElementById('controlActionsToggle');
+const controlActions = document.getElementById('controlActions');
 const dipstickControls = document.getElementById('dipstickControls');
 const multiSelectToggleBtn = document.getElementById('multiSelectToggleBtn');
 const multiSelectPopover = document.getElementById('multiSelectPopover');
 const expandScopeBtn = document.getElementById('expandScopeBtn');
+
+function closeMobileSidebar() {
+  if (sidebarNav) sidebarNav.classList.remove('open');
+  if (sidebarBackdrop) sidebarBackdrop.classList.remove('active');
+}
 
 const rowModeToggle = document.getElementById('rowModeToggle');
 const rowModeLabel = document.getElementById('rowModeLabel');
@@ -155,6 +164,7 @@ function parseUrlQueryParams() {
 
 // Open Dipstick Initial Mode (No Saved Review Selected in Navigation)
 function openDipstickMode(updateUrl = true) {
+  closeMobileSidebar();
   isDipstickMode = true;
   activeReviewId = null;
   columnFilterSelections = {};
@@ -163,8 +173,8 @@ function openDipstickMode(updateUrl = true) {
     visible_columns: DIPSTICK_COLUMNS
   };
 
-  if (updateUrl && (window.location.search || window.location.pathname !== '/')) {
-    window.history.pushState({ mode: 'dipstick' }, '', '/');
+  if (updateUrl && window.location.search) {
+    window.history.pushState({ mode: 'dipstick' }, '', window.location.pathname);
   }
 
   renderSidebarReviews();
@@ -773,12 +783,13 @@ function renderSidebarReviews() {
 
 // Load Selected Saved Review Data
 async function loadReview(reviewId, updateUrl = true) {
+  closeMobileSidebar();
   isDipstickMode = false;
   activeReviewId = reviewId;
   renderSidebarReviews();
 
   if (updateUrl) {
-    const targetUrl = `/?review=${encodeURIComponent(reviewId)}`;
+    const targetUrl = `${window.location.pathname}?review=${encodeURIComponent(reviewId)}`;
     if (window.location.search !== `?review=${encodeURIComponent(reviewId)}`) {
       window.history.pushState({ reviewId }, '', targetUrl);
     }
@@ -1442,6 +1453,27 @@ function setupEventListeners() {
     });
   }
 
+  if (mobileSidebarToggleBtn) {
+    mobileSidebarToggleBtn.addEventListener('click', () => {
+      const isOpen = sidebarNav && sidebarNav.classList.toggle('open');
+      if (sidebarBackdrop) {
+        sidebarBackdrop.classList.toggle('active', !!isOpen);
+      }
+    });
+  }
+
+  if (sidebarBackdrop) {
+    sidebarBackdrop.addEventListener('click', closeMobileSidebar);
+  }
+
+  if (controlActionsToggle && controlActions) {
+    controlActionsToggle.addEventListener('click', () => {
+      const isOpen = controlActions.classList.toggle('is-open');
+      controlActionsToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      controlActionsToggle.classList.toggle('active', isOpen);
+    });
+  }
+
   if (dipstickNavItem) {
     dipstickNavItem.addEventListener('click', () => {
       if (isHostedMode || preloadedTitles.length === 0) {
@@ -1472,7 +1504,7 @@ function setupEventListeners() {
           if (sortToggleGroup) sortToggleGroup.classList.add('hidden');
           setExportControlsVisibility(false);
         }
-        const newUrl = val ? `/?keywords=${encodeURIComponent(val)}` : '/';
+        const newUrl = val ? `${window.location.pathname}?keywords=${encodeURIComponent(val)}` : window.location.pathname;
         if (window.location.search !== (val ? `?keywords=${encodeURIComponent(val)}` : '')) {
           window.history.replaceState({ mode: 'dipstick' }, '', newUrl);
         }
@@ -1590,7 +1622,7 @@ function setupEventListeners() {
       columnFilterSelections = {};
       if (searchInput) searchInput.value = '';
       if (window.location.search) {
-        window.history.replaceState({ mode: 'dipstick' }, '', '/');
+        window.history.replaceState({ mode: 'dipstick' }, '', window.location.pathname);
       }
 
       const columns = activeReviewMeta.selected_columns || DIPSTICK_COLUMNS;

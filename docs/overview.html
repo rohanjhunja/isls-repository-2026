@@ -938,6 +938,145 @@
       border: 1px solid #bbf7d0;
     }
 
+    /* Beautiful Papers: Full vs Short Paper Hero Summary Card */
+    .bp-hero-summary-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 28px;
+    }
+
+    .bp-hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 22px;
+    }
+
+    @media (max-width: 860px) {
+      .bp-hero-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .bp-hero-col {
+      background: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: all 0.2s ease;
+    }
+
+    .bp-hero-col:hover {
+      box-shadow: var(--shadow-md);
+      border-color: #cbd5e1;
+    }
+
+    .bp-hero-full {
+      border-top: 4px solid #2563eb;
+    }
+
+    .bp-hero-short {
+      border-top: 4px solid #0d9488;
+    }
+
+    .bp-hero-badge-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .bp-hero-badge {
+      font-size: 0.82rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .bp-hero-badge.full-badge {
+      background: #eff6ff;
+      color: #1d4ed8;
+      border: 1px solid #bfdbfe;
+    }
+
+    .bp-hero-badge.short-badge {
+      background: #f0fdfa;
+      color: #0f766e;
+      border: 1px solid #99f6e4;
+    }
+
+    .bp-hero-metric {
+      font-size: 0.76rem;
+      font-weight: 700;
+      color: #64748b;
+      font-family: var(--font-mono);
+      background: #ffffff;
+      padding: 3px 8px;
+      border-radius: 6px;
+      border: 1px solid #e2e8f0;
+    }
+
+    .bp-hero-title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin: 0;
+      line-height: 1.35;
+    }
+
+    .bp-hero-desc {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.55;
+      margin: 0;
+      flex: 1;
+    }
+
+    .bp-hero-anatomy {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 4px;
+      padding-top: 12px;
+      border-top: 1px solid #e2e8f0;
+    }
+
+    @media (max-width: 520px) {
+      .bp-hero-anatomy {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .anatomy-pill {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 6px 8px;
+      font-size: 0.74rem;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .anatomy-pill .dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .anatomy-pill.p1 .dot { background: #2563eb; }
+    .anatomy-pill.p2 .dot { background: #0d9488; }
+    .anatomy-pill.p3 .dot { background: #ea580c; }
+    .anatomy-pill.p4 .dot { background: #9333ea; }
+
     /* Beautiful Papers: Structural Silhouette Visualizer & Outlier Document Thumbnails */
     .bp-visualizer-card {
       background: #ffffff;
@@ -1424,27 +1563,227 @@
       opacity: 1;
       transform: translateY(0);
     }
+
+    /* Header Mobile Accordion Toggle */
+    .header-accordion-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      width: 40px;
+      height: 40px;
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      cursor: pointer;
+      padding: 8px;
+      transition: all 0.2s ease;
+      box-shadow: var(--shadow-sm);
+      flex-shrink: 0;
+    }
+
+    .header-accordion-toggle:hover {
+      background: var(--bg-card);
+      border-color: var(--primary);
+    }
+
+    .header-accordion-toggle .hamburger-bar {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: var(--text-primary);
+      border-radius: 2px;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease;
+    }
+
+    .header-accordion-toggle.is-open .hamburger-bar:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    .header-accordion-toggle.is-open .hamburger-bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .header-accordion-toggle.is-open .hamburger-bar:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+
+    /* Mobile Responsive Layout for 10-Year Observatory */
+    @media (max-width: 768px) {
+      html, body {
+        overflow-x: hidden;
+        width: 100%;
+      }
+
+      .story-header {
+        padding: 10px 16px;
+        flex-wrap: wrap;
+      }
+
+      .header-accordion-toggle {
+        display: flex;
+      }
+
+      .story-brand {
+        flex: 1;
+        min-width: 0;
+        gap: 8px;
+      }
+
+      .story-brand h1 {
+        font-size: 0.90rem;
+        max-width: 220px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .badge-phase {
+        display: none;
+      }
+
+      .header-links {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+        opacity: 0;
+        pointer-events: none;
+        transition: max-height 0.35s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.22s ease, padding 0.22s ease;
+        padding: 0;
+        gap: 8px;
+        margin-top: 0;
+      }
+
+      .header-links.is-open {
+        max-height: 260px;
+        opacity: 1;
+        pointer-events: auto;
+        padding-top: 10px;
+        margin-top: 8px;
+        border-top: 1px solid var(--border-color);
+      }
+
+      .btn-header {
+        width: 100%;
+        min-height: 44px;
+        justify-content: center;
+        font-size: 0.88rem;
+        box-sizing: border-box;
+      }
+
+      /* Floating control button on mobile: relocate to bottom right */
+      .floating-control-btn {
+        top: auto;
+        bottom: 20px;
+        right: 16px;
+        padding: 8px 14px;
+        font-size: 0.80rem;
+        z-index: 120;
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+      }
+
+      .floating-drawer {
+        width: 100vw;
+        max-width: 100vw;
+        right: -100vw;
+      }
+
+      .floating-drawer.open {
+        right: 0;
+      }
+
+      .paper-inspector-panel {
+        width: 100vw;
+        max-width: 100vw;
+        right: -100vw;
+      }
+
+      .paper-inspector-panel.open {
+        right: 0;
+      }
+
+      /* Story narrative & metrics */
+      .story-wrapper {
+        padding: 20px 14px 60px;
+        gap: 32px;
+      }
+
+      .hero-heading {
+        font-size: 1.6rem;
+      }
+
+      .hero-stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+      }
+
+      .hero-stats-grid .stat-box:first-child {
+        grid-column: span 2;
+      }
+
+      .stat-num {
+        font-size: 1.5rem;
+      }
+
+      .story-section {
+        padding: 20px 16px;
+      }
+
+      .chart-container-card {
+        padding: 12px 8px;
+      }
+
+      .chart-toolbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+      }
+
+      .toggle-pill-row {
+        width: 100% !important;
+        flex-wrap: wrap;
+      }
+
+      .btn-pill-toggle {
+        flex: 1 1 auto;
+        min-height: 36px;
+      }
+
+      .bp-dual-body {
+        grid-template-columns: 1fr;
+        gap: 16px;
+      }
+
+      .bp-figure-svg {
+        max-height: 420px;
+      }
+    }
   </style>
 </head>
 <body>
 
   <!-- Sticky Header -->
-  <header class="story-header">
+  <header class="story-header" id="storyHeader">
     <div class="story-brand">
       <h1>📖 ISLS 10-Year Research Observatory (2016–2026)</h1>
       <span class="badge-phase">Phase 1: 0-Cost Title & Abstract Mode</span>
     </div>
-    <div class="header-links">
-      <a href="/" class="btn-header" style="color: #2563eb; font-weight: 600;" title="Return to Project Cover Page & System Walkthrough">
+    <button class="header-accordion-toggle" id="overviewHeaderToggle" aria-expanded="false" aria-label="Toggle navigation menu">
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+    </button>
+    <div class="header-links" id="overviewHeaderLinks">
+      <a href="./index.html" class="btn-header" style="color: #2563eb; font-weight: 600;" title="Return to Project Cover Page & System Walkthrough">
         🏠 Project Cover
       </a>
       <a href="#sec-beautiful-papers" class="btn-header" style="color: #7c3aed; font-weight: 600;" title="Jump to Beautiful Papers Section">
         ✨ Beautiful Papers
       </a>
-      <a href="/export/tableau/" target="_blank" class="btn-header" title="Open Tableau CSV folder">
-        📁 Tableau Suite (5 CSVs)
-      </a>
-      <a href="/viewer" class="btn-header" title="Back to Literature Review Search">
+      <a href="./viewer.html" class="btn-header" title="Back to Literature Review Search">
         🔍 Literature Review Viewer &rarr;
       </a>
     </div>
@@ -1561,7 +1900,7 @@
             <button class="btn-pill-toggle" id="btnToggleConference">% of Total Conference</button>
           </div>
         </div>
-        <div class="chart-canvas" id="chartTrends"></div>
+        <div class="chart-canvas" id="chartTrends" style="height: 630px !important;"></div>
       </div>
 
       <details class="methodology-accordion">
@@ -1809,6 +2148,10 @@
               <option value="3">3+ papers</option>
               <option value="4">4+ papers</option>
             </select>
+            <button class="btn-pill-toggle" id="btnResetNetwork" title="Reset Zoom & Pan" style="display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; font-size: 0.78rem; font-weight: 600; cursor: pointer; color: var(--text-secondary); background: #ffffff; border: 1px solid #cbd5e1; border-radius: 6px;">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><polyline points="3 3 3 8 8 8"></polyline></svg>
+              <span>Reset View</span>
+            </button>
           </div>
         </div>
         <div class="network-legend-bar">
@@ -2099,73 +2442,57 @@
         When the substantive narrative sections of research papers are charted in chronological reading order from top to bottom (excluding bibliographic references), their relative lengths generate a distinctive vertical silhouette. Across <strong>over 4,100 peer-reviewed scholarship papers spanning a full decade (2016–2026)</strong>, each paper features a decorative floating dot representing the distilled <strong>Abstract</strong>, followed by an expansive <strong>Abstract & Introduction</strong> framing, transitions into the concise operational execution of <strong>Methodology & Context</strong>, widens into the substantial empirical weight of <strong>Results & Findings</strong>, and concludes with the reflective synthesis of <strong>Discussion & Conclusion</strong>. All charts use <strong>absolute token scaling</strong>, showing the true physical volume differences between Full Papers and Short Papers across <strong>5 multi-year cohort eras</strong> in a single panoramic comparison row. Symposia, chaired sessions, and workshops are distinguished and separated as <strong>Others</strong> (deselected by default).
       </div>
 
-      <!-- Interactive Structural Silhouette Visualizer Card -->
-      <div class="bp-visualizer-card">
-        <div class="bp-toolbar-row">
-          <div>
-            <div style="font-size: 0.98rem; font-weight: 800; color: var(--text-primary);">A Decade of Structural Evolution: Full Papers vs. Short Papers (2016–2026)</div>
-            <div style="font-size: 0.78rem; color: var(--text-muted); margin-top: 2px;">
-              Floating abstract head dot above smooth violin bodies scaled to absolute token counts.
+      <!-- Hero Section: Full Papers vs. Short Papers Structural Summary -->
+      <div class="bp-hero-summary-card">
+        <div class="bp-hero-grid">
+          <!-- Full Research Papers -->
+          <div class="bp-hero-col bp-hero-full">
+            <div class="bp-hero-badge-row">
+              <span class="bp-hero-badge full-badge">📄 Full Research Papers</span>
+              <span class="bp-hero-metric">~8 Pages • 6,000–8,000 Tokens</span>
+            </div>
+            <h4 class="bp-hero-title">Comprehensive Theoretical Framing & In-Depth Empirical Investigations</h4>
+            <p class="bp-hero-desc">
+              Full papers represent mature, longitudinal, or deeply contextualized scholarship. They establish extensive theoretical foundations, deploy rigorous analytical methodologies (qualitative discourse, multimodal analytics, or experimental interventions), present substantial empirical findings, and synthesize findings with broad implications across the learning sciences.
+            </p>
+            <div class="bp-hero-anatomy">
+              <div class="anatomy-pill p1"><span class="dot"></span> <strong>Intro:</strong> Broad theoretical framing</div>
+              <div class="anatomy-pill p2"><span class="dot"></span> <strong>Methods:</strong> Detailed analytical design</div>
+              <div class="anatomy-pill p3"><span class="dot"></span> <strong>Results:</strong> Substantial empirical weight</div>
+              <div class="anatomy-pill p4"><span class="dot"></span> <strong>Discussion:</strong> Field-wide implications</div>
             </div>
           </div>
 
-          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-            <div class="toggle-pill-row" style="width: auto;" id="bpGroupingToggles">
-              <button class="btn-pill-toggle active" data-grouping="recent">📅 Year-by-Year (2023–2026)</button>
-              <button class="btn-pill-toggle" data-grouping="eras">🏛️ 5 Cohort Eras (2016–2026)</button>
-              <button class="btn-pill-toggle" data-grouping="all">🌐 All 11 Years (2016–2026)</button>
+          <!-- Short Research Papers -->
+          <div class="bp-hero-col bp-hero-short">
+            <div class="bp-hero-badge-row">
+              <span class="bp-hero-badge short-badge">📑 Short Research Papers</span>
+              <span class="bp-hero-metric">~4 Pages • 3,000–4,000 Tokens</span>
             </div>
-            <span class="bp-badge-100" style="color:#2563eb; background:#eff6ff; border-color:#bfdbfe; font-size:0.75rem; font-weight:700;">
-              ⚖️ Absolute Scale
-            </span>
-            <div class="toggle-pill-row" style="width: auto;" id="bpLineupTypeToggles">
-              <button class="btn-pill-toggle active" data-col="full">📄 Full Papers</button>
-              <button class="btn-pill-toggle active" data-col="short">📑 Short Papers</button>
-              <button class="btn-pill-toggle" data-col="other">🏛️ Others / Symposia</button>
+            <h4 class="bp-hero-title">Targeted Innovations, Design Probes & Work-in-Progress Pilots</h4>
+            <p class="bp-hero-desc">
+              Short papers deliver rapid, focused contributions highlighting emerging pedagogical interventions, early pilot studies, or innovative technological prototypes. They condense literature reviews to emphasize active design iterations and early findings, serving as an agile vanguard for exploratory ideas in the research community.
+            </p>
+            <div class="bp-hero-anatomy">
+              <div class="anatomy-pill p1"><span class="dot"></span> <strong>Intro:</strong> Immediate problem definition</div>
+              <div class="anatomy-pill p2"><span class="dot"></span> <strong>Methods:</strong> Lean, focused execution</div>
+              <div class="anatomy-pill p3"><span class="dot"></span> <strong>Results:</strong> Core preliminary insights</div>
+              <div class="anatomy-pill p4"><span class="dot"></span> <strong>Discussion:</strong> Direct next steps & horizons</div>
             </div>
           </div>
-        </div>
-
-        <!-- Year-by-Year Cohort Eras Comparison Stage: All 5 buckets fit in one line -->
-        <div class="bp-lineup-stage" id="bpYearComparisonStage">
-          <!-- Populated dynamically with 2016-2018, 2019-2020, 2021-2022, 2023-2024, 2025-2026 side-by-side in one row -->
-        </div>
-
-        <div class="bp-legend-bar" style="margin-top: 20px;">
-          <div class="bp-legend-item"><span style="width: 8px; height: 8px; background: #3b82f6; border-radius: 50%; display: inline-block; box-shadow: 0 0 0 2px rgba(59,130,246,0.3);"></span> <strong>Abstract Head</strong>: Floating Dot</div>
-          <div class="bp-legend-item"><span style="width: 14px; height: 14px; background: #2563eb; border-radius: 3px; display: inline-block;"></span> <strong>Section 1 (Top)</strong>: Abstract & Introduction</div>
-          <div class="bp-legend-item"><span style="width: 14px; height: 14px; background: #0d9488; border-radius: 3px; display: inline-block;"></span> <strong>Section 2</strong>: Methodology & Context</div>
-          <div class="bp-legend-item"><span style="width: 14px; height: 14px; background: #ea580c; border-radius: 3px; display: inline-block;"></span> <strong>Section 3</strong>: Results & Findings</div>
-          <div class="bp-legend-item"><span style="width: 14px; height: 14px; background: #9333ea; border-radius: 3px; display: inline-block;"></span> <strong>Section 4 (Bottom)</strong>: Discussion & Conclusion</div>
-          <div class="bp-legend-item"><span class="bp-badge-100" style="color:#2563eb; background:#eff6ff; border-color:#bfdbfe;">4,100+ Papers (2016–2026)</span> References omitted</div>
         </div>
       </div>
 
       <!-- Outliers Gallery Subsection -->
-      <div class="outliers-section-header" style="margin-top: 36px;">
+      <div class="outliers-section-header" style="margin-top: 32px;">
         <div class="bp-outliers-filter-bar">
           <div>
             <h4 style="margin: 0; font-size: 1.18rem; font-weight: 800; color: var(--text-primary); display: flex; align-items: center; gap: 8px;">
               <span>🎯 Section Length Outliers: Individual Paper Silhouette Thumbnails</span>
             </h4>
             <p style="margin: 4px 0 0 0; font-size: 0.84rem; color: var(--text-secondary);">
-              Each thumbnail charts the actual section token allocations of that specific study with a floating abstract head dot and smooth violin body scaled to absolute tokens.
+              Each thumbnail charts the actual section token allocations of that specific study with a floating abstract head dot and smooth violin body scaled to absolute tokens. Click any card to inspect the full paper.
             </p>
-          </div>
-
-          <!-- Filter Pills -->
-          <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
-            <div class="toggle-pill-row" style="width: auto;" id="bpOutlierGenreFilters">
-              <button class="btn-pill-toggle active" data-genre="all">All Core (Full & Short)</button>
-              <button class="btn-pill-toggle" data-genre="full">📄 Full Papers</button>
-              <button class="btn-pill-toggle" data-genre="short">📑 Short Papers</button>
-              <button class="btn-pill-toggle" data-genre="other">🏛️ Others / Symposia</button>
-            </div>
-            <div class="toggle-pill-row" style="width: auto;" id="bpOutlierTypeFilters">
-              <button class="btn-pill-toggle active" data-type="All">All Outliers</button>
-              <button class="btn-pill-toggle" data-type="Very High">📈 Max Length</button>
-              <button class="btn-pill-toggle" data-type="Very Low">📉 Min Length</button>
-            </div>
           </div>
         </div>
       </div>

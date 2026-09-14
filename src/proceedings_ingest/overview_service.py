@@ -265,17 +265,25 @@ class OverviewService:
         raw_rows = cur.fetchall()
         conn.close()
 
-        if not raw_rows:
+        # Filter out Computer-Supported Collaborative Learning since the conference is centered on it
+        valid_rows = []
+        for r in raw_rows:
+            lbl_lower = (r["label_value"] or "").lower()
+            if "computer-support" in lbl_lower or "cscl" in lbl_lower:
+                continue
+            valid_rows.append(r)
+
+        if not valid_rows:
             return {"points": [], "median_density": 0, "median_centrality": 0}
 
-        counts = [r["paper_count"] for r in raw_rows]
-        centralities = [r["cross_label_centrality"] for r in raw_rows]
+        counts = [r["paper_count"] for r in valid_rows]
+        centralities = [r["cross_label_centrality"] for r in valid_rows]
 
         med_density = sorted(counts)[len(counts) // 2]
         med_centrality = sorted(centralities)[len(centralities) // 2]
 
         points = []
-        for r in raw_rows:
+        for r in valid_rows:
             d_val = r["paper_count"]
             c_val = r["cross_label_centrality"]
             is_high_d = d_val >= med_density

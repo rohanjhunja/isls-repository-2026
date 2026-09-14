@@ -40,6 +40,9 @@
       </div>
     </aside>
 
+    <!-- Sidebar Backdrop for Mobile Drawer -->
+    <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+
     <!-- Main View Container -->
     <div class="main-content">
 
@@ -48,16 +51,23 @@
         
         <!-- Left: Paper Count Badge + Search Bar + Save Review Button -->
         <div class="search-container">
+          <button class="btn btn-icon btn-mobile-menu" id="mobileSidebarToggleBtn" title="Open Navigation Menu">
+            <svg class="icon"><use href="icons/icons.svg#icon-menu"/></svg>
+          </button>
           <div class="stats-badge" id="paperCountBadge">0 Papers</div>
           <div class="search-box">
             <span class="search-icon"><svg class="icon"><use href="icons/icons.svg#icon-search"/></svg></span>
             <input type="text" id="searchInput" placeholder="Search 100% repository paper titles (e.g. Generative AI, Learning Analytics)..." />
           </div>
           <button class="btn btn-primary hidden" id="saveAsReviewBtn"><svg class="icon"><use href="icons/icons.svg#icon-save"/></svg> Save as Review</button>
+          <button class="btn btn-outline control-accordion-toggle" id="controlActionsToggle" aria-expanded="false" title="Toggle Table Controls & Filters">
+            <svg class="icon"><use href="icons/icons.svg#icon-filter"/></svg>
+            <span class="ctrl-toggle-text">Controls</span>
+          </button>
         </div>
 
         <!-- Right: Multi-Select Scope Popover + Dual Sorting + Table Controls -->
-        <div class="control-actions">
+        <div class="control-actions" id="controlActions">
           
 
 

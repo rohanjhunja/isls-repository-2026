@@ -86,14 +86,12 @@ Arranged as a perspective crowd in depth layers (`bg`, `mg`, `fg`), each figure 
 
 ---
 
-## 4\. Core System Capabilities: What the Project Includes (`#project-overview`)
-
-## 
+## 4\. Core System Capabilities: What's Included (`#project-overview`)
 
 ### Section Header
 
 - **Kicker**: `PROJECT OVERVIEW`  
-- **Title**: What the Project Includes  
+- **Title**: What's Included  
 - **Description**: A researcher-first review system bridging large-scale literature reviews, agentic workflows, and conference group macro analytics.
 
 ---
@@ -128,19 +126,19 @@ Arranged as a perspective crowd in depth layers (`bg`, `mg`, `fg`), each figure 
 
 ---
 
-## 5\. System Description & Design Foundation (`#system-description`)
+## 5\. System Description (`#system-description`)
 
 ### Section Header
 
 - **Kicker**: `SYSTEM ARCHITECTURE`  
-- **Title**: System Description & Design Foundation  
+- **Title**: System Description  
 - **Description**: This walks through how the system solves fundamental friction points of large-scale literature synthesis: token wastage, black-box search results, and missing reproducible review protocols.
 
 ---
 
-### Subsection A: Objectives of the Project
+### Subsection A: Objectives
 
-- **Title**: Objectives of the Project  
+- **Title**: Objectives  
 - **Subtitle**: Here’s the three foundational goals guiding the system architecture and workflow design.
 
 #### 1\. Enable Deep and Wide Literature Reviews
@@ -163,9 +161,9 @@ We explore the balance between generative output and deterministic code.
 
 ---
 
-### Subsection B: Advances Beyond Current Tools (3D Flip Cards)
+### Subsection B: Key Advances (3D Flip Cards)
 
-- **Title**: Advances Beyond Current Tools  
+- **Title**: Key Advances  
 - **Subtitle**: Key technical advancements solving systemic gaps in official proceedings discovery.
 - **Interaction**: Progressive disclosure via smooth 3D perspective flip on hover or tap.
 
@@ -220,19 +218,19 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 ---
 
-## 6\. Technical Walkthrough: Data Pipeline & Technical Architecture (`#walkthrough`)
+## 6\. Technical Walkthrough: Data Pipeline (`#walkthrough`)
 
 ### Section Header
 
 - **Kicker**: `TECHNICAL WALKTHROUGH`  
-- **Title**: Data Pipeline & Technical Architecture  
+- **Title**: Data Pipeline  
 - **Description**: Here’s a structural diagram illustrating how raw conference proceedings PDFs are transformed into structured data, accessed through 3 querying modes, and delivered to agentic platforms or displayed in your browser. The system is designed to be run locally and is comprised of Structured Data, an SQLite database \+ index, Python code, an HTML Web Viewer and Agent Skills.
 
 ---
 
 ### Diagram 1: Data Pipeline
 
-- **Diagram Title**: Data Pipeline: Ingestion → Storage & Indexing ↔ Querying Modes → Display  
+- **Diagram Title**: Data Pipeline Architecture  
 - **Caption**: Structural data flow, storage blocks, querying speeds, and interaction platforms  
 - **Supporting Content**:  
   1. **1\. Ingestion Pipeline**:  
@@ -257,12 +255,12 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 ---
 
-## 7\. Interactive Researcher Prompts & Use Cases (`#use-cases`)
+## 7\. Interactive Researcher Prompts (`#use-cases`)
 
 ### Section Header
 
 - **Kicker**: `INTERACTIVE RESEARCHER PROMPTS`  
-- **Title**: Researcher Use Cases & Ready Prompts  
+- **Title**: Researcher Prompts  
 - **Description**: Short, crisp prompts tied directly to research intent. Designed to trigger built-in repository skills—saving time and avoiding over-prompting.  
 - **Interactive Layout**: Arranged as a 3-column horizontal row with single-active vertical expansion. Context 01 is expanded on load, listing its prompts vertically below the graphic; Context 02 and 03 are collapsed showing only their header, graphic, and an `Explore 3 Prompts ↓` button. Clicking any collapsed card smoothly expands it and collapses the previous card.
 
@@ -328,12 +326,12 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 ---
 
-## 8\. Academic Citation & Provenance (`#citation`)
+## 8\. Academic Citation (`#citation`)
 
 ### Section Header
 
 - **Kicker**: `CITING THIS RESOURCE`  
-- **Title**: Academic Citation & Provenance  
+- **Title**: Academic Citation  
 - **Description**: If you use the ISLS Research Repository, the SQLite search indices, or the agentic literature review tools in your scholarship, please cite this project.
 
 ### Format & Badge

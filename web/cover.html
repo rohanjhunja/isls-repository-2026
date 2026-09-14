@@ -13,7 +13,7 @@
 
   <!-- Floating Sticky Header -->
   <header class="cover-header" id="coverHeader">
-    <a href="/" class="header-brand">
+    <a href="./index.html" class="header-brand">
       <div class="header-logo-icon" aria-label="ISLS Violin Chart Logo">
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <line x1="12" y1="2" x2="12" y2="22" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
@@ -28,7 +28,13 @@
       </div>
     </a>
 
-    <nav class="header-nav">
+    <button class="header-accordion-toggle" id="headerAccordionToggle" aria-expanded="false" aria-label="Toggle navigation menu">
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+    </button>
+
+    <nav class="header-nav" id="coverHeaderNav">
       <a href="./viewer.html" class="header-link">Review Viewer</a>
       <a href="./overview.html" class="header-link">10-Year Observatory</a>
       <a href="#local-setup" class="header-btn-setup" title="Jump to 1-Click Local Setup Guide">
@@ -122,7 +128,7 @@
   <!-- The Three Core Pillars of the System (With Real Screenshots) -->
   <main class="content-container" id="project-overview">
     <span class="section-kicker">Project Overview</span>
-    <h2 class="section-title">What the Project Includes</h2>
+    <h2 class="section-title">What's Included</h2>
     <p class="section-desc">
       A researcher-first review system bridging large-scale literature reviews, agentic workflows, and conference group macro analytics.
     </p>
@@ -185,14 +191,14 @@
   <section class="system-desc-section" id="system-description">
     <div class="content-container" style="padding:0;">
       <span class="section-kicker">System Architecture</span>
-      <h2 class="section-title">System Description & Design Foundation</h2>
+      <h2 class="section-title">System Description</h2>
       <p class="section-desc">
         This walks through how the system solves fundamental friction points of large-scale literature synthesis: token wastage, black-box search results, and missing reproducible review protocols.
       </p>
 
       <!-- Sub-block 1: Objective of the project -->
       <div class="desc-sub-block">
-        <h3 class="desc-block-title">Objectives of the Project</h3>
+        <h3 class="desc-block-title">Objectives</h3>
         <p class="desc-block-subtitle">Here’s the three foundational goals guiding the system architecture and workflow design.</p>
 
         <div class="objectives-grid">
@@ -239,7 +245,7 @@
 
       <!-- Sub-block 2: Advances from Current Databases & Tools (3D Flip Cards) -->
       <div class="desc-sub-block">
-        <h3 class="desc-block-title">Advances Beyond Current Tools</h3>
+        <h3 class="desc-block-title">Key Advances</h3>
         <p class="desc-block-subtitle">Key technical advancements solving systemic gaps in official proceedings discovery.</p>
 
         <div class="advances-cards-row">
@@ -257,7 +263,8 @@
                 </div>
                 <div class="advance-flip-hint">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
-                  <span>Hover to see gap bridged ↻</span>
+                  <span class="hint-text-desktop">Hover or tap to see gap bridged ↻</span>
+                  <span class="hint-text-mobile">Tap to see gap bridged ↻</span>
                 </div>
               </div>
 
@@ -273,14 +280,15 @@
                 </p>
                 <div class="advance-flip-back-hint">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
-                  <span>Flip back to Advance</span>
+                  <span class="hint-text-desktop">Flip back to Advance ↻</span>
+                  <span class="hint-text-mobile">Tap to flip back ↻</span>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Advance 02 Flip Card -->
-          <div class="advance-flip-card" tabindex="0" role="button" aria-label="Advance 02: Token-Frugal Agentic Querying at Scale. Click or hover to reveal the gap bridged.">
+          <div class="advance-flip-card" tabindex="0" role="button" aria-label="Advance 02: Token-Frugal Agentic Querying at Scale. Click or tap to reveal the gap bridged.">
             <div class="advance-flip-inner">
               <!-- Front: Advance -->
               <div class="advance-flip-face advance-flip-front">
@@ -293,7 +301,8 @@
                 </div>
                 <div class="advance-flip-hint">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"/></svg>
-                  <span>Hover to see gap bridged ↻</span>
+                  <span class="hint-text-desktop">Hover or tap to see gap bridged ↻</span>
+                  <span class="hint-text-mobile">Tap to see gap bridged ↻</span>
                 </div>
               </div>
 
@@ -309,7 +318,8 @@
                 </p>
                 <div class="advance-flip-back-hint">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="1 4 1 10 7 10"></polyline><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"></path></svg>
-                  <span>Flip back to Advance</span>
+                  <span class="hint-text-desktop">Flip back to Advance ↻</span>
+                  <span class="hint-text-mobile">Tap to flip back ↻</span>
                 </div>
               </div>
             </div>
@@ -370,7 +380,7 @@
   <!-- Walkthrough: Clear Architecture Diagrams -->
   <section class="content-container" id="walkthrough">
     <span class="section-kicker">Technical Walkthrough</span>
-    <h2 class="section-title">Data Pipeline & Technical Architecture</h2>
+    <h2 class="section-title">Data Pipeline</h2>
     <p class="section-desc">
       Here’s a structural diagram illustrating how raw conference proceedings PDFs are transformed into structured data, accessed through 3 querying modes, and delivered to agentic platforms or displayed in your browser. The system is designed to be run locally and is comprised of Structured Data, an SQLite database + index, Python code, an HTML Web Viewer and Agent Skills.
     </p>
@@ -379,13 +389,22 @@
     <div class="diagram-stage-card">
       <div class="diagram-header-row">
         <div>
-          <h3 class="diagram-title">Data Pipeline: Ingestion → Storage &amp; Indexing ↔ Querying Modes → Display</h3>
+          <h3 class="diagram-title">Data Pipeline Architecture</h3>
           <span class="diagram-caption">Structural data flow, storage blocks, querying speeds, and interaction platforms</span>
         </div>
+        <button class="btn-expand-diagram" id="btnExpandDiagram" title="Expand and pan technical architecture chart">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
+          <span>Expand &amp; Pan Chart 🔍</span>
+        </button>
       </div>
 
-      <div class="pipeline-diagram-wrapper">
-        <svg class="pipeline-svg" viewBox="0 0 1024 416" xmlns="http://www.w3.org/2000/svg">
+      <div class="diagram-swipe-hint">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        <span>Swipe horizontally to explore stages • Tap Expand to pan &amp; zoom</span>
+      </div>
+
+      <div class="pipeline-diagram-wrapper" id="pipelineDiagramWrapper" tabindex="0" role="region" aria-label="Architecture Diagram. Swipe horizontally to view full chart, or click Expand to pan and zoom.">
+        <svg class="pipeline-svg" id="mainPipelineSvg" viewBox="0 0 1024 416" xmlns="http://www.w3.org/2000/svg">
           <style>
             text {
               font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -635,13 +654,39 @@
         </div>
       </div>
     </div>
+
+    <!-- Architecture Diagram Expand & Pan Modal -->
+    <div class="diagram-modal" id="diagramModal" aria-hidden="true" role="dialog" aria-label="Expanded Architecture Chart Viewer">
+      <div class="diagram-modal-backdrop" id="diagramModalBackdrop"></div>
+      <div class="diagram-modal-dialog">
+        <div class="diagram-modal-header">
+          <div class="diagram-modal-title-box">
+            <h4 class="diagram-modal-title">Data Pipeline &amp; Technical Architecture</h4>
+            <span class="diagram-modal-tip">Drag to pan • Pinch or use + / − to zoom</span>
+          </div>
+          <div class="diagram-modal-controls">
+            <button class="btn-diag-ctrl" id="btnZoomIn" title="Zoom in" aria-label="Zoom in">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <button class="btn-diag-ctrl" id="btnZoomOut" title="Zoom out" aria-label="Zoom out">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            </button>
+            <button class="btn-diag-ctrl btn-diag-reset" id="btnZoomReset" title="Reset zoom and position">Reset</button>
+            <button class="btn-diag-ctrl btn-diag-close" id="btnCloseDiagModal" title="Close viewer" aria-label="Close viewer">&times;</button>
+          </div>
+        </div>
+        <div class="diagram-modal-viewport" id="diagramModalViewport">
+          <div class="diagram-modal-canvas" id="diagramModalCanvas"></div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <!-- Researcher Use Cases with Shared Image Thumbnails & 2-3 Copyable Prompts -->
   <section class="system-desc-section" id="use-cases">
     <div class="content-container" style="padding:0;">
       <span class="section-kicker">Interactive Researcher Prompts</span>
-      <h2 class="section-title">Researcher Use Cases & Ready Prompts</h2>
+      <h2 class="section-title">Researcher Prompts</h2>
       <p class="section-desc">
         Short, crisp prompts tied directly to research intent. Designed to trigger built-in repository skills—saving time and avoiding over-prompting.
       </p>
@@ -815,7 +860,7 @@
   <!-- 1-Click Local Deployment Section -->
   <section class="content-container" id="local-setup">
     <span class="section-kicker">1-Click Local Deployment</span>
-    <h2 class="section-title">Set Up Locally</h2>
+    <h2 class="section-title">Local Setup</h2>
     <p class="section-desc">
       Run the complete agentic literature review system on your machine with offline SQLite FTS5 search across all 5,402 papers. Compatible with <strong>Google Antigravity</strong> and <strong>Claude Desktop</strong>.
     </p>
@@ -919,7 +964,7 @@
   <!-- Project Citation Section -->
   <section class="content-container" id="citation">
     <span class="section-kicker">Citing This Resource</span>
-    <h2 class="section-title">Academic Citation & Provenance</h2>
+    <h2 class="section-title">Academic Citation</h2>
     <p class="section-desc">
       If you use the ISLS Research Repository, the SQLite search indices, or the agentic literature review tools in your scholarship, please cite this project.
     </p>

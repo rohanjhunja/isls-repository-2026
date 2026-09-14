@@ -162,55 +162,94 @@
       `;
 
       // Hover HUD interaction
-      figWrap.addEventListener("mouseenter", (e) => {
+      const searchUrl = `./viewer.html?keywords=${encodeURIComponent(paper.title)}`;
+
+      // Render HUD content
+      const showFigureHud = (e, isMobileTap = false) => {
         if (!popover) return;
         const authorApa = formatAuthorListApa(paper.authors);
         const isHigh = paper.outlier_type === "Very High";
-        const outlierIcon = isHigh ? "📈 Max Length Outlier" : "📉 Min Length Outlier";
         const badgeLabel = `${isHigh ? "Maxxed" : "Mini"} • ${paper.section}`;
-        
+
         popover.innerHTML = `
           <div class="hud-header-row">
             <span class="hud-genre-badge" style="color:${cfg.stroke}; border-color:${cfg.stroke}55; background:${cfg.stroke}18;">${badgeLabel}</span>
             <span class="hud-year-badge">${paper.conference} ${paper.year} • ${paper.paper_type}</span>
+            ${isMobileTap ? `<button class="hud-close-btn" id="hudCloseBtn" aria-label="Close">&times;</button>` : ""}
           </div>
           <div class="hud-title">${paper.title}</div>
           <div class="hud-authors">${authorApa} (${paper.year})</div>
           <div class="hud-outlier-box">
             <div class="hud-outlier-label">
-              <span>${outlierIcon}</span>
+              <span>${isHigh ? "📈 Max Length Outlier" : "📉 Min Length Outlier"}</span>
               <span style="font-family:var(--font-mono); font-size:0.72rem;">${paper.tokens.toLocaleString()} tk (${paper.pct_of_paper}%)</span>
             </div>
             <div class="hud-outlier-context">${paper.context}</div>
           </div>
-          <div class="hud-action-hint">Click figure to explore paper in Review Viewer ↗</div>
+          ${isMobileTap 
+            ? `<a href="${searchUrl}" class="hud-mobile-action-link">Open in Review Viewer ↗</a>` 
+            : `<div class="hud-action-hint">Click figure to explore paper in Review Viewer ↗</div>`
+          }
         `;
         popover.classList.add("visible");
-        positionHud(e, popover);
+
+        if (isMobileTap) {
+          const closeBtn = popover.querySelector("#hudCloseBtn");
+          if (closeBtn) {
+            closeBtn.addEventListener("click", (ev) => {
+              ev.stopPropagation();
+              popover.classList.remove("visible");
+            });
+          }
+        } else {
+          positionHud(e, popover);
+        }
+      };
+
+      // Desktop Hover HUD interaction
+      figWrap.addEventListener("mouseenter", (e) => {
+        if (window.innerWidth <= 768) return;
+        showFigureHud(e, false);
       });
 
       figWrap.addEventListener("mousemove", (e) => {
+        if (window.innerWidth <= 768) return;
         if (popover && popover.classList.contains("visible")) {
           positionHud(e, popover);
         }
       });
 
       figWrap.addEventListener("mouseleave", () => {
+        if (window.innerWidth <= 768) return;
         if (popover) popover.classList.remove("visible");
       });
 
-      // Click: Open paper in Review Viewer
-      figWrap.addEventListener("click", () => {
-        const searchUrl = `/viewer?keywords=${encodeURIComponent(paper.title)}`;
-        window.open(searchUrl, "_blank");
+      // Click / Tap Handler
+      figWrap.addEventListener("click", (e) => {
+        if (window.innerWidth <= 768) {
+          e.stopPropagation();
+          showFigureHud(e, true);
+        } else {
+          window.open(searchUrl, "_blank");
+        }
       });
 
       stage.appendChild(figWrap);
+    });
+
+    // Close HUD on outside tap for mobile
+    document.addEventListener("click", (e) => {
+      if (window.innerWidth <= 768 && popover && popover.classList.contains("visible")) {
+        if (!popover.contains(e.target) && !e.target.closest(".crowd-figure")) {
+          popover.classList.remove("visible");
+        }
+      }
     });
   }
 
   // HUD Positioning
   function positionHud(e, popover) {
+    if (window.innerWidth <= 768) return;
     const w = 360;
     const h = 210;
     let x = e.clientX + 16;
@@ -431,13 +470,83 @@
     });
   }
 
-  // Advances Section 3D Flip Card Toggle (supports touch and keyboard)
+  // Header Accordion on Mobile (Toggle Navigation Menu)
+  function setupHeaderAccordion() {
+    const toggleBtn = document.getElementById("headerAccordionToggle");
+    const nav = document.getElementById("coverHeaderNav");
+    if (!toggleBtn || !nav) return;
+
+    toggleBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      const isOpen = nav.classList.toggle("is-open");
+      toggleBtn.classList.toggle("is-open", isOpen);
+      toggleBtn.setAttribute("aria-expanded", isOpen ? "true" : "false");
+    });
+
+    // Close on navigation link click
+    nav.querySelectorAll("a, button").forEach((el) => {
+      el.addEventListener("click", () => {
+        nav.classList.remove("is-open");
+        toggleBtn.classList.remove("is-open");
+        toggleBtn.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // Close on click outside
+    document.addEventListener("click", (e) => {
+      if (!nav.contains(e.target) && !toggleBtn.contains(e.target)) {
+        nav.classList.remove("is-open");
+        toggleBtn.classList.remove("is-open");
+        toggleBtn.setAttribute("aria-expanded", "false");
+      }
+    });
+
+    // Close on window scroll
+    window.addEventListener("scroll", () => {
+      if (nav.classList.contains("is-open")) {
+        nav.classList.remove("is-open");
+        toggleBtn.classList.remove("is-open");
+        toggleBtn.setAttribute("aria-expanded", "false");
+      }
+    }, { passive: true });
+  }
+
+  // Advances Section 3D Flip Card Toggle (supports touch, tap and keyboard)
   function setupAdvancesFlipCards() {
     const cards = document.querySelectorAll(".advance-flip-card");
     cards.forEach((card) => {
-      card.addEventListener("click", () => {
+      let touchStartX = 0;
+      let touchStartY = 0;
+      let isTouch = false;
+
+      card.addEventListener("touchstart", (e) => {
+        if (e.touches && e.touches.length === 1) {
+          isTouch = true;
+          touchStartX = e.touches[0].clientX;
+          touchStartY = e.touches[0].clientY;
+        }
+      }, { passive: true });
+
+      card.addEventListener("touchend", (e) => {
+        if (!isTouch) return;
+        if (e.changedTouches && e.changedTouches.length === 1) {
+          const dx = e.changedTouches[0].clientX - touchStartX;
+          const dy = e.changedTouches[0].clientY - touchStartY;
+          // Only trigger flip if it was a clean tap (< 10px movement), not a vertical scroll
+          if (Math.hypot(dx, dy) < 10) {
+            e.preventDefault();
+            card.classList.toggle("is-flipped");
+          }
+        }
+        setTimeout(() => { isTouch = false; }, 300);
+      });
+
+      card.addEventListener("click", (e) => {
+        // Prevent double toggle if touchend already fired
+        if (isTouch) return;
         card.classList.toggle("is-flipped");
       });
+
       card.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
           e.preventDefault();
@@ -445,6 +554,155 @@
         }
       });
     });
+  }
+
+  // Technical Structure Diagram: Expand & Pan Modal (Touch pan, Pinch zoom, Zoom buttons)
+  function setupDiagramModal() {
+    const expandBtn = document.getElementById("btnExpandDiagram");
+    const mainSvg = document.getElementById("mainPipelineSvg");
+    const modal = document.getElementById("diagramModal");
+    const backdrop = document.getElementById("diagramModalBackdrop");
+    const closeBtn = document.getElementById("btnCloseDiagModal");
+    const viewport = document.getElementById("diagramModalViewport");
+    const canvas = document.getElementById("diagramModalCanvas");
+    const btnZoomIn = document.getElementById("btnZoomIn");
+    const btnZoomOut = document.getElementById("btnZoomOut");
+    const btnZoomReset = document.getElementById("btnZoomReset");
+
+    if (!expandBtn || !modal || !viewport || !canvas || !mainSvg) return;
+
+    let scale = 1;
+    let translateX = 0;
+    let translateY = 0;
+    let isDragging = false;
+    let startX = 0;
+    let startY = 0;
+    let initialPinchDistance = 0;
+    let initialPinchScale = 1;
+
+    function updateTransform() {
+      canvas.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
+    }
+
+    function resetView() {
+      const vpRect = viewport.getBoundingClientRect();
+      const svgW = 1024;
+      const svgH = 416;
+      const fitScale = Math.min((vpRect.width - 32) / svgW, (vpRect.height - 32) / svgH);
+      scale = Math.max(0.65, Math.min(fitScale, 1.25));
+      translateX = (vpRect.width - svgW * scale) / 2;
+      translateY = (vpRect.height - svgH * scale) / 2;
+      updateTransform();
+    }
+
+    function openModal() {
+      if (!canvas.hasChildNodes()) {
+        const clone = mainSvg.cloneNode(true);
+        clone.id = "clonedPipelineSvg";
+        canvas.appendChild(clone);
+      }
+      modal.classList.add("is-active");
+      modal.setAttribute("aria-hidden", "false");
+      document.body.style.overflow = "hidden";
+      requestAnimationFrame(() => {
+        resetView();
+      });
+    }
+
+    function closeModal() {
+      modal.classList.remove("is-active");
+      modal.setAttribute("aria-hidden", "true");
+      document.body.style.overflow = "";
+    }
+
+    expandBtn.addEventListener("click", openModal);
+
+    if (closeBtn) closeBtn.addEventListener("click", closeModal);
+    if (backdrop) backdrop.addEventListener("click", closeModal);
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && modal.classList.contains("is-active")) {
+        closeModal();
+      }
+    });
+
+    // Zoom buttons
+    if (btnZoomIn) {
+      btnZoomIn.addEventListener("click", () => {
+        scale = Math.min(scale * 1.3, 3.8);
+        updateTransform();
+      });
+    }
+    if (btnZoomOut) {
+      btnZoomOut.addEventListener("click", () => {
+        scale = Math.max(scale / 1.3, 0.35);
+        updateTransform();
+      });
+    }
+    if (btnZoomReset) {
+      btnZoomReset.addEventListener("click", resetView);
+    }
+
+    // Pointer Drag Panning
+    viewport.addEventListener("pointerdown", (e) => {
+      isDragging = true;
+      startX = e.clientX - translateX;
+      startY = e.clientY - translateY;
+      viewport.classList.add("is-dragging");
+      viewport.setPointerCapture(e.pointerId);
+    });
+
+    viewport.addEventListener("pointermove", (e) => {
+      if (!isDragging) return;
+      translateX = e.clientX - startX;
+      translateY = e.clientY - startY;
+      updateTransform();
+    });
+
+    const endDrag = (e) => {
+      if (isDragging) {
+        isDragging = false;
+        viewport.classList.remove("is-dragging");
+        try { viewport.releasePointerCapture(e.pointerId); } catch(err) {}
+      }
+    };
+
+    viewport.addEventListener("pointerup", endDrag);
+    viewport.addEventListener("pointercancel", endDrag);
+
+    // Touch Pinch to Zoom
+    viewport.addEventListener("touchstart", (e) => {
+      if (e.touches.length === 2) {
+        isDragging = false;
+        const dx = e.touches[0].clientX - e.touches[1].clientX;
+        const dy = e.touches[0].clientY - e.touches[1].clientY;
+        initialPinchDistance = Math.hypot(dx, dy);
+        initialPinchScale = scale;
+      }
+    }, { passive: true });
+
+    viewport.addEventListener("touchmove", (e) => {
+      if (e.touches.length === 2 && initialPinchDistance > 0) {
+        const dx = e.touches[0].clientX - e.touches[1].clientX;
+        const dy = e.touches[0].clientY - e.touches[1].clientY;
+        const currentDistance = Math.hypot(dx, dy);
+        const factor = currentDistance / initialPinchDistance;
+        scale = Math.max(0.35, Math.min(initialPinchScale * factor, 4.0));
+        updateTransform();
+      }
+    }, { passive: true });
+
+    viewport.addEventListener("touchend", () => {
+      initialPinchDistance = 0;
+    }, { passive: true });
+
+    // Wheel zoom
+    viewport.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      const zoomFactor = e.deltaY < 0 ? 1.15 : 0.88;
+      scale = Math.max(0.35, Math.min(scale * zoomFactor, 4.0));
+      updateTransform();
+    }, { passive: false });
   }
 
   // Researcher Prompts 3-Card Row Accordion (Single Active Expanded)
@@ -477,7 +735,9 @@
     setupClipboardActions();
     setupHeaderScroll();
     setupHeroInfoGuide();
+    setupHeaderAccordion();
     setupAdvancesFlipCards();
+    setupDiagramModal();
     setupUseCaseAccordion();
     initMermaid();
   }

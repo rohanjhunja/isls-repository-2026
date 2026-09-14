@@ -125,6 +125,7 @@
 
   // Network Controls
   const networkMinWeight = document.getElementById('networkMinWeight');
+  const btnResetNetwork = document.getElementById('btnResetNetwork');
 
   // Knowledge Lineage State & Elements
   let currentLineageFilter = 'all'; // 'all', 'citations', 'collaborations'
@@ -365,6 +366,34 @@
   }
 
   function bindEvents() {
+    // Header Mobile Accordion Toggle
+    const headerToggle = document.getElementById('overviewHeaderToggle');
+    const headerLinks = document.getElementById('overviewHeaderLinks');
+    if (headerToggle && headerLinks) {
+      headerToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = headerLinks.classList.toggle('is-open');
+        headerToggle.classList.toggle('is-open', isOpen);
+        headerToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+      });
+
+      headerLinks.querySelectorAll('a').forEach((link) => {
+        link.addEventListener('click', () => {
+          headerLinks.classList.remove('is-open');
+          headerToggle.classList.remove('is-open');
+          headerToggle.setAttribute('aria-expanded', 'false');
+        });
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!headerLinks.contains(e.target) && !headerToggle.contains(e.target)) {
+          headerLinks.classList.remove('is-open');
+          headerToggle.classList.remove('is-open');
+          headerToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
     // Floating Drawer Open / Close
     if (btnOpenControls) {
       btnOpenControls.addEventListener('click', openFilterDrawer);
@@ -519,6 +548,15 @@
       });
     }
 
+    // Network Reset View Button
+    if (btnResetNetwork) {
+      btnResetNetwork.addEventListener('click', () => {
+        networkCurrentZoom = 1.0;
+        clearTimeout(networkRoamTimer);
+        loadNetworkChart();
+      });
+    }
+
     // Knowledge Lineage Filter Toggles
     if (btnLineageAll) {
       btnLineageAll.addEventListener('click', () => {
@@ -647,9 +685,16 @@
         };
       });
 
-      // Allow plenty of vertical room for wrapped multi-line legend items
-      const isMultiRow = seriesList.length > 5;
-      const gridTop = isMultiRow ? 76 : 46;
+      // Allow plenty of vertical room and margin for wrapped multi-line legend items so they never obscure y-axis label
+      const seriesCount = seriesList.length;
+      let gridTop = 64;
+      if (seriesCount > 8) {
+        gridTop = 148;
+      } else if (seriesCount > 5) {
+        gridTop = 118;
+      } else if (seriesCount > 2) {
+        gridTop = 88;
+      }
 
       const option = {
         backgroundColor: 'transparent',
@@ -701,11 +746,12 @@
         legend: {
           type: 'plain', // Wrapped without pagination arrows
           orient: 'horizontal',
-          top: 0,
+          top: 6,
           left: 'center',
           itemGap: 14,
           itemWidth: 12,
           itemHeight: 12,
+          padding: [4, 16, 12, 16],
           textStyle: {
             color: '#334155',
             fontFamily: 'Inter, sans-serif',
@@ -735,11 +781,14 @@
           name: currentMode === 'relative'
             ? '100% Proportional Share of Selection (%)'
             : (currentMode === 'conference' ? '% of Total Conference Papers' : 'Published Papers (Count)'),
+          nameLocation: 'end',
+          nameGap: 18,
           nameTextStyle: {
             color: '#475569',
             fontFamily: 'Inter, sans-serif',
             fontWeight: 600,
-            fontSize: 11
+            fontSize: 11,
+            padding: [0, 0, 6, 0]
           },
           max: (currentMode === 'relative') ? 100 : null,
           min: 0,
@@ -789,7 +838,24 @@
       const data = await res.json();
       chart.hideLoading();
 
-      const scatterData = data.points.map(pt => [
+      // Filter out Computer-Supported Collaborative Learning since the conference is centered on it
+      const rawPoints = data.points || [];
+      const filteredPoints = rawPoints.filter(pt => {
+        const lbl = (pt.label || '').toLowerCase();
+        return !lbl.includes('computer-support') && !lbl.includes('cscl');
+      });
+
+      // Recalculate medians for filtered points
+      let medianCentrality = data.median_centrality;
+      let medianDensity = data.median_density;
+      if (filteredPoints.length > 0) {
+        const counts = filteredPoints.map(p => p.density).sort((a, b) => a - b);
+        const centralities = filteredPoints.map(p => p.centrality).sort((a, b) => a - b);
+        medianDensity = counts[Math.floor(counts.length / 2)];
+        medianCentrality = centralities[Math.floor(centralities.length / 2)];
+      }
+
+      const scatterData = filteredPoints.map(pt => [
         pt.centrality,
         pt.density,
         pt.quadrant_num,
@@ -840,6 +906,13 @@
         },
         xAxis: {
           type: 'value',
+          scale: true,
+          min: function(value) {
+            return Math.max(10, Math.floor(value.min - 3));
+          },
+          max: function(value) {
+            return Math.ceil(value.max + 2);
+          },
           name: 'Cross-Topic Centrality (External Connectivity / Interdisciplinarity) ➔',
           nameLocation: 'middle',
           nameGap: 32,
@@ -859,6 +932,13 @@
         },
         yAxis: {
           type: 'value',
+          scale: true,
+          min: function(value) {
+            return Math.max(0, Math.floor(value.min * 0.7));
+          },
+          max: function(value) {
+            return Math.ceil(value.max * 1.06);
+          },
           name: 'Internal Research Density (Publication Volume / Cohesion) ➔',
           nameLocation: 'middle',
           nameGap: 45,
@@ -880,7 +960,7 @@
           {
             type: 'scatter',
             symbolSize: function(val) {
-              return Math.min(68, Math.max(18, Math.sqrt(val[1]) * 2.6));
+              return Math.min(26, Math.max(10, Math.sqrt(val[1]) * 1.2));
             },
             data: scatterData,
             label: {
@@ -889,12 +969,17 @@
                 return params.data[3];
               },
               position: 'top',
+              distance: 5,
               color: '#0f172a',
               fontFamily: 'Inter, sans-serif',
               fontWeight: 600,
-              fontSize: 11,
+              fontSize: 10.5,
               textBorderColor: '#ffffff',
               textBorderWidth: 2
+            },
+            labelLayout: {
+              hideOverlap: true,
+              moveOverlap: 'shiftY'
             },
             itemStyle: {
               color: function(params) {
@@ -904,9 +989,11 @@
                 if (q === 3) return '#2563eb'; // Basic: Blue
                 return '#d97706'; // Emerging: Amber
               },
-              opacity: 0.88,
-              shadowBlur: 10,
-              shadowColor: 'rgba(0, 0, 0, 0.12)'
+              opacity: 0.85,
+              borderColor: '#ffffff',
+              borderWidth: 1.5,
+              shadowBlur: 6,
+              shadowColor: 'rgba(0, 0, 0, 0.10)'
             },
             markLine: {
               silent: true,
@@ -917,18 +1004,18 @@
               },
               data: [
                 {
-                  xAxis: data.median_centrality,
+                  xAxis: medianCentrality,
                   label: {
-                    formatter: 'Median Centrality (' + data.median_centrality + ')',
+                    formatter: 'Median Centrality (' + medianCentrality + ')',
                     color: '#64748b',
                     fontFamily: 'Inter, sans-serif',
                     fontSize: 10
                   }
                 },
                 {
-                  yAxis: data.median_density,
+                  yAxis: medianDensity,
                   label: {
-                    formatter: 'Median Density (' + data.median_density + ')',
+                    formatter: 'Median Density (' + medianDensity + ')',
                     color: '#64748b',
                     fontFamily: 'Inter, sans-serif',
                     fontSize: 10
@@ -1548,67 +1635,9 @@
       }
       bpData = await res.json();
 
-      // Grouping Toggles (Recent Years vs Cohort Eras vs All Years)
-      const groupingToggles = document.getElementById('bpGroupingToggles');
-      if (groupingToggles) {
-        groupingToggles.querySelectorAll('button').forEach(btn => {
-          btn.addEventListener('click', () => {
-            groupingToggles.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            bpActiveGrouping = btn.getAttribute('data-grouping') || 'recent';
-            renderYearComparisonStage();
-          });
-        });
-      }
+      bpActiveOutlierGenre = 'all';
+      bpActiveOutlierType = 'All';
 
-      // Lineup Column Toggles (Full vs Short vs Other)
-      const lineupToggles = document.getElementById('bpLineupTypeToggles');
-      if (lineupToggles) {
-        lineupToggles.querySelectorAll('button').forEach(btn => {
-          btn.addEventListener('click', () => {
-            const col = btn.getAttribute('data-col');
-            if (!col) return;
-            if (bpActiveLineupCols.has(col)) {
-              if (bpActiveLineupCols.size > 1) {
-                bpActiveLineupCols.delete(col);
-                btn.classList.remove('active');
-              }
-            } else {
-              bpActiveLineupCols.add(col);
-              btn.classList.add('active');
-            }
-            renderYearComparisonStage();
-          });
-        });
-      }
-
-      // Outlier Genre Filters (All vs Full vs Short vs Other)
-      const genreFilters = document.getElementById('bpOutlierGenreFilters');
-      if (genreFilters) {
-        genreFilters.querySelectorAll('button').forEach(btn => {
-          btn.addEventListener('click', () => {
-            genreFilters.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            bpActiveOutlierGenre = btn.getAttribute('data-genre') || 'all';
-            renderOutlierThumbnails();
-          });
-        });
-      }
-
-      // Outlier Type Filters (All vs Max vs Min)
-      const outlierFilters = document.getElementById('bpOutlierTypeFilters');
-      if (outlierFilters) {
-        outlierFilters.querySelectorAll('button').forEach(btn => {
-          btn.addEventListener('click', () => {
-            outlierFilters.querySelectorAll('button').forEach(b => b.classList.remove('active'));
-            btn.classList.add('active');
-            bpActiveOutlierType = btn.getAttribute('data-type') || 'All';
-            renderOutlierThumbnails();
-          });
-        });
-      }
-
-      renderYearComparisonStage();
       renderOutlierThumbnails();
 
     } catch (err) {
@@ -1934,7 +1963,7 @@
 
         <!-- Action Link -->
         <div style="margin-top: 20px; text-align: right;">
-          <a href="/index.html?q=${encodeURIComponent(o.title)}" target="_blank" style="display:inline-flex; align-items:center; gap:6px; font-size:0.80rem; font-weight:700; color:var(--primary); text-decoration:none; padding:8px 14px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:6px;">
+          <a href="./viewer.html?keywords=${encodeURIComponent(o.title)}" target="_blank" style="display:inline-flex; align-items:center; gap:6px; font-size:0.80rem; font-weight:700; color:var(--primary); text-decoration:none; padding:8px 14px; background:#eff6ff; border:1px solid #bfdbfe; border-radius:6px;">
             🔍 Open in Literature Review Viewer ↗
           </a>
         </div>
