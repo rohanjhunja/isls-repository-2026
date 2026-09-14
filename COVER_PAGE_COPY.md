@@ -145,36 +145,55 @@ Arranged as a perspective crowd in depth layers (`bg`, `mg`, `fg`), each figure 
 
 #### 1\. Enable Deep and Wide Literature Reviews
 
-Moves beyond title and abstract scanning. Enabling researchers to screen 100% of paper text in seconds. Agentic capabilities allow researchers to compose complex search queries and exclusion criteria easily \- going beyond the User Interface affordances of most common search indexes.
+Moves beyond title and abstract scanning. Enabling researchers to screen 100% of paper text in seconds.
+
+Agentic capabilities allow researchers to compose complex search queries and exclusion criteria easily — going beyond the User Interface affordances of most common search indexes.
 
 #### 2\. Support New Entrants to ISLS
 
-The system is designed to support graduate students and cross-disciplinary newcomers in quickly getting a wide snapshot of their learning science interests. The project also helps new writers get a sense of word budgets and commonly used section structures across ISLS published research.
+The system is designed to support graduate students and cross-disciplinary newcomers in quickly getting a wide snapshot of their learning science interests.
+
+The project also helps new writers get a sense of word budgets and commonly used section structures across ISLS published research.
 
 #### 3\. Explore Limits of Agentic Protocols
 
-This project tests how autonomous AI agents can execute rigorous qualitative and quantitative literature review protocols. We explore the balance between generative output and deterministic code.
+This project tests how autonomous AI agents can execute rigorous qualitative and quantitative literature review protocols.
+
+We explore the balance between generative output and deterministic code.
 
 ---
 
-### Subsection B: Advances Beyond Current Tools (Cards in a Row)
+### Subsection B: Advances Beyond Current Tools (3D Flip Cards)
 
 - **Title**: Advances Beyond Current Tools  
 - **Subtitle**: Key technical advancements solving systemic gaps in official proceedings discovery.
+- **Interaction**: Progressive disclosure via smooth 3D perspective flip on hover or tap.
 
 #### Advance 01: Full-Text and Canonical Section Search
 
-- **Badge**: `ADVANCE 01`  
-- **Lead Heading**: Full-Text and Canonical Section Search  
-- **Lead Copy**: Researchers can immediately find papers with target keywords across the full text. They can also identify where keyword matches are found across canonical paper section, offering clearer relevancy.  
-- **The Gap Bridged**: The standard search on [isls.org](http://isls.org) (September 2026\) only indexes paper titles and author abstracts.
+- **Front Face (The Advance)**:
+  - **Badge**: `ADVANCE 01`  
+  - **Heading**: Full-Text and Canonical Section Search  
+  - **Description**: Researchers can immediately find papers with target keywords across the full text. They can also identify where keyword matches are found across canonical paper section, offering clearer relevancy.  
+  - **Action Hint**: `✦ Hover to see gap bridged ↻`
+- **Back Face (The Gap Bridged)**:
+  - **Badge**: `THE GAP BRIDGED`  
+  - **Heading**: What Standard Proceedings Discovery Misses  
+  - **Text**: The standard search on isls.org (September 2026) only indexes paper titles and author abstracts.  
+  - **Action Hint**: `↺ Flip back to Advance`
 
 #### Advance 02: Token-Frugal Agentic Querying at Scale
 
-- **Badge**: `ADVANCE 02`  
-- **Lead Heading**: Token-Frugal Agentic Querying at Scale  
-- **Lead Copy**: The system is engineered for autonomous AI agents to query and synthesize across a 4 Million token repository without hitting context window limits. With structured paper data agents can check for information sequentially without burning tokens.  
-- **The Gap Bridged**: Prompting agents to handle large repositories often lead to errors and redundant data handling. The system includes skills defined for agents to access the repository through defined methods and to store data in defined formats \- these support researchers with clear research protocols.
+- **Front Face (The Advance)**:
+  - **Badge**: `ADVANCE 02`  
+  - **Heading**: Token-Frugal Agentic Querying at Scale  
+  - **Description**: The system is engineered for autonomous AI agents to query and synthesize across a 4 Million token repository without hitting context window limits. With structured paper data agents can check for information sequentially without burning tokens.  
+  - **Action Hint**: `✦ Hover to see gap bridged ↻`
+- **Back Face (The Gap Bridged)**:
+  - **Badge**: `THE GAP BRIDGED`  
+  - **Heading**: What Standard Large Context Prompts Miss  
+  - **Text**: Prompting agents to handle large repositories often lead to errors and redundant data handling. The system includes skills defined for agents to access the repository through defined methods and to store data in defined formats - these support researchers with clear research protocols.  
+  - **Action Hint**: `↺ Flip back to Advance`
 
 ---
 
@@ -244,7 +263,8 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 - **Kicker**: `INTERACTIVE RESEARCHER PROMPTS`  
 - **Title**: Researcher Use Cases & Ready Prompts  
-- **Description**: Short, crisp prompts tied directly to research intent. Designed to trigger built-in repository skills—saving time and avoiding over-prompting.
+- **Description**: Short, crisp prompts tied directly to research intent. Designed to trigger built-in repository skills—saving time and avoiding over-prompting.  
+- **Interactive Layout**: Arranged as a 3-column horizontal row with single-active vertical expansion. Context 01 is expanded on load, listing its prompts vertically below the graphic; Context 02 and 03 are collapsed showing only their header, graphic, and an `Explore 3 Prompts ↓` button. Clicking any collapsed card smoothly expands it and collapses the previous card.
 
 ---
 

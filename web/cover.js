@@ -431,11 +431,54 @@
     });
   }
 
+  // Advances Section 3D Flip Card Toggle (supports touch and keyboard)
+  function setupAdvancesFlipCards() {
+    const cards = document.querySelectorAll(".advance-flip-card");
+    cards.forEach((card) => {
+      card.addEventListener("click", () => {
+        card.classList.toggle("is-flipped");
+      });
+      card.addEventListener("keydown", (e) => {
+        if (e.key === "Enter" || e.key === " ") {
+          e.preventDefault();
+          card.classList.toggle("is-flipped");
+        }
+      });
+    });
+  }
+
+  // Researcher Prompts 3-Card Row Accordion (Single Active Expanded)
+  function setupUseCaseAccordion() {
+    const cards = document.querySelectorAll(".use-case-card");
+    cards.forEach((card) => {
+      card.addEventListener("click", (e) => {
+        // Prevent toggle if clicking inside a copy button or link
+        if (e.target.closest(".btn-copy-prompt") || e.target.closest("a")) {
+          return;
+        }
+        if (card.classList.contains("is-collapsed")) {
+          cards.forEach((c) => {
+            c.classList.remove("is-expanded");
+            c.classList.add("is-collapsed");
+            const btn = c.querySelector(".use-case-expand-btn");
+            if (btn) btn.setAttribute("aria-expanded", "false");
+          });
+          card.classList.remove("is-collapsed");
+          card.classList.add("is-expanded");
+          const btn = card.querySelector(".use-case-expand-btn");
+          if (btn) btn.setAttribute("aria-expanded", "true");
+        }
+      });
+    });
+  }
+
   function init() {
     initSilhouetteCrowd();
     setupClipboardActions();
     setupHeaderScroll();
     setupHeroInfoGuide();
+    setupAdvancesFlipCards();
+    setupUseCaseAccordion();
     initMermaid();
   }
 
