@@ -1,0 +1,45 @@
+# A Prosodic Exploration of Academic Shame
+
+**Conference:** ICLS 2020
+
+## Abstract & Introduction
+
+### Abstract
+The current study explored the unique vocalization patterns exhibited under the influence of the self-conscious emotion shame. A “think-aloud” protocol was utilized in which participants vocalized their thoughts before and after an experience of “academic shame.” Results revealed statistically significant differences in prosodic units before and after a shame experience.
+
+A Prosodic Exploration of Academic Shame Jeremiah Sullins, Lucy Grace Camp, Anna Little, Laura Waldron, and Ashlyn Wil son jsullins@harding.edu, lcamp@harding.edu, alittle2@harding.edu, awaldron2@harding.edu, awilson17@harding.edu Harding University Abstract: The current study explored the unique vocalization patterns  exhibited under the influence of the self-conscious emotion shame. A “think-aloud” protocol was utilized in which participants vocalized their thoughts before and after an ex perience of “academic shame.” Results revealed statistically significant differences in prosod ic units before and after a shame experience.
+
+## Theoretical framework
+
+Research within the context of prosodic variation in oral communication  with a focus on emoti ons has a rich history in recent decades (Kehrein, 2002; Truong, Westerhof, & Lamers, de Jong, & Sools, 2013). However, gaps exists in the literature related to shame (Turner & Husman, 2008). Although there is no universally accepted definition of shame, for the purposes of this manuscript, shame is defined as an a cutely painful affective state related to perceived failure relative to one’s internal rules, ideals, goals, or  standards (Turner, Husman, & Schallert, 2002) The current study focuses specifically  on “academic” shame, which is shame that occurs in an educational context. The reason for focusing on academic shame is due to the detrim ental impact that shame has been shown to have relate d to educational progress. More specifically, according to Tangney (2002) “…shame can seriously undermine children’s ability to learn in a challenging environment by le ssening their chance of success in future endeavors. Feeling shame, children often simply stop trying.” (p.  187). To help fill the gap in the extant literature  on this important emotion, the current manuscript sought to answer the following questi on: “Are there differences in speech data preceding a shame experience in comparison wit h speech data following a shame experience?”
+
+## Participants
+
+Participants consisted of 60  undergraduate students  at a private liberal arts institution located in the southern United States. They were given extra credit towards their general psychology cla ss for their participation. Materials Aptitude test The aptitude test was developed using example ACT verbal and quantitative problems that  were obtained from the official ACT website (ACT, n.d.).
+
+Experiential shame scale According to Turner (2014), the Experiential Shame Scale (ESS) is “an opaque measure of physical, emotional, and social markers of shame experiences...developed to address the difficul ties of assessing state shame.” The ESS consists of eleven questions in which the test taker indicates the number that bes t describes how they feel right now when comparing two opposite word states. For example, “Physically, I fee l [Very Warm 1--2--3--4-5--6--7 Very Cool]”.
+
+## Procedure
+
+Following the informed consent, participants were given a practice th ink-aloud passage to ensure the participant was aware of what would be expected of them during the experiment. The instructions read to the participants were as follows: “Please take the next minute to describe in as much detai l your thoughts regarding the passage that you just read. It is very important that you go into as much detail as possible. We would l ike for you to say whatever thoughts you may have along with any emotions you may be experiencing and why. Please  continue to say everything that goes through your mind for the full one minute. Even if you feel that  you have said all you need to say, please continue thinking about the passage and saying anything that comes to mind. L et me know if you have any questions at this time. Thank you!” Following the pr actice passage, al l participants read a passage outlining  the history of the university where the study was conducted. Thi s passage served as the  control condition. The instructions for the history passage were identical to the ones for the practice passag e except for the time allotted to think-aloud. More specifically, in the practice passage, participants were given one minute, while in the history passage, they were given three minutes. All audio was recorded during this portion of the study. After com pletion of the think-aloud protocol, participants were instructed to complete practice A CT problems. The participants did not know that the problems were practice ACT problems. They were  told that the test was an aptitude assessment was that predictive of their overall intelligence.  The test was given electronically via Forms in Google Drive. Participants were given 20 minutes to complete the test. After participants completed and submitted the test, they wer e given false feedback that  stated they had scor ed a 40% whereas the average student up to that point had scored a 90%. Previous research has found this procedure to b e an effective method for inducing a state of academic shame (Author, 2018; 2019). Once the participants received their false feedback on the “aptitude test”, they were gi ven the ESS to record the amount of “in-the-moment” shame they were experiencing. After completing the ESS, the participants were read instructions similar to the history passage in which they were told to take three minutes to say everything they were thinking about the test and their performance on the test. All audio was recor ded during this portion of the study.
+
+Following completion of the think-aloud protocol for the aptitude test, participants were debriefed and were allowed to leave. It warrants mentioning that during debriefing, an e mphasis was placed on letting the participants know that the score they were given on the aptitude test was false and was in fact not r elated to their intelligence, aptitude, or ability. Additionally, they were given the contact infor mation for the university counseling center if needed.
+
+## Results
+
+All speech data  were analyzed using  Praat (Boersma & Weenink, n.d.).  To explore any differences in verbal characteristics before and after a shame experience, a paired samples t-test was utilized. Results revealed a significant difference in Mean Frequency (Hz) before a shame experience (M = 163.52) and after a shame experience (M = 103.25), t (59) = 7.83, p <.001, d = 1.01. Additionally, a significant difference was discovered in Minimum (Hz) before a shame experience (M = 24.30) and after a shame experienc e (M  = 14.57), t (59) = 3.25, p =.002, d =.42. It was also discovered that the maximum (Hz) was significantly higher bef ore a shame experience (M = 532.76) compared to after a shame experience (M = 403.08), t (59) = 6.17, p <.001, d =.80. Participants also demonstrated  significantly higher mean energy (dB) before a shame experience (M = 53.29) compared to after a shame experience (M = 47.88), t (59) = 13.28, p <.001, d = 1.72. Lastly, a significant difference was discovered in minimum (dB) before a shame experience (M = 42.75) and after a shame experience (M = 41.83), t (59) = 2.73, p =.008, d =.35.
+
+## Discussion
+
+After a shame experience, participants: 1) spoke at a significantly lower pitch, 2) were speaking in a more monotone form, and 3) spoke significantly quieter than before experiencing “academic shame.” The results from the current study shed additional light on the complex self-conscious emotion of shame.
+
+## References
+
+ACT (n.d.) Practice test questions. Retrieved from www.act.org Boersma, P., & Weenink, D. (n.d.) Praat: Doing phonetics by computer. Retrieved from www.praat.org Kehrein, R. 2002). The prosody of authentic emotions. In B. Bel & I. Marlien (Eds.), Proceedings of the Speech Prosody 2002 Conference (pp. 423-426). Aix-en-Provence, France: Universite de Provence. Truong, K. P., Westerhof, G. J., Lamers, S. M., de Jong, F., & Sools, A. (2013). Emotional expression in oral history narratives: Comparing results of automated verbal a nd nonverbal analyses. Workshop on Computational Models of Narrative, 310-314.
+
+Turner, J. E. (2014). Researching state shame with the experiential shame scale. Journal of Psychology, 148, 577– 601.
+
+Turner, J. E., & Husman, J. (2008). Emotional and cognitive self-regulation following academic shame. Journal of Advanced Academics, 20, 138–173.
+
+Turner, J. E., Husman, J., & Schallert, D. L. (2002). The importance of student s’ goals in their emotional experience of academic failure: Investigating the pre cursors and consequences of shame. Educational Psychologist, 37, 79 – 89.
+

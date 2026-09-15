@@ -1,0 +1,43 @@
+# Pre-Service Teachers’ Growth in Epistemic Cognition Through Learning Pedagogical Knowledge
+
+**Conference:** ISLS 2022
+
+## Abstract & Introduction
+
+### Abstract
+This study examined pre-service teachers’ growth in epistemic cognition by learning pedagogical knowledge. We evaluated whether pre-service teachers could describe a classroom practice’s aim, processes, and ideals coherently by referring to the pedagogical knowledge they had learned in a course on learning theories. The results suggested that they did not necessarily recognize that aims, processes, and ideals should be coherent as components of the lesson.
+
+ICLS2022 Proceedings  © ISLS 1930 Pre-service Teachers’ Growth in Epistemic Cognition  through Learning Pedagogical Knowledge Miho Kawasaki, Jun Oshima, Ritsuko Oshima kawasaki.miho@shizuoka.ac.jp, joshima@inf.shizuoka.ac.jp, roshima@inf.shizuoka.ac.jp RECLS, Shizuoka University Abstract: This study examined pre-service teachers’ growth in epistemic cognition by learning pedagogical knowledge. We evaluated whether pre-service teachers could describe a classroom practice’s aim, processes, and ideals coherently by referring to the pedagogical knowledge they had learned in a course on learning theories. The results suggested that they did not necessarily recognize that aims, processes, and ideals should be coherent as components of the lesson.
+
+## Background and Research Purpose
+
+Many studies in recent years have focused on how te achers promote adaptive epistemic cognition. Episte mic cognition is important for teachers to reflect on existing teaching practices and improve them (Lunn Brownlee et al., 2017).  Barnes and Fives (2020) investigated in-service teachers’ epistemic cognition as the teachers evaluated students’ classroom assessments and revealed that t he components of epistemic cognition, including epistemic Aims and value, epistemic Ideals, and Reliable processes  (Chinn et al., 2014), emerged in these teachers’ assessment processes. However, the teachers rarely justified the reliable processes by citing a source  to support their use. Accordingly, preparing teachers to ground their decisions in scientific theories as well as in their own experiences and observations would be a critical focus in pre-service teacher education (Hartmann et al., 2021). In line with these studies, this study examines whether understanding scientific theories about teaching and learning could promote pre-service teachers’ ep istemic cognition. We particularly focused on pre-s ervice teachers’ cognitive engagement in epistemic performance, identified as an aspect of apt epistemic perf ormance (Barzilai & Chinn, 2018). The purpose of our resear ch was to reveal pre-service teachers’ growth in ep istemic performance through learning pedagogical knowledge when they have epistemic aims to interpret one reco rded lesson presented by video. As a reliable process fo r this task, we evaluated whether pre-service teach ers candescribe the lesson’s aim, processes, and ideals coherently by referring to the pedagogical knowledge they learned.
+
+## Course Description, Participants and Video-based Evaluation
+
+The course that was used in this study comprised a three-day summer intensive course on the design of classroom lessons for 21st century skills. Eighteen university students took the course as part of their program requirements. The course comprised three modules, in which studen ts learned knowledge-centered approach, collaborati ve learning, and self-regulated learning. Their activities in each module were designed as collaborative multiple text integration using Jigsaw method.
+
+The same video was used to measure pre-service teachers’ situation-specific epistemic cognition at the beginning and end of the course, which helped us evaluate their growth after taking the course. The video was a summary of a science lesson on weather and pressure. It was about eleven minutes long. In the video, a n experienced female teacher taught eighth-grade students. The students watched the video twice and were  asked to describe on their worksheets (1) what they notic ed as aims of the lesson, (2) what they noticed as reliable processes, and (3) what they noticed as ideals. The evaluation procedure took about forty minutes in total.
+
+## Data Analysis
+
+We developed a coding scheme to capture description s of the lesson’s aims, processes, and ideals based  on pedagogical knowledge that students could have learned through the three modules of our course. In terms of the lesson’s aim, we assessed whether the overall goal of the lesson was described. For the processes and ideals, the descriptions were evaluated from the viewpoint of e ach of the three modules: knowledge-centered approa ch, collaboration, and self-regulation (1 point for each valid description, 0.5 point for partially valid description).
+
+## Results
+
+Almost all students could describe the lesson’s aim  at the pretest (valid: eight students, partially v alid: nine students), and at the posttest (valid: thirteen stu dents, partially valid: four students). We analyzed  whether the ICLS2022 Proceedings  © ISLS 1931 students could describe the lesson’s processes and ideals coherently. Figure 1 shows the average score s for the processes and ideals. We conducted a three-factor w ithin-subjects ANOVA for each scale on time (pretest/posttest), modules (knowledge-centered/col laboration/self-regulation), and components (processes/ideals). Significant main effects were i dentified for the time factor (F(1,17)=38.08, p<.001), and module factors (F(2,34)=13.67, p<.001). The total average score increased from pretest to posttest, and multiple comparisons showed significant differences in the m odule factor (self-regulation > knowledge > collabo ration, p=.05). Furthermore, a simple interaction effect bet ween modules and components was found (F(2,34)=5.09, p<.05), and multiple comparisons showed significant differences in the knowledge module (processes > ide als, p<=05), in the process component (knowledge, self-regulation > collaboration, p=.05), and in the ideal component (self-regulation > knowledge, collaboration, p<.05). In the knowledge module, the results showed that the preservice teachers did not necessarily examine the presented lesson from the viewpoints of both processes and ideals. Figure 1
+
+## Discussion
+
+The findings indicate that pre-service teachers lea rned to explain the lesson using supportive learnin g theories during our course. Regarding the knowledge module, they did not necessarily grasp that aims, processes, and ideals should be cohesive as lesson components and tended to focus on processes rather than on ideals.  Thus, it was found that our course should be redesigned to support pre-service teachers’ epistemic growth in the awareness of coherence among this component. Additionally, th e background of those outcomes should be examined b y further analysis of the process data, such as the recordings of group discussions or worksheets during our course. Finally, epistemic aims that our students may have had when performing the evaluation task should also  be considered. Redesigning the course to promote metac ognitive aspects of apt epistemic performance would  be beneficial for educating pre-service teachers to explain and question classroom practices in order to improve as teachers and learners.
+
+## References
+
+Barnes, N., Fives, H., Mabrouk-Hattab, S., & Saizde LaMora, K. (2020). Teachers’ epistemic cognition in  situ: Evidence from classroom assessment. Contemporary Educational Psychology, 60, 101837. Barzilai, S., & Chinn, C. A. (2018). On the goals of epistemic education: Promoting apt epistemic performance. Journal of the Learning Sciences, 27, 353-389.
+
+Chinn, C. A., Rinehart, R. W., & Buckland, L. A. (2 014). Epistemic cognition and evaluating informatio n: Applying the AIR model of epistemic cognition. In D. N. Rapp, & L. G. Braasch (Eds.), Processing inaccurate information: Theoretical and applied perspectives from cognitive science and the educational sciences (pp. 425-453). Cambridge: MIT Press.
+
+Hartmann, U., Kinglinger, M., & Trempler, K. (2021). Integrating information from multiple texts relates to preservice teachers’ epistemic products for reflective teaching practice. Teaching and Teacher Education, 97, 103205.
+
+Lunn Brownlee, J., Ferguson, L. E. & Ryan, M. (2017). Changing teachers' epistemic cognition: A new conceptual framework for epistemic reflexivity. Educational Psychologist, 52, 242-252. 0.0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0 Pretest Posttest Knowledge Processes Knowledge Ideals Collaboration Processes Collaboration Ideals Self-regulation Processes Self-regulation Ideals
+

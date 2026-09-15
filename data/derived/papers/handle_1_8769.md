@@ -1,0 +1,35 @@
+# Can Schools Fix the Gender Gap in STEM? A Comparative Study in the Global South About Gender Participation in Maker Education
+
+**Conference:** ISLS 2022
+
+## Abstract & Introduction
+
+### Abstract
+Research established that most learners perceive STEM learning environments as settings that exclude diverse ways of thinking. We investigate factors behind this trend in two sites that recently implemented fully-equipped makerspaces, but have deeply different socioeconomic contexts. We identify factors associated with increased self-efficacy and attitudes toward STEM among male and female students.
+
+Can Schools Fix the Gender Gap in STEM? A Comparati ve Study in the Global South about Gender Participatio n in Maker Education Renato Russo, Tamar Fuhrmann, Akio Goya, Paulo Blikstein rfr2126@tc.columbia.edu, tf2464@tc.columbia.edu, aag2197@tc.columbia.edu, paulob@tc.columbia.edu Transformative Learning Technologies Lab, Teachers College, Columbia University Abstract: Research established that most learners perceive S TEM learning environments as settings that exclude diverse ways of thinking. We investigate factors behind this trend in two sites that recently implemented fully-equipped make rspaces, but have deeply different socioeconomic contexts. We identify factors associa ted with increased self-efficacy and attitudes toward STEM among male and female students.
+
+## Introduction
+
+Research in the past decades has established that S TEM learning environments are not only largely male-dominated but are also widely perceived as such (see, for example, Nasir & Vakil, 2017). Building on Turkle and Papert’s (1992) foundation of “epistemological plur alism,” researchers have discussed principles of a maker, constructionist education that equally acknowledges the repertoires of different groups of learners (e.g., Buechley et al., 2008). This research tradition led to remarkable a dvances on diversity in STEM education. However, it focuses almost exclusively on contexts in the US and Europe. Driven by the question of applicability to contexts in the Global South, we investigate factors that ma y influence STEM learning in makerspaces in two con texts: one school in Hong Kong serving affluent families and two schools in an economically depressed area in Brazil. These schools underwent dramatic curriculum redesign, including extensive professional development on maker education. We present analyses of quantitative survey data  from both sites to identify factors that affect th e attitudes of girls and boys towards and self-efficacy in STEM.
+
+## Data collection and analysis
+
+Students answered an online survey (Table 1) contai ning open-ended, multiple-choice, and multiple-answ er questions gathered from validated instruments to as sess students’ self-efficacy in science and enginee ring and their attitudes toward STEM (Siegel & Ranney, 2003; Wang & Berlin, 2010). Table 1: Comparison of data collected in Brazil and Hong Kong Country Type of variable Brazil Hong Kong Number of schools 2 1 Number of respondents (N) 242 89 Response variables Attitude toward STEM Y Y Quantitative Self-efficacy (Engineering) Y Y Quantitative Self-efficacy (Science) N Y Quantitative Explanatory variables Mastery of makerspace techniques Y Y Quantitative Grade Y Y Categorical Gender Y Y Categorical Participation in experiments Y Y Categorical Perceived expectations of parents N Y Quantitative Grades 10, 11, 12 7 and 9
+
+## Results
+
+Data from each nationality were analyzed using line ar regression models (Cohen, 1992) for each gender and response variable separately. Due to space considerations, we report the results in an abbreviated table (Table 2). ICLS2022 Proceedings 2168 © ISLS Full tables are available at bit.ly/russoetal-isls-2022. The analysis revealed that groups of students had different significant predictors for their attitude towards STEM and self-efficacy. Table 2: Unstandardized regression and part correlation coefficients for linear regressions Class experiments Parent expectations Techniques Grade β Part corr. β Part corr. β Part corr. β Part corr.
+
+Hong Kong Attitude towards STEM Female – – 1.20*.26.34*.27-5.51† -.21 Male – – – – – – – – Self-efficacy (engineering) Female – – – –.18**.42 – – Male – – – –.14†.35 – – Self-efficacy (science) Female – –.54†.26 – – -3.30 † -2.9 Male  8.68†.48 – – – – – – Brazil Attitude towards STEM Female – – NA NA.24***.32-6.86*** -.40 Male – – NA NA.19**.30-3.34† -.17 Self-efficacy (engineering) Female – – NA NA.09*.23 -.23* -.23 Male 3.72***.35 NA NA.15***.43 – – Note: †p ≤ 0.1. *p < 0.05. **p < 0.01. ***p < 0.001
+
+## Discussion and conclusion
+
+When analyzed as a whole, these results highlight a bigger issue regarding the role of schools in effective societal change across class and gender. Consider that the s chool in Hong Kong offers state-of-the-art makerspaces and laboratories, including female maker teachers, arguably the peak of hands-on K-12 technology education. Still, gender differences persist and differentially influence girls’ and boys’ self-perception (e.g., participating in class experiments is a statistically significant predictor for self-efficacy in science for boys in both cou ntries, but not for girls). If this phenomenon can be observed even at those close-to-optimal school conditions, one may wonder what the limits are in terms of how much effect in systemic change schools can have. It is necessary t o acknowledge that schools are parts of a broader sys tem with their own paradigms and prejudices, and th at kids may bring those values into schools in significant ways. Gender questions in STEM education should be more broadly contextualized--not assigning to schools th e entire responsibility of addressing them, but con sidering larger societal questions and movements.
+
+## References
+
+Buechley, L., Eisenberg, M., Catchen, J., & Crockett, A. (2008, April). The LilyPad Arduino: using computational textiles to investigate engagement, aesthetics, and  diversity in computer science education. In Proceedings of the SIGCHI conference on Human factors in computing systems. Cohen, J. (1992). A power primer. Psychological Bulletin, 112(1), 155-159. Nasir, N. I. S., & Vakil, S. (2017). STEM-focused academies in urban schools: Tensions and possibilities. Journal of the Learning Sciences, 26(3), 376-406. Siegel, M. A., & Ranney, M. A. (2003). Developing the changes in attitude about the relevance of science (CARS) questionnaire and assessing two high school science classes. Journal of Research in Science Teaching: The Official Journal of the National Association for Research in Science Teaching, 40(8), 757-775. Turkle, S., & Papert, S. (1992). Epistemological Pl uralism: Styles and voices within the computer cult ure. Humanistic Mathematics Network Journal, 1(7), 8.
+
+Wang, T. L., & Berlin, D. (2010). Construction and validation of an instrument to measure Taiwanese elementary students’ attitudes toward their science class. International Journal of Science Education, 32(18), 24132428. ICLS2022 Proceedings 2169 © ISLS
+

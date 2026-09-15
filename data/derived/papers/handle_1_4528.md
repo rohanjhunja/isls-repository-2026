@@ -1,0 +1,39 @@
+# Contribution to the Integration of MOOC in a Hybrid-Learning Project in the Moroccan University
+
+**Conference:** CSCL 2019
+
+## Abstract & Introduction
+
+### Abstract
+This model relies mainly on the use of Massive Open Online Courses (MOOC). Several general questions have been raised around the MOOC, especially in relation to the reliability of online education and its ability to find a place on a par with traditional education. We have tried, through field studies, to answer key questions such as: Is higher education in Morocco able to produce more interesting results by adopting this new means of training?
+
+Contribution to the Integration of MOOC in a Hybrid-Learning Project in the Moroccan University Bouchaib Riyami, Institut supérieur du Génie Appliqué (IGA), Casablanca, Maroc, bouchaib.riyami@iga.ac.ma Khalifa Mansouri, SSDIA, Université Hassan 2, Casablanca, Maroc, khmansouri@hotmail.com Fanck Poirier, Lab-STICC, UBS, Vannes, France, franck.poirier@univ-ubs.fr Abstract:  This model relies mainly on the use of Massive Open Online Courses (MOOC). Several general questions have been raised around th e MOOC, especially in relation to the reliability of online education and its ability to find a place on a par with traditional education. We have tried, through field studies, to answer key ques tions such as: Is higher education in Morocco able to produce more interesting results by adopting this new means of training?
+
+## Introduction
+
+Moroccan higher education is based mainly on direct face-to-face contact between students and teachers. As present, it has become possible to replace this medium of transmission of knowledge with a new pedagogical tool based on ICT (Information and Communication Technologies). The latte r is not based solely on a simple reproduction of what is traditionally found in higher education, but with a new vision that highlights the positive aspects of virtual communities that allow for the emulation of experiences and knowledge. Our contribution is an attempt to advance a new model of the integration of a hybrid p edagogy based on real  attendance and distance learning in relation to courses delivered at the Moroccan university.
+
+## Significance and relevance of the topic
+
+For a long time, the different entities of the educa tional triangle of Moroccan higher education, the t eacher, the learner and the knowledge, have benefited very marginally from the ICT. But with the advent of training management platforms such as Moodle (Modular Object-Oriented Dynamic Learning Environment), e-learning platforms such as MOOC  (Cisel, M., Bruillard, E. 2012)  and the emergence of new mobile devices such as smartphones and tablets, training in the Moroccan university has changed a lot and in depth. Currently, the Moroccan state has undertaken several investment projects for the modernization of i ts higher education system (Ouazzani Touhami, A., Benjelloun, N., Aami, M. and Haddou, A. 2014), as in the case of the Digital Morocco 2013 project, the ICT integration project  in education, the LAWHATI project and the project INJAZ, (Alj, O. and Benjelloun, N. 2016), etc.  Equally, the Moroccan universities have taken the initiative of setting up MOOC platforms for the benefit of learners, such as UH2C (MH2C MOOCs), UCAM (UC@Mooc), UIZ (MOOC UIZ) and UM5R (UM5MOOC).  This initiative, if followed by distance learning, ca n help to minimize the problem of massification within universit ies, to improve the level of learners as well as their motivation and involvement in the use of ICT information and communication.
+
+In this paper, we propose a hybrid-learning model in the Moroccan university education system. This project studied the different needs and expectations of learner s and teachers, based on real experimental facts (Riyami, B., Mansouri, K. and Poirier, F. 2019) with the objective of testing the degree of motivation, satisfaction, involvement and appropriation of this new pedagogical approach. It trie s to consolidate the initiatives of the Moroccan universities by a better exploitation of the MOOC in high er education and to generalize this new pedagogical approach for all the university learners.
+
+Content The pedagogical approach proposed is in the form of a hybridization between face-to-face and the distance learning (Nissen, E. 2006). Among its main objectives are the diversification of pedagogical content, the development of new skills and the possibility of providing learners w ith the benefits of face-to-face classroom work and of free and flexible work at a distance. This  approach brings together the tools and resources most adapted to modern pedagogical dimensions.
+
+A first part of the training is composed of face-to-face modules (direct exchanges, lectures, documents and discussions). A second part is taught remotely in a synchron ous way through virtual classes and MOOC as external resources (De Poël, V., François, J., Lecomte, and Béatrice. 2013). A third part is done at a distance and asynchronously through the institution's own e-Learning systems as internal resources (Riyami, B., Mansouri, K. and Poirier, F. 2017). Our experiments hav e shown that the following conspiracies have to be respected in order to ensure the success of the hybrid-learning (see Figure 1):
+
+Figure 1. Questions of the success of the hybrid-learning.
+
+x Effective and strong engagement of learners and teachers, x Work on the prerequisites of the learners before starting the subject to be taught through the MOOC, x Encouraging frequent Peer exchanges, x Foster collaborative work between learners (Riyami, B., Mansouri, K. and Poirier, F. 2019), x Effective supervision and guidance of learners, x Good motivation of learners (Foon Hew, K., Sum Cheung, W. 2014), x A provision of the necessary infrastructure to facilitate access to MOOC.
+
+## Conclusion
+
+In conclusion, we can confirm that our approach can sat isfy most of the objectives targeted by the Moroccan higher education system: x The struggle against the problem of the large number of student during the first years of university, x The continuous updating of educational content, x The decrease in the failure of university students, x Facilitation of exchanges between peers and between learners and teachers.
+
+## References
+
+Alj, O. and Benjelloun, N. (2016).  Etude comparative de quelques recherches sur l’intégration d es TIC dans l’enseignement des disciplines scientifiques au sein du programme GENIE marocain. Association EPI. Cisel, M., Bruillard, E. 2012.  Chronique des MOOC. Sciences et Technologies de l´Informat ion et de la Communication pour l’Éducation et la Formation, Vol. 19, 2012, http://sticef.univ-lemans.fr/num/vol2012/13r-cisel/sticef_2012_cisel_13r.htm De Poël, V., François, J., Lecomte, Béatrice. 2013.  MOOC, RÉVOLUTION ? BUSINESS ? OPPORTUNITÉ ?, Docu ments pédagogiques, Sciences sociales & comportemental es, psychologie: Education & enseignement, jui-2013, http://hdl.handle.net/2268/154729. Foon Hew, K., Sum Cheung, W. (2014). Students’ and instructors’ use of massive open online courses (MOOCs): Motivations and challenges. Educational Research Review, 12 (2014) p p.45–58, www.elsevier.com/ locate/EDUREV Nissen, E. (2006). Scénarios de communication en ligne dans des formati ons hybrides» Le Français dans le monde. Recherches et applications, Paris: Français dans le monde, 2006, Les échanges en ligne dans l'apprentissage et la formation, pp. 44-58. « edutice-00124819> », https://edutice.archives-ouvertes.fr/edutice-00124819.
+
+Ouazzani Touhami, A., Benjelloun, N., Aami, M. and Haddou, A. (2014). Impact of u sing Java Software of Geometrical Optics JSGO on the construction success of the virtual image among the first year university students. IOSR Journal Of Research & Method in education IOSR-JRME, Volume 4, Issue 3 Ver II, pp. 16-24
+

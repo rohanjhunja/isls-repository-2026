@@ -1,0 +1,47 @@
+# “As Teachers, We” and “In My Future Classroom”: Pre-Service Teachers and Teacher Identity
+
+**Conference:** ICLS 2020
+
+## Abstract & Introduction
+
+### Abstract
+Providing rich opportunities for identity development for prospective teachers is important in preparing them for the classroom. This study drew on expansive framing (Engle, 2006) to engage pre-service teachers in connecting current learning to prior and future experiences during an online Educational Psychology course. This study used interaction analysis to examine how pre-service teachers constructed teacher identities and what discursive resources they used. Preliminary analyses identified two phrases that were often used by the pre-service teachers in identity development, “As teachers, we” and “In my future classroom”.
+
+“As Teachers, We” and “In My Future Classroom”: Pre-Service Teachers and Teacher Identity Christopher D. Andrews, Indiana University, andrewch@indiana.edu Abstract: Providing rich opportunities for identity development for prospective teachers is important in preparing them for the classroom. This study drew on expansive framing (Engle,
+
+2006) to engage pre-service teachers  in connecting current learning to prior and future
+
+experiences during an online Educational Psychology course. This study used interaction analysis to examine how pre-service teachers constructed teacher identities and what discursive resources they used. Preliminary analyses identified t wo phrases that were often used by the pre-service teachers in identity development, “As teachers, we” and “In my future classr oom”.
+
+## Introduction
+
+From a situative perspective, identity and learning are part of the same proces s (Greeno et al., 1996). Discourse is one of the most salient ways that identity can be developed and made visible. Prior studies  on teacher identity development among pre-service teachers found that that perspective taking and framing were useful approaches to discourse and effective for teacher identity development (Lee & Schallert, 2016; Luehmann, 2008). This study drew on expansive framing (Engle, 2006) as a design framework to provide opportunities for pre-service teachers to frame their learning and identity development. Expansive framing positions le arners as authors of their own ideas and encourages learners to frame the ir immediate learning context across time, places, topics, and participants by connecting their prior experiences and potential future experiences to the current learning context.
+
+## Context and methodology
+
+This study examined student annotations, using social annotation tool Hypothesis (https://web.hypothes.is/), of 23 course readings in an online undergraduate Educational Psychology course for pre-service teachers (n=17). The prompt for the annotation activity encouraged students to expansively frame (Engle, 2006) their annotations by connecting to prior, current, or potential future experiences. Across the 2 3 course readings, the students generated a total of 459 annotations. This study used interaction analysis (Jordan & Henderson, 1995) to analyze the annotations. Data analysis began with the general questions, “What are the students doing/accomplis hing in their annotations?” and “How are they constructing their language to do this?”
+
+## Findings
+
+During analysis, this study identified two main discursive devices, or ways of talking, that these pre-service teachers used to build their identity, “As teachers, we” and “In my future classroom.” Due to space limitations, this paper only presents an example of “As teachers, we… ” from the student annotations. Instead of signaling teaching as the work of “others” or those who already have jobs as teachers, the pre-service teachers often invoked “we,” characterizing the work of teaching as a group effort. In Extract 1  (below), Cindy problematizes what she characterized as a “profound” statement from the text by asking questions about potential issues with student motivation (lines 2-4). Then, she shares a prior experience where student motivation for learning was relevant (lines 5-8). This story leads to her expressing what the teacher role should be regarding student motivation. Up until the last line, Cindy used first-person pronouns. Instead of staying in first person, however, she shifts to third person when talking about tea ching (line 9, “we as teachers”). This shift to “we” indicates that her annotation is not intended solely f or herself or the instructor, it is also intended for her peers. This is illustrated in Abby’s response where Abby takes up Cindy’s use of “we” to say, “we need to help our future students” (line 10). Abby also shares a prior personal e xperience where her own motivation as a student is made relevant (lines 11-13). These two annotations use personal experiences as students as resources for engaging in thinking about teaching. These personal experiences  as students also serve to characterize teaching and expectations about what a teacher should be from the studen t perspective.
+
+## Discussion and conclusion
+
+These findings align with prior research on teacher identity development among pre-service teachers. Lee and Schallert (2015) found that becoming a good teacher included bringing together past and pote ntial future selves into the present, similar to what Cindy and Abby did in their annotations. Luehmann (2008) examined how teacher identity was developed through the use of a blogging. Blogging is similar to the annotati on activity in this study in that blogging and annotating were public discourse. Luehmann found that cr eating public writings and considering how to present oneself as a teacher produced opportunities for identit y development. The example presented here shows some evidence that these pre-service teachers were becoming attuned to the discursive resources such as perspective taking and framing afforded them by the intentional use of expansive framing (Engle, 2006). It is important to note that we cannot know whether thes e pre-service teachers will actually become the kind of teachers they portray in their annotations and that is beyond t he scope of this study. What this study was trying to identify were discursive patterns that were prevalent and how they were used as resources in identity development. Further analysis will examine whether and how t hese discursive devices around identity evolved over the course of the semester. Extract 1: “As teachers, we…” Anchor text from National Research Council (2000): Humans are motivated to develop competence and to solve  problems; they have, as White (1959) put it, “competence motivation.” (p. 60) Name/Date Line Text Cindy 2/7/18 1:12a 1 2 3 4 5 6 7 8 9 I think this statement is really profound, and I agree that we are motivated to develop competence. But what happens when students believe that competence in a subject is unachievable? What if they believe that they are never going to master a subject? I think that this could affect their motivation.
+
+I was working with a student at my field placement last week and there was an acti vity where students solved problems placed around the room in a particular order. I was assisting a student whoneeded help, a nd as the questions got harder, the less interested she became, even though I was there to assist her.
+
+It was clear that she was frustrated and didn't want to continue the activity. She stated things such as "I'm not going to be able to solve this." I think we as teachers not only have to help students develop skills but also help them develop confidence in the ability to achieve those skills.
+
+Abby 2/7/18 3:40p 10 11 12 13 14 I completely agree with you about how we need to help our future students develop confidence to achieve skills!
+
+I know that when I was in high school (and even now, at times) when I was approached with math, I completely shut down.
+
+I hated how I could never understand what we were going over in class, so I was never mot ivated to do the work.
+
+The teacher wasn't very helpful either, so I basically gave up when it came to math. I wish that I had had a teacher who helped me gain that confidence in this difficult subject, then maybe I wouldn't be so intimidated or frustrated every time I have to solve a math problem.
+
+## References
+
+Engle, R. A. (2006). Framing interactions to foster generative learning: A sit uative explanation of transfer in a community of learners classroom. The Journal of the Learning Sciences, 15(4), 451–498. Greeno, J. G., Collins, A. M., & Resnick, L. B. (1996). Cognition and learning. I n D. C. Berliner & R. C. Calfee (Eds.), Handbook of educational psychology (pp. 15–46). New York, NY: Simon & Schuster Macmillan. Jordan, B., & Henderson, A. (1995). Interaction analysis: Foundations and practice. Journal of the Learning Sciences, 4(1), 39–103. https://doi.org/10.1207/s15327809jls0401 Lee, S. A., & Schallert, D. L. (2016). Becoming a teacher: Coordinating past, pr esent, and future selves with perspectival understandings about teaching. Teaching and Teacher Education, 56, 72–83. Luehmann, A. L. (2008). Using blogging in support of teacher professional identity devel opment: A case study. Journal of the Learning Sciences, 17(3), 287–337. https://doi.org/10.1080/10508400802192706 National Research Council. (2000). How people learn: Brain, mind, experience, and school. (J. D. Bransford, A. L. Brown, & R. R. Cocking, Eds.). Washington, DC: National Academies Press.
+

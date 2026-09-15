@@ -1,0 +1,45 @@
+# An Exploratory Study of How Informal Educators Engage With Formal Educators in a Community of Practice
+
+**Conference:** ISLS 2022
+
+## Abstract & Introduction
+
+### Abstract
+Expanding graduate programs for educators in the Learning Sciences beyond a traditional focus on classroom instruction requires widening learning contexts to engage outof-school educators. In this preliminary study, a cohort of 24 in-school and out-of-school educators formed a community of practice. Their engagement in discussion forums was analyzed. Preliminary results suggest that reflections through storytelling resulted in higher levels of interaction between formal and informal educators.
+
+An exploratory study of how informal educators enga ge with formal educators in a community of practice Ezequiel Aleman, Iowa State University, ealeman@iastate.edu Abstract: Expanding graduate programs for educators in the L earning Sciences beyond a traditional focus on classroom instruction requires  widening learning contexts to engage outof-school educators. In this preliminary study, a c ohort of 24 in-school and out-of-school educators formed a community of practice. Their eng agement in discussion forums was analyzed. Preliminary results suggest that reflecti ons through storytelling resulted in higher levels of interaction between formal and informal educators.
+
+## Introduction
+
+This poster describes the development of an online graduate Learning Design Master’s program in Uruguay which seeks to integrate both in-school and out-of-school educators in a community of learning designers, thus providing opportunities to understand how informal and formal  educators make sense of learning spaces and experi ences both in and out of schools.
+
+This ongoing study is informed by notions on commu nities of practice (CoP). CoPs are formed by groups of people who share similar interests which are expressed through specific shared activities (Wenger, 1998). The CoP framework suits this research context as it pro vides opportunities to explore engagement and knowl edgesharing across different contexts. Engagement is an essential component of a CoP and a fundamental process of how we learn (Wenger, 1998), thus, the first step of this exploration focused on how formal and informal teachers engaged within their community.
+
+## Methods
+
+This in-progress design-based research (Barab & Squire, 2004) project incorporates elements of case study to explore the relationships between educators and the development of their community using a communities of practice (CoP) framework. The current iteration of this study is asking the following questions: how do formal and informal educators engage and share knowledge in a community of practice? To answer this question, this study analyzes the levels of engagement among participants, the themes that lead to higher levels of interaction and the practices that support knowledge sharing between formal and informal educators. A cohort of 24 educators, (12 out-of-school and 12  in-school educators) coming from a wide variety of backgrounds (37.5% STEM, 37.5% Education, and 25% other Human Sciences) participated in the first year of an online master’s degree in Learning Design. The first class of this program positioned teachers as co-designers of learning spaces and artifacts for community-based learning spaces such as museums, non-profit organizations, and after-school programs. The course also served as a foundation to start building a community of pra ctice by providing opportunities for discussions, collaborative and inquiry-based activities, as well as design projects. Educators were requested to participate in five di scussion forums during the course. Each discussion topic was based on one of Engeström’s (2017) five layers for expanding education: bringing elements of societal practices into other learning spaces, conceiving learning spaces as communities of learning, promoting learning in activity systems outside school, involving alternative funds of knowledge and epistemologies, and taking local, regional, and global movements as contexts of learning. This theoretical perspective, while originally conceived for science education, served as a means to organize students’ discussions about community and knowledge across multiple spaces.
+
+To measure engagement with each discussion topic, a matrix adapted from Hafeez et al. (2018) was used to systematize the data collected from the discussion forums. The matrix presents four layers of analysis: intensity, referring to the number of replies, topics discussed, and the number of views; duration of engagement, measured by the total period of discussion in days; stage of engagement, which describes which participants tend to initiate or end discussion topics; and degree of centrality,  where the number of times a participant has engage d in a discussion is counted, including the number of words.
+
+The five topics selected for this preliminary anal ysis were all organized as text-based discussions in the Moodle learning management system. One limitation t o this data collection process was that other forms  of communication and knowledge sharing were excluded such as video discussions and collaborative annotations. ICLS2022 Proceedings 2160 © ISLS
+
+## Preliminary findings
+
+After analyzing the five discussion forums, it was found that two of them sparked a significant amount of interest: “What makes an educator” was a question that sought to extend a prior discussion about activity systems outside schools. The question engaged 24 students, and 10 of them received at least one reply. There were 208 views of the discussion forum, and the total number of posts  was 49. The second most discussed topic was “Where  does knowledge come from?” where participants discussed funds of knowledge and indigenous epistemologies. Participants in this discussion were encouraged to engage in storytelling to describe how their local communities had acted as funds of knowledge in their lives. The question engaged 24 students, and 7 of them received at least one reply. there were 195 views of the discussion, and the total number of posts was 37. Regarding the differences between formal and infor mal educators, the five discussion topics were initiated by formal educators. However, participation was higher among informal educators (68% of total posts) who also showed more interest in prolonging discussions by replying to previous comments more often (78% of total replies to posts) and participating in the di scussions even three to four weeks after the thread  had been initiated. The two most discussed topics were also the topics with the highest levels of participation from informal educators. The only question that showed lower enga gement from informal educators compared to formal educators was “How does social media affect our liv es?”, a question which required students to reflect  on a specific reading providing factual arguments.
+
+## Discussion
+
+One noticeable finding in terms of discussion engagement across participants was that the most discussed topics involved narrating stories based on personal experiences both in-school and out-of-school. Unlike the other three topics where participants had to provide arguments to support specific claims, these two topics specifically encouraged storytelling to connect previous discussions with personal experiences. This approach seems to have served as an inclusive point of access for both types of educators in finding common grounds to make sense of their personal learning experiences.
+
+Further analysis needs to incorporate discourse an alysis to visualize what funds of knowledge educators tap into when developing their answers to the discussion questions and to determine whether tacit knowledge is transferred among educators in the discussion process. For this discourse analysis, it will be necessary to incorporate other sources of discussion which were not considered for this study such as video discussions and collaborative annotations.
+
+For the current iteration of this graduate program, a more systematic approach to storying as knowledge sharing is being implemented where stories from different educators are intertwined in a single digital experience.
+
+## References
+
+Barab, S., and K. Squire. 2004. “Design-Based Resea rch: Putting a Stake in the Ground.” The Journal of  the Learning Sciences 13 (1): 1–14.
+
+Engeström, Y. (2017). Expanding the Scope of Science Education: An Activi ty-Theoretical Perspective. Contributions from Science Education Research, 357–370. doi:10.1007/978-3-319-58685-4_26 Hafeez, K., Foroudi, P., Nguyen, B., Gupta, S., & Alghatas, F. (2018). How do entrepreneurs learn and engage in an online community-of-practice? A case study approach. Behaviour & Information Technology, 37(7), 714-735.
+
+Wenger, E. (1998). Communities of practice: Learning, meaning, and identity. Cambridge University Press. https://doi.org/10.1017/CBO9780511803932 ICLS2022 Proceedings 2161 © ISLS
+

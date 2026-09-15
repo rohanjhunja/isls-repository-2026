@@ -1,0 +1,49 @@
+# Exploring Women of Color’s Conceptualizations of Studying Undergraduate Biology: A Cultural Analysis
+
+**Conference:** ICLS 2020
+
+## Abstract & Introduction
+
+### Abstract
+As a means to address the underrepresentation of Women of Color (WOC) in STEM, this study seeks to illuminate cultural and social factors that may contribute to positive student outcomes. Related literature associates deep learning approaches with high academic achievement. However, the adoption of deep approaches to learning are influenced by overlapping social and academic factors. This study examines factors of race/ethnicity, gender, and science identity for WOC as a means of exploring diverse conceptualizations of how undergraduates study biology.
+
+Exploring Women of Color’s Conceptualizations of Studying Undergraduate Biology: A Cultural Analysis Angela Google, Middle Tennessee State University, Ang5a@mtmail.mtsu.edu Anna Grinath, Idaho State University, grinanna@isu.edu Grant Gardner, Middle Tennessee State University, Grant.Gardner@mtsu.edu Abstract: As a means to address the underrepresentation of Women of Color (WOC) in STEM, this study seeks to illuminate cultural and social factors that may contribute to positive student outcomes. Related literature associates deep learning approaches with high ac ademic achievement. However, the adoption of deep approaches to learning are influenced by overlapping social and academic factors. This study examines factors of race/ethnicity, gender, and scien ce identity for WOC as a means of exploring diverse conceptualizations of how undergraduates study biology.
+
+## Problem statement
+
+Despite steady growth in national diversity, WOC continue to struggle in accessing higher education and persisting to graduation in STEM fields, leading to representation of women in STEM field s disproportionate to the U. S. population (National Academy of Sciences, 2007a). Recent shifts in the national narrative from a deficitbased approach towards a strength-based approach to understanding WOC in academic settings illuminate cultural and social factors that may contribute to positive student outcomes (Banks & Dohy, 2 019; Brown et al.,  2016). With this goal, studies have examined factors that contribute to the successful navigation of WOC through the science pipeline (Brown et al., 2016). Such studies illuminated how successful WOC author new identities, balanced competing identities, and continually de veloped their science identities amidst the sometimes hostile terrain of science (Allen & Eisenhart, 2016; Johnson et al., 2011). Although such studies are informative at a macroscopic level, there is a need for microscopic examinations of how cultural  and social factors (e.g. identity) affect WOC’s day-to-day academic decisions, such as the approaches they draw on to study for their scie nce classes, that have a direct impact on academic achievement (Watters & Watters, 2007). Such studies are essential to understand how women of color successfully navigate through the STEM pipeline and can possibly illuminate more practical aspects of the path for WOC that follow. D eep, versatile approaches to learning are related to high academic achievement (Watters & Watters, 2007). However, the adoption of deep approaches to learning are strongly influenced by overlapping factors within social and academic environments (Laird et al., 2008).  WOC rest at the intersection of such personal and social factors associated with gender and race/ethnicity; factors that were historically unexamined in women of ST EM scholarship (Allen & Eisenhart, 2016). Through the lens of intersectionality (Collins, 2000a), this study examines the cultural factors of race/ethnicity, gender, and science identity for women of color and how these factors impact their approaches to learning biology.
+
+## Theoretical framework
+
+Spencer-Oatey (2008) define s culture as “a fuzzy set of basic assumptions and values, orientations to life, beliefs, policies, procedures and behavioral conventions that are shared by a group of people, and that influence (but do not determine) each member’s behavior and his/her interpretations of the ‘meaning’ of other people’s behavior. ” (Spencer-Oatey 2008, p. 3).  Students enter college with pre-established cultural identities that influence their behaviors within the academic context. Such cultural identities include race, ethni city, and gender. Collins (2000a) argued that these identities are mutually constructed and should not be studied in isolation; intersectionality is a lens to examine gender, sexuality, race, class, and nation as mutually constructed identity.  Carlone and  Johnson
+
+(2007) have conceptualized science identity through the lens of intersectionality.
+
+They articulated that how one recognizes themselves and is recognized by others within the science community formulates their science identity, which is filter ed through other cultural identities. Intersectionality is a helpful lens to use whe n trying to understand some of the complexities of student s’ personal factors. This study also draws on theory explaining how the interactions between environmental factors (e.g. social supports/barriers, social norms, access to
+
+Figure 1. Visual Representation
+
+of Theoretical Framework. community, and influence of others) and  personal factors (e.g. identity, perceptions, expectation, and attitudes) influence behavioral factors (e.g. learning strategies and practices)  (Bandura, 1986).  Figure 1 illustrates how these theoretical lenses allow us to  examine the complexities of intersecting identities through the interaction of social and personal factors, and the influence on how students approach learning.
+
+## Research question
+
+1. How does the  intersectionality of race, gender, and science identity influence how women of c olor
+
+conceptualize and approach learning biology?
+
+Methodological approaches To study both social and cultural factors that influence biology students’ approaches to learni ng, I use the participant-selection variant of the explanatory sequential mixed methods research design (Cres well & Clark, 2017). Participants consisted of WOC (African-American, Asian, Hispanic/Latino, and Middle Eastern) who held contrasting approaching to learning biology (N=10). I conducted two semi-structured interviews per participant lasting an hour each. Protocol questions explored participants ’ science identity (e.g. Do you see yourself as a science person/scientist? Why/why not?) and cultural identity (e.g. Do you consider yourself a women of color? Why/ why not?). An analytic framework established from Brown et al., (2016) application of selected theories to the STEM pipeline was used to integrate social and cultural factors revealed.
+
+## Major findings, conclusions, and implications
+
+During interviews participants have shared their study experiences in introductory biology, how they learned such study strategies, how they define studying, and the extent to which their cultural backgrounds have played a role in how they approach learning biology. Quantitative survey results will be compared to qualitative interview data for an extensive comparative analysis of all participants. Detailed res ults will be share at the International Conference of the Learning Sciences. The findings from this analysis will have implications for  enhancing the student learning experiences  and the promotion of academic success  in STEM. This work is in its early stag es which allows for the opportunity for rich and productive discussion between conference participants at the poster session to provide feedback on the application of the theoretical and analytical fram eworks to the interpretation of the interview data.
+
+## References
+
+Allen, C. D., & Eisenhart, M. (2016). Fighting for desired versions of a future Self: Young African American women’s STEM-related identity negotiations in high school. Proceedings of the  12th biannual International Conference of the Learning Sciences. Bandura, A. (1986). Social foundations of thought and action: A Social Cognitive Theory. Englewood Cliffs, NJ: Prentice Hall.
+
+Banks, T. & Dohy, J. (2019). Mitigating barriers to persistence: A review of effor ts to improve retention and graduation rates for students of color in higher education. Higher Education Studies, 9, 118-131. Brown, B. A., Henderson, B., Gray, S., Donovan, B., Sullivan, S., Patterson, A., & W aggstaff, W. (2016). From description to explanation: An empirical exploration of the African-American pipeline problem in STEM. Journal of Research in Science Teaching, 55, 146-177. Carlone, H. B. & Johnson, A. (2007). Understanding the science experiences of  successful women of color: Science identity as an analytic lens. Journal of Research in Science Teaching, 44, 1187-1218. Creswell, J. W., & Clark, V. L. P. (2017). Designing and conducting mixed methods research. Sage publications. Collins, P.H. (2000a). Black feminist thought (2nd ed.) New York: Routledge. Johnson, D. (2011). Women of color in science, technology, engineering, and mathematics (STEM). New Directions for Institutional Research, 152, 75-85.
+
+Laird, T. F., Shoup, R., Kuh, G. D., Schwarz, M. J. (2008). The effects of discipline on deep approaches to student learning and college outcomes. Research In Higher Education, 49, 469-494. National Academy of Sciences. (2007a). Beyond bias and barriers: Fulfilling the potential of women in academic science and engineering. Washington DC: National Academies Press. Spencer-Oatey, H. (2008). Culturally Speaking: Culture, Communication and Politeness The ory. London: Continuum.
+
+Watters, D. J., & Watters, J. J. (2007). Approaches to learning by students in the biological sciences: Implications for teaching. International Journal of Science Education, 29, 19-43.
+

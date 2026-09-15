@@ -116,11 +116,15 @@ def process_review_file(filepath, cursor, output_dir):
     if raw_papers:
         for p in raw_papers:
             pid = p['id']
-            row = cursor.execute('SELECT data_json FROM papers WHERE id = ?', (pid,)).fetchone()
-            db_data = json.loads(row[0]) if row and row[0] else {}
+            row = cursor.execute('SELECT id, title, year, conference, abstract, filename, start_page, end_page FROM papers WHERE id = ?', (pid,)).fetchone()
+            auth_rows = cursor.execute(
+                'SELECT a.display_name FROM authors a JOIN paper_authors pa ON a.id = pa.author_id WHERE pa.paper_id = ? ORDER BY pa.author_order ASC',
+                (pid,)
+            ).fetchall()
+            db_authors = ", ".join([r[0] for r in auth_rows])
 
             sec_rows = cursor.execute(
-                'SELECT section_id, heading_original, canonical_roles, text, pdf_page_start, pdf_page_end FROM sections_fts WHERE paper_id = ? ORDER BY section_id ASC',
+                'SELECT id, original_heading, normalized_section, text, pdf_start_page, pdf_end_page FROM sections WHERE paper_id = ? ORDER BY order_index ASC',
                 (pid,)
             ).fetchall()
 
@@ -130,46 +134,52 @@ def process_review_file(filepath, cursor, output_dir):
             } for s in sec_rows]
 
             first_sec_text = raw_sections[0]['text'] if raw_sections else ''
-            r_title, r_authors = repair_title_and_authors(p['title'], p['authors'], first_sec_text)
+            orig_title = p.get('title') or (row[1] if row else '')
+            orig_authors = p.get('authors') or db_authors
+            r_title, r_authors = repair_title_and_authors(orig_title, orig_authors, first_sec_text)
             sections = clean_section_blocks(raw_sections)
             databases_searched = p.get('databases_searched') or extract_databases_searched(sections)
-            keywords = p.get('keywords') or extract_title_abstract_keywords(r_title, p.get('abstract', ''), p.get('keywords_field'))
-            summary_50 = p.get('summary') or generate_50_word_summary(r_title, p.get('abstract', ''))
+            keywords = p.get('keywords') or extract_title_abstract_keywords(r_title, p.get('abstract') or (row[4] if row else ''), p.get('keywords_field'))
+            summary_50 = p.get('summary') or generate_50_word_summary(r_title, p.get('abstract') or (row[4] if row else ''))
 
             full_text = "\n\n".join([
                 f"### {sec['heading'] or 'Section'} (Pages {sec['pdf_page_start']}-{sec['pdf_page_end']})\n{sec['text']}"
                 for sec in sections
             ])
 
-            # Start with all existing attributes from p (preserving custom properties like reviews_referenced)
             p_obj = dict(p)
             p_obj.update({
                 'id': pid,
                 'title': r_title,
                 'authors': r_authors,
-                'year': p.get('year', db_data.get('year', '')),
-                'conference': db_data.get('conference', {}).get('acronym', 'ISLS') if isinstance(db_data.get('conference'), dict) else 'ISLS',
-                'abstract': p.get('abstract', db_data.get('abstract', '')),
+                'year': p.get('year') or (row[2] if row else ''),
+                'conference': (row[3] if row else 'ISLS'),
+                'abstract': p.get('abstract') or (row[4] if row else ''),
                 'summary': summary_50,
                 'keywords': keywords,
                 'databases_searched': databases_searched,
                 'matched_search_terms': p.get('matched_search_terms', []),
                 'sections': sections,
                 'full_text': full_text,
-                'filename': db_data.get('filename', ''),
-                'pages': f"{db_data.get('pages', {}).get('start', '')}-{db_data.get('pages', {}).get('end', '')}"
+                'filename': (row[5] if row else ''),
+                'pages': f"{row[6] if row and row[6] else ''}-{row[7] if row and row[7] else ''}"
             })
             paper_objs.append(p_obj)
 
     elif paper_ids:
         for pid in paper_ids:
-            row = cursor.execute('SELECT data_json FROM papers WHERE id = ?', (pid,)).fetchone()
-            if not row or not row[0]:
+            row = cursor.execute('SELECT id, title, year, conference, abstract, filename, start_page, end_page FROM papers WHERE id = ?', (pid,)).fetchone()
+            if not row:
                 continue
-            db_data = json.loads(row[0])
+
+            auth_rows = cursor.execute(
+                'SELECT a.display_name FROM authors a JOIN paper_authors pa ON a.id = pa.author_id WHERE pa.paper_id = ? ORDER BY pa.author_order ASC',
+                (pid,)
+            ).fetchall()
+            db_authors = ", ".join([r[0] for r in auth_rows])
 
             sec_rows = cursor.execute(
-                'SELECT section_id, heading_original, canonical_roles, text, pdf_page_start, pdf_page_end FROM sections_fts WHERE paper_id = ? ORDER BY section_id ASC',
+                'SELECT id, original_heading, normalized_section, text, pdf_start_page, pdf_end_page FROM sections WHERE paper_id = ? ORDER BY order_index ASC',
                 (pid,)
             ).fetchall()
 
@@ -179,14 +189,12 @@ def process_review_file(filepath, cursor, output_dir):
             } for s in sec_rows]
 
             first_sec_text = raw_sections[0]['text'] if raw_sections else ''
-            raw_title = db_data.get('title', pid)
-            raw_authors = ", ".join([a.get('display_name', '') if isinstance(a, dict) else str(a) for a in db_data.get('authors', [])])
-            r_title, r_authors = repair_title_and_authors(raw_title, raw_authors, first_sec_text)
+            r_title, r_authors = repair_title_and_authors(row[1], db_authors, first_sec_text)
             sections = clean_section_blocks(raw_sections)
 
-            abstract = db_data.get('abstract', '')
+            abstract = row[4] or ''
             databases_searched = extract_databases_searched(sections)
-            keywords = extract_title_abstract_keywords(r_title, abstract, db_data.get('keywords', []))
+            keywords = extract_title_abstract_keywords(r_title, abstract, [])
             summary_50 = generate_50_word_summary(r_title, abstract)
 
             full_text = "\n\n".join([
@@ -198,8 +206,8 @@ def process_review_file(filepath, cursor, output_dir):
                 'id': pid,
                 'title': r_title,
                 'authors': r_authors,
-                'year': db_data.get('year', ''),
-                'conference': db_data.get('conference', {}).get('acronym', 'ISLS') if isinstance(db_data.get('conference'), dict) else 'ISLS',
+                'year': row[2] or '',
+                'conference': row[3] or 'ISLS',
                 'abstract': abstract,
                 'summary': summary_50,
                 'keywords': keywords,
@@ -207,8 +215,8 @@ def process_review_file(filepath, cursor, output_dir):
                 'matched_search_terms': ['literature review'],
                 'sections': sections,
                 'full_text': full_text,
-                'filename': db_data.get('filename', ''),
-                'pages': f"{db_data.get('pages', {}).get('start', '')}-{db_data.get('pages', {}).get('end', '')}"
+                'filename': row[5] or '',
+                'pages': f"{row[6] or ''}-{row[7] or ''}"
             })
 
     output_data = dict(data)
@@ -229,9 +237,11 @@ def process_review_file(filepath, cursor, output_dir):
     return output_data
 
 def main():
-    db_path = 'data/index/proceedings.db'
+    db_path = 'proceedings.db'
     if not os.path.exists(db_path):
-        print(f"Error: {db_path} not found.")
+        db_path = 'data/index/proceedings.db'
+    if not os.path.exists(db_path):
+        print(f"Error: proceedings.db not found.")
         return
 
     conn = sqlite3.connect(db_path)

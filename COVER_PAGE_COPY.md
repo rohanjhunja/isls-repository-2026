@@ -322,7 +322,43 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 ---
 
-## 8\. Academic Citation (`#citation`)
+## 8\. 1-Click Local Deployment (`#local-setup`)
+
+### Section Header
+
+- **Kicker**: `1-CLICK LOCAL DEPLOYMENT`  
+- **Title**: Local Setup  
+- **Description**: Run the complete agentic literature review system on your machine with offline SQLite FTS5 search across all 5,402 papers. Compatible with **Google Antigravity** and **Claude Desktop**.
+
+### 3-Step Horizontal Setup Cards
+
+#### Step 01: Open Antigravity (Clean Folder • 0 MB)
+- **Badge**: `01` • `Clean Folder (0 MB)`
+- **Icon**: Folder icon
+- **Title**: Open Antigravity
+- **Description**: Open **Google Antigravity** (or Claude Desktop) and select or create an empty directory for your literature review project.
+- **Agent Tags**: `Google Antigravity` & `Anthropic Claude Desktop`
+
+#### Step 02: Paste Setup Prompt (~45 MB Git Clone • 5,395 full-text papers) [PRIMARY HIGHLIGHT CARD]
+- **Badge**: `02` • `~45 MB Git Clone (5,395 full-text papers)`
+- **Icon**: Terminal / Prompt icon
+- **Title**: Paste Setup Prompt
+- **Description**: Paste this prompt into the agent chat. It pulls the repository, installs dependencies, builds the 10-year database, and launches the viewer.
+- **Prompt Text**: `Clone https://github.com/rohanjhunja/isls-repository-2026.git into this folder and run setup`
+- **Primary CTA Button**: `Copy Setup Prompt`
+- **Secondary Link**: `Or download .zip archive (49 MB)` (links to `https://github.com/rohanjhunja/isls-repository-2026/archive/refs/heads/main.zip`)
+
+#### Step 03: Keyword: setup (~442 MB Full-Text DB • 36,871 sections)
+- **Badge**: `03` • `~442 MB Full-Text DB (36,871 sections)`
+- **Icon**: Lightning / Play icon
+- **Title**: Keyword: setup
+- **Description**: If already cloned or downloaded, simply type **setup** in the chat. The project skill configures everything and launches on port 8888.
+- **Keyword**: `setup`
+- **Action Button**: `Copy Keyword (setup)`
+
+---
+
+## 9\. Academic Citation (`#citation`)
 
 ### Section Header
 
@@ -362,7 +398,7 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 ---
 
-## 9\. Toast Feedback & Footer
+## 10\. Toast Feedback & Footer
 
 ### Toast Notifications
 

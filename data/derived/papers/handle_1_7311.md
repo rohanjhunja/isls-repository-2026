@@ -1,0 +1,89 @@
+# Examining Collaborative Support for Block-Based Programming with Upper Elementary Students
+
+**Conference:** ISLS 2021
+
+## Abstract & Introduction
+
+### Abstract
+Elementary students’ pair programming relationships can be imbalanced in terms of talking and driving time. We investigated the balance of talk distribution between 4th and 5th grade students while they pair program. Students in our study either used a system that supported their switching and talking or the original block-based programming environment. Qualitative examination suggests that the students who received reminders had more balanced talk distribution than students who did not. We investigated this further by examining case studies of four pairs of students. We found that the two more balanced pairs often agreed with each other in regards to the positioning of their roles. The two pairs who were less balanced each had a student who disengaged from the task in their sessions. These findings suggest ways in which support for collaboration may foster young learners’ interactions.
+
+Examining Collaborative Support for Block-Based Programming with Upper Elementary Students Jennifer Tsan, University of Chicago, jennifertsan@uchicago.edu Jessica Vandenberg, Collin Lynch, Eric Wiebe jvanden2@ncsu.edu, cflynch@ncsu.edu, wiebe@ncsu.edu North Carolina State University Kristy Elizabeth Boyer, University of Florida, keboyer@ufl.edu Abstract: Elementary students’ pair programming relationships can be imbalanced in terms of talking and driving time. We investigated the balance of talk distributio n between 4th and 5th grade students while they pair program. Students in our study either us ed a system that supported their switching and talking or the original block-based programming environment. Qualitative examination suggests that the students who received reminders had more balanced talk distribution than students who did not. We investigated this  further by examining case studies of four pairs of students. We found that the two more balanced pairs of ten agreed with each other in regards to the positioning of their roles. The two pairs  who were less balanced each had a student who disengaged from the task in their sessions. These findings suggest ways in which support for collaboration may foster young learners’ interactions.
+
+## Introduction
+
+Collaborative learning is a complex process that involves co-constructing knowledge via discussion between partners (Roschelle & Teasley, 1995). The amount of time students sp end actively communicating is correlated with the success of their collaborative learning p rocess (Barron, 2003). Important elements of the discussion involve the students’ dialogue-act and social position (van Langenhove & Harré, 1999). Students do not alway s have balanced relationships when they are learning computer science (CS) concep ts collaboratively (Deitrick et al., 2016; Shah et al., 2014). An unbalanced relationship suggests that t here is a difference in power and status between students (Shah et al., 2014). This could be a result of how they perceive each other’s ability in a subject, such as CS (Yamakawa et al., 2009). In short, unbalanced relationship s can be detrimental to the collaborative learning process.
+
+We study pair programming (Williams et al., 2000) where students take on roles as a driver (who controls the computer) or navigator (who directs the driver, plans ahead, and looks for mistakes). The  students switch partway through to ensure both students experience both roles. We have previ ously shown that imbalances can arise in pair programming with elementary students, even when the ins tructor prompts students to switch roles (Tsan et al., 2018). We developed an intervention to remind students when to switch and to talk to their partners. In this current study, we explore how the balance between upper elementary  students varied when they received talking and switching reminders through a system called SuCC ESs (Support for Collaborative Coding with Elementary Students) compared to students who did not receive the reminders. Our research questions are: RQ1) How do students respond to adaptive support features in a collaborative programming environment? RQ2) To what extent do the adaptive support features support the students’ talk balance? We compared students’ interactions and talking balance between student s in two pair programming studies. Pairs that received the SuCCESs reminders had more balanced talk ti mes than pairs that did not. Additionally, the pairs that were more balanced seemed to agree on thei r roles more than students that were unbalanced. The pairs that were  less balanced were also pairs with at least one distracted student. These resul ts suggest that SuCCESs may be beneficial to students but more support is needed for the more unbalanced pairs.
+
+## Theoretical framework
+
+Our work focuses on the balance between students collaborating in pairs while learning programming. We view our work through the lens of positioning theory (van Langenhove & Harré, 1999). Positioning explores how, over the course of a discussion, students espouse certain roles and related dis cursive practices, but, roles can shift. Students position themselves and others in accordance with contextual d emands the conversation requires. We aim to explore the discursive tension between the students' assigned pro gramming role, how they enacted that role, and how they transitioned into their next role. Positioning theory has bee n used to analyze the balance of students learning CS concepts in elementary (Shah et al. 2014) and high school (Deitrick et al., 2016). Collaborative coding interface In this st udy, students interacted with a novel set of features within NetsBlox, a block-based programming environment that allows users to create programs by dragging and droppi ng blocks into a workspace (Broll & Ledeczi, 2017). We implemented two features that make up the SuCCESs system: a switching-reminder that tells the students when to switch roles and a talking reminder that tells the s tudents to talk to their partner. We piloted the features with 4th and 5th grade students and conducted a round of iterative refinement.
+
+## Method
+
+Participants. For all participants reported in the paper, we obtained parental consent and student assent within an IRB-approved protocol. Participants in the first study (study 1) were 16  5th grade academically or intellectually gifted students (9 to 11 years old) from a suburban school in the Southeastern United States; 15 participated in the interventions. The intervention activities were taught by one of the authors. The demographics of the school were 54% white, 22% Hispanic, 18% African American, 4% Multi racial, 1% Asian, 1% other. The participants in the second study (study 2) were 61 4th and 5th grade (8 to 11 years old) students in an urban elementary school in the Southeastern United States. The students were taught by one teacher during the programming lessons. The demographics of the school were 75% white, 10% A frican American, 6.5% Hispanic, 5% Multiracial, 2% Asian, 1% other.
+
+Procedure. The students in both studies participated in the same set of CS learning tasks that were piloted and refined in previous studies (Zakaria et al., 2019). The hour-long lessons covered algorithms, input, conditionals, loops, and broadcasting. All students used pair progra mming for all of the activities. The students used versions of NetsBlox without (study 1) or with (study 2) SuCCESs. Each pair in study 2 received a switching reminder and about half the pairs received a talking reminder. Data collection. During both five week studies, we collected audio, video, and screen reco rding data of their pair programming process. In order to fully explore the two research questions, student talk was transcribed, with the video and screen recording providing contextual clarity to the transcription process. Due to the intensive nature of annotating talk and video data, we sampled 24 pairs from our full dataset, 12 from each stud y. We sampled about 40 minutes of audio and video from each pair, eliminating rec ordings that were not clear enough to transcribe.
+
+Analysis. For RQ1, we annotated the student behaviors  when the reminders appeared. We developed a coding scheme to formally analyze how the students reacted to the reminder s. First, we coded for verbal acknowledgement of the talking reminder (acknowledged and did not acknowledge). Then for the switching reminder, we labeled whether they switched (switched, did not switch, willingly switched later, or teacher had them switch). For RQ2, we used turns of talk as the unit of analysis to analyze the balance of talk between students.
+
+## Results
+
+Figure 1. Distribution of talk of students that received  SuCCESs reminders (left) and students that received
+
+switching reminders from their teacher (right).
+
+The majority of switching reminders from the twelve pairs resulted in a switched (26) before the pair conti nued to work on the task. Pairs 1, 10, and 12 each had one instance of willingly switched later (3). Pair 2 (2) and 12 (1) had instances of did not switch. Pair 2 had one instance of teacher had them switch. In the focus groups, most students stated that they switched immediately; however, other students  admitted that they would wait to switch or switched on their own based on how they perceived their and their partner 's skills. Instances where pairs acknowledged (14) the talking reminder included 12 in whi ch students expressed frustration through utterances such as "We don't care.'' Instances of did not acknowledge (9) showed that pairs either clicked "ok'' immediately or left it on the screen.
+
+We then compared the most talkative partners' proportion of ta lking time (e.g..67 for Pair 1 and.68 for Pair 2) of Figure 1 between the datasets and found that the difference was significant (Wilcoxon Rank Sums Test; Z = 2.87, p = 0.004).
+
+Case studies from SuCCESs condition (study 2) Most pairs in the SuCCESs group  adhered to the reminder to switch and they demonstrated more balanced talk. Below, we detail four pairs of students with varied reminder adherence and talk distribution. Pair 2 (Surya and Evan): Did not always follow switching reminders, less balanced Surya spoke 60% and Evan spoke 40% of the time. They were the second least-balanced of the 12 pairs. Excerpt 1: Surya (Driver):  I just had the best idea. Let's make him super huge so then we'll be able to see hi m. Evan (Navigator): Get back on him.
+
+Surya: No, no, no. Make him super huge. [switching reminder appears; Surya  continues working] Surya: I just had the best idea. So, no.
+
+Evan:  Gimmie it.
+
+Surya: This is actually important [inaudible]. Let me try something. Scripts. [Surya clicks ok] Pair 12 (Amy and Sarah): Did not always follow switching reminders, more balanced Sarah spoke 57% of the time while Amy spoke 43% of the time. They had three s witching reminder instances. Later, when the switching reminder appeared (After Excerpt 2), the students stayed in the same role. Excerpt 2: Sarah:   (Navigator): 90 degrees.
+
+Amy:    (Driver): Why 90?
+
+Sarah:   Wait, wait, wait. And.. Wait, hold on. I.. And it's this way. Amy:    You're doing it. How can people do this? [time passes] Since I'm the instruction now. Sarah:   Okay, so now it's next. We're at the very bottom. Amy:    Turn 90 degrees.
+
+Sarah:   Which way? This way or this way?
+
+Pair 1 (Penny and Kendra) followed the reminders, less balanced Penny (who spoke 67% of the time) and Kendra (who spoke 33% of the time) strictly followed the switching reminders, although they represent a less balanced pair in terms of speaking d istribution. Excerpt 3: Penny (Driver):  Okay, how do I-I want a different costume. You know what, can we just like go back? Delete it? Help me. Help me Kendra, help me. I can't do it. I don't know how to delete anything.
+
+Kendra (Navigator): Okay, okay. Can I have it now, Penny? Okay, so-What did you just do? Penny: What do you mean what did I just do? Uh, why'd I make this smaller? I can make it bigger again. It's my secret though. [physically turns laptop away from Kendra]...
+
+Kendra: Yeah, I'm not. Not right now. Show me how to do it. Penny: I will if you just turn aroundKendra: No. Penny just do it…. Penny can you-I'm not gonna help you at all. [Kendra sits back and to the side, refusing to look at the laptop] Penny: Done. You wanna know what it is? So it's this, Kendra. This button right here. Kendra: I'm not gonna help you.
+
+[For ~2 mins., Penny works independently and Kendra silently reads next to her.] Pair 8 (Ariel and Charlotte) - Followed the reminders, more balanced Ariel talked 52% of the time and Charlotte talked 48% of the time. Even though Charlotte protested as her partner took the laptop away, she quickly fell back into the navigator role by giving directives and suggesti ons. Excerpt 4: Charlotte (Driver): Okay, let's do this quick so we can..."say". Backspace, backspace. Ariel (Navigator):    If, "say". No start up here.
+
+Charlotte:    So...sorry.
+
+Ariel:                       It's gonna switch now. [switching reminder appears] Oh, let's go. [grabs the computer and pushes her partner’s hand away] Stop I cando it. Charlotte:     Hey. You should.
+
+Ariel:                   Oh damn it. It's fine.
+
+Charlotte:               You should put back on "rotation". Ariel:                      Where is "rotation"?
+
+## Discussion
+
+This analysis has examined the ways in which students respond to talkin g and switching reminders and their talk balance during pair programming. Our evidence suggests that the talking reminder was not effective in triggering conversation: 12 out of 23 talking reminders were met with negative student comments. The switching reminder scaffold appeared to be helpful for pairs who agreed that they would adhere to the suggested structure. But, as the case studies illustrate, pairs 12 and 8 varied in how much they followed the switching reminder. Despite this, they were both relatively balanced pairs, with the stricter students (pair 8)  being more balanced. The students in both pairs seemed to willingly adhere to their roles. Another important factor appeared to be the students’ level of focus and engagement. When students in pairs 1 and 2 disengaged, they often physically  positioned themselves aw ay from the laptop (either towards a classmate (Evan) or toward other work (K endra)); this suggests that they were not in control of the programming work (Deitrick et al.,  2016). The behaviors of Penny and Surya may have been one reason their distribution  of talk was more imbalanced than the pairs that followed the switchi ng reminders similarly.
+
+Other researchers that have taken a closer look at younger students' collaborative process have found that the equity of a collaborative relationship depends in part on the way the students position each other socially (Shah et al., 2014). We found that the students’ way of positioning themselves as driver and navigator is also important to the talk balance in their relationship, as evidenced by the significantly more balanced discourse of the SuCCESs group. A study of girls' collaboration found that one student establishe d herself in a more knowledgeable and authoritative position by speaking more, giving commands, and by mainta ining control of the equipment which in this case was a keyboard and mobile phone (Deitrick et al., 2016). In ou r case studies, we found one pair of students that had similar problems with one student attempting to maintain control of the computer more than his partner. This also led the partner to disengage, which affected the talk balance of the relationship.
+
+## References
+
+Barron, B. (2003). When smart groups fail. The Journal of the Learning Sciences, 12(3), 307-359. Broll, B., & Ledeczi, A. (2017, March). Distributed Programming with N etsBlox is a Snap!. In Proceedings of the 2017 ACM SIGCSE Technical Symposium on Computer Science Education  (pp. 640-640). Deitrick, E., Shapiro, R. B., & Gravel, B. (2016). How Do We Assess Equity in Programming Pairs?. Proceedings of the 2016 Annual Conference of the Learning Sciences (pp. 370-377). Singapore. Roschelle, J., & Teasley, S. D. (1995). The construction of shar ed knowledge in collaborative problem solving. In Computer supported collaborative learning (pp. 69-97). Springer, Berlin, Heidelberg. Shah, N., Lewis, C. M., & Caires, R. (2014) Analyzing Equity in Collabo rative Learning Situations: A Comparative Case Study in Elementary Computer Science. Proceedings of the 2014 Annual Conference of the Learning Sciences, (pp. 495-502). Boulder, CO.
+
+Tsan, J., Lynch, C. F., & Boyer, K. E. (2018). “Alright, what do we need?”: A study of young coders’ collaborative dialogue. International Journal of Child-Computer Interaction, 17, 61-71. van Langenhove, L. & Harré, R. (1999). Introducing positioning theory. In R. Harré, & L. van Lagenhove (Eds.), Positioning theory: Moral contexts of intentional action (pp. 14-31). Malden, MA: Blackwell. Williams, L., Kessler, R. R., Cunningham, W., & Jeffries, R. (2000). Strengthening the case for pair programming. IEEE software, 17(4), 19-25.
+
+Yamakawa, Y., Forman, E., & Ansell, E. (2009). Role of positioning: The r ole of positioning in constructing an identity in a third grade mathematics classroom. In Investigating classroom interaction  (pp. 179-202). Brill Sense.
+
+Zakaria, Z., Boulden, D., Vandenberg, J., Tsan, J., Lynch, C., Wiebe, E., & Boyer, K. E. (2019). Co llaborative talk across two pair-programming configurations.
+
+## Acknowledgments
+
+This work is supported by the National Science Foundation through the gr ant DRL-1721160. Everything expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
+

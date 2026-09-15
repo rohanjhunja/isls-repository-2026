@@ -832,55 +832,21 @@
 
     <!-- 1-Row Horizontal Cards Flow -->
     <div class="setup-cards-row">
-      <!-- Card 1: Download -->
-      <div class="setup-step-card highlight">
-        <div class="setup-step-badge highlight">
-          <span class="step-number">01</span>
-          <div class="step-memory-tag highlight">
-            <span class="memory-total">~9.5 MB Total</span>
-            <span class="memory-inc">(+9.5 MB archive)</span>
-          </div>
-        </div>
-        <div class="setup-step-icon highlight">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-        </div>
-        <h3 class="setup-step-title">Download Minimal Package</h3>
-        <p class="setup-step-desc">
-          Clone the GitHub repository or download the lightweight minimal package containing core code, skills, and the 10-year golden dataset.
-        </p>
-        <div class="setup-code-snippet">
-          <code id="gitCloneText">git clone https://github.com/rohanjhunja/isls-repository-2026.git</code>
-          <button class="btn-copy-code" id="btnCopyGitClone" title="Copy git clone command" aria-label="Copy git clone command">
-            <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            <span>Copy</span>
-          </button>
-        </div>
-        <a href="https://github.com/rohanjhunja/isls-repository-2026/archive/refs/heads/main.zip" class="btn-download-package" id="btnDownloadPkg" title="Download lightweight repository archive (.zip)">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-          <span>Download Minimal Package (.zip)</span>
-        </a>
-      </div>
-
-      <!-- Step Arrow Divider -->
-      <div class="setup-arrow-divider">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-      </div>
-
-      <!-- Card 2: Launch in Antigravity or Claude Desktop -->
+      <!-- Card 1: Open Agent & Workspace -->
       <div class="setup-step-card">
         <div class="setup-step-badge">
-          <span class="step-number">02</span>
+          <span class="step-number">01</span>
           <div class="step-memory-tag">
-            <span class="memory-total">~556 MB Total</span>
-            <span class="memory-inc">(+550 MB venv)</span>
+            <span class="memory-total">Clean Folder</span>
+            <span class="memory-inc">(0 MB)</span>
           </div>
         </div>
         <div class="setup-step-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
         </div>
-        <h3 class="setup-step-title">Launch in Agent Workspace</h3>
+        <h3 class="setup-step-title">Open Antigravity</h3>
         <p class="setup-step-desc">
-          Open the folder in <strong>Google Antigravity</strong> (native skills auto-mount) or <strong>Claude Desktop</strong> (configured via <code>CLAUDE.md</code> project instructions).
+          Open <strong>Google Antigravity</strong> (or Claude Desktop) and select or create an empty directory for your literature review project.
         </p>
         <div class="setup-dual-agents-badge">
           <span class="agent-tag agy-tag">
@@ -899,27 +865,60 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
       </div>
 
-      <!-- Card 3: 1-Click Prompt -->
+      <!-- Card 2: Clone & Initialise Prompt (PRIMARY CARD WITH CTA) -->
+      <div class="setup-step-card highlight">
+        <div class="setup-step-badge highlight">
+          <span class="step-number">02</span>
+          <div class="step-memory-tag highlight">
+            <span class="memory-total">~45 MB Git Clone</span>
+            <span class="memory-inc">(5,395 full-text papers)</span>
+          </div>
+        </div>
+        <div class="setup-step-icon highlight">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+        </div>
+        <h3 class="setup-step-title">Paste Setup Prompt</h3>
+        <p class="setup-step-desc">
+          Paste this prompt into the agent chat. It pulls the repository, installs dependencies, builds the 10-year database, and launches the viewer.
+        </p>
+        <div class="setup-prompt-box">
+          <div class="prompt-text-content" id="setupPromptText">Clone https://github.com/rohanjhunja/isls-repository-2026.git into this folder and run setup</div>
+          <button class="btn-copy-setup-prompt primary-cta" id="btnCopySetupPrompt" title="Copy Setup Prompt">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            <span>Copy Setup Prompt</span>
+          </button>
+        </div>
+        <a href="https://github.com/rohanjhunja/isls-repository-2026/archive/refs/heads/main.zip" class="setup-alt-link" title="Download lightweight repository archive (.zip)">
+          <span>Or download .zip archive (49 MB)</span>
+        </a>
+      </div>
+
+      <!-- Step Arrow Divider -->
+      <div class="setup-arrow-divider">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+      </div>
+
+      <!-- Card 3: Skill Keyword setup -->
       <div class="setup-step-card">
         <div class="setup-step-badge">
           <span class="step-number">03</span>
           <div class="step-memory-tag">
-            <span class="memory-total">~668 MB Total</span>
-            <span class="memory-inc">(+112 MB db &amp; cache)</span>
+            <span class="memory-total">~442 MB Full-Text DB</span>
+            <span class="memory-inc">(36,871 sections)</span>
           </div>
         </div>
         <div class="setup-step-icon">
           <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
         </div>
-        <h3 class="setup-step-title">Single Prompt to Set-Up</h3>
+        <h3 class="setup-step-title">Keyword: setup</h3>
         <p class="setup-step-desc">
-          Paste this single prompt into the agent chat. It sets up the environment, builds the database, and starts the viewer in ~10 seconds.
+          If already cloned or downloaded, simply type <strong>setup</strong> in the chat. The project skill configures everything and launches on port 8888.
         </p>
         <div class="setup-prompt-box">
-          <div class="prompt-text-content" id="setupPromptText">Set up the virtual environment, install dependencies, rebuild the 10-year proceedings database and review caches, and launch the review viewer.</div>
-          <button class="btn-copy-setup-prompt" id="btnCopySetupPrompt" title="Copy Setup Prompt">
+          <div class="prompt-text-content" id="setupKeywordText" style="font-size: 0.95rem; font-weight: 700; color: #1d4ed8; text-align: center; padding: 4px 0;">setup</div>
+          <button class="btn-copy-setup-prompt" id="btnCopyKeyword" title="Copy Keyword 'setup'">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
-            <span>Copy Prompt</span>
+            <span>Copy Keyword (setup)</span>
           </button>
         </div>
       </div>

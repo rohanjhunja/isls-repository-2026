@@ -1,0 +1,47 @@
+# PK–12 Computing Teacher Interactions in an Online Professional Learning Experience
+
+**Conference:** ISLS 2021
+
+## Abstract & Introduction
+
+### Abstract
+Online professional learning experiences can support computing teachers in developing content knowledge and expanding professional networks. Within the context of an 11-day online professional learning experience for computing teachers working with Scratch, this study explored interactions between participants and facilitators with varying levels of Scratch familiarity. Findings describe how facilitators and participants with lower and higher levels of Scratch familiarity interacted with one another, which can inform the design of professional learning experiences that support teacher collaboration.
+
+PK–12 Computing Teacher Interactions in an Online Professional Learning Experience Paulina Haduong, Carter Zenke, Jess Eng, Karen Brennan haduong@g.harvard.edu, carterzenke@gse.harvard.edu, jessicaeng@college.harvard.edu, karen_brennan@gse.harvard.edu Harvard University Abstract: Online professional learning experiences can support computing t eachers in developing content knowledge and expanding professional networks. Within the context of a n 11-day online professional learning experience for computing  teachers working with Scratch, this study explored interactions between participants and facilitators with varying levels of Scratch familiarity. Findings describe how facilitators and participa nts with lower and higher levels of Scratch familiarity inter acted with one another, which can inform the design of professional learning experiences that support teacher collaboration.
+
+## Introduction
+
+Broadening access to PK–12 computing education require s supports for teachers, and yet computing teachers report limited opportunities for professional learning (Yadav et al., 2016). While some scholars have argued that professional learning experiences should vary for teachers with differen t levels of prior experience (Qian et al., 2018), teachers can benefit from opportunities to interact with others of varying expertise (Penuel, Sun, Frank, & Gallagher, 2012). In this study, we explore the following research question: How did teachers with varying prior Scratch familiarity interact when participating in an online professional learning experience? We take a situated learning approach (Sentance & Humphreys, 2018)  and draw on Lave and Wenger’s
+
+(1991) conception of learning as participation to understand computing teachers’ experiences in Getting Unstuck,
+
+a 2020 11-day online professional learning experience that aimed to support PK –12 computing teachers’ developing familiarity with Scratch, a widely-used introductory programming language and online community. Participation in this context  includes not only creating projects, but also receiving and sending comments on projects. Each day of Getting Unstuck, participants received an email with an invitation to create a Scratch project in response to a prompt, share their projects with others in a  studio public to the Scratch community, and reflect on their daily work. Five facilitators (elementary school teachers and university researchers) modeled interactions by leaving comments on participants’ projects.
+
+## Method
+
+1,009 participants signed up through an introductory survey to receive the daily emails with the project prompts. 298 participants created and submitted at least one project across the 1 1 days. 168 of the 298 participants (56%) completed 10 or more projects, and we collected participants’ 10,576 comments and associated metadata across 2,251 projects submitted to all 11 studios. We then grouped the sample into three categories: lower familiarity (LF), higher familiarity (HF), and facilitators. In the  introductory surve y, p articipants self-reported their familiarity with Scratch across five categories: “I’ve never used Scratch before,” “I’ve seen others u se Scratch,” “I’ve made a few projects,” “I’ve helped others make projects,” and “I’m well-acquainted with the ins and outs of Scratch.” Participants were also asked to self-report prior participation in a 2018 pilot of Getting Unstuck. Participants who placed themselves in the first three categories and did not participate in 2018 were grouped as lower familiarity (LF). P articipants who placed themselves in the last two categories  and/or participated in 2018 were grouped as higher familiarity (HF). Our sample of 298 participants included 69 (23.2%) LF users, 224 (75.2%) HF users, and 5 (1.7%) facilitators.   We sought to understand  interactions between participants with the same degree of familiarity, over time. Our analysis adopts Krackhardt & Stern’s (1988) measures to evaluate the relative proportion of in-group and out-group ties within a social network, visualizing the evolving network with directed graphs and calculat ing a normalized index to quantify the extent to which participants interacted within or outside their group. We then track how these measures evolved throughout Getting Unstuck to identify and compare participation trajectories for LF and HF teachers.
+
+## Findings and discussion
+
+Participants engaged in substantial and consistent  interactions with others. Across the 11 days, 45 out of 69 LF teachers (65%) and 185 out of 224 HF teachers (83%) made at least one comment. Though the number of participants decreased over time, participants remained consistently eng aged with others’ projects, leaving an average of 4.1 to 6.0 daily comments per project (cumulative average of 4.7 over all days).
+
+Figure 1. Directed comment interactions among HF teachers, LF teachers, and facilitators.
+
+We found evidence of different trajectories of participation between HF and L F teachers (see Figure 1). We calculated the difference between HF and LF teachers’ externally directed comments per person (i.e., across groups) and internally directed comments per person (i.e., within groups), dividing by the sum of these metrics to reach a normalized index of externality and internalit y, which has two pole s: -1, indicating engagement only within the group, and 1, indicating engagement only outside of the group. LF teachers began Getting Unstuck with a moderate tendency to interact with HF teachers and facilitators (EI = 0.23), rather than interacting with one another. Over time, however, LF teachers strengthened interactions with those who had similar levels of prior Scratch familiarity (EI = 0.19 and 0.01 in studios 4–7 and 8–10, respectively). On the fifth day, for example, one LF user debugged another LF user’s project: “I remixed it and I think I got it to work! ” HF teachers also began Getting Unstuck with a moderate tendency to reach outside of their group (EI = 0.24) but e xhibited an opposite trajectory of participation: as they progressed, they engaged more often with facilitators and LF teachers (EI = 0.40 and 0.48 in studios 4–7 and 8–10, respectively). In Studio 6, an HF user asked an LF user about the project they had made: “You need way less code than I did. Do I understand it correctly that you use a broadcast block to change the color of the clones and that all clones that need to change color do so when  that message is broadcasted?” The LF user responded, “Indeed, every time a clone is clicked it sends a message to all the others and stores its value on a shared, temporary variable.” Teachers’ interactions with one another  in Getting Unstuck offer evidence for how  participation in an online community can evolve, even within a short timeframe. These  opportunities to learn from and with others may also support teachers in deepening their own familiarity with Scratch.  Understanding how teachers engage with the work of others with varying computing backgrounds can inform the design and facilitation of professional learning experiences that create opportunities for teacher collaboration. Future work could examine the substance of participants’ comments  as well as the role of skilled facilitators, offering  directions for the design of future professional learning activities.
+
+## References
+
+Krackhardt, D., & Stern, R. N. (1988). Informal networks and organizational crises: An experimental simulation. Social Psychology Quarterly, 123-140.
+
+Lave, J., & Wenger, E. (1991). Situated learning: Legitimate peripheral participation. Cambridge University Press.
+
+Penuel, W. R., Sun, M., Frank, K. A., & Gallagher, H. A. (2012). Using s ocial network analysis to study how collegial interactions can augment teacher learning from external professional  development. American Journal of Education, 119(1), 103-136.
+
+Qian, Y., Hambrusch, S., Yadav, A., & Gretter, S. (2018). Whoneeds what: R ecommendations for designing effective online professional development for computer science teachers. Journal of Research on Technology in Education, 50(2), 164-181.
+
+Sentance, S., & Humphr eys, S. (2018). Understanding professional learning for Computing teach ers from the perspective of situated learning. Computer Science Education, 28(4), 345-370. Yadav, A., Gretter, S., Hambrusch, S., & Sands, P. (2016). Expand ing computer science educati on in schools: Understanding teacher experiences and challenges. Computer Science Education, 26(4), 235–254.
+
+## Acknowledgments
+
+This work has been supported by the National Science Foundation, Grant #1908110. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s).
+

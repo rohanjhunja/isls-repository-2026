@@ -365,11 +365,26 @@
     if (setupPromptBtn && setupPromptEl) {
       setupPromptBtn.addEventListener("click", () => {
         copyTextToClipboard(setupPromptEl.textContent.trim(), () => {
-          showToast("✓ Copied 1-Click Setup Prompt to clipboard!");
+          showToast("✓ Copied Setup Prompt to clipboard!");
           const origHtml = setupPromptBtn.innerHTML;
           setupPromptBtn.innerHTML = `<span>✓ Copied!</span>`;
           setTimeout(() => {
             setupPromptBtn.innerHTML = origHtml;
+          }, 2000);
+        });
+      });
+    }
+
+    const keywordBtn = document.getElementById("btnCopyKeyword");
+    const keywordEl = document.getElementById("setupKeywordText");
+    if (keywordBtn && keywordEl) {
+      keywordBtn.addEventListener("click", () => {
+        copyTextToClipboard(keywordEl.textContent.trim(), () => {
+          showToast("✓ Copied 'setup' keyword to clipboard!");
+          const origHtml = keywordBtn.innerHTML;
+          keywordBtn.innerHTML = `<span>✓ Copied!</span>`;
+          setTimeout(() => {
+            keywordBtn.innerHTML = origHtml;
           }, 2000);
         });
       });

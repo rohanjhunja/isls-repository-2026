@@ -1,0 +1,47 @@
+# Building Theories About Plate Tectonics: Supporting Data Visualization as Epistemic Practice
+
+**Conference:** ISLS 2022
+
+## Abstract & Introduction
+
+### Abstract
+Proposing, testing, and refining explanations using data visualizations are central to geoscience, although difficult to orchestrate in settings of instruction. We analyze a case in which two 11th grade students engage in a spontaneous process of theory generation and testing using Seismic Explorer, a tool for visualizing information about earthquakes and volcanic eruptions. Our interaction analysis identifies attributes and affordances of the learning environment that supported students’ process of constructing explanations.
+
+Building Theories about Plate Tectonics: Supporting Data Visualization as Epistemic Practice Brandin M. Conrath, Pennsylvania State University, bmc395@psu.edu Amy Voss Farris, Pennsylvania State University, amy@psu.edu Scott McDonald, Pennsylvania State University, smcdonald@psu.edu Amy Pallant, Concord Consortium, apallant@concord.org Abstract: Proposing, testing, and refining explanations using data visualizations are central to geoscience, although difficult to orchestrate in settings of instruction. We analyze a case in which two 11th grade students engage in a spontaneous process of theory generation and testing using Seismic Explorer, a tool for visualizing information about earthquakes and volcanic eruptions. Our i nteraction analysis identifies attributes and  affordances of the learning environment that supported students’ process of constructing explanations.
+
+Keywords: geoscience, data visualization, curricular openness, epistemic agency
+
+## Introduction
+
+In geoscience education, making sense of geologic systems often requires modeling geological phenomena (e.g., Libarkin & Brick, 2002). Understanding plate tectonics, for example, demands  reasoning about the relative density and movement of plates on a sphere, a notoriously challenging phenomenon for novices.  Complex geologic phenomena are especially interesting sites of learning when they require students to grapple with large datasets. We are interested in describing how two students came to engage in a process of building explanations using an interactive computer-based data visualization of geologic phenomena. Understanding their interaction with the curricular tools  and prompts may guide future research concerning the development of modeling environments and overcoming the challenges related to teaching and learning about complex systems within geoscience. Specifically, this analysis seeks to answer the following research question:  What attributes of the learning environment support learners to build, test, and refine geoscientific explanations through interaction?
+
+## Methods
+
+The context of this data is an 11th grade Earth science classroom in the southeastern United States. The class used an interactive digital Plate Tectonics curriculum (https://learn.concord.org/geo-platetectonics) which is part of the National Science Foundation funded Geological Models for Explorations of the Dynamic Earth (GEODE) project. The focal students (Noah and Zach, pseudonyms) worked to complete the curriculum collaboratively. Noah and Zach’s class engaged with the curriculum for roughly ten class periods of approximately forty minutes each; Noah and Zach’s laptop was  recorded using screen capture software and the laptop camera. We used  multimodal interaction analysis methods (Jordan & Henderson, 19 95) to analyze their interaction and sought to understand how they expanded beyond the curricular prompts.
+
+The Plate Tectonics curriculum includes Seismic Explorer, an interactive data visualization tool. Seismic Explorer (Table 1) is a time-oriented data visualization of earthquake  epicenters, volcanic eruptions, and plate movements. Students can view location, depth, magnitude, and frequency of earthquakes on a two-dimensional map of the world as well as in a three-dimensional cross-section. Cross-section visualizations are specific to any region selected by the students. Other data included within Seismic Explorer’s global mapping is direction of tectonic plate movement and  location of volcanoes with the year of last eruption.  GEODE was intentionally designed to use the Seismic Explorer iteratively in support of student problem solving related to key driving questions included in the curriculum.
+
+## Analysis and Findings: “I think my theory might be holding up.”
+
+Noah and Zach worked with Seismic Explorer to describe the patterns of ea rthquakes and volcanic eruptions in the Andes Mountains, as prompted by a question in the online mo dule. They first zoom out to view global earthquake and volcanic activity, not just around the Andes Mou ntains. Zach prompts Noah to zoom in to only view the earthquake activity in Africa (not South America). After viewing Africa, Zach claims, “Ooh, I think my theory might be holding up.”   Noah prompts him to explain what he means.  Zach says “okay, now my theory is…see Africa’s going that way, right?” Zach points to the southeast coast of Africa as he continues: “Look where all the volcanoes and earthquakes are. They’re on this  (southeastern) side” Zach has Noah then revisit South America and they compare the pattern in southeastern Africa to South America. Noah asks “…so the way they CSCL2022 Proceedings 593 © ISLS are going determines where the earthquakes are?” to which Zach confirms “that’s the theory so far.” The class period ends, interrupting further discussion.
+
+The following day, Noah and Zach begin the next task in the Plate Tectonics curriculum. The curricular task involves using Seismic Explorer to create a cross-section of earthquakes occurring underneath the Andes Mountains. The curriculum question prompts them to “describe the pattern of earthquakes that you can see in the three-dimensional cross-section of the Andes. Explain how this pattern helps you think about what is happening when the two pieces [tectonic plates] of Earth’s surface come together.” Table 1 shows the selected area of the Andes Mountains using Seismic Explorer, a snapshot of their cross-section, and the associated talk. This episode illustrates how Zach and Noah draw on their experiences with Seismic Explorer to build a normative explanation of tectonic plate subduction in the Andes Mountains. As directed, they select an area within Seismic Explorer and create their own three-dimensional cross-section locations of earthquake data. Table 1 Transcript: Continental ‘stuff’ Turn of Talk          Student Artifacts 1 Noah: Oh, here’s an idea! Maybe the stuff that’s on the continental stuff is going up and the oceanic crust is going down. That’s created this. 2 Zach: And we can confirm that.  Cause we need to figure out what the density is between uhm.
+
+3 Noah:...I just think that maybe that’s what’s happening, maybe one layer is going down while another layer is coming up which is why the mountains are forming in the first place.
+
+4 Zach: Yeah, maybe.
+
+5 Zach: And we could test that theory out, if we just knew what the de nsity was on that plate right beside South America.
+
+6 Noah: We have this, and we have this, they’re going [gestures partially off screen; both hands coming together, left going under right.] Noah and Zach submit the annotated cross-section image (right) as part of their response.
+
+## Discussion and Conclusion
+
+The brief interactions we have highlighted demonstrate how these students were positioned with (and brilliantly took up) agency to generate, test, and refine  their own knowledge claims. A perennial challenge in science education is that positioning students as knowledge creators can sometimes result in “invented science” (Russ & Berland, 2019). We have illustrated how the students adopted the visualization and curricular module to take on self-directed work as they asked meaningful questions that they could make progress on  using the given tools, forming conjectures related to testable hypotheses, and refining their explanations. We attribute some of the success of these interactions to what we call the openness of the curricular tools, which did not restrain students’ use of the geological data and visualization features. For instance, the students initially  deviated from the curricular goal of identifying patterns around the Andes Mountains. They instead explore Africa’s geologic data using the zoom out and in features of Seismic Explorer. The initial claim that earthquakes and volcano location is driven by direction of plate movement becomes irrelevant when they later look at the cross-section data. We posit that the overall fruitfulness of Noah and Zach’s interaction is aided by the freedom with which they tested tentative ideas, in tandem with carefully crafted curricular prompts that leverage high-ceiling visualization tools.
+
+## References
+
+Jordan, B., & Henderson, A. (1995). Interaction analysis: Foundations and practice. The Journal of the Learning Sciences, 4(1), 39-103.
+
+Libarkin, J. C., & Brick, C. (2002). Research Methodolog ies in Science Education: Visualization and the Geosciences. Journal of Geoscience Education, 50(4), 449 –455. https://doi.org/10.5408/1089-999550.4.449 Russ, R. S., & Berland, L. K. (2019). Invented science: A framework for discussing a persistent problem of practice. Journal of the Learning Sciences, 28(3), 279-301. CSCL2022 Proceedings 594 © ISLS
+

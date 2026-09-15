@@ -1,0 +1,39 @@
+# Partnerships for Culturally Relevant and Sustaining Pedagogies Through Community Walks and Mapping
+
+**Conference:** ICLS 2020
+
+## Abstract & Introduction
+
+### Abstract
+Culturally relevant and sustaining pedagogies seem like “just good teaching” (Ladson-Billings, 1995) but challenge in-service and pre-service teachers’ practice. Walking tours and community mapping become tools to highlight community assets through the voices of its members, and they may help teachers in bringing the lived experiences of their students into the classroom. In this research-practice partnership with novice urban teachers, they have begun to see the community in a new light but still struggle to shift their practice-a future goal for the partnership.
+
+Partnerships for Culturally Relevant and Sustaining Pedagogies Through Community Walks and Mapping Kathryn M. Bateman, Temple University, kathryn.bateman@temple.edu Jonathand. McCausland, The Pennsylvania State University, jdm5625@gmail.com Abstract: Culturally relevant and sustaining pedagogies seem like “just good teaching” (Ladson-Billings, 1995) but challenge in-service and pre-service teachers’ practice. Walking tours and community mapping become tools to highlight community assets through the voices of its members, and they may help teachers in bringing the lived experiences of thei r students into the classroom. In this research-practice partnership with novice urban teachers, they have begun to see the community in a new light but still struggle to shift their practice-a future goal for the partnership.
+
+Keywords: urban education, culturally relevant and sustaining pedagogies, teacher education Research goals and background The goal of this project is to  improve  the educational practices in urban STEM classrooms by centering the lived experiences of students and community stakeholders. More specificall y, we are working towards a research-practice partnership (Coburn, Penuel, & Geil, 2013) starting with three novice teachers of science and mathematics in a large, northeastern city to build local knowledge about how to equitably teach their students. The researchers created an initial conjecture map (Sandoval, 2014) to outline the connections between our initial design ideas and the literature base and used these thoughts to recruit novice teachers to join our partnership (Figure 1.) From this moment on, the teachers became equal partners in the design of the study with a shared vi sion of more equitable STEM instruction.
+
+Figure 1. Conjecture map of the community mapping project.
+
+One practice we put forth to bring the local cultural narratives into the classroom  is walking tours and community mapping. Current literature links cultural knowledge as a means to equity (Ladson-Billings, 1995) and community mapping as a means to cultural knowledge (Powell, 2016). Mapping creat es opportunities for teachers to gain a deepened asset-minded view of the community, create a tool to support curricular planning (McGinnis, Parker, & Graeber, 2004), and chances to reflect on how to enact culturally relevant and s ustaining pedagogy (Ladson-Billings, 1995; Paris, 2012). We therefore ask: In what ways does engaging in community mapping influence teachers’ instructional choices and help them enact culturally relevant and sustaining pedagogy?
+
+## Study design
+
+The design of the study includes bi-weekly meetings with the team (researchers and teachers), walking tours with community members (students and adults), mapping the neighborhood, post-tour interviews between researchers and teachers, and journaling instructional practices. After recruiting an initial cohort, the team collaborated on the design of the study, the interviews, tours, maps, and documentation of instruction. Afte r creating initial maps of their area, teachers asked community members to go on a walking tour of the neighborhood to le arn more. An interview with a researcher followed the walks. Teachers then sought another com munity member for a second walk. Next, teachers created a revised map of the community that labeled the assets, based on their tour and initial map, that may help with the curriculum they are assigned to teach. Teachers also documented their instructions in reflection journals as they used the map’s resources. D ata collected includes many traditional ethnographic methods such as interviews and a collection of artifacts (Spradley, 2016) such as t he maps, photographs, and classroom materials. Our current analysis takes a post-structuralist approach, looking at data  that “glow” (MacLure, 2013) with the aim of revising the design iteratively as data is col lected and analyzed.
+
+## Preliminary findings
+
+Preliminary findings from our teacher interviews and reflection journals  indica te that walking tours to create community maps shift teachers’ views of students’ cultures and communities to more asset minded views, but the integration of this knowledge into the curriculum is still superficial. The intentional relationship building leading up to walking tours with students in the community helped teachers connect more deeply wit h their students and other community members. Through this intentional relationship building, teachers fe lt successful in connecting with their students by directly discussing their communities in race-visible ways. Implementation of community resources into curriculum and instruction remains superficial at this stage  of the project and becomes our next focal point for improvement. The lessons have been successful in engaging students and rendering learning visible to the community but fall short of disrupting instructional norms. In one teacher’s le sson, she used a local basketball court in her math lesson to draw and discuss perfect circles. By placi ng the lesson outside, the teacher reported higher student engagement and interest from on-lookers in the area around the court. This is a productive first step, but the teachers and researchers acknowledge that we are still short of culturally relevant and sustaining pedagogy.
+
+It is the goal of this research to add to both theory and practice in equity education. Our  hope is that through this partnership, which brings the voices of teachers, their students, and the  community into the conversation on how to improve STEM education, we can create tools for use in te acher education to make the process of coming to know the community more accessible.
+
+## References
+
+Coburn, C. E., Penuel, W. R., & Ge il, K. E. (2013). Research-practice partnerships: A strategy for leveraging research for educational improvement in school districts. New York, NY: William T. Grant Foundation. Ladson‐Billings, G. (1995). But that's just good teaching! The case f or culturally relevant pedagogy. Theory into practice, 34(3), 159-165.
+
+MacLure, M. (2013). Researching without representation? Language and mater iality in post-qualitative methodology. International journal of qualitative studies in education, 26(6), 658-667. McGinnis, J. R., Parker, C., & Graeber, A. O. (2004). A cultural  perspective of the induction of five reform‐ minded beginning mathematics and science teachers. Journal of Research in Science Teaching, 41(7), 720-747.
+
+Paris, D. (2012). Culturally sustaining pedagogy: A needed change in stance, terminology, and practice. Educational researcher, 41(3), 93-97.
+
+Pink, S. (2008, September). Mobilising visual ethnography: Making routes, making place  and making images. In Forum Qualitative Sozialforschung/Forum: Qualitative Social Research (Vol. 9, No. 3). Powell, K. (2016). Multimodal mapmaking: Working toward an entangled methodology of pl ace. Anthropology & Education Quarterly, 47(4), 402-420.
+
+Sandoval, W. (2014). Conjecture mapping: An approach to systematic educational design research. Journal of the learning sciences, 23(1), 18-36.
+

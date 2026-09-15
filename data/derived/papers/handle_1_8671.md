@@ -1,0 +1,41 @@
+# Design of an Argumentation-Based Learning Activity: Connecting Veterinary Students to Real-World Problems
+
+**Conference:** ISLS 2022
+
+## Abstract & Introduction
+
+### Abstract
+The study investigated the design of an argumentation-based activity that focused on animal welfare and advocacy in a first-year veterinary class. The objective was to understand students’ learning experience and to provide evidence-based insights for future improvement. The reflections of eighty students were analyzed using semantic network analysis. We found that allowing for topic selection, providing background resources, and scaffolded evaluation of biases and evidence may be important design considerations.
+
+Design of an Argumentation-based Learning Activity: Connecting Veterinary Students to Real-world Problems Yingying Zhao, Sean Kao, Jonan Phillip Donaldson, Kristin P. Chaney fhlzhaoyy@tamu.edu, sean.kao@tamu.edu, jonandonaldson@tamu.edu, kchaney@cvm.tamu.edu Texas A&M University Abstract: The study investigated the design of an argumentation-based activity that focused on animal welfare and advocacy in a first-year veterin ary class. The objective was to understand students’ learning experience and to provide eviden ce-based insights for future improvement. The reflections of eighty students were analyzed us ing semantic network analysis. We found that allowing for topic selection, providing background resources, and scaffolded evaluation of biases and evidence may be important design considerations.
+
+## Introduction
+
+Argumentation skills are of great significance for students and scientists as it is commonly used in daily thinking in science learning and research. The use of argumentation has been associated with positive learning outcomes such as critical thinking, logical reasoning, and p roblem-solving skills (e.g., Boğar, 2019). However,  it is challenging to engage students in argumentation (Noroozi et al., 2020). Learning occurs through interacting with artifacts. More specifically, the construction of k nowledge occurs when learners construct mental mode ls by generating, experimenting, and modifying artifacts-particularly when such artifacts have real-world i mpact (Papert & Harel, 1991). Thus in the course design investigated in this study, students were introduced to authentic situations and construction of authentic artifacts for the purpose of observation and constructing val id argumentation. The objective of this study was to understand students’ learning experience in a learning activity combining argumentation and real-world work to provide evidence-based insights for future improvement.
+
+## Method
+
+This study used semantic network analysis methods. Data for this study were students’ reflections abou t their learning experience in an argumentation-based learning activity. Students from a first-year veterinary class were asked to compose a letter to their legislator advocating for or against the issue of equine slaughter. A 30-minute online teaching module was provided for students to  provide background information that could support formulation of an advocacy position. After writing the letter to the legislator, students were then asked to reflect on the benefits, struggles, activity design, and su ggestions.  For the eighty students completing the reflection activity, MAXQDA Analytics Pro software was used to code the data. A codebook was developed, with 42 codes and 548 code segments. We then calculated the Pearson’s r among all codes and imported the correlation matrices into the UCINET software to create semantic network  maps using Girvan-Newman cluster analysis (Girvan & Newman, 2002).
+
+## Findings
+
+A semantic network analysis map is presented in figure 1. We identified 3 clusters from codes at the p <.05 level at the robust confidence of Q = 0.43. Some students struggled with information selection to build a sturdy logical foundation of their argument (black cluster in figure 1). The data shows that there were students struggling with understanding laws and a lack of background knowledge  in regard to the topic chosen by the instructor. T he primary suggestions center around the topic and options for participation which correlated with the strengths of the overall evaluation and research/reiterate aspects of the assignment. Several students expres sed that they benefited from the practice of researching, organizing, and writing the arguments based on facts and d ata using real-world problems they may or may not be familiar  with. The data suggested that instructors can cons ider providing multiple topics for students to choose th e one they are most interested in.  Also, some stud ents were struggling with the word/paragraph limit when writing the letter to their legislator. Expanding the page limit can be an option for those students who feel comfortable communicating with more words. A strength of good instruction of the assignment was identified (red cluster in fi gure 1), which interconnected with design strength of well structured. However, a design weakness in the video module ha s surfaced due to a lack of supplement instructional resources. Some students found rewinding instructional videos back and forth to be troublesome. It is suggested t hat instructors provide outside reading beside the module  to help students gain more contextual knowledge. However, some students found the given materials already hard to cope with due to time issues.
+
+ICLS2022 Proceedings 1976 © ISLS Some students found it difficult to put their own bias aside (blue cluster in figure 1), which was correlated with another struggle about the desire to appease both sides. They also struggled with writing to people with no experience. One design suggestion to help with these struggles is to provide more information in the video module so they could make a more informed decision and explain it well. The suggestion of making the instruction more clear was linked to the weakness of unclear instruction and multiple struggles including writing a letter, citations, and writing an argumentative letter. Considering that students may not be familiar with the letter format, we need to further clarify expectations and requirements in the instruction. For instance, a reference guideline and format explanations need to be added in the instruction in the future class. Figure 1 Semantic network map of student reflections on the activity
+
+## Conclusion
+
+This study provided evidence that connects the literature about argumentation (Boğar, 2019) and the literature of real-world impact learning (Papert & Harel, 1991). Our findings suggest that development of argumentation skills may be facilitated through construction of authenti c argumentation artifacts such as letters to legisl ators in this study. Through analysis of the relationships between student struggles, student suggestions, and design strengths we were able to develop some tentative design principles to enhance student success in this activity. First, limiting the selection of topic may be less powerful than providing multiple options. Second, unless students are familiar with the topic(s) at hand, it may be prudent to provide a robust set of background resources for them to leverage in developing their arguments. Finally, constructio nist argumentation activities may require practice and scaffolding, particularly in helping students identify and understand their own biases in relation to the evidence in which they ground their arguments.
+
+## References
+
+Boğar, Y. (2019). Synthesis Study on Argumentation in Science Education. International Education Studies, 12(9), 1-14.
+
+Girvan, M., & Newman, M. E. J. (2002). Community structure in social and biological networks. Proceedings of the National Academy of Sciences, 99(12), 7821.
+
+Noroozi, O., Dehghanzadehb, H., & Talaeeb, E. (2020). A systematic review on the impacts of game-based learning on argumentation skills. Entertainment Computing, 35, 100369. Papert, S., & Harel, I. (1991). Situating constructionism. In S. Papert & I. Harel (Eds.), Constructionism (pp. 111). Basic Books.
+
+## Acknowledgments
+
+This study was supported by the Center for Teaching Excellence at Texas A&M University. ICLS2022 Proceedings 1977 © ISLS
+

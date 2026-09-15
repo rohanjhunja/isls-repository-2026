@@ -1,0 +1,55 @@
+# Effects of expertise on teachers’ technology-supported teaching scripts
+
+**Conference:** ICLS 2018
+
+## Abstract & Introduction
+
+### Abstract
+Technology can promote learning if teachers know how to effectively integrate it in the classroom. This might depend on teachers’ expertise. Therefore, we investigated how teachers at four different expertise levels plan their technology-supported lessons. Results indicate only small expertise effects. The potentials of technology are neither fully used by teachers at lower nor by teachers at higher levels of expertise.
+
+Effects of Expertise on Teachers’ Technology-Supported Teaching Scripts Christina Wekerle, University of Augsburg, christina.wekerle@phil.uni-augsburg.de Ingo Kollar, University of Augsburg, ingo.kollar@phil.uni-augsburg.de Abstract: Technology can promote learning if teachers know how to effectively integrate it in the classroom. This  might depend on teachers’ expertise. Therefore, we in vestigated how teachers at four different expertise levels  plan their technology-supported lessons. Results indicate only small expertise effects. The potentials of technology are neither fully used by teachers at lower nor by teachers at higher levels of expertise.
+
+Keywords: technology-supported teaching, scripts, learning activities, technology, expertise.
+
+## Problem statement
+
+To promote learning in schools, a  lot of potentials are a ttributed to digital technology.  However, in order to exploit these potentials in the classroom, it is necessary  to clarify what good technology-supported teaching actually means. Results from research that focuses on how novice and expert teachers d iffer in their teaching indicate that lesson plans of more proficien t teachers provide more actual learning opportunities for their students than those of less proficient teachers  (e.g., Borko, Livingston & Shavelson, 1990). Even though these findings give insights in expert teachers’ planning processes, this research has mainly focused on teaching in general. Yet, little is known about the extent to which these cons iderations also hold true for the way s teachers intend to use digital technology in the classroom.
+
+Technology-supported teaching scripts To conceptualize teachers’ planning processes with respect to where, when and how to embed specific kinds of technologies in the classroom, we suggest taking on a script p erspective. A script is a cognitive structure that guides an individual in understanding and acting in  a certain class of situations. According to Fischer, Kollar, Stegmann and Wecker (2013), scripts consist of different hierarchically structure d components including Play, Scenes and Scriptlets. At the top level, t he Play component represents knowledge about the  type of situation (e.g., ”technology-supported teaching in the classroom” play). Once a teacher selects this play, s/he will automatically derive expectations regarding the Scenes or phases of this play (e.g., first an input phase, followed by an exercise phase) as well as the kinds of activities  that are to be shown in a phase. Knowledge about these activities is stored in Scriptlets (e.g., students watch a video). Based on these components, we assume that it is possible to differentiate more effective technology-supported teaching scripts from less effective ones  with regard to their effects on student learning.
+
+In this paper, we are particularly concerned with the activities  that teachers try to promote by using digital technology (Scriptlet component). Chi and Wylie (2014) differentiate between passiv e (e.g. watching a video), active  (e.g. pausing/forwarding a video), constructive  (e.g. drawing a digital concept map)  and interactive activities (e.g. writing a joint review in a collaborative text editor). They hypothesize that on average, learning gains increase from an engagement in passive over active and constructive to interactive activities. A subsequent question is whether certain types of technolog y may provide more affordances to stimulate constructive and interactive learning acti vities than others. We  suggest to heuristically differentiate between four types of technology (see Müller, Blömeke & Eichler, 2006): Information technology (e.g. digital presentations) is believed to mainly afford an engagement in passive activities. Self-assessment technology (e.g. online-quizzes) can be considered to  mainly afford active and constructive  activities. Editing technology (e.g. text editors) might particularly afford an engagement in active or constru ctive activities. Finally, collaboration technology re (e.g. etherpads) should afford an engagement in  interactive activities. Results of previous meta-analyses on the effects of technologies on student achievement seem to go well along with the se considerations (e.g., Castillo-Manzano, Castro-Nuño, Lopéz-Valpuesta, Sanz-Diaz & Yñiguez, 2016; Wecker, 2013).
+
+## Research questions
+
+We asked two research questions: To what extent do teachers at different expertise levels differ with respect to
+
+(1) the types of  learning activities  they intend to promote with digital technology, and  (2) the types of
+
+technology they intend to use in the classroom ? Based on Borko et al.  (1990), we assumed that teachers on higher expertise levels would target more high-level learning activities (esp. constructive and interactive) and make more use of technologies that would easily afford an engagement in these activities  (esp. self-assessment, editing, and collaboration technology) than teachers at lower expertise levels.
+
+## Method
+
+N=110 pre-service teacher freshmen („Novices“; M semester=1.51, SD=0.88), N=94 advanced pre-service teachers („Advanced Beginners“; Msemester=5.77, SD=1.73), N=25 pre-service teachers enrolled in a supplement on technology-supported teaching (“Competent in Theory”; Msemester=8.27, SD=3.49) and N=41 technology-experienced in-service teachers (“Competent in Practice”; Median teaching experience=11-15) participated. They were asked to describe an ideal t echnology-supported lesson and requested to select from a list (1) the kind of learning activities and (2) types of technology whi ch they had aimed at.  For (1) learning activit ies, a self-developed list of 21 items was used to measure the intended activity  intensity with regard to participants’ mentioned technologies. For (2) types of technology, participants had to pick from a  list of technology types (information, self-assessment, editing, collaboration) which ones they had intended to use in the classroom.
+
+## Results
+
+With regard to (1) learning activities, we found a significant, but small effect of expertise (F(12,690.83)=2.46, p=.00, η²=.04). Pair-wise post-hoc comparisons showed that novices aimed significantly more at passive learning activities than the Competent in Practice g roup (p=.01), and the Competent in Theory group aimed significantly more at interactive learning activiti es than Novices (p=.01) and Adv anced Beginners (p=.03). Active and constructive learning activities were me ntioned to a similar degree by the different expert ise groups (all p>.05). With regard to (2) the types of technology, Advanced Beginners mentioned self-assessment technology significantly less often than all other expertise groups  (χ²(3, N=270)=17.8, p=.00). No significant differences were found for the other types of technology (all p>.05).
+
+## Discussion
+
+Results indicate expertise effects with regard to passive and i nteractive learning activities which basically is in line with findings on teacher experts’ lesson plans, even though eff ects are small.  With regard to types of technology, teachers at higher expertise levels hardly seem to use technologies in their lesson plans that might more easily afford an engagement in higher-level activities. Differences between groups could only be observed for self-assessment technology. This might be due to a cohort effect: Advanced pre-service teachers might have not made own experiences with that rather new type of technology in comparison to the other groups. Overall, our results indicate a need  to facilitate teachers’ technology-supported teaching  scripts, for example by scaffolding their noticing and knowledge-based reasoning processes (e.g. S eidel, Blomberg & Renkl, 2013).  In conclusion, a script-based investigation of pre-and in-service teachers’ planning of technology-supported lessons seems to be helpful to reveal that the potentials of technology are often not considered, neither by pre-nor by even experienced in-service teachers.
+
+## References
+
+Borko, H., Livingston, C., & Shavelson, R. J. (1990). Teachers ' thinking about instruction. Remedial and Special Education, 11(6), 40-49.
+
+Castillo-Manzano, J. I., Castro -Nuño, M., López -Valpuesta, L., Sanz -Díaz, M. T., & Yñiguez, R. (2016). Measuring the effect of ARS on academic performance: A global me ta-analysis. Computers & Education, 96, 109-121.
+
+Chi, M. T., & Wylie, R. (2014). The ICAP  framework: Linking cognitive engagement to active learning outcomes. Educational Psychologist, 49(4), 219-243.
+
+Fischer, F., Kollar, I., Stegmann, K., & Wecker, C. (201 3). Toward a script theory of guidance in computer-supported collaborative learning. Educational Psychologist, 48(1), 56-66. Müller, C., Blömeke, S., & Eichler, E. (2006). Unterr icht mit digitalen Medien – zwischen Innovation und Tradition? Eine empirische Studie zum Lehrerhandeln im Medienz usammenhang. Zeitschrift für Erziehungswissenschaft, 9(4), 632-650.
+
+Seidel, T., Blomberg, G., & Renkl, A. (2013). Instructional strategies for using video in teacher education. Teaching and Teacher Education, 34, 56-65.
+
+Wecker, C. (2013, August). Does PowerPoint foster learning? A meta-analysis. Paper presented at the on 15th Biennial Conference for Learning and Instruction der European Association for Research on Learning and Instruction (EARLI). Munich, Germany.
+

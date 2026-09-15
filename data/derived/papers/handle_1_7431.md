@@ -1,0 +1,49 @@
+# Designing for Home-Based Science Learning: Infrastructuring Within New Openings and Constraints
+
+**Conference:** ISLS 2021
+
+## Abstract & Introduction
+
+### Abstract
+We describe efforts to use blurred home-school boundaries in the COVID-19 pandemic to co-design learning activities that provide new opportunities for teachers, students, and families to engage with science practices together. This work aims to support the intellectual and cultural resources of home and family life during this pandemic and beyond in ways that draw from and repurpose existing infrastructures. We share our design evolution, including commitments, ongoing tensions, and responses to constraints.
+
+Designing for Home-Based Science Learning: Infrastructuring Within New Openings and Constraints Betsy Beckert, Boston University, bbeckert@bu.edu Annabel Stoler, Boston University, ajstoler@bu.edu Chris Georgen, Boston University, cgeorgen@bu.edu Eve Manz, Boston University, eimanz@bu.edu Enrique Suárez, University of Massachusetts Amherst, easuarez@umass.edu Abstract: We describe  efforts to  use blurred home-school boundaries in the COVID-19 pandemic to co-design learning activities that provide new opportunities for teachers, students, and families to engage with science practices together. This work aims to support the intellectual and cultural resources of  home and family life during this pandemic and beyond  in ways that draw from and repurpose existing infrastructures. We share our design evolution, including commitments, ongoing tensions, and responses to constraints.
+
+## Introduction
+
+In this poster, we contribute to work within the Learning Sciences on family-based STEM learning by exploring the opportunities, challenges, and tensions that arise from teachers and researchers co-designing for family learning within formal K-5 educational systems. Specifically, we describe a researcher-teacher team collaboration, within an existing district partnership,  that aims to re-imagine a  s econd-grade science curriculum to support opportunities for home-based, multi-age learning that build on families’ heterogeneous ways of knowi ng and learning. We reflect on how the COVID-19 pandemic presented what we took as a set of openings to center relationships, student engagement, and family-based practices as an opportunity for axiological reflection, and potentially innovation, within our work (Bang et al., 2016). Further, we share our design story to explicate how the emerging infrastructure and challenges of remote schooling in our  partner district presented stresses, constraints, and tensions that, in turn, led us to refine strategies and structures. We consider this a small-scale case of “infrastructuring,” where design includes attention to existing infrastructures  and redesigning or repurposing those infrastructures to support new forms of learning and activity (Penuel, 2019). We end by making visible our responses to constraints encountered and our ongoing tensions and questions. Reorienting our work tonew futures In this poster, we describe how we developed the principles in Table 1 (left column) to orient ou r team’s work and to center learning about the natural and designed world within families, homes, and communities as vital for disrupting injustices in science education (Ishimaru et al., 2015).  Our previous work,  which focused on co-designing science investigations to center children’s resources  and ways of thinking  (e.g., Manz, 2018), was reoriented to remote materials  development in the summer of 2020 as the COVID-19 pandemic extended school closures. This led tonew  conversations among teachers and researchers. Teachers found themselves advocating for science to have a continue d role in the elementary curriculum, based on their value for student engagement and connection. Researchers, some of us parents, felt called to more explicitly address our commitments to equity and engaging in shifting the narrative of home-based learning from a deficit-based lens towards a partnersh ip between schools and families. Our conversations led us to the left-hand column of Table 1, focusing our design work on the relational aspects of science, i ncreased permeability between school and home environments, family agency, and opportunities for multi-age science engagement. Constraints and responses leading tonew embodiments As we began to design materials with our team  of researchers and teachers and gain ed buy-in from district partners, our initial design propositions were met with constraints and pushback  (Column 2)  – stemming, we believe, from the historical infrastructure  of elementary schooling and newly emerging pandemic infrastructures of home and school. In response, teachers and researchers have shifted and innovated our practice by repurposing new infrastructures, for example, by utilizing district-wide platforms like Seesaw to  invite students and families to share experie nces and ideas, rather than using the open-ended menus of optional activities we initially envisioned.  In turn, we hope these repurposings will create new infrastructures, such as neighborhood wondering walks and collections of students’ photographs that center home experiences for class conversation. Table 1: Design evolution Re-Centered Design Commitments  Constraints and Stresses Embodiment of Commitments in Response to Constraints Centering the relational aspects of science in our partner district to make science more social, relevant, and connected to students’ interests and identities Teachers have limited time to teach science.
+
+There is a district-level discourse around families’ limited time and material resources for engaging with science in their home lives.
+
+Teachers utilize morning circle time to create space for science conversations.
+
+We prioritize the lessons with the highest pay off for class and family relationality and engagement.
+
+Remote learning increases the permeability between school and home, increasing ways for students’ home-based resources to inform instruction and for teachers to see and build on children’s various funds of knowledge (González et al., 2005) Families and teachers are feeling overwhelmed by stresses exacerbated by the pandemic.
+
+We create openings within the pre-existing curriculum for students to share and build upon family-based experiences.
+
+Synthesizing family engagement with scientific practices and learning via optional and fluid activities (Ishimaru et al., 2015) Teachers, students, and families have a variety of new tools and platforms to navigate.
+
+Making activities “optional” is difficult to communicate within existing school infrastructure.
+
+We develop weekly short, open-ended activities, to be shared directly with parents.
+
+Recognizing the optional nature of asynchronous elementary-level work, we prioritize activities that are low-stress and high-interest.
+
+Learning in the home environment provides opportunities for families with children of different ages engage in science together, capitalizing on the heterogeneity of families’ values and expertise Schools were hesitant to reorient towards using multi-grade level materials. However, parents have suggested that this is a useful tool for maximizing time and fostering connection.
+
+We design activities such as wondering walks and family conversations that can provide entry points for children of multiple ages to engage with the same scientific phenomenon; including these within the 2nd grade curriculum, rather than the multigrade materials we had envisioned.
+
+## Discussion
+
+We are excited by the way that our work has oriented tonewly explicit j oint commitments to make science more social, relevant, and connected to students and their families and the opportunity that we (teachers and researchers) have to expand our practices to further recognize and appreciate the resources that students bring to the classroom. We plan to build from these commitments throughout this period of disrupted schooling and beyond. As we explored in this poster, this work to date has involved bringing our commitments into contact with the possibilities of the current system and repurposing the infrastructure for new openings. What we don’t  yet know is the extent to which our modified designs (e.g., inviting photographs or recorded stories of home objects and practices) will work to disrupt or instead perpetuate inequities within school infrastructures. We hope to engage the community in discussion about  the tensions we are facing around the necessity  and challenges of  working within and repurposing infrastructure to imagine new possibilities for home-based science learning.
+
+## References
+
+Bang, M., Faber, L., Gurneau, J., Marin, A., & Soto, C. (2016). Community-based design research: Learning across generations and strategic transformations of institutional relations toward axiological innovations. Mind, Culture, and Activity, 23(1), 28–41.
+
+González, N., Moll, L., & Amanti, C. (2005). Funds of knowledge: Theorizi ng practices in households, communities, and classrooms. Mahwah, NJ: Lawrence Erlbaum Associates. Ishimaru, A. M., Barajas -López, F., & Bang, M. (2015). Centering family knowledge to develop childre n’s empowered mathematics identities. Journal of Family Diversity in Education, 1(4), 1–21. Manz, E. (2018). Designing for and analyzing  productive uncertainty in science investigations. In Kay, J. and Luckin, R. (Eds.) Rethinking Learning in the Digital Age: Making the Learning Sciences Count, 13t h International Conference of the Learning Sciences (ICLS)  (Volume 1, pp. 288-295). London, U K: International Society of the Learning Sciences.
+
+Penuel, W. R. (2019). Infrastructuring as a practice of design-based research for supporting and studying equitable implementation and sustainability of innovations. Journal of the Learning Sciences, 28(4–5), 659–677.
+

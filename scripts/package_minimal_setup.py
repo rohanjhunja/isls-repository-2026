@@ -23,8 +23,8 @@ INCLUDE_ITEMS = [
     "AGENTS.md",
     ".gitignore",
     os.path.join("data", "derived", "ground_truth_registry.json"),
-    os.path.join("data", "reviews"),
-    os.path.join("data", "observations")
+    os.path.join("data", "derived", "papers"),
+    os.path.join("data", "reviews")
 ]
 
 EXCLUDE_PATTERNS = [
@@ -84,7 +84,7 @@ print("\nPackaging Complete:")
 print(f"  Tarball: {TAR_PATH} ({tar_size_mb:.2f} MB)")
 print(f"  Zipfile: {ZIP_PATH} ({zip_size_mb:.2f} MB)")
 
-if tar_size_mb < 12.0 and zip_size_mb < 15.0:
-    print("SUCCESS: Package size is well within budget (~9.5 MB compressed)!")
+if tar_size_mb < 50.0 and zip_size_mb < 65.0:
+    print(f"SUCCESS: Package size is well within budget ({tar_size_mb:.2f} MB tarball / {zip_size_mb:.2f} MB zip) with full-text papers included!")
 else:
     print("WARNING: Package exceeded target size budget.")

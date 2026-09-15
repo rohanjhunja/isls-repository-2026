@@ -1,0 +1,41 @@
+# Playful Coding and Playful Learning Among Future Early Childhood Educators
+
+**Conference:** ICLS 2020
+
+## Abstract & Introduction
+
+### Abstract
+This research examined how undergraduates majoring in Early Childhood Education (a) engaged with robot coding and (b) designed to engage preschoolers in learning with robots. A symbolic interactionism perspective was applied to examine how and why these future early childhood education teachers learned to code and planned lessons integrating robots into preschoolers’ play. The central research question was: How and why do pre-service early childhood teachers use robotics in preschoolers’ play?
+
+Playful Coding and Playful Learning Among Future Early Childhood Educators ChanMin Kim, The Pennsylvania State University, cmk604@psu.edu Brian R. Belland, The Pennsylvania State University, bbelland@psu.edu Cory Gleasman, Tennessee Tech University, cgleasman@tntech.edu Abstract: This research examined how undergraduates majoring in Early Childhood Education
+
+(a) engaged with robot coding and (b) designed to engage preschoolers in learning with robots.
+
+A symbolic interactionism perspective was applied to examine how and why these future early childhood education teachers learned to code and planned lessons integrating robots int o preschoolers’ play. The central research question was: How and why do pre-service early childhood teachers use robotics in preschoolers’ play?
+
+## Introduction
+
+In this study,  undergraduates majoring in Early Childhood Education programed robots used in preschoolers’ play. We examined how participants (a) engaged with robot coding and (b) designed to engage preschoole rs in learning with robots. A symbolic interactionism perspective (Stryker & Vryan, 2006)  was used to address the research question How and why do pre-service early childhood teachers use robotics in preschoolers’ play? Relevant literature Play is a critical context in which young children’s cognitive and social abilities d evelop (Vygotsky, 1978). This is in part because toddlers initially attempt to mirror scripts generated through their everyday experiences (e.g., bedtime routine). As they mature, and often with the help of more capable others, they begin to integrate imagination into play, which requires symbolic representation (Vygotsky, 1978). Furthermore, while all play is valuable, it is important to help preschool aged children to begin to engage in cooperative play. One way to structure play  and also foster coope rative play  is using the tenets of dramatic play, defined as invitations to students to improvise based on a starting point of a theme, a pre-existing story, or a story that the student created (Mages, 2008). Inviting early childhood students to program robots who are co-participants in dramatic play may influence the development of executive function (Toplak et al., 2013). For example, students may be given a theme of cooking a meal. Students could imagine that the robot is the sous-chef, and program the robot to collect ingredients and stir. To do this, they would need to plan and program robot movements, monitor robot execution, and debug using block-based coding (Figure 1) and color marker coding (Figure 2) among pre-readers.
+
+Figure 1. Pre-reader block coding. Figure 2. Color marker coding.
+
+## Context and participants
+
+Twenty participants were recruited from a course on arts in early childhood education at a university in the southern United States. The robot learning unit  was offered for 3 weeks (one 2.5-hour class and two preschool practica per week). In it,  participants learned t o code robots  (Ozobots), design a lesson using robots, and implement their lesson designs at local preschools. During Week 1, they learned to code robots used in a model lesson (co-designed by the researchers  and instructors), and taught the model lesson in their practicum. In this lesson, participants coded robots to navigate a grocery store map and interact with various food sections. During Week 2, they reflected on the experience teaching the model lesson in preschool classrooms, and further developed their own coding skills by completing coding tasks. They also worked in pairs to program robots used in a team lesson, which they then taught  during their practicum. In Week 3, they reflected on the experience teaching the team lesson, and other possible robotics options applicable to preK-5 education were introduced to them.
+
+## Data collection and analysis
+
+Data include classroom teamwork recordings, individual interviews, lesson plans, and reflections. To analyze these data, we used a case study informed by a symbolic interactionism perspective (Stryker & Vryan, 2006). We used multiple data sources to investigate participants’ conversations and actions  and reasoning behind them.
+
+## Findings
+
+A few highlights from findings are reported below. Pseudonyms are used. Robots were integrated as social objects used for playful and relatable learning Many participating pre-service teachers viewed the Ozobot robots as social objects having varying personas/personalities. For example, Amy developed a lesson in which the Ozobot was an entomologist. This lesson was constructed around the Ozobot as an entomologist … [the Ozobot] wanted to learn about the life cycle of a butterfly. I provided a little tract to help teach the students the life cycle and then I opened up the lesson to be more interactive. I asked the students to choose one part of the butterfly life cycle to draw and then Ernie the entom ologist [the Ozobot] would “check their work” by tracing over the ir drawings. The children became so attached to little Ernie and some students even drew out a track … for Ernie to follow. (Amy, Lesson design) Robots were often used to connect robotic movements with cognitive playfulness Overall, participating pre-service teachers connected the movement of the Ozobot with the content through playfulness. After coding the robot to perform a specific movement, they relied on their early childhood learner’s dexterity to use their imagination and connect to curriculum content through play. So, they [practicum preschool students] are going to learn about the life cycle of a butterfly and it [the Ozobot] goes around in a circle and you can see the butterfly and egg and it then it passes the egg. They can learn about the cycle and …draw the cycle and be the entomologist. (Amy, Interview) Absence of coding did not lead to an absence of learning Participating pre-service teachers understood the constraints  of the everyday classroom and early childhood education and designed their robotics lesson with this in mind. They did not view young children’s lack of coding ability to be a limitation. Playful interaction with Ozobots served as a driving forc e behind learning. I would have them draw the first letter of their favorite vegetable and then he [the Ozobot] would trace it because he was eating and they [practicum preschool students] really like that. I could have them draw the outline of a butterfly or something and then they don't have to do the programming. (Amy, Week 2 classroom teamwork recording)
+
+## References
+
+Mages, W. K. (2008). Does creative drama promote language development in earl y childhood? A review of the methods and measures employed in the empirical literature. Review of Educational Research, 78(1), 124–152. https://doi.org/10.3102/0034654307313401 Stryker, S., & Vryan, K. D. (2006). The symbolic interactionist frame. In J. Delamater (Ed.), Handbook of Social Psychology (pp. 3–28). Springer US. https://doi.org/10.1007/0-387-36921-X_1 Toplak, M. E., West, R. F., & Stanovich, K. E. (2013). Practitioner Review: Do performance-based measures and ratings of executive function assess the same construct? Journal of Child Psychology and Psychiatry, 54(2), 131–143. https://doi.org/10.1111/jcpp.12001 Vygotsky, L. S. (1978). Mind in society: The development of higher psychological processes. Harvard University Press.
+
+## Acknowledgments
+
+This research is supported by grants 1927595 and 1906059 from the National Science Foundation (USA). Any opinions, findings, or conclusions are those of the authors and do not necessarily represent of ficial positions of the National Science Foundation.
+

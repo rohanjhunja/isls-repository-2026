@@ -1,0 +1,49 @@
+# Surfacing Teachers’ Aspirations and Decisions Through Digital Design Journals
+
+**Conference:** ICLS 2020
+
+## Abstract & Introduction
+
+### Abstract
+We collaborated with 26 K–12 teachers to collect data about their aspirations and decisions for supporting creativity through computer science activities in the classroom. Using digital design journals, which consisted of collected artifacts from teachers’ practice and written reflective responses, we were able to access teachers’ aspirations and decisions, grounded in classroom practice.
+
+Surfacing Teachers’ Aspirations and Decisions Through Digital Design Journals Laura Peters, Sam Sadeh, and Karen Brennan laura_peters@gse.harvard.edu, sam_sadeh@gse.harvard.edu, karen_brennan@gse.harvard.edu Harvard University Abstract: We collaborated with 26 K –12 teachers to collect data about their aspirations and decisions for supporting creativity through computer science activities in the cl assroom. Using digital design journals, which consisted of collected artifacts from teachers’ practice and written reflective responses, we were able to access teachers’ aspirations and decisions, gro unded in classroom practice.
+
+Keywords: digital design journals, K–12 teachers, classroom practice, computing, creativity
+
+## Introduction and major issue addressed
+
+Many K–12 teachers aspire to support the development of creative thinking in the classroom (Davies et al., 2013), as creativity is essential for students’ future success. We sought to explore the relationship between teachers’ aspirations and their decisions in practice for supporting creativity in the classroom, specifically in the context of computer science activities. Central to our approach was the use of digital design journals, where teachers collected artifacts from practice and wrote reflections on those artifacts.
+
+## Theoretical background
+
+In this project, our aim is to situate teachers as designers —designers of curriculum, learning environments, and classroom communities. Teachers are often treated as merely enactors of curriculum, who struggle to gain public confidence in their professional status (Sachs, 2016). We position teachers as conscientious designers of learning experiences; as agentic professionals and reflective practitioners. Teachers, like designers, envision a better world (Lawson, 2006) and work toward that vision through service-related creativity  (Nelson & Stolterman, 2012). Additionally, teachers constantly reflect and iterate on their practice (Laur illard, 2013), a process described by Schӧn (1983) as reflection-in-action. Research in K –12 education points to benefits of analyzing student work (Kazemi & Franke, 2004) along with  reflecting on  lesson plans and other documentation created by teachers (Darling-Hammond & Snyder, 2000). While there is conflicting research regarding the relationship between teachers’ beliefs and classroom practices, there is substantial benefit to consid ering this relationship (Ertmer et al., 2012). Teachers’ aspirations represent one aspect of their beliefs (Biesta, Priestley, & Robinson, 2015) and are situated within specific classroom contexts (Putnam & Borko, 2000). Understanding the relationship between teachers’ aspirations and decisions in the classroom can help researchers and teacher educators in designing future studies and professional learning opportunities (Fang, 1996). Methodological approach Building on this literature, we sought to identify teachers’ aspirations and decisions when supporting creativity in the classroom. This study focused on 26 K–12 classroom environments whose teachers sought to support students’ creative participation in computer science (opportunities for students to learn  to code through projects that emphasize their personal interests and creative freedom).  The data collection process was a colla borative effort with classroom teachers, with the aim of supporting teachers as reflective practitioners via a digital design journal. Teachers shared written reflections and artifacts from their practice, including: (1) a 500-word reflective statement describing the teacher’s aspirations for supporting creativity in their classroom,  why they support creativity, and a description of their classroom context, (2) five or more artifacts that refl ected their aspirations and actual classroom decisions over the course of the project, accompanied by written reflection s, and (3) a revised version of their reflective statement, completed at the end of the study.  Of the five artifacts, teachers were asked to share at least one instance of teacher  work (such as a lesson or unit plan) and two instances of student work  (such as a project or exit ticket).
+
+## Preliminary findings
+
+The format of the digital design journal enabled teachers to share a large number and wide variety of artifacts. Our team compiled  the artifacts and accompanying reflections for each of the 26 teachers and used an iterative coding approach that spanned multiple rounds of analysis. Through their artifact reflections, teachers described their aspirations and decisions for supporting creativity in the classroom, grounded in the ir classroom practice. Some teachers explicitly shared aspirations for creative learning, such as the teacher who wrote, “What  I want students to come away with is that they have the ability to combine elements of math, art  and science to create enticing visual art that is both simultaneously deliberate and accidental, intentional and whimsical.” Other teachers shared definitions of creativity along with artifacts that served to provide evidence of the definition. Teachers often described their design decisions as complex negotiations among multiple priorities, such as the teacher who wrote, “Ironically, I wanted my students to be creative, but I also wanted to  stifle their creativity —strange, I know!” The design journals created a window into teachers’ aspirations and decisions for our research team, but also supported teachers in reflecting on and rethinking their own work. Some teachers wrote about classroom practices that they altered as a result of this process. For example, one teacher wrote that she  previously believed that “directions and expectations stifled creativity,” but after the process of reflecting in her design journal  she now chooses to design activities that incorporate clear expectations because students are most creative when they “focus on a few concepts.” Some teachers reflected on the alignment —or misalignment—between their stated aspirations and the decisions made visible through their artifacts, such  as the teacher who wrote, “Reflecting on my practices wi th creative coding made me think about how I unintentionally limited the creative proce ss with some of my projects.” Additionally, teachers expressed appreciation for the time to reflect on their work; many shared that this was a rare opportunity. One teacher wrote, “My thinking (and doing!) has evolved throughout this process because of the intentional focus I’ve developed for creative computing.”
+
+## Significance and conclusion
+
+Positioning teachers as designers through the use of digital design journals is one method t hat may be employed in the pursuit of re-conceptualizing teachers’ work. Used in conjunction with other methods such as interviews and classroom observations, design journals may help researchers gain a fuller pic ture of the design decisions made by K –12 teachers, and can help teachers reflect on their practice. As computer science activities become increasingly popular, it is imperative to understand computer science teachers’ aspirations and decisions in or der to design professional learning opportunities. The digital design journal method should be c onsidered by researchers who wish to situate teachers as designers as well as gain access to teachers’ aspirations and decisions.
+
+## References
+
+Biesta, G., Priestley, M., & Robinson, S. (2015). The role of beliefs in teacher agency.  Teachers and Teaching, 21(6), 624–640.
+
+Davies, D., Jindal-Snape, D., Collier, C., Digby, R., Hay, P., & Howe, A. (2013). Creative learning environments in education—A systematic literature review. Thinking Skills and Creativity, 8, 80–91. Darling-Hammond, L., & Snyder, J. (2000). Authentic assessment of teaching in context. Teaching and Teacher Education, 16(5–6), 523–545.
+
+Ertmer, P. A., Ottenbreit-Leftwich, A. T., Sadik, O., Sendurur, E., & Sendurur, P. (2012). Teacher beliefs and technology integration practices: A critical relationship. Computers & Education, 59(2), 423–435. Fang, Z. (1996). A review of research on teacher beliefs and practices. Educational Research, 38(1), 47–65. Kazemi, E., & Franke, M. L. (2004). Teacher learning in mathematics: Using student work to promote collective inquiry. Journal of Mathematics Teacher Education, 7(3), 203–235. Laurillard, D. (2013). Teaching as a design science: Building pedagogical patterns for learning and technology. New York, NY: Routledge.
+
+Lawson, B. (2006). How designers think. New York, NY: Routledge. Nelson, H. G., & Stolterman, E. (2012). The design way: Intentional change in an unpredictable world  (2nd ed.). Cambridge, MA: MIT Press.
+
+Putnam, R. T., & Borko, H. (2000). What donew views of knowledge and thinking have to say about research on teacher learning? Educational Researcher, 29(1), 4–15.
+
+Sachs, J. (2016). Teacher professionalism: Why are we still talking about it? Teachers and Teaching, 22(4), 413– 425.
+
+Schӧn, D. A. (1987). Educating the reflective practitioner. San Francisco, CA: Jossey-Bass.
+
+## Acknowledgements
+
+We wish to thank the 26 teachers who participated in this study, Jane Kang for her support with study design and data collection, and Sarah Blum-Smith for her feedback. This work was funded by Siegel Family Endowment.
+

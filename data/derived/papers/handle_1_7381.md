@@ -1,0 +1,37 @@
+# Curriculum Mechanics for Motivation
+
+**Conference:** ISLS 2021
+
+## Abstract & Introduction
+
+### Abstract
+We propose curricular mechanics for motivation as a mechanism by which educators might counteract curriculum violence perpetrated on students at the level of curricular design. We ground our discussion of these curricular mechanics in gameful learning principles and self-determination theory (SDT) (Deci & Ryan, 2002). We outline six examples of such mechanics, drawn from syllabi from courses taught at a large public R1 university.
+
+Curricular Mechanics for Motivation Taylor Kessner, Arizona State University, tkessner@asu.edu Caitlin Hayward, University of Michigan, cholma@umich.edu Abstract: We propose curricular mechanics for motivation as a mechanism by which educators might counteract curriculum violence perpetrated on students at the level of  curricular design. We ground our discussion of these curricular mechanics in gameful learning principles and selfdetermination theory (SDT) (Deci & Ryan, 2002). We outline six examples of such mechanics, drawn from syllabi from courses taught at a large public R1 university.
+
+## Introduction
+
+Curriculum violence, when enacted curriculum compromises learners’ intellec tual or psychological well-being (Ighodaro & Wiggan, 2010), remains under-attended to at the level of curricular design. Curricula are often designed with (well-intended) coercion in mind: how can we get students to comply with our expe ctations for how they should learn and demonstrate both effort and progress? We contend this violence is often perpetrated along racial and socioeconomic lines in schools typically denied adequate funding and adequately prepared faculty through systemically unjust institutions. One framework for confronting this problem is gameful pedagogy, which proposes that by creating space for learners to have agency within the classroom and designing curricula to support student motivation, we can collectively begin to address the historical stru ctures that have led to curriculum violence. We introduce curricular mechanics for motivation  as a theoretical framework and design mechanism for attending to these concerns.
+
+Games-inspired learning Interest in games for learning has remained high across the last two decad es among scholars and practitioners. A popular misconception of Gee’s (2003) seminal work in the field,  however, is that games are the only context in which the principles of engagem ent he outlined are applicable. This misconception has led to a proliferation of games designed for classroom use, while the empirical evidence fo r their effectiveness remains mixed (Gee, 2011). Gameful learning (Hayward & Fishman, 2020), in contrast, take s up Gee’s fundamental proposition: that good games are designed with powerful learning principles at their heart, and that these principles could be applied more to learning environments of all sorts outside of games. We build on t his work here by discuss ing gameful learning design in greater detail through the lens of game mechanics. Curricular mechanics (for motivation) Our conception of curricular mechanics relies on a framing of school its elf as a game –albeit a poorly designed one. Simply put, game mechanics are the ways players take action within the game world to pursue goals. Players see and make sense of the game world in terms of verbs, or what they cand o as part of gameplay (Gee, 2015). Curricular mechanics, then, are mechanisms by which learners can take action within the curriculum. Traditional curricular designs typically constrain learners’ choices: go to class, or do not; complete and turn in assignments, or do not; study for the midterm and final, or do not. Gameful pedagogy contends that designing more curricular agency for students increases intrinsic motivation, yielding a variety of positive outcomes from increased learning, reduced academic anxiety, more creative work, and more collaborative engagement (Hayward & Fishman, 2020). When describing curricular mechanics for motivation, we mean the pedagogical structures by  which learners are given control to select both their learning goals and the pathways they will travel in pursuit of those goals. For the purposes of this proposal we focus on curricular mechanics through the lens of SDT, which highlights three pillars essential to experiencing intrinsic motivation: autonomy, belongingness, and competence. Examples of curricular mechanics for motivation Table 1 outlines six example curricular mechanics designed into undergraduate course syllabi at a large American public R1 university, including the gameful learning principles grounded in SDT they embody. Table 1: Example curricular mechanics Description/Example Autonomy Belongingness Compe tence Difficulty levels Assignments descriptions include information about what knowledge is necessary to be successful, and recommendations for alternative assignments are available if students would like to learn/practice necessary skills in advance.
+
+X  X Multiple paths to success Students start with zero points and build up, and more points/assignments are available than needed for full credit, meaning poor performance at any point along one pathway does not close other pathways to success.
+
+X  X Assessment choice Students are empowered to decide what medium (e.g., essay, blog, vlog, creative effort) they wish to use to show mastery.
+
+X  X Team competitions Students are placed in teams, and at strategic points throughout the curriculum these teams compete together in topical challenges.
+
+X X Clear and forgiving late work policy Instructor designs a clear policy on late work that includes latitude, encouraging students to make choices that privilege their own socioemotional health, which communicates that they are valued as a human.
+
+X X X Assessment weighting Students choose to what degree (%) specific assignments will count towards their grade. This lowers consequences for failure, encouraging risk-taking.
+
+X  X
+
+## Discussion
+
+We view the work we have herein in two ways: (a) as a design framework, a nd (b) an analytic framework. First, we contend curricular mechanics for motivation specifically is a useful tool to aid educators as they design course mechanisms with their learners’ humanity front of mind. Second, we envision future work in which curri cular mechanics may be leveraged as a broader analytic lens for making sens e of the interplay between curricular designs and learners, with interaction forming the catalyst between them.
+
+## References
+
+Deci, E. L., & Ryan, R. M. (2002). Handbook of self-determination research. University of Rochester Press. Gee, J. P. (2003). What video games have to teach us about learning and literacy. Palgrave MacMillan. Gee, J. P. (2011). Reflections on e mpirical evidence on games and learning. In S. Tobias & J. D. Fletcher (Ed s.) Computer games and Instruction (pp. 223-232). Information Age Publishing. Gee, J. P. (2015). Unified discourse analysis. Routledge. Hayward, C., & Fishman, B. (2020). Gameful lea rning: Designing with motivation in mind. In Interdisciplinary of the Learning Sciences, 14th International Conference of the Learning Sciences (ICLS), Volume 2 (pp. 1007-1014). International Society of the Learning Sciences. Ighodaro, E., & Wiggan, G. A. (2010). Curriculum violence: America’s new civil rights issue. Nova Science.
+

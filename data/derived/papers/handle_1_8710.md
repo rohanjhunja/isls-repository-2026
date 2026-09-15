@@ -1,0 +1,31 @@
+# Opportunities and Challenges for Enacting Equity and Justice-Centered CS Learning in “Drag vs. AI” Workshops
+
+**Conference:** ISLS 2022
+
+## Abstract & Introduction
+
+### Abstract
+We present initial reflections from a study investigating how learning materials and moment-to-moment interactions can enact equity and justicecentered learning in youth STEAM programming. We explore these questions in the context of Drag vs. AI, a library workshop in which a professional drag queen leads teens in an exploration of facial recognition technologies (FRTs) and drag makeup as a tool to subvert, fool, and refuse recognition. We are examining ethnographic data from workshops at two sites and plan to conduct follow-up interviews. We will share insights and reflections from our inprogress data analysis around the affordances and limitations of materials and interactions for justice-centered computing education.
+
+Opportunities and Challenges for Enacting Equity and Justicecentered CS Learning In “Drag vs. AI” Workshops Janet Ruppert, Ricarose Roque, R. Benjamin Shapiro janet.ruppert@colorado.edu, ricarose@colorado.edu, dude@colorado.edu University of Colorado Boulder Abstract: We present initial reflections from a study investigating how learning materials and moment-to-moment interactions can enact equity and justicecentered learning in youth STEAM programming. We explore these questions in the context of Drag vs. AI, a library workshop in which a professional drag queen leads teens in an exploration of facial recognition technologies (FRTs) and drag makeup as a tool to subvert, fool, and refuse recognition. We are examining ethnographic data from workshops at two sites and plan to conduct follow-up interviews. We will share insights and reflections from our inprogress data analysis around the affordances and limitations of materials and interactions for justice-centered computing education.
+
+## Introduction and theoretical background
+
+STEM and STEAM education that attends to power is an urgent and widely felt priority in the learning sciences. Scholars are designing and theorizing at this intersection with a variety of analytic approaches and learning contexts. Considering the growing role of big data in educational, housing, and employment opportunities, several studies have focused on critical data literacies, which allow people to understand, use, and produce data with critical orientations. This scholarship has established bias, exclusion, and discrimination in data representations as a generative topic for advancing critical data literacies among youth. However, there is a lack of queer, trans, and intersectional approaches to research around carceral technologies and algorithmic bias (Paré, 2021, pp. 12-16). We build on justice-centered computing education research by exploring learning in a drag queen-led STEAM workshop that engages teens hands-on with makeup as a medium to fool FRTs, framed in critical discussions of FRT systems. In Drag vs. AI (Algorithmic Justice League, n.d.-a) participants learn about FRTs and use drag makeup techniques to camouflage themselves and refuse classification. The website where participants can test how AI guesses their age, emotion, and gender is a platform for embodied experimentation with AI, where teens can build on and refine existing, intuitive youth practices for reverse-engineering algorithmic literacies (Algorithmic Justice League, n.d.-b). We modified the workshop to include local connections (e.g. a new statewide digital ID app) relevant to participants.
+
+## Research questions
+
+With curiosity about how Drag vs. AI  workshops might support critical, justice-centered CS learning at the intersection of technology and power, we explore the following questions: (1) How were equity and justice-centered theories and pedagogical approaches to CS learning enacted through materials and moment-to-moment interactions in Drag vs. AI workshops? (2) How can queer values, epistemologies, and pedagogies emerge and support justice-centered CS learning? (3) How can the design and facilitation of Drag vs. AI  support transformative sociotechnical knowledge production and identity development? ICLS2022 Proceedings 2052 © ISLS Figure 1 Workshop host Cardi Acarrest presenting on facial analysis.
+
+## Data collection and analysis
+
+Ours is the first empirical study of Drag vs. AI over two workshop enactments, one at a public library and one at a queer youth resource center in the Western US (see Figure 1). We recorded audio, video, and fieldnotes during workshops. After each workshop, we recorded memos and audio of debrief sessions with facilitators, including community partners. In our data analysis, we are applying inductive ethnographic approaches and qualitative coding to better understand how justice-centered CS education was supported in workshops. In-progress analysis has yielded insights into how participants developed critical algorithmic and data literacies while manifesting queer values and epistemologies through their interactions with the AI platform and moment-to-moment interactions. In our next steps, we plan to investigate how drag pedagogy (Keenan & Hot Mess, 2020) can support theoretical elaborations and practical learning design considerations of justice-centered CS learning.
+
+## References
+
+Algorithmic Justice League. (n.d.-a). Drag Vs AI. Algorithmic Justice League. Retrieved November 15, 2021, from https://www.ajl.org/drag-vs-ai Algorithmic Justice League. (n.d.-b). #DRAGVSAI. Algorithmic Justice League. Retrieved November 16, 2021, from https://serveface.ajl.org Keenan, H., & Hot Mess, L. M. (2020). Drag pedagogy: The playful practice of queer imagination in early childhood. Curriculum Inquiry, 50 (5), 440–461. https://doi.org/10.1080/03626784.2020.1864621 Paré, D.  A Critical Review and New Directions for Queering Computing and Computing Education. Oxford Research Encyclopedia of Education. https://doi.org/10.1093/acrefore/9780190264093.013.1524
+
+## Acknowledgments
+
+This material is based upon work supported by the National Science Foundation under Grant No. 1562040. We thank the creators of Drag vs. AI for encouraging this study. ICLS2022 Proceedings 2053 © ISLS
+

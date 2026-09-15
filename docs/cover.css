@@ -2121,6 +2121,34 @@ body {
   transform: translateY(-1px);
 }
 
+.btn-copy-setup-prompt.primary-cta {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  color: #ffffff;
+  border: 1px solid #1d4ed8;
+  font-weight: 700;
+  box-shadow: 0 3px 10px rgba(37, 99, 235, 0.28);
+}
+
+.btn-copy-setup-prompt.primary-cta:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  box-shadow: 0 5px 14px rgba(37, 99, 235, 0.4);
+  transform: translateY(-1.5px);
+}
+
+.setup-alt-link {
+  display: block;
+  text-align: center;
+  margin-top: 8px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-decoration: underline;
+  transition: color 0.15s ease;
+}
+
+.setup-alt-link:hover {
+  color: var(--primary);
+}
+
 .setup-arrow-divider {
   display: flex;
   align-items: center;

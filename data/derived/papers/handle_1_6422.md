@@ -1,0 +1,43 @@
+# Promoting Equity and Inclusion in STEM Curriculum Design
+
+**Conference:** ICLS 2020
+
+## Abstract & Introduction
+
+### Abstract
+We describe a principled approach to designing STEM curricular activities that puts equity and inclusion (EI) at the forefront of the design process from its instantiation to its development. We illustrate this process using insights from designing a curriculum unit aligned with the US Next Generation Science Standards (NGSS) and an EI framework focused on supporting student engagement and use of language. The process identifies helpful ways to articulate design guidance for instructional designers.
+
+Promoting Equity and Inclusion in STEM Curriculum Design Reina Fujii, SRI International, reina.fujii@sri.com Kevin W. McElhaney, Digital Promise, kmcelhaney@digitalpromise.org Nonye Alozie, SRI International, maggie.alozie@sri.com Abstract: We describe a principled approach to designing STEM curricular activities that put s equity and inclusion (EI) at the forefront of the design process from its instantiati on to its development. We illustrate this process using insights from designing a curriculum unit aligned with the US Next Generation Science Standards (NGSS) and an EI framework focus ed on supporting student engagement and use of language. The process identifies hel pful ways to articulate design guidance for instructional designers.
+
+## Introduction
+
+As STEM classrooms become increasingly diverse with students from various backgrounds (such as race, gender, physical abilities, and socioeconomic status), STEM curricular materials ne ed to be equitable and inclusive (EI) in order to broaden STEM participation. Promoting EI refers to making learning oppor tunities accessible to diverse students by (1) providing intentional and appropriate resources that meet students ’ specific needs and (2) relating to students’ backgrounds and prior experiences. Contemporary STEM education frameworks such as the NGSS (NGSS Lead States, 2013) and K-12 Computer Science Framework (2016) highlight the need to provide equitable instructional opportunities while integrating disciplinary content and practices. We describe a principled approach that puts EI at the forefront of STEM curricular materials design from its instantiation to its development.
+
+## Design perspectives
+
+Our design approach is grounded in evidence-centered design (ECD) (Mislevy & Haertel, 2006) and supports the integration of EI frameworks in the design of curricular materials. ECD helps des igners articulate the underlying rationales behind design decisions and link s them to evidence of student proficiency. Our EI perspective is informed by empirical research on supporting learners with wide-ranging experiences and instructional needs (e.g., Rose, Meyer, & Hitchcock, 2005). We illustrate how EI is integrated i nto each step of the design process (Figure 1) using NGSS performance expectations (PEs) as an example of target learning goals.
+
+Figure 1. Design process schematic for promoting equity and inclusion in NGSS-aligned curricular activities.
+
+Step 1: Identify learning goals and develop EI principles The process begins with the learning standards that are the target for the curriculum activities being designed. Our design approach provides guidance for promoting proficiency with performance dimensio ns such as disciplinary core ideas, practices, and crosscutting concepts. Second, designers must incorpora te a framework that articulate the focal EI principles to be integrated into the curriculum design. Our parti cular framework focuses on the principles of fostering student engagement and providing language supports that make t he curriculum more accessible to all students (Alozie, et al., 2018). Fostering engagement connects science learning to students’ backgrounds and prior experiences in ways that are relevant and/or authentic. Language supports enable students who have varied linguistic backgrounds to better participate in curricular activities. The EI framework reflects the designers’ specific commitments to designing for particular learning goals or lea rning contexts and inform decisions for all subsequent steps of the design and development process. Step 2: Conduct domain analysis and create EI documents Domain analysis entails first unpacking information about the knowledge and skills ne eded to achieve each dimension of the learning goals. To ensure equitable design, we also apply the EI framework in Step 1 to document specific EI challenges that relate to the identified knowledge and skills assoc iated with each dimension and identify engagement and language supports to address those challenges. For example, to support  students’ engagement with the disciplinary core idea of human impacts on the environment, the student investigation should use real-world examples of human impacts that relate to students’ everyday lives. Step 3: Create learning performances and EI design guidance Based on the domain analysis, we articulate a set of learning performance statements, which are smaller learning goals that integrate all performance dimensions (Harris et al., 2019) and constitute anchors for curriculum activity sequences. To address EI, learning performances can vary opportunities that students  have to build toward broad learning goals by highlighting different skills and experiences. For example, the practice of modeling provides an alternative to explanation for students with low proficiency in the language of the cu rriculum materials. Because learning performances address different aspects of the broad learning goa l, appropriate EI supports may differ from one learning performance to another. Therefore, we align EI d esign guidelines to the learning performances in order to support the integration of dimensions in a specific lea rning performance. For example, for the learning performance carry out an investigation to determine relationships among system runoff variables, an EI language support guideline could be to provide sentence frames for students’ formulation of relationships among system runoff variables.
+
+Step 4: Develop and refine curricular activities Designers can apply the EI design guidelines to ensure that curriculum activities a ddress the needs of diverse students by incorporating specific instructional features and perspectives represented in the guidelines at the onset of design. After the curriculum activities are developed, a revi ew (by the design team and/or an independent expert) ensures that EI guidelines are appropriately incorporated. Step 5: Implementation and feedback During classroom implementation, we document observations of how teachers and students use the materials and gather critical feedback from teachers and students using surveys and/or intervie ws. These observations and insights inform subsequent design revisions to improve the materials’ adherence to the  core EI principles.
+
+## Implications
+
+The use of ECD to guide curriculum design enables curriculum developers to systematic ally integrate features and perspectives that promote EI in the design of curricular activities tha t integrate content and practice. Our design process enables curriculum designers to develop and incorporate their  own EI principles that promote equitable learning opportunities. We observed that following our EI process helped o ur design team engage in thoughtful EI discussions during design and development. Furthermore, we identified learning performances as a potentially helpful level to articulate design guidelines that are neither too vague nor  too prescriptive.
+
+## References
+
+Alozie, N., Haugabook Pennock, P., Madden, K., Zaidi, S., Harris, C., & Krajcik, J. (2018, March) Designing and Developing NGSS-Aligned Formative Assessment Tasks to Promote Equity. Paper presented at the NARST Annual International Conference, Atlanta, GA.
+
+Rose, D., Meyer, A., & Hitchcock, C. (Eds.). (2005). The universally designed cla ssroom. Cambridge, MA: Harvard Education Press.
+
+Harris, C. J., Krajcik, J., Pellegrino, J. & DeBarger, A. H. (2019). D esigning knowledge-in-use assessments to promote deeper learning. Educational Measurement: Issues and Practice. 38 (2), 53-67. Mislevy, R., & Haertel, G. (2006). Implications of evidence-centered design for educational testing. Educational Measurement: Issues and Practice, 25(4), 6–20.
+
+K–12 Computer Science Framework. (2016). Retrieved from http://www.k12cs.org. NGSS Lead States (2013). Next Generation Science Standards: For states, by states.  Washington, DC: The National Academies Press.
+
+## Acknowledgments
+
+We gratefully acknowledge the support of National Science Foundation award DRL-1742195.
+

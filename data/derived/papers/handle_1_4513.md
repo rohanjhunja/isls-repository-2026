@@ -1,0 +1,47 @@
+# Rural Students' Cultural Assets During Science Argumentation
+
+**Conference:** CSCL 2019
+
+## Abstract & Introduction
+
+### Abstract
+Rural students have lower academic achievement in science. Recent research has suggested that contextualizing science instruction in rural life can help rural students learn science. This study uses discourse analysis to show how collaborative argumentative science discussions that give students interpretive authority can help students access cultural resources. Early results indicate the potential benefits of integrating collaborative argumentation in science teaching and learning among rural students.
+
+Rural Students' Cultural Assets During Science Argumentation Jingjing Sun, University of Montana, Jingjing.Sun@umontana.edu Brian W. Miller, Towson University, bwmiller@towson.edu Michael Finlay, University of Montana, Michael.Finlay@umconnect.umt.edu Abstract: Rural students have lower academic achievement in scie nce. Recent research has suggested that contextualizing science instruction in r ural life can help rural students learn science. This study uses discourse analysis to show how collaborative argumentative science discussions that give students interpretive authority can help students access cultural resources. Early results indicate the potential  benefits of integrating collaborative argumentation in science teaching and learning among rural students. Objectives Compared to urban students, students in rural regions of the  United States have lagged in terms of achievement in science. They have lower test scores in science, take less advanced science classes, and ent er science careers at lower rates than students from urban regions  (Abrams & Middleton, 2017).  This is not surprising given that rural students experience higher rates of poverty, have less technological resources or opportunities for extra curricular activities, and have less qualified teachers (National Student Clearinghouse Research Center). Much research on rural education has been focused on changes that fix the problems of rural youth (Harmon, Henderson, & Royster, 2003). This effort i s laudable; however, r ecent research has tried to look at rural education through a positive perspective. This includes looking at the cultural assets of r ural children (Barnhardt, 2005). Aikenhead (2002) has theorized that som e of the achievement gap in science education between rural and urban students can be reduced by contextua lizing science in the lives of rural children.  In other words, educators can improve science education by taking advantage of the strengths of rural children. This study is trying to extend this line  of research by examining rural children ’s discourses during collaborative science discussions. The authors examined how rural children used their linguistic and cultural assets to collectively understand science. While rural children are a diverse group, they all have ri ch linguistic and cultural backgrounds that are often neglected by teachers becaus e they do not mirror the language and context of standard science curricula. This study seeks to s erve as a demonstration of how these cultural assets can be harnessed through an approach to discussion called Collaborati ve Reasoning (Reznitskaya et al., 2009). This approach allows students to have interpretive authority and control over the flow of discussion, and enables them to explore their own prior knowledge beyond the traditional bounds of the standard science curricula.
+
+## Perspective(s) or theoretical framework
+
+This work is conducted using a sociocultural framework.  In this framework, cognitive processes are first developed as discourse between participants. Then, these cognitive p rocesses are internalized as the collective voice is appropriated by each student to make their own conclusions  (Wertch & Bevins, 1992). Reznitskaya et al. (2009) combined the idea of internalization with schema theory (Anderson & Pearson, 1984) to describe how broad argumentation skills are developed through the internalization of m any small argumentative devices such as placing the speaker in the position of a character in a story or asking the group to find evidence in the text.
+
+## Methods, techniques, or modes of inquiry
+
+The data was analyzed usin g discourse analysis. The method uses a careful analysis of language wit h the understanding that patterns and structures of language communicate social identities and cultural understandings in addition to factual information.
+
+Data sources, evidence, objects, or materials The participants are 34  fourth-grade students from three fourth-grade classrooms. They are enrolled in a public school in a rural school district, with the majority o f them are Caucasian students. The children met in six discussion groups, each group had two CR discussions on topics relat ing to counterintuitive scientific phenomena that children of their age would be faimilar with. All of t heir dis cussions were video taped and transcribed. While there were a total of twelve CR discussions, we included  analysis on six discussions about the story “Deep Water” for this paper. In this story, three boys are fishing on a  boat. The boys want to take the boat into the deep water, but they are unsure about how the depth  of the water will change how well the boat floats. The participants discussed if they thought the children should take the boat into the deep water.
+
+## Early results and/or substantiated conclusions
+
+We found that t he cultural experiences of students living in a rural area did i n fact help students to understand the scientific concepts. The argumentative structure allowed the stu dents to explore some interesting topics, and required minimum teachers’ input to direct the students to the underlying scientific c oncepts illustrated by their examples. This is demonstrated in the following excerpt: Laura: I think that it would--I think because it would--I think it would've already sunk if it was gonna sink, so...
+
+Ms. Mason Why would it have already sunk?
+
+Laura: Like, if it has a lot of stuff in it, um, it's probably gonna, um, sink when you put it in the water but since it--it's just, like, all the way out, I bet it's probably just gonna stay 'cause// Eric: //Cause you're not--like I said earlier, you're not adding something every time. Mary: Eric, I challenge your thinking. Technically they are adding, every time they catch a fish they put it in the boat.
+
+Eric: But, uh, it said that for a long time they didn't catch any fish, so they only have like three fish and they said they were small fish like they said they were really small fish.
+
+Justin: And those are like half a pound.
+
+Mary But if they go into the deep end and they do catch their catfish, wouldn't it make the boat sink if it was heavy enough?
+
+Eric: Umm, it could, but, I don't--like, boats are made to float, like, boats are made to hold a lot of In this excerpt, the teacher only speaks once. The r ole of the teacher is to encourage the students to use evidence. She does not try to take interpretive authority b ack from the students. For this reason, they are able to follow a line of reasoning that verges from the story. Th e story considers only the depth of the water. Here t he students are able to use their detailed knowledge of f ishing to shift the topic to considering the weight o f the boat and the relationship between weight and floating. A teache r-controlled approach to science teaching would depend on the teacher to inject these connections into the class. W ith the Collaborative Reasoning approach in which students have interpretive authority, the contextualization of science instruction is achieved naturally.
+
+## Scientific or scholarly significance of the study or work
+
+The method of engaging rural children in argumentative discussion allows them to take advantage of their local and unique resources. From a broader perspective, this research is another  example of how rural students bring many strengths and resources to the ir education. While they face increasing challenges i n a globalized society, teachers can take some encouragement from examples such as the ones in this paper.
+
+## References
+
+Abrams, E., & Middleton, M. (2017). Towards multidimensional approaches to research on rural science education. Cultural Studies of Science Education, 12, 167-176. Aikenhead, G. S. (2002). Whose scientific knowledge? The colonizer and the colonized. In W.-M. Roth & J. De ғsautels (Eds.), Science education as/for sociopolitical action (pp. 39–52). New York: Peter Lang. Anderson, R. C., & Pearson, P. D. (1984). A schema-theoretic view of basic processes in reading comprehension. In Pearson, P. D., Barr, R., Kamil, M. L., & Mosenth al, P. (Eds.), Handbook of reading research (pp. 255–291). New York: Longman.
+
+Barnhardt, R. (2005). Indigenous knowledge systems and Alaska native ways of knowing. Anthropology & Education Quarterly, 36, 8–23. doi:10.1525/aeq.2005.36.1.008.͒ Harmon, H. L., Henderson, S. A., & Royster, W. C. (2003). A research agenda for improving science and mathematics education in rural schools. Journal of Research in Rural Education, 18, 52–58. Reznitskaya, A., Kuo, L. -J., Clark, A. -M., Miller, B. W., Jadallah, M., Anderson, R. C., & Nguyen-Jahiel, K. (2009). Collaborative reasoning: A dialogic approach to group discussions. Cambridge Journal of Education, 39(1), 29-48.
+
