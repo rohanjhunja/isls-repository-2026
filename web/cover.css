@@ -2217,36 +2217,48 @@ body {
     height: auto;
     min-height: auto;
     max-height: none;
-    padding: 38px 20px 24px;
+    padding: 36px 20px 24px;
     gap: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
     overflow: hidden;
   }
 
   .hero-info-wrapper {
-    position: relative;
-    top: auto;
-    right: auto;
-    left: auto;
-    bottom: auto;
-    margin: 0 auto 16px;
-    display: flex;
-    justify-content: center;
-    width: 100%;
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+    left: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    margin: 0 auto 28px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
     z-index: 100;
   }
 
   .hero-info-btn {
-    min-height: 34px;
-    padding: 6px 16px;
-    font-size: 0.80rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    min-height: 36px;
+    padding: 7px 18px;
+    font-size: 0.82rem;
+    font-weight: 600;
     touch-action: manipulation;
     -webkit-tap-highlight-color: transparent;
+    margin: 0 auto;
   }
 
   .hero-info-popover {
     position: absolute;
-    top: calc(100% + 8px);
+    top: calc(100% + 10px);
     left: 50% !important;
     right: auto !important;
     transform: translateX(-50%) translateY(6px) !important;
@@ -2274,7 +2286,11 @@ body {
     width: 100%;
     max-width: 100%;
     text-align: center;
+    margin-top: 0 !important;
     margin-bottom: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .hero-kicker-tag {
@@ -2289,12 +2305,15 @@ body {
   }
 
   .hero-headline {
+    margin-top: 0 !important;
     font-size: clamp(1.75rem, 6.8vw, 2.25rem);
     letter-spacing: -0.03em;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     line-height: 1.18;
     overflow-wrap: break-word;
     word-break: break-word;
+    width: 100%;
+    text-align: center;
   }
 
   .hero-subhead {
