@@ -515,6 +515,10 @@ body {
 
 .crowd-figure {
   position: absolute;
+  left: var(--fig-left, 0%);
+  bottom: calc(var(--fig-bottom-val, 0) * 1px);
+  transform: scale(var(--fig-scale-val, 1));
+  opacity: var(--fig-opacity, 1);
   cursor: pointer;
   transition: transform 0.28s cubic-bezier(0.16, 1, 0.3, 1), filter 0.28s ease;
   transform-origin: bottom center;
@@ -1190,30 +1194,7 @@ body {
   display: block;
 }
 
-/* Expandable & Pannable Architecture Diagram Controls */
-.btn-expand-diagram {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.80rem;
-  font-weight: 700;
-  color: var(--primary);
-  background: #eff6ff;
-  border: 1px solid #bfdbfe;
-  padding: 6px 14px;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  box-shadow: var(--shadow-sm);
-  flex-shrink: 0;
-}
-
-.btn-expand-diagram:hover {
-  background: #dbeafe;
-  border-color: #93c5fd;
-  transform: translateY(-1px);
-}
-
+/* Architecture Diagram Swipe Hint on Mobile */
 .diagram-swipe-hint {
   display: none;
   align-items: center;
@@ -1226,144 +1207,6 @@ body {
   border-radius: 6px;
   padding: 6px 12px;
   margin-bottom: 12px;
-}
-
-/* Fullscreen Pan & Zoom Diagram Modal */
-.diagram-modal {
-  position: fixed;
-  inset: 0;
-  z-index: 3000;
-  display: none;
-  align-items: center;
-  justify-content: center;
-}
-
-.diagram-modal.is-active {
-  display: flex;
-}
-
-.diagram-modal-backdrop {
-  position: absolute;
-  inset: 0;
-  background: rgba(15, 23, 42, 0.78);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-}
-
-.diagram-modal-dialog {
-  position: relative;
-  z-index: 1;
-  width: 95vw;
-  max-width: 1300px;
-  height: 88vh;
-  background: #ffffff;
-  border-radius: 16px;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.35);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.diagram-modal-header {
-  padding: 12px 18px;
-  border-bottom: 1px solid var(--border-light);
-  background: #f8fafc;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  flex-shrink: 0;
-}
-
-.diagram-modal-title {
-  font-size: 0.94rem;
-  font-weight: 700;
-  color: var(--text-primary);
-  margin: 0;
-}
-
-.diagram-modal-tip {
-  font-size: 0.72rem;
-  color: var(--text-muted);
-  display: block;
-  font-family: var(--font-mono);
-}
-
-.diagram-modal-controls {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.btn-diag-ctrl {
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  border: 1px solid var(--border-light);
-  background: #ffffff;
-  color: var(--text-primary);
-  font-weight: 700;
-  font-size: 1rem;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: all 0.15s ease;
-}
-
-.btn-diag-ctrl:hover {
-  background: #f1f5f9;
-  border-color: #cbd5e1;
-}
-
-.btn-diag-reset {
-  width: auto;
-  padding: 0 12px;
-  font-size: 0.78rem;
-  font-family: var(--font-sans);
-}
-
-.btn-diag-close {
-  font-size: 1.5rem;
-  color: #ef4444;
-  border-color: #fecaca;
-  background: #fef2f2;
-  margin-left: 6px;
-}
-
-.btn-diag-close:hover {
-  background: #fee2e2;
-  border-color: #fca5a5;
-  color: #dc2626;
-}
-
-.diagram-modal-viewport {
-  flex: 1;
-  overflow: hidden;
-  position: relative;
-  background: #f1f5f9;
-  touch-action: none;
-  user-select: none;
-  cursor: grab;
-}
-
-.diagram-modal-viewport.is-dragging {
-  cursor: grabbing;
-}
-
-.diagram-modal-canvas {
-  position: absolute;
-  transform-origin: 0 0;
-  width: 1024px;
-  height: 416px;
-  will-change: transform;
-}
-
-.diagram-modal-canvas svg {
-  width: 100%;
-  height: 100%;
-  display: block;
 }
 
 /* Architecture Comparison Table */
@@ -2357,65 +2200,15 @@ body {
     height: auto;
     min-height: auto;
     max-height: none;
-    padding: 28px 16px 20px;
-    gap: 14px;
+    padding: 38px 20px 24px;
+    gap: 0;
     justify-content: flex-start;
-  }
-
-  .hero-center-content {
-    width: 100%;
-    max-width: 100%;
-    text-align: center;
-  }
-
-  .hero-kicker-tag {
-    font-size: 0.65rem;
-    letter-spacing: 0.8px;
-    padding: 3px 10px;
-    margin-bottom: 8px;
-    max-width: 96%;
     overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .hero-headline {
-    font-size: clamp(1.80rem, 7.2vw, 2.30rem);
-    letter-spacing: -0.03em;
-    margin-bottom: 8px;
-    line-height: 1.15;
-  }
-
-  .hero-subhead {
-    font-size: 0.90rem;
-    line-height: 1.5;
-    margin-bottom: 14px;
-    padding: 0 4px;
-  }
-
-  .hero-cta-single {
-    width: 100%;
-    margin-bottom: 6px;
-  }
-
-  .btn-hero-scroll {
-    width: 100%;
-    justify-content: center;
-    padding: 12px 18px;
-    font-size: 0.88rem;
-  }
-
-  .hero-sub-kicker {
-    font-size: 0.60rem;
-    letter-spacing: 0.8px;
-    padding: 4px 8px;
-    max-width: 100%;
-    text-align: center;
   }
 
   .hero-info-wrapper {
     position: static;
-    margin-bottom: 6px;
+    margin-bottom: 14px;
     display: inline-flex;
     justify-content: center;
     width: 100%;
@@ -2433,11 +2226,74 @@ body {
     transform: translateX(-50%) translateY(0) !important;
   }
 
-  .hero-stage-container {
-    height: 220px;
-    margin: 4px auto 10px;
+  .hero-center-content {
     width: 100%;
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 6px;
+  }
+
+  .hero-kicker-tag {
+    font-size: 0.65rem;
+    letter-spacing: 0.8px;
+    padding: 3px 10px;
+    margin-bottom: 12px;
+    max-width: 96%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .hero-headline {
+    font-size: clamp(1.75rem, 6.8vw, 2.25rem);
+    letter-spacing: -0.03em;
+    margin-bottom: 12px;
+    line-height: 1.18;
+  }
+
+  .hero-subhead {
+    font-size: 0.90rem;
+    line-height: 1.55;
+    margin-bottom: 18px;
+    padding: 0 6px;
+  }
+
+  .hero-cta-single {
+    width: 100%;
+    margin-bottom: 14px;
+  }
+
+  .btn-hero-scroll {
+    width: 100%;
+    justify-content: center;
+    padding: 12px 18px;
+    font-size: 0.88rem;
+  }
+
+  .hero-sub-kicker {
+    font-size: 0.60rem;
+    letter-spacing: 0.8px;
+    padding: 4px 10px;
+    max-width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 4px;
+  }
+
+  /* Scale down the silhouette crowd visuals to fit screen width and avoid clashing with copy */
+  .hero-stage-container {
+    height: 175px;
+    margin: 20px auto 4px;
+    width: 100%;
+    max-width: 440px;
     border-radius: 12px;
+    position: relative;
+    overflow: visible;
+  }
+
+  .crowd-figure {
+    bottom: calc(var(--fig-bottom-val) * 0.35px) !important;
+    transform: scale(calc(var(--fig-scale-val) * 0.48)) !important;
   }
 
   /* Responsive HUD bottom sheet on mobile */

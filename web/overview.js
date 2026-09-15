@@ -551,7 +551,8 @@
     // Network Reset View Button
     if (btnResetNetwork) {
       btnResetNetwork.addEventListener('click', () => {
-        networkCurrentZoom = 1.0;
+        const isMobile = window.innerWidth <= 768;
+        networkCurrentZoom = isMobile ? 0.46 : 0.62;
         clearTimeout(networkRoamTimer);
         loadNetworkChart();
       });
@@ -665,7 +666,7 @@
           name: s.label,
           type: 'line',
           stack: isStacked ? 'Total' : null, // Stacks exactly to 100% in relative mode
-          smooth: true,
+          smooth: false, // Sharp trend chart instead of smoothed spline curve
           showSymbol: true,
           symbolSize: 8,
           itemStyle: { color: color },
@@ -685,15 +686,16 @@
         };
       });
 
-      // Allow plenty of vertical room and margin for wrapped multi-line legend items so they never obscure y-axis label
+      // Responsive headroom for legend so it never obscures y-axis label or top data points
+      const isMobile = window.innerWidth <= 768;
       const seriesCount = seriesList.length;
       let gridTop = 64;
       if (seriesCount > 8) {
-        gridTop = 148;
+        gridTop = isMobile ? 85 : 110;
       } else if (seriesCount > 5) {
-        gridTop = 118;
+        gridTop = isMobile ? 75 : 95;
       } else if (seriesCount > 2) {
-        gridTop = 88;
+        gridTop = isMobile ? 65 : 75;
       }
 
       const option = {
@@ -744,25 +746,41 @@
           }
         },
         legend: {
-          type: 'plain', // Wrapped without pagination arrows
+          type: 'scroll', // Paginated scroll prevents legend from spilling or colliding with chart
           orient: 'horizontal',
           top: 6,
           left: 'center',
           itemGap: 14,
           itemWidth: 12,
           itemHeight: 12,
-          padding: [4, 16, 12, 16],
+          padding: [4, 16, 8, 16],
           textStyle: {
             color: '#334155',
             fontFamily: 'Inter, sans-serif',
             fontSize: 12,
             fontWeight: 500
+          },
+          pageIconColor: '#2563eb',
+          pageIconInactiveColor: '#cbd5e1',
+          pageTextStyle: {
+            color: '#64748b',
+            fontSize: 11
           }
         },
+        dataZoom: [
+          {
+            type: 'inside',
+            xAxisIndex: 0,
+            zoomOnMouseWheel: false,
+            moveOnMouseMove: true,
+            moveOnTouch: true,
+            preventDefaultMouseMove: false
+          }
+        ],
         grid: {
-          left: '2%',
-          right: '3%',
-          bottom: '3%',
+          left: isMobile ? '12px' : '2%',
+          right: isMobile ? '16px' : '3%',
+          bottom: '5%',
           top: gridTop,
           containLabel: true
         },
@@ -1037,7 +1055,7 @@
   }
 
   // --- SECTION 3: Author Collaboration Network ---
-  let networkCurrentZoom = 1.0;
+  let networkCurrentZoom = 0.62;
   let networkRoamTimer = null;
   let networkIsUpdating = false;
 
@@ -1066,8 +1084,11 @@
       const data = await res.json();
       chart.hideLoading();
 
+      const isMobile = window.innerWidth <= 768;
+      const defaultNetworkZoom = isMobile ? 0.46 : 0.62;
+
       // Reset zoom tracking
-      networkCurrentZoom = 1.0;
+      networkCurrentZoom = defaultNetworkZoom;
 
       // Deep copy nodes for dynamic scaling reference
       const originalNodes = data.nodes.map(n => ({ ...n }));
@@ -1118,6 +1139,8 @@
             data: data.nodes,
             links: data.links,
             roam: true,
+            zoom: defaultNetworkZoom,
+            center: ['50%', '50%'],
             label: {
               show: true,
               position: 'right',
@@ -1147,9 +1170,10 @@
               }
             },
             force: {
-              repulsion: 360,
-              edgeLength: 95,
-              gravity: 0.08
+              repulsion: 220,
+              edgeLength: 65,
+              gravity: 0.14,
+              friction: 0.6
             }
           }
         ]
@@ -1163,7 +1187,7 @@
       chart.on('graphRoam', function(params) {
         if (params.zoom != null && !networkIsUpdating) {
           networkCurrentZoom *= params.zoom;
-          networkCurrentZoom = Math.max(0.3, Math.min(4.5, networkCurrentZoom));
+          networkCurrentZoom = Math.max(0.25, Math.min(4.5, networkCurrentZoom));
 
           clearTimeout(networkRoamTimer);
           networkRoamTimer = setTimeout(() => {
@@ -1185,9 +1209,9 @@
       if (!nodeData) return;
 
       networkIsUpdating = true;
-      // Damping factor: at zoom 0.4 -> scale up slightly (keeps dots visible)
-      // At zoom 2.5 -> scale down slightly (keeps dots from ballooning and obscuring neighbors)
-      const dampingFactor = Math.pow(zoom, -0.45);
+      const isMobile = window.innerWidth <= 768;
+      const baseZoom = isMobile ? 0.46 : 0.62;
+      const dampingFactor = Math.pow(zoom / baseZoom, -0.40);
 
       const updatedNodes = originalNodes.map((node, idx) => {
         const layout = nodeData.getItemLayout(idx);
@@ -1202,7 +1226,7 @@
           fixed: (x != null && y != null),
           symbolSize: dynSize,
           label: {
-            show: zoom >= 0.75 || node.value >= 40
+            show: zoom >= 0.70 || node.value >= 35
           }
         };
       });

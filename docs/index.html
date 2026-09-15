@@ -392,18 +392,14 @@
           <h3 class="diagram-title">Data Pipeline Architecture</h3>
           <span class="diagram-caption">Structural data flow, storage blocks, querying speeds, and interaction platforms</span>
         </div>
-        <button class="btn-expand-diagram" id="btnExpandDiagram" title="Expand and pan technical architecture chart">
-          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
-          <span>Expand &amp; Pan Chart 🔍</span>
-        </button>
       </div>
 
       <div class="diagram-swipe-hint">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-        <span>Swipe horizontally to explore stages • Tap Expand to pan &amp; zoom</span>
+        <span>Swipe horizontally to pan across all pipeline stages</span>
       </div>
 
-      <div class="pipeline-diagram-wrapper" id="pipelineDiagramWrapper" tabindex="0" role="region" aria-label="Architecture Diagram. Swipe horizontally to view full chart, or click Expand to pan and zoom.">
+      <div class="pipeline-diagram-wrapper" id="pipelineDiagramWrapper" tabindex="0" role="region" aria-label="Architecture Diagram. Swipe horizontally to pan across stages.">
         <svg class="pipeline-svg" id="mainPipelineSvg" viewBox="0 0 1024 416" xmlns="http://www.w3.org/2000/svg">
           <style>
             text {
@@ -651,32 +647,6 @@
             <li><code>🌐 Interactive Web Viewer</code> offers a responsive, tabular view of review results - making it easier to scan through text.</li>
             <li><code>⚡ Agentic Platforms</code> like Antigravity IDE &amp; Claude Desktop serve as the best way to conduct advanced searches translating research queries into clear protocols and executing them at scale.</li>
           </ul>
-        </div>
-      </div>
-    </div>
-
-    <!-- Architecture Diagram Expand & Pan Modal -->
-    <div class="diagram-modal" id="diagramModal" aria-hidden="true" role="dialog" aria-label="Expanded Architecture Chart Viewer">
-      <div class="diagram-modal-backdrop" id="diagramModalBackdrop"></div>
-      <div class="diagram-modal-dialog">
-        <div class="diagram-modal-header">
-          <div class="diagram-modal-title-box">
-            <h4 class="diagram-modal-title">Data Pipeline &amp; Technical Architecture</h4>
-            <span class="diagram-modal-tip">Drag to pan • Pinch or use + / − to zoom</span>
-          </div>
-          <div class="diagram-modal-controls">
-            <button class="btn-diag-ctrl" id="btnZoomIn" title="Zoom in" aria-label="Zoom in">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-            </button>
-            <button class="btn-diag-ctrl" id="btnZoomOut" title="Zoom out" aria-label="Zoom out">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line></svg>
-            </button>
-            <button class="btn-diag-ctrl btn-diag-reset" id="btnZoomReset" title="Reset zoom and position">Reset</button>
-            <button class="btn-diag-ctrl btn-diag-close" id="btnCloseDiagModal" title="Close viewer" aria-label="Close viewer">&times;</button>
-          </div>
-        </div>
-        <div class="diagram-modal-viewport" id="diagramModalViewport">
-          <div class="diagram-modal-canvas" id="diagramModalCanvas"></div>
         </div>
       </div>
     </div>

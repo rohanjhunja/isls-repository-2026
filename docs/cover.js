@@ -124,6 +124,12 @@
 
       const figWrap = document.createElement("div");
       figWrap.className = `crowd-figure layer-${cfg.layer}`;
+      figWrap.style.setProperty("--fig-left", `${cfg.left}%`);
+      figWrap.style.setProperty("--fig-bottom", `${cfg.bottom}px`);
+      figWrap.style.setProperty("--fig-bottom-val", cfg.bottom);
+      figWrap.style.setProperty("--fig-scale", cfg.scale);
+      figWrap.style.setProperty("--fig-scale-val", cfg.scale);
+      figWrap.style.setProperty("--fig-opacity", cfg.opacity);
       figWrap.style.left = `${cfg.left}%`;
       figWrap.style.bottom = `${cfg.bottom}px`;
       figWrap.style.transform = `scale(${cfg.scale})`;
@@ -556,155 +562,6 @@
     });
   }
 
-  // Technical Structure Diagram: Expand & Pan Modal (Touch pan, Pinch zoom, Zoom buttons)
-  function setupDiagramModal() {
-    const expandBtn = document.getElementById("btnExpandDiagram");
-    const mainSvg = document.getElementById("mainPipelineSvg");
-    const modal = document.getElementById("diagramModal");
-    const backdrop = document.getElementById("diagramModalBackdrop");
-    const closeBtn = document.getElementById("btnCloseDiagModal");
-    const viewport = document.getElementById("diagramModalViewport");
-    const canvas = document.getElementById("diagramModalCanvas");
-    const btnZoomIn = document.getElementById("btnZoomIn");
-    const btnZoomOut = document.getElementById("btnZoomOut");
-    const btnZoomReset = document.getElementById("btnZoomReset");
-
-    if (!expandBtn || !modal || !viewport || !canvas || !mainSvg) return;
-
-    let scale = 1;
-    let translateX = 0;
-    let translateY = 0;
-    let isDragging = false;
-    let startX = 0;
-    let startY = 0;
-    let initialPinchDistance = 0;
-    let initialPinchScale = 1;
-
-    function updateTransform() {
-      canvas.style.transform = `translate(${translateX}px, ${translateY}px) scale(${scale})`;
-    }
-
-    function resetView() {
-      const vpRect = viewport.getBoundingClientRect();
-      const svgW = 1024;
-      const svgH = 416;
-      const fitScale = Math.min((vpRect.width - 32) / svgW, (vpRect.height - 32) / svgH);
-      scale = Math.max(0.65, Math.min(fitScale, 1.25));
-      translateX = (vpRect.width - svgW * scale) / 2;
-      translateY = (vpRect.height - svgH * scale) / 2;
-      updateTransform();
-    }
-
-    function openModal() {
-      if (!canvas.hasChildNodes()) {
-        const clone = mainSvg.cloneNode(true);
-        clone.id = "clonedPipelineSvg";
-        canvas.appendChild(clone);
-      }
-      modal.classList.add("is-active");
-      modal.setAttribute("aria-hidden", "false");
-      document.body.style.overflow = "hidden";
-      requestAnimationFrame(() => {
-        resetView();
-      });
-    }
-
-    function closeModal() {
-      modal.classList.remove("is-active");
-      modal.setAttribute("aria-hidden", "true");
-      document.body.style.overflow = "";
-    }
-
-    expandBtn.addEventListener("click", openModal);
-
-    if (closeBtn) closeBtn.addEventListener("click", closeModal);
-    if (backdrop) backdrop.addEventListener("click", closeModal);
-
-    document.addEventListener("keydown", (e) => {
-      if (e.key === "Escape" && modal.classList.contains("is-active")) {
-        closeModal();
-      }
-    });
-
-    // Zoom buttons
-    if (btnZoomIn) {
-      btnZoomIn.addEventListener("click", () => {
-        scale = Math.min(scale * 1.3, 3.8);
-        updateTransform();
-      });
-    }
-    if (btnZoomOut) {
-      btnZoomOut.addEventListener("click", () => {
-        scale = Math.max(scale / 1.3, 0.35);
-        updateTransform();
-      });
-    }
-    if (btnZoomReset) {
-      btnZoomReset.addEventListener("click", resetView);
-    }
-
-    // Pointer Drag Panning
-    viewport.addEventListener("pointerdown", (e) => {
-      isDragging = true;
-      startX = e.clientX - translateX;
-      startY = e.clientY - translateY;
-      viewport.classList.add("is-dragging");
-      viewport.setPointerCapture(e.pointerId);
-    });
-
-    viewport.addEventListener("pointermove", (e) => {
-      if (!isDragging) return;
-      translateX = e.clientX - startX;
-      translateY = e.clientY - startY;
-      updateTransform();
-    });
-
-    const endDrag = (e) => {
-      if (isDragging) {
-        isDragging = false;
-        viewport.classList.remove("is-dragging");
-        try { viewport.releasePointerCapture(e.pointerId); } catch(err) {}
-      }
-    };
-
-    viewport.addEventListener("pointerup", endDrag);
-    viewport.addEventListener("pointercancel", endDrag);
-
-    // Touch Pinch to Zoom
-    viewport.addEventListener("touchstart", (e) => {
-      if (e.touches.length === 2) {
-        isDragging = false;
-        const dx = e.touches[0].clientX - e.touches[1].clientX;
-        const dy = e.touches[0].clientY - e.touches[1].clientY;
-        initialPinchDistance = Math.hypot(dx, dy);
-        initialPinchScale = scale;
-      }
-    }, { passive: true });
-
-    viewport.addEventListener("touchmove", (e) => {
-      if (e.touches.length === 2 && initialPinchDistance > 0) {
-        const dx = e.touches[0].clientX - e.touches[1].clientX;
-        const dy = e.touches[0].clientY - e.touches[1].clientY;
-        const currentDistance = Math.hypot(dx, dy);
-        const factor = currentDistance / initialPinchDistance;
-        scale = Math.max(0.35, Math.min(initialPinchScale * factor, 4.0));
-        updateTransform();
-      }
-    }, { passive: true });
-
-    viewport.addEventListener("touchend", () => {
-      initialPinchDistance = 0;
-    }, { passive: true });
-
-    // Wheel zoom
-    viewport.addEventListener("wheel", (e) => {
-      e.preventDefault();
-      const zoomFactor = e.deltaY < 0 ? 1.15 : 0.88;
-      scale = Math.max(0.35, Math.min(scale * zoomFactor, 4.0));
-      updateTransform();
-    }, { passive: false });
-  }
-
   // Researcher Prompts 3-Card Row Accordion (Single Active Expanded)
   function setupUseCaseAccordion() {
     const cards = document.querySelectorAll(".use-case-card");
@@ -737,7 +594,6 @@
     setupHeroInfoGuide();
     setupHeaderAccordion();
     setupAdvancesFlipCards();
-    setupDiagramModal();
     setupUseCaseAccordion();
     initMermaid();
   }

@@ -481,6 +481,28 @@
       box-sizing: border-box;
     }
 
+    .chart-scroll-wrapper {
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      position: relative;
+    }
+
+    .chart-swipe-hint {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.74rem;
+      font-weight: 600;
+      color: var(--primary);
+      background: #eff6ff;
+      border: 1px solid #bfdbfe;
+      border-radius: 6px;
+      padding: 5px 12px;
+      margin: 0 8px;
+      align-self: flex-start;
+    }
+
     /* Author Cohort Timeline Legend Strip */
     .network-legend-bar {
       display: flex;
@@ -1736,6 +1758,14 @@
         padding: 12px 8px;
       }
 
+      .chart-swipe-hint {
+        display: inline-flex;
+      }
+
+      .chart-scroll-wrapper #chartTrends {
+        min-width: 740px !important;
+      }
+
       .chart-toolbar {
         flex-direction: column;
         align-items: flex-start;
@@ -1900,7 +1930,13 @@
             <button class="btn-pill-toggle" id="btnToggleConference">% of Total Conference</button>
           </div>
         </div>
-        <div class="chart-canvas" id="chartTrends" style="height: 630px !important;"></div>
+        <div class="chart-swipe-hint">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          <span>Swipe horizontally to pan across 10 years (2016–2026)</span>
+        </div>
+        <div class="chart-scroll-wrapper">
+          <div class="chart-canvas" id="chartTrends" style="height: 630px !important;"></div>
+        </div>
       </div>
 
       <details class="methodology-accordion">
