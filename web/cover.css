@@ -624,35 +624,38 @@ body {
 }
 
 .hud-authors {
-  font-size: 0.76rem;
-  color: var(--text-muted);
-  font-style: italic;
-  margin-bottom: 10px;
-}
-
-.hud-outlier-box {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-left: 3px solid var(--primary);
-  border-radius: 6px;
-  padding: 8px 10px;
-  margin-bottom: 12px;
-}
-
-.hud-outlier-label {
-  font-size: 0.74rem;
-  font-weight: 800;
-  color: var(--text-primary);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  margin-bottom: 12px;
+  line-height: 1.4;
 }
 
-.hud-outlier-context {
-  font-size: 0.72rem;
+.hud-author-name {
+  font-style: italic;
   color: var(--text-secondary);
-  margin-top: 4px;
-  line-height: 1.35;
+}
+
+.hud-meta-bullet {
+  color: #cbd5e1;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.hud-conf-type {
+  font-style: normal;
+  font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: 0.70rem;
+  color: var(--text-secondary);
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  padding: 1px 7px;
+  border-radius: 4px;
+  letter-spacing: 0.2px;
 }
 
 .hud-action-hint {
@@ -2207,23 +2210,31 @@ body {
   }
 
   .hero-info-wrapper {
-    position: static;
+    position: relative;
     margin-bottom: 14px;
     display: inline-flex;
     justify-content: center;
     width: 100%;
+    z-index: 100;
   }
 
   .hero-info-popover {
+    position: absolute;
+    top: calc(100% + 8px);
     left: 50% !important;
     right: auto !important;
     transform: translateX(-50%) translateY(6px) !important;
     width: calc(100vw - 32px);
-    max-width: 330px;
+    max-width: 340px;
+    z-index: 200;
+    box-shadow: 0 12px 36px rgba(15, 23, 42, 0.2);
   }
 
   .hero-info-wrapper.open .hero-info-popover {
+    opacity: 1 !important;
+    visibility: visible !important;
     transform: translateX(-50%) translateY(0) !important;
+    pointer-events: auto !important;
   }
 
   .hero-center-content {
@@ -2280,20 +2291,33 @@ body {
     margin-bottom: 4px;
   }
 
-  /* Scale down the silhouette crowd visuals to fit screen width and avoid clashing with copy */
+  /* Center silhouette crowd visual and allow outer edges to overflow screen symmetrically */
   .hero-stage-container {
-    height: 175px;
+    height: 180px;
     margin: 20px auto 4px;
     width: 100%;
-    max-width: 440px;
-    border-radius: 12px;
+    max-width: none;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     position: relative;
     overflow: visible;
   }
 
+  .silhouette-crowd-stage {
+    position: relative;
+    width: 580px;
+    min-width: 580px;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: visible;
+    flex-shrink: 0;
+  }
+
   .crowd-figure {
-    bottom: calc(var(--fig-bottom-val) * 0.35px) !important;
-    transform: scale(calc(var(--fig-scale-val) * 0.48)) !important;
+    bottom: calc(var(--fig-bottom-val) * 0.38px) !important;
+    transform: scale(calc(var(--fig-scale-val) * 0.52)) !important;
   }
 
   /* Responsive HUD bottom sheet on mobile */

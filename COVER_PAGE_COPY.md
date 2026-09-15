@@ -22,10 +22,6 @@
 
 ## 2\. Hero Section
 
-### Kicker Badge
-
-`ISLS 2016 – 2026 • 10 YEARS PAPERS`
-
 ### Main Headline
 
 # 10 Years of ISLS Research

@@ -180,17 +180,13 @@
         popover.innerHTML = `
           <div class="hud-header-row">
             <span class="hud-genre-badge" style="color:${cfg.stroke}; border-color:${cfg.stroke}55; background:${cfg.stroke}18;">${badgeLabel}</span>
-            <span class="hud-year-badge">${paper.conference} ${paper.year} • ${paper.paper_type}</span>
             ${isMobileTap ? `<button class="hud-close-btn" id="hudCloseBtn" aria-label="Close">&times;</button>` : ""}
           </div>
           <div class="hud-title">${paper.title}</div>
-          <div class="hud-authors">${authorApa} (${paper.year})</div>
-          <div class="hud-outlier-box">
-            <div class="hud-outlier-label">
-              <span>${isHigh ? "📈 Max Length Outlier" : "📉 Min Length Outlier"}</span>
-              <span style="font-family:var(--font-mono); font-size:0.72rem;">${paper.tokens.toLocaleString()} tk (${paper.pct_of_paper}%)</span>
-            </div>
-            <div class="hud-outlier-context">${paper.context}</div>
+          <div class="hud-authors">
+            <span class="hud-author-name">${authorApa}</span>
+            <span class="hud-meta-bullet">•</span>
+            <span class="hud-conf-type">${paper.conference} • ${paper.paper_type}</span>
           </div>
           ${isMobileTap 
             ? `<a href="${searchUrl}" class="hud-mobile-action-link">Open in Review Viewer ↗</a>` 
@@ -458,12 +454,14 @@
     if (!wrapper || !btn) return;
 
     btn.addEventListener("click", (e) => {
+      e.preventDefault();
       e.stopPropagation();
       wrapper.classList.toggle("open");
     });
 
     if (closeBtn) {
       closeBtn.addEventListener("click", (e) => {
+        e.preventDefault();
         e.stopPropagation();
         wrapper.classList.remove("open");
       });
