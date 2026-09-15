@@ -2357,12 +2357,18 @@ body {
     width: calc(100vw - 24px) !important;
     max-width: 420px;
     left: 50% !important;
-    transform: translateX(-50%) !important;
+    transform: translateX(-50%) translateY(8px) !important;
     bottom: 16px !important;
     top: auto !important;
     pointer-events: auto;
     border-radius: 14px;
     box-shadow: 0 10px 30px rgba(15, 23, 42, 0.25);
+  }
+
+  .hud-popover.visible {
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: translateX(-50%) translateY(0) !important;
   }
 
   /* Gap Flip Cards on Mobile */
