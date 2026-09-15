@@ -453,13 +453,45 @@
     const closeBtn = document.getElementById("heroInfoCloseBtn");
     if (!wrapper || !btn) return;
 
+    let touchStartX = 0;
+    let touchStartY = 0;
+    let isTouch = false;
+
+    btn.addEventListener("touchstart", (e) => {
+      if (e.touches && e.touches.length === 1) {
+        isTouch = true;
+        touchStartX = e.touches[0].clientX;
+        touchStartY = e.touches[0].clientY;
+      }
+    }, { passive: true });
+
+    btn.addEventListener("touchend", (e) => {
+      if (!isTouch) return;
+      if (e.changedTouches && e.changedTouches.length === 1) {
+        const dx = e.changedTouches[0].clientX - touchStartX;
+        const dy = e.changedTouches[0].clientY - touchStartY;
+        if (Math.hypot(dx, dy) < 10) {
+          e.preventDefault();
+          e.stopPropagation();
+          wrapper.classList.toggle("open");
+        }
+      }
+      setTimeout(() => { isTouch = false; }, 350);
+    });
+
     btn.addEventListener("click", (e) => {
+      if (isTouch) return;
       e.preventDefault();
       e.stopPropagation();
       wrapper.classList.toggle("open");
     });
 
     if (closeBtn) {
+      closeBtn.addEventListener("touchend", (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+        wrapper.classList.remove("open");
+      });
       closeBtn.addEventListener("click", (e) => {
         e.preventDefault();
         e.stopPropagation();
@@ -467,11 +499,14 @@
       });
     }
 
-    document.addEventListener("click", (e) => {
-      if (!wrapper.contains(e.target)) {
+    const handleOutsideClose = (e) => {
+      if (wrapper.classList.contains("open") && !wrapper.contains(e.target)) {
         wrapper.classList.remove("open");
       }
-    });
+    };
+
+    document.addEventListener("click", handleOutsideClose);
+    document.addEventListener("touchend", handleOutsideClose);
   }
 
   // Header Accordion on Mobile (Toggle Navigation Menu)
@@ -580,6 +615,19 @@
           card.classList.add("is-expanded");
           const btn = card.querySelector(".use-case-expand-btn");
           if (btn) btn.setAttribute("aria-expanded", "true");
+
+          // When user clicks Explore, scroll expanded card to top of view leaving a slight margin
+          requestAnimationFrame(() => {
+            const header = document.querySelector(".cover-header");
+            const headerHeight = (header && header.classList.contains("header-visible")) ? header.offsetHeight : (header ? header.offsetHeight : 60);
+            const topMargin = 24; // slight margin from top below header
+            const cardRect = card.getBoundingClientRect();
+            const targetY = window.pageYOffset + cardRect.top - headerHeight - topMargin;
+            window.scrollTo({
+              top: Math.max(0, targetY),
+              behavior: "smooth"
+            });
+          });
         }
       });
     });

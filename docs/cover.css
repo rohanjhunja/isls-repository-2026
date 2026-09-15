@@ -310,7 +310,15 @@ body {
   pointer-events: none;
 }
 
-.hero-info-wrapper:hover .hero-info-popover,
+@media (hover: hover) and (pointer: fine) {
+  .hero-info-wrapper:hover .hero-info-popover {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
+
 .hero-info-wrapper.open .hero-info-popover {
   opacity: 1;
   visibility: visible;
@@ -1277,6 +1285,7 @@ body {
   flex-direction: column;
   align-items: stretch;
   height: 100%;
+  scroll-margin-top: 84px;
   transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
   box-sizing: border-box;
 }
@@ -1344,12 +1353,12 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-  background: #f8fafc;
-  border: 1px solid #edf2f7;
-  border-radius: 12px;
-  padding: 16px;
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  padding: 8px 0 16px;
   box-sizing: border-box;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
   transition: all 0.25s ease;
 }
 
@@ -1372,7 +1381,6 @@ body {
   height: 100%;
   object-fit: contain;
   background: transparent;
-  border-radius: 8px;
   border: none;
   padding: 0;
   box-shadow: none;
@@ -1385,12 +1393,12 @@ body {
   gap: 6px;
   width: 100%;
   margin-top: auto;
-  padding: 11px 16px;
-  background: #ffffff;
+  padding: 12px 16px;
+  background: #f8fafc;
   color: var(--primary);
-  border: 1px solid var(--primary-border);
-  border-radius: 8px;
-  font-size: 0.80rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.82rem;
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s ease;
@@ -1409,9 +1417,9 @@ body {
 .use-case-prompts-vertical-stack {
   display: flex;
   flex-direction: column;
-  gap: 12px;
   margin-top: 4px;
   width: 100%;
+  border-top: 1px solid #edf2f7;
 }
 
 .use-case-card.is-collapsed .use-case-prompts-vertical-stack {
@@ -1517,26 +1525,32 @@ body {
 }
 
 
-/* Light Colored Card for Each Prompt in a Row */
+/* Clean Editorial Prompt Items (Avoid Card-in-Card) */
 .prompt-item-box {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
-  border-radius: 12px;
-  padding: 14px 15px 16px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #edf2f7;
+  border-radius: 8px;
+  padding: 14px 10px 16px;
+  margin: 0 -10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 10px;
-  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.03);
-  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  gap: 8px;
+  box-shadow: none;
+  transition: background-color 0.18s ease;
   position: relative;
 }
 
+.prompt-item-box:last-child {
+  border-bottom: none;
+  padding-bottom: 8px;
+}
+
 .prompt-item-box:hover {
-  background: #ffffff;
-  border-color: #cbd5e1;
-  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06);
-  transform: translateY(-2px);
+  background: #f8fafc;
+  box-shadow: none;
+  transform: none;
 }
 
 .prompt-item-header {
@@ -2211,11 +2225,23 @@ body {
 
   .hero-info-wrapper {
     position: relative;
-    margin-bottom: 14px;
-    display: inline-flex;
+    top: auto;
+    right: auto;
+    left: auto;
+    bottom: auto;
+    margin: 0 auto 16px;
+    display: flex;
     justify-content: center;
     width: 100%;
     z-index: 100;
+  }
+
+  .hero-info-btn {
+    min-height: 34px;
+    padding: 6px 16px;
+    font-size: 0.80rem;
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
   }
 
   .hero-info-popover {
@@ -2226,8 +2252,15 @@ body {
     transform: translateX(-50%) translateY(6px) !important;
     width: calc(100vw - 32px);
     max-width: 340px;
+    box-sizing: border-box;
     z-index: 200;
     box-shadow: 0 12px 36px rgba(15, 23, 42, 0.2);
+  }
+
+  .hero-info-wrapper:hover .hero-info-popover {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
 
   .hero-info-wrapper.open .hero-info-popover {
@@ -2260,6 +2293,8 @@ body {
     letter-spacing: -0.03em;
     margin-bottom: 12px;
     line-height: 1.18;
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 
   .hero-subhead {
@@ -2294,25 +2329,22 @@ body {
   /* Center silhouette crowd visual and allow outer edges to overflow screen symmetrically */
   .hero-stage-container {
     height: 180px;
-    margin: 20px auto 4px;
-    width: 100%;
-    max-width: none;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    margin: 20px -20px 4px;
+    width: calc(100% + 40px);
+    max-width: 100vw;
     position: relative;
-    overflow: visible;
+    overflow: hidden;
   }
 
   .silhouette-crowd-stage {
-    position: relative;
-    width: 580px;
-    min-width: 580px;
-    height: 100%;
+    position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    bottom: 0;
+    width: 600px;
+    min-width: 600px;
+    height: 100%;
     overflow: visible;
-    flex-shrink: 0;
   }
 
   .crowd-figure {
