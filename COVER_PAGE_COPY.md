@@ -290,7 +290,7 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 - **Label (Kicker above heading)**: `Context 02`  
 - **Context Heading**: Systematic Literature Review  
-- **Thumbnail Image**: `assets/usecase_systematic.jpg`
+- **Thumbnail Image**: `assets/usecase_systematic.png`
 
 #### Prompt 1: Methodology Matrix Extraction
 
