@@ -19,14 +19,26 @@ Before registering or ingesting any new document, enforce these strict naming ru
 ## Required Inputs
 - PDF file path or filename in `data/incoming/` or `pdf/`.
 ## Procedure
-1. **DSpace Ground-Truth Harvesting (2023–2025)**: Execute `python scripts/harvest_ground_truth.py` to harvest clean Dublin Core metadata (titles, authors, DOIs, page ranges, handle URLs) directly from DSpace using `curl_cffi` into `data/derived/ground_truth_registry.json`.
-2. **Fallback Boundary Harvesting (2026)**: For years without individual DSpace item records, extract ground-truth table of contents entries directly from monolithic proceedings PDFs.
-3. **Normalize Proceedings Markdown**: Ensure source proceedings Markdown files are saved under `proceedings_md/<conference>-<year>.md`.
-4. **Verified Markdown Chunking**: Slice proceedings `.md` files into paper records by matching headers and page ranges against `ground_truth_registry.json`.
-5. **Section Parser & Dual Labeling**: Extract section blocks preserving both `original_heading` and `normalized_section`.
-6. **Validate Schema**: Validate output records against `Paper` and `GroundTruthPaper` Pydantic schemas.
-7. **Update SQLite FTS5 Index**: Index validated paper sections in `proceedings.db`.
-8. **Audit Report**: Generate ingestion audit report comparing detected paper count against ground-truth registry.
+
+### A. Fast 10-Year Database Population (Local Setup / Rebuild)
+To build the complete SQLite FTS5 database (~112 MB) and review viewer caches from the bundled 10-year golden dataset (`data/derived/ground_truth_registry.json`, ~10 MB):
+```bash
+# 1. Populate proceedings.db (5,402 papers, authors, sections, FTS5 index)
+python3 scripts/populate_10yr_database.py
+
+# 2. Precompute review viewer caches and aggregations
+python3 scripts/build_all_reviews_cache.py
+```
+
+### B. Upstream 10-Year Corpus Re-Harvest & Extraction (From Scratch)
+If re-harvesting the 10-year corpus (2016–2026) directly from DSpace and raw source PDFs:
+1. **DSpace Ground-Truth Harvesting (2016–2025)**: Execute `python3 scripts/harvest_2016_2025.py` to harvest clean Dublin Core metadata (titles, authors, DOIs, page ranges, handle URLs) directly from DSpace repository into `data/derived/ground_truth_registry.json`.
+2. **Pre-2023 Section Extraction**: Run `python3 scripts/ingest_pre2023_sections.py` to extract canonical section hierarchies from harvested papers.
+3. **2026 Boundary Harvesting & Repair**: For 2026 monolithic proceedings PDFs, run `python3 scripts/clean_and_populate_2026.py` and `python3 scripts/repair_2026_leaked_titles_and_authors.py` to segment and verify paper boundaries against TOC entries.
+4. **Text Reflow & Glitch Repair**: Run `python3 scripts/clean_and_reflow_all_repository_text.py` to remove hyphenation splits and OCR artifacts.
+5. **Populate Database**: Execute `python3 scripts/populate_10yr_database.py` and `python3 scripts/build_all_reviews_cache.py`.
+
+### C. Ingesting a New Single Volume (e.g. Future Conference)
 - `python3 -m proceedings_ingest.cli register <pdf_path>`
 - `python3 -m proceedings_ingest.cli preflight <doc_id>`
 - `python3 -m proceedings_ingest.cli ingest <doc_id> --max-memory-gb 8.0`
