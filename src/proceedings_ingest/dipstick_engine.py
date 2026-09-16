@@ -26,11 +26,13 @@ class DipstickEngine:
 
     def __init__(self, data_dir: str):
         self.data_dir = data_dir
-        self.db_path = os.path.join(os.path.dirname(os.path.abspath(data_dir)), "proceedings.db")
+        base_dir = os.path.dirname(os.path.abspath(data_dir))
+        self.db_path = os.path.join(base_dir, "proceedings.db")
         if not os.path.exists(self.db_path):
             self.db_path = os.path.join(data_dir, "proceedings.db")
         self.derived_dir = os.path.join(data_dir, "derived")
-        self.reviews_dir = os.path.join(data_dir, "reviews")
+        self.workspace_dir = os.path.join(base_dir, "workspace")
+        self.reviews_dir = os.path.join(self.workspace_dir, "reviews")
         os.makedirs(self.reviews_dir, exist_ok=True)
         self._corpus_cache: Optional[List[Dict[str, Any]]] = None
 
@@ -324,7 +326,7 @@ class DipstickEngine:
             f.write(f"- **Keywords**: {', '.join(keywords)}\n\n")
             f.write("## Web Viewer Launch Link\n\n")
             kw_param = urllib.parse.quote(", ".join(keywords))
-            f.write(f"[🚀 Launch Interactive Web Viewer for this Review](http://localhost:8080/?keywords={kw_param}&review={review_id})\n")
+            f.write(f"[🚀 Launch Interactive Web Viewer for this Review](http://localhost:8888/?keywords={kw_param}&review={review_id})\n")
 
         return manifest
 

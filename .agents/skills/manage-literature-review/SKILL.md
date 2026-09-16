@@ -18,14 +18,14 @@ Create, continue, update, duplicate, archive, and extend saved literature review
    - Conduct a full paper search (`--search-fields sections`) only when explicitly requested.
    - Use deterministic keyword search by default; enable AI semantic search only when `--ai-search` is specified.
 3. **Markdown Views & Metadata Files**:
-   - Reviews are saved as `.json` metadata files in `data/reviews/<review_id>.json`.
-   - Every saved/updated review automatically syncs a human-readable Markdown view in `data/reviews/<review_id>.md`.
+   - Reviews are saved as `.json` metadata files in `workspace/reviews/<review_id>.json` (git-protected).
+   - Every saved/updated review automatically syncs a human-readable Markdown view in `workspace/reviews/<review_id>.md`.
 4. **Interactive Web Viewer & Python Service Initialization**:
-   - All saved literature reviews in `data/reviews/` can be interactively inspected using the `launch-review-viewer` skill (`http://localhost:<port>/?review=<review_id>`).
+   - All saved literature reviews in `workspace/reviews/` and curated templates in `data/sample_reviews/` can be interactively inspected using the `launch-review-viewer` skill (`http://localhost:8888/?review=<review_id>`).
    - **Auto-Initialization Procedure**: Upon creating or starting a new literature review:
      1. **Check Web Server**: Verify if the Python web server is running on port 8888 (`curl -s --noproxy '*' http://localhost:8888/api/reviews`). If inactive or stale, clear old processes (`pkill -f "server.py"`) and launch `PYTHONUNBUFFERED=1 .venv/bin/python server.py --port 8888` with `BypassSandbox: true` (skipping port 8080).
-     2. **Initialise Python Data & Cache Scripts**: Verify and execute required Python data preparation and cache scripts (`.venv/bin/python scripts/prepare_viewer_data.py` or `.venv/bin/python scripts/build_all_reviews_cache.py` or `.venv/bin/python -m proceedings_ingest.cli review sync <review_id>`) if cache files are missing or stale.
-     3. **Ensure Timely Localhost Rendering**: Guarantee `http://localhost:<port>/?review=<review_id>` immediately serves and displays the newly created review in time.
+     2. **Initialise Python Data & Cache Scripts**: Verify and execute `python3 scripts/build_all_reviews_cache.py` so the new review is indexed in the cache.
+     3. **Ensure Timely Localhost Rendering**: Guarantee `http://localhost:8888/?review=<review_id>` immediately serves and displays the newly created review in time.
 
 ## CLI Usage
 

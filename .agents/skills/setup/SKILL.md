@@ -19,9 +19,13 @@ This skill is triggered whenever the user types:
 
 When this skill is triggered, perform these steps sequentially:
 
-### Step 1: Virtual Environment & Dependencies
-Check if a local virtual environment exists. If not, create and activate it, then install project dependencies:
+### Step 1: Workspace Structure & Virtual Environment
+Ensure user workspace directories exist and virtual environment is active:
 ```bash
+# 1. Initialize user workspace (protected from git overwrites)
+mkdir -p workspace/reviews workspace/observations workspace/properties workspace/exports
+
+# 2. Virtual environment & dependencies
 if [ ! -d ".venv" ]; then
   python3 -m venv .venv
 fi
@@ -31,20 +35,20 @@ pip install -e .
 ```
 
 ### Step 2: Populate 10-Year Full-Text SQLite Database & FTS5 Index
-Build the complete local `proceedings.db` database from the bundled 10-year golden dataset (`data/derived/ground_truth_registry.json`) and structured Markdown papers (`data/derived/papers/`):
+Check if `proceedings.db` exists with full paper count (5,402 papers). If missing or empty, build it from bundled structured Markdown papers (`data/derived/papers/`):
 ```bash
 python3 scripts/populate_10yr_database.py
 ```
 *Expected duration: ~15 seconds. Populates 5,402 papers, 8,946 authors, and 36,871 full-text sections with FTS5 BM25 search.*
 
 ### Step 3: Precompute Review Viewer Caches
-Generate precomputed caches for the curated sample literature reviews in `data/reviews/`:
+Generate precomputed caches for curated sample literature reviews (`data/sample_reviews/`) and any local reviews in `workspace/reviews/`:
 ```bash
 python3 scripts/build_all_reviews_cache.py
 ```
 
 ### Step 4: Health Check & Launch Review Viewer Server
-Ensure port `8888` is clear of any stale processes, then launch the local server in the background:
+Ensure port `8888` is clear of stale processes, then launch the server in the background:
 ```bash
 # Terminate any existing server instances
 pkill -f "server.py" 2>/dev/null || true
@@ -54,13 +58,15 @@ python3 server.py --port 8888
 ```
 
 ### Step 5: Confirm Readiness to the User
-Verify that `http://localhost:8888` is responding, then present a clean summary:
+Verify that `http://localhost:8888` is responding (HTTP 200), then present a clean summary:
 - **System Ready**: ISLS Research Repository & Agentic Review System (2016–2026)
 - **Corpus**: 5,402 peer-reviewed conference papers, 8,946 authors, 36,871 full-text sections
 - **Search**: Offline SQLite FTS5 lexical BM25 indexing active
+- **User Workspace**: `workspace/` initialized and git-protected
 - **Review Viewer**: [http://localhost:8888](http://localhost:8888)
 - **Observatory**: [http://localhost:8888/overview.html](http://localhost:8888/overview.html)
 
 ## Guardrails
 - **Port Conflict**: NEVER bind to port `8080` (reserved by macOS Control Center). Always use port `8888` (or `8889` / `8085`).
 - **No PDF Downloads Needed**: The repository already includes 100% of the structured full-text Markdown files (`data/derived/papers/`). Do not attempt to download raw PDF files.
+- **User Space Isolation**: All user-generated reviews, observations, and custom properties must be saved strictly in `workspace/`. Never modify core files outside `workspace/` without user confirmation.

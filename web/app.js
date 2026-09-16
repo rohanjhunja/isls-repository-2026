@@ -640,6 +640,11 @@ function setupTableExportDropdown() {
 
 
 async function deleteReview(reviewId, reviewName) {
+  const rev = reviewsList.find(r => r.id === reviewId);
+  if (rev && rev.is_sample) {
+    alert(`"${reviewName || reviewId}" is a curated sample template and cannot be deleted.`);
+    return;
+  }
   if (!confirm(`Are you sure you want to delete review "${reviewName || reviewId}"?`)) return;
 
   showStatus(`Deleting review '${reviewName}'...`);
@@ -725,12 +730,14 @@ async function deleteColumn(colKey, colLabel) {
 
 // Render Left Sidebar Navigation Items
 function renderSidebarReviews() {
-  let html = '';
-  reviewsList.forEach(r => {
+  const userReviews = reviewsList.filter(r => !r.is_sample);
+  const sampleReviews = reviewsList.filter(r => r.is_sample);
+
+  function getReviewItemHtml(r) {
     const isActive = (r.id === activeReviewId && !isDipstickMode) ? 'active' : '';
     const tooltip = `${escapeHtml(r.name)} (${r.paper_count} papers)`;
     const sampleBadge = r.is_sample ? '<span class="badge-sample">Sample</span>' : '';
-    html += `
+    return `
       <div class="review-item ${isActive}" data-id="${r.id}" title="${tooltip}">
         <span class="review-item-icon">${getIcon('file-text')}</span>
         <div class="review-item-content-group">
@@ -745,7 +752,43 @@ function renderSidebarReviews() {
         </button>
       </div>
     `;
-  });
+  }
+
+  let html = '';
+
+  // 1. My Saved Reviews Section
+  html += `
+    <div class="sidebar-section-title" style="display:flex; justify-content:space-between; align-items:center; padding: 10px 14px 4px;">
+      <span>My Saved Reviews</span>
+      <span style="font-size:10px; background:#e2e8f0; color:#475569; padding:1px 6px; border-radius:10px;">${userReviews.length}</span>
+    </div>
+  `;
+
+  if (userReviews.length === 0) {
+    html += `
+      <div style="padding: 10px 12px; font-size: 11px; color: #94a3b8; line-height: 1.4; border-radius: 6px; background: rgba(241, 245, 249, 0.6); margin: 4px 6px 8px 6px; border: 1px dashed #cbd5e1;">
+        No local reviews saved yet. Use the <strong>Search</strong> above or type <code>import &lt;file&gt;</code> in agent chat.
+      </div>
+    `;
+  } else {
+    userReviews.forEach(r => {
+      html += getReviewItemHtml(r);
+    });
+  }
+
+  // 2. Curated System Samples Section
+  if (sampleReviews.length > 0) {
+    html += `
+      <div class="sidebar-section-title" style="display:flex; justify-content:space-between; align-items:center; padding: 12px 14px 4px; margin-top: 6px; border-top: 1px solid #f1f5f9;">
+        <span>Curated Samples</span>
+        <span style="font-size:10px; background:#e2e8f0; color:#475569; padding:1px 6px; border-radius:10px;">${sampleReviews.length}</span>
+      </div>
+    `;
+    sampleReviews.forEach(r => {
+      html += getReviewItemHtml(r);
+    });
+  }
+
   reviewsListEl.innerHTML = html;
 
   if (dipstickNavItem) {

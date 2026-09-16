@@ -44,3 +44,11 @@ data/derived/reviews_cache/
 *.zip
 logs/
 *.log
+
+# User Workspace (Protected from Git pull/merge/overwrite)
+workspace/*
+!workspace/**/.gitkeep
+!workspace/.gitkeep
+user_data/
+*.isls-review.json
+*.isls-review.zip

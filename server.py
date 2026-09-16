@@ -20,7 +20,10 @@ from proceedings_ingest.utils.text_cleanup import repair_title_and_authors, sani
 PORT = 8888
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, 'data')
-REVIEWS_DIR = os.path.join(DATA_DIR, 'reviews')
+WORKSPACE_DIR = os.path.join(BASE_DIR, 'workspace')
+USER_REVIEWS_DIR = os.path.join(WORKSPACE_DIR, 'reviews')
+SAMPLE_REVIEWS_DIR = os.path.join(DATA_DIR, 'sample_reviews')
+REVIEWS_DIR = USER_REVIEWS_DIR
 CACHE_DIR = os.path.join(DATA_DIR, 'derived', 'reviews_cache')
 DB_PATH = os.path.join(BASE_DIR, 'proceedings.db')
 WEB_DIR = os.path.join(BASE_DIR, 'web')
@@ -36,7 +39,7 @@ def get_db_connection():
         return conn
     return None
 
-def read_review_metadata(fpath):
+def read_review_metadata(fpath, is_sample=False):
     mtime = os.path.getmtime(fpath)
     with open(fpath, 'r', encoding='utf-8') as f:
         data = json.load(f)
@@ -47,6 +50,10 @@ def read_review_metadata(fpath):
         'description': data.get('description', ''),
         'created_at': data.get('created_at', datetime.fromtimestamp(mtime).isoformat()),
         'paper_count': paper_count,
+        'is_sample': is_sample,
+        'selected_columns': data.get('selected_columns', []),
+        'visible_columns': data.get('visible_columns', []),
+        'column_definitions': data.get('column_definitions', {}),
         '_mtime': mtime
     }
 
@@ -78,13 +85,25 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
 
         if path.startswith('/api/reviews/'):
             review_id = path.replace('/api/reviews/', '').strip()
-            review_json = os.path.join(REVIEWS_DIR, f"{review_id}.json")
+            sample_json = os.path.join(SAMPLE_REVIEWS_DIR, f"{review_id}.json")
+            user_json = os.path.join(USER_REVIEWS_DIR, f"{review_id}.json")
             cache_json = os.path.join(CACHE_DIR, f"{review_id}.json")
 
+            if os.path.exists(sample_json) and not os.path.exists(user_json):
+                self.send_response(403)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': 'Curated sample reviews are read-only templates and cannot be deleted.'}).encode('utf-8'))
+                return
+
             deleted = False
-            if os.path.exists(review_json):
-                os.remove(review_json)
+            if os.path.exists(user_json):
+                os.remove(user_json)
                 deleted = True
+            user_md = os.path.join(USER_REVIEWS_DIR, f"{review_id}.md")
+            if os.path.exists(user_md):
+                os.remove(user_md)
             if os.path.exists(cache_json):
                 os.remove(cache_json)
 
@@ -313,24 +332,59 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
 
-            reviews_list = []
-            if os.path.exists(REVIEWS_DIR):
-                for fname in os.listdir(REVIEWS_DIR):
+            reviews_dict = {}
+
+            # 1. First load curated samples from SAMPLE_REVIEWS_DIR
+            if os.path.exists(SAMPLE_REVIEWS_DIR):
+                for fname in os.listdir(SAMPLE_REVIEWS_DIR):
                     if fname.endswith('.json'):
-                        fpath = os.path.join(REVIEWS_DIR, fname)
+                        fpath = os.path.join(SAMPLE_REVIEWS_DIR, fname)
                         try:
-                            meta_info = read_review_metadata(fpath)
-                            reviews_list.append(meta_info)
+                            meta_info = read_review_metadata(fpath, is_sample=True)
+                            reviews_dict[meta_info['id']] = meta_info
                         except Exception:
                             pass
 
-            reviews_list.sort(key=lambda r: (r.get('created_at') or '', r.get('_mtime', 0)), reverse=True)
+            # 2. Then load user reviews from USER_REVIEWS_DIR (user overrides sample if same ID)
+            if os.path.exists(USER_REVIEWS_DIR):
+                for fname in os.listdir(USER_REVIEWS_DIR):
+                    if fname.endswith('.json'):
+                        fpath = os.path.join(USER_REVIEWS_DIR, fname)
+                        try:
+                            meta_info = read_review_metadata(fpath, is_sample=False)
+                            reviews_dict[meta_info['id']] = meta_info
+                        except Exception:
+                            pass
+
+            reviews_list = list(reviews_dict.values())
+            # Sort: user reviews first (by mtime desc), then samples
+            reviews_list.sort(key=lambda r: (not r.get('is_sample', False), r.get('created_at') or '', r.get('_mtime', 0)), reverse=True)
             self.wfile.write(json.dumps(reviews_list).encode('utf-8'))
             return
 
         elif path.startswith('/api/reviews/') and path.rstrip('/') != '/api/reviews':
             review_id = path.replace('/api/reviews/', '').strip()
-            fpath = os.path.join(REVIEWS_DIR, f"{review_id}.json")
+            # 1. Check precomputed cache first
+            cache_json = os.path.join(CACHE_DIR, f"{review_id}.json")
+            if os.path.exists(cache_json):
+                try:
+                    with open(cache_json, 'r', encoding='utf-8') as f:
+                        cached_data = json.load(f)
+                    meta_obj = dict(cached_data)
+                    papers = meta_obj.pop('papers', [])
+                    self.send_response(200)
+                    self.send_header('Content-Type', 'application/json; charset=utf-8')
+                    self.send_header('Access-Control-Allow-Origin', '*')
+                    self.end_headers()
+                    self.wfile.write(json.dumps({'meta': meta_obj, 'papers': papers}).encode('utf-8'))
+                    return
+                except Exception:
+                    pass
+
+            # 2. Check user workspace reviews, then core sample templates
+            fpath = os.path.join(USER_REVIEWS_DIR, f"{review_id}.json")
+            if not os.path.exists(fpath):
+                fpath = os.path.join(SAMPLE_REVIEWS_DIR, f"{review_id}.json")
 
             if os.path.exists(fpath):
                 with open(fpath, 'r', encoding='utf-8') as f:
@@ -465,7 +519,8 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
         super().do_GET()
 
 def run_server():
-    os.makedirs(REVIEWS_DIR, exist_ok=True)
+    os.makedirs(USER_REVIEWS_DIR, exist_ok=True)
+    os.makedirs(SAMPLE_REVIEWS_DIR, exist_ok=True)
     os.makedirs(CACHE_DIR, exist_ok=True)
     socketserver.TCPServer.allow_reuse_address = True
     with socketserver.TCPServer(("", PORT), RequestHandler) as httpd:

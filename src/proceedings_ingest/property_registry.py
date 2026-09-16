@@ -1,8 +1,19 @@
 import os
 import yaml
-from typing import List, Dict, Any, Optional
-from rapidfuzz import fuzz
-from proceedings_ingest.review_models import PropertyDefinition
+try:
+    from rapidfuzz import fuzz
+except ImportError:
+    import difflib
+    class _FuzzFallback:
+        @staticmethod
+        def partial_ratio(s1, s2):
+            if not s1 or not s2:
+                return 0
+            s1_str, s2_str = str(s1).lower(), str(s2).lower()
+            if s1_str in s2_str or s2_str in s1_str:
+                return 100
+            return int(difflib.SequenceMatcher(None, s1_str, s2_str).ratio() * 100)
+    fuzz = _FuzzFallback()
 
 
 CANONICAL_BASIC_FIELDS = {
@@ -21,24 +32,36 @@ CANONICAL_BASIC_FIELDS = {
 
 
 class PropertyRegistry:
-    def __init__(self, properties_dir: str):
+    def __init__(self, properties_dir: str, core_properties_dir: Optional[str] = None):
         self.properties_dir = properties_dir
+        self.core_properties_dir = core_properties_dir
         os.makedirs(properties_dir, exist_ok=True)
+        if core_properties_dir:
+            os.makedirs(core_properties_dir, exist_ok=True)
 
     def list_properties(self) -> List[PropertyDefinition]:
-        props = []
-        for root, _, files in os.walk(self.properties_dir):
-            for f in files:
-                if f.endswith(".yaml") or f.endswith(".yml"):
-                    path = os.path.join(root, f)
-                    try:
-                        with open(path, "r", encoding="utf-8") as stream:
-                            data = yaml.safe_load(stream)
-                            if isinstance(data, dict) and "id" in data:
-                                props.append(PropertyDefinition(**data))
-                    except Exception:
-                        pass
-        return props
+        props_by_id = {}
+        # 1. Load core properties first
+        dirs_to_check = []
+        if self.core_properties_dir and os.path.exists(self.core_properties_dir):
+            dirs_to_check.append(self.core_properties_dir)
+        # 2. Load user properties (can override or extend core properties)
+        if os.path.exists(self.properties_dir):
+            dirs_to_check.append(self.properties_dir)
+
+        for pdir in dirs_to_check:
+            for root, _, files in os.walk(pdir):
+                for f in files:
+                    if f.endswith(".yaml") or f.endswith(".yml"):
+                        path = os.path.join(root, f)
+                        try:
+                            with open(path, "r", encoding="utf-8") as stream:
+                                data = yaml.safe_load(stream)
+                                if isinstance(data, dict) and "id" in data:
+                                    props_by_id[data["id"]] = PropertyDefinition(**data)
+                        except Exception:
+                            pass
+        return list(props_by_id.values())
 
     def get_property(self, property_id: str) -> Optional[PropertyDefinition]:
         for prop in self.list_properties():

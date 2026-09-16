@@ -101,7 +101,7 @@ import sys
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'src')))
 from proceedings_ingest.utils.text_cleanup import repair_title_and_authors, clean_section_blocks
 
-def process_review_file(filepath, cursor, output_dir):
+def process_review_file(filepath, cursor, output_dir, is_sample: bool = False):
     with open(filepath, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
@@ -226,6 +226,7 @@ def process_review_file(filepath, cursor, output_dir):
         'description': description,
         'created_at': data.get('created_at', ''),
         'paper_count': len(paper_objs),
+        'is_sample': is_sample,
         'papers': paper_objs
     })
 
@@ -233,7 +234,8 @@ def process_review_file(filepath, cursor, output_dir):
     with open(out_file, 'w', encoding='utf-8') as f:
         json.dump(output_data, f, indent=2)
 
-    print(f"Processed review '{review_name}' ({review_id}): {len(paper_objs)} papers -> {out_file}")
+    kind = "Sample" if is_sample else "User Review"
+    print(f"Processed [{kind}] '{review_name}' ({review_id}): {len(paper_objs)} papers -> {out_file}")
     return output_data
 
 def main():
@@ -247,35 +249,54 @@ def main():
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
 
-    reviews_dir = 'data/reviews'
+    samples_dir = 'data/sample_reviews'
+    user_reviews_dir = 'workspace/reviews'
     output_dir = 'data/derived/reviews_cache'
+    os.makedirs(samples_dir, exist_ok=True)
+    os.makedirs(user_reviews_dir, exist_ok=True)
     os.makedirs(output_dir, exist_ok=True)
 
-    manifest = []
-    for fname in os.listdir(reviews_dir):
-        if fname.endswith('.json'):
-            fpath = os.path.join(reviews_dir, fname)
-            res = process_review_file(fpath, cursor, output_dir)
-            m_item = {
-                'id': res['id'],
-                'name': res['name'],
-                'description': res['description'],
-                'created_at': res.get('created_at', ''),
-                'paper_count': res['paper_count']
-            }
-            if 'selected_columns' in res:
-                m_item['selected_columns'] = res['selected_columns']
-            if 'visible_columns' in res:
-                m_item['visible_columns'] = res['visible_columns']
-            if 'column_definitions' in res:
-                m_item['column_definitions'] = res['column_definitions']
-            manifest.append(m_item)
+    reviews_to_process = {}
 
-    manifest.sort(key=lambda x: x['paper_count'], reverse=True)
+    # 1. First scan core samples
+    if os.path.exists(samples_dir):
+        for fname in os.listdir(samples_dir):
+            if fname.endswith('.json'):
+                rid = fname[:-5]
+                reviews_to_process[rid] = (os.path.join(samples_dir, fname), True)
+
+    # 2. Then scan user workspace reviews (overrides sample if same ID)
+    if os.path.exists(user_reviews_dir):
+        for fname in os.listdir(user_reviews_dir):
+            if fname.endswith('.json'):
+                rid = fname[:-5]
+                reviews_to_process[rid] = (os.path.join(user_reviews_dir, fname), False)
+
+    manifest = []
+    for rid, (fpath, is_sample) in reviews_to_process.items():
+        res = process_review_file(fpath, cursor, output_dir, is_sample=is_sample)
+        m_item = {
+            'id': res['id'],
+            'name': res['name'],
+            'description': res['description'],
+            'created_at': res.get('created_at', ''),
+            'paper_count': res['paper_count'],
+            'is_sample': is_sample
+        }
+        if 'selected_columns' in res:
+            m_item['selected_columns'] = res['selected_columns']
+        if 'visible_columns' in res:
+            m_item['visible_columns'] = res['visible_columns']
+        if 'column_definitions' in res:
+            m_item['column_definitions'] = res['column_definitions']
+        manifest.append(m_item)
+
+    # Sort manifest: user reviews first, then samples, then by paper count desc
+    manifest.sort(key=lambda x: (not x.get('is_sample', False), x['paper_count']), reverse=True)
     with open(os.path.join(output_dir, 'manifest.json'), 'w', encoding='utf-8') as f:
         json.dump(manifest, f, indent=2)
 
-    print("Successfully rebuilt all reviews cache!")
+    print(f"Successfully rebuilt all reviews cache! ({len(manifest)} reviews indexed)")
 
 if __name__ == '__main__':
     main()

@@ -19,24 +19,40 @@ STANDARD_PROPERTIES = {
 
 
 class ReviewService:
-    def __init__(self, data_dir: str, max_memory_gb: float = 8.0):
+    def __init__(self, data_dir: str, max_memory_gb: float = 8.0, workspace_dir: Optional[str] = None):
         self.data_dir = data_dir
         self.max_memory_gb = max_memory_gb
-        self.reviews_dir = os.path.join(data_dir, "reviews")
+
+        base_dir = os.path.dirname(os.path.abspath(data_dir))
+        self.workspace_dir = workspace_dir or os.path.join(base_dir, "workspace")
+        self.user_reviews_dir = os.path.join(self.workspace_dir, "reviews")
+        self.sample_reviews_dir = os.path.join(data_dir, "sample_reviews")
+        self.reviews_dir = self.user_reviews_dir  # default write directory
+
         self.cache_dir = os.path.join(data_dir, "derived", "reviews_cache")
         self.papers_dir = os.path.join(data_dir, "papers")
-        self.obs_dir = os.path.join(data_dir, "observations")
-        self.properties_dir = os.path.join(data_dir, "properties")
+        self.obs_dir = os.path.join(self.workspace_dir, "observations")
+        self.core_obs_dir = os.path.join(data_dir, "observations")
+        self.properties_dir = os.path.join(self.workspace_dir, "properties")
+        self.core_properties_dir = os.path.join(data_dir, "properties")
+        self.exports_dir = os.path.join(self.workspace_dir, "exports")
 
-        for d in [self.reviews_dir, self.cache_dir, self.papers_dir, self.obs_dir, self.properties_dir]:
+        for d in [self.user_reviews_dir, self.sample_reviews_dir, self.cache_dir, 
+                  self.papers_dir, self.obs_dir, self.properties_dir, self.exports_dir]:
             os.makedirs(d, exist_ok=True)
 
-        self.property_registry = PropertyRegistry(self.properties_dir)
+        self.property_registry = PropertyRegistry(self.properties_dir, self.core_properties_dir)
 
     def delete_review(self, review_id: str) -> bool:
-        """Delete a literature review and its cached views from storage."""
+        """Delete a user literature review and its cached views. Curated samples cannot be deleted."""
+        sample_path = os.path.join(self.sample_reviews_dir, f"{review_id}.json")
+        user_path = os.path.join(self.user_reviews_dir, f"{review_id}.json")
+
+        if os.path.exists(sample_path) and not os.path.exists(user_path):
+            raise ValueError(f"Review '{review_id}' is a curated sample template and cannot be deleted.")
+
         deleted = False
-        for folder in [self.reviews_dir, self.cache_dir]:
+        for folder in [self.user_reviews_dir, self.cache_dir]:
             for ext in [".json", ".md"]:
                 fpath = os.path.join(folder, f"{review_id}{ext}")
                 if os.path.exists(fpath):
@@ -166,15 +182,49 @@ class ReviewService:
         return review
 
     def get_review(self, review_id: str) -> Optional[LiteratureReview]:
-        path = os.path.join(self.reviews_dir, f"{review_id}.json")
-        if not os.path.exists(path):
-            return None
-        with open(path, "r", encoding="utf-8") as f:
-            return LiteratureReview(**json.load(f))
+        # Check user workspace first
+        path = os.path.join(self.user_reviews_dir, f"{review_id}.json")
+        if os.path.exists(path):
+            with open(path, "r", encoding="utf-8") as f:
+                return LiteratureReview(**json.load(f))
+
+        # Check core sample templates
+        sample_path = os.path.join(self.sample_reviews_dir, f"{review_id}.json")
+        if os.path.exists(sample_path):
+            with open(sample_path, "r", encoding="utf-8") as f:
+                return LiteratureReview(**json.load(f))
+
+        return None
+
+    def list_reviews(self) -> List[LiteratureReview]:
+        reviews_map = {}
+        # 1. Load curated samples first
+        if os.path.exists(self.sample_reviews_dir):
+            for f in os.listdir(self.sample_reviews_dir):
+                if f.endswith(".json"):
+                    try:
+                        with open(os.path.join(self.sample_reviews_dir, f), "r", encoding="utf-8") as fs:
+                            rev = LiteratureReview(**json.load(fs))
+                            reviews_map[rev.id] = rev
+                    except Exception:
+                        pass
+
+        # 2. Load user reviews (overrides sample if duplicate ID)
+        if os.path.exists(self.user_reviews_dir):
+            for f in os.listdir(self.user_reviews_dir):
+                if f.endswith(".json"):
+                    try:
+                        with open(os.path.join(self.user_reviews_dir, f), "r", encoding="utf-8") as fs:
+                            rev = LiteratureReview(**json.load(fs))
+                            reviews_map[rev.id] = rev
+                    except Exception:
+                        pass
+
+        return list(reviews_map.values())
 
     def save_review(self, review: LiteratureReview) -> str:
         review.updated_at = datetime.datetime.now().isoformat()
-        path = os.path.join(self.reviews_dir, f"{review.id}.json")
+        path = os.path.join(self.user_reviews_dir, f"{review.id}.json")
         with open(path, "w", encoding="utf-8") as f:
             json.dump(review.dict(), f, indent=2)
         
@@ -185,17 +235,6 @@ class ReviewService:
             pass
             
         return path
-
-    def list_reviews(self) -> List[LiteratureReview]:
-        reviews = []
-        for f in os.listdir(self.reviews_dir):
-            if f.endswith(".json"):
-                with open(os.path.join(self.reviews_dir, f), "r", encoding="utf-8") as fstream:
-                    try:
-                        reviews.append(LiteratureReview(**json.load(fstream)))
-                    except Exception:
-                        pass
-        return reviews
 
     def add_papers_to_review(self, review_id: str, paper_ids: List[str]) -> LiteratureReview:
         review = self.get_review(review_id)
@@ -457,11 +496,19 @@ class ReviewService:
 
     def _load_observation(self, paper_id: str, property_id: str) -> Optional[Observation]:
         obs_key = f"{paper_id}_{property_id.replace('.', '_')}.json"
-        path = os.path.join(self.obs_dir, obs_key)
-        if not os.path.exists(path):
-            return None
-        with open(path, "r", encoding="utf-8") as f:
-            return Observation(**json.load(f))
+        # 1. Check user workspace observations
+        user_path = os.path.join(self.obs_dir, obs_key)
+        if os.path.exists(user_path):
+            with open(user_path, "r", encoding="utf-8") as f:
+                return Observation(**json.load(f))
+
+        # 2. Check core observations
+        core_path = os.path.join(self.core_obs_dir, obs_key)
+        if os.path.exists(core_path):
+            with open(core_path, "r", encoding="utf-8") as f:
+                return Observation(**json.load(f))
+
+        return None
 
     def _save_observation(self, obs: Observation):
         obs_key = f"{obs.paper_id}_{obs.property_id.replace('.', '_')}.json"
