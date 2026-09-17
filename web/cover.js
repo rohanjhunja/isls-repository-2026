@@ -340,7 +340,7 @@
     const citeCopyBtn = document.getElementById("btnCopyCite");
     const headerCiteBtn = document.getElementById("headerCiteBtn");
 
-    const apaText = "Jhunja, R. (2026). 10 Years ISLS Proceedings Research Repository & Agentic Review System (2016–2026) [Web platform and dataset commons]. International Society of the Learning Sciences. https://isls-repository.org";
+    const apaText = "Jhunja, R. (2026). 10 Years ISLS Proceedings Research Repository & Agentic Review System (2016–2026) [Web platform and dataset commons]. International Society of the Learning Sciences. https://rohanjhunja.github.io/isls-repository-2026/";
 
     const handleCiteCopy = () => {
       copyTextToClipboard(apaText, () => {

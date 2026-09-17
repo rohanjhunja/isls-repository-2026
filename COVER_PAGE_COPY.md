@@ -373,7 +373,7 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 ### APA 7th Edition Citation Copy
 
-> Jhunja, R. (2026). *10 Years ISLS Proceedings Research Repository & Agentic Review System (2016–2026)* \[Web platform and dataset commons\]. International Society of the Learning Sciences. [https://isls-repository.org](https://isls-repository.org)
+> Jhunja, R. (2026). *10 Years ISLS Proceedings Research Repository & Agentic Review System (2016–2026)* \[Web platform and dataset commons\]. International Society of the Learning Sciences. [https://rohanjhunja.github.io/isls-repository-2026/](https://rohanjhunja.github.io/isls-repository-2026/)
 
 ### Interactive Actions
 
@@ -390,7 +390,7 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 &nbsp;&nbsp;year \= {2026},
 
-&nbsp;&nbsp;url \= {https://isls-repository.org},
+&nbsp;&nbsp;url \= {https://rohanjhunja.github.io/isls-repository-2026/},
 
 &nbsp;&nbsp;note \= {Web platform, SQLite FTS5 search index, and dataset commons}
 
