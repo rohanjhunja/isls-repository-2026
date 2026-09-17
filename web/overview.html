@@ -47,71 +47,186 @@
       min-height: 100% !important;
     }
 
-    /* Top Sticky Header */
-    .story-header {
+    /* Header (Matches Cover Page, Sticky & Always Visible on Load) */
+    .cover-header {
+      position: sticky;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
       background: rgba(255, 255, 255, 0.95);
-      backdrop-filter: blur(8px);
-      border-bottom: 1px solid var(--border-color);
-      padding: 14px 32px;
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+      padding: 12px 36px;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      position: sticky;
-      top: 0;
-      z-index: 90;
       box-shadow: var(--shadow-sm);
+      transform: none !important;
+      opacity: 1 !important;
+      pointer-events: auto !important;
     }
 
-    .story-brand {
+    .header-brand {
       display: flex;
       align-items: center;
       gap: 12px;
+      text-decoration: none;
     }
 
-    .story-brand h1 {
-      font-size: 1.18rem;
+    .header-logo-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #ffffff;
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+      flex-shrink: 0;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .header-brand:hover .header-logo-icon {
+      transform: scale(1.05);
+      box-shadow: 0 4px 10px rgba(37, 99, 235, 0.35);
+    }
+
+    .header-title-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header-main-title {
+      font-size: 0.96rem;
       font-weight: 700;
       color: var(--text-primary);
-      margin: 0;
-      letter-spacing: -0.3px;
+      line-height: 1.2;
     }
 
-    .badge-phase {
+    .header-sub-tag {
       font-size: 0.72rem;
-      background: var(--primary-subtle);
-      color: var(--primary);
-      border: 1px solid rgba(37, 99, 235, 0.2);
-      padding: 3px 9px;
-      border-radius: 12px;
-      font-weight: 600;
-      letter-spacing: 0.2px;
+      color: var(--text-muted);
+      font-family: var(--font-mono);
     }
 
-    .header-links {
+    .header-nav {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 16px;
     }
 
-    .btn-header {
+    .header-link {
+      font-size: 0.84rem;
+      font-weight: 600;
       color: var(--text-secondary);
       text-decoration: none;
-      font-size: 0.84rem;
-      font-weight: 500;
-      padding: 6px 14px;
-      border: 1px solid var(--border-color);
+      padding: 6px 12px;
       border-radius: 6px;
-      background: #ffffff;
-      transition: all 0.15s ease;
+      transition: all 0.2s ease;
+    }
+
+    .header-link:hover {
+      color: var(--primary);
+      background: var(--primary-subtle);
+    }
+
+    .header-link.active {
+      color: var(--primary);
+      background: var(--primary-subtle);
+      font-weight: 700;
+      box-shadow: inset 0 -2px 0 var(--primary);
+    }
+
+    .header-btn-setup {
       display: inline-flex;
       align-items: center;
       gap: 6px;
+      font-size: 0.80rem;
+      font-weight: 700;
+      color: #ffffff;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      border: 1px solid #1d4ed8;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      text-decoration: none;
+      cursor: pointer;
+      box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+      transition: all 0.2s ease;
     }
 
-    .btn-header:hover {
-      border-color: var(--primary);
-      color: var(--primary);
+    .header-btn-setup:hover {
+      background: linear-gradient(135deg, #1d4ed8, #1e40af);
+      box-shadow: 0 4px 10px rgba(37, 99, 235, 0.35);
+      transform: translateY(-1px);
+    }
+
+    .header-btn-cite {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.80rem;
+      font-weight: 700;
+      color: #1e293b;
+      background: #f1f5f9;
+      border: 1px solid var(--border-color);
+      padding: 6px 14px;
+      border-radius: 9999px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .header-btn-cite:hover {
+      background: #e2e8f0;
+      border-color: #cbd5e1;
+      transform: translateY(-1px);
+    }
+
+    /* Header Mobile Accordion Toggle */
+    .header-accordion-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      width: 40px;
+      height: 40px;
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      cursor: pointer;
+      padding: 8px;
+      transition: all 0.2s ease;
       box-shadow: var(--shadow-sm);
+      flex-shrink: 0;
+    }
+
+    .header-accordion-toggle:hover {
+      background: var(--bg-page);
+      border-color: var(--primary);
+    }
+
+    .header-accordion-toggle .hamburger-bar {
+      display: block;
+      width: 20px;
+      height: 2px;
+      background: var(--text-primary);
+      border-radius: 2px;
+      transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease;
+    }
+
+    .header-accordion-toggle.is-open .hamburger-bar:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+
+    .header-accordion-toggle.is-open .hamburger-bar:nth-child(2) {
+      opacity: 0;
+    }
+
+    .header-accordion-toggle.is-open .hamburger-bar:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
     }
 
     /* Floating Action Control Widget */
@@ -1638,7 +1753,7 @@
         width: 100%;
       }
 
-      .story-header {
+      .cover-header {
         padding: 10px 16px;
         flex-wrap: wrap;
       }
@@ -1647,25 +1762,30 @@
         display: flex;
       }
 
-      .story-brand {
+      .header-brand {
         flex: 1;
         min-width: 0;
         gap: 8px;
       }
 
-      .story-brand h1 {
-        font-size: 0.90rem;
+      .header-logo-icon {
+        width: 28px;
+        height: 28px;
+      }
+
+      .header-main-title {
+        font-size: 0.86rem;
         max-width: 220px;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
       }
 
-      .badge-phase {
+      .header-sub-tag {
         display: none;
       }
 
-      .header-links {
+      .header-nav {
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -1679,21 +1799,27 @@
         margin-top: 0;
       }
 
-      .header-links.is-open {
-        max-height: 260px;
+      .header-nav.is-open {
+        max-height: 320px;
         opacity: 1;
         pointer-events: auto;
-        padding-top: 10px;
+        padding-top: 12px;
         margin-top: 8px;
         border-top: 1px solid var(--border-color);
       }
 
-      .btn-header {
+      .header-nav .header-link,
+      .header-nav .header-btn-setup,
+      .header-nav .header-btn-cite {
         width: 100%;
         min-height: 44px;
+        display: flex;
+        align-items: center;
         justify-content: center;
         font-size: 0.88rem;
         box-sizing: border-box;
+        text-align: center;
+        border-radius: 8px;
       }
 
       /* Floating control button on mobile: relocate to bottom right */
@@ -1791,32 +1917,99 @@
         max-height: 420px;
       }
     }
+
+    /* Intellectual Tributaries Cards */
+    .tributary-card {
+      background: #ffffff;
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 10px 14px;
+      cursor: pointer;
+      transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+    }
+    .tributary-card:hover {
+      border-color: var(--primary);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 14px rgba(37, 99, 235, 0.12);
+    }
+    .tributary-card.active {
+      border-color: var(--primary);
+      background: #eff6ff;
+    }
+    .tributary-card-title {
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #0f172a;
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+    .tributary-card-family {
+      font-size: 0.70rem;
+      font-weight: 600;
+      color: #64748b;
+      margin-bottom: 6px;
+    }
+    .tributary-card-stats {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-top: 6px;
+      padding-top: 6px;
+      border-top: 1px solid #f1f5f9;
+    }
+    .tributary-card-count {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: #2563eb;
+    }
+    .tributary-card-pct {
+      font-size: 0.72rem;
+      font-weight: 600;
+      color: #64748b;
+    }
   </style>
 </head>
 <body>
 
-  <!-- Sticky Header -->
-  <header class="story-header" id="storyHeader">
-    <div class="story-brand">
-      <h1>📖 ISLS 10-Year Research Observatory (2016–2026)</h1>
-      <span class="badge-phase">Phase 1: 0-Cost Title & Abstract Mode</span>
-    </div>
-    <button class="header-accordion-toggle" id="overviewHeaderToggle" aria-expanded="false" aria-label="Toggle navigation menu">
+  <!-- Floating Sticky Header (Matches Cover Page, Active Observatory Link) -->
+  <header class="cover-header" id="coverHeader">
+    <a href="./index.html" class="header-brand">
+      <div class="header-logo-icon" aria-label="ISLS Violin Chart Logo">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="12" y1="2" x2="12" y2="22" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" opacity="0.6"/>
+          <path d="M 12 3 C 16 4.5 17.5 6.5 17.5 8.5 C 17.5 11 15 12.5 14 13.5 C 13 14.5 16.5 15.5 16.5 17.5 C 16.5 19.5 14.5 21 12 21 C 9.5 21 7.5 19.5 7.5 17.5 C 7.5 15.5 11 14.5 10 13.5 C 9 12.5 6.5 11 6.5 8.5 C 6.5 6.5 8 4.5 12 3 Z" fill="rgba(255, 255, 255, 0.28)" stroke="#ffffff" stroke-width="1.6" stroke-linejoin="round"/>
+          <line x1="12" y1="9" x2="12" y2="16" stroke="#ffffff" stroke-width="2.6" stroke-linecap="round"/>
+          <circle cx="12" cy="13" r="1.2" fill="#1d4ed8"/>
+        </svg>
+      </div>
+      <div class="header-title-group">
+        <span class="header-main-title">ISLS Research Repository & Agentic Review System</span>
+        <span class="header-sub-tag">2016–2026 • 5,402 PAPERS • FULL-TEXT CORPUS</span>
+      </div>
+    </a>
+
+    <button class="header-accordion-toggle" id="headerAccordionToggle" aria-expanded="false" aria-label="Toggle navigation menu">
       <span class="hamburger-bar"></span>
       <span class="hamburger-bar"></span>
       <span class="hamburger-bar"></span>
     </button>
-    <div class="header-links" id="overviewHeaderLinks">
-      <a href="./index.html" class="btn-header" style="color: #2563eb; font-weight: 600;" title="Return to Project Cover Page & System Walkthrough">
-        🏠 Project Cover
+
+    <nav class="header-nav" id="coverHeaderNav">
+      <a href="./viewer.html" class="header-link">Review Viewer</a>
+      <a href="./overview.html" class="header-link active">10-Year Observatory</a>
+      <a href="./index.html#local-setup" class="header-btn-setup" title="Jump to 1-Click Local Setup Guide">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+        <span>Get Local Setup</span>
       </a>
-      <a href="#sec-beautiful-papers" class="btn-header" style="color: #7c3aed; font-weight: 600;" title="Jump to Beautiful Papers Section">
-        ✨ Beautiful Papers
-      </a>
-      <a href="./viewer.html" class="btn-header" title="Back to Literature Review Search">
-        🔍 Literature Review Viewer &rarr;
-      </a>
-    </div>
+      <button class="header-btn-cite" id="headerCiteBtn" title="Copy APA 7 Citation">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        <span>Cite (APA)</span>
+      </button>
+    </nav>
   </header>
 
   <!-- Floating Settings / Filter Toggle Button -->
@@ -2320,10 +2513,121 @@
       </details>
     </article>
 
-    <!-- Chapter 4: Theoretical Lineage & Citation Flows -->
+    <!-- Chapter 4: Intellectual Tributaries: Citations to External Conferences, Journals & Sources -->
+    <article class="story-section" id="sec-external-citations">
+      <div class="section-header-block">
+        <span class="section-step-num">Chapter 4: Intellectual Tributaries</span>
+        <h3 class="section-main-title">Cross-Disciplinary Foundations: Where the Learning Sciences Draws Its Ideas</h3>
+      </div>
+
+      <div class="insight-box">
+        The Learning Sciences is inherently an epistemic crossroads. Across 5,402 proceedings papers, scholars draw foundational theories, analytical methods, and empirical precedents from across <strong>seven major disciplinary tributaries</strong>. Tracing citations to external conferences and journals from 2016 through 2026 reveals our persistent bedrock in <em>Cognitive Science</em> and flagship journals (<em>JLS</em>, <em>ijCSCL</em>), sustained dialogue with <em>Educational Technology</em> and <em>HCI</em> (notably peak <em>ACM CHI</em> citations during CSCL cycles), and a marked recent surge in <em>AI & Machine Learning</em> (NeurIPS, ICML, AAAI, ACL) reflecting the rapid uptake of generative models and computational analytics.
+      </div>
+
+      <div class="chart-container-card">
+        <div class="chart-toolbar" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;">
+          <span style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary);" id="extCiteChartHeaderTitle">Citation Trends to External Venues & Journals</span>
+          <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <!-- Category Filter Pills -->
+            <div class="toggle-pill-row" style="width: auto;" id="extCiteCategoryGroup">
+              <button class="btn-pill-toggle active" data-cat="all">All Tributaries</button>
+              <button class="btn-pill-toggle" data-cat="learning_sciences">LS Flagships</button>
+              <button class="btn-pill-toggle" data-cat="edtech">EdTech</button>
+              <button class="btn-pill-toggle" data-cat="hci_computing">HCI & Computing</button>
+              <button class="btn-pill-toggle" data-cat="ai_analytics">AI & Analytics</button>
+              <button class="btn-pill-toggle" data-cat="cogsci_psych">Cognitive Science</button>
+              <button class="btn-pill-toggle" data-cat="educational_research">Educ. Research</button>
+              <button class="btn-pill-toggle" data-cat="multidisciplinary">General Science</button>
+            </div>
+            <div style="width: 1px; height: 18px; background: #cbd5e1;"></div>
+            <!-- Time Granularity (Bi-annual by default) -->
+            <div class="toggle-pill-row" style="width: auto;" id="extCiteGranularityGroup">
+              <button class="btn-pill-toggle active" id="btnExtTimeBiannual" title="Group into 2-year cycles (ICLS + CSCL)">Bi-annual</button>
+              <button class="btn-pill-toggle" id="btnExtTimeYearwise" title="Single calendar years">Year-wise</button>
+            </div>
+            <div style="width: 1px; height: 18px; background: #cbd5e1;"></div>
+            <!-- Metric Mode -->
+            <div class="toggle-pill-row" style="width: auto;">
+              <button class="btn-pill-toggle active" id="btnExtTogglePct">% of Conference</button>
+              <button class="btn-pill-toggle" id="btnExtToggleCount">Paper Count</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="chart-swipe-hint">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          <span>Swipe horizontally to pan across 10 years (2016–2026)</span>
+        </div>
+
+        <div class="chart-scroll-wrapper">
+          <div class="chart-canvas" id="chartExternalCitations" style="height: 600px !important;"></div>
+        </div>
+
+        <!-- Top Tributaries Leaderboard Grid -->
+        <div style="padding: 16px 20px 20px 20px; border-top: 1px solid var(--border-color); background: #f8fafc; border-radius: 0 0 12px 12px;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+            <div style="font-size: 0.82rem; font-weight: 700; color: #334155; text-transform: uppercase; letter-spacing: 0.04em;">
+              🏛️ Top Cited External Venues & Flagships (10-Year Total Papers)
+            </div>
+            <span style="font-size: 0.74rem; color: #64748b;">Click any card to filter trends chart</span>
+          </div>
+          <div class="tributaries-cards-grid" id="extCiteCardsGrid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(210px, 1fr)); gap: 10px;">
+            <!-- Populated dynamically by JS -->
+          </div>
+        </div>
+      </div>
+
+      <details class="methodology-accordion">
+        <summary>🔬 How external citations were extracted & validated: Exact step-by-step methodology</summary>
+        <div class="accordion-inner">
+          <div class="methodology-subheading">🏷️ Deterministic Reference Extraction & Canonical Venue Mapping</div>
+
+          <div class="methodology-step-block">
+            <div class="methodology-step-title">
+              <span class="methodology-step-badge">Step 1</span>
+              <span>Full-Text Bibliographic Section Filtering</span>
+            </div>
+            <p>
+              Reference sections were isolated from <strong>5,217 papers</strong> (96.6% of the 5,402-paper corpus) stored in SQLite <code>sections</code> with <code>normalized_section = 'references'</code>. Sections with fewer than 50 characters or parsing errors were flagged and excluded.
+            </p>
+          </div>
+
+          <div class="methodology-step-block">
+            <div class="methodology-step-title">
+              <span class="methodology-step-badge">Step 2</span>
+              <span>Taxonomy of 7 Disciplinary Tributaries & 41 Flagship Venues</span>
+            </div>
+            <p>
+              Compiled regular expressions matching canonical venue naming conventions (including standard variations, abbreviations like <em>JLS</em>, <em>ijCSCL</em>, <em>BJET</em>, <em>LAK</em>, <em>CHI</em>, <em>SIGCSE</em>, and publisher patterns) were mapped to 7 core disciplinary families:
+            </p>
+            <ul>
+              <li><strong>Learning Sciences Flagships</strong>: <em>JLS</em>, <em>ijCSCL</em>, <em>Cognition & Instruction</em>, <em>Instructional Science</em>, <em>Learning & Instruction</em></li>
+              <li><strong>Educational Technology</strong>: <em>Computers & Education</em>, <em>Computers in Human Behavior</em>, <em>BJET</em>, <em>ETR&D</em>, <em>JCAL</em>, <em>Internet & Higher Ed</em></li>
+              <li><strong>HCI & Computing</strong>: <em>ACM CHI</em>, <em>CSCW</em>, <em>SIGCSE</em>, <em>IDC</em>, <em>IEEE TLT</em>, <em>DIS</em>, <em>TOCHI</em></li>
+              <li><strong>AI & Learning Analytics</strong>: <em>LAK</em>, <em>AIED / IJAIED</em>, <em>EDM</em>, <em>Journal of Learning Analytics</em>, <em>NeurIPS / ICML / AAAI / ACL / EMNLP</em></li>
+              <li><strong>Cognitive Science & Psychology</strong>: <em>Cognitive Science</em>, <em>J. Educational Psychology</em>, <em>Educational Psychologist</em>, <em>Child Development</em>, <em>Mind, Culture & Activity</em></li>
+              <li><strong>Educational Research & Policy</strong>: <em>AERA / AERJ / Educational Researcher</em>, <em>Review of Educational Research</em>, <em>Teachers College Record</em>, <em>Harvard Educ. Review</em></li>
+              <li><strong>Multidisciplinary Science</strong>: <em>Science</em>, <em>Nature</em>, <em>PNAS</em>, <em>Frontiers</em>, <em>PLOS ONE</em></li>
+            </ul>
+          </div>
+
+          <div class="methodology-step-block">
+            <div class="methodology-step-title">
+              <span class="methodology-step-badge">Step 3</span>
+              <span>Traceable Verbatim Evidence Snippet Storage</span>
+            </div>
+            <p>
+              Each match extracts a bounded 250-character verbatim snippet from the citing paper's bibliography and indexes it into the <code>external_citations</code> table in <code>proceedings.db</code>. When clicking any point on the chart, the Paper Inspector drawer opens to display the citing papers alongside their exact bibliographic quote.
+            </p>
+          </div>
+        </div>
+      </details>
+    </article>
+
+    <!-- Chapter 5: Theoretical Lineage & Citation Flows -->
     <article class="story-section" id="sec-citations">
       <div class="section-header-block">
-        <span class="section-step-num">Chapter 4: The Lineage of Ideas</span>
+        <span class="section-step-num">Chapter 5: The Lineage of Ideas</span>
         <h3 class="section-main-title">Generational Transmission: How Foundations Propel Future Inquiries</h3>
       </div>
 
@@ -2476,10 +2780,10 @@
       </details>
     </article>
 
-    <!-- Chapter 5: Beautiful Papers (Paper Structural Silhouette) -->
+    <!-- Chapter 6: Beautiful Papers (Paper Structural Silhouette) -->
     <article class="story-section" id="sec-beautiful-papers">
       <div class="section-header-block">
-        <span class="section-step-num">Chapter 5: Structural Silhouette</span>
+        <span class="section-step-num">Chapter 6: Structural Silhouette</span>
         <h3 class="section-main-title">Beautiful Papers: The Structural Silhouette of Learning Sciences Scholarship</h3>
       </div>
 
@@ -2548,10 +2852,10 @@
       </div>
     </article>
 
-    <!-- Chapter 6: Tableau Export Data Suite -->
+    <!-- Chapter 7: Tableau Export Data Suite -->
     <article class="story-section" id="sec-tableau">
       <div class="section-header-block">
-        <span class="section-step-num">Chapter 6: An Open Research Commons</span>
+        <span class="section-step-num">Chapter 7: An Open Research Commons</span>
         <h3 class="section-main-title">Downloadable Datasets for Independent Inquiry</h3>
       </div>
 
@@ -2652,6 +2956,6 @@
     <div class="inspector-body" id="inspectorContent"></div>
   </aside>
 
-  <script src="overview.js?v=20260911_02"></script>
+  <script src="overview.js?v=20260917_01"></script>
 </body>
 </html>

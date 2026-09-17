@@ -15,6 +15,7 @@
     trends: null,
     density: null,
     network: null,
+    externalCitations: null,
     citations: null
   };
 
@@ -129,6 +130,19 @@
   // Network Controls
   const networkMinWeight = document.getElementById('networkMinWeight');
   const btnResetNetwork = document.getElementById('btnResetNetwork');
+
+  // External Citations State & Elements
+  let currentExtCategory = 'all';
+  let currentExtTimeGranularity = 'biannual'; // 'biannual' (default) or 'yearwise'
+  let currentExtMode = 'percentage'; // 'percentage' (default) or 'count'
+  let extCitationsRawData = null;
+  const extCiteCategoryGroup = document.getElementById('extCiteCategoryGroup');
+  const btnExtTimeBiannual = document.getElementById('btnExtTimeBiannual');
+  const btnExtTimeYearwise = document.getElementById('btnExtTimeYearwise');
+  const btnExtTogglePct = document.getElementById('btnExtTogglePct');
+  const btnExtToggleCount = document.getElementById('btnExtToggleCount');
+  const extCiteChartHeaderTitle = document.getElementById('extCiteChartHeaderTitle');
+  const extCiteCardsGrid = document.getElementById('extCiteCardsGrid');
 
   // Knowledge Lineage State & Elements
   let currentLineageFilter = 'all'; // 'all', 'citations', 'collaborations'
@@ -349,6 +363,16 @@
             openPaperInspector(null, null, null, params.data.name);
           }
         });
+      } else if (chartKey === 'externalCitations') {
+        charts.externalCitations.on('click', function(params) {
+          if (params.seriesId && params.name) {
+            openPaperInspector(null, null, params.name, null, params.seriesId);
+          } else if (params.seriesName && params.name) {
+            const venueObj = extCitationsRawData?.venues?.find(v => v.venue_name === params.seriesName);
+            const venueId = venueObj ? venueObj.venue_id : null;
+            openPaperInspector(null, null, params.name, null, venueId || params.seriesName);
+          }
+        });
       } else if (chartKey === 'citations') {
         charts.citations.on('click', function(params) {
           if (params.dataType === 'node' && params.data) {
@@ -365,6 +389,7 @@
     loadTrendsChart();
     loadDensityChart();
     loadNetworkChart();
+    loadExternalCitationsChart();
     loadCitationsChart();
   }
 
@@ -388,8 +413,8 @@
 
   function bindEvents() {
     // Header Mobile Accordion Toggle
-    const headerToggle = document.getElementById('overviewHeaderToggle');
-    const headerLinks = document.getElementById('overviewHeaderLinks');
+    const headerToggle = document.getElementById('headerAccordionToggle') || document.getElementById('overviewHeaderToggle');
+    const headerLinks = document.getElementById('coverHeaderNav') || document.getElementById('overviewHeaderLinks');
     if (headerToggle && headerLinks) {
       headerToggle.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -398,7 +423,7 @@
         headerToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
       });
 
-      headerLinks.querySelectorAll('a').forEach((link) => {
+      headerLinks.querySelectorAll('a, button').forEach((link) => {
         link.addEventListener('click', () => {
           headerLinks.classList.remove('is-open');
           headerToggle.classList.remove('is-open');
@@ -411,6 +436,22 @@
           headerLinks.classList.remove('is-open');
           headerToggle.classList.remove('is-open');
           headerToggle.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    // Header APA Citation Copy Button
+    const headerCiteBtn = document.getElementById('headerCiteBtn');
+    if (headerCiteBtn) {
+      const apaText = "Jhunja, R. (2026). 10 Years ISLS Proceedings Research Repository & Agentic Review System (2016–2026) [Web platform and dataset commons]. International Society of the Learning Sciences. https://rohanjhunja.github.io/isls-repository-2026/";
+      headerCiteBtn.addEventListener('click', (e) => {
+        e.preventDefault();
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(apaText).then(() => {
+            const origHtml = headerCiteBtn.innerHTML;
+            headerCiteBtn.innerHTML = `<span>✓ Copied APA!</span>`;
+            setTimeout(() => { headerCiteBtn.innerHTML = origHtml; }, 2000);
+          }).catch(() => {});
         }
       });
     }
@@ -593,6 +634,62 @@
         networkCurrentZoom = isMobile ? 0.46 : 0.62;
         clearTimeout(networkRoamTimer);
         loadNetworkChart();
+      });
+    }
+
+    // External Citations Category Filter Buttons
+    if (extCiteCategoryGroup) {
+      extCiteCategoryGroup.querySelectorAll('button').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const cat = btn.getAttribute('data-cat');
+          if (currentExtCategory === cat) return;
+          currentExtCategory = cat;
+          extCiteCategoryGroup.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          loadExternalCitationsChart();
+        });
+      });
+    }
+
+    // External Citations Time Granularity Buttons
+    if (btnExtTimeBiannual) {
+      btnExtTimeBiannual.addEventListener('click', () => {
+        if (currentExtTimeGranularity === 'biannual') return;
+        currentExtTimeGranularity = 'biannual';
+        btnExtTimeBiannual.classList.add('active');
+        if (btnExtTimeYearwise) btnExtTimeYearwise.classList.remove('active');
+        loadExternalCitationsChart();
+      });
+    }
+
+    if (btnExtTimeYearwise) {
+      btnExtTimeYearwise.addEventListener('click', () => {
+        if (currentExtTimeGranularity === 'yearwise') return;
+        currentExtTimeGranularity = 'yearwise';
+        btnExtTimeYearwise.classList.add('active');
+        if (btnExtTimeBiannual) btnExtTimeBiannual.classList.remove('active');
+        loadExternalCitationsChart();
+      });
+    }
+
+    // External Citations Metric Mode Buttons
+    if (btnExtTogglePct) {
+      btnExtTogglePct.addEventListener('click', () => {
+        if (currentExtMode === 'percentage') return;
+        currentExtMode = 'percentage';
+        btnExtTogglePct.classList.add('active');
+        if (btnExtToggleCount) btnExtToggleCount.classList.remove('active');
+        loadExternalCitationsChart();
+      });
+    }
+
+    if (btnExtToggleCount) {
+      btnExtToggleCount.addEventListener('click', () => {
+        if (currentExtMode === 'count') return;
+        currentExtMode = 'count';
+        btnExtToggleCount.classList.add('active');
+        if (btnExtTogglePct) btnExtTogglePct.classList.remove('active');
+        loadExternalCitationsChart();
       });
     }
 
@@ -1330,7 +1427,281 @@
     }
   }
 
-  // --- SECTION 4: Citation Knowledge Flows & Lineage Timeline ---
+  // --- SECTION 4: Intellectual Tributaries (Citations to External Venues & Journals) ---
+  async function loadExternalCitationsChart() {
+    const chart = initChartInstance('externalCitations');
+    if (!chart) return;
+
+    chart.showLoading({
+      text: 'Loading external citation trends...',
+      color: '#2563eb',
+      maskColor: 'rgba(255, 255, 255, 0.8)',
+      textColor: '#0f172a'
+    });
+
+    try {
+      let res;
+      const url = `/api/overview/external-citations?category=${currentExtCategory}`;
+      try {
+        res = await fetch(url);
+        if (!res.ok) throw new Error('API 404');
+      } catch (e) {
+        res = await fetch('data/overview_static/external_citations.json');
+      }
+      const data = await res.json();
+      extCitationsRawData = data;
+      chart.hideLoading();
+
+      // Render top tributaries leaderboard cards once
+      renderTributariesLeaderboard(data);
+
+      const isBiannual = (currentExtTimeGranularity === 'biannual');
+
+      // Update header title
+      if (extCiteChartHeaderTitle) {
+        const catLabel = data.category_name || 'External Venues & Flagships';
+        const metricLabel = (currentExtMode === 'count') ? 'Paper Publication Volume' : 'Conference Penetration (% of Papers)';
+        const cycleLabel = isBiannual ? '2-Year Cycles' : 'Annual';
+        extCiteChartHeaderTitle.textContent = `${catLabel}: ${metricLabel} (${cycleLabel})`;
+      }
+
+      // Map calendar year to index in data.years
+      const yearIdxMap = {};
+      data.years.forEach((y, i) => { yearIdxMap[y] = i; });
+
+      // Determine active time buckets
+      const timeBuckets = isBiannual ? [
+        { label: '2016–2017', years: [2016, 2017] },
+        { label: '2018–2019', years: [2018, 2019] },
+        { label: '2020–2021', years: [2020, 2021] },
+        { label: '2022–2023', years: [2022, 2023] },
+        { label: '2024–2025', years: [2024, 2025] },
+        { label: '2026',       years: [2026] }
+      ] : data.years.map(y => ({ label: String(y), years: [y] }));
+
+      // Compute total conference proceedings papers in each bucket
+      const bucketConfTotals = timeBuckets.map(b => {
+        return b.years.reduce((acc, y) => {
+          const idx = yearIdxMap[y];
+          return acc + (idx !== undefined ? (data.yearly_paper_totals[idx] || 0) : 0);
+        }, 0);
+      });
+
+      // Prepare series list
+      const seriesList = data.series.map((s, sIdx) => {
+        // Raw bucket counts
+        const rawBucketCounts = timeBuckets.map(b => {
+          return b.years.reduce((acc, y) => {
+            const idx = yearIdxMap[y];
+            return acc + (idx !== undefined ? (s.counts[idx] || 0) : 0);
+          }, 0);
+        });
+
+        // Conference penetration percentage
+        const confBucketPercentages = rawBucketCounts.map((cnt, idx) => {
+          const confTotal = bucketConfTotals[idx];
+          return confTotal > 0 ? parseFloat(((cnt / confTotal) * 100).toFixed(2)) : 0;
+        });
+
+        const values = (currentExtMode === 'percentage') ? confBucketPercentages : rawBucketCounts;
+        const color = DISTINCT_PALETTE[sIdx % DISTINCT_PALETTE.length];
+
+        return {
+          id: s.id,
+          name: s.label,
+          type: 'line',
+          smooth: false,
+          showSymbol: true,
+          symbolSize: 8,
+          itemStyle: { color: color },
+          lineStyle: { width: 2.5 },
+          areaStyle: {
+            color: color,
+            opacity: 0.10
+          },
+          emphasis: {
+            focus: 'series',
+            scale: true,
+            lineStyle: { width: 3.5 }
+          },
+          rawCounts: rawBucketCounts,
+          confPercentages: confBucketPercentages,
+          data: values
+        };
+      });
+
+      // Responsive headroom for legend
+      const isMobile = window.innerWidth <= 768;
+      const seriesCount = seriesList.length;
+      let gridTop = 64;
+      if (seriesCount > 8) {
+        gridTop = isMobile ? 95 : 120;
+      } else if (seriesCount > 5) {
+        gridTop = isMobile ? 80 : 100;
+      } else if (seriesCount > 2) {
+        gridTop = isMobile ? 68 : 80;
+      }
+
+      const option = {
+        backgroundColor: 'transparent',
+        color: seriesList.map(s => s.itemStyle.color),
+        tooltip: {
+          trigger: 'item',
+          backgroundColor: '#ffffff',
+          borderColor: '#e2e8f0',
+          borderWidth: 1,
+          padding: [12, 16],
+          textStyle: {
+            color: '#0f172a',
+            fontFamily: 'Inter, -apple-system, BlinkMacSystemFont, sans-serif',
+            fontSize: 12
+          },
+          extraCssText: 'box-shadow: 0 10px 25px -3px rgba(0, 0, 0, 0.12), 0 4px 6px -2px rgba(0, 0, 0, 0.05); border-radius: 8px;',
+          formatter: function(params) {
+            if (!params || !params.seriesName) return '';
+            const seriesObj = seriesList.find(s => s.name === params.seriesName);
+            const countVal = seriesObj ? seriesObj.rawCounts[params.dataIndex] : 0;
+            const confPct = seriesObj ? seriesObj.confPercentages[params.dataIndex] : 0;
+            const periodStr = params.name;
+            const colorDot = `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background-color:${params.color};margin-right:6px;"></span>`;
+
+            let mainValDisplay = '';
+            if (currentExtMode === 'percentage') {
+              mainValDisplay = `<div style="font-size:1.15rem; font-weight:800; color:#0f172a; margin: 4px 0;">${params.value}% <span style="font-size:0.75rem; font-weight:500; color:#64748b;">of all conference papers</span></div>`;
+            } else {
+              mainValDisplay = `<div style="font-size:1.15rem; font-weight:800; color:#0f172a; margin: 4px 0;">${params.value} <span style="font-size:0.75rem; font-weight:500; color:#64748b;">citing papers</span></div>`;
+            }
+
+            const periodHeading = isBiannual ? `Bi-annual Cycle: ${periodStr}` : `Year ${periodStr}`;
+
+            return `
+              <div style="font-size:0.78rem; font-weight:600; color:#64748b; margin-bottom:2px;">${periodHeading}</div>
+              <div style="font-size:0.95rem; font-weight:700; color:#0f172a; display:flex; align-items:center;">
+                ${colorDot} ${params.seriesName}
+              </div>
+              ${mainValDisplay}
+              <div style="font-size:0.78rem; color:#475569; border-top:1px solid #f1f5f9; padding-top:6px; margin-top:4px;">
+                📊 <strong>${countVal}</strong> papers (${confPct}% of conf)
+              </div>
+              <div style="font-size:0.72rem; color:#94a3b8; margin-top:4px;">
+                💡 Click point to inspect citing papers in drawer
+              </div>
+            `;
+          }
+        },
+        legend: {
+          type: 'scroll',
+          orient: 'horizontal',
+          top: 6,
+          left: 'center',
+          itemGap: 14,
+          itemWidth: 12,
+          itemHeight: 12,
+          padding: [4, 16, 8, 16],
+          textStyle: {
+            color: '#334155',
+            fontFamily: 'Inter, sans-serif',
+            fontSize: 12,
+            fontWeight: 500
+          },
+          pageIconColor: '#2563eb',
+          pageIconInactiveColor: '#cbd5e1',
+          pageTextStyle: {
+            color: '#64748b',
+            fontSize: 11
+          }
+        },
+        dataZoom: [
+          {
+            type: 'inside',
+            xAxisIndex: 0,
+            zoomOnMouseWheel: false,
+            moveOnMouseMove: true,
+            moveOnTouch: true,
+            preventDefaultMouseMove: false
+          }
+        ],
+        grid: {
+          left: isMobile ? '12px' : '2%',
+          right: isMobile ? '16px' : '3%',
+          bottom: '5%',
+          top: gridTop,
+          containLabel: true
+        },
+        xAxis: {
+          type: 'category',
+          data: timeBuckets.map(b => b.label),
+          axisLine: { lineStyle: { color: '#cbd5e1' } },
+          axisLabel: {
+            color: '#64748b',
+            fontFamily: 'Inter, sans-serif',
+            fontSize: 12
+          }
+        },
+        yAxis: {
+          type: 'value',
+          name: (currentExtMode === 'percentage')
+            ? (isBiannual ? '% of Conference Papers (2-Year Cycle)' : '% of Conference Papers (Annual)')
+            : (isBiannual ? 'Citing Papers per 2-Year Cycle (Count)' : 'Citing Papers (Count)'),
+          nameLocation: 'end',
+          nameGap: 18,
+          nameTextStyle: {
+            color: '#475569',
+            fontFamily: 'Inter, sans-serif',
+            fontWeight: 600,
+            fontSize: 11,
+            padding: [0, 0, 6, 0]
+          },
+          min: 0,
+          splitLine: { lineStyle: { color: '#f1f5f9' } },
+          axisLine: { lineStyle: { color: '#cbd5e1' } },
+          axisLabel: {
+            color: '#64748b',
+            fontFamily: 'Inter, sans-serif',
+            fontSize: 11,
+            formatter: (currentExtMode === 'count') ? '{value}' : '{value}%'
+          }
+        },
+        series: seriesList
+      };
+
+      chart.setOption(option, true);
+      chart.resize();
+
+    } catch (err) {
+      chart.hideLoading();
+      console.error('Error loading external citations chart:', err);
+    }
+  }
+
+  function renderTributariesLeaderboard(data) {
+    if (!extCiteCardsGrid || !data || !data.venues) return;
+    if (extCiteCardsGrid.dataset.rendered === 'true') return;
+
+    extCiteCardsGrid.innerHTML = '';
+    const topVenues = data.venues.slice(0, 10);
+    topVenues.forEach((v) => {
+      const card = document.createElement('div');
+      card.className = 'tributary-card';
+      card.innerHTML = `
+        <div>
+          <div class="tributary-card-title">${v.venue_name}</div>
+          <div class="tributary-card-family">${v.category_name}</div>
+        </div>
+        <div class="tributary-card-stats">
+          <span class="tributary-card-count">${v.total_papers.toLocaleString()} <span style="font-size:0.70rem; font-weight:500; color:#64748b;">papers</span></span>
+          <span class="tributary-card-pct">${v.penetration_pct}% of conf</span>
+        </div>
+      `;
+      card.addEventListener('click', () => {
+        openPaperInspector(null, null, null, null, v.venue_id);
+      });
+      extCiteCardsGrid.appendChild(card);
+    });
+    extCiteCardsGrid.dataset.rendered = 'true';
+  }
+
+  // --- SECTION 5: Citation Knowledge Flows & Lineage Timeline ---
   async function loadCitationsChart() {
     const chart = initChartInstance('citations');
     if (!chart) return;
@@ -1494,12 +1865,16 @@
   }
 
   // --- Slide-out Paper Inspector Drawer ---
-  async function openPaperInspector(dimension, label, year, authorName) {
+  async function openPaperInspector(dimension, label, year, authorName, externalVenue) {
     if (!paperInspector || !inspectorContent) return;
 
     const apaAuthor = authorName ? formatAuthorApa(authorName) : '';
 
-    if (label) {
+    if (externalVenue) {
+      const venueObj = extCitationsRawData?.venues?.find(v => v.venue_id === externalVenue || v.venue_name === externalVenue);
+      const vName = venueObj ? venueObj.venue_name : externalVenue;
+      inspectorTitle.textContent = `Papers citing ${vName} ${year ? '(' + year + ')' : ''}`;
+    } else if (label) {
       inspectorTitle.textContent = `${label} ${year ? '(' + year + ')' : ''}`;
     } else if (authorName) {
       inspectorTitle.textContent = `Papers by ${apaAuthor}`;
@@ -1519,6 +1894,7 @@
     if (label) url += `&label=${encodeURIComponent(label)}`;
     if (year) url += `&year=${year}`;
     if (authorName) url += `&author=${encodeURIComponent(authorName)}`;
+    if (externalVenue) url += `&external_venue=${encodeURIComponent(externalVenue)}`;
 
     try {
       let res;
@@ -1550,6 +1926,13 @@
 
         const authorsDisplay = p.authors ? formatAuthorListApa(p.authors) : 'Unknown Authors';
 
+        const citationSnippetDisplay = p.citation_snippet ? `
+          <div style="font-size:0.75rem; background:#fffbeb; color:#92400e; padding:8px 12px; border-radius:6px; margin: 8px 0; border-left:3px solid #f59e0b; line-height:1.45;">
+            <div style="font-weight:700; margin-bottom:2px; font-size:0.72rem; text-transform:uppercase; letter-spacing:0.03em;">📖 Citation to ${p.external_venue_name || externalVenue || 'External Venue'}:</div>
+            <div style="font-style:italic;">"${p.citation_snippet}"</div>
+          </div>
+        ` : '';
+
         card.innerHTML = `
           <div class="paper-detail-title">${p.title}</div>
           <div class="paper-detail-meta">
@@ -1558,6 +1941,7 @@
             ${cScoreBadge}
           </div>
           <div class="paper-detail-abstract">${p.abstract || 'No abstract text available for this publication.'}</div>
+          ${citationSnippetDisplay}
           <div style="display:flex; flex-wrap:wrap; gap:8px; align-items:center; margin-top:2px;">
             ${p.label_value && p.label_value !== 'Unlabeled' ? `<span style="font-size:0.74rem; background:#f1f5f9; color:#334155; padding:2px 8px; border-radius:4px; font-weight:500;">🏷️ ${p.label_value}</span>` : ''}
             ${apaAuthor ? `<span style="font-size:0.74rem; background:#fdf2f8; color:#9d174d; padding:2px 8px; border-radius:4px; font-weight:500;">👤 ${apaAuthor}</span>` : ''}

@@ -18,9 +18,9 @@
     <aside class="sidebar-nav" id="sidebarNav">
       <div class="sidebar-header">
         <button class="btn btn-icon" id="toggleSidebarBtn" title="Toggle Navigation Menu"><svg class="icon"><use href="icons/icons.svg#icon-menu"/></svg></button>
-        <a href="./index.html" class="btn-how-it-works" title="How this Works — Project Cover & System Guide">
+        <a href="./index.html" class="btn-how-it-works" title="Project Walkthrough — Project Cover & System Guide">
           <svg class="icon icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
-          <span>How this Works</span>
+          <span>Project Walkthrough</span>
         </a>
       </div>
 
@@ -94,10 +94,10 @@
           <!-- Row Height Toggle -->
           <div class="row-mode-toggle">
             <label class="toggle-switch">
-              <input type="checkbox" id="rowModeToggle" checked>
+              <input type="checkbox" id="rowModeToggle">
               <span class="toggle-slider"></span>
             </label>
-            <span class="toggle-label" id="rowModeLabel"><svg class="icon"><use href="icons/icons.svg#icon-wrap-text"/></svg> Auto Wrap</span>
+            <span class="toggle-label" id="rowModeLabel"><svg class="icon"><use href="icons/icons.svg#icon-wrap-text"/></svg> Auto-Wrap</span>
           </div>
 
           <!-- Table Export Dropdown Menu (Copy Table & Download as CSV) -->
@@ -133,7 +133,7 @@
 
       <!-- Main Table Container -->
       <div class="table-wrapper" id="tableWrapper">
-        <table class="data-table mode-autowrap" id="dataTable">
+        <table class="data-table mode-compact" id="dataTable">
           <thead>
             <tr id="tableHeaderRow">
               <!-- Dynamically populated headers -->

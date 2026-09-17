@@ -1037,11 +1037,67 @@ function setupColumnHeaderFilters() {
 
 // Populate Column Filter Popover Content Dynamically
 function populateColumnFilterPopover(colKey, popoverEl) {
-  const corpus = (preloadedTitles.length > 0 ? preloadedTitles : allPapers);
+  // Determine base corpus:
+  // For saved review mode: the papers of this review (allPapers).
+  // For dipstick mode: preloadedTitles or allPapers.
+  const baseCorpus = isDipstickMode ? (preloadedTitles.length > 0 ? preloadedTitles : allPapers) : allPapers;
 
-  // Compute unique values & counts for this column
+  // Apply top search query (if any) and all other active column filters (except colKey)
+  const query = (searchInput ? searchInput.value : '').trim();
+  const ast = query ? parseQuery(query) : null;
+
+  const activePapers = baseCorpus.filter(paper => {
+    // 1. Search filter match
+    if (ast) {
+      if (isDipstickMode) {
+        const titleText = paper.title || '';
+        const abstractText = paper.abstract || '';
+        const authorsText = paper.authors || '';
+        const confText = `${paper.conference || ''} ${paper.year || ''}`;
+        const combinedText = `${titleText} ${abstractText} ${authorsText} ${confText}`;
+        if (!evaluateAst(ast, (term) => testTermMatch(combinedText, term))) return false;
+      } else {
+        const titleText = paper.title || '';
+        const authorsText = paper.authors || '';
+        const summaryText = paper.summary || '';
+        const abstractText = paper.abstract || '';
+        const kwText = (paper.keywords || []).join(' ');
+        let colText = '';
+        if (activeReviewMeta && activeReviewMeta.selected_columns) {
+          colText = activeReviewMeta.selected_columns
+            .map(col => String(paper[col] || ''))
+            .join(' ');
+        }
+        const fullPaperText = `${titleText} ${authorsText} ${summaryText} ${abstractText} ${kwText} ${colText}`;
+        if (!evaluateAst(ast, (term) => testTermMatch(fullPaperText, term))) return false;
+      }
+    }
+
+    // 2. All other column filters except this colKey
+    for (const otherCol in columnFilterSelections) {
+      if (otherCol === colKey) continue;
+      const selSet = columnFilterSelections[otherCol];
+      if (!selSet || selSet.size === 0) continue;
+
+      let val = paper[otherCol];
+      if (otherCol === 'paper_type') {
+        val = getEffectivePaperType(paper);
+      }
+      if (Array.isArray(val)) {
+        if (!val.some(v => selSet.has(String(v)))) return false;
+      } else if (val !== undefined && val !== null) {
+        if (!selSet.has(String(val))) return false;
+      } else {
+        return false;
+      }
+    }
+
+    return true;
+  });
+
+  // Compute unique values & counts for this column based on active matching papers
   const valCounts = {};
-  corpus.forEach(paper => {
+  activePapers.forEach(paper => {
     let val = paper[colKey];
     if (colKey === 'paper_type') {
       val = getEffectivePaperType(paper);
@@ -1057,6 +1113,14 @@ function populateColumnFilterPopover(colKey, popoverEl) {
     }
   });
 
+  // Keep any currently selected value with count 0 if it has no matches so user can uncheck it
+  const selectedSet = columnFilterSelections[colKey] || new Set();
+  selectedSet.forEach(v => {
+    if (valCounts[v] === undefined) {
+      valCounts[v] = 0;
+    }
+  });
+
   let sortedVals = Object.keys(valCounts);
   if (colKey === 'year') {
     sortedVals.sort((a, b) => b.localeCompare(a));
@@ -1069,8 +1133,6 @@ function populateColumnFilterPopover(colKey, popoverEl) {
   } else {
     sortedVals.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
   }
-
-  const selectedSet = columnFilterSelections[colKey] || new Set();
 
   let html = `
     <input type="text" class="col-filter-search" placeholder="Filter values..." data-col="${colKey}">
@@ -1945,24 +2007,23 @@ function setupEventListeners() {
   }
 
   if (rowModeToggle) {
-    // Auto-wrap is enabled by default
-    rowModeToggle.checked = true;
+    // Inactive (mode-compact) by default
+    rowModeToggle.checked = false;
     if (dataTable) {
-      dataTable.classList.remove('mode-compact');
-      dataTable.classList.add('mode-autowrap');
+      dataTable.classList.remove('mode-autowrap');
+      dataTable.classList.add('mode-compact');
     }
-    if (rowModeLabel) rowModeLabel.innerHTML = `${getIcon('wrap-text')} Auto Wrap`;
+    if (rowModeLabel) rowModeLabel.innerHTML = `${getIcon('wrap-text')} Auto-Wrap`;
 
     rowModeToggle.addEventListener('change', () => {
       if (rowModeToggle.checked) {
         dataTable.classList.remove('mode-compact');
         dataTable.classList.add('mode-autowrap');
-        if (rowModeLabel) rowModeLabel.innerHTML = `${getIcon('wrap-text')} Auto Wrap`;
       } else {
         dataTable.classList.remove('mode-autowrap');
         dataTable.classList.add('mode-compact');
-        if (rowModeLabel) rowModeLabel.innerHTML = `${getIcon('compact')} Compact`;
       }
+      if (rowModeLabel) rowModeLabel.innerHTML = `${getIcon('wrap-text')} Auto-Wrap`;
     });
   }
 
@@ -2600,25 +2661,29 @@ function setupColumnResizing() {
   document.querySelectorAll('.col-resizer').forEach(resizer => {
     resizer.addEventListener('mousedown', (e) => {
       e.preventDefault();
+      e.stopPropagation();
       isResizingColumn = true;
 
       const th = resizer.closest('th');
       const startX = e.pageX;
       const startWidth = th.offsetWidth;
+      const minW = parseInt(th.dataset.minWidth, 10) || 60;
 
       resizer.classList.add('resizing');
       document.body.style.cursor = 'col-resize';
+      document.body.style.userSelect = 'none';
 
       const onMouseMove = (moveEvent) => {
         const delta = moveEvent.pageX - startX;
-        const minW = parseInt(th.dataset.minWidth, 10) || 60;
         const newWidth = Math.max(minW, startWidth + delta);
         th.style.width = `${newWidth}px`;
+        th.style.minWidth = `${newWidth}px`;
       };
 
       const onMouseUp = () => {
         resizer.classList.remove('resizing');
         document.body.style.cursor = '';
+        document.body.style.userSelect = '';
         document.removeEventListener('mousemove', onMouseMove);
         document.removeEventListener('mouseup', onMouseUp);
         setTimeout(() => { isResizingColumn = false; }, 100);
