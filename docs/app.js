@@ -25,6 +25,7 @@ const DEFAULT_COLUMN_DEFINITIONS = {
   "title": { "label": "Paper Title", "width": 280, "minWidth": 220 },
   "year": { "label": "Year", "width": 80, "minWidth": 70, "isShort": true },
   "conference": { "label": "Conference", "width": 100, "minWidth": 85, "isShort": true },
+  "paper_type": { "label": "Paper Type", "width": 125, "minWidth": 95, "isShort": true },
   "authors": { "label": "Authors", "width": 200, "minWidth": 160 },
   "abstract": { "label": "Abstract", "width": 380, "minWidth": 280 },
   "relevance": { "label": "Relevance", "width": 100, "minWidth": 80, "isShort": true },
@@ -40,10 +41,18 @@ function formatConferenceAcronym(conf) {
   return 'ISLS';
 }
 
-const DIPSTICK_COLUMNS = ["title", "year", "conference", "authors", "abstract"];
+function getEffectivePaperType(paper) {
+  if (!paper) return 'Paper';
+  if (paper.is_practise_paper || paper.is_practice_paper) {
+    return 'Practise Paper';
+  }
+  return paper.paper_type || 'Paper';
+}
+
+const DIPSTICK_COLUMNS = ["title", "year", "conference", "paper_type", "authors", "abstract"];
 
 const STANDARD_PROPERTIES = new Set([
-  "paper_id", "title", "authors", "year", "conference", "abstract",
+  "paper_id", "title", "authors", "year", "conference", "paper_type", "is_practise_paper", "abstract",
   "summary", "keywords", "databases_searched"
 ]);
 
@@ -922,7 +931,7 @@ function configureHeaders(selectedColumns) {
     const rawDef = columnDefs[colKey];
     const label = rawDef && rawDef.label ? rawDef.label : formatColumnLabel(colKey);
     const def = { label, width: (rawDef && rawDef.width) || 240 };
-    const isShort = def.isShort || ['year', 'conference', 'id', 'paper_id', 'page', 'count', 'relevance'].includes(colKey.toLowerCase());
+    const isShort = def.isShort || ['year', 'conference', 'paper_type', 'id', 'paper_id', 'page', 'count', 'relevance'].includes(colKey.toLowerCase());
     const minW = def.minWidth || (isShort ? 70 : 160);
     const isFiltered = columnFilterSelections[colKey] && columnFilterSelections[colKey].size > 0;
     const isSorted = (currentSortColumn === colKey);
@@ -1020,7 +1029,10 @@ function populateColumnFilterPopover(colKey, popoverEl) {
   // Compute unique values & counts for this column
   const valCounts = {};
   corpus.forEach(paper => {
-    const val = paper[colKey];
+    let val = paper[colKey];
+    if (colKey === 'paper_type') {
+      val = getEffectivePaperType(paper);
+    }
     if (Array.isArray(val)) {
       val.forEach(v => {
         const s = String(v).trim();
@@ -1037,6 +1049,9 @@ function populateColumnFilterPopover(colKey, popoverEl) {
     sortedVals.sort((a, b) => b.localeCompare(a));
   } else if (colKey === 'conference') {
     const order = { 'ISLS': 1, 'CSCL': 2, 'ICLS': 3 };
+    sortedVals.sort((a, b) => (order[a] || 99) - (order[b] || 99));
+  } else if (colKey === 'paper_type') {
+    const order = { 'Full Paper': 1, 'Short Paper': 2, 'Practise Paper': 3, 'Poster': 4, 'Poster / Short Note': 5, 'Symposium': 6, 'Paper': 7 };
     sortedVals.sort((a, b) => (order[a] || 99) - (order[b] || 99));
   } else {
     sortedVals.sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
@@ -1173,6 +1188,11 @@ function renderTable() {
         html += `<span class="badge badge-secondary">${escapeHtml(paper.year || '-')}</span>`;
       } else if (colKey === 'conference') {
         html += `<span class="badge badge-primary">${escapeHtml(formatConferenceAcronym(paper.conference))}</span>`;
+      } else if (colKey === 'paper_type') {
+        const displayType = getEffectivePaperType(paper);
+        const isPractise = (paper.is_practise_paper || paper.is_practice_paper);
+        const badgeClass = isPractise ? 'badge-warning' : 'badge-secondary';
+        html += `<span class="badge ${badgeClass}">${escapeHtml(displayType)}</span>`;
       } else if (colKey === 'relevance') {
         html += `<span class="badge badge-success" style="background: rgba(16, 185, 129, 0.15); color: #10b981; font-weight: 600; padding: 3px 8px; border-radius: 4px;">${escapeHtml(paper.relevance || '1.00')}</span>`;
       } else if (colKey === 'abstract') {
@@ -1245,6 +1265,11 @@ function sortPapersByColumn(colKey, direction) {
   filteredPapers.sort((a, b) => {
     let valA = a[colKey];
     let valB = b[colKey];
+
+    if (colKey === 'paper_type') {
+      valA = getEffectivePaperType(a);
+      valB = getEffectivePaperType(b);
+    }
 
     if (Array.isArray(valA)) valA = valA.join(', ');
     if (Array.isArray(valB)) valB = valB.join(', ');
@@ -1559,7 +1584,10 @@ function applyFilters() {
       const selectedSet = columnFilterSelections[colKey];
       if (!selectedSet || selectedSet.size === 0) continue;
 
-      const val = paper[colKey];
+      let val = paper[colKey];
+      if (colKey === 'paper_type') {
+        val = getEffectivePaperType(paper);
+      }
       if (Array.isArray(val)) {
         if (!val.some(v => selectedSet.has(String(v)))) return false;
       } else if (val !== undefined && val !== null) {

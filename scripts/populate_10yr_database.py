@@ -141,9 +141,9 @@ def populate_database():
         # Insert Paper
         cursor.execute("""
             INSERT OR REPLACE INTO papers (
-                id, handle, handle_url, doi, title, year, conference, paper_type,
+                id, handle, handle_url, doi, title, year, conference, paper_type, is_practise_paper,
                 citation, start_page, end_page, abstract, boundary_confidence, filename
-            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
         """, (
             pid,
             p.get("handle"),
@@ -153,6 +153,7 @@ def populate_database():
             p.get("year"),
             p.get("conference", "ISLS"),
             p.get("paper_type", "Paper"),
+            1 if p.get("is_practise_paper") else 0,
             p.get("citation"),
             p.get("start_page"),
             p.get("end_page"),

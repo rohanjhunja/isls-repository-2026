@@ -22,7 +22,7 @@ class DipstickEngine:
         "Teacher Noticing", "K-12 Education", "Higher Education"
     ]
 
-    CANONICAL_COLUMNS = ["title", "year", "conference", "authors", "abstract"]
+    CANONICAL_COLUMNS = ["title", "year", "conference", "paper_type", "authors", "abstract"]
 
     def __init__(self, data_dir: str):
         self.data_dir = data_dir
@@ -68,11 +68,11 @@ class DipstickEngine:
                 cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='papers'")
                 if cursor.fetchone():
                     query = """
-                    SELECT p.id, p.title, p.abstract, p.year, p.conference, p.paper_type, p.doi, p.handle_url
+                    SELECT p.id, p.title, p.abstract, p.year, p.conference, p.paper_type, p.doi, p.handle_url, p.is_practise_paper
                     FROM papers p
                     """
                     rows = cursor.execute(query).fetchall()
-                    for pid, title, abstract, year, conf, paper_type, doi, handle_url in rows:
+                    for pid, title, abstract, year, conf, paper_type, doi, handle_url, is_practise_paper in rows:
                         try:
                             # Fetch authors
                             cursor.execute("""
@@ -93,6 +93,7 @@ class DipstickEngine:
                                 "year": year or "",
                                 "conference": conf or "ISLS",
                                 "paper_type": paper_type or "Paper",
+                                "is_practise_paper": bool(is_practise_paper) if is_practise_paper is not None else False,
                                 "doi": doi,
                                 "handle_url": handle_url,
                                 "authors": repaired_authors,
@@ -137,8 +138,8 @@ class DipstickEngine:
 
     def get_titles_index(self) -> List[Dict[str, Any]]:
         """
-        Returns lightweight title index [id, title, year, conference, authors]
-        for instant client-side filtering (< 350 KB total).
+        Returns lightweight title index [id, title, year, conference, paper_type, is_practise_paper, authors]
+        for instant client-side filtering.
         """
         papers = self.load_title_abstract_corpus()
         return [
@@ -147,6 +148,8 @@ class DipstickEngine:
                 "title": p["title"],
                 "year": p["year"],
                 "conference": p["conference"],
+                "paper_type": p.get("paper_type", "Paper"),
+                "is_practise_paper": p.get("is_practise_paper", False),
                 "authors": p["authors"],
                 "abstract": p.get("abstract", "")
             }

@@ -935,6 +935,7 @@ body {
 
 .badge-primary { background: var(--badge-blue-bg); color: var(--badge-blue-txt); }
 .badge-secondary { background: var(--badge-gray-bg); color: var(--badge-gray-txt); }
+.badge-warning { background: rgba(245, 158, 11, 0.15); color: #d97706; border: 1px solid rgba(245, 158, 11, 0.3); }
 
 .kw-tag {
   display: inline-block;

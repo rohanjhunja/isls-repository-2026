@@ -116,7 +116,7 @@ def process_review_file(filepath, cursor, output_dir, is_sample: bool = False):
     if raw_papers:
         for p in raw_papers:
             pid = p['id']
-            row = cursor.execute('SELECT id, title, year, conference, abstract, filename, start_page, end_page FROM papers WHERE id = ?', (pid,)).fetchone()
+            row = cursor.execute('SELECT id, title, year, conference, abstract, filename, start_page, end_page, paper_type, is_practise_paper FROM papers WHERE id = ?', (pid,)).fetchone()
             auth_rows = cursor.execute(
                 'SELECT a.display_name FROM authors a JOIN paper_authors pa ON a.id = pa.author_id WHERE pa.paper_id = ? ORDER BY pa.author_order ASC',
                 (pid,)
@@ -154,6 +154,8 @@ def process_review_file(filepath, cursor, output_dir, is_sample: bool = False):
                 'authors': r_authors,
                 'year': p.get('year') or (row[2] if row else ''),
                 'conference': (row[3] if row else 'ISLS'),
+                'paper_type': (row[8] if row and len(row) > 8 and row[8] else p.get('paper_type', 'Paper')),
+                'is_practise_paper': (bool(row[9]) if row and len(row) > 9 and row[9] is not None else bool(p.get('is_practise_paper', False))),
                 'abstract': p.get('abstract') or (row[4] if row else ''),
                 'summary': summary_50,
                 'keywords': keywords,
@@ -168,7 +170,7 @@ def process_review_file(filepath, cursor, output_dir, is_sample: bool = False):
 
     elif paper_ids:
         for pid in paper_ids:
-            row = cursor.execute('SELECT id, title, year, conference, abstract, filename, start_page, end_page FROM papers WHERE id = ?', (pid,)).fetchone()
+            row = cursor.execute('SELECT id, title, year, conference, abstract, filename, start_page, end_page, paper_type, is_practise_paper FROM papers WHERE id = ?', (pid,)).fetchone()
             if not row:
                 continue
 
@@ -208,6 +210,8 @@ def process_review_file(filepath, cursor, output_dir, is_sample: bool = False):
                 'authors': r_authors,
                 'year': row[2] or '',
                 'conference': row[3] or 'ISLS',
+                'paper_type': row[8] or 'Paper',
+                'is_practise_paper': bool(row[9]) if row and len(row) > 9 and row[9] is not None else False,
                 'abstract': abstract,
                 'summary': summary_50,
                 'keywords': keywords,
@@ -220,6 +224,16 @@ def process_review_file(filepath, cursor, output_dir, is_sample: bool = False):
             })
 
     output_data = dict(data)
+
+    # Ensure paper_type column is placed after conference in reviews
+    for col_field in ['selected_columns', 'visible_columns']:
+        if col_field in output_data and isinstance(output_data[col_field], list):
+            cols = output_data[col_field]
+            if 'conference' in cols and 'paper_type' not in cols:
+                idx = cols.index('conference')
+                cols.insert(idx + 1, 'paper_type')
+                output_data[col_field] = cols
+
     output_data.update({
         'id': review_id,
         'name': review_name,

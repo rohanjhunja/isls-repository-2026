@@ -33,6 +33,7 @@ def init_database(db_path: str = DEFAULT_DB_PATH):
         year INTEGER NOT NULL,
         conference TEXT NOT NULL,
         paper_type TEXT,
+        is_practise_paper INTEGER DEFAULT 0,
         citation TEXT,
         start_page INTEGER,
         end_page INTEGER,
@@ -42,6 +43,12 @@ def init_database(db_path: str = DEFAULT_DB_PATH):
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
     """)
+
+    # Ensure is_practise_paper column exists for legacy databases
+    cursor.execute("PRAGMA table_info(papers)")
+    existing_cols = [row[1] for row in cursor.fetchall()]
+    if "is_practise_paper" not in existing_cols:
+        cursor.execute("ALTER TABLE papers ADD COLUMN is_practise_paper INTEGER DEFAULT 0;")
 
     # Authors table
     cursor.execute("""
@@ -106,9 +113,9 @@ def insert_paper_record(conn: sqlite3.Connection, paper_data: Dict[str, Any], se
     # Insert paper
     cursor.execute("""
     INSERT OR REPLACE INTO papers (
-        id, handle, handle_url, doi, title, year, conference, paper_type,
+        id, handle, handle_url, doi, title, year, conference, paper_type, is_practise_paper,
         citation, start_page, end_page, abstract, boundary_confidence, filename
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     """, (
         paper_data["id"],
         paper_data.get("handle"),
@@ -118,6 +125,7 @@ def insert_paper_record(conn: sqlite3.Connection, paper_data: Dict[str, Any], se
         paper_data["year"],
         paper_data.get("conference", "ISLS"),
         paper_data.get("paper_type", "Paper"),
+        1 if paper_data.get("is_practise_paper") else 0,
         paper_data.get("citation"),
         paper_data.get("start_page"),
         paper_data.get("end_page"),

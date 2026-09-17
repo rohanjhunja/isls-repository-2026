@@ -15,6 +15,7 @@ class GroundTruthPaper(BaseModel):
     start_page: Optional[int] = None
     end_page: Optional[int] = None
     paper_type: Optional[str] = None
+    is_practise_paper: Optional[bool] = False
     abstract: Optional[str] = None
     pdf_url: Optional[str] = None
 
