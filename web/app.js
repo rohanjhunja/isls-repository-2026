@@ -765,13 +765,15 @@ function renderSidebarReviews() {
         <div class="review-item-content-group">
           <div class="review-item-header">
             <span class="review-item-title">${escapeHtml(r.name)} ${sampleBadge}</span>
-            <span class="review-item-count">${r.paper_count}</span>
           </div>
           <div class="review-item-desc">${escapeHtml(r.description || 'Saved literature review dataset')}</div>
         </div>
-        <button class="btn-dots review-dots-btn" title="Review options" data-id="${r.id}">
-          ${getIcon('more-vertical')}
-        </button>
+        <div class="review-item-aside">
+          <span class="review-item-count">${r.paper_count}</span>
+          <button class="btn-dots review-dots-btn" title="Review options" data-id="${r.id}">
+            ${getIcon('more-vertical')}
+          </button>
+        </div>
       </div>
     `;
   }
@@ -940,7 +942,10 @@ function configureHeaders(selectedColumns) {
     headerHtml += `
       <th style="width: ${def.width}px; min-width: ${minW}px;" data-col="${colKey}" data-min-width="${minW}" class="${isShort ? 'col-short' : ''}">
         <div class="th-content">
-          <span class="th-label" style="cursor: pointer;" title="Click to sort by ${escapeHtml(def.label)}">${escapeHtml(def.label)}<small style="color:var(--accent-color);">${sortIcon}</small></span>
+          <span class="th-label" style="cursor: pointer;" title="Click to sort by ${escapeHtml(def.label)}">
+            <span class="th-label-text">${escapeHtml(def.label)}</span>
+            <small class="th-sort-icon">${sortIcon}</small>
+          </span>
           <div class="col-filter-wrapper">
             <button class="col-filter-btn ${isFiltered ? 'active' : ''}" data-col="${colKey}" title="Filter ${escapeHtml(def.label)}">
               <span>${isFiltered ? getIcon('filter') : getIcon('chevron-down', 'icon-sm')}</span>
@@ -951,7 +956,7 @@ function configureHeaders(selectedColumns) {
             ${getIcon('more-vertical')}
           </button>
         </div>
-        <div class="column-resizer"></div>
+        <div class="col-resizer"></div>
       </th>
     `;
   });
@@ -1009,6 +1014,14 @@ function setupColumnHeaderFilters() {
         if (tableExportPopover) tableExportPopover.classList.remove('active');
         populateColumnFilterPopover(colKey, popover);
         popover.classList.add('active');
+        const rect = popover.getBoundingClientRect();
+        if (rect.right > window.innerWidth - 12) {
+          popover.style.left = 'auto';
+          popover.style.right = '0';
+        } else {
+          popover.style.left = '0';
+          popover.style.right = 'auto';
+        }
       } else {
         popover.classList.remove('active');
       }
