@@ -118,6 +118,9 @@
   const btnCloseFilter = document.getElementById('btnCloseFilter');
 
   // Trends Toolbar Controls
+  let currentTimeGranularity = 'biannual'; // 'biannual' (default) or 'yearwise'
+  const btnTimeBiannual = document.getElementById('btnTimeBiannual');
+  const btnTimeYearwise = document.getElementById('btnTimeYearwise');
   const btnToggleCount = document.getElementById('btnToggleCount');
   const btnToggleRelative = document.getElementById('btnToggleRelative');
   const btnToggleConference = document.getElementById('btnToggleConference');
@@ -180,6 +183,7 @@
 
       // Bind all UI event listeners
       bindEvents();
+      updateTrendsHeaderTitle();
 
       // Load all 4 story charts simultaneously
       loadAllCharts();
@@ -330,8 +334,7 @@
       if (chartKey === 'trends') {
         charts.trends.on('click', function(params) {
           if (params.seriesName && params.name) {
-            const year = parseInt(params.name, 10);
-            openPaperInspector(currentDimension, params.seriesName, year);
+            openPaperInspector(currentDimension, params.seriesName, params.name);
           }
         });
       } else if (chartKey === 'density') {
@@ -363,6 +366,24 @@
     loadDensityChart();
     loadNetworkChart();
     loadCitationsChart();
+  }
+
+  function updateTrendsHeaderTitle() {
+    if (!trendsChartHeaderTitle) return;
+    const isBiannual = (currentTimeGranularity === 'biannual');
+    if (currentMode === 'count') {
+      trendsChartHeaderTitle.textContent = isBiannual
+        ? 'Bi-annual Paper Publication Volume Over Time'
+        : 'Annual Paper Publication Volume Over Time';
+    } else if (currentMode === 'conference') {
+      trendsChartHeaderTitle.textContent = isBiannual
+        ? 'Conference Penetration (% of All Proceedings Papers Each 2-Year Cycle)'
+        : 'Conference Penetration (% of All Proceedings Papers Each Year)';
+    } else {
+      trendsChartHeaderTitle.textContent = isBiannual
+        ? '100% Proportional Share of Mindshare Over Time (2-Year Cycles)'
+        : '100% Proportional Share of Mindshare Over Time (Selected Categories)';
+    }
   }
 
   function bindEvents() {
@@ -501,6 +522,29 @@
       });
     }
 
+    // Trends Time Granularity Toggles (Bi-annual vs Year-wise)
+    if (btnTimeBiannual) {
+      btnTimeBiannual.addEventListener('click', () => {
+        if (currentTimeGranularity === 'biannual') return;
+        currentTimeGranularity = 'biannual';
+        btnTimeBiannual.classList.add('active');
+        if (btnTimeYearwise) btnTimeYearwise.classList.remove('active');
+        updateTrendsHeaderTitle();
+        loadTrendsChart();
+      });
+    }
+
+    if (btnTimeYearwise) {
+      btnTimeYearwise.addEventListener('click', () => {
+        if (currentTimeGranularity === 'yearwise') return;
+        currentTimeGranularity = 'yearwise';
+        btnTimeYearwise.classList.add('active');
+        if (btnTimeBiannual) btnTimeBiannual.classList.remove('active');
+        updateTrendsHeaderTitle();
+        loadTrendsChart();
+      });
+    }
+
     // Trends Mode Toggles
     if (btnToggleCount) {
       btnToggleCount.addEventListener('click', () => {
@@ -508,9 +552,7 @@
         btnToggleCount.classList.add('active');
         btnToggleRelative.classList.remove('active');
         btnToggleConference.classList.remove('active');
-        if (trendsChartHeaderTitle) {
-          trendsChartHeaderTitle.textContent = 'Annual Paper Publication Volume Over Time';
-        }
+        updateTrendsHeaderTitle();
         loadTrendsChart();
       });
     }
@@ -521,9 +563,7 @@
         btnToggleRelative.classList.add('active');
         btnToggleCount.classList.remove('active');
         btnToggleConference.classList.remove('active');
-        if (trendsChartHeaderTitle) {
-          trendsChartHeaderTitle.textContent = '100% Proportional Share of Mindshare Over Time (Selected Categories)';
-        }
+        updateTrendsHeaderTitle();
         loadTrendsChart();
       });
     }
@@ -534,9 +574,7 @@
         btnToggleConference.classList.add('active');
         btnToggleCount.classList.remove('active');
         btnToggleRelative.classList.remove('active');
-        if (trendsChartHeaderTitle) {
-          trendsChartHeaderTitle.textContent = 'Conference Penetration (% of All Proceedings Papers Each Year)';
-        }
+        updateTrendsHeaderTitle();
         loadTrendsChart();
       });
     }
@@ -633,30 +671,70 @@
       const data = await res.json();
       chart.hideLoading();
 
-      const numYears = data.years.length;
+      const isBiannual = (currentTimeGranularity === 'biannual');
 
-      // Compute yearly sums across selected categories (for 100% proportional share normalization)
-      const selectedYearSums = new Array(numYears).fill(0);
-      data.series.forEach(s => {
-        s.counts.forEach((cnt, idx) => {
-          selectedYearSums[idx] += cnt;
+      // Map calendar year to index in data.years
+      const yearIdxMap = {};
+      data.years.forEach((y, i) => { yearIdxMap[y] = i; });
+
+      // Determine active time buckets
+      const timeBuckets = isBiannual ? [
+        { label: '2016–2017', years: [2016, 2017] },
+        { label: '2018–2019', years: [2018, 2019] },
+        { label: '2020–2021', years: [2020, 2021] },
+        { label: '2022–2023', years: [2022, 2023] },
+        { label: '2024–2025', years: [2024, 2025] },
+        { label: '2026',       years: [2026] }
+      ] : data.years.map(y => ({ label: String(y), years: [y] }));
+
+      const numBuckets = timeBuckets.length;
+
+      // Compute total conference proceedings papers in each bucket
+      const bucketConfTotals = timeBuckets.map(b => {
+        return b.years.reduce((acc, y) => {
+          const idx = yearIdxMap[y];
+          return acc + (idx !== undefined ? (data.yearly_paper_totals[idx] || 0) : 0);
+        }, 0);
+      });
+
+      // Compute raw counts per series per bucket
+      const seriesBucketCounts = data.series.map(s => {
+        return timeBuckets.map(b => {
+          return b.years.reduce((acc, y) => {
+            const idx = yearIdxMap[y];
+            return acc + (idx !== undefined ? (s.counts[idx] || 0) : 0);
+          }, 0);
+        });
+      });
+
+      // Compute bucket sums across selected categories (for 100% proportional share normalization)
+      const selectedBucketSums = new Array(numBuckets).fill(0);
+      seriesBucketCounts.forEach(counts => {
+        counts.forEach((cnt, idx) => {
+          selectedBucketSums[idx] += cnt;
         });
       });
 
       const seriesList = data.series.map((s, sIdx) => {
+        const rawBucketCounts = seriesBucketCounts[sIdx];
+        const confBucketPercentages = rawBucketCounts.map((cnt, idx) => {
+          const confTotal = bucketConfTotals[idx];
+          return confTotal > 0 ? parseFloat(((cnt / confTotal) * 100).toFixed(2)) : 0;
+        });
+
         let values;
         if (currentMode === 'relative') {
-          // 100% Proportional Share Mode: Normalizes each year across selected categories to sum to 100%
-          values = s.counts.map((cnt, idx) => {
-            const sumForYear = selectedYearSums[idx];
-            return sumForYear > 0 ? parseFloat(((cnt / sumForYear) * 100).toFixed(1)) : 0;
+          // 100% Proportional Share Mode: Normalizes each bucket across selected categories to sum to 100%
+          values = rawBucketCounts.map((cnt, idx) => {
+            const sumForBucket = selectedBucketSums[idx];
+            return sumForBucket > 0 ? parseFloat(((cnt / sumForBucket) * 100).toFixed(1)) : 0;
           });
         } else if (currentMode === 'conference') {
           // % of Total Conference Proceedings
-          values = s.percentages;
+          values = confBucketPercentages;
         } else {
           // Raw Publication Counts
-          values = s.counts;
+          values = rawBucketCounts;
         }
 
         const isStacked = (currentMode === 'relative');
@@ -680,8 +758,8 @@
             scale: true,
             lineStyle: { width: 3.5 }
           },
-          rawCounts: s.counts,
-          confPercentages: s.percentages,
+          rawCounts: rawBucketCounts,
+          confPercentages: confBucketPercentages,
           data: values
         };
       });
@@ -718,7 +796,7 @@
             const seriesObj = seriesList.find(s => s.name === params.seriesName);
             const countVal = seriesObj ? seriesObj.rawCounts[params.dataIndex] : 0;
             const confPct = seriesObj ? seriesObj.confPercentages[params.dataIndex] : 0;
-            const yearStr = params.name;
+            const periodStr = params.name;
             const colorDot = `<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background-color:${params.color};margin-right:6px;"></span>`;
 
             let mainValDisplay = '';
@@ -730,8 +808,12 @@
               mainValDisplay = `<div style="font-size:1.15rem; font-weight:800; color:#0f172a; margin: 4px 0;">${params.value} <span style="font-size:0.75rem; font-weight:500; color:#64748b;">published papers</span></div>`;
             }
 
+            const periodHeading = (currentTimeGranularity === 'biannual')
+              ? `Bi-annual Cycle: ${periodStr}`
+              : `Year ${periodStr}`;
+
             return `
-              <div style="font-size:0.78rem; font-weight:600; color:#64748b; margin-bottom:2px;">Year ${yearStr}</div>
+              <div style="font-size:0.78rem; font-weight:600; color:#64748b; margin-bottom:2px;">${periodHeading}</div>
               <div style="font-size:0.95rem; font-weight:700; color:#0f172a; display:flex; align-items:center;">
                 ${colorDot} ${params.seriesName}
               </div>
@@ -786,7 +868,7 @@
         },
         xAxis: {
           type: 'category',
-          data: data.years,
+          data: timeBuckets.map(b => b.label),
           axisLine: { lineStyle: { color: '#cbd5e1' } },
           axisLabel: {
             color: '#64748b',
@@ -797,8 +879,10 @@
         yAxis: {
           type: 'value',
           name: currentMode === 'relative'
-            ? '100% Proportional Share of Selection (%)'
-            : (currentMode === 'conference' ? '% of Total Conference Papers' : 'Published Papers (Count)'),
+            ? (currentTimeGranularity === 'biannual' ? '100% Proportional Share (2-Year Cycles %)' : '100% Proportional Share of Selection (%)')
+            : (currentMode === 'conference'
+                ? (currentTimeGranularity === 'biannual' ? '% of Total Conference Papers (2-Year Cycle)' : '% of Total Conference Papers')
+                : (currentTimeGranularity === 'biannual' ? 'Published Papers per 2-Year Cycle (Count)' : 'Published Papers (Count)')),
           nameLocation: 'end',
           nameGap: 18,
           nameTextStyle: {

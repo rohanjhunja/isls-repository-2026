@@ -231,10 +231,22 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
             label = query_params.get('label', [None])[0]
             year = query_params.get('year', [None])[0]
             author = query_params.get('author', [None])[0]
-            year_val = int(year) if year and year.isdigit() else None
+            start_year = None
+            end_year = None
+            if year:
+                clean_y = year.replace('–', '-').strip()
+                if '-' in clean_y:
+                    pts = clean_y.split('-')
+                    if len(pts) == 2 and pts[0].strip().isdigit() and pts[1].strip().isdigit():
+                        start_year = int(pts[0].strip())
+                        end_year = int(pts[1].strip())
+                elif clean_y.isdigit():
+                    start_year = int(clean_y)
+                    end_year = int(clean_y)
             min_c = int(query_params.get('min_centrality', ['1'])[0])
             limit = int(query_params.get('limit', ['25'])[0])
-            data = OVERVIEW_SERVICE.get_papers(dimension=dim, label=label, year=year_val,
+            data = OVERVIEW_SERVICE.get_papers(dimension=dim, label=label,
+                                               start_year=start_year, end_year=end_year,
                                                author=author, min_centrality=min_c, limit=limit)
             self.wfile.write(json.dumps(data).encode('utf-8'))
             return

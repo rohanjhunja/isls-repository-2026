@@ -629,6 +629,7 @@ class OverviewService:
 
     def get_papers(self, dimension: Optional[str] = None, label: Optional[str] = None,
                    year: Optional[int] = None, author: Optional[str] = None,
+                   start_year: Optional[int] = None, end_year: Optional[int] = None,
                    min_centrality: int = 1, limit: int = 25) -> List[Dict[str, Any]]:
         conn = self._get_conn()
         cur = conn.cursor()
@@ -665,7 +666,14 @@ class OverviewService:
             conditions.append("pl_filter.label_value = ?")
             params.append(label)
 
-        if year:
+        if start_year is not None and end_year is not None:
+            if start_year == end_year:
+                conditions.append("p.year = ?")
+                params.append(start_year)
+            else:
+                conditions.append("p.year BETWEEN ? AND ?")
+                params.extend([start_year, end_year])
+        elif year:
             conditions.append("p.year = ?")
             params.append(year)
 

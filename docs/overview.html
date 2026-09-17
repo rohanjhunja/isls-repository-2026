@@ -1922,12 +1922,21 @@
       </div>
 
       <div class="chart-container-card">
-        <div class="chart-toolbar">
+        <div class="chart-toolbar" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px;">
           <span style="font-size: 0.88rem; font-weight: 600; color: var(--text-primary);" id="trendsChartHeaderTitle">Growth of Selected Themes Over Time</span>
-          <div class="toggle-pill-row" style="width: auto;">
-            <button class="btn-pill-toggle" id="btnToggleCount">Paper Count</button>
-            <button class="btn-pill-toggle active" id="btnToggleRelative">100% Proportional Share</button>
-            <button class="btn-pill-toggle" id="btnToggleConference">% of Total Conference</button>
+          <div style="display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+            <!-- Time Granularity (Bi-annual by default) -->
+            <div class="toggle-pill-row" style="width: auto;" id="trendsGranularityGroup">
+              <button class="btn-pill-toggle active" id="btnTimeBiannual" title="Group into 2-year cycles (ICLS + CSCL)">Bi-annual</button>
+              <button class="btn-pill-toggle" id="btnTimeYearwise" title="Single calendar years">Year-wise</button>
+            </div>
+            <div style="width: 1px; height: 18px; background: #cbd5e1;"></div>
+            <!-- Metric Mode -->
+            <div class="toggle-pill-row" style="width: auto;">
+              <button class="btn-pill-toggle" id="btnToggleCount">Paper Count</button>
+              <button class="btn-pill-toggle active" id="btnToggleRelative">100% Proportional Share</button>
+              <button class="btn-pill-toggle" id="btnToggleConference">% of Total Conference</button>
+            </div>
           </div>
         </div>
         <div class="chart-swipe-hint">
