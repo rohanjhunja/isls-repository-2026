@@ -58,3 +58,9 @@ All 15 agent skills are defined in `.agents/skills/` and can be invoked directly
 - **Dipstick Pre-Check Mandatory**: Dipstick review is the foundational first step. Check or verify that an initial dipstick review has been conducted before performing heavy section parsing or property extractions.
 - **Traceable Verbatim Evidence**: Never invent or hallucinate values. Every extracted observation requires exact verbatim source text from candidate sections.
 - **Immutable Source Seed**: `data/derived/ground_truth_registry.json` is the 10-year golden dataset. `proceedings.db` can be recomputed at any time in ~15s without loss.
+- **Saved Review Naming Rule**: All saved reviews in `workspace/reviews/` MUST strictly follow the protocol naming format: `'<Review Protocol> - <keyword(s)>'`.
+  - `Dipstick Review - <keyword(s)>`: Fast title & abstract screening sweep across 100% of corpus papers (0 tokens, $< 3\text{ ms}$).
+  - `Expanded Scope - <keyword(s)>`: Scope expanded beyond Title & Abstract into candidate sections (`Methodology`, `Findings`, `Discussion`, `Full Text`) or section-targeted FTS5 BM25 search.
+  - `Agentic Review - <keyword(s)>`: When an AI agent in Google Antigravity or Anthropic Claude conducts a review and modifies the default protocol (e.g. custom inclusion/exclusion criteria, qualitative section extractions, theoretical coding schemas, or comparative matrix synthesis). If an agent executes an unmodified standard protocol, the default label (`Dipstick Review` or `Expanded Scope`) may be used.
+  - Multiple keywords must be cleanly comma-separated (e.g. `Dipstick Review - generative AI, collaborative learning`).
+

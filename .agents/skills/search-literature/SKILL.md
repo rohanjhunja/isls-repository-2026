@@ -17,6 +17,9 @@ Store search criteria, translate search prompts into keywords, score matches, an
    - Expand to full text / sections search (`sections`) only when explicitly requested.
 3. **Metadata Filtering**:
    - Apply strict filtering on year, conference acronym/name, journal, and collection.
+4. **Saved Review Naming Rule**:
+   - Reviews created from expanded full-text or section searches MUST be named: `'Expanded Scope - <keyword(s)>'` (e.g. `Expanded Scope - feedback, scaffolding`).
+   - Standard title and abstract scope reviews MUST be named: `'Dipstick Review - <keyword(s)>'`.
 
 ## Workflow
 

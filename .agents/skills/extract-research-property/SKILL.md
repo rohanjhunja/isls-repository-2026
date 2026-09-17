@@ -32,4 +32,5 @@ Resolve targets, preview candidate sections via FTS search, extract observations
 - Do not process full paper text when candidate sections suffice.
 - Preserve manually verified observations.
 - Halt property extraction safely if process RSS memory exceeds `--max-memory-gb`.
+- **Saved Review Naming Rule**: When an AI agent conducts a review and modifies the default protocol (e.g. custom inclusion/exclusion criteria, qualitative section extractions, theoretical coding schemas, or comparative matrix synthesis), the review MUST be named: `'Agentic Review - <keyword(s)>'`. If an unmodified standard protocol is executed, use `'Dipstick Review - <keyword(s)>'` or `'Expanded Scope - <keyword(s)>'`.
 

@@ -29,3 +29,4 @@ Launch the interactive Literature Review Web Viewer pre-populated with relevant 
 - **Launch Only**: Present the web viewer launcher link and wait for user direction.
 - **Instant Client-Side Search**: Opening the keyword link pre-populates the viewer search bar and filters 2,791 repository titles instantly in **$< 3\text{ ms}$**.
 - **User-Driven Actions**: Saving a review or expanding section scope (`Abstract`, `Methodology`, `Findings`) is controlled directly by the user via the web interface.
+- **Saved Review Naming Rule**: When saving or suggesting reviews created from dipstick screening, the name MUST strictly follow the format `'Dipstick Review - <keyword(s)>'` (e.g. `Dipstick Review - generative AI, collaborative learning`).

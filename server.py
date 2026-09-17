@@ -316,13 +316,30 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
             self.send_header('Access-Control-Allow-Origin', '*')
             self.end_headers()
 
-            name = query_params.get('name', ['Custom Dipstick Review'])[0]
+            raw_name = query_params.get('name', [''])[0].strip()
             kw_param = query_params.get('keywords', [''])[0]
             kw_list = [k.strip() for k in kw_param.split(',') if k.strip()]
+            protocol = query_params.get('protocol', ['Dipstick Review'])[0].strip()
+            valid_protocols = ["Dipstick Review", "Expanded Scope", "Agentic Review"]
+            if protocol not in valid_protocols:
+                protocol = "Dipstick Review"
+
             pids_param = query_params.get('paper_ids', [''])[0]
             paper_ids = [p.strip() for p in pids_param.split(',') if p.strip()] if pids_param else None
 
-            manifest = DIPSTICK_ENGINE.save_dipstick_review(name, kw_list, paper_ids=paper_ids)
+            kw_text = ", ".join(kw_list) if kw_list else "General"
+            if not raw_name or raw_name in ["Custom Dipstick Review", "Dipstick Review"]:
+                name = f"{protocol} - {kw_text}"
+            elif any(raw_name.startswith(f"{p} - ") for p in valid_protocols):
+                name = raw_name
+                for p in valid_protocols:
+                    if raw_name.startswith(f"{p} - "):
+                        protocol = p
+                        break
+            else:
+                name = f"{protocol} - {raw_name}"
+
+            manifest = DIPSTICK_ENGINE.save_dipstick_review(name, kw_list, paper_ids=paper_ids, protocol=protocol)
             self.wfile.write(json.dumps(manifest).encode('utf-8'))
             return
 

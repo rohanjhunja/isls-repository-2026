@@ -277,12 +277,29 @@ class DipstickEngine:
         }
 
     def save_dipstick_review(
-        self, name: str, keywords: List[str], paper_ids: Optional[List[str]] = None
+        self, name: str, keywords: List[str], paper_ids: Optional[List[str]] = None, protocol: str = "Dipstick Review"
     ) -> Dict[str, Any]:
         """
-        Creates and persists a LiteratureReview JSON manifest in data/reviews/rev_<id>.json.
-        Always sets selected_columns = ["title", "year", "conference", "authors", "abstract"].
+        Creates and persists a LiteratureReview JSON manifest in workspace/reviews/<id>.json.
+        Always adheres to '<Review Protocol> - <keyword(s)>' naming rules.
         """
+        valid_protocols = ["Dipstick Review", "Expanded Scope", "Agentic Review"]
+        if protocol not in valid_protocols:
+            protocol = "Dipstick Review"
+
+        kw_str = ", ".join(keywords) if keywords else "General"
+        raw_name = (name or "").strip()
+        if not raw_name or raw_name in ["Custom Dipstick Review", "Dipstick Review"]:
+            name = f"{protocol} - {kw_str}"
+        elif any(raw_name.startswith(f"{p} - ") for p in valid_protocols):
+            name = raw_name
+            for p in valid_protocols:
+                if raw_name.startswith(f"{p} - "):
+                    protocol = p
+                    break
+        else:
+            name = f"{protocol} - {raw_name}"
+
         review_id = f"rev_dipstick_{uuid.uuid4().hex[:8]}"
         now = datetime.datetime.now().isoformat()
 
@@ -298,7 +315,8 @@ class DipstickEngine:
         manifest = {
             "id": review_id,
             "name": name,
-            "description": f"Dipstick Review scanning 100% of papers on Title & Abstract scope.",
+            "review_protocol": protocol,
+            "description": f"{protocol} scanning 100% of papers on Title & Abstract scope.",
             "created_at": now,
             "updated_at": now,
             "review_type": "dipstick",
@@ -320,6 +338,7 @@ class DipstickEngine:
         with open(md_path, "w", encoding="utf-8") as f:
             f.write(f"# Literature Review: {name}\n\n")
             f.write(f"- **Review ID**: `{review_id}`\n")
+            f.write(f"- **Protocol**: `{protocol}`\n")
             f.write(f"- **Created At**: `{now}`\n")
             f.write(f"- **Matching Papers**: {len(paper_ids)}\n")
             f.write(f"- **Selected Columns**: {', '.join(self.CANONICAL_COLUMNS)}\n")

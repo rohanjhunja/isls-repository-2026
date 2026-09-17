@@ -189,7 +189,7 @@ def review_add_papers(review_id, paper_ids):
 
 
 @review.command("dipstick")
-@click.option("--name", default="Dipstick Review", help="Name of the dipstick review")
+@click.option("--name", default="", help="Name of the review (defaults to 'Dipstick Review - <keyword(s)>')")
 @click.option("--keywords", help="Comma-separated keywords to evaluate (default: standard research set)")
 def review_dipstick(name, keywords):
     """Run an ultra-fast dipstick review across 100% of papers (Title & Abstract scope)."""
@@ -201,17 +201,17 @@ def review_dipstick(name, keywords):
     else:
         kw_list = engine.DEFAULT_KEYWORDS
 
-    click.echo(f"=== Running Dipstick Review: '{name}' ===")
+    manifest = engine.save_dipstick_review(name, kw_list)
+    review_name = manifest['name']
+    
+    click.echo(f"=== Running Dipstick Review: '{review_name}' ===")
     click.echo(f"Scope: Title & Abstract Only (100% Repository Coverage)")
     click.echo(f"Keywords ({len(kw_list)}): {', '.join(kw_list)}")
-    
-    manifest = engine.save_dipstick_review(name, kw_list)
-    
     click.echo(f"\nCompleted! Scanned 100% of papers ({manifest['total_papers_scanned']} total).")
     click.echo(f"Matched Papers: {manifest['matched_paper_count']}")
     click.echo(f"Review ID: {manifest['id']}")
-    click.echo(f"Saved manifest: data/reviews/{manifest['id']}.json")
-    click.echo(f"Saved Markdown report: data/reviews/{manifest['id']}.md")
+    click.echo(f"Saved manifest: {engine.reviews_dir}/{manifest['id']}.json")
+    click.echo(f"Saved Markdown report: {engine.reviews_dir}/{manifest['id']}.md")
     click.echo(f"Tokens Used: 0 Tokens")
 
 

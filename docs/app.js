@@ -9,6 +9,7 @@ let activePaper = null;
 let isResizingColumn = false;
 let isResizingOverlay = false;
 let currentSortBy = 'relevance'; // 'relevance' or 'year'
+let isScopeExpanded = false;
 
 // Helper to render SVG Line Icons from sprite sheet
 function getIcon(name, extraClass = '') {
@@ -55,6 +56,7 @@ const reviewsListEl = document.getElementById('reviewsList');
 const dipstickNavItem = document.getElementById('dipstickNavItem');
 
 const searchInput = document.getElementById('searchInput');
+const searchClearBtn = document.getElementById('searchClearBtn');
 const saveAsReviewBtn = document.getElementById('saveAsReviewBtn');
 const controlActionsToggle = document.getElementById('controlActionsToggle');
 const controlActions = document.getElementById('controlActions');
@@ -62,6 +64,15 @@ const dipstickControls = document.getElementById('dipstickControls');
 const multiSelectToggleBtn = document.getElementById('multiSelectToggleBtn');
 const multiSelectPopover = document.getElementById('multiSelectPopover');
 const expandScopeBtn = document.getElementById('expandScopeBtn');
+
+function updateClearBtnVisibility() {
+  if (!searchClearBtn) return;
+  if (searchInput && searchInput.value.trim()) {
+    searchClearBtn.classList.remove('hidden');
+  } else {
+    searchClearBtn.classList.add('hidden');
+  }
+}
 
 function closeMobileSidebar() {
   if (sidebarNav) sidebarNav.classList.remove('open');
@@ -166,6 +177,7 @@ function parseUrlQueryParams() {
 function openDipstickMode(updateUrl = true) {
   closeMobileSidebar();
   isDipstickMode = true;
+  isScopeExpanded = false;
   activeReviewId = null;
   columnFilterSelections = {};
   activeReviewMeta = {
@@ -184,7 +196,8 @@ function openDipstickMode(updateUrl = true) {
   setExportControlsVisibility(false);
 
   if (searchInput) {
-    searchInput.placeholder = 'Search 100% repository paper titles (e.g. Generative AI, Learning Analytics)...';
+    searchInput.placeholder = 'Search titles, authors, concepts (e.g. Generative AI AND Scaffolding, CSCL OR ICLS)...';
+    updateClearBtnVisibility();
   }
 
   allPapers = [...preloadedTitles];
@@ -844,7 +857,8 @@ async function loadReview(reviewId, updateUrl = true) {
 
   if (searchInput) {
     searchInput.value = '';
-    searchInput.placeholder = 'Filter paper titles, authors, keywords in this review table...';
+    searchInput.placeholder = 'Filter papers in this review (supports AND, OR, comma, quotes)...';
+    updateClearBtnVisibility();
   }
 
   tableBody.innerHTML = `<tr><td colspan="8" style="text-align:center; padding: 40px; color: var(--text-muted);">Loading review papers...</td></tr>`;
@@ -1258,44 +1272,285 @@ function sortPapersByColumn(colKey, direction) {
   renderTable();
 }
 
+// --- Boolean & Multi-Keyword Query Engine ---
+let searchDebounceTimer = null;
+const SEARCH_DEBOUNCE_DELAY_MS = 280;
+const termRegexCache = new Map();
+
+function getTermRegex(term) {
+  if (!term) return null;
+  const isQuoted = (term.startsWith('"') && term.endsWith('"')) || (term.startsWith("'") && term.endsWith("'"));
+  const clean = isQuoted ? term.slice(1, -1).trim() : term.trim();
+  if (!clean) return null;
+  
+  let re = termRegexCache.get(clean.toLowerCase());
+  if (!re) {
+    const escaped = clean.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Strict boundary check: preceding char cannot be alphanumeric or underscore,
+    // following char cannot be alphanumeric or underscore.
+    // Strictly guarantees that AND and OR NEVER clash with substrings in words
+    // (e.g. "understand", "demand", "collaborative", "exploration", "mentor", "world", etc.)
+    // or acronyms (e.g. "NAND", "CORD", "STAND", "XOR", "TOR", etc.)
+    const pattern = `(?:^|[^a-zA-Z0-9_])${escaped}(?=$|[^a-zA-Z0-9_])`;
+    re = new RegExp(pattern, 'i');
+    termRegexCache.set(clean.toLowerCase(), re);
+  }
+  return re;
+}
+
+function testTermMatch(text, term) {
+  if (!text || !term) return false;
+  const re = getTermRegex(term);
+  if (!re) return true;
+  return re.test(text);
+}
+
+function tokenizeQuery(query) {
+  const rawTokens = [];
+  let i = 0;
+  const q = query.trim();
+  while (i < q.length) {
+    if (/\s/.test(q[i])) { i++; continue; }
+    
+    // Explicit quotes: always treated as literal TERM, never an operator
+    if (q[i] === '"' || q[i] === "'") {
+      const quoteChar = q[i];
+      let j = i + 1;
+      let val = '';
+      while (j < q.length && q[j] !== quoteChar) {
+        if (q[j] === '\\' && j + 1 < q.length) { val += q[j + 1]; j += 2; }
+        else { val += q[j]; j++; }
+      }
+      rawTokens.push({ type: 'TERM', value: val.trim(), quoted: true });
+      i = j + 1;
+      continue;
+    }
+    
+    // Comma acts as OR clause separator
+    if (q[i] === ',') {
+      rawTokens.push({ type: 'COMMA', value: ',' });
+      i++;
+      continue;
+    }
+    if (q[i] === '(') { rawTokens.push({ type: 'LPAREN', value: '(' }); i++; continue; }
+    if (q[i] === ')') { rawTokens.push({ type: 'RPAREN', value: ')' }); i++; continue; }
+
+    // Read full word bounded by whitespace, comma, or parens
+    let j = i;
+    while (j < q.length && !/[\s,()]/.test(q[j])) j++;
+    const word = q.slice(i, j);
+    const upper = word.toUpperCase();
+    
+    // An operator MUST be an exact standalone word: AND, OR, NOT, &&, ||, !
+    // Any acronym like NAND, XOR, NOR, CORD, STAND, LAND, BRAND, etc. is NOT an operator!
+    if (upper === 'AND' || upper === '&&') {
+      rawTokens.push({ type: 'AND', value: word });
+      i = j;
+      continue;
+    } else if (upper === 'OR' || upper === '||') {
+      rawTokens.push({ type: 'OR', value: word });
+      i = j;
+      continue;
+    } else if (upper === 'NOT' || upper === '!') {
+      rawTokens.push({ type: 'NOT', value: word });
+      i = j;
+      continue;
+    }
+
+    // Accumulate words into multi-word phrases until an operator, delimiter, or quote is encountered
+    let termStr = word;
+    let k = j;
+    while (k < q.length) {
+      let m = k;
+      while (m < q.length && /\s/.test(q[m])) m++;
+      if (m >= q.length) { k = m; break; }
+      if (q[m] === ',' || q[m] === '(' || q[m] === ')' || q[m] === '"' || q[m] === "'") break;
+      
+      let n = m;
+      while (n < q.length && !/[\s,()]/.test(q[n])) n++;
+      const nextWord = q.slice(m, n).toUpperCase();
+      if (nextWord === 'AND' || nextWord === '&&' || nextWord === 'OR' || nextWord === '||' || nextWord === 'NOT' || nextWord === '!') {
+        break;
+      }
+      termStr += q.slice(k, n);
+      k = n;
+    }
+    i = k;
+    if (termStr.trim()) {
+      rawTokens.push({ type: 'TERM', value: termStr.trim() });
+    }
+  }
+
+  // Second pass: distinguish operators from standalone acronyms/terms
+  // If AND or OR has no left operand or no right operand, it cannot be an infix operator,
+  // so treat it as a search TERM (e.g. searching the acronym "OR" or "AND")
+  const tokens = [];
+  for (let idx = 0; idx < rawTokens.length; idx++) {
+    const t = rawTokens[idx];
+    if (t.type === 'AND' || t.type === 'OR') {
+      const prev = idx > 0 ? rawTokens[idx - 1] : null;
+      const next = idx < rawTokens.length - 1 ? rawTokens[idx + 1] : null;
+      const hasPrevOperand = prev && (prev.type === 'TERM' || prev.type === 'RPAREN');
+      const hasNextOperand = next && (next.type === 'TERM' || next.type === 'LPAREN' || next.type === 'NOT');
+
+      if (!hasPrevOperand && !hasNextOperand) {
+        // Standalone acronym e.g. "OR" or "AND"
+        tokens.push({ type: 'TERM', value: t.value });
+      } else if (!hasPrevOperand && hasNextOperand) {
+        // At start of expression or after comma e.g. "Operations Research, OR"
+        tokens.push({ type: 'TERM', value: t.value });
+      } else if (hasPrevOperand && !hasNextOperand) {
+        // Trailing operator while user is typing e.g. "generative ai AND"
+        tokens.push(t);
+      } else {
+        tokens.push(t);
+      }
+    } else if (t.type === 'COMMA') {
+      tokens.push({ type: 'OR', value: ',' });
+    } else {
+      tokens.push(t);
+    }
+  }
+  return tokens;
+}
+
+function parseQuery(query) {
+  if (!query || !query.trim()) return null;
+  const tokens = tokenizeQuery(query);
+  if (tokens.length === 0) return null;
+
+  let pos = 0;
+  function peek() { return tokens[pos]; }
+  function consume() { return tokens[pos++]; }
+
+  function parseOr() {
+    let left = parseAnd();
+    while (pos < tokens.length && peek().type === 'OR') {
+      consume(); // eat OR or ,
+      const right = parseAnd();
+      if (right) {
+        left = { type: 'OR', left, right };
+      }
+    }
+    return left;
+  }
+
+  function parseAnd() {
+    let left = parseNot();
+    while (pos < tokens.length && peek().type === 'AND') {
+      consume(); // eat AND
+      const right = parseNot();
+      if (right) {
+        left = { type: 'AND', left, right };
+      }
+    }
+    return left;
+  }
+
+  function parseNot() {
+    if (pos < tokens.length && peek().type === 'NOT') {
+      consume();
+      const expr = parseNot();
+      return expr ? { type: 'NOT', expr } : null;
+    }
+    return parsePrimary();
+  }
+
+  function parsePrimary() {
+    if (pos >= tokens.length) return null;
+    const t = peek();
+    if (t.type === 'LPAREN') {
+      consume();
+      const expr = parseOr();
+      if (pos < tokens.length && peek().type === 'RPAREN') {
+        consume();
+      }
+      return expr;
+    }
+    if (t.type === 'TERM') {
+      consume();
+      return { type: 'TERM', value: t.value };
+    }
+    // Skip unexpected operator gracefully while typing
+    consume();
+    return null;
+  }
+
+  try {
+    return parseOr();
+  } catch (err) {
+    console.warn('Query parse fallback:', err);
+    return { type: 'TERM', value: query.trim() };
+  }
+}
+
+function evaluateAst(ast, checkTermFn) {
+  if (!ast) return true;
+  if (ast.type === 'TERM') return checkTermFn(ast.value);
+  if (ast.type === 'AND') return evaluateAst(ast.left, checkTermFn) && evaluateAst(ast.right, checkTermFn);
+  if (ast.type === 'OR') return evaluateAst(ast.left, checkTermFn) || evaluateAst(ast.right, checkTermFn);
+  if (ast.type === 'NOT') return !evaluateAst(ast.expr, checkTermFn);
+  return true;
+}
+
+function collectPositiveTerms(ast) {
+  if (!ast) return [];
+  if (ast.type === 'TERM') return [ast.value];
+  if (ast.type === 'AND' || ast.type === 'OR') {
+    return [...collectPositiveTerms(ast.left), ...collectPositiveTerms(ast.right)];
+  }
+  return [];
+}
+
 // Apply Filters (Combines Search Input + Column Multi-Select Header Filters)
 function applyFilters() {
-  const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+  const query = (searchInput ? searchInput.value : '').trim();
   const corpus = isDipstickMode ? (preloadedTitles.length > 0 ? preloadedTitles : allPapers) : allPapers;
+  const ast = query ? parseQuery(query) : null;
+  const positiveTerms = ast ? collectPositiveTerms(ast) : [];
 
   filteredPapers = corpus.filter(paper => {
     // 1. Top Search Bar Filter Check
-    if (query) {
+    if (ast) {
       if (isDipstickMode) {
-        const kws = query.split(',').map(k => k.trim()).filter(Boolean);
-        if (kws.length > 0) {
-          const titleText = (paper.title || '').toLowerCase();
-          const abstractText = (paper.abstract || '').toLowerCase();
-          const combinedText = `${titleText} ${abstractText}`;
+        const titleText = paper.title || '';
+        const abstractText = paper.abstract || '';
+        const authorsText = paper.authors || '';
+        const confText = `${paper.conference || ''} ${paper.year || ''}`;
+        const combinedText = `${titleText} ${abstractText} ${authorsText} ${confText}`;
 
-          let matchCount = 0;
+        const isMatch = evaluateAst(ast, (term) => testTermMatch(combinedText, term));
+        if (!isMatch) return false;
+
+        // Calculate relevance score (0.50 - 1.00) based on title & term hits
+        if (positiveTerms.length > 0) {
           let titleHits = 0;
-          kws.forEach(kw => {
-            if (combinedText.includes(kw)) matchCount++;
-            if (titleText.includes(kw)) titleHits++;
+          let matchCount = 0;
+          positiveTerms.forEach(term => {
+            if (testTermMatch(titleText, term)) titleHits++;
+            if (testTermMatch(combinedText, term)) matchCount++;
           });
-
-          if (matchCount === 0) return false;
-
-          // Calculate BM25/term frequency relevance score (0.50 - 1.00)
-          const relScore = Math.min(1.00, 0.50 + (titleHits * 0.30) + ((matchCount / kws.length) * 0.20));
+          const relScore = Math.min(1.00, 0.50 + (titleHits * 0.30) + ((matchCount / Math.max(1, positiveTerms.length)) * 0.20));
           paper.relevance = relScore.toFixed(2);
         }
       } else {
-        const matchTitle = (paper.title || '').toLowerCase().includes(query);
-        const matchAuthors = (paper.authors || '').toLowerCase().includes(query);
-        const matchSummary = (paper.summary || '').toLowerCase().includes(query);
-        const matchAbstract = (paper.abstract || '').toLowerCase().includes(query);
-        const matchKw = (paper.keywords || []).some(k => k.toLowerCase().includes(query));
-
-        if (!matchTitle && !matchAuthors && !matchSummary && !matchAbstract && !matchKw) {
-          return false;
+        // Saved Review Mode: evaluate AST across paper fields and column values
+        const titleText = paper.title || '';
+        const authorsText = paper.authors || '';
+        const summaryText = paper.summary || '';
+        const abstractText = paper.abstract || '';
+        const kwText = (paper.keywords || []).join(' ');
+        
+        let colText = '';
+        if (activeReviewMeta && activeReviewMeta.selected_columns) {
+          colText = activeReviewMeta.selected_columns
+            .map(col => String(paper[col] || ''))
+            .join(' ');
         }
+        const fullPaperText = `${titleText} ${authorsText} ${summaryText} ${abstractText} ${kwText} ${colText}`;
+
+        const isMatch = evaluateAst(ast, (term) => testTermMatch(fullPaperText, term));
+        if (!isMatch) return false;
       }
     }
 
@@ -1365,7 +1620,7 @@ function updateMultiSelectButtonText() {
   }
 }
 
-// Save Current Dipstick Search Results as a Literature Review
+// Save Current Search Results as a Literature Review (Format: '<Review Protocol> - <keyword(s)>')
 async function saveCurrentReview() {
   const keywords = searchInput ? searchInput.value.trim() : '';
   if (!keywords) {
@@ -1373,14 +1628,41 @@ async function saveCurrentReview() {
     return;
   }
 
-  const reviewName = prompt('Enter a name for this Literature Review:', `Dipstick Review - ${keywords.split(',')[0].trim()}`);
-  if (!reviewName) return;
+  const ast = parseQuery(keywords);
+  const positiveTerms = ast ? collectPositiveTerms(ast) : [];
+  const cleanKeywords = positiveTerms.length > 0
+    ? positiveTerms.join(', ')
+    : keywords.split(',').map(s => s.trim()).filter(Boolean).join(', ');
+
+  const activeProtocol = isScopeExpanded ? 'Expanded Scope' : 'Dipstick Review';
+  const defaultReviewName = `${activeProtocol} - ${cleanKeywords}`;
+
+  const promptMsg = 'Enter a name for this Literature Review:\n(Format: <Review Protocol> - <keyword(s)>, e.g. Dipstick Review, Expanded Scope, or Agentic Review)';
+  const userInput = prompt(promptMsg, defaultReviewName);
+  if (!userInput) return;
+
+  // Enforce/Normalize naming: '<Review Protocol> - <keyword(s)>'
+  let reviewName = userInput.trim();
+  const validProtocols = ['Dipstick Review', 'Expanded Scope', 'Agentic Review'];
+  const hasValidPrefix = validProtocols.some(p => reviewName.startsWith(p + ' - '));
+
+  if (!hasValidPrefix) {
+    reviewName = `${activeProtocol} - ${reviewName}`;
+  }
+
+  let selectedProtocol = activeProtocol;
+  for (const p of validProtocols) {
+    if (reviewName.startsWith(p + ' - ')) {
+      selectedProtocol = p;
+      break;
+    }
+  }
 
   showStatus(`Saving review '${reviewName}'...`);
   const matchedPids = filteredPapers.map(p => p.id).join(',');
 
   try {
-    const res = await fetch(`/api/reviews/save?name=${encodeURIComponent(reviewName)}&keywords=${encodeURIComponent(keywords)}&paper_ids=${encodeURIComponent(matchedPids)}`);
+    const res = await fetch(`/api/reviews/save?name=${encodeURIComponent(reviewName)}&keywords=${encodeURIComponent(keywords)}&protocol=${encodeURIComponent(selectedProtocol)}&paper_ids=${encodeURIComponent(matchedPids)}`);
     const manifest = await res.json();
     hideStatus();
     await fetchReviewsList();
@@ -1410,9 +1692,15 @@ function expandScopeSection() {
 
   if (multiSelectPopover) multiSelectPopover.classList.remove('active');
 
+  isScopeExpanded = true;
+
+  const ast = parseQuery(keywords);
+  const positiveTerms = ast ? collectPositiveTerms(ast) : [];
+  const expandKwParam = positiveTerms.length > 0 ? positiveTerms.join(',') : keywords;
+
   showStatus(`Expanding scope to sections '${selectedSections}' (ISLS -> CSCL -> ICLS order)...`);
 
-  const eventSource = new EventSource(`/api/dipstick/expand?keywords=${encodeURIComponent(keywords)}&section=${encodeURIComponent(selectedSections)}`);
+  const eventSource = new EventSource(`/api/dipstick/expand?keywords=${encodeURIComponent(expandKwParam)}&section=${encodeURIComponent(selectedSections)}`);
 
   eventSource.onmessage = (e) => {
     try {
@@ -1530,28 +1818,63 @@ function setupEventListeners() {
     });
   }
 
-  if (searchInput) {
-    searchInput.addEventListener('input', () => {
-      applyFilters();
-      if (isDipstickMode) {
-        const val = searchInput.value.trim();
-        const sortToggleGroup = document.getElementById('sortToggleGroup');
-        if (val) {
-          if (saveAsReviewBtn) saveAsReviewBtn.classList.remove('hidden');
-          if (dipstickControls) dipstickControls.classList.remove('hidden');
-          if (sortToggleGroup) sortToggleGroup.classList.remove('hidden');
-          setExportControlsVisibility(true);
-        } else {
-          if (saveAsReviewBtn) saveAsReviewBtn.classList.add('hidden');
-          if (dipstickControls) dipstickControls.classList.add('hidden');
-          if (sortToggleGroup) sortToggleGroup.classList.add('hidden');
-          setExportControlsVisibility(false);
-        }
-        const newUrl = val ? `${window.location.pathname}?keywords=${encodeURIComponent(val)}` : window.location.pathname;
-        if (window.location.search !== (val ? `?keywords=${encodeURIComponent(val)}` : '')) {
-          window.history.replaceState({ mode: 'dipstick' }, '', newUrl);
-        }
+  function executeSearch() {
+    isScopeExpanded = false;
+    applyFilters();
+    if (isDipstickMode) {
+      const val = searchInput ? searchInput.value.trim() : '';
+      const sortToggleGroup = document.getElementById('sortToggleGroup');
+      if (val) {
+        if (saveAsReviewBtn) saveAsReviewBtn.classList.remove('hidden');
+        if (dipstickControls) dipstickControls.classList.remove('hidden');
+        if (sortToggleGroup) sortToggleGroup.classList.remove('hidden');
+        setExportControlsVisibility(true);
+      } else {
+        if (saveAsReviewBtn) saveAsReviewBtn.classList.add('hidden');
+        if (dipstickControls) dipstickControls.classList.add('hidden');
+        if (sortToggleGroup) sortToggleGroup.classList.add('hidden');
+        setExportControlsVisibility(false);
       }
+      const newUrl = val ? `${window.location.pathname}?keywords=${encodeURIComponent(val)}` : window.location.pathname;
+      if (window.location.search !== (val ? `?keywords=${encodeURIComponent(val)}` : '')) {
+        window.history.replaceState({ mode: 'dipstick' }, '', newUrl);
+      }
+    }
+  }
+
+  if (searchInput) {
+    // 1. Debounced typing: wait for a pause before executing search to avoid input latency
+    searchInput.addEventListener('input', () => {
+      updateClearBtnVisibility();
+      if (searchDebounceTimer) clearTimeout(searchDebounceTimer);
+      searchDebounceTimer = setTimeout(() => {
+        executeSearch();
+      }, SEARCH_DEBOUNCE_DELAY_MS);
+    });
+
+    // 2. Immediate execution on Enter, reset on Escape
+    searchInput.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        if (searchDebounceTimer) clearTimeout(searchDebounceTimer);
+        executeSearch();
+      } else if (e.key === 'Escape') {
+        if (searchDebounceTimer) clearTimeout(searchDebounceTimer);
+        searchInput.value = '';
+        updateClearBtnVisibility();
+        executeSearch();
+      }
+    });
+  }
+
+  if (searchClearBtn) {
+    searchClearBtn.addEventListener('click', () => {
+      if (searchInput) {
+        searchInput.value = '';
+        searchInput.focus();
+      }
+      updateClearBtnVisibility();
+      if (searchDebounceTimer) clearTimeout(searchDebounceTimer);
+      executeSearch();
     });
   }
 

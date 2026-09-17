@@ -159,18 +159,34 @@ class ReviewService:
 
 
     def create_review(
-        self, name: str, description: Optional[str] = None, scope: Optional[PaperScope] = None
+        self, name: Optional[str] = None, description: Optional[str] = None, scope: Optional[PaperScope] = None, protocol: Optional[str] = None
     ) -> LiteratureReview:
         review_id = f"rev_{uuid.uuid4().hex[:8]}"
         now = datetime.datetime.now().isoformat()
         scope = scope or PaperScope()
+
+        valid_protocols = ["Dipstick Review", "Expanded Scope", "Agentic Review"]
+        if not protocol or protocol not in valid_protocols:
+            if scope and scope.search_fields and any(f in scope.search_fields for f in ["sections", "body", "fulltext"]):
+                protocol = "Expanded Scope"
+            else:
+                protocol = "Dipstick Review"
+
+        kw_str = ", ".join(scope.keywords) if scope and scope.keywords else "General"
+        raw_name = (name or "").strip()
+        if not raw_name or raw_name in ["Custom Dipstick Review", "Dipstick Review"]:
+            name = f"{protocol} - {kw_str}"
+        elif any(raw_name.startswith(f"{p} - ") for p in valid_protocols):
+            name = raw_name
+        else:
+            name = f"{protocol} - {raw_name}"
 
         resolved_paper_ids = self._resolve_paper_scope(scope)
 
         review = LiteratureReview(
             id=review_id,
             name=name,
-            description=description,
+            description=description or f"{protocol} covering {len(resolved_paper_ids)} papers.",
             created_at=now,
             updated_at=now,
             scope=scope,

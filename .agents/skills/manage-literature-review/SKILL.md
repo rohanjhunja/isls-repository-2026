@@ -27,14 +27,34 @@ Create, continue, update, duplicate, archive, and extend saved literature review
      2. **Initialise Python Data & Cache Scripts**: Verify and execute `python3 scripts/build_all_reviews_cache.py` so the new review is indexed in the cache.
      3. **Ensure Timely Localhost Rendering**: Guarantee `http://localhost:8888/?review=<review_id>` immediately serves and displays the newly created review in time.
 
+## Saved Review Naming Convention
+All literature reviews created, saved, or suggested MUST follow the standardized naming format:
+**`'<Review Protocol> - <keyword(s)>'`**
+
+### Protocol Taxonomy:
+1. **`Dipstick Review - <keyword(s)>`**:
+   - Rapid title & abstract sweep across 100% of repository papers (default 0 tokens, $< 3\text{ ms}$).
+   - Example: `Dipstick Review - generative AI` or `Dipstick Review - collaborative learning, analytics`.
+2. **`Expanded Scope - <keyword(s)>`**:
+   - Scope expanded beyond Title & Abstract into candidate sections (`Methodology`, `Findings`, `Discussion`, `Full Text`) or section-targeted FTS5 BM25 search.
+   - Example: `Expanded Scope - feedback, scaffolding`.
+3. **`Agentic Review - <keyword(s)>`**:
+   - Conducted by an AI agent (Antigravity or Claude) with a modified review protocol (e.g. custom inclusion/exclusion criteria, qualitative section extractions, theoretical coding schemas, or comparative matrix synthesis).
+   - *Note*: If an agent executes an unmodified standard protocol, the default label (`Dipstick Review` or `Expanded Scope`) may be used.
+   - Example: `Agentic Review - embodied cognition, multimodal interaction`.
+
+### Keyword Formatting Rules:
+- Multiple keywords must be cleanly comma-separated (e.g. `Dipstick Review - AI, collaboration`).
+- Boolean operator queries (`AND`, `OR`, `NOT`) should resolve to clean positive terms.
+
 ## CLI Usage
 
 ```bash
-# Create review with scoped criteria (years, conferences, keywords, title/abstract scope)
-proceedings review create "STEM AI Review" --years 2023,2024 --conferences ISLS --keywords "collaboration,AI" --search-fields "title,abstract"
+# Create review following protocol naming convention
+proceedings review dipstick --keywords "collaboration,AI"
+# Automatically names review: "Dipstick Review - collaboration, AI"
 
-# Create full-paper search review
-proceedings review create "Deep STEM Review" --keywords "neural network" --search-fields "sections"
+proceedings review create "Expanded Scope - neural network" --keywords "neural network" --search-fields "sections"
 
 # Sync/prepare viewer data for new review
 python3 scripts/prepare_viewer_data.py
