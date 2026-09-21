@@ -27,7 +27,7 @@ python3 scripts/build_all_reviews_cache.py
 
 # 3. Launch Literature Review Viewer Server
 python3 server.py --port 8888
-# Viewer opens at: http://localhost:8888
+# Viewer opens at: http://localhost:8888/viewer (Cover at: http://localhost:8888)
 ```
 
 ## Agent Workflows & Skills Index
@@ -39,8 +39,8 @@ All 15 agent skills are defined in `.agents/skills/` and can be invoked directly
 | `setup` | `.agents/skills/setup/SKILL.md` | 1-click full system initialization: type `setup` |
 | `update` | `.agents/skills/update/SKILL.md` | Safely pull core updates from git: type `update` |
 | `import-review` | `.agents/skills/import-review/SKILL.md` | Import external review bundle: type `import <file>` |
-| `dipstick-review` | `.agents/skills/dipstick-review/SKILL.md` | Launch viewer with pre-populated keywords: `http://localhost:8888/?keywords=...` |
-| `launch-review-viewer` | `.agents/skills/launch-review-viewer/SKILL.md` | Ensure server is running on port 8888: `python3 server.py --port 8888` |
+| `dipstick-review` | `.agents/skills/dipstick-review/SKILL.md` | Launch viewer with pre-populated keywords: `http://localhost:8888/viewer?keywords=...` |
+| `launch-review-viewer` | `.agents/skills/launch-review-viewer/SKILL.md` | Ensure server is running on port 8888: `python3 server.py --port 8888` (Viewer: `http://localhost:8888/viewer`) |
 | `manage-literature-review` | `.agents/skills/manage-literature-review/SKILL.md` | Create, update, or extend reviews in `workspace/reviews/*.json` |
 | `search-literature` | `.agents/skills/search-literature/SKILL.md` | Run lexical BM25 / FTS5 search via `proceedings_ingest.lexical_search` |
 | `extract-research-property` | `.agents/skills/extract-research-property/SKILL.md` | Extract candidate section observations with verbatim evidence quotes |

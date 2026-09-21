@@ -21,11 +21,11 @@ Create, continue, update, duplicate, archive, and extend saved literature review
    - Reviews are saved as `.json` metadata files in `workspace/reviews/<review_id>.json` (git-protected).
    - Every saved/updated review automatically syncs a human-readable Markdown view in `workspace/reviews/<review_id>.md`.
 4. **Interactive Web Viewer & Python Service Initialization**:
-   - All saved literature reviews in `workspace/reviews/` and curated templates in `data/sample_reviews/` can be interactively inspected using the `launch-review-viewer` skill (`http://localhost:8888/?review=<review_id>`).
+   - All saved literature reviews in `workspace/reviews/` and curated templates in `data/sample_reviews/` can be interactively inspected using the `launch-review-viewer` skill (`http://localhost:8888/viewer?review=<review_id>`).
    - **Auto-Initialization Procedure**: Upon creating or starting a new literature review:
      1. **Check Web Server**: Verify if the Python web server is running on port 8888 (`curl -s --noproxy '*' http://localhost:8888/api/reviews`). If inactive or stale, clear old processes (`pkill -f "server.py"`) and launch `PYTHONUNBUFFERED=1 .venv/bin/python server.py --port 8888` with `BypassSandbox: true` (skipping port 8080).
      2. **Initialise Python Data & Cache Scripts**: Verify and execute `python3 scripts/build_all_reviews_cache.py` so the new review is indexed in the cache.
-     3. **Ensure Timely Localhost Rendering**: Guarantee `http://localhost:8888/?review=<review_id>` immediately serves and displays the newly created review in time.
+     3. **Ensure Timely Localhost Rendering**: Guarantee `http://localhost:8888/viewer?review=<review_id>` immediately serves and displays the newly created review in time.
 
 ## Saved Review Naming Convention
 All literature reviews created, saved, or suggested MUST follow the standardized naming format:
@@ -65,6 +65,6 @@ proceedings review show <review_id>
 
 # Check server status / Launch interactive web viewer on port 8888 (with BypassSandbox: true)
 curl -s --noproxy '*' http://localhost:8888/api/reviews || python3 server.py --port 8888
-# Open direct review link: http://localhost:8888/?review=<review_id>
+# Open direct review link: http://localhost:8888/viewer?review=<review_id>
 ```
 

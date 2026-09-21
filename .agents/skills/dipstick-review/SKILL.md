@@ -15,9 +15,9 @@ Launch the interactive Literature Review Web Viewer pre-populated with relevant 
    - Initialise required python data preparation/cache scripts (`.venv/bin/python scripts/prepare_viewer_data.py`) if cached dipstick review data is missing.
 2. **Format Query or Review Link**:
    - For keyword search: Format target keywords into a comma-separated query string (e.g. `Generative AI, Learning Analytics`) and construct:
-     `http://localhost:<port>/?keywords=<URL_ENCODED_KEYWORDS>`
+     `http://localhost:<port>/viewer?keywords=<URL_ENCODED_KEYWORDS>`
    - For a specific saved review: Construct the review identifier URL:
-     `http://localhost:<port>/?review=<review_id>`
+     `http://localhost:<port>/viewer?review=<review_id>`
 3. Present the link clearly to the user.
 4. **STOP**: Do NOT execute any background CLI tasks, reviews, extractions, or additional processing unless explicitly requested by the user.
 
@@ -25,7 +25,7 @@ Launch the interactive Literature Review Web Viewer pre-populated with relevant 
 - **NEVER Use Port 8080**: Port 8080 is reserved by macOS Control Center / AirPlay Receiver, which returns 403 / blank responses. Default to port `8888` or next open non-system port (`8889`, `8085`).
 - **Sandbox Mode Execution**: ALWAYS start `python3 server.py` with `BypassSandbox: true` so the process binds directly to the host network interface.
 - **Server Health Check**: Always verify the server is running on an active port before sharing URLs; initiate `python3 server.py --port 8888` if needed.
-- **Review Identifier URLs**: Always use `http://localhost:<port>/?review=<review_id>` when referencing saved reviews so the viewer opens directly to the correct review.
+- **Review Identifier URLs**: Always use `http://localhost:<port>/viewer?review=<review_id>` when referencing saved reviews so the viewer opens directly to the correct review.
 - **Launch Only**: Present the web viewer launcher link and wait for user direction.
 - **Instant Client-Side Search**: Opening the keyword link pre-populates the viewer search bar and filters 2,791 repository titles instantly in **$< 3\text{ ms}$**.
 - **User-Driven Actions**: Saving a review or expanding section scope (`Abstract`, `Methodology`, `Findings`) is controlled directly by the user via the web interface.

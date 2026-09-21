@@ -156,7 +156,7 @@ def import_review(filepath: str, overwrite: bool = False) -> str:
     print(f"  Observations  : {len(observations_list)} unpacked to workspace/observations/")
     print(f"  Review Path   : {dest_json}")
     print("="*60)
-    print(f"\n🚀 Ready to View: http://localhost:8888/?review={review_id}\n")
+    print(f"\n🚀 Ready to View: http://localhost:8888/viewer?review={review_id}\n")
 
     return review_id
 

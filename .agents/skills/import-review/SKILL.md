@@ -49,7 +49,7 @@ Provide a clean confirmation with the imported review details and a direct viewe
 - **Review Name**: Name of the imported review
 - **Papers**: Number of papers matched
 - **Properties & Evidence**: Custom properties and observations unpacked
-- **Launch Link**: [http://localhost:8888/?review=<review_id>](http://localhost:8888/?review=<review_id>)
+- **Launch Link**: [http://localhost:8888/viewer?review=<review_id>](http://localhost:8888/viewer?review=<review_id>)
 
 ## Guardrails
 - **Workspace Isolation**: External reviews and evidence MUST be unpacked into `workspace/`. Never write imported reviews to core system directories.

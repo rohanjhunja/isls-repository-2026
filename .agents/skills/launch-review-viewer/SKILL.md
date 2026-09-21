@@ -12,9 +12,9 @@ Launch, manage, and inspect locally hosted literature review tables via an inter
 - **Local Server Entrypoint**: `PYTHONUNBUFFERED=1 .venv/bin/python server.py --port 8888` (default port `8888`; automatically skips port `8080` due to macOS Control Center conflicts). Always terminate stale instances (`pkill -f "server.py"`) before starting to guarantee instant binding on port 8888 without port scanning delays.
 - **Execution Mode**: ALWAYS run with `BypassSandbox: true` so the server socket is exposed to the local browser on the host machine.
 - **URL Formats**:
-  - **Specific Literature Review**: `http://localhost:<port>/?review=<review_id>` (e.g. `http://localhost:8888/?review=systematic_review_lit_review`)
-  - **Dipstick Keyword Search**: `http://localhost:<port>/?keywords=<URL_ENCODED_KEYWORDS>`
-  - **General Web Viewer**: `http://localhost:<port>/`
+  - **Specific Literature Review**: `http://localhost:<port>/viewer?review=<review_id>` (e.g. `http://localhost:8888/viewer?review=systematic_review_lit_review`)
+  - **Dipstick Keyword Search**: `http://localhost:<port>/viewer?keywords=<URL_ENCODED_KEYWORDS>`
+  - **General Web Viewer**: `http://localhost:<port>/viewer`
 - **REST Endpoints**:
   - `GET /api/dipstick/search?q=<query>&sort_by=<relevance|year>&sort_order=<desc|asc>`: Fielded FTS5 BM25 search with local cross-encoder reranking.
   - `GET /api/dipstick/expand?keywords=<kw>&section=<sec>`: Section-targeted search expansion stream across candidate papers.
@@ -28,7 +28,7 @@ Before sharing or opening any viewer link:
 1. **Check if Server is Running**: Verify if the python server is responding (e.g. `curl -s --noproxy '*' http://localhost:8888/api/reviews`).
 2. **Clean Stale Processes & Initiate Server**: If no response or multiple zombie instances exist, clear old instances (`pkill -f "server.py"`) and start the server (`PYTHONUNBUFFERED=1 .venv/bin/python server.py --port 8888` with `BypassSandbox: true`).
 3. **Initialise Python Data & Cache Scripts**: Check if data prep/cache for the target review is present in `data/derived/reviews_cache/` or `data/reviews/`. If missing or stale, run `.venv/bin/python scripts/prepare_viewer_data.py` or `.venv/bin/python scripts/build_all_reviews_cache.py` to ensure localhost renders the target review immediately.
-4. **Use Direct Review URLs**: Always reference the specific review identifier in shared URLs (`http://localhost:<port>/?review=<review_id>`) so the viewer opens directly to the correct review in time.
+4. **Use Direct Review URLs**: Always reference the specific review identifier in shared URLs (`http://localhost:<port>/viewer?review=<review_id>`) so the viewer opens directly to the correct review in time.
 
 ## Usage & Execution
 

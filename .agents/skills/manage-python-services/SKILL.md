@@ -79,7 +79,7 @@ To restart processing and refresh the web viewer display for a specific review:
    python3 -m proceedings_ingest.cli review sync <review_id>
    ```
 3. **Verify Web Server Initialization**: Ensure `server.py` is running (`curl -s --noproxy '*' http://localhost:8888/api/reviews/<review_id>`). If inactive, start `python3 server.py --port 8888` with `BypassSandbox: true`.
-4. **Timely Localhost Display**: Verify `http://localhost:8888/?review=<review_id>` serves fresh metadata.
+4. **Timely Localhost Display**: Verify `http://localhost:8888/viewer?review=<review_id>` serves fresh metadata.
 
 ---
 

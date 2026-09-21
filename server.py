@@ -123,6 +123,15 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
         query_params = urllib.parse.parse_qs(url_parts.query)
 
         if path in ['/', '/cover', '/cover/']:
+            # If query params targeting review viewer are present on root, redirect seamlessly to /viewer
+            if query_params.get('review') or query_params.get('keywords'):
+                redir_url = f"/viewer?{url_parts.query}"
+                self.send_response(302)
+                self.send_header('Location', redir_url)
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                return
+
             cover_html_path = os.path.join(WEB_DIR, 'index.html')
             if not os.path.exists(cover_html_path):
                 cover_html_path = os.path.join(WEB_DIR, 'cover.html')
@@ -222,6 +231,18 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
             self.wfile.write(json.dumps(data).encode('utf-8'))
             return
 
+        elif path == '/api/overview/external-citations':
+            self.send_response(200)
+            self.send_header('Content-Type', 'application/json; charset=utf-8')
+            self.send_header('Access-Control-Allow-Origin', '*')
+            self.end_headers()
+            category = query_params.get('category', [None])[0]
+            venues_str = query_params.get('venues', [None])[0]
+            venues = [v.strip() for v in venues_str.split(',') if v.strip()] if venues_str else None
+            data = OVERVIEW_SERVICE.get_external_citation_trends(category=category, venues=venues)
+            self.wfile.write(json.dumps(data).encode('utf-8'))
+            return
+
         elif path == '/api/overview/papers':
             self.send_response(200)
             self.send_header('Content-Type', 'application/json; charset=utf-8')
@@ -231,6 +252,8 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
             label = query_params.get('label', [None])[0]
             year = query_params.get('year', [None])[0]
             author = query_params.get('author', [None])[0]
+            external_venue = query_params.get('external_venue', [None])[0]
+            external_category = query_params.get('external_category', [None])[0]
             start_year = None
             end_year = None
             if year:
@@ -247,7 +270,9 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
             limit = int(query_params.get('limit', ['25'])[0])
             data = OVERVIEW_SERVICE.get_papers(dimension=dim, label=label,
                                                start_year=start_year, end_year=end_year,
-                                               author=author, min_centrality=min_c, limit=limit)
+                                               author=author, external_venue=external_venue,
+                                               external_category=external_category,
+                                               min_centrality=min_c, limit=limit)
             self.wfile.write(json.dumps(data).encode('utf-8'))
             return
 

@@ -348,7 +348,7 @@ class DipstickEngine:
             f.write(f"- **Keywords**: {', '.join(keywords)}\n\n")
             f.write("## Web Viewer Launch Link\n\n")
             kw_param = urllib.parse.quote(", ".join(keywords))
-            f.write(f"[🚀 Launch Interactive Web Viewer for this Review](http://localhost:8888/?keywords={kw_param}&review={review_id})\n")
+            f.write(f"[🚀 Launch Interactive Web Viewer for this Review](http://localhost:8888/viewer?keywords={kw_param}&review={review_id})\n")
 
         return manifest
 
