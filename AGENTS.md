@@ -32,10 +32,11 @@ python3 server.py --port 8888
 
 ## Agent Workflows & Skills Index
 
-All 15 agent skills are defined in `.agents/skills/` and can be invoked directly by Antigravity or executed via terminal commands with Claude Desktop / Claude Code:
+All 16 agent skills are defined in `.agents/skills/` and can be invoked directly by Antigravity or executed via terminal commands with Claude Desktop / Claude Code:
 
 | Skill Name | Location | Primary Command / Procedure |
 | :--- | :--- | :--- |
+| `plan-data-requirements` | `.agents/skills/plan-data-requirements/SKILL.md` | Pre-flight data requirements audit & query projection planning |
 | `setup` | `.agents/skills/setup/SKILL.md` | 1-click full system initialization: type `setup` |
 | `update` | `.agents/skills/update/SKILL.md` | Safely pull core updates from git: type `update` |
 | `import-review` | `.agents/skills/import-review/SKILL.md` | Import external review bundle: type `import <file>` |
@@ -54,6 +55,18 @@ All 15 agent skills are defined in `.agents/skills/` and can be invoked directly
 
 ## Core Rules & Guardrails
 - **Workspace Boundary & Root Change Warning**: All user reviews, extracted evidence, custom properties, and exports MUST be created inside `workspace/`. Antigravity and Claude agents MUST ALWAYS warn the user before editing any core system files outside `workspace/` (e.g. `src/`, `web/`, `scripts/`, `data/sample_reviews/`) that such edits will cause merge conflicts or be overwritten upon running `update` (`git pull`), and MUST require explicit user confirmation before proceeding.
+- **Zero-Hallucination Metadata & Full-Text Invariant (Strict Presentation-Query Parity)**: Any database attribute rendered in user-facing tables, cards, lists, or citations (Author, Year, Venue, DOI, Handle, Page numbers, Section text) MUST exist in the tool execution result within context. Agents are strictly forbidden from generating ungrounded metadata from parametric memory. If an output field is missing, the agent MUST run a secondary point lookup or omit the field. Pre-flight query planning via `plan-data-requirements` is mandatory before tabular or analytical synthesis.
+- **Dual-Mode Query Scoping**:
+  - *Mode A (User-Facing Tables & Selections)*: Mandatory Tier 1 Canonical Projection (`p.id, p.title, p.citation, p.year, p.conference, p.paper_type, p.doi, p.handle_url, p.start_page, p.end_page`) ensuring complete author and bibliographic grounding (~40 tokens/paper).
+  - *Mode B (Bulk Aggregation, Counts & Screening)*: Mandatory lightweight projections (`SELECT id, year, conference FROM papers`) to eliminate context window waste.
+  - *Mode C (Full-Text Extraction)*: Secondary bounded text slices (`substr(text, 1, N)`) or FTS5 BM25 `snippet()` targeted by `normalized_section`.
+- **The Source Sigil System (Highest Structural Level & Epistemic Warnings)**:
+  - `◈` **Database Ground Truth**: Direct, unmodified record from `proceedings.db`.
+  - `◇` **Database-Derived Metric**: Deterministic quantitative calculation/aggregation over DB records.
+  - `⌕` **Verbatim Evidence Quote**: Exact text extracted directly from paper sections or abstracts.
+  - `✦` **Agentic Synthesis / Inferred**: Review alert for AI-inferred qualitative codes, frameworks, or summaries.
+  - *Structural Rule*: Place sigils at the highest structural level (column headers for homogeneous table columns; trailing end-of-paragraph/sentence for prose). Never place sigils mid-sentence or within dedicated brackets (use `✦⌕`, not `[✦⌕]`).
+  - *Key Label*: Always label the explanatory key as `Source: ◈ Database Record | ◇ Database-Derived Metric | ⌕ Verbatim Section Evidence | ✦ Agent-Synthesized Coding`.
 - **Port 8080 Conflict**: NEVER bind to port `8080` (reserved by macOS Control Center / AirPlay Receiver). Always use port `8888` (or `8889` / `8085`).
 - **Dipstick Pre-Check Mandatory**: Dipstick review is the foundational first step. Check or verify that an initial dipstick review has been conducted before performing heavy section parsing or property extractions.
 - **Traceable Verbatim Evidence**: Never invent or hallucinate values. Every extracted observation requires exact verbatim source text from candidate sections.
