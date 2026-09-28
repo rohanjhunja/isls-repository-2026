@@ -1,6 +1,6 @@
 # “What Should We Do With All These Webcams?” a Low-Cost Motion Capture System for Embodied, Ensemble Learning in Mixed-Reality Mathematics Activities
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

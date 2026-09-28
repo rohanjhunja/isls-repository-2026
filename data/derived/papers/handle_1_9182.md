@@ -1,6 +1,6 @@
 # Quantifying Differences in Students’ Participation Patterns in Classroom Discussions
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

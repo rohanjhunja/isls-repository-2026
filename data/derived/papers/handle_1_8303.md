@@ -1,6 +1,6 @@
 # More Than a “Clicker”: Scaffolding Learner-Learner Classroom Talk With a Tablet Application
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

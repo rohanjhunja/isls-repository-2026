@@ -1,6 +1,6 @@
 # Examining High School Students’ Self-Efficacy in Machine Learning Practices
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

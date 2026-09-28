@@ -1,6 +1,6 @@
 # Combining Participatory Research With Responsible Research and Innovation to Develop Emerging Educational Technologies
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

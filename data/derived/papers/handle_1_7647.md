@@ -1,6 +1,6 @@
 # Merging Teacher Professional Development with Designing Curriculum Incorporating Cutting-Edge Science in a Natural History Museum
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

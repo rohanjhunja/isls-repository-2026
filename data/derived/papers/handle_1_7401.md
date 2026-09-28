@@ -1,6 +1,6 @@
 # Undergraduate students reasoning about genetic mechanisms
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

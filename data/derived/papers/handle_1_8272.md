@@ -1,6 +1,6 @@
 # Teacher-Led Debriefing in Computer-Supported Collaborative Learning Pyramid Scripts
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

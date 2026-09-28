@@ -1,6 +1,6 @@
 # Supporting Students’ Critical Action Within a Cultural Context: A Role for Arts-Based Pedagogy in a Community of Learners
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

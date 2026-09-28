@@ -1,6 +1,6 @@
 # A Temporal Toolkit for Analyzing Agency in Open-Ended Work
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

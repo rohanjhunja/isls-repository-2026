@@ -1,6 +1,6 @@
 # Supporting Students Remotely: Integrating Mathematics and Science in Virtual Labs
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

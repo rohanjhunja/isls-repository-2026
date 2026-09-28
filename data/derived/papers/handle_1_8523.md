@@ -1,6 +1,6 @@
 # Paths Through Data: Successes and Future Directions in Supporting Student Reasoning About Environmental Racism
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Co-Designing AI-Based Orchestration Tools to Support Dynamic Transitions: Design Narratives Through Conjecture Mapping
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

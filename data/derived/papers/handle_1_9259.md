@@ -1,6 +1,6 @@
 # Idea Wall: A Real-Time Collaboration Tool to Support and Orchestrate Knowledge Construction Across Multiple Social Planes
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # The Way to Better Learning Online: Using Online Discussions in College Classes During COVID-19
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

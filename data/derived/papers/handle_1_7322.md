@@ -1,6 +1,6 @@
 # Analyzing Debugging Processes during Collaborative, Computational Modeling in Science
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

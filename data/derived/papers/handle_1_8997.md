@@ -1,6 +1,6 @@
 # How Adolescent Learners in a STEM Summer Camp Represent Astronomy Concepts Through a Drawing Exercise
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

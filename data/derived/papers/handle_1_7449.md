@@ -1,6 +1,6 @@
 # Anything But Race: Race-Evasion and Color-blindness in Preservice Teachers’ Responses to a Hypothetical Scenario
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

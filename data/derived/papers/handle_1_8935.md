@@ -1,6 +1,6 @@
 # Racism With Antiracists: Examining Sensemaking in a School-University Partnership for Antiracism
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

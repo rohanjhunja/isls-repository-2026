@@ -1,6 +1,6 @@
 # Training a Text Classification Algorithm to Predict the Presence of Dispositions and Learning Shifts in Students’ Self-Reflection
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Technocentrism in Visitors’ Views of Computing and Computing Education in Informal Spaces
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Students' Ideas About Evidentiary Fit and Its Role in Modeling Practice
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

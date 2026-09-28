@@ -1,6 +1,6 @@
 # Understanding the Role of Negotiation Processes in Collaborative Engineering Estimation Problem-Solving
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

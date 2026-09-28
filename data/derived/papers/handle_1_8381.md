@@ -1,6 +1,6 @@
 # Connecting Social Reading and Writing: A Social Annotation Synthesizer Tool
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

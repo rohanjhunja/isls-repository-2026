@@ -1,6 +1,6 @@
 # E-Textile Fashion: Designing Maker Activity for Chinese Migrant Girls
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Elevating the Ways in Which Latina Mothers Perceive, Do, and Envision Early STEM Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

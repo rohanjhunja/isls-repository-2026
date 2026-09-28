@@ -1,6 +1,6 @@
 # Teacher Motivation Toward Professional Development Following Emergency Remote Teaching Experiences
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

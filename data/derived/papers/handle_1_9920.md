@@ -1,6 +1,6 @@
 # Generative and Hindering Roles of Student-Material Intra-Actions in a University Makerspace
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

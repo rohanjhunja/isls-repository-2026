@@ -1,6 +1,6 @@
 # Bridging the Distance': Developing Entrepreneurial Thinking in an International and Interdisciplinary Learning Environment
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

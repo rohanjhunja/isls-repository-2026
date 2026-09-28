@@ -1,6 +1,6 @@
 # Supporting Collaborative Learning About the Nature of Science and STEM Identity Development in a High-School Biology Class in Ontario
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Authentic Invitations: Offering Girls of Color Voluntary, Contextual, and Responsive Opportunities to Develop Computing Identities
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

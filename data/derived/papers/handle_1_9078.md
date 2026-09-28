@@ -1,6 +1,6 @@
 # Harmonized Mutual Development Through Exploring and Creating Sound
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

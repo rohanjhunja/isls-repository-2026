@@ -25,7 +25,7 @@ def test_database_insert_and_bm25_search():
         "title": "Resolving Expert Disagreement by Evaluating Misrepresentations",
         "year": 2024,
         "conference": "ISLS Annual Meeting 2024",
-        "paper_type": "Poster / Short Note",
+        "paper_type": "Poster",
         "abstract": "This study investigates expert disagreement in scientific learning.",
         "authors": ["Chinn, Clark A.", "Mochizuki, Toshio"],
     }

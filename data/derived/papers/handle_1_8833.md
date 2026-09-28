@@ -1,6 +1,6 @@
 # Relevance of Students’ Goals for Learning Engagement and Knowledge Gains in an Online Learning Course
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

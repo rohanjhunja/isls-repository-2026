@@ -1,6 +1,6 @@
 # Designing for Technological Sovereignty: Forms of Relating With Culture and Technology Through Community Workshops
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

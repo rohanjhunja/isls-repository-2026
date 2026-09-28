@@ -1,6 +1,6 @@
 # Characterizing Stakeholder Change Agency During Expansive Learning Processes
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # The Use of Narrative in the Development of Spatial Sensemaking Practices
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

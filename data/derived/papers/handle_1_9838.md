@@ -1,6 +1,6 @@
 # Virtual Reality Induces Awe but Possibly Not Accommodation
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

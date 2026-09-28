@@ -1,6 +1,6 @@
 # STEM Enrichment and Career Development: Analysis of NSF’s Young Scholars Program
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # What Happens When Collaborators Are Not In-Synch?
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

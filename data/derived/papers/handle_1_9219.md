@@ -1,6 +1,6 @@
 # Agency at Scale: Embedding Interpersonal Interaction and Collaboration in an Online Professional Development Platform
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

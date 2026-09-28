@@ -1,6 +1,6 @@
 # High School Science Education in a “Post-Truth” Society: Confronting Confirmation Bias With Students and Teachers
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

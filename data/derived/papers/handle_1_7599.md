@@ -1,6 +1,6 @@
 # Kitchen Science at Home: Engaging pre-school children through distance education during covid-19 quarantine
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

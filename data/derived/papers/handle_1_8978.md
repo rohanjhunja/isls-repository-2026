@@ -1,6 +1,6 @@
 # Aspiring for Equity: Perspectives From Design of AI Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

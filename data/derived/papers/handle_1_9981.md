@@ -1,6 +1,6 @@
 # Reimagining Learning Research in “canada” as “road Making”: Opportunities to Move Toward Equity Through Walking Methodologies
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

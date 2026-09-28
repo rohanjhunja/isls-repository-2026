@@ -1,6 +1,6 @@
 # The Construction of Mathematical Authority in a First Grade Classroom
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

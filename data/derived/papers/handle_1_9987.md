@@ -1,6 +1,6 @@
 # Coding as Another Language: An International Comparative Study of Learning Computer Science and Computational Thinking in Kindergarten
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

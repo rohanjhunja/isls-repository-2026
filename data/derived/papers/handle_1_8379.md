@@ -1,6 +1,6 @@
 # Speech Analytics on Individual and Group Audio Data to Understand Collaboration
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

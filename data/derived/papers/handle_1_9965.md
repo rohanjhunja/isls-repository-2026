@@ -1,6 +1,6 @@
 # Who is Disabled? The Social Construction of Disabled Bodies in Embodied Activity
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

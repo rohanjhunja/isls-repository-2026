@@ -1,6 +1,6 @@
 # Guided Epistemic Expansion in a Science Classroom
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

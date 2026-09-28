@@ -1,6 +1,6 @@
 # Mediating Elementary Students’ Mechanistic Reasoning in Collective Embodied Modeling Activities
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

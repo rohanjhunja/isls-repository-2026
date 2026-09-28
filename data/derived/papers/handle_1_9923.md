@@ -1,6 +1,6 @@
 # Supporting Diversity, Equity, and Inclusion Through Productive Disciplinary Engagement and Expansive Framing
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

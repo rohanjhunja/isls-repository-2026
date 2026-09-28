@@ -1,6 +1,6 @@
 # Beyond Belief: Disinformation Strategies and Collective Knowledge Building Led by Jair Bolsonaro in Brazil
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

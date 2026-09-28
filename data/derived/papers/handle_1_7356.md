@@ -1,6 +1,6 @@
 # Supporting Learning Interaction in a Distributed Learning Environment with Tangible User Interfaces
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Embodiment and Social Interactions in a Class Virtual Reality Poster Session
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

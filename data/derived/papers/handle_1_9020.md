@@ -1,6 +1,6 @@
 # Creating Comics About COVID-19 to Understand the Intersections Between Science, Community, and Equity
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

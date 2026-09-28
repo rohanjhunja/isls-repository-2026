@@ -1,6 +1,6 @@
 # Leveraging Computationally Generated Descriptions of Audio Features to Enrich Qualitative Examinations of Sustained Uncertainty
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

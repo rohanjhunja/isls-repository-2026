@@ -1,6 +1,6 @@
 # “Growing as a Person”: Authoring Identity Across Formal CS Education and Everyday Computing Contexts
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

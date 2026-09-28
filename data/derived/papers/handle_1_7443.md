@@ -1,6 +1,6 @@
 # Observing or Generating Solution Attempts in Problem Solving Prior to Instruction: Are the Preparatory Processes Comparable?
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

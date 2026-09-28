@@ -1,6 +1,6 @@
 # Mathematics Teachers’ Interpretations of Students’ Perceptions of the Classroom Learning Environment: Opportunities for Inquiry and Insight Into Pedagogical Commitments
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

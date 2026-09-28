@@ -1,6 +1,6 @@
 # Fake News Literacy: Intuitive vs. Analytic Processing
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

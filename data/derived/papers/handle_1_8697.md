@@ -1,6 +1,6 @@
 # Exploring Elementary School Students’ Clusters in Blended Mathematics Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

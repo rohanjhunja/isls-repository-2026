@@ -9,7 +9,7 @@ def test_parse_page_range():
 
 def test_parse_paper_type():
     ptype = parse_paper_type("Resolving Expert Disagreement", "pp. 2515-2516", 2515, 2516)
-    assert ptype == "Poster / Short Note"
+    assert ptype == "Poster"
 
     ptype_full = parse_paper_type("Deep Study on Learning", "pp. 100-108", 100, 108)
     assert ptype_full == "Full Paper"

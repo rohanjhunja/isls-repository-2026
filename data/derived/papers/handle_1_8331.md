@@ -1,6 +1,6 @@
 # SimSnap: Supporting Collaborative Learning Through Reconfigurable Simulations
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

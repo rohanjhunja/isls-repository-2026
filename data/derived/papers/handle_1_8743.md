@@ -1,6 +1,6 @@
 # “It’s So Frustrating!” Understanding Design Dilemmas in Co-Design Through Curricular Values
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

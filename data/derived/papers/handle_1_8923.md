@@ -1,6 +1,6 @@
 # “The Game Was Designed to Learn to Think” – Player Perceptions of Learning in an Educational Game
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

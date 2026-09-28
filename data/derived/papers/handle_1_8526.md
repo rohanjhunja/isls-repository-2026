@@ -1,6 +1,6 @@
 # “For the RE[STORY]”: How an Adolescent Black Girl Reimagines Computing Technology Through Electronic Textile Quilting
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

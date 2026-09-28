@@ -1,6 +1,6 @@
 # Epistemic Excursions as Agentive Meaning Making within a Digital Plate Tectonics Curriculum
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

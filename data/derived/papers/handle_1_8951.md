@@ -1,6 +1,6 @@
 # The Role of Action-Prediction in Mathematical Reasoning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

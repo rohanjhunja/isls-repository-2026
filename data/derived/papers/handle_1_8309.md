@@ -1,6 +1,6 @@
 # Comparing Collaborative Problem Solving Profiles Derived From Human and Semi-Automated Annotation
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

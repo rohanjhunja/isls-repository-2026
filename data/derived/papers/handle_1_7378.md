@@ -1,6 +1,6 @@
 # A Tale of Two PDs: Exploring Teachers' Experiences in Co-designing Computational Activities
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

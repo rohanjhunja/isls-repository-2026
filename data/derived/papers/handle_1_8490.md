@@ -1,6 +1,6 @@
 # Artificial Intelligence (AI) in Education: Addressing Societal and Ethical Challenges in K-12 Settings
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

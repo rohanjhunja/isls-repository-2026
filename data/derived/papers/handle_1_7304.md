@@ -1,6 +1,6 @@
 # Examining how Three Network Visualizations Influence Student Engagement in Online Discussions
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

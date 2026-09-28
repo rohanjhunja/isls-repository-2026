@@ -1,6 +1,6 @@
 # Scaffolding Middle School Children’s Coding Experiences in an Open-Ended Social Robotics Program
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

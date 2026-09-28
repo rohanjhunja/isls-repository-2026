@@ -1,6 +1,6 @@
 # What’s Worth Solving? An Expert Study to Identify Problem-Finding Strategies Within a Socio-Scientific Issue
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

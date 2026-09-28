@@ -1,6 +1,6 @@
 # Analyzing Peer Interaction as Asynchronous Online Professional Development Scales Up to Include More Teachers
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

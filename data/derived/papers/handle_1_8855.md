@@ -1,6 +1,6 @@
 # Locating as a Temporally-Oriented Practice for Noticing Data for Improvement
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Infrastructuring Pathways to Technology Learning for Older Adults in a Public Library
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

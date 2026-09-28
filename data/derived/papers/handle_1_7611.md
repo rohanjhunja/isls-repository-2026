@@ -1,6 +1,6 @@
 # Learning to be Open: Expansive Family Networks and  Emotional Support as Connection Pathways
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

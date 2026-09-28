@@ -1,6 +1,6 @@
 # Make with Data: Challenging and contextualizing open-source data with personal and local knowledge
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

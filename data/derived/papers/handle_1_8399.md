@@ -1,6 +1,6 @@
 # The Effect of Weekly Writing and Peer Reviewing Upon Students’ Writing Competence
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

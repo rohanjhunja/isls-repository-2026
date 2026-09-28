@@ -1,6 +1,6 @@
 # Learning Scientists’ Perceptions of Their Impact on Teacher Education Programs
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

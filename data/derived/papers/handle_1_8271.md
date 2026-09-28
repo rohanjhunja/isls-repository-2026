@@ -1,6 +1,6 @@
 # Analyzing Students’ Written Arguments by Combining Qualitative and Computational Approaches
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

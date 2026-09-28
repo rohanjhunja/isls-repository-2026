@@ -1,6 +1,6 @@
 # Students’ Constructed Explanations for How Artificial Intelligence Generates Recommendations in YouTube
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

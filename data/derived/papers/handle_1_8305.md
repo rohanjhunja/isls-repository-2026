@@ -1,6 +1,6 @@
 # End-User Programming on Large Online Knowledge Sharing Platforms as Collective Epistemic Resource Producing Activity
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

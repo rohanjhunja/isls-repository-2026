@@ -1,6 +1,6 @@
 # How Embodiment Helps Students Explain Their Ideas Within an MR Environment and Content Interviews
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Examining Equity in Facilitation of Tinkering and Making in STEAM
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

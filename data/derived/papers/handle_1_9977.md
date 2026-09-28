@@ -1,6 +1,6 @@
 # Building and Sustaining Research Practice Partnerships: Variations on Opportunities and Challenges
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

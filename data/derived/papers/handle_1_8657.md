@@ -1,6 +1,6 @@
 # Navigating the Conceptual and Critical Demands of Data Literacy in High School Spaces Using Firsthand Data
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

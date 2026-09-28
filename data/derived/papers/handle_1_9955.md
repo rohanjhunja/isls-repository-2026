@@ -1,6 +1,6 @@
 # “Shake the Slinky More”: Exploring the Medley of Meaning in Middle School Science Students’ Language
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

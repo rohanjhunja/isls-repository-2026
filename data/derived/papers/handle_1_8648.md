@@ -1,6 +1,6 @@
 # A Study of the Development of Evaluation Methods for Dialogical Reports in PBL Classes
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

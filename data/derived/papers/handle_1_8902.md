@@ -1,6 +1,6 @@
 # LF-LKT: A Logistic Regression Knowledge Tracing Model Integrating Learning and Forgetting
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

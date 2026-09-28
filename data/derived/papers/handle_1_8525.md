@@ -1,6 +1,6 @@
 # Collaborating Online Through a Pandemic: Designing Virtual Spaces for Rightful Presence
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

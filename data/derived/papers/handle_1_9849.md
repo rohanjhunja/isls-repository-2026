@@ -1,6 +1,6 @@
 # WearableLearning: Developing Computational Thinking Through Modeling, Simulation, and Computational Problem Solving
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

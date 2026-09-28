@@ -1,6 +1,6 @@
 # Intertwining Art and STEM: An Analysis of STEAM Activities
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

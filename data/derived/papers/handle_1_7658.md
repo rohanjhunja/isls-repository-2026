@@ -1,7 +1,7 @@
 # Epistemological Understanding of History in Lower Secondary Education, and its Influence on Historical 
 Reasoning Skills
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

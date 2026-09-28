@@ -1,6 +1,6 @@
 # Making Sense of Machine Learning: Integrating Youth’s Conceptual, Creative, and Critical Understandings of AI
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

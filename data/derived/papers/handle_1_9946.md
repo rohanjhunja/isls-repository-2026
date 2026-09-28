@@ -1,6 +1,6 @@
 # Preparing Students for a “Post-Truth” World: The Epistemic Unfriendliness of Science Curricula
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

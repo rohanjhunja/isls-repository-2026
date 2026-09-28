@@ -1,6 +1,6 @@
 # Seeing Histories in Bodies, Places, and Disciplinary Learning: Historicizing Methodologies
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

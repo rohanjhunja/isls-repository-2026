@@ -1,7 +1,7 @@
 # Exploring Affordances Provided by Online Non-Curricular Resources to Uundergraduate Students 
 Learning Software Development
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

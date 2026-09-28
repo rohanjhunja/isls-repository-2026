@@ -1,6 +1,6 @@
 # Learning Health Sanitary Practices Through Scaffolded Questioning in Interactive eBooks for Young Children
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

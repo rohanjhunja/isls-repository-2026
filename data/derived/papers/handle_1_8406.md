@@ -1,6 +1,6 @@
 # Exploring the Process of Group-Based Collaboration: A Validation Argument for a Collaboration Model and Observation Rubric for Training Explainable Machine Learning Models
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

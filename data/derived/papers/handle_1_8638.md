@@ -1,6 +1,6 @@
 # Using Organizational Change Theories to Examine Women-in-Computing Groups
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

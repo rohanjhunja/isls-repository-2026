@@ -1,6 +1,6 @@
 # Using Epistemic Network Analysis to Explore Discourse Patterns Across Design Iterations of a Teacher Dashboard
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

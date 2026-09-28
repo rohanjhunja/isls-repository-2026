@@ -1,6 +1,6 @@
 # The Value of Using Roles while Collaboratively Writing Synthesis Texts in University
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

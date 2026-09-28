@@ -1,6 +1,6 @@
 # Model-Based Reasoning with Immersive VR Simulations:  Patterns of Use Grounded in Time and 3D Space
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

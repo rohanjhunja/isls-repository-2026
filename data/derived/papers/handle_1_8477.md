@@ -1,6 +1,6 @@
 # Comprehensive Student Records as a Tool for Networked and Connected Learning: Using Social Media Research to Frame Inquiry
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

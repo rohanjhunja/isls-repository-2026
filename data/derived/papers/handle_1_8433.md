@@ -1,6 +1,6 @@
 # Constructing a Mathematical Identity as an Adolescent Black Girl
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

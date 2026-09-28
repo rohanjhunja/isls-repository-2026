@@ -1,6 +1,6 @@
 # Use of Crosscutting Concepts as Epistemic Heuristics
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

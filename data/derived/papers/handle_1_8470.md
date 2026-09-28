@@ -1,6 +1,6 @@
 # Creating Synergistic Scaffolding Between the Tools of Discourse and Technology
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

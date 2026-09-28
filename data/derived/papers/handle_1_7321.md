@@ -1,6 +1,6 @@
 # Designing Online Teaching for Equitable Distribution of Student Engagement in Collaborative Small Groups: The Effects of Group Building and Reciprocal Feedback
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

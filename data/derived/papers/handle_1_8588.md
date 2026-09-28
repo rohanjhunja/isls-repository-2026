@@ -1,6 +1,6 @@
 # Regulation of Teaching as an Individual or Collaborative Process: Theory Meets Practice
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

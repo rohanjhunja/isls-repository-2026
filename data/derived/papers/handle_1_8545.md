@@ -1,6 +1,6 @@
 # “Love Struggle, Love Self, Regardless*:” Arts Organization Leader’s Use of Socio-Historical Analytic Artifacts in Their Determinations of Successful Teaching Artists
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Children’s Place-Based Gesture: An Understudied Resource in Socio-Ecological Sensemaking
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

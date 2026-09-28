@@ -1,6 +1,6 @@
 # Data in the Wild: An Exploration Into Hobbies as Contexts for Data Literacies
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Multimodal Learning Analytics Using Hierarchical Models for Analyzing Team Performance
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

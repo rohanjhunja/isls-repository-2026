@@ -1,6 +1,6 @@
 # Deepening Students’ Understanding of Socio-Scientific Issues Through Graph-Oriented Computer Supported Collaborative Argumentation: An Exploratory Study
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

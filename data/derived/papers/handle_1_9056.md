@@ -1,6 +1,6 @@
 # A Comparison of Refutational and Rhetorical Aspects in Science Arguments by Grade Level
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

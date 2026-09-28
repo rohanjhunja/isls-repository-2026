@@ -29,7 +29,7 @@ class TestConferenceYearUpdate(unittest.TestCase):
         self.assertEqual(year_2026, 2026)
 
     def test_all_derived_papers_have_valid_conference_and_year(self):
-        volumes = [d for d in os.listdir(self.derived_dir) if os.path.isdir(os.path.join(self.derived_dir, d)) and d not in ('reviews_cache', 'legacy_backup')]
+        volumes = [d for d in os.listdir(self.derived_dir) if d.endswith("-proceedings")]
         self.assertEqual(len(volumes), 12)
 
         total_papers = 0
@@ -65,15 +65,21 @@ class TestConferenceYearUpdate(unittest.TestCase):
 
         cursor.execute("SELECT COUNT(*) FROM papers")
         count = cursor.fetchone()[0]
-        self.assertEqual(count, 2791)
+        self.assertEqual(count, 5305)
 
-        # Check sample paper JSON from DB
-        cursor.execute("SELECT data_json FROM papers LIMIT 1")
-        sample_json_str = cursor.fetchone()[0]
-        sample_paper = json.loads(sample_json_str)
+        # Check conference distribution from DB: strictly CSCL and ICLS, zero ISLS
+        cursor.execute("SELECT DISTINCT conference FROM papers ORDER BY conference")
+        confs = [row[0] for row in cursor.fetchall()]
+        self.assertEqual(confs, ["CSCL", "ICLS"])
 
-        self.assertIsNotNone(sample_paper.get("conference"))
-        self.assertIn(sample_paper.get("conference", {}).get("acronym"), ["CSCL", "ICLS", "ISLS"])
+        cursor.execute("SELECT COUNT(*) FROM papers WHERE conference = 'ISLS'")
+        self.assertEqual(cursor.fetchone()[0], 0)
+
+        cursor.execute("SELECT COUNT(*) FROM papers WHERE conference = 'CSCL'")
+        self.assertEqual(cursor.fetchone()[0], 1026)
+
+        cursor.execute("SELECT COUNT(*) FROM papers WHERE conference = 'ICLS'")
+        self.assertEqual(cursor.fetchone()[0], 4279)
         conn.close()
 
     def test_review_service_conference_field(self):

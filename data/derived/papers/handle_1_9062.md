@@ -1,6 +1,6 @@
 # Translanguaging as a Tool to (Re)Connect: Co-Designing Land-Based Learning Environments With Refugee Children
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

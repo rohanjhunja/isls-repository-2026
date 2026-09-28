@@ -1,6 +1,6 @@
 # Intertwined Development of Interest Pursuits
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

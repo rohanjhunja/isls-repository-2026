@@ -1,6 +1,6 @@
 # What If? An Invitation to Be in Someone Else’s Shoes: Social Perspective Taking in Dialogical Contexts
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

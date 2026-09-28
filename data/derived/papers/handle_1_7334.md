@@ -1,6 +1,6 @@
 # Technology’s Role in Supporting Collaborative Interactions: An Ecological Approach
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

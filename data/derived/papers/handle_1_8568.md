@@ -1,6 +1,6 @@
 # Design-Based Research to Improve the Lesson Study Project for Co-Evolution of Research, Development and Practices
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

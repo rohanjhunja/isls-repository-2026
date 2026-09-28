@@ -1,6 +1,6 @@
 # How do Key Network Actors Shape Discourse in Twitter Hashtag Streams? A Two-Year Comparative Analysis of an Agricultural Educators' Conference
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

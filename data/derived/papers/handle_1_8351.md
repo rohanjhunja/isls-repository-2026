@@ -1,6 +1,6 @@
 # How to Teach Computer Science/Computational Thinking: Collaborative Online CS/CT Professional Development
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

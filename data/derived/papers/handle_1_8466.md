@@ -1,6 +1,6 @@
 # Applying Deweyan Perspective of Inquiry to Teaching Experimentation Using Simulation
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

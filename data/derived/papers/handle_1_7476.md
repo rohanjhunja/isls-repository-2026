@@ -1,6 +1,6 @@
 # Rebuilding the Industrial Revolution: Using Minecraft in Teacher Education in Social Studies
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

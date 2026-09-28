@@ -1,6 +1,6 @@
 # Reimagining the Future of Teaching and Learning Using Black Feminist-Womanist Storytelling Methodologies
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Classroom Talk for Learning: Support for and From Microblogging
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

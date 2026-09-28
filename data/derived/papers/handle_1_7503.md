@@ -1,6 +1,6 @@
 # Empowering Students to be Data Literate: The Design and Implementation of a Learning Environment to Foster Critical Data Literacy
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

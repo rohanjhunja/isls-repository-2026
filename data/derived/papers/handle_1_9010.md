@@ -1,6 +1,6 @@
 # Technological Repurposing: Extending Pedagogical Design Capacity to Include Technological Adaptations
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

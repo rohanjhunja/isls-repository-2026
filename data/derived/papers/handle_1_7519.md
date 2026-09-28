@@ -1,6 +1,6 @@
 # Understanding Goals, Pedagogical Frameworks, and Relationships in Community-based Participatory Design
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

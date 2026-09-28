@@ -1,6 +1,6 @@
 # Key Elements of a Critical Approach to Financial Literacy
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

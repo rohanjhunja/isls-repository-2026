@@ -1,6 +1,6 @@
 # Emotion and Emotion Regulation Matter: A Case Study on Teachers’ Online Teaching Experience During COVID-19
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

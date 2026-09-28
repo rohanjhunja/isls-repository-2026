@@ -1,6 +1,6 @@
 # Exploring an Online Simulation Before Lecture Improves Undergraduate Chemistry Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

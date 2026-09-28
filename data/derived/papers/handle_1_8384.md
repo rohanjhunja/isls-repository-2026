@@ -1,6 +1,6 @@
 # Prior Experience of Students, Teachers, or Both? Impacts on Affective Factors for Physical Computing
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

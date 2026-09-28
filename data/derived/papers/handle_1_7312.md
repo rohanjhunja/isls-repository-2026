@@ -1,6 +1,6 @@
 # Automated Tracking of Student Activities in a Makerspace Using Motion Sensor Data
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

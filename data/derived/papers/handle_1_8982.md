@@ -1,6 +1,6 @@
 # Designing to Enhance Academic Buoyancy: A Snapshot of First Steps in a Second Level School Setting
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Engaging With Glucose Equilibrium Mechanistic Accounts: Type 1 Diabetes Case Study
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

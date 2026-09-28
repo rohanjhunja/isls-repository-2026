@@ -1,6 +1,6 @@
 # Less Is More: Balancing Tradeoffs in an Engineering Design Task During a Teacher Workshop
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Co-designing Technology Scaffolds and Scripts for Co-regulated, Adaptable Learning Community Curricula
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

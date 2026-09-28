@@ -1,6 +1,6 @@
 # Preschoolers’ Embodied and Shared Self-Regulation Through Computational Thinking
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

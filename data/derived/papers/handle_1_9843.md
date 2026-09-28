@@ -1,6 +1,6 @@
 # Taking and Getting Perspectives on Controversial Topics: How Does It Change Attitudes and Affect Learning?
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

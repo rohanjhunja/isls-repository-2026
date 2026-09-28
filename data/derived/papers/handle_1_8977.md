@@ -1,6 +1,6 @@
 # Agents, Models, and Ethics: Importance of Interdisciplinary Explorations in AI Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

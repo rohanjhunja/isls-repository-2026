@@ -1,6 +1,6 @@
 # “I’m Still Learning”: Experienced Mathematics Teachers’ Development of Adaptive Expertise Amidst the COVID-19 Pandemic
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

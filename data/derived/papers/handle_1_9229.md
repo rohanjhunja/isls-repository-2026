@@ -1,6 +1,6 @@
 # A Group Awareness Tool for Self-Assessment and Visualization of Participation: Its Effect on the Regulation of Unequal Participation
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

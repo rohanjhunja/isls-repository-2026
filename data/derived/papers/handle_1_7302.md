@@ -1,6 +1,6 @@
 # Click Restraint: Teaching Students to Analyze Search Results
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

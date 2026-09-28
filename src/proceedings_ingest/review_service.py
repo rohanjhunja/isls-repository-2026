@@ -494,6 +494,29 @@ class ReviewService:
             with open(path, "r", encoding="utf-8") as f:
                 return Paper(**json.load(f))
 
+        # Check derived volume JSONs
+        if not hasattr(self, "_volume_papers_cache"):
+            self._volume_papers_cache = {}
+            derived_dir = os.path.join(self.data_dir, "derived")
+            if os.path.exists(derived_dir):
+                for v in os.listdir(derived_dir):
+                    if v.endswith("-proceedings"):
+                        vpath = os.path.join(derived_dir, v, f"{v}.json")
+                        if os.path.exists(vpath):
+                            try:
+                                with open(vpath, "r", encoding="utf-8") as vf:
+                                    vdata = json.load(vf)
+                                    for p in vdata.get("papers", []):
+                                        if p.get("id"):
+                                            self._volume_papers_cache[p.get("id")] = p
+                            except Exception:
+                                pass
+        if paper_id in getattr(self, "_volume_papers_cache", {}):
+            try:
+                return Paper(**self._volume_papers_cache[paper_id])
+            except Exception:
+                pass
+
         db_path = os.path.join(self.data_dir, "index", "proceedings.db")
         if os.path.exists(db_path):
             try:

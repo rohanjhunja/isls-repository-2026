@@ -1,6 +1,6 @@
 # The Expansive Framing of Engagement Survey: Instrument Validation Insights From Confirmatory Factor Analysis
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Studying Whether Expansive Framing and Authorship Impact Transfer Using Statistical Discourse Analysis
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

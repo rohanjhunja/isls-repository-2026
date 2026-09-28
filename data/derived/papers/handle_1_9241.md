@@ -1,6 +1,6 @@
 # Inside the Black Box of Student Interaction in Collaborative Source-Based Writing: The Development of a Coding Scheme
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

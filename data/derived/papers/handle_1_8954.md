@@ -1,6 +1,6 @@
 # An Exploratory Study on Students’ Digital Curation Competency and Experience in a General Education Course
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

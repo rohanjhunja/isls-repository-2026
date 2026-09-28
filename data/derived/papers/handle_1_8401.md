@@ -1,6 +1,6 @@
 # Surfacing Collective Pedagogical Content Knowledge for Data Literacy: An Exploratory Study With High School Science Teachers
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

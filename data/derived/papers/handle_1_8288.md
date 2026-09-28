@@ -1,6 +1,6 @@
 # Post-Flipped Classrooms: Designing a Video-Based Visualization Learning Approach for Supporting Emergency Remote Teaching
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

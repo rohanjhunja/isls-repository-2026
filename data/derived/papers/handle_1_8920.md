@@ -1,6 +1,6 @@
 # Does Problem-Solving Before Instruction Reduce the Minoritized Student Achievement Gap?
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

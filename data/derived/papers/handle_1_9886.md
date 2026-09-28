@@ -1,6 +1,6 @@
 # “These Two Worlds are Antithetical": Epistemic Tensions in Integrating Computational Thinking in K12 Humanities and Arts
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

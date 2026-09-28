@@ -1,6 +1,6 @@
 # Co-Developing Immersive Learning Experiences in Interdisciplinary Projects in Upper Secondary Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

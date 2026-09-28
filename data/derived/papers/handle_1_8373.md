@@ -1,6 +1,6 @@
 # Virtual Reality for Collaborative Learning in Teacher Education
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

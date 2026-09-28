@@ -1,6 +1,6 @@
 # Online Design Thinking Faculty Development Workshops: A Design-Based Research Study
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

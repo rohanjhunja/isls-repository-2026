@@ -1,6 +1,6 @@
 # Towards Understanding Collaborative Scientific Inquiry Practices in CSCL Classrooms With In-Game Data
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

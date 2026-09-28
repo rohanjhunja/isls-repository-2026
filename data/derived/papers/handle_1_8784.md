@@ -1,6 +1,6 @@
 # Using Participatory Software Design to Reconfigure Traditional Power Asymmetries Between Dominant School Systems and Nondominant Families
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

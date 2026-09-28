@@ -1,6 +1,6 @@
 # Developing a Boundary Practice for Collaborative Task Design in a Design-Centric Research–practice Partnership
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

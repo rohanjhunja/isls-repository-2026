@@ -1,6 +1,6 @@
 # Stories of Impact: Scientific Narratives and Climate Justice
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

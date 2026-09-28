@@ -1,6 +1,6 @@
 # Multidisciplinary Learning Analytics Development Team’s Perceptions on Supporting Student Agency
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

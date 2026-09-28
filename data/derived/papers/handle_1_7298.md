@@ -1,6 +1,6 @@
 # Using Idea Thread Mapper to Support Cross-Classroom “Super Talk” among Four Grade 5 Knowledge Building Communities
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

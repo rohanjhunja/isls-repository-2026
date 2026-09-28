@@ -1,6 +1,6 @@
 # “Design for Co-Design” in a Computer Science Curriculum Research-Practice Partnership
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

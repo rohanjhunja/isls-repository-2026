@@ -1,6 +1,6 @@
 # A Framework for Assessing Teachers’ Readiness for Pedagogical Transformation
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

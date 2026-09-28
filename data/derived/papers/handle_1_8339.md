@@ -1,6 +1,6 @@
 # Promoting Elementary Students’ Social Studies Understanding Through Computer-Supported Knowledge Building Discourse
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

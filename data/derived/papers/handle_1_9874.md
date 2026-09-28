@@ -1,6 +1,6 @@
 # Orchestrating Students’ Systems Thinking About the Rock Cycle
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

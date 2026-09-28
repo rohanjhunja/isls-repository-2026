@@ -1,6 +1,6 @@
 # Computational Thinking Into K-12 Classrooms: Experiences and Challenges From Professional Learning Experiences
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

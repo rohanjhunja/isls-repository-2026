@@ -1,6 +1,6 @@
 # Case-Based Scenarios for Supporting Equitable Mathematics and Science Instruction: Articulating Design Conjectures and Emerging Tensions
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # How Off-Duty Data Scientists Did Math for Civic and Social Good
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

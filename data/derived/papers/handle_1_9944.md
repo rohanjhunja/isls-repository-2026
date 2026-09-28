@@ -1,6 +1,6 @@
 # Live Zoom Room: Understanding How Young People Build Joy and Connection Online
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

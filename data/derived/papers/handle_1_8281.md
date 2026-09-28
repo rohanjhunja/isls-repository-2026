@@ -1,6 +1,6 @@
 # Dear Pat: The Role of Error Detection Problems for Learning Effective Peer Feedback
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

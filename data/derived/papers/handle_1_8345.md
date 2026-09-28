@@ -1,6 +1,6 @@
 # Contrasting Analytical Approaches to Trace Collaborative Learning With Knowledge Objects
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

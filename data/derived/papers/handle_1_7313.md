@@ -1,6 +1,6 @@
 # Individually Preparing Learners to Perform Interactive Activities in CSCL: Do Generative Tasks Work?
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

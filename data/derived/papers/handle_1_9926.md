@@ -1,6 +1,6 @@
 # Middle Schoolers’ Trajectories of Identification and Wayfaring Through a Pet Science Workshop
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

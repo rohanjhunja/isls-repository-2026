@@ -1,6 +1,6 @@
 # Developing Dynamic Dashboards for Classroom Orchestration
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

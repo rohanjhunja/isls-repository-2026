@@ -1,6 +1,6 @@
 # Design Knowledge and Learning Pathway of a Grassroots Innovator
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

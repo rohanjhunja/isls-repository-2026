@@ -1,6 +1,6 @@
 # Boundary Spanning Roles and Power in Educational Partnerships
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

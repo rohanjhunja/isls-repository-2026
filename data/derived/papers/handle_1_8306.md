@@ -1,6 +1,6 @@
 # Designing a Teacher Guidance Tool for Collaborative Inquiry Play
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

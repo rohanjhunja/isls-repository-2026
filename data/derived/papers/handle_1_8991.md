@@ -1,6 +1,6 @@
 # Multiplicity Matters: The Development of Interest Profiles During Dynamic Institutional Transitions
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

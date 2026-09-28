@@ -1,6 +1,6 @@
 # Seeing Student Engagement in Classroom Video: Affordances of Cognitive and Sociocultural Frameworks
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

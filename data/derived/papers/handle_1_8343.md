@@ -1,6 +1,6 @@
 # A Web-Based Tool for Participatory Science Learning in the Context of Human Psychology Research
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

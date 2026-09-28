@@ -1,6 +1,6 @@
 # Queer Orientations as Resources for Mathematics Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Cognitive Analysis of Composite Instructional Designs: New Directions for Research on Problem-Solving Prior to Instruction
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

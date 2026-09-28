@@ -1,6 +1,6 @@
 # The Role of Augmented Reality in Multi-Device Small Group Learning Ecosystems
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

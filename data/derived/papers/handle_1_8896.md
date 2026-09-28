@@ -1,6 +1,6 @@
 # “It Disrupts Power Dynamics”: Co-Design Process as a Space for Intergenerational Learning With Distributed Expertise
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

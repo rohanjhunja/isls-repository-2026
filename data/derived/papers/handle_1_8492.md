@@ -1,6 +1,6 @@
 # Participation and Success With Optional Self-Explanation for Students in Online Undergraduate Chemistry Courses
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

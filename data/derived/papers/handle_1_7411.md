@@ -1,6 +1,6 @@
 # MineArt: Active Prolonged Engagement through Participatory Exhibits in Art Museums
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

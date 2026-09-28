@@ -1,6 +1,6 @@
 # Diaries and Digital Artifacts: Investigating Teens’ Daily Experiences Through User-Shared Images
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Teachers as Transformative Actors to Create Meaningful Learning: Agency in Practice
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

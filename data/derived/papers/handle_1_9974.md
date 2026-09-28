@@ -1,6 +1,6 @@
 # Harnessing Student-Generated Questions as a Learning Strategy
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

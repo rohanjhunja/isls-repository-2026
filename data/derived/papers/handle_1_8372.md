@@ -1,6 +1,6 @@
 # Illuminated Devices: A Sociotechnical System to Broaden Access to Digital Assistance
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

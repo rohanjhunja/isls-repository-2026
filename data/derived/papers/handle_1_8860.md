@@ -1,6 +1,6 @@
 # Using Reference Models as a Springboard for Ontological Innovation: Analyzing a Central Theory Building Move in the Learning Sciences
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

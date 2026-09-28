@@ -1,6 +1,6 @@
 # An Exploratory Study of How Informal Educators Engage With Formal Educators in a Community of Practice
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

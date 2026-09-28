@@ -1,6 +1,6 @@
 # Justice-Centered Ambitious Science Teaching in Community Spaces: Foregrounding Creativity, Connectedness and Joy
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

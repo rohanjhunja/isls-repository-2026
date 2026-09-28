@@ -1,6 +1,6 @@
 # Comparing Teacher Educator and Novice Teachers’ Frames in Making Sense of Feedback During Rehearsals
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # “A Tangled Moment”: Unpacking Conflicting Frames by Examining Pedagogical Judgment
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

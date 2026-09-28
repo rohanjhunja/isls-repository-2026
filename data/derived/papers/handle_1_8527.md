@@ -1,6 +1,6 @@
 # Comparing Subjective and Objective Estimates of Effort and Performance on Adaptive v. Non-Adaptive Computerized Tests of Statistics Knowledge
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

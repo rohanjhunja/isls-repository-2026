@@ -1,6 +1,6 @@
 # Community of Practice in a Physics Department: Double-Majored Students’ Perspective
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Teacher-Immersion in Research and Evaluation of Computer Supported Collaborative Learning
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Green Chemistry in the Third Age: Engaging Older Adults in Learning about Sustainability
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

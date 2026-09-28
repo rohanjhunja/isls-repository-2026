@@ -1,6 +1,6 @@
 # Co-Constructing a Vision of High-Quality Mathematics Instruction With School Leaders Through a Classroom-Based Immersive Learning Experience
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

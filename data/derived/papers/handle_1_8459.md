@@ -1,6 +1,6 @@
 # Responses of Rural Chinese Teachers to Workshops on Culturally Relevant Constructivist Pedagogy
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

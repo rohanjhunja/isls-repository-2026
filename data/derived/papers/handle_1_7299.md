@@ -1,6 +1,6 @@
 # Scripting Small Group Processes within a Learning Community
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

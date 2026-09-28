@@ -1,6 +1,6 @@
 # How to Use Theory to Implement Natural Language Processing for Peer-Feedback
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

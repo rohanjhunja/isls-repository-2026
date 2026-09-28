@@ -1,6 +1,6 @@
 # When Failing Generates Math Anxiety Instead of Productivity
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

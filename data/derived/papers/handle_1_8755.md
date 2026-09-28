@@ -1,6 +1,6 @@
 # Promoting Authentic Research Experiences in the High School Classroom: Opportunities and Challenges
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

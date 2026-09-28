@@ -1,6 +1,6 @@
 # Instructional Dialogues in an Inquiry-Based Classroom: Towards a Typology of Teacher Self-Positioning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

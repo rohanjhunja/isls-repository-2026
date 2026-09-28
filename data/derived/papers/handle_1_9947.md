@@ -1,6 +1,6 @@
 # The Promise of Sketching in Biological Problem Solving for Self-Directed Learning From Online Resources
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

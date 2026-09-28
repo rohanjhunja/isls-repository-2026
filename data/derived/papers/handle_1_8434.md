@@ -1,6 +1,6 @@
 # Organizing Outreach for Cultural Transformation: The Design of a STEM Education Learning Pathway
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

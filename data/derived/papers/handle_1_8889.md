@@ -1,6 +1,6 @@
 # Design Thinking as a Structure for Collaborative Project-Based Learning in Multiple Disciplines
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

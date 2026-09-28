@@ -1,6 +1,6 @@
 # Examining Learning-by-Teaching Effect in a Secondary Math Course
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

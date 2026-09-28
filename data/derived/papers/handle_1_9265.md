@@ -1,6 +1,6 @@
 # How Do Students Deliberate for Socially Shared Regulation in Collaborative Learning? A Process-Oriented Approach
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

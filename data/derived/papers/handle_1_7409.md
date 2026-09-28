@@ -1,6 +1,6 @@
 # How Community-Driven Design Research Endures When the World is on Fire
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

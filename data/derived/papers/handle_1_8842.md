@@ -1,6 +1,6 @@
 # Constructing Relations Between STEM Researchers and Publics: A Case Study of Empathy in Action
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

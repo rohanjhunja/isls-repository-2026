@@ -1,6 +1,6 @@
 # Tuning Perceptions and Inferences to See a Graph in a New Way
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

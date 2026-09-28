@@ -1,6 +1,6 @@
 # “With You I’ll Be Able to Actually Learn Everything”: Exploring Learner Experiences With a ‘Study With Me’ Video
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # A Review of Complexity Perspectives in the Learning Sciences
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

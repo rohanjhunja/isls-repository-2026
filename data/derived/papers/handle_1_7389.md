@@ -1,6 +1,6 @@
 # Exploring the Impact of Coursework on Literacy Teacher Candidates’ TPACK Development for Technology-integrated Instructional Planning
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

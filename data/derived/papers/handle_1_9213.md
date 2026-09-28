@@ -1,6 +1,6 @@
 # Epistemic Diversity as a Design Principle in Computer Science
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

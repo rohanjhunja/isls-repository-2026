@@ -1,6 +1,6 @@
 # Indigenous Learning Lab: Inclusive Knowledge-Production and Enacted Utopias Towards Decolonizing School Systems
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

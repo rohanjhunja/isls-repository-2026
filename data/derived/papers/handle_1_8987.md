@@ -1,6 +1,6 @@
 # Using Delivery Simulation Experiences in Hiring in the Technology Field
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Teacher Discourse in Scaffolding a Knowledge Building Group：A Case Study
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

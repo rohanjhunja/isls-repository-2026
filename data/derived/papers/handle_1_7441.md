@@ -1,6 +1,6 @@
 # We blend Entman’s and van Leeuwen's work to advance a novel methodology for the critical analysis of discourse in text media
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

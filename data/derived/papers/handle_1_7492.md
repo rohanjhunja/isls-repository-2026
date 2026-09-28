@@ -1,6 +1,6 @@
 # Playful Discourse Practices in Guided Play Learning Environments
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

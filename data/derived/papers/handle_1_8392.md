@@ -1,6 +1,6 @@
 # Emphasizing the Role of Coordination Class Theory on the Study of Student Learning With Representations
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

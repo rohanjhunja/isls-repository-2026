@@ -1,6 +1,6 @@
 # Moderators of Group Productive Disciplinary Engagement
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Signals of Teachers’ Readiness for Change in Next Generation Science Professional Development
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

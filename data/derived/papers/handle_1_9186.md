@@ -1,6 +1,6 @@
 # Using Real-Time Gaze Feedback and Interventions to Facilitate Coordinative Behavior: An Investigation With Recurrent Analysis
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

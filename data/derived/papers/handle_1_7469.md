@@ -1,6 +1,6 @@
 # Spreading GIS-Infused Instruction: A Cross-Case Comparison of Two Instructional Approaches
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

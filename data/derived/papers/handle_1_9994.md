@@ -1,6 +1,6 @@
 # Playful and Creative Assessment for Learning: Examples and Analyses From the Field
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

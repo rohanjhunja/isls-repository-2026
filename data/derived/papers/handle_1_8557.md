@@ -1,6 +1,6 @@
 # Decomposing Practice: Developing Reliable Analyses of Complex Classroom Discussion
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

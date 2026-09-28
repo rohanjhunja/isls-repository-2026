@@ -1,6 +1,6 @@
 # Exploration of Facilitation Strategies for Intergroup Dialogues in a CSCL Context
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

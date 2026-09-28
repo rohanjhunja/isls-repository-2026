@@ -1,6 +1,6 @@
 # “Let’s Talk About Election 2020”: Quantitative Civic Literacies of Solidarity and Critique in an Online Digital Network
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Scientific Modeling Practices Through Perspective Taking in a Mixed Reality Embodied Learning Environment
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

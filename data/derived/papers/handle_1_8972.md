@@ -1,6 +1,6 @@
 # Developing Accessible and Sustainable Computational Modeling Tools in Learning Science: What Is Next?
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

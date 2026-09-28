@@ -1,6 +1,6 @@
 # On the Impact of Differing Content Progressions in Genetics on Modeling Practices
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

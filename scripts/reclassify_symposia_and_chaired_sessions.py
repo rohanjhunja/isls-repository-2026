@@ -39,9 +39,9 @@ def is_symposium_or_chaired(paper: dict) -> bool:
     ptype = (paper.get("paper_type") or "").strip()
     abstract = (paper.get("abstract") or "").strip()
 
-    if ptype.lower() in ['symposium', 'special session', 'workshop', 'keynote']:
+    if ptype.lower() in ['symposium']:
         return True
-    if sec.lower() in ['symposia', 'symposium', 'special session', 'special sessions', 'pre-conference workshops', 'workshops', 'keynotes']:
+    if sec.lower() in ['symposia', 'symposium']:
         return True
 
     # Check title
@@ -124,6 +124,13 @@ def reclassify_datasets():
                         p["proceedings_section"] = "Symposia"
                         p["paper_type"] = "Symposium"
                         modified = True
+                    elif num == 9:
+                        is_symp = False
+                        p["paper_type"] = "Poster"
+                        modified = True
+
+            elif v == "isls-2026-proceedings":
+                is_symp = False
 
             # ICLS 2025: paper-0336 to 0364 are Symposia
             elif v == "icls-2025-proceedings":
@@ -220,14 +227,14 @@ def reclassify_datasets():
             c.execute("UPDATE papers SET paper_type = 'Symposium' WHERE id = ? AND paper_type != 'Symposium'", (pid,))
             db_updates += c.rowcount
 
-        # Also search DB for any remaining papers with symposium/chair keywords
+        # Also search DB for any remaining papers with symposium keywords (excluding 1-page papers)
         c.execute("""
             SELECT id, title, abstract FROM papers 
             WHERE paper_type IN ('Full Paper', 'Short Paper', 'Paper')
+              AND (end_page - start_page + 1) >= 6
               AND (title LIKE '%symposi%' 
                    OR abstract LIKE '%in this symposium%' 
-                   OR abstract LIKE '%structured poster symposium%'
-                   OR title LIKE '%special session%')
+                   OR abstract LIKE '%structured poster symposium%')
         """)
         for row in c.fetchall():
             c.execute("UPDATE papers SET paper_type = 'Symposium' WHERE id = ? AND paper_type != 'Symposium'", (row[0],))

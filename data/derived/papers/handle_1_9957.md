@@ -1,6 +1,6 @@
 # Towards the Design of a Culturally Relevant Curriculum for Equitable, Data Mining-Based CS Education
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

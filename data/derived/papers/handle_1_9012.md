@@ -1,6 +1,6 @@
 # Tinkering in Parallel: Pathways for Professional Learning in Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

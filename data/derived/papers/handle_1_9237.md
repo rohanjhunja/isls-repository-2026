@@ -1,6 +1,6 @@
 # Facilitating Cross-Community Knowledge Building Through Multimodal Artifact Creation
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

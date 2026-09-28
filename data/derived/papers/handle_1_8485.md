@@ -1,6 +1,6 @@
 # Using Simulations to Foster Pre-Service Teachers’ Diagnostic Competences: What Aspect of Authenticity Matters?
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Constructing an “Us” in Teacher Work Groups: Affordances and Limitations for Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

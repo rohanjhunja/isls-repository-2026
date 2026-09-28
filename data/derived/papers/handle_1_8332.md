@@ -1,6 +1,6 @@
 # Reimagining Collaboration in Family-School Partnerships
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

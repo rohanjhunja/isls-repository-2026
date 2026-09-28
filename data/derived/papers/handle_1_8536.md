@@ -1,6 +1,6 @@
 # Student Participation in Sociocritical Data Literacy: Shapes, Trends, and Future Directions From a Middle School Science Unit
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

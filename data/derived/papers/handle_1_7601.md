@@ -1,6 +1,6 @@
 # Design of Multi-Dimensional Science Labs for Future Teachers for Online Learning
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

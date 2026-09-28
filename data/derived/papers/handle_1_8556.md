@@ -1,6 +1,6 @@
 # Centring BlackJoy in Design for Learning and Research
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

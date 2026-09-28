@@ -1,6 +1,6 @@
 # Situating Antiracist Professional Development in Cultural-Historical Context
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

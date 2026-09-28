@@ -1,6 +1,6 @@
 # Expanding Teacher Transformative Agency: An Activity-Theoretical Formative Intervention Research in Schoolbased Dialogue Sessions Toward Future Making
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

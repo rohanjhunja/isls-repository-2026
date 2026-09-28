@@ -1,6 +1,6 @@
 # Restorying Toward Justice and Anti-Racism in ELA Classrooms
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

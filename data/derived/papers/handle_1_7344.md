@@ -1,6 +1,6 @@
 # Transition, Lamination, and Personification: Affordances for Teacher Learning in a Mixed Reality Simulation
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

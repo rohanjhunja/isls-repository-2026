@@ -1,6 +1,6 @@
 # Unpacking the Complexity in Video Artifacts: Visible and Audible Dimensions of Teachers’ Noticing
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Spatial Reasoning and Debugging With Lego Structures
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

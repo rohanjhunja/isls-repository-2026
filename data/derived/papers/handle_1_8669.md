@@ -1,6 +1,6 @@
 # Simulating Students: An AI Chatbot for Teacher Training
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

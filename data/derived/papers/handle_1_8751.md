@@ -1,6 +1,6 @@
 # Eliciting Multimodal Strategies: Early CT Assessment by Design
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

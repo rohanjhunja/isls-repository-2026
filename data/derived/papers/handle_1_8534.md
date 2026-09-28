@@ -1,6 +1,6 @@
 # Development of Students’ Science Identities in a Biology Classroom: A Learning Community Approach
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

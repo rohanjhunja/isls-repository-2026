@@ -1,6 +1,6 @@
 # Predicting Learning Gains in an Educational Game Using Feature Engineering and Machine Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Promoting Collaborative Productive Epistemic Discourse for Disagreement Resolution Among Multiple Documents: How Epistemic Scaffolds and Epistemic Scripts in CSCL Worked
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

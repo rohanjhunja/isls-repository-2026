@@ -1,6 +1,6 @@
 # Exploring Technology Readiness Among Finnish University Students
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Designing a Global Community of Critical Action Educators
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

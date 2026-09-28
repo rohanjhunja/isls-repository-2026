@@ -1,6 +1,6 @@
 # The Instructional Legacy of COVID-19: Teacher Adaptation in Response to the Pandemic
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

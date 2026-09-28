@@ -1,6 +1,6 @@
 # Towards a Theory of Dialogic Play for Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Real Work With Real Consequences in an Evolving Classroom Context: Consequential and Connected STEM Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

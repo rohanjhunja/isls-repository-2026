@@ -1,6 +1,6 @@
 # From “Authentic Tools” to Authenticity: Using CT to Enable Discovery in Statistics Classrooms
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

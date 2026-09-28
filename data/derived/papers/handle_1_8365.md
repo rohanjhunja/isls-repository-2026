@@ -1,6 +1,6 @@
 # Connecting CSCL Scripting and Socially-Shared Regulation of Learning: An Exploratory Study
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

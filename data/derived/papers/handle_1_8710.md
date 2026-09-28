@@ -1,6 +1,6 @@
 # Opportunities and Challenges for Enacting Equity and Justice-Centered CS Learning in “Drag vs. AI” Workshops
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

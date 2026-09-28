@@ -1,6 +1,6 @@
 # Exploring the Interaction Between L2 Learners and AI Translator in English Writing
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

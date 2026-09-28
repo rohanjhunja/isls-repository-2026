@@ -1,6 +1,6 @@
 # Embodying STEM: Learning at the intersection of Dance and STEM
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

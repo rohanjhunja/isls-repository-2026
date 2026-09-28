@@ -1,6 +1,6 @@
 # Measures of Disagreement in Learning Groups as a Basis  for Identifying and Discussing Controversial Judgements
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

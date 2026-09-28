@@ -1,6 +1,6 @@
 # Reorienting Co-Design toward Care during a Pandemic
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

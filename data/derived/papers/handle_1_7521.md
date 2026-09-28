@@ -1,6 +1,6 @@
 # Conceptualizing Critical Game Design as a Method to Engage Youth with Critical STEM
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

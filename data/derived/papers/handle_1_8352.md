@@ -1,6 +1,6 @@
 # Continuous Data-Driven Group Learning Support: Case Study of an Asynchronous Online Course
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

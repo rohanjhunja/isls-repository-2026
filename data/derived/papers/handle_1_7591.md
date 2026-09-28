@@ -1,6 +1,6 @@
 # Learning and Teaching about COVID-19:  Engaging Students, Teachers and Families in Understanding Infectious Disease Epidemiology
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

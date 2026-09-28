@@ -1,6 +1,6 @@
 # An Exploration on the Individualistic and Collective Moves in Relation to Equitable Participation in Collaborative Game-Design Processes
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

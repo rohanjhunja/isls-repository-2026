@@ -1,6 +1,6 @@
 # The Effects of Domain-Specific Knowledge on (Re)reading a Literary Short Story
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Exploring University Students’ Ecologies of Digital Resources in the Context of Disciplinary Learning
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

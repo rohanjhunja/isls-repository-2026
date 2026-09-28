@@ -1,6 +1,6 @@
 # Intertwining Research and Practice in Higher Education: Presenting LPI’s Learning Sciences Master Program
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

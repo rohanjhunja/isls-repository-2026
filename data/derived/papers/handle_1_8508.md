@@ -1,6 +1,6 @@
 # Learning Lab Methodology for Expansive Learning and Inclusive Education During the Covid-19 Pandemic in Brazil
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # What Do Teachers Learn About Assessment via Co-Design of Game Dashboard
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

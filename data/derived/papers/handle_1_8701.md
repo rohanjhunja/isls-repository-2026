@@ -1,6 +1,6 @@
 # Meaningful Movement Towards Campus-Based Outdoor Learning: Characterizing Pre-Scenery With Stakeholder Perspective
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

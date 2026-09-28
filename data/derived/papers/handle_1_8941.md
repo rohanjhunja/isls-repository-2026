@@ -1,6 +1,6 @@
 # Promoting Cognitive Strategies for Processing 360° Videos in History Learning Contexts
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

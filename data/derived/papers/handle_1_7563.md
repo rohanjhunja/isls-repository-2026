@@ -1,6 +1,6 @@
 # Sustaining Community and Relationships with Black and Latina Girls in an Out-of-School STEAM Learning Program during a Global Crisis
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

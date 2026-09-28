@@ -1,6 +1,6 @@
 # “I’m Not Typically the Type of Person Who Takes the Lead”: Using Physical Computing to Support Identity Development
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

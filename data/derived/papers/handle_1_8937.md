@@ -1,6 +1,6 @@
 # Distributed Creativity Mediated by Social and Material Interactions in a Collaborative Pop-Up Makerspace in India
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

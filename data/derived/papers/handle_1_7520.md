@@ -1,6 +1,6 @@
 # Identifying Research-Practice Tensions and Belief Shifts through Co-Design Processes
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

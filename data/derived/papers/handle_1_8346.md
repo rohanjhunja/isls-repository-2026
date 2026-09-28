@@ -1,6 +1,6 @@
 # Exploring Pedagogical Strategies for Promoting Student Epistemic Agency Through the Transfer of Cognitive Authority in an Online Science Class
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

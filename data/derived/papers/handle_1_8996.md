@@ -1,6 +1,6 @@
 # Machine Learning for Evaluating Critical Data Literacy in Open Online Learning Environments
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

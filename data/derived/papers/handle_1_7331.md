@@ -1,6 +1,6 @@
 # ArguNotes: Collaborative Problem Solving and Argumentation Tool
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

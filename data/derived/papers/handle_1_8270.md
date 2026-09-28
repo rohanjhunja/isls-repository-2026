@@ -1,6 +1,6 @@
 # Making the Rich Even Richer? Interaction of Structured Reflection With Prior Knowledge in Collaborative Medical Simulations
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

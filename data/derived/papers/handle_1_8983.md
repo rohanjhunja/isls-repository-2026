@@ -1,6 +1,6 @@
 # “You Are Not Valued as They Said”: Re-Constructing a U.S. Higher Education Environment Negotiated by an International Student
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

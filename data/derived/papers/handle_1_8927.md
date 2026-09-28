@@ -1,6 +1,6 @@
 # How Research-Practice Partnerships Learn to Develop Goals for Math and Identify Local Problems of Practice
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

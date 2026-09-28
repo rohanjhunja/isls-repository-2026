@@ -1,6 +1,6 @@
 # Towards a “Slowed Down” Pedagogy: An Emergent Youth-Led Practice of Politicized Care
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

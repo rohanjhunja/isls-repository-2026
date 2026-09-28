@@ -1,6 +1,6 @@
 # Adapting Interaction Analysis to CSCL: A Systematic Review
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

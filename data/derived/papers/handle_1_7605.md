@@ -1,6 +1,6 @@
 # A Multimodal Discourse Analysis of Textbooks: A Case Study of Oxford Junior Middle School English (Shanghai Edition)
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

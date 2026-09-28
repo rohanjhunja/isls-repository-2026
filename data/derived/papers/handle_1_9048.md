@@ -1,6 +1,6 @@
 # Infrastructuring for Justice: Reframing Scale Through a Rightful Presence Framework
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # “When We’re in Spaces Among People of Colour, Your Ideas Just Flow”: Politicized Trust and Educational Intimacy in Activist Spaces
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

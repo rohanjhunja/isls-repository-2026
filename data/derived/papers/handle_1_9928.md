@@ -1,6 +1,6 @@
 # Designing for and Characterizing Critical Navigation of Disciplinary Values in an Undergraduate Computational Biology Course
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

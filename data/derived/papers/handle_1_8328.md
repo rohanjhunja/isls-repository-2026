@@ -1,6 +1,6 @@
 # Toward Dialogic Disciplinary Discourse in the Classroom: Teacher and Researcher Collaborative Reflection on Classroom Video
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

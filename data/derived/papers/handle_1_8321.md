@@ -1,6 +1,6 @@
 # The Scalability Readiness of WiREAD+: Perspectives of Learners From Three Educational Contexts
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

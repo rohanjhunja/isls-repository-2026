@@ -1,6 +1,6 @@
 # Interactive Transcription Techniques for Interaction Analysis
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

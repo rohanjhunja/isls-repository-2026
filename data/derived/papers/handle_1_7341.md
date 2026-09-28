@@ -1,6 +1,6 @@
 # The Interplay of Knowledge Construction and Regulation of Learning in CSCL settings
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

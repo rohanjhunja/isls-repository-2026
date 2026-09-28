@@ -1,6 +1,6 @@
 # How Different Types of Teacher Dashboards Impact Teachers’ Problem Detection Accuracy
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

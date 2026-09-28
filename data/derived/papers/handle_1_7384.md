@@ -1,6 +1,6 @@
 # Gesture-Based Representational Challenges for Learning Science with Mixed Reality Technologies
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

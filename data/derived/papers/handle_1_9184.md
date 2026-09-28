@@ -1,6 +1,6 @@
 # Examining and Scaffolding Collective Idea Improvement in Knowledge Building Using Analytics and Meta-Discourse
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

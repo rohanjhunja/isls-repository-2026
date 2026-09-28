@@ -1,6 +1,6 @@
 # Insights About Helpful Covid-19 Learning Resources From Caregivers of Elementary School Children
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

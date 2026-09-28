@@ -1,6 +1,6 @@
 # The Role of Visual Representations in Impasses During Collaborative Problem Solving in Undergraduate Chemistry
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

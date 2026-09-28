@@ -1,6 +1,6 @@
 # Student-Created Math Walks in Informal Learning Spaces
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

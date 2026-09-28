@@ -1,6 +1,6 @@
 # Learning as Emergent Practice in the Transdisciplinary Civic Learning Collaborative
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

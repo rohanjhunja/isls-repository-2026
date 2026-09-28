@@ -1,6 +1,6 @@
 # Learning Analytics for Teacher Noticing and Scaffolding: Facilitating Knowledge Building Progress in Science
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

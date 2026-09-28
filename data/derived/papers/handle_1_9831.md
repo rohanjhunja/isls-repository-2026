@@ -1,6 +1,6 @@
 # "TERFs are a Thing. And I F*cking Hate Them": Developing Solidarity Through Emotion and Ideology
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Examining Mathematical Questioning During Math Walks
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

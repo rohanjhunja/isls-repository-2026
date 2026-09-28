@@ -1,6 +1,6 @@
 # Pandemic Board Game Redesigned: How Learners’ Decisions Enable Emergent Learning Possibilities
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

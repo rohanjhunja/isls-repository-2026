@@ -1,6 +1,6 @@
 # Does It Work for Everyone? The Effect of ELCII on Kindergarteners’ Inference Skill Development
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Misinformation-Based Dialogical Construction of Misconceptions on the Internet. A Literature Review Based on Automated Publication Analysis
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

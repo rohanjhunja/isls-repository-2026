@@ -1,6 +1,6 @@
 # Designing for More Than Just Product: Student Co-Design of Digital Badge Systems
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

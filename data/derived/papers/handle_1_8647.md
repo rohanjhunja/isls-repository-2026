@@ -1,6 +1,6 @@
 # Pre-Service Teachers’ Growth in Epistemic Cognition Through Learning Pedagogical Knowledge
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

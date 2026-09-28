@@ -1,6 +1,6 @@
 # Challenges and Design Opportunities in Data Analysis for ML-Empowered Scientific Inquiry - Insights From a Teacher Professional Development Study
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

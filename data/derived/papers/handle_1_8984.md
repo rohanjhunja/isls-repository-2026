@@ -1,6 +1,6 @@
 # Data-Driven Badge Design for Gamified Learning App
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

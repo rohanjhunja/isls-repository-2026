@@ -1,6 +1,6 @@
 # Tensions in Extending Visions for Social Change Through Educational Research in Indian Contexts
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

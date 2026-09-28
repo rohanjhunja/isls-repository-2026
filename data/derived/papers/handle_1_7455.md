@@ -1,6 +1,6 @@
 # Zone of Proximal Self: A Sociocultural Framework for Examining the Development of Possible Selves and Social-Emotional Competencies
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

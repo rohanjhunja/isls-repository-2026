@@ -1,6 +1,6 @@
 # Understanding Idea Creation in Collaborative Discourse Through Networks: The Joint Attention–Interaction–Creation (AIC) Framework
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

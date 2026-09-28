@@ -1,6 +1,6 @@
 # Addressing the Data Set Dilemma With Personally Relevant Data Generation and Distributed Labeling in the Classroom
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

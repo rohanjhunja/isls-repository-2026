@@ -1,6 +1,6 @@
 # Developing Medical Educators’ Adaptive Practices Through Training in Learning Sciences and Design
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

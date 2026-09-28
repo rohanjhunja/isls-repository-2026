@@ -1,6 +1,6 @@
 # Embodied Learning in Classrooms: Machine-Learning-Enhanced Computer Vision for Geometry Math Game
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

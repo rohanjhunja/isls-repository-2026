@@ -1,6 +1,6 @@
 # Mundane Practices on the Edges of Intentional Design in a Maker Project
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

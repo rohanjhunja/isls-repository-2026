@@ -1,6 +1,6 @@
 # Student Engagement in Collaborative Problem Solving Through Media Arts Production
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

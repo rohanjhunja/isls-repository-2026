@@ -1,6 +1,6 @@
 # Data Comics: Using Narratives to Engage Students in Data Reasoning
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

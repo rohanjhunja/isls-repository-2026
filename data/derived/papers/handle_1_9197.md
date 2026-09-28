@@ -1,6 +1,6 @@
 # A Tale of Two Nurses: Studying Groupwork in Nurse Training by Analyzing Taskwork Roles, Social Interactions, and Self-Efficacy
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

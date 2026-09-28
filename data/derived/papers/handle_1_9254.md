@@ -1,6 +1,6 @@
 # Combining Discussion Data With NLP Approaches to Better Understand Engagement in a Socio-Digital Platform
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

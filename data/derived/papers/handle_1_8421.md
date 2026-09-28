@@ -1,6 +1,6 @@
 # Orchestrating the Multidisciplinary Implementation of a Narrative-Centered Learning Environment in Upper Elementary Classrooms
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

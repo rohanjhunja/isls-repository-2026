@@ -1,6 +1,6 @@
 # “It Appears to Be a Free-for-All”: Designing for Audience Agency in an Immersive Theatre Environment
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

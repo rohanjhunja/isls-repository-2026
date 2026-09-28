@@ -1,6 +1,6 @@
 # Developing Undergraduates’ Collective Epistemic Agency Through Reflective Assessment
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

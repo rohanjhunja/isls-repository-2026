@@ -1,6 +1,6 @@
 # Community-Driven Design: A Reorientation to Designing Tools for Learning With Communities
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

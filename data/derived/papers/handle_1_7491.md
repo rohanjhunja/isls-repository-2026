@@ -1,6 +1,6 @@
 # Developing Progressive Knowledge Building through Idea-Friend Maps and Opportunistic Collaboration
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

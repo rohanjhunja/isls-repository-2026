@@ -1,6 +1,6 @@
 # Perceptions Predict Problem Regulation? The Role of Homogeneous Problem Perception for Successful Regulation in Collaborative Learning
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

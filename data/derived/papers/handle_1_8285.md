@@ -1,6 +1,6 @@
 # Exploring Students’ Epistemic Emotions in Knowledge Building Using Multimodal Data
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

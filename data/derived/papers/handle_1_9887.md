@@ -1,6 +1,6 @@
 # Narrative Construction Game as Consent Knowledge Assessment
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

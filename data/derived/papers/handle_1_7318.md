@@ -1,6 +1,6 @@
 # PearProgram: Towards Fruitful Collaboration in Computing Education Research and the Learning Sciences
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Examining Learning Opportunities for Integrating AI Education in English Language Art Classrooms
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

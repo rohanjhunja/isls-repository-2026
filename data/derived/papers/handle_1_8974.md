@@ -1,6 +1,6 @@
 # Expansive Learning and Transformative Agency for Equity and Sustainability: Formative Interventions in Six Continents
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

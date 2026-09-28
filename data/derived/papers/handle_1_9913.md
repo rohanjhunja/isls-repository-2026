@@ -1,6 +1,6 @@
 # Culturally Centered Curriculum: Sixth Graders' Learning Paths of Developing Knowledge About Native American Cultures
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

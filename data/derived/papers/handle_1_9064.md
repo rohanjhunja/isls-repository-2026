@@ -1,6 +1,6 @@
 # Instructor Facilitation of STEM+CT Discourse: Engaging, Prompting, and Guiding Students’ Computational Modeling in Physics
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

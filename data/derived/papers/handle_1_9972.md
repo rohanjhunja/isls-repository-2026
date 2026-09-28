@@ -1,6 +1,6 @@
 # What Can Students Learn From Their Own Data? Data Literacy With Student-Facing Learning Analytics
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Emergent Social and Emotional Learning Outcomes Through Collaborative Reasoning Discussions
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

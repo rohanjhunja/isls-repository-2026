@@ -1,6 +1,6 @@
 # We investigate the emergent, interactionally achieved, embodied geometry that two hairstylists collectively enacted during a haircutting session
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

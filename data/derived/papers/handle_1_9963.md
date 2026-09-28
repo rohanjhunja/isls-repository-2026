@@ -1,6 +1,6 @@
 # How Kinetically-Held Gestures Support Collaborative Problem Solving in Physics
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

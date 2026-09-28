@@ -1,6 +1,6 @@
 # Embodied Design versus Dynamic Visualization:  Benefits for a Far Transfer Problem Solving in Trigonometry
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

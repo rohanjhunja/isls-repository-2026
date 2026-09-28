@@ -1,6 +1,6 @@
 # The Black Love Framework: How Remembering Leads to Reimagining STEM Pedagogy
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

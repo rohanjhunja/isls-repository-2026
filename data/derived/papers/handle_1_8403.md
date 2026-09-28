@@ -1,6 +1,6 @@
 # Rural Teachers’ Computing Attitudes in Their Classrooms
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

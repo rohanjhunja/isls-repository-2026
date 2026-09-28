@@ -1,6 +1,6 @@
 # Turning Ourselves Inside Out: Reading and Creating Graphic Medicine in Community
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # A Growing Problem: Student-Worker Retention at an Urban Farm
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

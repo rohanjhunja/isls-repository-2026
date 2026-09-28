@@ -1,6 +1,6 @@
 # Embodied Cognition in Virtual Reality to Support Learning of Scale
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Leveraging CSCL to Support Parent Involvement and Increase Student Learning Outcomes in Communities That are Historically Excluded From STEM
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Young Students’ Experience of Analytics-Supported CSCL and the Influence of Parental Attitudes
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

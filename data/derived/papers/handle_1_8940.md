@@ -1,6 +1,6 @@
 # Information Architecture as Theory: Sociotechnical Dimensions of Learning and Learning About Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

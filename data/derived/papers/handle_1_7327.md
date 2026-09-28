@@ -1,6 +1,6 @@
 # Empowering Secondary School Students' Argumentative Writing Skills: The Effectiveness Of Dialogic Support And Cognitive Strategic Support On Students' Collaborative Writing Processes
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

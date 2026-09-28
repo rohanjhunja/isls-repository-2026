@@ -1,6 +1,6 @@
 # Contesting With Feeling: Childhood in and Through Public Education
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

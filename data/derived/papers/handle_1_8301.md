@@ -1,6 +1,6 @@
 # REACH Projector: Remote Embodiment for Augmented Collaborative Help
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

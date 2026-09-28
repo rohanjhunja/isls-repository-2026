@@ -1,6 +1,6 @@
 # Intergenerational Conversations Through Redesigning Tabletop Games: Playing, Designing, and Learning With Canadian Families
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

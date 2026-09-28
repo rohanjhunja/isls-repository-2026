@@ -1,6 +1,6 @@
 # Analyzing Teacher Learning in a Research Practice Partnership
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

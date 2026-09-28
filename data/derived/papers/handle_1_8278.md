@@ -1,6 +1,6 @@
 # Co-Construct Learning Spaces to Sustain Collaborative Knowledge Building During COVID-19
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

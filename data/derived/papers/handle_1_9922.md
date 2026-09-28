@@ -1,6 +1,6 @@
 # Detecting Patterns of Constructed Collaborative Novelty in Online Discourse in Knowledge Building Communities
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

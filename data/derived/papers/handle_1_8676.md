@@ -1,6 +1,6 @@
 # Effects of Level Trajectory on Mathematical Gameplay
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

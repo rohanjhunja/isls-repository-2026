@@ -1,6 +1,6 @@
 # Future Selves in STEM: An Epistemic Network Analysis of Past and Present STEM Minority Program Participants
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

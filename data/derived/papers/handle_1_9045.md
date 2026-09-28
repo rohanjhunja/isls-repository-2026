@@ -1,6 +1,6 @@
 # Learning Science While Caring for Pets: Findings From a Virtual Workshop for Teens
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

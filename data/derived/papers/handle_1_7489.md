@@ -1,6 +1,6 @@
 # Which Motivational Factors Predict Pre-Service Teachers’ Evidence-Informed Reasoning When Being Confronted With Teaching Problems?
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

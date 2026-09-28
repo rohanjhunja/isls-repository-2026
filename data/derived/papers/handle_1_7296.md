@@ -1,6 +1,6 @@
 # Who I Am, What I Know, and What I Want: An Epistemic Network Analysis of Student Identity Exploration
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

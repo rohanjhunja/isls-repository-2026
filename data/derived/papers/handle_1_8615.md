@@ -1,6 +1,6 @@
 # Implicit and Explicit Emotion Regulation for Conflict Resolution: Narrative and Self-Compassion as Anti-Bullying Training
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

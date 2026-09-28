@@ -1,6 +1,6 @@
 # Establishing a Teacher Community for Innovation in Chinese Classrooms
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

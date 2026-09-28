@@ -1,6 +1,6 @@
 # Synchronous Brain Activities in Mathematical Task Processing
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

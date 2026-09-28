@@ -1,6 +1,6 @@
 # Using Learning Analytics to Assess the Intended and Enacted Learning Design: An Epistemic Network Analysis Approach
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

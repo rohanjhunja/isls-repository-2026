@@ -1,6 +1,6 @@
 # Students’ Prior Knowledge of Disease Spread and Prevention
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

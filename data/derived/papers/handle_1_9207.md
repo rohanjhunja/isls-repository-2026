@@ -1,6 +1,6 @@
 # Empowering Students in a Datafied World: Adult Stakeholders’ Perspectives on Digital Self-Determination in the U.S. K-12 Environment
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Investigating the Efficacy of an Ontological Framework for Teaching Natural Selection Using Agent-Based Simulations
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

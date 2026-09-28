@@ -1,6 +1,6 @@
 # Teachers’ and Principals’ Views of Interdisciplinary Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Imagining Generatively Together: Exploring Strategies for Deepening Problematizing in Design Thinking Towards Justice-Oriented Futures
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

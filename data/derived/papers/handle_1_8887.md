@@ -1,6 +1,6 @@
 # Analyzing the Influence of Student Problem Solving Approaches on Learning Through Teaching in Mathematics Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

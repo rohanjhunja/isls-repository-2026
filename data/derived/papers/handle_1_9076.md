@@ -1,6 +1,6 @@
 # Computational Thinking in Middle School Science
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

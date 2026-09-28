@@ -1,6 +1,6 @@
 # Towards Automated Tracking of Affect: Testing the Use of Continuous Self-Reports and Multimodal Metrics
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

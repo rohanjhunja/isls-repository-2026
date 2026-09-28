@@ -1,6 +1,6 @@
 # Exploring Design Principles of Bot-Supported Collaborative Learning: The Role of Chatbots in Regulated Group Discussions
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

@@ -151,7 +151,7 @@ def populate_database():
             p.get("doi"),
             clean_t,
             p.get("year"),
-            p.get("conference", "ISLS"),
+            p.get("conference", "ICLS"),
             p.get("paper_type", "Paper"),
             1 if p.get("is_practise_paper") else 0,
             p.get("citation"),
@@ -159,7 +159,7 @@ def populate_database():
             p.get("end_page"),
             abstract,
             0.95,
-            f"isls-{p.get('year')}-proceedings.pdf",
+            f"{p.get('conference', 'icls').lower()}-{p.get('year')}-proceedings.pdf",
         ))
 
         # Insert Authors & Paper_Authors

@@ -1,6 +1,6 @@
 # Using Social Media to Extend Online Professional Development: Investigating Teachers’ Fulfillment of Personal Interest and Self-Efficacy on WhatsApp
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

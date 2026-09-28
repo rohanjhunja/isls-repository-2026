@@ -1,6 +1,6 @@
 # Learning Through Play at the Intersection of Problem-Solving, Epistemic (Un)certainty, and Emotion
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

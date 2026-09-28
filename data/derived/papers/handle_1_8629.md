@@ -1,6 +1,6 @@
 # Biology Isn’t Black and White: Deconstructing Biology Instructors’ Knowledge Networks of Biological Processes to Explore Nuance
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

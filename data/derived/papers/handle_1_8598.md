@@ -1,6 +1,6 @@
 # Effects of Narratives on Undergraduate Student Understanding of Fundamental Concepts in Biology
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

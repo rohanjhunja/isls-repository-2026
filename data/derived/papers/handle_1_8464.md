@@ -1,6 +1,6 @@
 # Multilevel Connected Teacher Learning for STEM Curriculum Innovation
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

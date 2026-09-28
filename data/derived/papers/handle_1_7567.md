@@ -1,6 +1,6 @@
 # Impact and Resilience: A Survey of Youth-serving Organizations During the Pandemic
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

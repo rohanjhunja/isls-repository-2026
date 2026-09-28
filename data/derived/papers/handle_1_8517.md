@@ -1,6 +1,6 @@
 # When Care Is Not Enough: A Call for Critical and Sociopolitical Conscious Care
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

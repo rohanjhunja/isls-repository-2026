@@ -1,6 +1,6 @@
 # Design of Machine Learning Powered Visualizations to Support Rapid Assessment of Online Student Discussions
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

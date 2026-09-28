@@ -1,6 +1,6 @@
 # From “Playful Activities” to “Knowledge Building”: A Case Study about a Teacher’s Percpetions on the Role of Experiments
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

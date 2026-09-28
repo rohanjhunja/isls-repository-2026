@@ -1,6 +1,6 @@
 # Designing Worked Examples for Dynamic Learning Technologies: The Effects of Action and Self-Explanation
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

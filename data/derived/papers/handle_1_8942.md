@@ -1,6 +1,6 @@
 # Organizational Co-Design: Triggering Science Teacher Sensemaking to Support Recognition of Varied Forms of STEM Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

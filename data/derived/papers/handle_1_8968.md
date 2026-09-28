@@ -1,6 +1,6 @@
 # Frameworks and Methodologies for Epistemic Growth in K-12 Science Classrooms to Address Post-Truth Discourse
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

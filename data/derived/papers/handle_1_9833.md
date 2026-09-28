@@ -1,6 +1,6 @@
 # Improving Technology- Enhanced Immersive Learning With Design-Based Implementation Research
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

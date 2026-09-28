@@ -1,6 +1,6 @@
 # Contributions of a Situative Perspective on Motivation in the Learning Sciences: Theorizing Motivation for Youth Voice and Equity
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

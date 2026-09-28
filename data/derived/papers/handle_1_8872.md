@@ -1,6 +1,6 @@
 # Leveraging Students to Generate Skill Tags That Inform Learning Analytics
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

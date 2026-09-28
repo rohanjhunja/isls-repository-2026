@@ -1,6 +1,6 @@
 # Clustering Cognitive Engagement Changes in Longitudinally Traced Discussion Data From a Graduate-Level Online Course
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

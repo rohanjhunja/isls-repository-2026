@@ -1,6 +1,6 @@
 # Curricular Reorganization in the Third Space: A Case of Consequential Reasoning around Data
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

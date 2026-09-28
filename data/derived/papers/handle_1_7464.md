@@ -1,6 +1,6 @@
 # Changes in the Media Landscape in the Wake of COVID-19 as a Catalyst for Data Literacy Development thru Life Routines
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

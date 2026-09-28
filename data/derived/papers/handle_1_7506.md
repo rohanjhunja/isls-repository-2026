@@ -1,6 +1,6 @@
 # Designing a Workshop to Support Teacher Customization of Curricula
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

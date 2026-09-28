@@ -1,6 +1,6 @@
 # The Future of Maker Education
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Designing for Youth-Centered Experiences in Informal STEM-rich Making With Minoritized Youth During the Pandemic: Conjectures & Considerations
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

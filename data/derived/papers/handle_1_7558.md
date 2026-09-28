@@ -1,6 +1,6 @@
 # Student Epistemic Agency and Coherence-seeking through Laboratory Experiments
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

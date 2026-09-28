@@ -1,6 +1,6 @@
 # Comparing Virtual and Augmented Reality: Learning and Interaction Effects in Astronomy Classrooms
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

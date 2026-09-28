@@ -1,6 +1,6 @@
 # Argumentation With Summary Tables in Geoscience Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

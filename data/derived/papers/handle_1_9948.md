@@ -1,6 +1,6 @@
 # Humanizing College Student Success: The Role of Brave Space, Validation, and Social-Emotional Competencies
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

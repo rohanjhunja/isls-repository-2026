@@ -1,6 +1,6 @@
 # Learning Natural Selection Through Computational Models in a High School A.P. Biology Classroom
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

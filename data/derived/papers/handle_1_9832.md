@@ -1,6 +1,6 @@
 # An Analysis of Teacher Practices and Student Participation in Contrasting Activity Systems in an AI Educational Program
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

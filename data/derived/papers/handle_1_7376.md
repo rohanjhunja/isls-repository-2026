@@ -1,6 +1,6 @@
 # Two Exploratory Case Studies of Teachers’ Adaptive Expertise in teaching Bioinformatics in High School Science Classrooms
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

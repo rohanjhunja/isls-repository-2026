@@ -1,6 +1,6 @@
 # Exploring the Trajectory of Learning and Using Productive Peer Talk Moves
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

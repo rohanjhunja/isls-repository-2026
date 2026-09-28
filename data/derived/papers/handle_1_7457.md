@@ -1,6 +1,6 @@
 # Designing for Compassion in Schools: A Humanizing Approach to Co-Design
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Re-Mediating Technology-Facilitated Embodied Activities at a Summer Camp for Youth With Disabilities
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

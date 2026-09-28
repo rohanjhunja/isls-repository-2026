@@ -1,6 +1,6 @@
 # Online vs In-Person Professional Learning Communities: A Qualitative Comparison of Teacher Learning Experiences
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

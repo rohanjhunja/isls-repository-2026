@@ -1,6 +1,6 @@
 # Development of a Faculty Community of Practice for Scholarship of Teaching and Learning
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

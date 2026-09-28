@@ -1,6 +1,6 @@
 # Elementary Students’ Reasoning About Explanation-Evidence Relationships
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

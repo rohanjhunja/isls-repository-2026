@@ -1,6 +1,6 @@
 # Designing an Intervention to Foster Teachers’ Contingent Responsiveness during Science Discussions
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # UTeach/NYC: A Research Practice Partnership to Expand and Improve Computer Science Education for All
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

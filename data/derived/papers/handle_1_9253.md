@@ -1,6 +1,6 @@
 # How Students Talk About Race and Identity: Unpacking Social-Emotional Talk
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

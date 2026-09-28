@@ -1,6 +1,6 @@
 # Categorization and Framing Teaching Discussions in an Online Physics Classroom
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

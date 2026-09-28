@@ -1,6 +1,6 @@
 # Becoming Visible in a New Learning Environment
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Family Resilience during Covid-19: Contrasting Cases of Mothers’ Beliefs and Behaviors to Support Child Well-being
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

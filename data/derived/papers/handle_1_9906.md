@@ -1,6 +1,6 @@
 # “Are You a Match?”: Coordinated Embodied Activity Using Multiple Perspectives to Support Algorithmic Solutions
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

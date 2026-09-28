@@ -1,6 +1,6 @@
 # “The Answer is Your Thinking…:” One Teacher’s Role in Helping Students in Navigating Their Epistemic Vexation
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

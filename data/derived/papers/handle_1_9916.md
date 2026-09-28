@@ -1,6 +1,6 @@
 # Identity Play: Nonlinear and Agentic Aspects of Middle School Youths’ Self-Making
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

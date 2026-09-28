@@ -1,6 +1,6 @@
 # Undergraduate and Graduate Student Perspective on Teaching for Critical Pedagogy
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

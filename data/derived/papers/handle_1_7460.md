@@ -1,6 +1,6 @@
 # Friends as Flowers: How Perspective-Taking and Empathy Transform Children’s Relationships to Science and Nature
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Multimodal Deep Learning Model for Detecting Types of Interactions for Regulation in Collaborative Learning
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

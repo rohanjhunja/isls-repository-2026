@@ -1,6 +1,6 @@
 # Advancing Technology Environments for Learning Communities
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

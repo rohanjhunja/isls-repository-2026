@@ -1,6 +1,6 @@
 # #WhiteRibbonAgainstDictatorship: Youth Participation in Thailand’s 2020-2021 Political Movement
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

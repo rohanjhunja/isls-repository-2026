@@ -1,6 +1,6 @@
 # Online Platforms as Sites for Learning: Exploring the Use of Online Resources in Computer and Software Engineering Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

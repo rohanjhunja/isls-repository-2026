@@ -1,6 +1,6 @@
 # Exploring Cross-Cultural Differences in Student Game Designs for WearableLearning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

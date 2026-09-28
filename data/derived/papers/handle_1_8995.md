@@ -1,6 +1,6 @@
 # Exploring Identity Resources in Co-Designing Chatbots
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

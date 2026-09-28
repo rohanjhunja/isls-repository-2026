@@ -1,6 +1,6 @@
 # Leveraging Influencer Groups to Examine Learning Networks on Twitter
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

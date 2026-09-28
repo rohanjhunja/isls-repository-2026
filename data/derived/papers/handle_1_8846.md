@@ -1,6 +1,6 @@
 # Examining How Cognitively Guided Instruction (CGI) Professional Development Influences Struggling Students’ Mathematical Problem Solving
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

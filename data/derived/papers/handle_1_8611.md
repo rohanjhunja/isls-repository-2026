@@ -1,6 +1,6 @@
 # The Influence of an Intervention on Students’ Historical Arguing Skills
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

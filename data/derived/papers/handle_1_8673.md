@@ -1,6 +1,6 @@
 # Tensions in Supporting Equity During Sense-Making Activities in Mathematics
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

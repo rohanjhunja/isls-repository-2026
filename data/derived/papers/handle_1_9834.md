@@ -1,6 +1,6 @@
 # Gamebooks for Environmental Education: Designing for Content and Pedagogy
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

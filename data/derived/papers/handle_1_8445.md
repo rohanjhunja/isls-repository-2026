@@ -1,6 +1,6 @@
 # From Queer Feminism to Anti-Racism: A Sociocultural Analysis of Activist Learning Across the Lifespan
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

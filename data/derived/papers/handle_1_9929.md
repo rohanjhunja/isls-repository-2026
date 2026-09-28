@@ -1,6 +1,6 @@
 # Probabilistic Motivation Profiles and Student Behaviors in Log Data
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

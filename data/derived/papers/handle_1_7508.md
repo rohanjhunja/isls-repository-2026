@@ -1,6 +1,6 @@
 # Picturing Worlds of Inclusion: Visual Analysis of Preservice Teachers’ Representations
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

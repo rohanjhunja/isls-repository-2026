@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 """Overview Service: Aggregates and serves taxonomy, density, network, and citation metrics."""
 
+import os
+import json
 import sqlite3
 import re
 import math
@@ -627,9 +629,79 @@ class OverviewService:
             "notes": "Lineage mapped across 4 publication eras connecting foundational works and team science collaborations."
         }
 
+    def get_external_citation_trends(self, category: Optional[str] = None,
+                                      venues: Optional[List[str]] = None) -> Dict[str, Any]:
+        base_dir = os.path.dirname(os.path.abspath(self.db_path)) if os.path.isabs(self.db_path) else os.getcwd()
+        cache_path = os.path.join(base_dir, "data", "derived", "external_citations_trends.json")
+        if os.path.exists(cache_path):
+            with open(cache_path, "r", encoding="utf-8") as f:
+                full_cache = json.load(f)
+        else:
+            return {"years": [], "series": []}
+
+        years = full_cache["years"]
+        yearly_paper_totals = full_cache["yearly_paper_totals"]
+        all_categories = full_cache["categories"]
+        all_venues = full_cache["venues"]
+
+        # If a specific category is requested
+        if category and category != "all":
+            matched_cat = next((c for c in all_categories if c["category_id"] == category), None)
+            if matched_cat:
+                cat_venues = matched_cat["venues"]
+                if venues:
+                    cat_venues = [v for v in cat_venues if v["venue_id"] in venues]
+                series = [{
+                    "id": v["venue_id"],
+                    "label": v["venue_name"],
+                    "category_id": v["category_id"],
+                    "category_name": v["category_name"],
+                    "counts": v["counts"],
+                    "percentages": v["percentages"],
+                    "total": v["total_papers"]
+                } for v in cat_venues]
+                return {
+                    "category": category,
+                    "category_name": matched_cat["category_name"],
+                    "description": matched_cat["description"],
+                    "years": years,
+                    "yearly_paper_totals": yearly_paper_totals,
+                    "series": series,
+                    "categories": all_categories,
+                    "venues": all_venues[:15]
+                }
+
+        # If "all" or no specific category: provide the top venues across all categories
+        if venues:
+            chosen_venues = [v for v in all_venues if v["venue_id"] in venues]
+        else:
+            chosen_venues = all_venues[:10]
+
+        series = [{
+            "id": v["venue_id"],
+            "label": v["venue_name"],
+            "category_id": v["category_id"],
+            "category_name": v["category_name"],
+            "counts": v["counts"],
+            "percentages": v["percentages"],
+            "total": v["total_papers"]
+        } for v in chosen_venues]
+
+        return {
+            "category": "all",
+            "category_name": "All Disciplinary Tributaries",
+            "description": "Top cross-disciplinary venues and journals cited across ISLS proceedings",
+            "years": years,
+            "yearly_paper_totals": yearly_paper_totals,
+            "series": series,
+            "categories": all_categories,
+            "venues": all_venues[:15]
+        }
+
     def get_papers(self, dimension: Optional[str] = None, label: Optional[str] = None,
                    year: Optional[int] = None, author: Optional[str] = None,
                    start_year: Optional[int] = None, end_year: Optional[int] = None,
+                   external_venue: Optional[str] = None, external_category: Optional[str] = None,
                    min_centrality: int = 1, limit: int = 25) -> List[Dict[str, Any]]:
         conn = self._get_conn()
         cur = conn.cursor()
@@ -666,6 +738,18 @@ class OverviewService:
             conditions.append("pl_filter.label_value = ?")
             params.append(label)
 
+        extra_select = ""
+        if external_venue:
+            joins.append("JOIN external_citations ec_filter ON p.id = ec_filter.paper_id")
+            conditions.append("ec_filter.venue_id = ?")
+            params.append(external_venue)
+            extra_select = "MAX(ec_filter.citation_snippet) AS citation_snippet, MAX(ec_filter.venue_name) AS external_venue_name,"
+        elif external_category and external_category != "all":
+            joins.append("JOIN external_citations ec_filter ON p.id = ec_filter.paper_id")
+            conditions.append("ec_filter.category_id = ?")
+            params.append(external_category)
+            extra_select = "MAX(ec_filter.citation_snippet) AS citation_snippet, MAX(ec_filter.category_name) AS external_venue_name,"
+
         if start_year is not None and end_year is not None:
             if start_year == end_year:
                 conditions.append("p.year = ?")
@@ -695,6 +779,7 @@ class OverviewService:
                 p.abstract,
                 p.handle_url,
                 p.doi,
+                {extra_select}
                 COALESCE(MAX(CASE WHEN pl.label_value = ? THEN pl.label_value END), MAX(pl.label_value), 'Unlabeled') AS label_value,
                 COALESCE(MAX(pl.centrality_score), 1) AS centrality_score,
                 COALESCE(MAX(pl.method), '0-cost-title-abstract-v1') AS method,

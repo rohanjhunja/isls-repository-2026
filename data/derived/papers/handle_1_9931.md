@@ -1,6 +1,6 @@
 # Teaching Artist Perceptions of Anti-Racism in an Out-of-School Time Theatre Programs
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

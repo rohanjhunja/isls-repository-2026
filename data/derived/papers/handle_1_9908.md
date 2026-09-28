@@ -1,6 +1,6 @@
 # “For the First Time in a Long Time, …”: Teachers’ Transformative Agency During the Creation of a Professional Community
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Embracing Diversity and Connectivity for Entrepreneurship Education Innovation: An Observation Study of Co-Creation Pedagogy for Design Thinking Capacity Building Program of Higher Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

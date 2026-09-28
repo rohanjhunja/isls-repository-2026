@@ -1,6 +1,6 @@
 # Understanding the Factors Influencing Persistence: What Can Novices Learn From Experts?
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

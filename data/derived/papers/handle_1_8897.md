@@ -1,6 +1,6 @@
 # Students’ Changing Understanding of Psychological Evidence: Integrating Evidence Evaluation in Psychology Instruction
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

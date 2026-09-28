@@ -1,6 +1,6 @@
 # SCoRe-Docs: An Online Environment for Student Crowd Research
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

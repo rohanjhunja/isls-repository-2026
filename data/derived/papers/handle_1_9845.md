@@ -1,6 +1,6 @@
 # Mechanistic Reasoning and Ethics of Caring in Engineering Contexts for Educators
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

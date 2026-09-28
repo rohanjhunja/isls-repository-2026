@@ -1,6 +1,6 @@
 # Understanding and Leveraging Contradictions of Instructional Activities for Fostering Students’ Agency
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

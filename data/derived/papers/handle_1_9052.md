@@ -1,6 +1,6 @@
 # Shifting From “Broadening” to “Empowering”: One Community’s Perspective on Changing the Learning Sciences
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

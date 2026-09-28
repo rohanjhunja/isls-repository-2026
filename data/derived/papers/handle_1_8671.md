@@ -1,6 +1,6 @@
 # Design of an Argumentation-Based Learning Activity: Connecting Veterinary Students to Real-World Problems
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

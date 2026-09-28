@@ -1,6 +1,6 @@
 # Pedagogical Communication Language in Video Lectures: Empirical Findings from Algebra Nation
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

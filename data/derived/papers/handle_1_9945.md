@@ -1,6 +1,6 @@
 # Expansive Framing for Citizen Science: Use of a Facilitated Online Platform to Connect Current and Future Teacher Practices in STEM
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Study on Evaluation Indicator System of Interdisciplinary Problem-Solving Ability for Pre-Service STEM Teachers
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

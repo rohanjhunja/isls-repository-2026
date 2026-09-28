@@ -1,6 +1,6 @@
 # Mapping the Complexities and Benefits of Research-Design Partnerships
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

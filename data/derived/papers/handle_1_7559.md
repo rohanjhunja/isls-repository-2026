@@ -1,6 +1,6 @@
 # (Re)presenting Nature: Sixth Graders’ Place-based Field Trip Experience through Restorying
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

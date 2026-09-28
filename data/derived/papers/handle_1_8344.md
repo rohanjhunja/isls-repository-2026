@@ -1,6 +1,6 @@
 # How to Promote Optimal Individual and Collaborative Learning in Remote and Hybrid Environments? A Focus on Motivational and Emotional Factors
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

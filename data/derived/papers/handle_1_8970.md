@@ -1,6 +1,6 @@
 # Cultivating Critical, Justice-Oriented Data Literacies in a Post-Truth World
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

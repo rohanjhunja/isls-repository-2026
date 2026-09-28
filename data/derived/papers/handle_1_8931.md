@@ -1,6 +1,6 @@
 # Graphing With Balance Board Math: Critical Embodied Design for Regulation and Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

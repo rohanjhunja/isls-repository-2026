@@ -1,6 +1,6 @@
 # Designing for an Emerging Paradigm in Computer Programming - Towards Hybrid Human-Computer Creation of Artifacts
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

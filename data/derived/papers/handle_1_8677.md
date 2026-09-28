@@ -1,6 +1,6 @@
 # Dynamic Modelling of Collaborative Sensemaking: A Case Study
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

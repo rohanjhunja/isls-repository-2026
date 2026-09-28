@@ -1,6 +1,6 @@
 # How Inquiry-Based Learning Approach Affect the Impact of Augmented Reality on Science Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

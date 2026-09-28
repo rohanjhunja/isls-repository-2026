@@ -1,6 +1,6 @@
 # Toward A More Comprehensive Definition of Collaboration: Scholarly Literature vs. Practitioners
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

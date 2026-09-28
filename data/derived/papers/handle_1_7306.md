@@ -1,6 +1,6 @@
 # Examining the Influence of Instructor Interventions on Group Collaboration
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

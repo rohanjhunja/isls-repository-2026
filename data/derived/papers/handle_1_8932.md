@@ -1,6 +1,6 @@
 # The Tensions of Making Space: How Teachers Work Toward Heterogeneous Science Sense-Making
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

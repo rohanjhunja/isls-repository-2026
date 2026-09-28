@@ -1,6 +1,6 @@
 # Creating Space for Formative Peer Feedback in a Community-Oriented MOOC
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Ecological Approach to Technology Integration: A Comparative Analysis of Technology in Collaborative Learning Environment
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

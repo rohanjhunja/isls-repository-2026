@@ -1,6 +1,6 @@
 # Informing Advanced Digital Technologies’ Design for Refugee Language Education in Greece
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Culturally Responsive Computing for Black Boys Through Sports Technology
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

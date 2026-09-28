@@ -1,6 +1,6 @@
 # “I Guess My Question is Like”: Problematizing in an Introductory College Physics Lab
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

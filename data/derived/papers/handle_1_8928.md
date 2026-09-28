@@ -1,6 +1,6 @@
 # Teachers’ Use of Augmented Reality in the Classroom:reasons, Practices, and Needs
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

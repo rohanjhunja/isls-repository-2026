@@ -1,6 +1,6 @@
 # Strategies to Manage Scientific Uncertainties for Productive Sensemaking
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

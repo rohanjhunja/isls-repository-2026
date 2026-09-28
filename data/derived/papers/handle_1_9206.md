@@ -1,6 +1,6 @@
 # Breaking Down the Visual Barrier: Designing Data Interactions for the Visually Impaired in Informal Learning Settings
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # What Influences Epistemic Actions on Social Media?
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

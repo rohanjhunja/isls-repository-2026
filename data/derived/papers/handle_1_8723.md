@@ -1,6 +1,6 @@
 # Methodological Progress in Co-Regulation and Socially Shared Regulation of Learning Research: A Systematic Review
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

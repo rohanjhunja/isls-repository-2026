@@ -1,6 +1,6 @@
 # Evaluation of the Support Function of a Knowledge-Creating Community: Visualizing Relationships Between Members in an Online Situation
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

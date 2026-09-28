@@ -1,6 +1,6 @@
 # What Time and What Place? Technologies’ Diverging Role in Online Schooling Across Socioeconomical Contexts During Covid-19
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

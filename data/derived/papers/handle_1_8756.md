@@ -1,6 +1,6 @@
 # Positioning Self and Others Through Sympathizing, Empathizing, Anthropomorphizing, and Zoomorphizing: A Case Study
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

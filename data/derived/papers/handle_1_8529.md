@@ -1,6 +1,6 @@
 # Design of Real-Time Scaffolding of Middle School Science Writing Using Automated Techniques
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

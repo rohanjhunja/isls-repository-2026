@@ -1,6 +1,6 @@
 # Intercultural Interactions in a Virtual Global Learning Environment
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

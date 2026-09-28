@@ -1,6 +1,6 @@
 # Mapping the Landscape of Assessment in Out-of-School Time Arts Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

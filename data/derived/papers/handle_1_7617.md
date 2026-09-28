@@ -1,6 +1,6 @@
 # Assessing Pedagogical Practices to Support Self-Regulated Learning in Science
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

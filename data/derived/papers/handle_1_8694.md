@@ -1,6 +1,6 @@
 # Inquiry of (Re)configurings: Toward a Review of Posthumanist Methods for the Study of Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

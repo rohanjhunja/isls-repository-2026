@@ -1,6 +1,6 @@
 # “Keep It in the Village”: A 25-Year Journey of Collective Concept Formation Transforming Financial Practices in a Rural Thai Village
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

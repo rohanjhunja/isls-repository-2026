@@ -1,6 +1,6 @@
 # Development and Formative Evaluation of a Learning Game for Overcoming Typical Difficulties in Historical Thinking
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

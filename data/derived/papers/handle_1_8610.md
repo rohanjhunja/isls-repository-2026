@@ -1,6 +1,6 @@
 # Uplift Modeling for Educational Data
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

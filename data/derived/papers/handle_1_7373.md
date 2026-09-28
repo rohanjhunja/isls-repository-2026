@@ -1,6 +1,6 @@
 # Asking Students to Carry Out Generative Learning Activities in Text Learning: Exploring the Role of the Quality of the Performed
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

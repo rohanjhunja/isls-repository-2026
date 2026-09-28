@@ -1,6 +1,6 @@
 # Interplay Between Group Awareness and Internal Scripts: How Information About Knowledge and Controversies Triggers the Activation of Problem-Solving Script Components
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

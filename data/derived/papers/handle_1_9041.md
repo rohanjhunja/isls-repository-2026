@@ -1,6 +1,6 @@
 # Fostering Community for Current and Future Latinx Science Teachers Through Testimonios and Co-Design
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

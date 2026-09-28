@@ -1,6 +1,6 @@
 # A Knowledge Building–Modeling Approach to Understanding Sustainable Development Goals
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Encountering Uncertainty and Learning to "Try and Try and Try": The Development of Teachers' Perseverance Within Science
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

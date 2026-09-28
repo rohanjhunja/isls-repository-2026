@@ -1,6 +1,6 @@
 # Validating a Code-Free Computational Thinking Assessment for Elementary School Students: Preliminary Results
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

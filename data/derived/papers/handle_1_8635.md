@@ -1,6 +1,6 @@
 # Co-Design of AI-enhanced Learning Analytics: Considerations for Ensuring Diversity, Equity, Justice
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

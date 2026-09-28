@@ -1,6 +1,6 @@
 # Actor-Network Theory as a New Direction in Research on Educational Dialogues
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

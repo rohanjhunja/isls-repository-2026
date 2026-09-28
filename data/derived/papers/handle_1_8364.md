@@ -1,6 +1,6 @@
 # Joint Choice Time: A Metric for Better Understanding Collaboration in Interactive Museum Exhibits
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

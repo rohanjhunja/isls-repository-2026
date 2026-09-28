@@ -1,6 +1,6 @@
 # Understanding the Assemblage of Community Desire: Progress, Challenges, and Tensions in Establishing a Community-Based Health Justice Science Education Curriculum Collaborative
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

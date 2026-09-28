@@ -1,6 +1,6 @@
 # Care and Complexity: Designing for Holistic Understandings of and Within a Pandemic
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

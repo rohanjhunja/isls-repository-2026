@@ -1,6 +1,6 @@
 # Embodied Discourse Analysis of Online Student Study Sessions:  A Novel Method of Screen Recording Research
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

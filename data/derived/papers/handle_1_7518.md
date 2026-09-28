@@ -1,6 +1,6 @@
 # Knowledge Creation Analytics for Jigsaw Instruction: Temporal Socio-Semantic Network Analysis
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

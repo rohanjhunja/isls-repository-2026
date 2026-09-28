@@ -1,6 +1,6 @@
 # Promoting Reflection in a Community-Oriented MOOC
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

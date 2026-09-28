@@ -1,6 +1,6 @@
 # “Learning Experiences, Technology, and No Grades” – What Students Expect From a Non-Formal Learning Setting Outside of School
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

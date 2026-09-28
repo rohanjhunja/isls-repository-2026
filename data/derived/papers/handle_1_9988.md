@@ -1,6 +1,6 @@
 # What Schooling is and What it Could Be: Exploring How We Learn the Discourses and Technologies of Public Education in School-Adjacent Spaces
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

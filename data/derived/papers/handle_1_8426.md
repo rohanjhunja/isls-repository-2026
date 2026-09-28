@@ -1,6 +1,6 @@
 # AI-Supported Scaffolding for Writing Academic Arguments
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

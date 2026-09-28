@@ -1,6 +1,6 @@
 # Striving for Adaptivity - Enabling Complex Problem-Solving Processes in a Computer-Based Learning Environment
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

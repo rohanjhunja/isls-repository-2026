@@ -1,6 +1,6 @@
 # Examining the Development of Perspective-Taking Through Social Annotations in Collaborative Text Study
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

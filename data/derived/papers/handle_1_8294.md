@@ -1,6 +1,6 @@
 # Diversity in Learners’ Contributions to Idea Improvement Processes Among the High Learning-Outcome Groups in a Knowledge Building Practice
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

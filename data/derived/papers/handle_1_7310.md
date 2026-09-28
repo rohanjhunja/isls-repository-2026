@@ -1,6 +1,6 @@
 # Embodied Transmission of Ideas: Collaborative Construction of Geometry Content and Mathematical Thinking
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # The Design of a Critical Machine Learning Program for Young Learners
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

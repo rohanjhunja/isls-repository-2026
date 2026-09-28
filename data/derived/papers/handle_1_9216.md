@@ -1,6 +1,6 @@
 # Towards Visible Socially-Shared Regulation of Learning: Exploring the Role of Learning Design
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Place-Based Mobile AR: Technological Development of Mobile Apps to Support Families to See and Discuss Science Outdoors
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

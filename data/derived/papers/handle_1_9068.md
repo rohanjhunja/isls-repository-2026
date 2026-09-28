@@ -1,6 +1,6 @@
 # Promoting Computational Thinking Through Science-Engineering Integration Using Computational Modeling
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

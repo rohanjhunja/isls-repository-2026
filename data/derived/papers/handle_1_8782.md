@@ -1,6 +1,6 @@
 # Exploring Epistemic Network Analysis Diagrams as a Tool for Developing Teacher Noticing of Classroom Dialogic Features
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

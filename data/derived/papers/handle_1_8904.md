@@ -1,6 +1,6 @@
 # Performing Algorithms: Weaving as Promising Context for Computational Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Postcards and Photo Walks: Telling Community Data Stories Through Photography
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Evaluating a Historical Video Game:  Roles of Gaming Expertise and History Expertise
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

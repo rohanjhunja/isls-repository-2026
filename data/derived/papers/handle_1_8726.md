@@ -1,6 +1,6 @@
 # Designing to Support Teacher Mediated Strategies for Student Learning in a Remote Kindergarten Music Class
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

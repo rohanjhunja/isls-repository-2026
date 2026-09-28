@@ -1,6 +1,6 @@
 # A Review of Active Learning within JLS and ijCSCL: What can the Learning Sciences tell Active Learning Practitioners?
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

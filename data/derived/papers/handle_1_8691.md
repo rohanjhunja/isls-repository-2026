@@ -1,6 +1,6 @@
 # Makerland: Mathematics in Makerspace Resources to Enhance Maker-Based Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

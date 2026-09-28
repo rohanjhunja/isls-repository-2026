@@ -1,6 +1,6 @@
 # Integrating Data Literacy into Secondary School Science: An Exploratory Study of a Pilot Professional Development
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

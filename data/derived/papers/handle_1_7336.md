@@ -1,6 +1,6 @@
 # Teaching about COVID-19: Using a Virtual Epidemic to Contextualize and Problematize Infectious Disease Epidemiology in a High School Class
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

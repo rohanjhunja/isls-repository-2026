@@ -1,6 +1,6 @@
 # Big or Small? Examining the Influence of Group Size on Discourse Patterns in a Virtual, Collaborative, Informal, STEM-focused Learning Community
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

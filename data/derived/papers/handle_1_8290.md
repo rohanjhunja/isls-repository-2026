@@ -1,6 +1,6 @@
 # Volumetric Capture and Replay in Virtual Reality – Entering the Age of Immersive and Volumetric Analysis in CSCL
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

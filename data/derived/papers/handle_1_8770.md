@@ -1,6 +1,6 @@
 # Studying the Development of Marginality in Collaboration: Methods for Examining the Interplay of Peer & Teacher Interactions
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

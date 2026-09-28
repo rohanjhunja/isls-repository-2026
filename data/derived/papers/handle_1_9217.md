@@ -1,6 +1,6 @@
 # Role of Epistemic Artifacts for Engaging in Collaborative Learning
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Designing Courses as Sustainable Learning Communities: A STEM Teacher Candidate Course Extending Into K-12 Teaching
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

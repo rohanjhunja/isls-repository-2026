@@ -1,6 +1,6 @@
 # My Partner was a Good Partner: Investigating the Relationship between Dialogue Acts and Satisfaction among Middle School Computer Science Learners
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Designing Educative Supports for Scientific Argumentation:  A Case Study of DBR before and during the Pandemic
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

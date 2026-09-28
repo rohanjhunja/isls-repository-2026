@@ -1,6 +1,6 @@
 # Joint Visual Attention Predicts Learning in 1-On-1 Remote Teaching: A Dual Eye-Tracking Study
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Centering Critical Youth Research Methodologies of Praxis and Care in Post-Pandemic Times
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

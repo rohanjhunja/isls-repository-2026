@@ -1,6 +1,6 @@
 # "That Was Mindblowing”: How Reading with a Social Robot Enhances Science Learning Experiences
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

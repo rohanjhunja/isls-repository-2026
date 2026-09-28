@@ -1,6 +1,6 @@
 # A Lighter Shade of Black Boxes: Students’ Interpretations of the
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

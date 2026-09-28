@@ -1,6 +1,6 @@
 # “Keeping Them With Us”: Constructing Equitable Online Spaces for the Theatre Classroom
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Understanding SSRL Strategies and Its Impact on Group Performance in a CSCL Environment: A Case Study From a Project-Based Learning Course in India
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

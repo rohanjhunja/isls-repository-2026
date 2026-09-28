@@ -1,6 +1,6 @@
 # Using Synthetic Knowledge and Interaction Analysis to Investigate Learning in a Collaborative Digital Climate Learning Experience
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

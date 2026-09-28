@@ -1,6 +1,6 @@
 # Exploring Socially Shared Regulation With an AI Deep Learning Approach Using Multimodal Data
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

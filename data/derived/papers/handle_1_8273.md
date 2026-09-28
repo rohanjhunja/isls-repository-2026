@@ -1,6 +1,6 @@
 # Examining Prompted Discourse Patterns in an Informal, Online, Global Collaborative Learning Environment
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

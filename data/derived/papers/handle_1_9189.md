@@ -1,6 +1,6 @@
 # Towards Recognition of Students’ Epistemic Emotions in a Student Knowledge Building Design Studio
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

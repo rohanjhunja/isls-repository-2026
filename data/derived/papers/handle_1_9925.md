@@ -1,6 +1,6 @@
 # Computational Thinking Practices at Play in an Early Childhood Microworld
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

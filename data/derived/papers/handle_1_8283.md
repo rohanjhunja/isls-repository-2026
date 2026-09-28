@@ -1,6 +1,6 @@
 # Examining the Effectiveness of Self-Referenced and Peer-Referenced Learning Analytics Dashboards in Enhancing Students’ Self-Efficacy: Taking Individual Differences Into Account
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # When, Where, and at What Pace? Space and Time in Equitable Learning and Design
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

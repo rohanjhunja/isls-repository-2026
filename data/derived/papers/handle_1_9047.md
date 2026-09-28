@@ -1,6 +1,6 @@
 # Advancing the Goals of Problem-Posing Education in a Knowledge Building Community: An Exploratory Case Study
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

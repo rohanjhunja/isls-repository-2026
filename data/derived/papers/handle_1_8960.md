@@ -1,6 +1,6 @@
 # What Does ‘Computer Science Education for All’ Look Like in a Korean Middle School: An Ethnographic Case Study on an Informatics Teacher’s Local Contentious Practice
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

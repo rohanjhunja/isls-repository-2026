@@ -1,6 +1,6 @@
 # Testing Simple Instructional Models to Promote the Spontaneous Transfer of Inquiry Strategies in New Contexts
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

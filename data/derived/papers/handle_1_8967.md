@@ -1,6 +1,6 @@
 # Promoting STEM Careers: Preliminary Analysis of the Young Scholars Program
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # “Pick a Partner!”: A Qualitative Study on University Students’ Motives to Choose a Specific Partner for Collaboration
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

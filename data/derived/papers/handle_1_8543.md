@@ -1,6 +1,6 @@
 # Museum-Led Design of Student-Centered K-12 Learning: Where Informal Perspectives Meet Formal Requirements
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

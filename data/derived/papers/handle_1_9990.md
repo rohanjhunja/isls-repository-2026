@@ -1,6 +1,6 @@
 # Computation Within and Beyond Disciplinary Communities: Learnings From K-12 In-School-Time Studies
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

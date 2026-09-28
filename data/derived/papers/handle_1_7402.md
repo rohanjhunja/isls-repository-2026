@@ -1,6 +1,6 @@
 # Datafication in Figured Worlds: Narrating COVID-19 Data
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

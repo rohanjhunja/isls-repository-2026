@@ -1,6 +1,6 @@
 # In Pursuit of Creativity in Minecraft: A Mixed-Method Approach
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

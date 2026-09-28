@@ -1,6 +1,6 @@
 # Qualitative Research as the Co-Construction of Knowledge: Designed and Emergent Opportunities for Equity in Data Collection
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

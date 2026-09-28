@@ -1,6 +1,6 @@
 # Teachers' Aesthetic Judgments of Classroom Events
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

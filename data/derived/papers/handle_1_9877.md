@@ -1,6 +1,6 @@
 # Equitable Socio-Ecological Learning Across STEM Disciplines Through a Histories of Places Framework
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

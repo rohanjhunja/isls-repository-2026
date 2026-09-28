@@ -1,6 +1,6 @@
 # Exploring the Diagnostic Process of Pre-Service Teachers Using a Simulation – A Latent Profile Approach
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

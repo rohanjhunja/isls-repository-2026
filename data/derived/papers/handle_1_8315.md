@@ -1,6 +1,6 @@
 # Motivating Cognitive Elaboration Through a Knowledge Diversity Manipulation During an Online Collaborative Problem-Solving Task
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

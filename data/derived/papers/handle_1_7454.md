@@ -1,6 +1,6 @@
 # A Learning Sciences and Organizational Behavior Framework for Analyzing How College Instructors Learn Inclusive Pedagogies
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

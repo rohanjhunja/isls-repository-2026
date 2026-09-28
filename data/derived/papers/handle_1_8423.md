@@ -1,6 +1,6 @@
 # Facilitating Productive Struggle in Science Education: The Possible Benefits of Managing Scientific Uncertainty During Sensemaking
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

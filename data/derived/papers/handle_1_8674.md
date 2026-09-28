@@ -1,6 +1,6 @@
 # Directed Actions Scaffold Gestural Insights in Geometric Reasoning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Using Minecraft to Reconstruct and Roleplay Local History: Intersubjectivity, Temporality, and Tension
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

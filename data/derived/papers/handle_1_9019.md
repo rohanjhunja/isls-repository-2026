@@ -1,6 +1,6 @@
 # Adolescents’ Interdisciplinary Learning in Self-Driven Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

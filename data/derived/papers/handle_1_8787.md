@@ -1,6 +1,6 @@
 # Writing to Rewrite Dominant Discourse(s): Some Design Dilemmas From Global South
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

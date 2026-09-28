@@ -1,6 +1,6 @@
 # “It’s Working - We’re Bosses” – A Study of Contentious Moments of Learning, Identity and Power in the Context of a Coding Project
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

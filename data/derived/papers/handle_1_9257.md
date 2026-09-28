@@ -1,6 +1,6 @@
 # Supporting Collaborative Online Science Education With a Transferable and Configurable Conversational Agent
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

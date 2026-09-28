@@ -1,6 +1,6 @@
 # Ideologies of Place and Reasoning About Space With Maps
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

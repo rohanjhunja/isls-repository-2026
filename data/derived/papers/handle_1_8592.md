@@ -1,6 +1,6 @@
 # Conceptualizations of Teaching and Learning in Impact Statements for Tenure and Promotion
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

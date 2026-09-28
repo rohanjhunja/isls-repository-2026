@@ -1,6 +1,6 @@
 # Detecting Micro-Creativity in CSCL Chats
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

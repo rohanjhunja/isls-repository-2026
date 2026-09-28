@@ -1,6 +1,6 @@
 # Analysing Teacher Learning in Online networks: An Outline for Methodological Decision-Making
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

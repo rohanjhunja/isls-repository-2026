@@ -1,6 +1,6 @@
 # Critical Biomaking: Socioscientific Issues as Contexts for Life Science Maker Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

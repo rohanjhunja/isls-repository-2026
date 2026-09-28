@@ -1,6 +1,6 @@
 # The Zone of Proximal Self Model to Improve Equity in Higher Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

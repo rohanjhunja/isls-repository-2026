@@ -1,6 +1,6 @@
 # Promoting Science Self-Concept with Inquiry-based Curricula
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

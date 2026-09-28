@@ -1,6 +1,6 @@
 # Reframing Design for Transformative Change: Supporting Pre-Service Teachers in Adopting Designerly Stances Towards Inquiry
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

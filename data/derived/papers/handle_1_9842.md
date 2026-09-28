@@ -1,6 +1,6 @@
 # What If Interaction Fails? A Comparison of a Virtual and a Physical Learning Environment for Learning About Areas of Parallelograms
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

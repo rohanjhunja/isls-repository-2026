@@ -1,6 +1,6 @@
 # Learning and Developing Positive Psychology via Knowledge Building
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

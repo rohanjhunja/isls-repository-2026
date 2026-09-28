@@ -1,6 +1,6 @@
 # How Reward- And Error-Based Feedback Systems Create Micro-Failures to Support Learning Strategies
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

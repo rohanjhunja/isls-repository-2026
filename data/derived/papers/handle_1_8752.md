@@ -1,6 +1,6 @@
 # Strategies Towards Designing for Sustained Engagement in Computational Modeling in Science Classrooms
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

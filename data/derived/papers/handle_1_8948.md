@@ -1,6 +1,6 @@
 # “Can Molecules Change Their Color?” Exploring Students' Non-Canonical Ideas While Programming a Model of Diffusion
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

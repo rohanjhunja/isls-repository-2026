@@ -1,6 +1,6 @@
 # The Learning Must Go On: Experience of Keeping Participants Engaged in Online Robotics Competition During COVID-19 Lockdown
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

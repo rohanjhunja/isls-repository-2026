@@ -1,6 +1,6 @@
 # Learning With Stories: Characteristics and Learning Outcomes in Narrative-Centered Science Learning Environments
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

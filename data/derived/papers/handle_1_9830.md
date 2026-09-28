@@ -1,6 +1,6 @@
 # Supporting High School Science Teachers in Developing Pedagogical Content Knowledge for Data Literacy
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

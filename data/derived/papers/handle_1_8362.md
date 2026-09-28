@@ -1,6 +1,6 @@
 # Development of an Instrument to Assess the Quality of Collaboratively Constructed Notes
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

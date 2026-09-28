@@ -1,6 +1,6 @@
 # Apt Epistemic Practices in a High School Science Classroom: A Contrastive Case Study
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

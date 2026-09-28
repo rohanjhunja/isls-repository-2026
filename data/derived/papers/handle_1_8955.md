@@ -1,6 +1,6 @@
 # Unearthing Tensions in a PAR Project
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

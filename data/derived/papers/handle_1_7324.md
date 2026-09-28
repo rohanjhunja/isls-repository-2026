@@ -1,6 +1,6 @@
 # Augmented Reality in Collaborative Problem Solving: A Qualitative Study of Challenges and Solutions
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # MathCHOPS: A Platform for Developing Collaborative Higher Order Problem Solving in Mathematics
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

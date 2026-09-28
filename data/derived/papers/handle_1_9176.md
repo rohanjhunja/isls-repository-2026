@@ -1,6 +1,6 @@
 # The Role of Social Interactions and Cognition in Digital Spaces
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

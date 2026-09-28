@@ -1,6 +1,6 @@
 # Learning to Build Bridges: Promoting Skills for Complex Collaboration Across Professional and Cultural Boundaries
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # “I Would Rather Argue a Point”
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

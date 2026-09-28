@@ -1,6 +1,6 @@
 # Supporting Multilingualism in Preschool: A Play Responsive Teaching Approach Mediated by Digital Technologies
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

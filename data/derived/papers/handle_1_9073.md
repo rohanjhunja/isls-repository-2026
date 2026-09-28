@@ -1,6 +1,6 @@
 # Learning From and About Failure in a Hybrid Collaborative Game Environment
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

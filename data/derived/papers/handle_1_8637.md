@@ -1,6 +1,6 @@
 # To Wait or Not to Wait: Adding to the Debate on Immediate Versus Delayed Feedback
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

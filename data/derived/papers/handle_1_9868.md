@@ -1,6 +1,6 @@
 # Understanding How Resettled Refugee Youth Bridge Funds of Knowledge With Science Learning
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

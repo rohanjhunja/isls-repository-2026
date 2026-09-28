@@ -1,6 +1,6 @@
 # The Hidden Meaning of Physical Interaction With Exhibits: The Relevance of the Instrumented Activity Situation Model
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

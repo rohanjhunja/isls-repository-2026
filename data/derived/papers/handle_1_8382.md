@@ -1,6 +1,6 @@
 # Building Community and Understanding Evolution of Thought Through Digital Storytelling Within a Knowledge Building Context
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

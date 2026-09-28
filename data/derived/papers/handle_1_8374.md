@@ -1,6 +1,6 @@
 # Effort and Struggles in the Data: How Do Low and High Achieving Students Use an Online Textbook in an Introductory STEM Course?
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Temporal Trajectories of Epistemic Views by University Students in a Knowledge-Building Learning Environment
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

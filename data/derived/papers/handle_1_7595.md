@@ -1,6 +1,6 @@
 # Creation of an Inventory Assessing Epistemic Beliefs about the Co-Construction of Knowledge in Team Science Contexts
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

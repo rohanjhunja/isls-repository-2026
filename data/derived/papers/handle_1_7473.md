@@ -1,6 +1,6 @@
 # The Tragedy of Lost Ideas: Examining Epistemic Injustice in Pair Programming
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

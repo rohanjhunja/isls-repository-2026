@@ -1,6 +1,6 @@
 # Studying Interdisciplinary Collaboration as a Core Skill
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

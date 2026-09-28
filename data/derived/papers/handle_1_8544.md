@@ -1,6 +1,6 @@
 # Comparative Analysis of the Rule-Based and Machine Learning Approach for Assessing Student Reflections
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

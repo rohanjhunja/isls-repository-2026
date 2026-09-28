@@ -1,6 +1,6 @@
 # The Influence of Knowledge-Building-Based Collaborative Argumentation Instruction on High School Students' Online Collaborative Argumentation Performance and Behavioral Patterns Regarding Socio-Scientific Issues
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

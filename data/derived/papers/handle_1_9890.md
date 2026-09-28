@@ -1,6 +1,6 @@
 # Building Teachers’ Digital Competence Through a Self-Reflection Process
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

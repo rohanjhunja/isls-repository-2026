@@ -1,6 +1,6 @@
 # Designing to Disrupt While Encountering Disruption: Engaging With the Unexpected in Educational Research and Practice
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

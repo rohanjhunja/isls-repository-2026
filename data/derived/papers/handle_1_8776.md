@@ -1,6 +1,6 @@
 # Does Where You Start Matter? The Interaction Between Prior Knowledge and Effectiveness of Game-Based Interventions
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

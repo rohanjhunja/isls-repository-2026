@@ -1,6 +1,6 @@
 # Multimodal Data Fusion to Track Representational Flexibility of Adolescents With Autism Spectrum Disorder During Virtual Reality-Based Training
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

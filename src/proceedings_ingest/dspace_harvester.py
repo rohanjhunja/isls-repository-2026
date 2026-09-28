@@ -46,28 +46,94 @@ def parse_page_range(citation: str, pdf_url: str) -> Tuple[Optional[int], Option
     return None, None
 
 
-def parse_paper_type(title: str, citation: str, start_page: Optional[int], end_page: Optional[int]) -> str:
-    """Infer paper type (Full Paper, Short Paper, Poster, Symposium, Workshop)."""
+def parse_paper_type(
+    title: str,
+    citation: str,
+    start_page: Optional[int],
+    end_page: Optional[int],
+    dc_description: Optional[List[str]] = None,
+) -> str:
+    """Infer or map paper type (Full Paper, Short Paper, Poster, Symposium, Paper)."""
+    if dc_description:
+        for desc in dc_description:
+            d_clean = desc.strip()
+            if d_clean == "Long Paper":
+                return "Full Paper"
+            elif d_clean == "Short Paper":
+                return "Short Paper"
+            elif d_clean == "Poster":
+                return "Poster"
+            elif d_clean == "Symposium":
+                return "Symposium"
+            elif d_clean == "Practice-Oriented Paper":
+                # Default to page length for practice papers
+                if start_page is not None and end_page is not None:
+                    num_pages = end_page - start_page + 1
+                    return "Full Paper" if num_pages >= 6 else "Short Paper"
+                return "Short Paper"
+
     text = f"{title} {citation}".lower()
     if "symposium" in text:
         return "Symposium"
     if "poster" in text:
         return "Poster"
-    if "workshop" in text:
-        return "Workshop"
     if "short paper" in text:
         return "Short Paper"
 
     if start_page is not None and end_page is not None:
         num_pages = end_page - start_page + 1
         if num_pages >= 6:
-            return "Full Paper"
+            return "Symposium" if "symposium" in text else "Full Paper"
         elif num_pages in [3, 4, 5]:
             return "Short Paper"
         elif num_pages in [1, 2]:
-            return "Poster / Short Note"
+            return "Poster"
 
-    return "Paper"
+    # Volume-based fallback heuristics for unpaged citations (e.g. 2016-2018)
+    vol_match = re.search(r'\bVolume\s+(\d+)\b', citation or "", re.IGNORECASE)
+    if vol_match:
+        vol = int(vol_match.group(1))
+        if vol == 1:
+            return "Full Paper"
+        elif vol == 3:
+            return "Poster"
+        elif vol == 2:
+            return "Symposium" if "symposium" in text else "Short Paper"
+
+    return "Short Paper"
+
+
+def parse_conference(
+    citation: Optional[str] = None,
+    doi: Optional[str] = None,
+    default_conf: str = "ISLS",
+) -> str:
+    """Resolve conference track (CSCL or ICLS) from DOI or citation container clause."""
+    doi_str = (doi or "").lower()
+    if "10.22318/cscl" in doi_str:
+        return "CSCL"
+    if "10.22318/icls" in doi_str:
+        return "ICLS"
+
+    cit_str = citation or ""
+    # Look specifically in the 'In ... Proceedings of ...' container portion
+    in_proceedings_match = re.search(r'\bin\s+.*?proceedings\s+of.*?\b(cscl|icls)\b', cit_str, re.IGNORECASE)
+    if in_proceedings_match:
+        return in_proceedings_match.group(1).upper()
+
+    if re.search(r'\bcscl\s*\d{4}\b', cit_str, re.IGNORECASE) or re.search(r'\bcomputer-supported collaborative learning\b', cit_str, re.IGNORECASE):
+        return "CSCL"
+    if re.search(r'\bicls\s*\d{4}\b', cit_str, re.IGNORECASE) or re.search(r'\binternational conference of the learning sciences\b', cit_str, re.IGNORECASE):
+        return "ICLS"
+
+    # Fallback to default_conf if it contains CSCL or ICLS
+    def_lower = default_conf.lower()
+    if "cscl" in def_lower:
+        return "CSCL"
+    if "icls" in def_lower:
+        return "ICLS"
+
+    return "ICLS"
 
 
 class DSpaceHarvester:
@@ -153,9 +219,14 @@ class DSpaceHarvester:
             pdf_match = re.search(r'href=\"([^\"]*bitstream/1/[^\"]+\.pdf[^\"]*)\"', html)
             pdf_url = f"{BASE_URL}{pdf_match.group(1)}" if pdf_match else None
 
+            # DC.description (official DSpace paper type)
+            dc_desc_matches = re.findall(r'<meta\s+name=\"DC\.description\"\s+content=\"([^\"]+)\"', html)
+            dc_descriptions = [html_module.unescape(d).strip() for d in dc_desc_matches] if dc_desc_matches else []
+            is_practise = any("practice-oriented" in d.lower() for d in dc_descriptions)
+
             # Pages & paper type
             start_page, end_page = parse_page_range(citation or "", pdf_url or "")
-            paper_type = parse_paper_type(title, citation or "", start_page, end_page)
+            paper_type = parse_paper_type(title, citation or "", start_page, end_page, dc_descriptions)
 
             clean_handle = handle_path.lstrip("/handle/")
             paper_id = f"handle_{clean_handle.replace('/', '_')}"
@@ -167,12 +238,13 @@ class DSpaceHarvester:
                 title=title,
                 authors=authors,
                 year=year,
-                conference=default_conf,
+                conference=parse_conference(citation, doi, default_conf),
                 doi=doi,
                 citation=citation,
                 start_page=start_page,
                 end_page=end_page,
                 paper_type=paper_type,
+                is_practise_paper=is_practise,
                 abstract=abstract,
                 pdf_url=pdf_url,
             )

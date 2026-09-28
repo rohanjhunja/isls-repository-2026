@@ -1,6 +1,6 @@
 # Learning in Your Own Direction: Examining Relationships Between Non-Sequential User Choice and Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

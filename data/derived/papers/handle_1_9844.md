@@ -1,6 +1,6 @@
 # Knowing Together With Materials in Collaborative Creative Making
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

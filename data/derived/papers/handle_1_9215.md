@@ -1,6 +1,6 @@
 # The Pivot: Identifying Emergent Tactics in Distributed Epistemic Games
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

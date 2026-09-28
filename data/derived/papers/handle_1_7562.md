@@ -1,6 +1,6 @@
 # Language, Modeling and Power: A Methodology for Analyzing Discourse in Interaction
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

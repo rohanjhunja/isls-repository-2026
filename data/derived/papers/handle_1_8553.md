@@ -1,6 +1,6 @@
 # Disruptions, Dissent, and Discontinuities: What Tensions in Intergenerational Learning Dynamics Reveal About Learning Design
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

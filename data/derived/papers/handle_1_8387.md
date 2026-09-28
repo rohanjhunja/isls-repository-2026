@@ -1,6 +1,6 @@
 # The “Architectures” of Successful Remote Collaborative Problem Solving: Exploring Commitment in Dyadic Interaction
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

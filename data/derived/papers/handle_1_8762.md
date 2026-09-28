@@ -1,6 +1,6 @@
 # Digital Literacies in Algorithmic Cultures: Critical Literacy as ‘Working the Algorithm’
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

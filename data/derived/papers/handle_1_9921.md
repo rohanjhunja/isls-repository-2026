@@ -1,6 +1,6 @@
 # Elementary Teachers’ Endorsement of Deficit Discourses About Mathematics and the Relative Risk of Educational Racism and Sexism
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

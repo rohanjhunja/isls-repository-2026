@@ -1,6 +1,6 @@
 # Can Schools Fix the Gender Gap in STEM? A Comparative Study in the Global South About Gender Participation in Maker Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

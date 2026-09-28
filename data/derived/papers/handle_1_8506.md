@@ -1,6 +1,6 @@
 # Addressing Challenges in Changing Science Teaching in the Global South: An Integrative Model for Science Education Reform in Brazil
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

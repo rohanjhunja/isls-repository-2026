@@ -1,6 +1,6 @@
 # Axiological Tools for Expanding Ideas About Elementary Science
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

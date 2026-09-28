@@ -1,6 +1,6 @@
 # What We Ought to Know: How Digital Museums Can Facilitate Reflection and Discourse of the Nigerian Civil War
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

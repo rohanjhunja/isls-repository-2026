@@ -1,6 +1,6 @@
 # Every Glass Ceiling Has a Floor (Of Interaction): Studying Body Position During Floor-Based Activities in Kindergarten Classrooms
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Supporting Students’ Epistemic Agency to Revise a Class Criteria List for Scientific Models
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

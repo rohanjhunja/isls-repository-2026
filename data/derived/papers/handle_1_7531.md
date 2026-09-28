@@ -1,6 +1,6 @@
 # Developing Social Empathy through Human-Centered Design: The Iterative Journey of Designing an Instructional Booklet for Pre-Service Teachers
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

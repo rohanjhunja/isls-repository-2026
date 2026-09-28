@@ -1,6 +1,6 @@
 # Encouraging Children to Envision Futures Through Learning in Career Development Classes: Focusing on the Case of Japanese Elementary Schools and “Social Scaffolding”
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

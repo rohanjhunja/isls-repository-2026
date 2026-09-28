@@ -1,6 +1,6 @@
 # Zoom School Diaries: Caregiver Insights From Listening in on Synchronous Instruction
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

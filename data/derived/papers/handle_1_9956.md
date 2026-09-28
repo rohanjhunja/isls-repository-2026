@@ -1,6 +1,6 @@
 # Exploring Algorithm Building Through Designing and Making Kinetic Sculpture
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

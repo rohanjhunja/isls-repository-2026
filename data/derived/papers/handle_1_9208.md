@@ -1,6 +1,6 @@
 # Researcher-Teacher Co-Design in a Mixed-Reality Science and Computational Thinking Curriculum
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

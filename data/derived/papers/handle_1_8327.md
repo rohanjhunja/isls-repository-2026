@@ -1,6 +1,6 @@
 # Gesture’s Role in Collaborative Problem Solving With Augmented Reality
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

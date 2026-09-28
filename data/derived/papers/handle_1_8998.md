@@ -1,6 +1,6 @@
 # Eye Movement Tracking During an Embodied Collective Activity in Science Teacher Training
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Rotating Bodies Bulge Outward: A Novel Intuitive Resource for Rotational Motion
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

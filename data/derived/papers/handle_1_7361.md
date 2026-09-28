@@ -1,6 +1,6 @@
 # Designing for Equitable Participation in Collaborative Game-Based Learning Environments
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

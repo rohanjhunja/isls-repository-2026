@@ -1,6 +1,6 @@
 # Are Pairs More Attentive Towards Feedback Than Individuals? A Glance Into Feedback Neglect for Middle-School Students Using an Educational Game in History
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

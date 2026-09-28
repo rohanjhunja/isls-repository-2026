@@ -1,6 +1,6 @@
 # Sensing Someone Else's Pain: Ethical Historical Traces of Disciplined Interactions in Medical Care
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Outside-in, Inside-out, or Outside-out? Exploring the Flow of New Ideas and the Development of CSCL and ICLS Via Co-Authorship Networks From
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

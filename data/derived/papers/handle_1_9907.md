@@ -1,6 +1,6 @@
 # Explaining Thermodynamics: Impact of an Adaptive Dialog Based on a Natural Language Processing Idea Detection Model
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

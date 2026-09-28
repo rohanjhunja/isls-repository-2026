@@ -1,6 +1,6 @@
 # How Higher Education Instructors Conceptualize Diversity: A Phenomenographic Study
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Automated Multi-Dimensional Analysis of Peer Feedback in Middle School Mathematics
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

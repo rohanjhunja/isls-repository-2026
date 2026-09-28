@@ -1,6 +1,6 @@
 # Interactive Tools for Distributed Community Building and Collaboration in Maker Education
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

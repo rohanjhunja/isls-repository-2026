@@ -1,6 +1,6 @@
 # Personalized Instruction to Teach Secondary Students to Deeply Comprehend and Build Knowledge From Science Texts
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

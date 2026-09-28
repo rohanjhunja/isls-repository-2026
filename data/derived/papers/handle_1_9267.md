@@ -1,6 +1,6 @@
 # Differential Effects of a Script and a Group Awareness Tool on the Acquisition of Collaboration Skills
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

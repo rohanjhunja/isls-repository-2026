@@ -1,6 +1,6 @@
 # Please Introduce Yourself: Exploring Student Identity in Academic Online Spaces
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

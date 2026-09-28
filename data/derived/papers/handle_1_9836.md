@@ -1,6 +1,6 @@
 # Teacher Noticing and Student Learning in Human-AI Partnered Classrooms: A Multimodal Analysis
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

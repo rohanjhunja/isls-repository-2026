@@ -1,6 +1,6 @@
 # Beyond Supervision: Human / Machine Distributed Learning in Learning Sciences Research
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

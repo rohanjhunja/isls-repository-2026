@@ -1,6 +1,6 @@
 # Connectivity for Knowledge Building: A Framework of Socio-Semantic Network Motif Analysis
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Examining Instructors’ Adaptive Equity-Oriented Pedagogical Competency: A Validated Measure That Promotes College Students’ Success
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

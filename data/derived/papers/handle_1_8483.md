@@ -1,6 +1,6 @@
 # “What a Lovely Discussion!” Reconciling Disparate Assessments of Small-Group
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

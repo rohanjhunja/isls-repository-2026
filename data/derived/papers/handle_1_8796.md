@@ -1,6 +1,6 @@
 # Mapping Visual Marginalia in Educational Contexts: A Model for New Types of Self-Regulation of Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

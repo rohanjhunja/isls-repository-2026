@@ -1,6 +1,6 @@
 # Exploring Youth Critical Collective Futuring as Learning
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

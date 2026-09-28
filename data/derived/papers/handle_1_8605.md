@@ -1,6 +1,6 @@
 # Student Motivation in Science Learning With Embodied Computational Thinking
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

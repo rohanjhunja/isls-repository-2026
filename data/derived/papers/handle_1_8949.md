@@ -1,6 +1,6 @@
 # Cognitive Apprenticeship: A New Lens for Better Understanding Online Doctoral Provision
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

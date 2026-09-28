@@ -1,6 +1,6 @@
 # Managing Deference, Leadership, Vision, and Voice: Dilemmas From Antiracist School-University Partnerships
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Machine Learning and Student Reasoning Patterns in NGSS Assessments
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

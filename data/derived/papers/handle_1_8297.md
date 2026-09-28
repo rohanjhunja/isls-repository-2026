@@ -1,6 +1,6 @@
 # Exploring the Role of Prior Knowledge and Group Action Synchrony in Sixth Graders’ Game-Based Collaborative Learning
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

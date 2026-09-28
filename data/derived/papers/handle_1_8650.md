@@ -1,6 +1,6 @@
 # Online Pre-Service Teacher Learning Communities as a Tool for Teacher Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

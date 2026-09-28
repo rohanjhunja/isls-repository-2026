@@ -1,6 +1,6 @@
 # Caste and Queerness in Hindu India: Examining How Human-More Than Human Relations Shape Learning Spaces
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

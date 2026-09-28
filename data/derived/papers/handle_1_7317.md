@@ -1,7 +1,7 @@
 # Do all Roads Lead to Rome? An Expert Study to Assess the Immediacy of Strategies to 
 Regulate Collaborative Learning
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # “It’s Good Because He Said So” — The Effects of Pre-Service Teachers’ Passive vs. Constructive Engagement on Technology Acceptance
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

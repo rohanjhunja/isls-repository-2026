@@ -1,6 +1,6 @@
 # Students’ Self-Regulated Use of Diagrams in a Choice-Based Intelligent Tutoring System
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Growing Mindsets: Debugging by Design to Promote Students’ Growth Mindset Practices in Computer Science Class
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

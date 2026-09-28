@@ -1,6 +1,6 @@
 # Students’ Dynamic Framing of Epistemic Agency
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

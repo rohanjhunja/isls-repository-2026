@@ -1,6 +1,6 @@
 # Reading Minds: Exploring Relationships Between Sensor-Data and Self-Reported Cognitive-Affective States of Learners
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

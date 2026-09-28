@@ -1,6 +1,6 @@
 # Local-Global Maker-Places: Toward an Instrument for International Maker Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

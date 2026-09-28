@@ -1,6 +1,6 @@
 # Why Feedback Literacy Matters for Learning Analytics
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

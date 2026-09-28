@@ -1,6 +1,6 @@
 # Using Electronic Textiles to Visualize the Loss of Tribal Lands Over Time
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

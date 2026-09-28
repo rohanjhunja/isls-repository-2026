@@ -1,6 +1,6 @@
 # Designing STEM Classes for Hawaiian Youth’s Rightful Presence
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

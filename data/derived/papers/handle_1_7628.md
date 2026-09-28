@@ -1,6 +1,6 @@
 # Rethinking Technology-based Educational Studies in the Evolving Classroom Environment: An Interview Study with US Teachers
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

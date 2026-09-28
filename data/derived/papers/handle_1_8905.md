@@ -1,6 +1,6 @@
 # Silly or Substantive?: How Video Club Can Help Science Teacher Candidates See Strengths in Students’ Contributions
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

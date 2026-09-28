@@ -1,6 +1,6 @@
 # Considering, Recognizing, and Valuing Culture in Afrikan Contexts
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Exploring Focused Responsiveness as an Approach to Facilitation in Professional Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

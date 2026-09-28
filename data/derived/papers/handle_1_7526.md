@@ -1,6 +1,6 @@
 # The Inseparability of Identity and Knowledge Construction in Humanistic Knowledge Building Communities
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

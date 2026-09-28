@@ -1,6 +1,6 @@
 # Designing Science Curricula That Disrupt Disciplinary Boundaries Towards Sociopolitical Change: A Middle School Life Science Unit
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

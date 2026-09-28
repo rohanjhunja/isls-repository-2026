@@ -1,6 +1,6 @@
 # Using Social Network Analysis to Evaluate the Functioning of a Class With Multiple Collaborating Groups
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

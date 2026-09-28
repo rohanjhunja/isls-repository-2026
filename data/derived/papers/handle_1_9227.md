@@ -1,6 +1,6 @@
 # Transactivity and Knowledge Co-Construction in Collaborative Problem Solving
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

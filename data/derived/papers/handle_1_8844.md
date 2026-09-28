@@ -1,6 +1,6 @@
 # Genres of Discussion-Based Social Emotional Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

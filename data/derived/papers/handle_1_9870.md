@@ -1,6 +1,6 @@
 # Cultivating Historical and Political “Truths”: How Designing for Collective Relationalities and Critical Reflexivity Supports Expansive Historical Thinking
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # The Relations Between Motivational Beliefs, Academic Delay, and Academic Achievement in Online Learning Environments
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

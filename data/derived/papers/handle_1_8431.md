@@ -1,6 +1,6 @@
 # Balancing Agency and Accountability to Support Learning in Playful, Embodied Science Activities
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Math on Cortex – Underlying Delta Synchrony During Naturalistic Math Demonstrations in Math Experts and Novices
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Making Sense of Modes in Collective Embodied Science Activities
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

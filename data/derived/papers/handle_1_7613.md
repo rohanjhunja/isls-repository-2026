@@ -1,6 +1,6 @@
 # A Dynamic Social Network Approach to Capturing Shared Regulation Interactions in Collaborative Learning
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

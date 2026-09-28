@@ -1,6 +1,6 @@
 # Shifts in Positions, Epistemic Authority, and Epistemic Agency in a Secondary Mathematics Classroom
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

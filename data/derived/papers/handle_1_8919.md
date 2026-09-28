@@ -1,6 +1,6 @@
 # Investigating the Relationship Among Solution Quality, Group Variability in Science Confidence, and Reciprocal Participation in Online Science Collaborative Problem-Solving Tasks
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Physical Microcosms: Potentials for Enriching Classroom Investigations in Ecology
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

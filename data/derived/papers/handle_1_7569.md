@@ -1,6 +1,6 @@
 # “I Kept Going because We were Close”: Deepening Understandings of the Relational Work of RPPs
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

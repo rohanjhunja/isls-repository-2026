@@ -1,6 +1,6 @@
 # Design Principles of Argumentativo: Designing an Intervention Focusing on Explicit Writing Instruction and Collaborative Writing
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

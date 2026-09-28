@@ -1,6 +1,6 @@
 # Using Hierarchical Logistic Regression Analysis to Investigate Equity in Classroom Discourse
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # An Interplay of Problem-Solving Modes and Authority: Framework for Equitable Collaboration in Undergraduate Physics Labs
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

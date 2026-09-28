@@ -1,6 +1,6 @@
 # Quickstart Spaceship Programming for Developing Physical Intuition and Connecting it to Propositional Physics Knowledge
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

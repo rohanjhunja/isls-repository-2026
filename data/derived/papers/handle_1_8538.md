@@ -1,6 +1,6 @@
 # Capturing Students’ Learning Strategies in Action Using Clickstream and Eye-Tracking Data
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

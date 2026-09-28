@@ -1,6 +1,6 @@
 # Designing an Adaptive Collaborative Problem-Solving System With Expanded Evidence-Centered Design
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

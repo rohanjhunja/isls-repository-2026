@@ -1,6 +1,6 @@
 # Using Anticipatory Diagrammatic Self-explanation to Support Learning and Performance in Early Algebra
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

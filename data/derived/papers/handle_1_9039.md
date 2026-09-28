@@ -1,6 +1,6 @@
 # Trajectories of Practice: Characterizing Students’ Decision Making Agency in Science Investigations
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

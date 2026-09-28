@@ -1,6 +1,6 @@
 # Asking people to “think again” can have unexpected consequences
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # CT for All? Computational Thinking in Danish Language Arts
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

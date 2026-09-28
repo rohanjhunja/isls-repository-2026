@@ -1,6 +1,6 @@
 # Towards Emotionally Intelligent Scripting: A Methodological and Multimodal Approach to Capture Emotions
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

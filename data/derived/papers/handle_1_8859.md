@@ -1,6 +1,6 @@
 # Perspectives on the Process of Design From Education and the Design Fields: Toward Transformative Design
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

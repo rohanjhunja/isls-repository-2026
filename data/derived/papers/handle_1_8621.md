@@ -1,6 +1,6 @@
 # Emotion Objects: An Embodiment of Learning Socioscientific Issues With Heart
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

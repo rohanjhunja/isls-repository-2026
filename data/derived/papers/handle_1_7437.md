@@ -1,6 +1,6 @@
 # Peeking into the AI Hype: Investigating Research Trends and Collaboration Dynamics in Artificial Intelligence in Education
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

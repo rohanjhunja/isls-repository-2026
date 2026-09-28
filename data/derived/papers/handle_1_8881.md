@@ -1,6 +1,6 @@
 # Embodied Responsive Teaching for Supporting Computational Thinking in Early Childhood
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

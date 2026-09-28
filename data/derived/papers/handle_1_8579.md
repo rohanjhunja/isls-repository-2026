@@ -1,6 +1,6 @@
 # Moving Toward Dignity-Affirming Invitations to Embodied Participation in the Design of Learning Environments
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

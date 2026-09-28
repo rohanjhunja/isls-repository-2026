@@ -1,6 +1,6 @@
 # Focused Self-Explanations Lead to the BestLearning Outcomes in a Digital Learning Game
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

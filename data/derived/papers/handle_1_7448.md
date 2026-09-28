@@ -1,6 +1,6 @@
 # Interface as an Integrative Framework for Understanding Learning and Knowledge Acquisition in Public Library Contexts
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

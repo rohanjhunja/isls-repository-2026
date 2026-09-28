@@ -1,6 +1,6 @@
 # Children’s Navigational Map Reading Strategies and Implications for Educational Geogames
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

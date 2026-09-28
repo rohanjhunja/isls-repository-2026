@@ -1,6 +1,6 @@
 # Exploring the Potential of a Co-Creation Platform for Children and Youth
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

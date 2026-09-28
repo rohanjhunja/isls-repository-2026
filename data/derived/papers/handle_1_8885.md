@@ -1,6 +1,6 @@
 # Epistemic Commitments: A Lens for Heterogeneity in Science
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

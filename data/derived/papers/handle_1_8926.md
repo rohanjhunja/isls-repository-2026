@@ -1,6 +1,6 @@
 # Young Children’s Use of Spatial Sensemaking Practices as Mediators of Spatial Skills During Informal STEM Programs
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

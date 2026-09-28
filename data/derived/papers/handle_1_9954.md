@@ -1,6 +1,6 @@
 # STEM Education for Sustainability: Finding Grounds for a Constructive Dialogue in Indigenous Contexts
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

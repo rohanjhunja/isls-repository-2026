@@ -1,6 +1,6 @@
 # Designing Epistemic Games for Informed Civic Learning
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

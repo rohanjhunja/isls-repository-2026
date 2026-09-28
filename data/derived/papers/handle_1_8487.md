@@ -1,6 +1,6 @@
 # Can Mental Rotation Predict Performance in an Online Geometry Assignment?
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

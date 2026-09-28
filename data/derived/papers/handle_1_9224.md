@@ -1,6 +1,6 @@
 # Description of Instructor Intervention Using Individual Audio Data in Co-Located Collaboration
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

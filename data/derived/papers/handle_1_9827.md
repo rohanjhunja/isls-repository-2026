@@ -1,6 +1,6 @@
 # Supporting Framing Agency with the Wrong Theory Protocol in a Youth Radio Camp
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

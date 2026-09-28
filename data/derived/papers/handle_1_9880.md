@@ -1,6 +1,6 @@
 # Worldmaking in COVID-19: Youth Restructuring Reality via Anime Roleplay
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

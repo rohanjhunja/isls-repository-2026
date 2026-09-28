@@ -1,6 +1,6 @@
 # Theoretical Approach for Providing Feedback for Instructors Through a Standardized Assessment for Undergraduate Physics
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

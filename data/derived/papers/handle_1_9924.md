@@ -1,6 +1,6 @@
 # High School Students’ Evidentiary Reasoning in a Hominid Evolution Lab
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

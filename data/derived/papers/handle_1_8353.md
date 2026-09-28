@@ -1,6 +1,6 @@
 # Why Students Do (Not) Want to Use Roles in Collaborative Writing
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

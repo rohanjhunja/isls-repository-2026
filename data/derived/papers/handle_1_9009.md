@@ -1,6 +1,6 @@
 # Using Immersive Augmented Reality to Guide Families’ Observations and Visualizations of Pollinator Habitats in Outdoor Spaces
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Expanding Preservice Teachers’ Conceptions of Science Teaching and Learning
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

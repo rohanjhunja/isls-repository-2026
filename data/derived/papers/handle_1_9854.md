@@ -1,6 +1,6 @@
 # Identifying Transitions Between Self-Regulated Learning Operations During Game-Based Learning
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

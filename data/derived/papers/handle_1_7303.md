@@ -1,7 +1,7 @@
 # Investigating Gaze Behavior of Dyads in a Collaborative Explanation Task using a Concept Map: 
 Influence of Facilitation Prompts on Perspective Taking
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

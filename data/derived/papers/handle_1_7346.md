@@ -1,6 +1,6 @@
 # Distributed Interactions During "Hands-On" Labs with Paraeducators
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

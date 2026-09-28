@@ -1,6 +1,6 @@
 # Participatory Design of Game-Based Math Learning Platform: Teacher-Researcher Negotiation and Collaboration
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

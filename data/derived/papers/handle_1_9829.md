@@ -1,6 +1,6 @@
 # Curriculum as Seed: Designing and Supporting the Use of Open Education Resources to Promote Teacher Agency and Innovation
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

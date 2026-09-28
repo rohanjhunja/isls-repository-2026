@@ -1,6 +1,6 @@
 # Disciplinary Design and Design Thinking in Scientific Inquiry
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

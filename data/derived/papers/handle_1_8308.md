@@ -1,6 +1,6 @@
 # Understanding the Collaborative Learning Implementation Cycle (CLIC) for a Teacher Learning to Promote Computationally Rich Communication in a Remote STEM Classroom
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

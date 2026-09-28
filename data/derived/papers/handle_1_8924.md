@@ -1,6 +1,6 @@
 # Situating Socio-Scientific Representations in Artistic Transformations
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

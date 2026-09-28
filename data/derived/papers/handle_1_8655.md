@@ -1,6 +1,6 @@
 # Designing for Connected Arts Learning Through Culturally Sustaining Practices
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

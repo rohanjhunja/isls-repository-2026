@@ -1,6 +1,6 @@
 # Learning in an Arts Education Collective Impact Initiative
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

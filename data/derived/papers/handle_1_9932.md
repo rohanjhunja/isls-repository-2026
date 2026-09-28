@@ -1,6 +1,6 @@
 # Appearing and Disappearing in the Data: Emotional Configurations Within Children’s Data Modeling Practices
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

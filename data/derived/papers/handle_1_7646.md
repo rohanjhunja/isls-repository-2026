@@ -1,6 +1,6 @@
 # Integrating Data Science Explorations in Science Classrooms
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Infect, Attach or Bounce Off?: Linking Real Data and Computational Models to Make Sense of the Mechanisms of Diffusion
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

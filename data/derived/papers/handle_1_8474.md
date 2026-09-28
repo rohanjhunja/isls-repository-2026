@@ -1,6 +1,6 @@
 # On-Line Designs for Supporting Teacher Epistemic Communities: A Comparative Analysis
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

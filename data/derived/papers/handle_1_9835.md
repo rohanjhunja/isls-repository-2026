@@ -1,6 +1,6 @@
 # Emotional Synchrony Through Regulatory Triggers in Collaborative Learning: A Facial Expression Recognition Study
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

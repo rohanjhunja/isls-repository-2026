@@ -1,6 +1,6 @@
 # The Gateway for Optimizing Design of Micro-Credentials:Higher Education Faculty
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

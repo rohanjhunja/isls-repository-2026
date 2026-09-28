@@ -1,6 +1,6 @@
 # Emergent Learning Possibilities and Evolving Design Spaces  in Students’ Redesigning the Pandemic Board Game
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

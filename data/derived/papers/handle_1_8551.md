@@ -1,6 +1,6 @@
 # Atunements to Socioecological Histories of Places in Learning and Decision-Making in Complex Socioecological Systems
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

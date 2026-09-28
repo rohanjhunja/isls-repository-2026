@@ -1,6 +1,6 @@
 # Measuring Belonging for Neurodiverse Computer Science Students
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

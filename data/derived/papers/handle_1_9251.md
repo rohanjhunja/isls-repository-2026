@@ -1,6 +1,6 @@
 # Exploring the Interplay Between Domain Knowledge and Collaborative Problem Solving Skills Through User Profiling
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

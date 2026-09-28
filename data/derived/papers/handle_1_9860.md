@@ -1,6 +1,6 @@
 # Finding Life in Data: Datafication and Enlivening Data Towards Justice-Oriented Ends
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

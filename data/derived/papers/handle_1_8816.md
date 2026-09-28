@@ -1,6 +1,6 @@
 # Conceptualizing Three Approaches for Integrating Criticality in K-12 Computing Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

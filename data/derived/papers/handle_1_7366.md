@@ -1,6 +1,6 @@
 # Riddle of the Spirit: Cultivating Children’s Ecological Imagination through Multiliteracies Pedagogy
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

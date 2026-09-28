@@ -1,6 +1,6 @@
 # Navigating Emergent Divisions in a Coalition for an Antiracist School
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

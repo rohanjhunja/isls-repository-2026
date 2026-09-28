@@ -1,6 +1,6 @@
 # Navigating Moments of Tension and Uncertainty in Co-Design of University Curriculum
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

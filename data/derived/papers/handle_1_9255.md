@@ -1,6 +1,6 @@
 # Supporting Engineering Education Through Collaborative Design
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

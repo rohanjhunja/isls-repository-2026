@@ -1,7 +1,7 @@
 # Supporting Youth Environmental Interest and Identity Development through Program Infrastructures 
 Connecting People and Place
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

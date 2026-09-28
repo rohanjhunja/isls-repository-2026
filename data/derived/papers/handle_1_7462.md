@@ -1,6 +1,6 @@
 # Computational Bodies: Grounding Computational Thinking Practices in Embodied Gesture
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

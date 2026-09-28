@@ -1,6 +1,6 @@
 # Extending “Othered” Bodies Into Learning Environments: Queer Reorientations, Virtual Reality, and Learning About Gender and Sexuality
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

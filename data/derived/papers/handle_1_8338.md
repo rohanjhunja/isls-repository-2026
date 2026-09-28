@@ -1,6 +1,6 @@
 # Dialogic Intervisualizing: Developing a Conceptual Framework for Equitable Engagement in Blended Inquiry-Based Learning
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

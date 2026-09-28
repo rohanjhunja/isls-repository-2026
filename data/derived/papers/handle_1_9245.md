@@ -1,6 +1,6 @@
 # A Reality Check on Collaboration Skills: How Experiences During Interdisciplinary Collaboration Shape Collaboration Self-Efficacy
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

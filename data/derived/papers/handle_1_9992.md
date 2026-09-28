@@ -1,6 +1,6 @@
 # Revisions in Scientific Explanations Using Automated Feedback
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

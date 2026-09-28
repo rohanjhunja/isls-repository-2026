@@ -1,6 +1,6 @@
 # Playful Learning Following Deviations: A Mixture of Tinkering
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

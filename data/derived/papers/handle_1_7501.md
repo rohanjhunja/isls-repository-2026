@@ -1,6 +1,6 @@
 # “Making it Culturally Relevant”: A Visual Learning Analytics System Supporting Teachers to Reflect on Classroom Equity
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

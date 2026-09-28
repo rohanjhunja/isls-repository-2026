@@ -1,6 +1,6 @@
 # Lessons From Manoomin: Toward Acknowledging the Sovereignty of Indigenous Making and Sharing
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

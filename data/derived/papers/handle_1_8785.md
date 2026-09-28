@@ -1,6 +1,6 @@
 # How Do Middle School Students Think About Climate Change?
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

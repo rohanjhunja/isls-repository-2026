@@ -1,6 +1,6 @@
 # Teachers Noticing Student Interest: A Micro-Interactional Foundation for Interest-Driven Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

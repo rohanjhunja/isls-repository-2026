@@ -1,6 +1,6 @@
 # What Do Diagrams Reveal? A Comparative Analysis of Impact of Different External Representations on Conceptual Understanding
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

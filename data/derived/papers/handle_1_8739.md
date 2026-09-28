@@ -1,6 +1,6 @@
 # Attenuation and Amplification of Agency Through Goal Announcements in a Makerspace
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

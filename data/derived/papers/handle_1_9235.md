@@ -1,6 +1,6 @@
 # Towards Supporting Technical and Non-Technical Skills Development by Using Multimodal Debriefing System After Multi-User VR-Based Simulation Training
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

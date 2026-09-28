@@ -1,6 +1,6 @@
 # Initial Analysis of Prompted Discourse Patterns in an Informal, Online, Global Collaborative Learning Environment
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # An Adaptive, Agile Learner-Centered Computer Science Curriculum Design Approach Based on Deep Knowledge Tracing
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

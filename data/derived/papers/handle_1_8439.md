@@ -1,6 +1,6 @@
 # Unpacking Iteration: Exploring Forms of Iterative Practice in Physics Labs
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Crafting Paper Circuits: Gendered Materials for Circuitry Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

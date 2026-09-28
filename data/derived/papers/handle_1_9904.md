@@ -1,6 +1,6 @@
 # Understanding of a Law of Science and Its Relation to Science Writing With Automated Feedback
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

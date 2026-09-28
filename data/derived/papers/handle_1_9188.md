@@ -1,6 +1,6 @@
 # Social Presence in a Virtual Drama Activity in Teacher Education
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

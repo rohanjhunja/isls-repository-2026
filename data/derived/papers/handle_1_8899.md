@@ -1,6 +1,6 @@
 # A Path Analysis of Gender Differences in Social Presence in Online Course Discussion Forums
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

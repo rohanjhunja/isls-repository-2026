@@ -1,6 +1,6 @@
 # Feeling Irregularly White: The Role of Emotions in Activist Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

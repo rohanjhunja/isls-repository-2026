@@ -1,6 +1,6 @@
 # Nayah-Irú: The Design of a Participatory Game to Foster Critical Data Literacy Through Storytelling And
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

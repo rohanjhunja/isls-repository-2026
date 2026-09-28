@@ -1,6 +1,6 @@
 # Self-Regulated Learning Through Online Formative Assessments: The Effects of Assessment Frequency and Participation on Student Performance
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

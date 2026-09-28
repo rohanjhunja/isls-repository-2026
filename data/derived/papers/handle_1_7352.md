@@ -1,6 +1,6 @@
 # Exploring the Role of Curriculum in Learning Analytics to Support Knowledge Building Practice
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

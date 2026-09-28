@@ -1,6 +1,6 @@
 # Discussion-Oriented Teaching in the Digital Classroom: Teachers’ Collaborative Adaptation in the Face of Disruption
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Mathematical Physical Research: Mathematical agency in the practices of professional dancers
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # The Role of Positioning in the Ecological Learning of Human Youth Making for Pet Companions
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # “Everything That’s Hard Got Harder”: Preservice Teachers’ Attempts at Rigorous and Responsive Instruction During Online Pedagogical Rehearsals in the Covid Pandemic
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

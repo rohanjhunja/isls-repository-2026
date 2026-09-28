@@ -1,6 +1,6 @@
 # Emotion Expressions as Negotiations of Critical Technology Tool Use in Small Group Collaborative Design
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

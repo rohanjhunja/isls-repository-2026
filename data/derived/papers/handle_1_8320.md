@@ -1,6 +1,6 @@
 # Remixing as a Key Practice for Coding and Data Storytelling
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

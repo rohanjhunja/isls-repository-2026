@@ -1,6 +1,6 @@
 # Value and Challenges in Using a Collaborative Critical Reading and Learning Analytics System: A Cross-Case Analysis of Two High Schools
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Using Process Mining to Analyze Tasks Involvement and Collaboration in a Student Generated Questions Activity
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

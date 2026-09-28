@@ -1,6 +1,6 @@
 # It’s a Little Frustrating, but Fun: Supporting Novice Programmers’ Learning Through Unscaffolded Problem-Based Designs
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

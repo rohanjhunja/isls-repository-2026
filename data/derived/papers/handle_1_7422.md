@@ -1,6 +1,6 @@
 # Grounded and Embodied Proof Production: Are Gestures and Speech Enough to Produce Deductive Proof?
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

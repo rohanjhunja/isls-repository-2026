@@ -1,6 +1,6 @@
 # Play as a Site for Children’s Construction of Internally Persuasive Mathematical Discourses
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

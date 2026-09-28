@@ -1,6 +1,6 @@
 # Draw-a-Computer-Scientist-Teacher? Designing for Expansive Identities in Undergraduate Computer Science
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

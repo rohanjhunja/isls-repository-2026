@@ -1,7 +1,7 @@
 # Explicit Sharing of Emotions Improves the Relationship of Groups with Lower Dispositions to 
 Regulate Emotions in Collaborative Problem-Solving
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

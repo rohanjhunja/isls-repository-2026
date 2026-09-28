@@ -1,6 +1,6 @@
 # Identifying the Practices of Girls' Maker Hobbies: The Case of Doll Makeovers
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

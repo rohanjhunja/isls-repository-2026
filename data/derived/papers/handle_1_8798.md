@@ -1,6 +1,6 @@
 # Solidarity in Shifting Lines of Practice: Learning in the Weave of Social Movements
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

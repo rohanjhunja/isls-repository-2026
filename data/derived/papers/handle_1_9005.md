@@ -1,6 +1,6 @@
 # What Songo Board Game Can Teach Us About Culture and Literacies
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

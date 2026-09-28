@@ -1,6 +1,6 @@
 # Coalescing Knowledge Within Networks of Research Practice Partnerships: The Case of a School-Based Citizen Science Network
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

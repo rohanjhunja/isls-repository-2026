@@ -1,6 +1,6 @@
 # Scaffolding Epistemic Understanding of Discourse and Knowledge Building Using Knowledge-Forum Analytics and Reflective Assessment
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

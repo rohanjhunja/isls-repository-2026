@@ -1,6 +1,6 @@
 # Integrating Immersive Technology into Small Group Learning Environments
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

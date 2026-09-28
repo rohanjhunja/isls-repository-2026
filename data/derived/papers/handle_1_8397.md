@@ -1,6 +1,6 @@
 # Iterative, Reflexive, and Generative Processes of Participatory Design of Arts: Interrogating Racial Ideologies in Design
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

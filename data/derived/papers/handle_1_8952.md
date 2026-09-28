@@ -1,6 +1,6 @@
 # Inform, Empathize, Inquire: How Youth Use Participatory Storytelling to Engage With Social Issues
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # There is No “I” in Beans: The Complex Organizational Structure of With-ness
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

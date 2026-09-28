@@ -1,6 +1,6 @@
 # Creative Transfer and Domain-Specific Knowledge: The Effect of Prior Exposure
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

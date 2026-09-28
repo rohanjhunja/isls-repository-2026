@@ -1,6 +1,6 @@
 # A Duoethnographic Study of a Mixed-Ability Team in a Collaborative Group Programming Project
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

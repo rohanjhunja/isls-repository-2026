@@ -1,6 +1,6 @@
 # Community Cultural Wealth in Latinofuturism: Leveraging Speculative Fiction for STEM + Arts Asset-Based Pedagogies
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

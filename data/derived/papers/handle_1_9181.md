@@ -1,6 +1,6 @@
 # Fostering the Collaborative Diagnosis of Cross-Domain Skills in Video-Based Simulations
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Connecting with Computer Science: Two Case Studies of Restorying CS Identity with Electronic Textile Quilts
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

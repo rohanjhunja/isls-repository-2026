@@ -1,6 +1,6 @@
 # Examining the Instructional Norms That Support Student Participation and Engagement in Whole Class Science Discussions
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

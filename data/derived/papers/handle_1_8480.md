@@ -1,6 +1,6 @@
 # “Do We Have to Do This Every Time New Germs Come Out?” and Other Questions From Children About Covid-19
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

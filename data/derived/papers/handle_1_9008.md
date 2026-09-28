@@ -1,6 +1,6 @@
 # Can Educational Researchers Help Reduce Accident Rates in a Big Construction Company?
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

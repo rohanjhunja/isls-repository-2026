@@ -1,6 +1,6 @@
 # Game-Based Punctuation Training to Promote Clause Analysis: A Proposal
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

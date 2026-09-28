@@ -1,6 +1,6 @@
 # What Can Automated Speech Recognition Add to Qualitative Video Observations of Small Groups’ Collaborative Interactions?
 
-**Conference:** ISLS 2023
+**Conference:** CSCL 2023
 
 ## Abstract & Introduction
 

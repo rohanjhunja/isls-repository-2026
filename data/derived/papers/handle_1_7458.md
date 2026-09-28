@@ -1,6 +1,6 @@
 # Quantified Qualitative Analysis: Rubric Development and Inter-rater Reliability as Iterative Design
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

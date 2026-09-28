@@ -1,6 +1,6 @@
 # Fake News Framing, Emotion, Argumentation, and Dialogic Social Knowledge Building in Online Discussions: An Exploration Including Natural Language Processing Data
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

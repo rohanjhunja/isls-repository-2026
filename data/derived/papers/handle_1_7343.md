@@ -1,6 +1,6 @@
 # Synergies Between Humans and Machines to Support the Orchestration of CSCL Scripts at Different Scales
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

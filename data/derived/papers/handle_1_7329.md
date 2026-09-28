@@ -1,6 +1,6 @@
 # Building Intercultural Competencies through Virtual Teams in Engineering Education
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

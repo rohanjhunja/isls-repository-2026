@@ -1,6 +1,6 @@
 # The aRithmetic Discourse Profile as a Tool for Mapping Students’ Subjectifying and Mathematizing Discourse
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

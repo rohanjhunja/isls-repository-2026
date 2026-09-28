@@ -1,6 +1,6 @@
 # Elementary Science Teachers’ Use of Representations to Build Shared Understanding from Students’ Diverse Ideas and Practices
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

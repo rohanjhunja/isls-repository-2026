@@ -1,6 +1,6 @@
 # Emotion as a Condition and Target of Learning Design During Emergency Remote Teaching
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

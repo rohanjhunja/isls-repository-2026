@@ -1,6 +1,6 @@
 # The Debate Between Inquiry Learning and Direct Instruction: What Should Count as Evidence?
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

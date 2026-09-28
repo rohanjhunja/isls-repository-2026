@@ -1,6 +1,6 @@
 # Supporting Empathy in Design Thinking - A Learning Community Approach
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

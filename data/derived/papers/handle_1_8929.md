@@ -1,6 +1,6 @@
 # Innovate to Mitigate: Analysis of Student Design and Rationale in a Crowdsourcing Competition to Mitigate Global Warming
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

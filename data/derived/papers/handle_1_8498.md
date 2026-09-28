@@ -1,6 +1,6 @@
 # “With Statistics, That’s Supposed to Take Bias Away”: Divergent Teacher Views on Engaging Students With Race in Data Sets
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

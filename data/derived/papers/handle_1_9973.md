@@ -1,6 +1,6 @@
 # Arts as Critical Transdisciplinary Pedagogy: Awakening Relationality Through the Anti-Oppressive Facilitation of Soil Painting on the Land
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

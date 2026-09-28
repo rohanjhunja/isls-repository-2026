@@ -1,6 +1,6 @@
 # Learning From Teachers' Concepts of Dialogic Pedagogy
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

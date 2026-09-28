@@ -1,6 +1,6 @@
 # Examining University Instructors’ Conceptions and Perceived Changes in Knowledge Building Professional Development
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

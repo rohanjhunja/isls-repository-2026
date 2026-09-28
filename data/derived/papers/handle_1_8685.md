@@ -1,6 +1,6 @@
 # Processing Team Feedback: Exploring Emotional and Cognitive Responses to Team-Level Feedback
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Mobile Augmented Reality in the Backyard: Families’ Outdoor Spaces as Sites of Exploration about Pollinators
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

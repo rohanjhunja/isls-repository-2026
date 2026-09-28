@@ -1,6 +1,6 @@
 # Viviendo Aquí: Designing for Transformative Agency Through Museum Exhibit Curation With Latinx Youth
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

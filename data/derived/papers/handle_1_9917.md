@@ -1,6 +1,6 @@
 # A Community of Practice for Intangible Cultural Heritage: Phenomenographic Insights of Youth’s Experience With Traditional Recital in Luang Prabang, Lao People’s Democratic Republic
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

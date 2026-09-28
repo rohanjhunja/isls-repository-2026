@@ -1,6 +1,6 @@
 # Leveraging Student-Written Chapter Summaries to Assess Understanding and Motivation in an Introductory Statistics Course
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Idea Improvement Processes Leading to High Learning Outcomes and the Development of Regulation in Collaboration
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

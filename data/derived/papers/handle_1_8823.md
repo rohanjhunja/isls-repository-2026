@@ -1,6 +1,6 @@
 # Applying Sequence Mining to Explore Students’ Problem-Solving Practices Using an Interactive Simulation-Based Task
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

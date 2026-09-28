@@ -1,6 +1,6 @@
 # Ecological vs. Construct Validity of Persistence in Game-Based Assessment
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

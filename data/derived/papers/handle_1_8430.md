@@ -1,6 +1,6 @@
 # Promoting Shifts in Teachers’ Understanding and Use of Phenomena in Instruction and Assessment
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

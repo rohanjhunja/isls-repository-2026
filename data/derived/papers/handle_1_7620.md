@@ -1,6 +1,6 @@
 # Proof of Concept: Applying Recurrence Quantification Analysis to Model Fluency in a Math Embodied Design
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

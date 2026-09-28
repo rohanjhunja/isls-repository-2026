@@ -1,6 +1,6 @@
 # Teacher Reflective Noticing and Scaffolding for Student-Driven Knowledge-Building Inquiry
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

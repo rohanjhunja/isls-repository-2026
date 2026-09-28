@@ -1,6 +1,6 @@
 # Lifespans of Civic Engagement: Imagining and Enacting Justice-Centered Civic Learning Trajectories
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

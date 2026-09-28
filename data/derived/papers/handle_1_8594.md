@@ -1,6 +1,6 @@
 # Taking Up Opportunities to Practice in a Social Studies-Themed Digital Simulation Game: A Quantitative Ethnography
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

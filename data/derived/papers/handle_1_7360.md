@@ -1,6 +1,6 @@
 # Teacher Support of Emergent Shared Regulation for Dynamic Collaborative Inquiry
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

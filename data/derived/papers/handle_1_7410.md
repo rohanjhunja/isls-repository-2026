@@ -1,6 +1,6 @@
 # Implicating Practice: Using Rehearsals to Move Toward Equitable Science Teaching
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

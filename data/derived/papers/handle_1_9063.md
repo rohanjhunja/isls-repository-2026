@@ -1,6 +1,6 @@
 # Consequential Agency in Chemical Engineering Laboratory Experiments
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

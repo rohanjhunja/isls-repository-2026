@@ -1,6 +1,6 @@
 # Learning Geometry Through Collaborative, Embodied Explorations With Augmented Reality Holograms
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

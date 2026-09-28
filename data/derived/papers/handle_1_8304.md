@@ -1,6 +1,6 @@
 # Global Dialogues: Engaging Prospective Teachers in Exploring Educational Issues
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

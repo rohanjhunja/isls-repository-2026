@@ -1,6 +1,6 @@
 # Spatial Negotiation of Graffiti Artists: Pedagogical Actions in the Interest of Publicness
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

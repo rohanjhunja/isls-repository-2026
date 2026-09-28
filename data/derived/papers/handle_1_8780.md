@@ -1,6 +1,6 @@
 # “Bringing New Things to Light”: Examining a Process of Insight-Driven Teacher Learning
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

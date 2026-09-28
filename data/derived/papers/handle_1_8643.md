@@ -1,6 +1,6 @@
 # Game Design Experience for Teachers’ Design Thinking in Participatory Design Culture
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

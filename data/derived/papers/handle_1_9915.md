@@ -1,6 +1,6 @@
 # Online Arts and Design Studios and Experiential Learning: A Review of Literature
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

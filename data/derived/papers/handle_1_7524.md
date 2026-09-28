@@ -1,6 +1,6 @@
 # Probing Biology Teachers’ Disciplinary Literacy through their Adaptation of a Research Article
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

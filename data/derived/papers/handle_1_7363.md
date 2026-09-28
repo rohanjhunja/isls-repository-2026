@@ -1,6 +1,6 @@
 # How Real-Time Shared Gaze Visualizations Can Benefit Peer Teaching: A Qualitative Study
 
-**Conference:** ISLS 2021
+**Conference:** CSCL 2021
 
 ## Abstract & Introduction
 

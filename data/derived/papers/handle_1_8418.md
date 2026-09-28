@@ -1,6 +1,6 @@
 # From Participants to Creators: Considerations for Community-Led Citizen Science
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

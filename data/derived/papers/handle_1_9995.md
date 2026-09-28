@@ -1,6 +1,6 @@
 # Moving Towards Critical Pedagogy for Transformative Action: Learnings From Research Partnerships
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

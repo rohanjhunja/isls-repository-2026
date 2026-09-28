@@ -1,6 +1,6 @@
 # Expansive Modeling: Broadening the scope of modeling in K-12 education
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

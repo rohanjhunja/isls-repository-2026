@@ -1,6 +1,6 @@
 # “You Get to See for Yourself”: Immersive Media to Facilitate Observation and Engagement in Remote Schooling
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

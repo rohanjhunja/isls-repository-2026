@@ -1,6 +1,6 @@
 # Teacher Learning of Novel Computer Science Concepts and Practices: A Collaborative and Expansive Approach
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

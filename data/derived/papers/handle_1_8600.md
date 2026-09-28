@@ -1,6 +1,6 @@
 # Building an Interdisciplinary Community of Emerging Scholars Amid the COVID-19 Pandemic
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

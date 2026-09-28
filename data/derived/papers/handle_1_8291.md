@@ -1,6 +1,6 @@
 # What Matters Most for Learning From Online Videos, Seeing the Instructor’s Face or Gaze? Impact on Instructor-Student Synchrony
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

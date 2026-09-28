@@ -1,6 +1,6 @@
 # Spiral Model of Collaborative Lesson Design: A Model to Develop TPACK and TEL Design Competency in Preservice Teachers
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

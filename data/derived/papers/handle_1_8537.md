@@ -1,6 +1,6 @@
 # Exploring Students’ and Mathematics Teachers’ Conceptions About the Work of Mathematical Scientists and Possible Relations to Mathematics Teaching
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

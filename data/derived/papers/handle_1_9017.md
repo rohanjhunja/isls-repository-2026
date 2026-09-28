@@ -1,6 +1,6 @@
 # Sociopolitical Discourses Within Student Farms and Gardens
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

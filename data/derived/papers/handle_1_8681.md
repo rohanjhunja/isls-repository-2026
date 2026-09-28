@@ -1,6 +1,6 @@
 # Using Interest and Identity to Design for Mentor Persistence
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

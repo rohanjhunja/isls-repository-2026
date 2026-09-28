@@ -1,6 +1,6 @@
 # People, Places, and Pets: Situating STEM Education in Youths’ Homes with their Pets
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

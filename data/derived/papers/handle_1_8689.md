@@ -1,6 +1,6 @@
 # AI Voice Tutor Usability Study: Understanding Impact on Math Self-Efficacy and Metacognition Among Middle Schoolers
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

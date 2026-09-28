@@ -1,6 +1,6 @@
 # Intersections of the Political and the Scientific: Examining Ideological Practice in Science Class
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

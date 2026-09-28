@@ -1,6 +1,6 @@
 # Enabling Self-Regulated Learning in MOOCs Using Community of Practice
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # The Emotional and Corporeal Dimensions of Belonging to STEM Education
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

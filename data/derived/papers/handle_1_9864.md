@@ -1,6 +1,6 @@
 # White Faculty Learning Through Co-Design: Building Racial Equity-Centered STEM Courses for Preservice Elementary Teachers
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

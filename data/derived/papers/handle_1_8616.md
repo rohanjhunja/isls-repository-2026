@@ -1,6 +1,6 @@
 # How Do Learners Use in-Game Learning Support in Digital Game-Based Math Learning?
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

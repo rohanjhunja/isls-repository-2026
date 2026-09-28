@@ -1,6 +1,6 @@
 # Towards Bringing Human-Centered Design to K-12 and Post-Secondary Education
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

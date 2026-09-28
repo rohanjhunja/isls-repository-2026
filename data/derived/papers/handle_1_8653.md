@@ -1,6 +1,6 @@
 # Student Profiling on Behavioral Patterns in an Online Mathematics Game: Clustering Using K-Means
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

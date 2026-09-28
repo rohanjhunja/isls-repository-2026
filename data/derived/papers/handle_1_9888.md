@@ -1,6 +1,6 @@
 # Changing Task, Changing Talk: An Analysis of Whole Class Discussions of Literary Texts
 
-**Conference:** ISLS 2023
+**Conference:** ICLS 2023
 
 ## Abstract & Introduction
 

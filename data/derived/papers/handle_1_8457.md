@@ -1,6 +1,6 @@
 # Investigating Student Learning About Disease Spread and Prevention in the Context of Agent-Based Computational Modeling
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

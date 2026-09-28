@@ -1,6 +1,6 @@
 # Teacher Sensemaking of Potential Educative Features in Science Curricular Materials
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Biology Teachers’ Re-Designed eLearning Units: The Relationships Between Knowledge Types and Scientific Practices
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

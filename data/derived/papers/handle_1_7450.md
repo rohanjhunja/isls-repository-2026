@@ -1,6 +1,6 @@
 # Teachers as Learners in Research Practice Partnerships: A Design Narrative of a Social Design Experiment for Maker-based Learning
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

@@ -1,6 +1,6 @@
 # Perspective-Taking as a Tool to Examine Engaging in Differences During Shared Meaning-Making
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

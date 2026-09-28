@@ -1,6 +1,6 @@
 # Proposing a Role-Based Framework for Data Literacy
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

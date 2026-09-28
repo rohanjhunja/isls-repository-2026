@@ -1,6 +1,6 @@
 # The Power of Gestures: Video Club to Support Teacher Awareness of Gestures as a Form of Multimodal Science Instruction
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

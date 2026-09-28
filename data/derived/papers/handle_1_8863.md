@@ -1,6 +1,6 @@
 # The Effect of Different Sequences of Examples and Problems on Learning Experimental Design
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

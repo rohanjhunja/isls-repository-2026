@@ -1,6 +1,6 @@
 # Impact of Instructor Intervention on the Conceptual Understanding of Undergraduate Engineering Students Working in a Group
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

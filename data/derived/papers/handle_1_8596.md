@@ -1,6 +1,6 @@
 # Looking Beyond Disciplinary Silos: Students’ Interdisciplinary Science Understanding of Carbon Cycling
 
-**Conference:** ISLS 2022
+**Conference:** ICLS 2022
 
 ## Abstract & Introduction
 

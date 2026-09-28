@@ -1,6 +1,6 @@
 # Exploring Prompted Self-Explanation in the Context of Second Language Acquisition in Vocational Settings
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

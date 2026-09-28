@@ -1,6 +1,6 @@
 # Scaling Teacher Candidates’ Family Engagement Training Through Simulations and Artificial Intelligence
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

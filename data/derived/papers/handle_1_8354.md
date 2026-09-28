@@ -1,6 +1,6 @@
 # Making Systems Thinking Public: Collaborative Construction, Revision and Use of Computer-Based Causal Loop Diagrams
 
-**Conference:** ISLS 2022
+**Conference:** CSCL 2022
 
 ## Abstract & Introduction
 

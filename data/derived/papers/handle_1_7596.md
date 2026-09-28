@@ -1,6 +1,6 @@
 # Investigating Perseverance Improvement in Secondary Mathematics Students
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 

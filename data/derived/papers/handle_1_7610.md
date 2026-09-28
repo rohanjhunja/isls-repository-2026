@@ -1,6 +1,6 @@
 # Students’ Epistemological and Positional Framing in Uncertain Situations During a Collaborative Design Activity
 
-**Conference:** ISLS 2021
+**Conference:** ICLS 2021
 
 ## Abstract & Introduction
 
