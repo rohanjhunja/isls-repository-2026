@@ -1,4 +1,4 @@
-# ISLS Research Repository & Agentic Review System
+# ISLS Research Repository & Agentic Review Tool (ART)
 
 ## Complete Cover Page Copy & Content Specification
 
@@ -10,7 +10,7 @@
 
 ## 1\. Floating Sticky Header
 
-- **Brand Title**: ISLS Research Repository & Agentic Review System  
+- **Brand Title**: ISLS Research Repository & Agentic Review Tool (ART)  
 - **Sub-Tag**: `2016–2026 • 5,402 PAPERS • FULL-TEXT CORPUS`  
 - **Navigation Links**:  
   - Project Walkthrough (smooth-scrolls to ‘\#project-overview’)  
@@ -373,7 +373,7 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 ### APA 7th Edition Citation Copy
 
-> Jhunja, R. (2026). *10 Years ISLS Proceedings Research Repository & Agentic Review System (2016–2026)* \[Web platform and dataset commons\]. International Society of the Learning Sciences. [https://rohanjhunja.github.io/isls-repository-2026/](https://rohanjhunja.github.io/isls-repository-2026/)
+> Jhunja, R., & Dabholkar, S. (2026). *10 Years ISLS Proceedings Research Repository & Agentic Review Tool (ART) (2016–2026)* \[Web platform and dataset commons\]. International Society of the Learning Sciences. [https://rohanjhunja.github.io/isls-repository-2026/](https://rohanjhunja.github.io/isls-repository-2026/)
 
 ### Interactive Actions
 
@@ -384,9 +384,9 @@ Every literature review retains full audit provenance: exact search keywords, in
 
 @software{jhunja2026isls,
 
-&nbsp;&nbsp;author \= {Jhunja, Rohan},
+&nbsp;&nbsp;author \= {Jhunja, Rohan and Dabholkar, Sugat},
 
-&nbsp;&nbsp;title \= {10 Years ISLS Proceedings Research Repository & Agentic Review System (2016--2026)},
+&nbsp;&nbsp;title \= {10 Years ISLS Proceedings Research Repository & Agentic Review Tool (ART) (2016--2026)},
 
 &nbsp;&nbsp;year \= {2026},
 
@@ -409,7 +409,7 @@ Every literature review retains full audit provenance: exact search keywords, in
 ### Footer
 
 - **Legal & Copyright Notice**:  
-  **ISLS Research Repository & Agentic Review System (2016–2026)**  
+  **ISLS Research Repository & Agentic Review Tool (ART) (2016–2026)**  
   Published under the Open Research Commons. Proceedings copyright International Society of the Learning Sciences.  
 - **Navigation Links**:  
   - `System Architecture` (`#system-description`)  

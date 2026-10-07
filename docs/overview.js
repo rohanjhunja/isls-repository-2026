@@ -443,7 +443,7 @@
     // Header APA Citation Copy Button
     const headerCiteBtn = document.getElementById('headerCiteBtn');
     if (headerCiteBtn) {
-      const apaText = "Jhunja, R. (2026). 10 Years ISLS Proceedings Research Repository & Agentic Review System (2016–2026) [Web platform and dataset commons]. International Society of the Learning Sciences. https://rohanjhunja.github.io/isls-repository-2026/";
+      const apaText = "Jhunja, R., & Dabholkar, S. (2026). 10 Years ISLS Proceedings Research Repository & Agentic Review Tool (ART) (2016–2026) [Web platform and dataset commons]. International Society of the Learning Sciences. https://rohanjhunja.github.io/isls-repository-2026/";
       headerCiteBtn.addEventListener('click', (e) => {
         e.preventDefault();
         if (navigator.clipboard && navigator.clipboard.writeText) {

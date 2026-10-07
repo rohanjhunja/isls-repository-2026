@@ -79,39 +79,108 @@ class RequestHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header('Access-Control-Allow-Headers', 'Content-Type')
         self.end_headers()
 
-    def do_DELETE(self):
-        url_parts = urllib.parse.urlparse(self.path)
-        path = url_parts.path
+    def handle_review_deletion(self, path):
+        clean_path = urllib.parse.unquote(path).strip('/')
+        if not clean_path.startswith('api/reviews/'):
+            return False
 
-        if path.startswith('/api/reviews/'):
-            review_id = path.replace('/api/reviews/', '').strip()
-            sample_json = os.path.join(SAMPLE_REVIEWS_DIR, f"{review_id}.json")
-            user_json = os.path.join(USER_REVIEWS_DIR, f"{review_id}.json")
-            cache_json = os.path.join(CACHE_DIR, f"{review_id}.json")
+        subpath = clean_path[len('api/reviews/'):]
+        parts = [p for p in subpath.split('/') if p]
 
-            if os.path.exists(sample_json) and not os.path.exists(user_json):
+        # Handle POST /api/reviews/.../delete fallback
+        if parts and parts[-1] == 'delete':
+            parts = parts[:-1]
+
+        if not parts:
+            return False
+
+        review_id = parts[0]
+
+        # 1. Review level deletion: /api/reviews/<review_id>
+        if len(parts) == 1:
+            try:
+                deleted = REVIEW_SERVICE.delete_review(review_id)
+                self.send_response(200 if deleted else 404)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'status': 'deleted' if deleted else 'not_found', 'id': review_id}).encode('utf-8'))
+                return True
+            except ValueError as ve:
                 self.send_response(403)
                 self.send_header('Content-Type', 'application/json; charset=utf-8')
                 self.send_header('Access-Control-Allow-Origin', '*')
                 self.end_headers()
-                self.wfile.write(json.dumps({'error': 'Curated sample reviews are read-only templates and cannot be deleted.'}).encode('utf-8'))
-                return
+                self.wfile.write(json.dumps({'error': str(ve)}).encode('utf-8'))
+                return True
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+                return True
 
-            deleted = False
-            if os.path.exists(user_json):
-                os.remove(user_json)
-                deleted = True
-            user_md = os.path.join(USER_REVIEWS_DIR, f"{review_id}.md")
-            if os.path.exists(user_md):
-                os.remove(user_md)
-            if os.path.exists(cache_json):
-                os.remove(cache_json)
+        # 2. Paper level deletion: /api/reviews/<review_id>/papers/<paper_id>
+        elif len(parts) == 3 and parts[1] == 'papers':
+            paper_id = parts[2]
+            try:
+                success = REVIEW_SERVICE.delete_paper_from_review(review_id, paper_id)
+                self.send_response(200 if success else 404)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'status': 'paper_deleted' if success else 'not_found', 'review_id': review_id, 'paper_id': paper_id}).encode('utf-8'))
+                return True
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+                return True
 
-            self.send_response(200 if deleted else 404)
-            self.send_header('Content-Type', 'application/json; charset=utf-8')
-            self.send_header('Access-Control-Allow-Origin', '*')
-            self.end_headers()
-            self.wfile.write(json.dumps({'status': 'deleted' if deleted else 'not_found', 'id': review_id}).encode('utf-8'))
+        # 3. Column level deletion: /api/reviews/<review_id>/columns/<col_key>
+        elif len(parts) == 3 and parts[1] == 'columns':
+            col_key = parts[2]
+            try:
+                success = REVIEW_SERVICE.delete_column_from_review(review_id, col_key)
+                self.send_response(200 if success else 404)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'status': 'column_deleted' if success else 'not_found', 'review_id': review_id, 'column_key': col_key}).encode('utf-8'))
+                return True
+            except ValueError as ve:
+                self.send_response(400)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(ve)}).encode('utf-8'))
+                return True
+            except Exception as e:
+                self.send_response(500)
+                self.send_header('Content-Type', 'application/json; charset=utf-8')
+                self.send_header('Access-Control-Allow-Origin', '*')
+                self.end_headers()
+                self.wfile.write(json.dumps({'error': str(e)}).encode('utf-8'))
+                return True
+
+        return False
+
+    def do_DELETE(self):
+        url_parts = urllib.parse.urlparse(self.path)
+        path = url_parts.path
+        if self.handle_review_deletion(path):
+            return
+
+        self.send_response(404)
+        self.end_headers()
+
+    def do_POST(self):
+        url_parts = urllib.parse.urlparse(self.path)
+        path = url_parts.path
+        if self.handle_review_deletion(path):
             return
 
         self.send_response(404)

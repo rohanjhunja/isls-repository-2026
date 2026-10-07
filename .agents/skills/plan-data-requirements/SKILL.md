@@ -15,6 +15,25 @@ Execute a mandatory pre-flight planning routine before running SQLite database q
 
 ## Pre-Flight Checklist Procedure
 
+### Step 0: Contextual Methodological Triage & Approach Planning
+Before designing queries or tables, the agent plans the overall review methodology:
+
+1. **Explicit Trigger Word Evaluation**:
+   Check if the user request contains explicit pathway triggers:
+   - **Pathway 1 (Deterministic Dipstick)**: `'dipstick'`, `'dipstick review'`, `'quick search'`, `'sweep'`, `'bm25'`, `'fts5 search'`, `'title/abstract'`, `'title search'`, `'fast scan'`, `'reconnaissance'`, `'keyword search'`.
+   - **Pathway 2 (Deterministic Section Extraction)**: `'extract property'`, `'property extraction'`, `'regex extract'`, `'sample size'`, `'sample sizes'`, `'factual metadata'`, `'grade levels'`, `'named tools'`, `'extract numbers'`, `'count occurrences'`, `'demographics'`.
+   - **Pathway 3 (Full In-Context Agentic Review)**: `'agentic review'`, `'agentic reviews'`, `'ai-search'`, `'dual agent'`, `'consider the full text'`, `'read full text'`, `'read sections'`, `'qualitative coding'`, `'interpretive review'`, `'thematic analysis'`, `'attribution test'`, `'code-design framework'`, `'agency analysis'`.
+   - **Pathway 4 (Staged Hybrid Review)**: `'hybrid review'`, `'screen and synthesize'`, `'filter and read'`, `'dipstick then review'`, `'two-stage review'`, `'sweep then code'`, `'screen then analyze'`, `'filter then code'`.
+
+2. **Contextual Epistemic Triage (When Triggers Are Absent)**:
+   If no explicit trigger words are present, assess the nature of the inquiry from context:
+   - *Factual / Statistical / Bibliographic* (Counts, distributions, author collaborations, explicit tool names, years) $\rightarrow$ Plan **Pathway 1 or 2**.
+   - *Interpretive / Qualitative / Conceptual* (Teacher agency, design tensions, theoretical coding, inclusion rationales, discourse nuance) $\rightarrow$ Plan **Pathway 3**.
+   - *Broad Topic Survey with Qualitative Synthesis* $\rightarrow$ Plan **Pathway 4 (Staged Hybrid)**.
+
+3. **Methodological Declaration**:
+   Formulate a concise planning note stating the chosen pathway and rationale.
+
 ### Step 1: Output Presentation Specification
 Explicitly enumerate every field that will be displayed in the final user-facing output (e.g., in tables, cards, citations, or narrative text):
 - Primary identifiers: Paper ID, Title, DOI, Handle URL.
@@ -23,11 +42,11 @@ Explicitly enumerate every field that will be displayed in the final user-facing
 - Evidence & Text: Section headings, PDF page provenance, verbatim quotes.
 - Analytical codes: Thematic classifications, review frameworks, quantitative counts.
 
-### Step 2: Source Classification & Sigil Mapping
-Classify each enumerated field under the Source Sigil taxonomy:
+### Step 2: Source Classification & Sigil Mapping (Storage & Output Governance)
+Classify each enumerated field under the Source Sigil taxonomy to guarantee data quality and clarity across storage and output:
 - `◈` **Database Ground Truth**: Direct attributes from `papers.*`, `authors.*`, `paper_authors.*`.
-- `◇` **Database-Derived Metric**: Deterministic counts, frequencies, or percentages computed over DB records.
-- `⌕` **Verbatim Evidence Quote**: Verbatim excerpts from `sections.text` or `papers.abstract`.
+- `◇` **Database-Derived Metric**: Deterministic counts, frequencies, or percentages computed over DB records via Python code.
+- `⌕` **Verbatim Evidence Quote**: Verbatim excerpts from `sections.text` or `papers.abstract` verified via `assert instr(full_text, quote) > 0`.
 - `✦` **Agentic Synthesis / Inferred**: Qualitative frameworks, inductive codes, or AI review summaries.
 
 ### Step 3: Query Mode Selection
@@ -53,8 +72,8 @@ Select the correct query mode based on the task:
      ```
    - *Token Footprint*: ~5 tokens per paper. Prevents context window exhaustion.
 
-3. **Mode C — Deep-Dive Section Text & Evidence Extraction (Secondary Bounded Fetches)**
-   - *Trigger*: When extracting methodology, findings, or verbatim evidence quotes.
+3. **Mode C — Bounded Section Snippets & Evidence Audits (Secondary Bounded Fetches)**
+   - *Trigger*: When auditing section presence or retrieving small preview excerpts for metadata tables.
    - *Requirement*: Secondary fetch only after paper selection. Filter strictly by `normalized_section` and bound with `substr(text, 1, N)` or FTS5 `snippet()`.
    - *Template*:
      ```sql
@@ -62,6 +81,19 @@ Select the correct query mode based on the task:
      FROM sections
      WHERE paper_id IN (?) AND normalized_section = 'methodology';
      ```
+
+4. **Mode D — In-Context Qualitative Review Ingestion (Unabridged Prose for Pathway 3)**
+   - *Trigger*: When conducting Pathway 3 Full In-Context Agentic Reviews (`'agentic review'`, `'ai-search'`, `'dual agent'`, `'consider the full text'`, `'read full text'`).
+   - *Requirement*: Project complete, unabridged prose in reading order (`order_index`).
+   - *Section Scoping Exception*: If the user prompt explicitly designates specific sections (e.g. `--sections methods,results`), filter by those sections; otherwise load all sections.
+   - *Template*:
+     ```sql
+     SELECT normalized_section, section_title, text, pdf_start_page
+     FROM sections
+     WHERE paper_id = :id
+     ORDER BY order_index;
+     ```
+   - *Invariant*: Never truncate or regex-filter qualitative text in Python; stream complete prose into LLM prompt context for cognitive evaluation.
 
 ### Step 4: Anti-Omission Verification
 Before writing the final response, verify:

@@ -67,6 +67,7 @@ const dipstickNavItem = document.getElementById('dipstickNavItem');
 const searchInput = document.getElementById('searchInput');
 const searchClearBtn = document.getElementById('searchClearBtn');
 const saveAsReviewBtn = document.getElementById('saveAsReviewBtn');
+const deleteActiveReviewBtn = document.getElementById('deleteActiveReviewBtn');
 const controlActionsToggle = document.getElementById('controlActionsToggle');
 const controlActions = document.getElementById('controlActions');
 const dipstickControls = document.getElementById('dipstickControls');
@@ -201,6 +202,7 @@ function openDipstickMode(updateUrl = true) {
   renderSidebarReviews();
 
   if (saveAsReviewBtn) saveAsReviewBtn.classList.add('hidden');
+  if (deleteActiveReviewBtn) deleteActiveReviewBtn.classList.add('hidden');
   if (dipstickControls) dipstickControls.classList.add('hidden');
   setExportControlsVisibility(false);
 
@@ -248,6 +250,50 @@ async function fetchReviewsList() {
   }
 }
 
+// In-App Confirmation Modal Manager (Replaces blocked window.confirm)
+function confirmAction({ title = 'Confirm Action', message = 'Are you sure you want to proceed?', confirmText = 'Delete', cancelText = 'Cancel', isDanger = true } = {}) {
+  return new Promise((resolve) => {
+    const modal = document.getElementById('confirmModal');
+    if (!modal) {
+      resolve(window.confirm(message));
+      return;
+    }
+    const titleEl = document.getElementById('confirmModalTitle');
+    const descEl = document.getElementById('confirmModalDesc');
+    const confirmBtn = document.getElementById('confirmModalConfirmBtn');
+    const cancelBtn = document.getElementById('confirmModalCancelBtn');
+
+    if (titleEl) titleEl.textContent = title;
+    if (descEl) descEl.textContent = message;
+    if (confirmBtn) {
+      confirmBtn.textContent = confirmText;
+      confirmBtn.className = isDanger ? 'btn btn-danger' : 'btn btn-primary';
+    }
+    if (cancelBtn) cancelBtn.textContent = cancelText;
+
+    modal.classList.add('open');
+
+    function cleanup(result) {
+      modal.classList.remove('open');
+      confirmBtn.removeEventListener('click', onConfirm);
+      cancelBtn.removeEventListener('click', onCancel);
+      document.removeEventListener('keydown', onKeyDown);
+      resolve(result);
+    }
+
+    function onConfirm() { cleanup(true); }
+    function onCancel() { cleanup(false); }
+    function onKeyDown(e) {
+      if (e.key === 'Escape') cleanup(false);
+      if (e.key === 'Enter') cleanup(true);
+    }
+
+    confirmBtn.addEventListener('click', onConfirm);
+    cancelBtn.addEventListener('click', onCancel);
+    document.addEventListener('keydown', onKeyDown);
+  });
+}
+
 // Global Context Dropdown Menu Management
 let activeContextMenu = null;
 
@@ -260,11 +306,15 @@ function closeContextMenu() {
 }
 
 document.addEventListener('click', (e) => {
-  if (!e.target.closest('.item-dropdown-menu')) {
+  if (!e.target.closest('.item-dropdown-menu') && !e.target.closest('.btn-dots')) {
     closeContextMenu();
   }
 });
-document.addEventListener('scroll', closeContextMenu, true);
+window.addEventListener('scroll', (e) => {
+  if (activeContextMenu && !activeContextMenu.contains(e.target)) {
+    closeContextMenu();
+  }
+}, false);
 window.addEventListener('resize', closeContextMenu);
 
 function openContextMenu(e, targetType, targetData, triggerBtn = null) {
@@ -667,9 +717,15 @@ async function deleteReview(reviewId, reviewName) {
     alert(`"${reviewName || reviewId}" is a curated sample template and cannot be deleted.`);
     return;
   }
-  if (!confirm(`Are you sure you want to delete review "${reviewName || reviewId}"?`)) return;
+  const confirmed = await confirmAction({
+    title: 'Delete Literature Review',
+    message: `Are you sure you want to permanently delete "${reviewName || reviewId}"? All saved search criteria and extracted notes will be removed.`,
+    confirmText: 'Delete Review',
+    isDanger: true
+  });
+  if (!confirmed) return;
 
-  showStatus(`Deleting review '${reviewName}'...`);
+  showStatus(`Deleting review '${reviewName || reviewId}'...`);
   try {
     let res = await fetch(`/api/reviews/${encodeURIComponent(reviewId)}`, { method: 'DELETE' });
     if (!res.ok) {
@@ -693,7 +749,13 @@ async function deleteReview(reviewId, reviewName) {
 }
 
 async function deletePaper(paperId, paperTitle) {
-  if (!confirm(`Are you sure you want to delete paper "${paperTitle || paperId}" from this review?`)) return;
+  const confirmed = await confirmAction({
+    title: 'Remove Paper from Review',
+    message: `Are you sure you want to remove "${paperTitle || paperId}" from this review?`,
+    confirmText: 'Remove Paper',
+    isDanger: true
+  });
+  if (!confirmed) return;
 
   if (activeReviewId && !isDipstickMode) {
     showStatus(`Removing paper from review...`);
@@ -721,7 +783,13 @@ async function deleteColumn(colKey, colLabel) {
     return;
   }
 
-  if (!confirm(`Are you sure you want to delete column "${colLabel || colKey}" from this review?`)) return;
+  const confirmed = await confirmAction({
+    title: 'Delete Column',
+    message: `Are you sure you want to remove the column "${colLabel || colKey}" from this review?`,
+    confirmText: 'Delete Column',
+    isDanger: true
+  });
+  if (!confirmed) return;
 
   if (activeReviewId && !isDipstickMode) {
     showStatus(`Deleting column '${colLabel}'...`);
@@ -906,8 +974,17 @@ async function loadReview(reviewId, updateUrl = true) {
 
     configureHeaders(columns);
     applyFilters();
+
+    if (deleteActiveReviewBtn) {
+      if (activeReviewMeta && activeReviewMeta.is_sample) {
+        deleteActiveReviewBtn.classList.add('hidden');
+      } else {
+        deleteActiveReviewBtn.classList.remove('hidden');
+      }
+    }
   } catch (err) {
     console.error('Failed to load review data:', err);
+    if (deleteActiveReviewBtn) deleteActiveReviewBtn.classList.add('hidden');
     tableBody.innerHTML = `<tr><td colspan="8" style="text-align:center; padding: 40px; color: red;">Failed to load review '${escapeHtml(reviewId)}'.</td></tr>`;
   }
 }
@@ -1991,6 +2068,14 @@ function setupEventListeners() {
         return;
       }
       saveCurrentReview();
+    });
+  }
+
+  if (deleteActiveReviewBtn) {
+    deleteActiveReviewBtn.addEventListener('click', () => {
+      if (activeReviewId && !isDipstickMode) {
+        deleteReview(activeReviewId, activeReviewMeta ? (activeReviewMeta.name || activeReviewId) : activeReviewId);
+      }
     });
   }
   if (expandScopeBtn) {

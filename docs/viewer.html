@@ -61,6 +61,7 @@
             <button class="search-clear-btn hidden" id="searchClearBtn" title="Clear search" aria-label="Clear search">✕</button>
           </div>
           <button class="btn btn-primary hidden" id="saveAsReviewBtn"><svg class="icon"><use href="icons/icons.svg#icon-save"/></svg> Save as Review</button>
+          <button class="btn btn-outline btn-danger-outline hidden" id="deleteActiveReviewBtn" title="Delete this saved review"><svg class="icon"><use href="icons/icons.svg#icon-trash"/></svg> Delete Review</button>
           <button class="btn btn-outline control-accordion-toggle" id="controlActionsToggle" aria-expanded="false" title="Toggle Table Controls & Filters">
             <svg class="icon"><use href="icons/icons.svg#icon-filter"/></svg>
             <span class="ctrl-toggle-text">Controls</span>
@@ -241,6 +242,25 @@
       <div class="hosted-modal-actions">
         <button class="btn btn-outline" id="btnDismissHostedModal">Continue Browsing Samples</button>
         <a href="./index.html#local-setup" class="btn btn-primary">Get 1-Click Local Setup (6.2 MB)</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- In-App Confirmation Modal (Replaces blocked window.confirm) -->
+  <div class="confirm-modal-backdrop" id="confirmModal">
+    <div class="confirm-modal-box">
+      <div class="confirm-modal-header">
+        <div class="confirm-modal-icon-wrapper" id="confirmModalIcon">
+          <svg class="icon"><use href="icons/icons.svg#icon-trash"/></svg>
+        </div>
+        <div class="confirm-modal-text">
+          <h3 class="confirm-modal-title" id="confirmModalTitle">Confirm Action</h3>
+          <p class="confirm-modal-desc" id="confirmModalDesc">Are you sure you want to proceed?</p>
+        </div>
+      </div>
+      <div class="confirm-modal-actions">
+        <button class="btn btn-outline" id="confirmModalCancelBtn">Cancel</button>
+        <button class="btn btn-danger" id="confirmModalConfirmBtn">Delete</button>
       </div>
     </div>
   </div>

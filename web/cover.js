@@ -1,5 +1,5 @@
 /**
- * ISLS Research Repository & Agentic Review System - Cover Page Script
+ * ISLS Research Repository & Agentic Review Tool (ART) - Cover Page Script
  * Generates the 20 Pastel Outlier Silhouette Figures in perspective depth,
  * initializes Mermaid diagrams, handles interactive HUD popovers, prompt copy, and APA citations.
  */
@@ -340,7 +340,7 @@
     const citeCopyBtn = document.getElementById("btnCopyCite");
     const headerCiteBtn = document.getElementById("headerCiteBtn");
 
-    const apaText = "Jhunja, R. (2026). 10 Years ISLS Proceedings Research Repository & Agentic Review System (2016–2026) [Web platform and dataset commons]. International Society of the Learning Sciences. https://rohanjhunja.github.io/isls-repository-2026/";
+    const apaText = "Jhunja, R., & Dabholkar, S. (2026). 10 Years ISLS Proceedings Research Repository & Agentic Review Tool (ART) (2016–2026) [Web platform and dataset commons]. International Society of the Learning Sciences. https://rohanjhunja.github.io/isls-repository-2026/";
 
     const handleCiteCopy = () => {
       copyTextToClipboard(apaText, () => {
